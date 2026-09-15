@@ -25,6 +25,23 @@ export const wengen: DestinationGuide = {
     fr: "Dormez à Wengen pour un village sans voiture avec des commerces autour de la gare, à 12 minutes de train au-dessus de Lauterbrunnen. Si le Jungfraujoch est l'objectif principal, Grindelwald y mène plus vite.",
     de: 'Übernachten Sie in Wengen für ein autofreies Dorf mit Läden rund um den Bahnhof, 12 Zugminuten über Lauterbrunnen. Ist das Jungfraujoch das Hauptziel, sind Sie ab Grindelwald schneller oben.',
   },
+  snapshot: {
+    why: {
+      en: 'No cars, a real village around the station, and the Wengernalp line running on to Kleine Scheidegg and the Jungfraujoch trains.',
+      fr: 'Pas de voitures, un vrai village autour de la gare, et la ligne de la Wengernalp qui continue vers la Kleine Scheidegg et les trains du Jungfraujoch.',
+      de: 'Keine Autos, ein echtes Dorf rund um den Bahnhof und die Wengernalpbahn weiter zur Kleinen Scheidegg und zu den Jungfraujoch-Zügen.',
+    },
+    where: {
+      en: 'Around the station for easy arrivals, up the main street for the Männlichen cable car, above the village for valley views.',
+      fr: 'Autour de la gare pour arriver facilement, en remontant la rue principale pour le téléphérique du Männlichen, au-dessus du village pour la vue.',
+      de: 'Rund um den Bahnhof für eine einfache Ankunft, die Dorfstrasse hinauf für die Männlichenbahn, oberhalb des Dorfes für die Talsicht.',
+    },
+    watch: {
+      en: 'Low season roughly mid-April to late May and in November: many hotels close and lifts stop for maintenance.',
+      fr: 'Basse saison environ de mi-avril à fin mai et en novembre : beaucoup d’hôtels ferment et les remontées s’arrêtent pour entretien.',
+      de: 'Zwischensaison etwa Mitte April bis Ende Mai und im November: viele Hotels schliessen, Bahnen stehen für Revisionen still.',
+    },
+  },
   stats: [
     { value: '1274', label: { en: 'metres above sea level', fr: "mètres d'altitude", de: 'Meter über Meer' } },
     { value: '12', label: { en: 'minutes by train from Lauterbrunnen', fr: 'minutes de train depuis Lauterbrunnen', de: 'Zugminuten ab Lauterbrunnen' } },
@@ -79,6 +96,7 @@ export const wengen: DestinationGuide = {
   hotels: [
     {
       name: 'Hotel Regina',
+      photo: '/photos/hotels/hotel-regina.jpg',
       url: 'https://www.hotelregina.ch/en/index',
       sector: { en: 'Around the station', fr: 'Autour de la gare', de: 'Rund um den Bahnhof' },
       facts: [
@@ -89,6 +107,7 @@ export const wengen: DestinationGuide = {
     },
     {
       name: 'Hotel Silberhorn',
+      photo: '/photos/hotels/hotel-silberhorn.jpg',
       url: 'https://www.silberhorn.ch/en',
       sector: { en: 'Around the station', fr: 'Autour de la gare', de: 'Rund um den Bahnhof' },
       facts: [
@@ -99,6 +118,7 @@ export const wengen: DestinationGuide = {
     },
     {
       name: 'Hotel Falken',
+      photo: '/photos/hotels/hotel-falken.jpg',
       url: 'https://www.hotelfalken.com/history',
       sector: { en: 'Above the village', fr: 'Au-dessus du village', de: 'Oberhalb des Dorfes' },
       facts: [
@@ -109,6 +129,7 @@ export const wengen: DestinationGuide = {
     },
     {
       name: 'Grand Hotel Belvédère',
+      photo: '/photos/hotels/grand-hotel-belvedere.jpg',
       url: 'https://www.beaumier.com/en/properties/grand-hotel-belvedere/',
       sector: { en: 'Up the main street', fr: 'En remontant la rue principale', de: 'Die Dorfstrasse hinauf' },
       facts: [

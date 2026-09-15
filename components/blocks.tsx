@@ -1,11 +1,10 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import type { ReactNode } from 'react'
-import { localePath, t, type L, type Locale } from '@/lib/i18n'
+import { t, type L, type Locale } from '@/lib/i18n'
 import { getDict } from '@/lib/dict'
-import { allezHotelLink } from '@/lib/site'
-import type { Destination, DestinationGuide, MonthState, PhotoCredit } from '@/data/types'
-import { regionNames, hasGuide } from '@/data'
+import { HotelButton } from './booking'
+import type { DestinationGuide, MonthState, PhotoCredit } from '@/data/types'
+import { networkLinks } from '@/data/network'
 
 export function Container({ children, className = '' }: { children: ReactNode; className?: string }) {
   return <div className={`mx-auto max-w-[1280px] px-4 md:px-8 ${className}`}>{children}</div>
@@ -82,58 +81,25 @@ export function Credit({ credit, caption }: { credit?: PhotoCredit; caption?: st
   )
 }
 
-/** Sheet card: photo 4:5, name + altitude on a 2px rule. Links only when the guide is published. */
-export function DestinationCard({ dest, locale, closed = false, priority = false }: { dest: Destination; locale: Locale; closed?: boolean; priority?: boolean }) {
-  const d = getDict(locale)
-  const live = hasGuide(dest.slug)
-  const body = (
-    <>
-      <div className="hatch relative aspect-[4/5] overflow-hidden">
-        <Image src={dest.photo} alt={t(dest.name, locale)} fill sizes="(min-width:1024px) 400px, 50vw" className="object-cover" priority={priority} />
-        {closed && <div className="absolute bottom-0 left-0 bg-ink px-2.5 py-1.5 text-xs uppercase tracking-[0.06em] text-white">{d.closedOffSeason}</div>}
-      </div>
-      <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 border-t-2 border-ink pt-2">
-        <div className="min-w-0 font-display text-xl font-bold uppercase leading-[1.05] tracking-[0.01em] text-ink [overflow-wrap:anywhere]">{t(dest.name, locale)}</div>
-        <div className="shrink-0 font-display text-[17px] font-bold leading-[1.05] tabular-nums text-ink">{dest.altitude} {d.metres}</div>
-      </div>
-      <div className="text-sm text-muted">
-        {t(regionNames[dest.region], locale)}
-        {!live && <span className="text-faint"> · {d.inPreparation}</span>}
-      </div>
-    </>
-  )
-  const cls = 'flex flex-col gap-2.5 text-ink no-underline'
-  return live ? (
-    <Link href={localePath(locale, `/${dest.slug}`)} className={`${cls} group`}>
-      {body}
-    </Link>
-  ) : (
-    <div className={cls}>{body}</div>
-  )
-}
-
-export function HotelCard({ hotel, place, locale, sizes = 'md' }: { hotel: DestinationGuide['hotels'][number]; place: string; locale: Locale; sizes?: 'md' }) {
+export function HotelCard({ hotel, place, locale }: { hotel: DestinationGuide['hotels'][number]; place: string; locale: Locale }) {
   const d = getDict(locale)
   return (
-    <article className="flex flex-col gap-3 md:gap-4">
-      <div>
-        <h3 className="m-0 text-[17px] font-bold leading-[1.3] text-ink md:text-lg">{hotel.name}</h3>
-        <div className="mt-0.5 text-[13px] text-muted md:text-sm">{t(hotel.sector, locale)}</div>
+    <article className="group flex flex-col border border-rule bg-white transition-colors hover:border-ink">
+      <div className="hatch relative aspect-[3/2] overflow-hidden">
+        {hotel.photo && <Image src={hotel.photo} alt={hotel.name} fill sizes="(min-width:1024px) 300px, (min-width:640px) 50vw, 100vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]" />}
+        <div className="absolute left-0 top-0 bg-white px-2.5 py-1.5 font-display text-xs font-semibold uppercase tracking-[0.08em] text-ink">{t(hotel.sector, locale)}</div>
       </div>
-      <ul className="m-0 flex list-none flex-col gap-2 p-0">
-        {hotel.facts.map((f, i) => (
-          <SquareBullet key={i}>{t(f, locale)}</SquareBullet>
-        ))}
-      </ul>
-      <a
-        href={allezHotelLink(hotel.name, place, 'hotel-card')}
-        rel="sponsored nofollow noopener"
-        target="_blank"
-        className="mt-auto block border border-ink px-4 py-3 text-center text-[15px] font-medium text-ink no-underline transition-colors hover:border-swiss hover:bg-swiss hover:text-white"
-        data-size={sizes}
-      >
-        {d.checkAvailability}
-      </a>
+      <div className="flex flex-1 flex-col gap-3 p-4 md:p-5">
+        <h3 className="m-0 font-display text-2xl font-bold uppercase leading-none tracking-[0.01em] text-ink">{hotel.name}</h3>
+        <ul className="m-0 flex list-none flex-col gap-2 p-0">
+          {hotel.facts.map((f, i) => (
+            <SquareBullet key={i}>{t(f, locale)}</SquareBullet>
+          ))}
+        </ul>
+        <div className="mt-auto pt-2">
+          <HotelButton hotel={hotel.name} place={place} label={d.sell.checkPrices} />
+        </div>
+      </div>
     </article>
   )
 }
@@ -188,7 +154,8 @@ export function OpeningCalendar({ calendar, locale }: { calendar: NonNullable<De
   const stateLabel = { o: d.open, r: d.reduced, x: d.closed }
   return (
     <div>
-      <div className="overflow-x-auto">
+      {/* relative: keeps the absolutely positioned sr-only labels inside the scroll box */}
+      <div className="relative overflow-x-auto">
         <table className="w-full min-w-[520px] border-collapse">
           <thead>
             <tr>
@@ -260,4 +227,60 @@ export function Squares({ n }: { n: number }) {
 
 export function JsonLd({ data }: { data: object }) {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, '\\u003c') }} />
+}
+
+/** Hero with a full-bleed photo, dark wash and white type. */
+export function PhotoHero({ photo, alt, children, credit, id = 'hero' }: { photo: string; alt: string; children: ReactNode; credit?: PhotoCredit; id?: string }) {
+  return (
+    <section id={id} className="relative overflow-hidden bg-ink">
+      <Image src={photo} alt={alt} fill priority sizes="100vw" className="object-cover opacity-60" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(19,27,34,0.92)_0%,rgba(19,27,34,0.72)_55%,rgba(19,27,34,0.35)_100%)]" />
+      <div className="relative">
+        <Container className="pb-8 pt-10 md:pb-14 md:pt-16">{children}</Container>
+      </div>
+      {credit && (
+        <div className="absolute bottom-1.5 right-3 text-[11px] text-white/60">
+          Photo: <a href={credit.source} target="_blank" rel="nofollow noopener" className="text-white/60 underline">{credit.author}</a>, {credit.license}
+        </div>
+      )}
+    </section>
+  )
+}
+
+/** White booking panel sitting inside a hero. */
+export function BookingPanel({ children }: { children: ReactNode }) {
+  return <div className="mt-6 border-t-4 border-swiss bg-white p-4 shadow-[0_10px_30px_rgba(0,0,0,0.25)] md:mt-8 md:p-6">{children}</div>
+}
+
+/** Full-width ink band with one call to action. */
+export function CtaBand({ title, text, children }: { title: string; text: string; children: ReactNode }) {
+  return (
+    <section className="mt-10 bg-ink md:mt-[104px]">
+      <Container className="flex flex-col items-start justify-between gap-5 py-10 md:flex-row md:items-center md:gap-10 md:py-14">
+        <div className="max-w-[720px]">
+          <h2 className="m-0 font-display text-[28px] font-bold uppercase leading-[1.05] tracking-[0.01em] text-white md:text-[40px]">{title}</h2>
+          <p className="mb-0 mt-3 text-base leading-relaxed text-white/80">{text}</p>
+        </div>
+        <div className="shrink-0">{children}</div>
+      </Container>
+    </section>
+  )
+}
+
+export function NetworkLinks({ keyName, locale, title }: { keyName: string; locale: Locale; title: string }) {
+  const links = networkLinks(keyName)
+  if (!links.length) return null
+  return (
+    <Section title={title}>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {links.map((l, i) => (
+          <a key={i} href={l.url(locale)} target="_blank" rel="noopener" className="group block border-t-2 border-ink pt-4 no-underline">
+            <div className="text-[13px] font-medium uppercase tracking-[0.08em] text-muted">{l.site}</div>
+            <div className="mt-1 font-display text-2xl font-bold uppercase leading-none text-ink group-hover:text-swiss">{t(l.title, locale)} <span aria-hidden>→</span></div>
+            <p className="mb-0 mt-2 text-[15px] leading-relaxed text-ink">{t(l.text, locale)}</p>
+          </a>
+        ))}
+      </div>
+    </Section>
+  )
 }

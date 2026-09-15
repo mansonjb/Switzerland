@@ -24,6 +24,13 @@ export const berneseOberland: Region = {
     fr: "Dormez à Lauterbrunnen pour une base centrale dans la vallée, à Wengen pour un village sans voiture avec des commerces, à Mürren pour le calme, à Grindelwald pour le trajet le plus rapide vers le Jungfraujoch, et à Interlaken si vous arrivez tard en train.",
     de: 'Übernachten Sie in Lauterbrunnen für einen zentralen Standort im Tal, in Wengen für ein autofreies Dorf mit Läden, in Mürren für Ruhe, in Grindelwald für den schnellsten Weg aufs Jungfraujoch und in Interlaken bei später Ankunft mit dem Zug.',
   },
+  hero: {
+    photo: '/photos/wengen-hero.jpg',
+    caption: { en: 'Wengen above the Lauterbrunnen valley, with the Eiger, Mönch and Jungfrau.', fr: "Wengen au-dessus de la vallée de Lauterbrunnen, avec l'Eiger, le Mönch et la Jungfrau.", de: 'Wengen über dem Lauterbrunnental, mit Eiger, Mönch und Jungfrau.' },
+    credit: { author: 'Parchaco', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/', source: 'https://commons.wikimedia.org/wiki/File:Wengen_viewed_from_Isenfluh%2C_in_the_background%2C_the_Eiger%2C_M%C3%B6nch%2C_and_Jungfrau_peaks_rise.jpg' },
+  },
+  // Centred between Interlaken and Grindelwald, over the Lauterbrunnen valley
+  map: { lat: 46.63, lng: 7.93, zoom: 11 },
   destinations: ['interlaken', 'lauterbrunnen', 'wengen', 'murren', 'grindelwald'],
   criteria: [
     { en: 'Quiet', fr: 'Calme', de: 'Ruhe' },

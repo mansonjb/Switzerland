@@ -27,10 +27,12 @@ export type DestinationGuide = {
   title: L
   intro: L
   quickAnswer: L
+  /** Three short editorial cards under the map: why go, where to sleep, what to watch out for. */
+  snapshot: { why: L; where: L; watch: L }
   stats: { value: string; label: L }[]
   hero: { photo: string; caption: L; credit?: PhotoCredit }
   sectors: { title: L; walk: L; text: L; points: L[] }[]
-  hotels: { name: string; url: string; sector: L; facts: L[] }[]
+  hotels: { name: string; url: string; photo?: string; sector: L; facts: L[] }[]
   hotelsNote: L
   pass?: {
     title: L
@@ -53,6 +55,8 @@ export type Region = {
   meta: { title: L; description: L }
   intro: L
   quickAnswer: L
+  hero: { photo: string; caption: L; credit?: PhotoCredit }
+  map: { lat: number; lng: number; zoom: number }
   destinations: string[]
   criteria: L[]
   rows: { slug: string; scores: number[]; forWhom: L }[]

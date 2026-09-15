@@ -10,9 +10,12 @@ Independent affiliate guide "where to stay in Switzerland". Domain staysinswitze
 3. A guide ships only when added to `GUIDES` in `data/index.ts`. Unpublished destinations stay on the sheet without a link.
 4. **Never imitate admin.ch**: no Swiss coat of arms (shield), no "Confédération suisse" header. Footer keeps "Independent guide, not affiliated...".
 5. No em dash in any copy. English, French, German written natively (no calques).
-6. Photos: Wikimedia Commons with author + licence in `data/destinations.ts` and listed on /legal. Check the subject visually.
+6. Photos: destinations from Wikimedia Commons (author + licence in `data/destinations.ts`, listed on /legal). Hotels from their Google Maps listing via Apify (`scripts/fetch-hotel-photos-apify.mjs`, never the Google Places API). Check every subject visually.
 7. GA / Clarity stay empty until a consent banner exists.
 8. One deploy per day max (global hooks ask before push/deploy).
 
 ## Tech
 Next 16.3 App Router, Tailwind v4 tokens in `app/globals.css`, fonts Barlow Condensed + Noto Sans. Locales en (root, via `proxy.ts` rewrite), de, fr under `app/[lang]`. `L` strings in `lib/i18n.ts` (`de` optional, falls back to en). Static (SSG, dynamicParams false). Dev port 3093.
+
+## Page structure (sales logic, mirrors hotelswithpets.com)
+Destination: photo hero + verdict + booking bar (dates) → sticky in-page nav → LIVE MAP (right after hero) → snapshot cards → hotels with photos + red CTA → areas → Swiss Travel Pass → CTA band → seasons → car-free → FAQ → sister sites → nearby. Sticky booking bar after the hero. Dates are shared by every Stay22 link and the map (`components/booking.tsx`). Keep this order for every new guide.

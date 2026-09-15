@@ -90,6 +90,7 @@ function PhotoCredits({ locale }: { locale: Locale }) {
           </li>
         ))}
       </ul>
+      <P>{t({ en: 'Hotel photos come from the hotels’ public Google Maps listings.', fr: 'Les photos des hôtels proviennent de leurs fiches publiques Google Maps.', de: 'Die Hotelfotos stammen aus den öffentlichen Google-Maps-Einträgen der Hotels.' }, locale)}</P>
     </>
   )
 }

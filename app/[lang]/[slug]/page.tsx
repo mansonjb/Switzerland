@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { LOCALES, hasLocale, languageAlternates, localePath, t } from '@/lib/i18n'
-import { getDict } from '@/lib/dict'
-import { SITE_URL, SITE_NAME, stay22MapSrc } from '@/lib/site'
-import { getDestination, getGuide, publishedGuides, regionNames, publishedRegions } from '@/data'
+import { LOCALES, hasLocale, languageAlternates, localePath, t, type L } from '@/lib/i18n'
+import { fill, getDict } from '@/lib/dict'
+import { SITE_URL, SITE_NAME } from '@/lib/site'
+import { getDestination, getGuide, hasGuide, publishedGuides, publishedRegions, regionNames } from '@/data'
 import { AffiliateBar, Footer, Header } from '@/components/chrome'
-import { Container, Credit, DestinationCard, Eyebrow, Faq, HotelCard, JsonLd, OpeningCalendar, PassTable, QuickAnswer, Section, SquareBullet, Stats } from '@/components/blocks'
+import { BookingPanel, Container, CtaBand, Faq, HotelCard, JsonLd, NetworkLinks, OpeningCalendar, PassTable, PhotoHero, Section, SquareBullet } from '@/components/blocks'
+import { LiveMap, PlaceButton, StayFinder, StickyBookingBar } from '@/components/booking'
+import { SectionNav } from '@/components/section-nav'
+import { DestinationCard } from '@/components/sheet'
 import { Stamp } from '@/components/stamp'
-import { Stay22Map } from '@/components/stay22-map'
 
 export const dynamicParams = false
 
@@ -35,17 +37,29 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
   const dest = getDestination(slug)
   if (!hasLocale(lang) || !guide || !dest) notFound()
   const d = getDict(lang)
-  const name = t(dest.name, lang)
+  const T = (v: L) => t(v, lang)
+  const name = T(dest.name)
   const path = `/${slug}`
   const region = publishedRegions().find((r) => r.key === dest.region)
+  const nav = d.sell.onThisPage
+  const navItems = [
+    { id: 'map', label: nav.map },
+    { id: 'overview', label: nav.overview },
+    { id: 'hotels', label: nav.hotels },
+    { id: 'areas', label: nav.areas },
+    ...(guide.pass ? [{ id: 'swiss-travel-pass', label: nav.pass }] : []),
+    ...(guide.calendar ? [{ id: 'seasons', label: nav.seasons }] : []),
+    ...(guide.practical ? [{ id: 'car-free', label: nav.carFree }] : []),
+    { id: 'faq', label: nav.faq },
+  ]
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'Article',
-        headline: t(guide.title, lang),
-        description: t(guide.meta.description, lang),
+        headline: T(guide.title),
+        description: T(guide.meta.description),
         inLanguage: lang,
         dateModified: guide.updated,
         image: `${SITE_URL}${guide.hero.photo}`,
@@ -54,19 +68,27 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
         publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
       },
       {
+        '@type': 'ItemList',
+        name: fill(d.sell.hotelsIn, { place: name }),
+        itemListElement: guide.hotels.map((h, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@type': 'Hotel', name: h.name, url: h.url, address: { '@type': 'PostalAddress', addressLocality: name, addressCountry: 'CH' } } })),
+      },
+      {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: SITE_NAME, item: `${SITE_URL}${localePath(lang)}` },
-          ...(region ? [{ '@type': 'ListItem', position: 2, name: t(region.name, lang), item: `${SITE_URL}${localePath(lang, `/regions/${region.slug}`)}` }] : []),
+          ...(region ? [{ '@type': 'ListItem', position: 2, name: T(region.name), item: `${SITE_URL}${localePath(lang, `/regions/${region.slug}`)}` }] : []),
           { '@type': 'ListItem', position: region ? 3 : 2, name, item: `${SITE_URL}${localePath(lang, path)}` },
         ],
       },
-      {
-        '@type': 'FAQPage',
-        mainEntity: guide.faq.map((f) => ({ '@type': 'Question', name: t(f.q, lang), acceptedAnswer: { '@type': 'Answer', text: t(f.a, lang) } })),
-      },
+      { '@type': 'FAQPage', mainEntity: guide.faq.map((f) => ({ '@type': 'Question', name: T(f.q), acceptedAnswer: { '@type': 'Answer', text: T(f.a) } })) },
     ],
   }
+
+  const snapshot = [
+    { label: { en: `Why ${name}`, fr: `Pourquoi ${name}`, de: `Warum ${name}` }, text: guide.snapshot.why, tone: 'bg-mist' },
+    { label: { en: 'Where to sleep', fr: 'Où dormir', de: 'Wo schlafen' }, text: guide.snapshot.where, tone: 'bg-mist' },
+    { label: { en: 'Watch out', fr: 'Attention', de: 'Gut zu wissen' }, text: guide.snapshot.watch, tone: 'bg-mist' },
+  ]
 
   return (
     <>
@@ -74,103 +96,156 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
       <AffiliateBar locale={lang} />
       <main className="flex-1">
         <JsonLd data={jsonLd} />
-        <Container className="grid items-start gap-6 pt-6 md:grid-cols-[240px_1fr] md:gap-12 md:pt-16 lg:grid-cols-[320px_1fr] lg:gap-16">
-          <div className="w-[200px] md:w-full">
-            <Stamp name={name} subtitle={t(guide.eyebrow, lang)} altitude={dest.altitude} art={guide.stamp} />
-          </div>
-          <div>
-            <div className="hidden md:block">
-              <Eyebrow>{t(regionNames[dest.region], lang)}</Eyebrow>
+
+        {/* 1. Hero: photo, verdict, booking bar */}
+        <PhotoHero photo={guide.hero.photo} alt={T(guide.hero.caption)} credit={guide.hero.credit}>
+          <nav className="mb-5 flex flex-wrap items-center gap-2 text-[13px] text-white/75" aria-label="Breadcrumb">
+            <Link href={localePath(lang)} className="text-white/75 no-underline hover:text-white">{SITE_NAME}</Link>
+            <span aria-hidden>/</span>
+            {region ? (
+              <Link href={localePath(lang, `/regions/${region.slug}`)} className="text-white/75 no-underline hover:text-white">{T(region.name)}</Link>
+            ) : (
+              <span>{T(regionNames[dest.region])}</span>
+            )}
+            <span aria-hidden>/</span>
+            <span className="text-white">{name}</span>
+          </nav>
+          <div className="grid items-end gap-6 md:grid-cols-[1fr_200px] lg:grid-cols-[1fr_240px] lg:gap-16">
+            <div>
+              <h1 className="m-0 font-display text-[44px] font-bold uppercase leading-[0.95] tracking-[0.01em] text-white md:text-[64px] lg:text-[80px]">{T(guide.title)}</h1>
+              <p className="mb-0 mt-4 max-w-[60ch] text-lg leading-normal text-white md:mt-5 md:text-xl">{T(guide.quickAnswer)}</p>
+              <div className="mt-5 flex flex-wrap gap-2">
+                {guide.stats.map((s, i) => (
+                  <span key={i} className="inline-flex items-baseline gap-2 border border-white/30 bg-white/10 px-3 py-1.5 text-sm text-white backdrop-blur-sm">
+                    <span className="font-display text-xl font-bold leading-none tabular-nums">{s.value}</span>
+                    {T(s.label)}
+                  </span>
+                ))}
+              </div>
             </div>
-            <h1 className="m-0 font-display text-[40px] font-bold uppercase leading-[0.98] tracking-[0.01em] text-ink md:mt-2 md:text-[56px] lg:text-[72px] lg:leading-[0.96]">{t(guide.title, lang)}</h1>
-            <p className="mb-0 mt-4 max-w-[62ch] text-base leading-relaxed text-ink md:mt-6 md:text-lg">{t(guide.intro, lang)}</p>
-            <div className="mt-5 md:mt-10">
-              <QuickAnswer locale={lang}>{t(guide.quickAnswer, lang)}</QuickAnswer>
+            <div className="hidden md:block">
+              <Stamp name={name} subtitle={T(regionNames[dest.region])} altitude={dest.altitude} art={guide.stamp} />
+            </div>
+          </div>
+          <BookingPanel>
+            <StayFinder places={[{ value: name, label: name }]} placement={`${slug}-hero`} labels={d.booking} lang={lang} />
+          </BookingPanel>
+        </PhotoHero>
+
+        <SectionNav items={navItems} />
+
+        {/* 2. Live map, right after the hero: the highest converting block */}
+        <section id="map" className="scroll-mt-14 pt-10 md:pt-16">
+          <Container>
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <h2 className="m-0 font-display text-[28px] font-semibold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[40px]">{fill(d.sell.liveMap, { place: name })}</h2>
+                <p className="mb-0 mt-2 max-w-[70ch] text-[15px] leading-relaxed text-muted">{d.sell.liveMapSub}</p>
+              </div>
+              <PlaceButton place={name} placement={`${slug}-map`} label={fill(d.sell.seeAll, { place: name })} variant="outline" />
             </div>
             <div className="mt-5 md:mt-6">
-              <Stats items={guide.stats} locale={lang} />
+              <LiveMap lat={dest.lat} lng={dest.lng} placement={`${slug}-map`} lang={lang} title={fill(d.sell.hotelsIn, { place: name })} loadLabel={d.mapLoad} />
             </div>
-          </div>
-        </Container>
+            <p className="mb-0 mt-3 text-[13px] text-muted md:text-sm">{d.mapNote}</p>
+          </Container>
+        </section>
 
-        <Container className="pt-10 md:pt-16">
-          <div className="hatch relative aspect-[3/2] overflow-hidden md:aspect-[21/9]">
-            <Image src={guide.hero.photo} alt={t(guide.hero.caption, lang)} fill priority sizes="(min-width:1280px) 1216px, 100vw" className="object-cover" />
+        {/* 3. Snapshot */}
+        <Section id="overview" title={T({ en: `${name} at a glance`, fr: `${name} en bref`, de: `${name} im Überblick` })}>
+          <div className="grid gap-4 md:grid-cols-3 md:gap-6">
+            {snapshot.map((c, i) => (
+              <div key={i} className={`${c.tone} border-t-4 ${i === 2 ? 'border-caution' : 'border-ink'} p-5 md:p-6`}>
+                <div className="font-display text-sm font-semibold uppercase tracking-[0.08em] text-muted">{T(c.label)}</div>
+                <p className="mb-0 mt-2 text-base leading-relaxed text-ink">{T(c.text)}</p>
+              </div>
+            ))}
           </div>
-          <Credit caption={t(guide.hero.caption, lang)} credit={guide.hero.credit} />
-        </Container>
+          <p className="mb-0 mt-6 max-w-[68ch] text-base leading-relaxed text-ink md:text-lg">{T(guide.intro)}</p>
+        </Section>
 
-        <Section title={t({ en: 'Where to stay, area by area', fr: 'Où dormir, secteur par secteur', de: 'Wo übernachten, Ortsteil für Ortsteil' }, lang)}>
+        {/* 4. Hotels */}
+        <Section id="hotels" title={T({ en: `${guide.hotels.length} hotels in ${name} we checked`, fr: `${guide.hotels.length} hôtels à ${name}, vérifiés`, de: `${guide.hotels.length} geprüfte Hotels in ${name}` })}>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {guide.hotels.map((h) => (
+              <HotelCard key={h.name} hotel={h} place={name} locale={lang} />
+            ))}
+          </div>
+          <div className="mt-6 flex flex-col items-start justify-between gap-4 border-t border-rule pt-5 md:flex-row md:items-center">
+            <p className="m-0 max-w-[70ch] text-[13px] leading-normal text-muted md:text-sm">{T(guide.hotelsNote)}</p>
+            <PlaceButton place={name} placement={`${slug}-hotels`} label={fill(d.sell.seeAll, { place: name })} />
+          </div>
+        </Section>
+
+        {/* 5. Areas */}
+        <Section id="areas" title={T({ en: 'Where to stay, area by area', fr: 'Où dormir, secteur par secteur', de: 'Wo übernachten, Ortsteil für Ortsteil' })}>
           <div className="grid gap-6 md:grid-cols-3">
             {guide.sectors.map((s, i) => (
-              <div key={i} className="border-t-2 border-ink pt-3.5 md:pt-5">
-                <h3 className="m-0 font-display text-[22px] font-bold uppercase tracking-[0.01em] text-ink md:text-[26px]">{t(s.title, lang)}</h3>
-                <div className="mt-0.5 text-[13px] text-muted md:mt-1 md:text-sm">{t(s.walk, lang)}</div>
-                <p className="mb-0 mt-2.5 text-base leading-relaxed text-ink md:mt-4">{t(s.text, lang)}</p>
+              <div key={i} className="flex flex-col border-t-2 border-ink pt-3.5 md:pt-5">
+                <div className="font-display text-4xl font-bold leading-none tabular-nums text-swiss">{String(i + 1).padStart(2, '0')}</div>
+                <h3 className="mb-0 mt-2 font-display text-[22px] font-bold uppercase tracking-[0.01em] text-ink md:text-[26px]">{T(s.title)}</h3>
+                <div className="mt-0.5 text-[13px] text-muted md:mt-1 md:text-sm">{T(s.walk)}</div>
+                <p className="mb-0 mt-2.5 text-base leading-relaxed text-ink md:mt-4">{T(s.text)}</p>
                 <ul className="m-0 mt-4 flex list-none flex-col gap-2 p-0">
                   {s.points.map((p, k) => (
-                    <SquareBullet key={k} red>{t(p, lang)}</SquareBullet>
+                    <SquareBullet key={k} red>{T(p)}</SquareBullet>
                   ))}
                 </ul>
+                <a href="#map" className="mt-4 inline-flex w-fit items-center gap-2 border-b border-ink pb-0.5 text-[15px] font-medium text-ink no-underline hover:border-swiss hover:text-swiss">
+                  {T({ en: 'See the hotels on the map', fr: 'Voir les hôtels sur la carte', de: 'Hotels auf der Karte' })} <span aria-hidden>↑</span>
+                </a>
               </div>
             ))}
           </div>
         </Section>
 
-        <Section title={t({ en: `${guide.hotels.length} addresses, checked`, fr: `${guide.hotels.length} adresses, vérifiées`, de: `${guide.hotels.length} Adressen, geprüft` }, lang)}>
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
-            {guide.hotels.map((h) => (
-              <HotelCard key={h.name} hotel={h} place={name} locale={lang} />
-            ))}
-          </div>
-          <p className="mb-0 mt-6 text-[13px] leading-normal text-muted md:text-sm">{t(guide.hotelsNote, lang)}</p>
-        </Section>
-
         {guide.pass && (
-          <Section id="swiss-travel-pass" title={t(guide.pass.title, lang)} gap="mb-5 md:mb-8">
+          <Section id="swiss-travel-pass" title={T(guide.pass.title)} gap="mb-5 md:mb-8">
             <PassTable pass={guide.pass} locale={lang} />
           </Section>
         )}
 
+        <CtaBand title={fill(d.sell.ctaBandTitle, { place: name })} text={d.sell.ctaBandText}>
+          <PlaceButton place={name} placement={`${slug}-band`} label={fill(d.sell.seeAll, { place: name })} />
+        </CtaBand>
+
         {guide.calendar && (
-          <Section title={t(guide.calendar.title, lang)} gap="mb-5 md:mb-8">
+          <Section id="seasons" title={T(guide.calendar.title)} gap="mb-5 md:mb-8">
             <OpeningCalendar calendar={guide.calendar} locale={lang} />
           </Section>
         )}
 
         {guide.practical && (
-          <Section id="car-free" title={t(guide.practical.title, lang)}>
+          <Section id="car-free" title={T(guide.practical.title)}>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {guide.practical.items.map((p, i) => (
                 <div key={i} className="border-t-2 border-ink pt-4">
                   <div className="font-display text-4xl font-bold leading-none tabular-nums text-swiss">{i + 1}</div>
-                  <h3 className="mb-0 mt-2.5 text-[17px] font-bold text-ink">{t(p.title, lang)}</h3>
-                  <p className="mb-0 mt-2 text-[15px] leading-relaxed text-ink">{t(p.text, lang)}</p>
+                  <h3 className="mb-0 mt-2.5 text-[17px] font-bold text-ink">{T(p.title)}</h3>
+                  <p className="mb-0 mt-2 text-[15px] leading-relaxed text-ink">{T(p.text)}</p>
                 </div>
               ))}
             </div>
           </Section>
         )}
 
-        <Section title={t({ en: 'Places to stay on the map', fr: 'Les hébergements sur la carte', de: 'Unterkünfte auf der Karte' }, lang)} gap="mb-6">
-          <Stay22Map src={stay22MapSrc(dest.lat, dest.lng, slug, lang)} title={t({ en: `Hotels in ${name}`, fr: `Hôtels à ${name}`, de: `Hotels in ${name}` }, lang)} loadLabel={d.mapLoad} />
-          <p className="mb-0 mt-3 text-[13px] text-muted md:text-sm">{d.mapNote}</p>
-        </Section>
-
-        <Section title={t({ en: 'Frequently asked questions', fr: 'Questions fréquentes', de: 'Häufige Fragen' }, lang)} gap="mb-0">
+        <Section id="faq" title={T({ en: 'Frequently asked questions', fr: 'Questions fréquentes', de: 'Häufige Fragen' })} gap="mb-0">
           <Faq items={guide.faq} locale={lang} />
         </Section>
 
-        <Section title={t({ en: 'Nearby destinations', fr: 'Destinations voisines', de: 'Nahe Reiseziele' }, lang)}>
-          <div className="grid grid-cols-2 gap-5 pb-10 md:gap-8 md:pb-[104px] lg:grid-cols-4">
+        <NetworkLinks keyName={slug} locale={lang} title={d.sell.moreForTrip} />
+
+        <Section title={T({ en: 'Nearby destinations', fr: 'Destinations voisines', de: 'Nahe Reiseziele' })} aside={region ? <Link href={localePath(lang, `/regions/${region.slug}`)} className="text-[15px] font-medium text-swiss no-underline hover:text-swiss-dark">{T({ en: `Compare the ${T(region.name)} bases`, fr: `Comparer les bases de l’${T(region.name)}`, de: `Standorte im ${T(region.name)} vergleichen` })} →</Link> : undefined}>
+          <div className="grid grid-cols-2 gap-5 pb-24 md:gap-8 md:pb-[120px] lg:grid-cols-4">
             {guide.neighbours.map((s) => {
               const n = getDestination(s)
-              return n ? <DestinationCard key={s} dest={n} locale={lang} /> : null
+              return n ? <DestinationCard key={s} dest={n} locale={lang} live={hasGuide(s)} /> : null
             })}
           </div>
         </Section>
       </main>
       <Footer locale={lang} />
+      <StickyBookingBar place={name} placement={slug} title={fill(d.sell.stickyTitle, { place: name })} cta={d.sell.stickyCta} lang={lang} watchId="hero" closeLabel={d.sell.close} />
     </>
   )
 }
