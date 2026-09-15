@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-paper: #ffffff;
+  --color-mist: #f0f4f7;
+  --color-rule: #dfe4e9;
+  --color-faint: #828e9a;
+  --color-muted: #46596b;
+  --color-ink: #131b22;
+  --color-swiss: #da291c;
+  --color-swiss-dark: #b0201a;
+  --color-open: #1f7a4a;
+  --color-caution: #94610f;
+
+  --color-st-red: #e9474a;
+  --color-st-sky: #c8ebf0;
+  --color-st-snow: #e4e6e8;
+  --color-st-rock-light: #a6a9ac;
+  --color-st-rock: #7d8185;
+  --color-st-rock-dark: #4a4e52;
+  --color-st-fir-light: #3a9a59;
+  --color-st-fir: #237b4b;
+  --color-st-meadow: #8dc540;
+
+  --font-sans: var(--font-noto), system-ui, sans-serif;
+  --font-display: var(--font-barlow), "Arial Narrow", sans-serif;
+
+  --breakpoint-3xl: 1920px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px #fff;
+}
+
+.hatch {
+  background-color: var(--color-mist);
+  background-image: repeating-linear-gradient(135deg, var(--color-rule) 0 6px, var(--color-mist) 6px 12px);
+}
+
+.closed-hatch {
+  background-color: #fff;
+  background-image: repeating-linear-gradient(45deg, var(--color-ink) 0 2px, transparent 2px 6px);
+}
+
+/* Perforated stamp edge: white half-circles bitten out of each side */
+.perf-x {
+  background-image: radial-gradient(circle 5px at 9px 5px, #fff 99%, transparent 100%);
+  background-size: 18px 10px;
+  background-repeat: repeat-x;
+}
+.perf-y {
+  background-image: radial-gradient(circle 5px at 5px 9px, #fff 99%, transparent 100%);
+  background-size: 10px 18px;
+  background-repeat: repeat-y;
+}
+
+.cross-window {
+  clip-path: polygon(34% 0, 66% 0, 66% 34%, 100% 34%, 100% 66%, 66% 66%, 66% 100%, 34% 100%, 34% 66%, 0 66%, 0 34%, 34% 34%);
+}
+.tri {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }

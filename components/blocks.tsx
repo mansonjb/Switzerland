@@ -1,0 +1,263 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import type { ReactNode } from 'react'
+import { localePath, t, type L, type Locale } from '@/lib/i18n'
+import { getDict } from '@/lib/dict'
+import { allezHotelLink } from '@/lib/site'
+import type { Destination, DestinationGuide, MonthState, PhotoCredit } from '@/data/types'
+import { regionNames, hasGuide } from '@/data'
+
+export function Container({ children, className = '' }: { children: ReactNode; className?: string }) {
+  return <div className={`mx-auto max-w-[1280px] px-4 md:px-8 ${className}`}>{children}</div>
+}
+
+export function Section({ id, title, children, gap = 'mb-6 md:mb-10', aside }: { id?: string; title: string; children: ReactNode; gap?: string; aside?: ReactNode }) {
+  return (
+    <section id={id} className="scroll-mt-6 pt-10 md:pt-[104px]">
+      <Container>
+        <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+          <h2 className="m-0 font-display text-[28px] font-semibold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[40px]">{title}</h2>
+          {aside}
+        </div>
+        <div className={`mt-4 h-px bg-rule md:mt-6 ${gap}`} />
+        {children}
+      </Container>
+    </section>
+  )
+}
+
+export function Eyebrow({ children }: { children: ReactNode }) {
+  return <div className="text-[13px] font-medium uppercase tracking-[0.08em] text-muted md:text-sm">{children}</div>
+}
+
+export function QuickAnswer({ locale, children }: { locale: Locale; children: ReactNode }) {
+  return (
+    <div className="border-l-4 border-swiss bg-mist px-[18px] py-4 md:px-7 md:py-6">
+      <div className="mb-1.5 font-display text-[13px] font-semibold uppercase tracking-[0.08em] text-muted md:mb-2 md:text-[15px]">{getDict(locale).quickAnswer}</div>
+      <p className="m-0 text-lg leading-normal text-ink md:text-xl">{children}</p>
+    </div>
+  )
+}
+
+export function Stats({ items, locale, big = false }: { items: { value: string; label: L }[]; locale: Locale; big?: boolean }) {
+  return (
+    <div className="flex flex-wrap gap-6 border-t border-rule pt-4 md:gap-10 md:pt-5">
+      {items.map((s, i) => (
+        <div key={i}>
+          <div className={`font-display font-bold leading-none tabular-nums text-ink ${big ? 'text-[48px]' : 'text-[32px] md:text-[40px]'}`}>{s.value}</div>
+          <div className="mt-1 text-[13px] text-muted md:text-sm">{t(s.label, locale)}</div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+export function SquareBullet({ children, red = false }: { children: ReactNode; red?: boolean }) {
+  return (
+    <li className="flex items-start gap-2.5">
+      <span className={`mt-[7px] shrink-0 ${red ? 'size-[7px] bg-swiss' : 'size-1.5 bg-ink'}`} aria-hidden />
+      <span className="text-[15px] leading-normal text-ink">{children}</span>
+    </li>
+  )
+}
+
+export function Credit({ credit, caption }: { credit?: PhotoCredit; caption?: string }) {
+  return (
+    <p className="mt-3 text-[13px] leading-normal text-muted md:text-sm">
+      {caption}
+      {credit && (
+        <>
+          {caption ? ' ' : ''}
+          Photo:{' '}
+          <a href={credit.source} className="text-muted underline" rel="nofollow noopener" target="_blank">
+            {credit.author}
+          </a>
+          ,{' '}
+          <a href={credit.licenseUrl} className="text-muted underline" rel="nofollow noopener" target="_blank">
+            {credit.license}
+          </a>
+        </>
+      )}
+    </p>
+  )
+}
+
+/** Sheet card: photo 4:5, name + altitude on a 2px rule. Links only when the guide is published. */
+export function DestinationCard({ dest, locale, closed = false, priority = false }: { dest: Destination; locale: Locale; closed?: boolean; priority?: boolean }) {
+  const d = getDict(locale)
+  const live = hasGuide(dest.slug)
+  const body = (
+    <>
+      <div className="hatch relative aspect-[4/5] overflow-hidden">
+        <Image src={dest.photo} alt={t(dest.name, locale)} fill sizes="(min-width:1024px) 400px, 50vw" className="object-cover" priority={priority} />
+        {closed && <div className="absolute bottom-0 left-0 bg-ink px-2.5 py-1.5 text-xs uppercase tracking-[0.06em] text-white">{d.closedOffSeason}</div>}
+      </div>
+      <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 border-t-2 border-ink pt-2">
+        <div className="min-w-0 font-display text-xl font-bold uppercase leading-[1.05] tracking-[0.01em] text-ink [overflow-wrap:anywhere]">{t(dest.name, locale)}</div>
+        <div className="shrink-0 font-display text-[17px] font-bold leading-[1.05] tabular-nums text-ink">{dest.altitude} {d.metres}</div>
+      </div>
+      <div className="text-sm text-muted">
+        {t(regionNames[dest.region], locale)}
+        {!live && <span className="text-faint"> · {d.inPreparation}</span>}
+      </div>
+    </>
+  )
+  const cls = 'flex flex-col gap-2.5 text-ink no-underline'
+  return live ? (
+    <Link href={localePath(locale, `/${dest.slug}`)} className={`${cls} group`}>
+      {body}
+    </Link>
+  ) : (
+    <div className={cls}>{body}</div>
+  )
+}
+
+export function HotelCard({ hotel, place, locale, sizes = 'md' }: { hotel: DestinationGuide['hotels'][number]; place: string; locale: Locale; sizes?: 'md' }) {
+  const d = getDict(locale)
+  return (
+    <article className="flex flex-col gap-3 md:gap-4">
+      <div>
+        <h3 className="m-0 text-[17px] font-bold leading-[1.3] text-ink md:text-lg">{hotel.name}</h3>
+        <div className="mt-0.5 text-[13px] text-muted md:text-sm">{t(hotel.sector, locale)}</div>
+      </div>
+      <ul className="m-0 flex list-none flex-col gap-2 p-0">
+        {hotel.facts.map((f, i) => (
+          <SquareBullet key={i}>{t(f, locale)}</SquareBullet>
+        ))}
+      </ul>
+      <a
+        href={allezHotelLink(hotel.name, place, 'hotel-card')}
+        rel="sponsored nofollow noopener"
+        target="_blank"
+        className="mt-auto block border border-ink px-4 py-3 text-center text-[15px] font-medium text-ink no-underline transition-colors hover:border-swiss hover:bg-swiss hover:text-white"
+        data-size={sizes}
+      >
+        {d.checkAvailability}
+      </a>
+    </article>
+  )
+}
+
+export function PassTable({ pass, locale }: { pass: NonNullable<DestinationGuide['pass']>; locale: Locale }) {
+  const d = getDict(locale)
+  const head = 'font-display text-sm font-semibold uppercase tracking-[0.06em] text-ink md:text-[17px]'
+  return (
+    <div className="tabular-nums">
+      <div className="grid grid-cols-[1fr_110px] gap-2 border-b border-ink pb-2.5 md:grid-cols-[1fr_300px] md:gap-0 md:pb-0">
+        <div className={`${head} md:px-4 md:py-3`}>{d.pass.section}</div>
+        <div className={`${head} text-right md:px-4 md:py-3`}>{d.pass.coverage}</div>
+      </div>
+      {pass.rows.map((r, i) => (
+        <div key={i} className={`grid grid-cols-[1fr_110px] items-baseline gap-2 border-b border-rule py-3 md:grid-cols-[1fr_300px] md:gap-0 md:py-0 ${i % 2 ? 'bg-mist' : ''}`}>
+          <div className="text-sm leading-snug text-ink md:px-4 md:py-3.5 md:text-base">{t(r.section, locale)}</div>
+          <div className={`text-right font-display text-xl font-bold uppercase md:px-4 md:py-3.5 md:text-2xl ${r.coverage === 'included' ? 'text-open' : 'text-ink'}`}>
+            {r.coverage === 'included' ? d.pass.included : d.pass.discount25}
+          </div>
+        </div>
+      ))}
+
+      <div className="mt-8 grid grid-cols-[1fr_76px_76px] gap-2 border-b border-ink pb-2.5 md:mt-10 md:grid-cols-[1fr_220px_220px] md:gap-0 md:pb-0">
+        <div className={`${head} md:px-4 md:py-3`}>{d.pass.fare}</div>
+        <div className={`${head} text-right md:px-4 md:py-3`}>
+          <span className="md:hidden">{d.pass.withoutShort}</span>
+          <span className="hidden md:inline">{d.pass.without}</span>
+        </div>
+        <div className={`${head} text-right md:px-4 md:py-3`}>
+          <span className="md:hidden">{d.pass.withShort}</span>
+          <span className="hidden md:inline">{d.pass.with}</span>
+        </div>
+      </div>
+      <div className="grid grid-cols-[1fr_76px_76px] items-baseline gap-2 border-b border-ink py-3.5 md:grid-cols-[1fr_220px_220px] md:gap-0 md:py-0">
+        <div className="text-sm font-bold leading-snug text-ink md:px-4 md:py-[18px] md:text-base">{t(pass.fare.label, locale)}</div>
+        <div className="text-right font-display text-[22px] font-bold text-ink md:px-4 md:py-[18px] md:text-[28px]">{pass.fare.without}</div>
+        <div className="text-right font-display text-[22px] font-bold text-open md:px-4 md:py-[18px] md:text-[28px]">{pass.fare.with}</div>
+      </div>
+      <p className="mt-3 text-[13px] leading-normal text-muted md:mt-4 md:text-sm">{t(pass.note, locale)}</p>
+    </div>
+  )
+}
+
+function cellClass(s: MonthState) {
+  if (s === 'o') return 'bg-open'
+  if (s === 'r') return 'bg-caution'
+  return 'closed-hatch'
+}
+
+export function OpeningCalendar({ calendar, locale }: { calendar: NonNullable<DestinationGuide['calendar']>; locale: Locale }) {
+  const d = getDict(locale)
+  const stateLabel = { o: d.open, r: d.reduced, x: d.closed }
+  return (
+    <div>
+      <div className="overflow-x-auto">
+        <table className="w-full min-w-[520px] border-collapse">
+          <thead>
+            <tr>
+              <th className="w-[170px] md:w-[300px]" />
+              {d.months.map((m, i) => (
+                <th key={i} scope="col" className="pb-1.5 text-center font-display text-[13px] font-semibold tracking-[0.06em] text-muted md:text-[15px]">
+                  {m}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {calendar.rows.map((row, i) => (
+              <tr key={i} className="border-t border-rule">
+                <th scope="row" className="py-1.5 pr-3 text-left text-sm font-normal text-ink md:py-2 md:pr-6 md:text-base">{t(row.name, locale)}</th>
+                {row.months.map((s, m) => (
+                  <td key={m} className="px-[1.5px] py-1.5 md:px-0.5 md:py-2">
+                    <div className={`h-[22px] border border-rule md:h-[26px] ${cellClass(s)}`} title={stateLabel[s]}>
+                      <span className="sr-only">{stateLabel[s]}</span>
+                    </div>
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="mt-4 flex flex-wrap gap-4 border-t border-rule pt-4 md:mt-6 md:gap-7">
+        <Legend swatch="bg-open" label={d.open} />
+        <Legend swatch="bg-caution" label={d.reduced} />
+        <Legend swatch="closed-hatch border border-rule" label={d.closed} />
+      </div>
+      <p className="mt-3 text-[13px] leading-normal text-muted md:text-sm">{t(calendar.note, locale)}</p>
+    </div>
+  )
+}
+
+function Legend({ swatch, label }: { swatch: string; label: string }) {
+  return (
+    <div className="flex items-center gap-2">
+      <div className={`size-3.5 md:size-[18px] ${swatch}`} />
+      <div className="text-[13px] text-ink md:text-sm">{label}</div>
+    </div>
+  )
+}
+
+export function Faq({ items, locale }: { items: { q: L; a: L }[]; locale: Locale }) {
+  return (
+    <div>
+      {items.map((f, i) => (
+        <div key={i} className="grid gap-2 border-b border-rule py-5 md:grid-cols-[420px_1fr] md:gap-10 md:py-6">
+          <h3 className="m-0 text-[17px] font-bold leading-[1.4] text-ink md:text-lg">{t(f.q, locale)}</h3>
+          <p className="m-0 max-w-[68ch] text-base leading-relaxed text-ink md:text-[17px]">{t(f.a, locale)}</p>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+export function Squares({ n }: { n: number }) {
+  return (
+    <span className="flex gap-[3px]" aria-label={`${n}/5`} role="img">
+      {Array.from({ length: 5 }, (_, i) => (
+        <span key={i} className={`size-[11px] border ${i < n ? 'border-ink bg-ink' : 'border-faint'}`} />
+      ))}
+    </span>
+  )
+}
+
+export function JsonLd({ data }: { data: object }) {
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, '\\u003c') }} />
+}

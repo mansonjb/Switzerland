@@ -1,0 +1,103 @@
+import type { Locale } from './i18n'
+
+const en = {
+  nav: { destinations: 'Destinations', regions: 'Regions', carFree: 'Car-free', pass: 'Swiss Travel Pass', menu: 'Menu', close: 'Close' },
+  affiliate: 'Some hotel links are affiliate links. That changes neither the price you pay nor our selection.',
+  affiliateShort: 'Some hotel links are affiliate links.',
+  methodology: 'Methodology',
+  quickAnswer: 'Quick answer',
+  metres: 'm',
+  closedOffSeason: 'Closed off-season',
+  checkAvailability: 'Check availability',
+  seePage: 'See the page',
+  inPreparation: 'Page in preparation',
+  open: 'Open',
+  reduced: 'Partly closed',
+  closed: 'Closed',
+  months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+  choice: { village: 'Village', forWhom: 'Who it suits', legendFull: 'Filled square = stronger on this criterion', legendBest: 'Best pick for the criterion' },
+  pass: { section: 'Section', coverage: 'Swiss Travel Pass', included: 'Included', discount25: '25% off', fare: '2026 fare · CHF', without: 'Without pass', with: 'With pass', withoutShort: 'Without', withShort: 'With' },
+  mapNote: 'Map provided by Stay22. Bookings made from this map may earn us a commission.',
+  mapLoad: 'Show the map',
+  footer: {
+    regions: 'Regions',
+    destinations: 'Destinations',
+    guides: 'Practical guides',
+    about: 'About',
+    affiliation: 'Affiliate links',
+    legal: 'Legal notice',
+    privacy: 'Privacy and cookies',
+    independent: 'Independent guide, not affiliated with the Swiss authorities or Switzerland Tourism.',
+  },
+  notFound: { title: 'Page not found', text: 'This page does not exist or has moved.', home: 'Back to the home page' },
+}
+
+export type Dict = typeof en
+
+const fr: Dict = {
+  nav: { destinations: 'Destinations', regions: 'Régions', carFree: 'Sans voiture', pass: 'Swiss Travel Pass', menu: 'Menu', close: 'Fermer' },
+  affiliate: 'Certains liens vers les hôtels sont affiliés. Cela ne change ni le prix payé ni la sélection.',
+  affiliateShort: 'Certains liens hôtels sont affiliés.',
+  methodology: 'Méthodologie',
+  quickAnswer: 'Réponse rapide',
+  metres: 'm',
+  closedOffSeason: 'Fermé hors saison',
+  checkAvailability: 'Voir les disponibilités',
+  seePage: 'Voir la page',
+  inPreparation: 'Page en préparation',
+  open: 'Ouvert',
+  reduced: 'Fermé en partie',
+  closed: 'Fermé',
+  months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+  choice: { village: 'Village', forWhom: 'Pour qui', legendFull: 'Carré plein = plus fort sur ce critère', legendBest: 'Meilleur choix du critère' },
+  pass: { section: 'Section', coverage: 'Swiss Travel Pass', included: 'Inclus', discount25: '-25 %', fare: 'Tarif 2026 · CHF', without: 'Sans pass', with: 'Avec pass', withoutShort: 'Sans', withShort: 'Avec' },
+  mapNote: 'Carte fournie par Stay22. Les réservations effectuées depuis cette carte peuvent générer une commission.',
+  mapLoad: 'Afficher la carte',
+  footer: {
+    regions: 'Régions',
+    destinations: 'Destinations',
+    guides: 'Guides pratiques',
+    about: 'À propos',
+    affiliation: 'Affiliation',
+    legal: 'Mentions légales',
+    privacy: 'Confidentialité et cookies',
+    independent: 'Guide indépendant, sans lien avec les autorités suisses ni avec Suisse Tourisme.',
+  },
+  notFound: { title: 'Page introuvable', text: "Cette page n'existe pas ou a changé d'adresse.", home: "Retour à l'accueil" },
+}
+
+const de: Dict = {
+  nav: { destinations: 'Reiseziele', regions: 'Regionen', carFree: 'Autofrei', pass: 'Swiss Travel Pass', menu: 'Menü', close: 'Schliessen' },
+  affiliate: 'Einige Hotel-Links sind Affiliate-Links. Das ändert weder Ihren Preis noch unsere Auswahl.',
+  affiliateShort: 'Einige Hotel-Links sind Affiliate-Links.',
+  methodology: 'Methodik',
+  quickAnswer: 'Kurze Antwort',
+  metres: 'm',
+  closedOffSeason: 'Zwischensaison geschlossen',
+  checkAvailability: 'Verfügbarkeit prüfen',
+  seePage: 'Zur Seite',
+  inPreparation: 'Seite in Vorbereitung',
+  open: 'Offen',
+  reduced: 'Teilweise geschlossen',
+  closed: 'Geschlossen',
+  months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+  choice: { village: 'Ort', forWhom: 'Für wen', legendFull: 'Volles Quadrat = stärker bei diesem Kriterium', legendBest: 'Beste Wahl für das Kriterium' },
+  pass: { section: 'Strecke', coverage: 'Swiss Travel Pass', included: 'Inbegriffen', discount25: '-25 %', fare: 'Tarif 2026 · CHF', without: 'Ohne Pass', with: 'Mit Pass', withoutShort: 'Ohne', withShort: 'Mit' },
+  mapNote: 'Karte von Stay22. Buchungen über diese Karte können uns eine Provision einbringen.',
+  mapLoad: 'Karte anzeigen',
+  footer: {
+    regions: 'Regionen',
+    destinations: 'Reiseziele',
+    guides: 'Praktische Ratgeber',
+    about: 'Über uns',
+    affiliation: 'Affiliate-Links',
+    legal: 'Impressum',
+    privacy: 'Datenschutz und Cookies',
+    independent: 'Unabhängiger Reiseführer, ohne Verbindung zu den Schweizer Behörden oder Schweiz Tourismus.',
+  },
+  notFound: { title: 'Seite nicht gefunden', text: 'Diese Seite existiert nicht oder wurde verschoben.', home: 'Zur Startseite' },
+}
+
+const dicts: Record<Locale, Dict> = { en, fr, de }
+
+export const getDict = (locale: Locale): Dict => dicts[locale]
