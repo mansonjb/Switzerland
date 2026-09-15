@@ -5,10 +5,12 @@ import { LOCALES, hasLocale, languageAlternates, localePath, t, type L } from '@
 import { fill, getDict } from '@/lib/dict'
 import { SITE_URL, SITE_NAME } from '@/lib/site'
 import { getDestination, getGuide, hasGuide, publishedGuides, publishedRegions, regionNames } from '@/data'
-import { AffiliateBar, Footer, Header } from '@/components/chrome'
-import { BookingPanel, Container, CtaBand, Faq, HotelCard, JsonLd, NetworkLinks, OpeningCalendar, PassTable, PhotoHero, Section, SquareBullet } from '@/components/blocks'
-import { LiveMap, PlaceButton, StayFinder, StickyBookingBar } from '@/components/booking'
+import { Footer, Header } from '@/components/chrome'
+import { BookingPanel, Container, CtaBand, Faq, JsonLd, NetworkLinks, OpeningCalendar, PassTable, PhotoHero, Section, SquareBullet } from '@/components/blocks'
+import { LiveMap, PlaceButton, SeasonPanel, SeasonTabs, StayFinder, StickyBookingBar } from '@/components/booking'
 import { SectionNav } from '@/components/section-nav'
+import { HotelsBrowser, type HotelView } from '@/components/hotels'
+import { getHotelPrice, getPriceFile } from '@/data/prices'
 import { DestinationCard } from '@/components/sheet'
 import { Stamp } from '@/components/stamp'
 
@@ -45,6 +47,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
   const navItems = [
     { id: 'map', label: nav.map },
     { id: 'overview', label: nav.overview },
+    ...(guide.seasons ? [{ id: 'summer-winter', label: `${d.sell.seasons.summer} / ${d.sell.seasons.winter}` }] : []),
     { id: 'hotels', label: nav.hotels },
     { id: 'areas', label: nav.areas },
     ...(guide.pass ? [{ id: 'swiss-travel-pass', label: nav.pass }] : []),
@@ -84,6 +87,23 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
     ],
   }
 
+  const priceFile = getPriceFile(slug)
+  const tierOrder = { budget: 0, mid: 1, premium: 2 }
+  const hotelViews: HotelView[] = guide.hotels
+    .map((h) => {
+      const p = getHotelPrice(slug, h.slug)
+      return {
+        name: h.name,
+        photo: h.photo,
+        tier: p?.tier ?? 'mid',
+        stars: p?.stars ?? null,
+        sector: T(h.sector),
+        facts: h.facts.map(T),
+        price: { all: p?.all ?? null, summer: p?.summer ?? null, winter: p?.winter ?? null },
+      }
+    })
+    .sort((a, b) => tierOrder[a.tier] - tierOrder[b.tier])
+
   const snapshot = [
     { label: { en: `Why ${name}`, fr: `Pourquoi ${name}`, de: `Warum ${name}` }, text: guide.snapshot.why, tone: 'bg-mist' },
     { label: { en: 'Where to sleep', fr: 'Où dormir', de: 'Wo schlafen' }, text: guide.snapshot.where, tone: 'bg-mist' },
@@ -93,7 +113,6 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
   return (
     <>
       <Header locale={lang} path={path} />
-      <AffiliateBar locale={lang} />
       <main className="flex-1">
         <JsonLd data={jsonLd} />
 
@@ -113,7 +132,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
           <div className="grid items-end gap-6 md:grid-cols-[1fr_200px] lg:grid-cols-[1fr_240px] lg:gap-16">
             <div>
               <h1 className="m-0 font-display text-[44px] font-bold uppercase leading-[0.95] tracking-[0.01em] text-white md:text-[64px] lg:text-[80px]">{T(guide.title)}</h1>
-              <p className="mb-0 mt-4 max-w-[60ch] text-lg leading-normal text-white md:mt-5 md:text-xl">{T(guide.quickAnswer)}</p>
+              <p className="mb-0 mt-4 text-lg leading-normal text-white md:mt-5 md:text-xl">{T(guide.quickAnswer)}</p>
               <div className="mt-5 flex flex-wrap gap-2">
                 {guide.stats.map((s, i) => (
                   <span key={i} className="inline-flex items-baseline gap-2 border border-white/30 bg-white/10 px-3 py-1.5 text-sm text-white backdrop-blur-sm">
@@ -128,7 +147,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
             </div>
           </div>
           <BookingPanel>
-            <StayFinder places={[{ value: name, label: name }]} placement={`${slug}-hero`} labels={d.booking} lang={lang} />
+            <StayFinder places={[{ value: name, label: name, href: '#hotels' }]} labels={d.booking} lang={lang} />
           </BookingPanel>
         </PhotoHero>
 
@@ -140,7 +159,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
                 <h2 className="m-0 font-display text-[28px] font-semibold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[40px]">{fill(d.sell.liveMap, { place: name })}</h2>
-                <p className="mb-0 mt-2 max-w-[70ch] text-[15px] leading-relaxed text-muted">{d.sell.liveMapSub}</p>
+                <p className="mb-0 mt-2 text-[15px] leading-relaxed text-muted">{d.sell.liveMapSub}</p>
               </div>
               <PlaceButton place={name} placement={`${slug}-map`} label={fill(d.sell.seeAll, { place: name })} variant="outline" />
             </div>
@@ -161,18 +180,30 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
               </div>
             ))}
           </div>
-          <p className="mb-0 mt-6 max-w-[68ch] text-base leading-relaxed text-ink md:text-lg">{T(guide.intro)}</p>
+          <p className="mb-0 mt-6 text-base leading-relaxed text-ink md:text-lg">{T(guide.intro)}</p>
         </Section>
 
-        {/* 4. Hotels */}
-        <Section id="hotels" title={T({ en: `${guide.hotels.length} hotels in ${name} we checked`, fr: `${guide.hotels.length} hôtels à ${name}, vérifiés`, de: `${guide.hotels.length} geprüfte Hotels in ${name}` })}>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {guide.hotels.map((h) => (
-              <HotelCard key={h.name} hotel={h} place={name} locale={lang} />
-            ))}
-          </div>
+        {/* 3b. Summer / winter */}
+        {guide.seasons && (
+          <Section id="summer-winter" title={d.sell.seasons.title} aside={<SeasonTabs labels={{ summer: d.sell.seasons.summer, winter: d.sell.seasons.winter }} />} gap="mb-0">
+            <p className="mb-0 mt-4 text-[15px] text-muted">{d.sell.seasons.sub}</p>
+            <SeasonPanel
+              baseLabel={d.sell.seasons.base}
+              content={{
+                summer: { title: T(guide.seasons.summer.title), base: T(guide.seasons.summer.base), note: T(guide.seasons.summer.note), facts: guide.seasons.summer.facts.map((f) => ({ value: f.value, label: T(f.label) })) },
+                winter: { title: T(guide.seasons.winter.title), base: T(guide.seasons.winter.base), note: T(guide.seasons.winter.note), facts: guide.seasons.winter.facts.map((f) => ({ value: f.value, label: T(f.label) })) },
+              }}
+            />
+          </Section>
+        )}
+
+        {/* 4. Hotels: tiers, dated prices following the season */}
+        <Section id="hotels" title={fill(d.sell.hotels.title, { count: String(hotelViews.length), place: name })}>
+          <HotelsBrowser hotels={hotelViews} place={name} labels={d.sell.hotels} />
           <div className="mt-6 flex flex-col items-start justify-between gap-4 border-t border-rule pt-5 md:flex-row md:items-center">
-            <p className="m-0 max-w-[70ch] text-[13px] leading-normal text-muted md:text-sm">{T(guide.hotelsNote)}</p>
+            <p className="m-0 text-[13px] leading-normal text-muted md:text-sm">
+              {priceFile ? fill(d.sell.hotels.note, { winter: String(priceFile.winterDates.length), summer: String(priceFile.summerDates.length), date: new Intl.DateTimeFormat(lang, { dateStyle: 'long' }).format(new Date(`${priceFile.scrapedOn}T12:00`)) }) : T(guide.hotelsNote)} {d.affiliateShort}
+            </p>
             <PlaceButton place={name} placement={`${slug}-hotels`} label={fill(d.sell.seeAll, { place: name })} />
           </div>
         </Section>

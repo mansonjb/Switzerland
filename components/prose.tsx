@@ -12,7 +12,7 @@ export function ProsePage({ locale, path, title, updated, children }: { locale: 
         <Container className="pb-16 pt-10 md:pb-[104px] md:pt-16">
           <h1 className="m-0 font-display text-[40px] font-bold uppercase leading-[0.98] tracking-[0.01em] text-ink md:text-[72px] md:leading-[0.96]">{title}</h1>
           <div className="mt-6 h-px bg-rule" />
-          <div className="prose-body mt-8 max-w-[68ch]">{children}</div>
+          <div className="prose-body mt-8">{children}</div>
           <p className="mt-10 text-[13px] text-muted md:text-sm">{updated}</p>
         </Container>
       </main>

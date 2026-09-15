@@ -7,7 +7,11 @@ import { fill, getDict } from '@/lib/dict'
 import { SITE_URL, SITE_NAME } from '@/lib/site'
 import { destinations, getDestination, getGuide, getRegion, hasGuide, publishedGuides, regionNames } from '@/data'
 import { home } from '@/data/home'
-import { AffiliateBar, Footer, Header } from '@/components/chrome'
+import { getHotelPrice } from '@/data/prices'
+
+// One hotel per price level on the home page
+const FEATURED_HOTELS = ['hotel-victoria-lauberhorn', 'braunbar-hotel-spa', 'hotel-silberhorn', 'hotel-schonegg']
+import { Footer, Header } from '@/components/chrome'
 import { BookingPanel, Container, CtaBand, Faq, JsonLd, PhotoHero, Section, Stats } from '@/components/blocks'
 import { HotelButton, LiveMap, PlaceButton, StayFinder, StickyBookingBar } from '@/components/booking'
 import { Sheet } from '@/components/sheet'
@@ -42,7 +46,10 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
   const wengen = getGuide('wengen')!
   const wengenDest = getDestination('wengen')!
   const wengenName = T(wengenDest.name)
-  const places = destinations.map((x) => ({ value: T(x.name), label: `${T(x.name)} · ${T(regionNames[x.region])}` }))
+  // Published guides first: the button opens their hotel list. Others scroll to the live map.
+  const places = [...destinations]
+    .sort((a, b) => Number(hasGuide(b.slug)) - Number(hasGuide(a.slug)))
+    .map((x) => ({ value: T(x.name), label: `${T(x.name)} · ${T(regionNames[x.region])}`, href: hasGuide(x.slug) ? `${localePath(lang, `/${x.slug}`)}#hotels` : '#map' }))
   const colHead = 'px-4 py-3 text-left font-display text-[17px] font-semibold uppercase tracking-[0.06em] text-ink'
 
   const jsonLd = {
@@ -66,17 +73,16 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
   return (
     <>
       <Header locale={lang} path="/" />
-      <AffiliateBar locale={lang} />
       <main className="flex-1">
         <JsonLd data={jsonLd} />
 
         {/* 1. Hero + search */}
         <PhotoHero photo="/photos/wengen-hero.jpg" alt={T(wengen.hero.caption)} credit={wengen.hero.credit}>
           <div className="text-[13px] font-medium uppercase tracking-[0.08em] text-white/75 md:text-sm">{T({ en: 'Independent guide · 15 destinations', fr: 'Guide indépendant · 15 destinations', de: 'Unabhängiger Reiseführer · 15 Reiseziele' })}</div>
-          <h1 className="m-0 mt-3 max-w-[15ch] font-display text-[48px] font-bold uppercase leading-[0.94] tracking-[0.01em] text-white md:text-[80px] lg:text-[104px]">{T(home.title)}</h1>
-          <p className="mb-0 mt-4 max-w-[62ch] text-lg leading-normal text-white md:mt-6 md:text-xl">{T(home.intro)}</p>
+          <h1 className="m-0 mt-3 font-display text-[48px] font-bold uppercase leading-[0.94] tracking-[0.01em] text-white md:text-[80px] lg:text-[104px]">{T(home.title)}</h1>
+          <p className="mb-0 mt-4 text-lg leading-normal text-white md:mt-6 md:text-xl">{T(home.intro)}</p>
           <BookingPanel>
-            <StayFinder places={places} placement="home-hero" labels={d.booking} lang={lang} />
+            <StayFinder places={places} labels={d.booking} lang={lang} />
           </BookingPanel>
         </PhotoHero>
 
@@ -118,14 +124,14 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
               <h3 className="m-0 font-display text-[36px] font-bold uppercase leading-none text-ink md:text-[48px]">{T(wengen.title)}</h3>
               <p className="mb-0 mt-4 text-lg leading-normal text-ink">{T(wengen.quickAnswer)}</p>
               <ul className="m-0 mt-6 flex list-none flex-col p-0">
-                {wengen.hotels.map((h) => (
+                {wengen.hotels.filter((h) => FEATURED_HOTELS.includes(h.slug)).map((h) => (
                   <li key={h.name} className="flex items-center gap-3 border-t border-rule py-3 md:gap-4">
                     <div className="hatch relative h-12 w-16 shrink-0 overflow-hidden md:h-14 md:w-20">
                       {h.photo && <Image src={h.photo} alt={h.name} fill sizes="80px" className="object-cover" />}
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="truncate font-bold text-ink">{h.name}</div>
-                      <div className="truncate text-[13px] text-muted">{T(h.sector)}</div>
+                      <div className="truncate text-[13px] text-muted">{T(h.sector)}{getHotelPrice('wengen', h.slug)?.all ? ` · ${d.sell.hotels.from} CHF ${getHotelPrice('wengen', h.slug)!.all!.from}` : ''}</div>
                     </div>
                     <div className="w-[108px] shrink-0 md:w-[130px]">
                       <HotelButton hotel={h.name} place={wengenName} label={d.sell.checkPrices} primary={false} />
@@ -143,7 +149,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
 
         {/* 5. Live map */}
         <Section id="map" title={fill(d.sell.liveMap, { place: T({ en: 'the Jungfrau region', fr: 'la région de la Jungfrau', de: 'der Jungfrauregion' }) })} gap="mb-5 md:mb-6">
-          <p className="-mt-2 mb-5 max-w-[70ch] text-[15px] leading-relaxed text-muted">{d.sell.liveMapSub}</p>
+          <p className="-mt-2 mb-5 text-[15px] leading-relaxed text-muted">{d.sell.liveMapSub}</p>
           <LiveMap lat={46.63} lng={7.93} zoom={11} placement="home-map" lang={lang} title={fill(d.sell.hotelsIn, { place: 'Jungfrau' })} loadLabel={d.mapLoad} height={520} />
           <p className="mb-0 mt-3 text-[13px] text-muted md:text-sm">{d.mapNote}</p>
         </Section>

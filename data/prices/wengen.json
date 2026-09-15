@@ -1,0 +1,277 @@
+{
+  "scrapedOn": "2026-09-15",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-06-23",
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "beausite-park-hotel",
+      "bookingName": "Beausite Park Hotel & Spa",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/beausite-park-mountain-spa-wengen-jungfrau.en-gb.html",
+      "address": "Am Wengi, 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": 515,
+        "2027-01-20": 291,
+        "2027-06-23": 717,
+        "2027-07-21": 725,
+        "2027-09-08": 553,
+        "2027-02-17": null
+      },
+      "all": {
+        "from": 291,
+        "avg": 560,
+        "samples": 5
+      },
+      "winter": {
+        "from": 291,
+        "avg": 405,
+        "samples": 2
+      },
+      "summer": {
+        "from": 553,
+        "avg": 665,
+        "samples": 3
+      }
+    },
+    {
+      "slug": "hotel-schonegg",
+      "bookingName": "Hotel Schönegg",
+      "tier": "premium",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/romantik-schapnegg.en-gb.html",
+      "address": "Hotel Schönegg, 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": 361,
+        "2027-01-20": 461,
+        "2027-06-23": 609,
+        "2027-07-21": 580,
+        "2027-09-08": 580,
+        "2027-02-17": null
+      },
+      "all": {
+        "from": 361,
+        "avg": 520,
+        "samples": 5
+      },
+      "winter": {
+        "from": 361,
+        "avg": 410,
+        "samples": 2
+      },
+      "summer": {
+        "from": 580,
+        "avg": 590,
+        "samples": 3
+      }
+    },
+    {
+      "slug": "hotel-silberhorn",
+      "bookingName": "Hotel Silberhorn - Residences & Spa Wengen",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/silberhorn.en-gb.html",
+      "address": "am Bahnhof, 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": 314,
+        "2027-01-20": 482,
+        "2027-06-23": 525,
+        "2027-07-21": 421,
+        "2027-09-08": 315,
+        "2027-02-17": null
+      },
+      "all": {
+        "from": 314,
+        "avg": 410,
+        "samples": 5
+      },
+      "winter": {
+        "from": 314,
+        "avg": 400,
+        "samples": 2
+      },
+      "summer": {
+        "from": 315,
+        "avg": 420,
+        "samples": 3
+      }
+    },
+    {
+      "slug": "hotel-regina",
+      "bookingName": "Hotel Regina",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/regina-wengen.en-gb.html",
+      "address": "Dorfstrasse , 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": 368,
+        "2027-01-20": 368,
+        "2027-02-17": 448,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 368,
+        "avg": 395,
+        "samples": 3
+      },
+      "winter": {
+        "from": 368,
+        "avg": 395,
+        "samples": 3
+      },
+      "summer": null
+    },
+    {
+      "slug": "braunbar-hotel-spa",
+      "bookingName": "Braunbär Hotel & Spa",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sunstar-wengen.en-gb.html",
+      "address": "Wengiboden 1352a  , 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": 276,
+        "2027-01-20": 276,
+        "2027-02-17": 504,
+        "2027-06-23": 404,
+        "2027-07-21": 404,
+        "2027-09-08": 334
+      },
+      "all": {
+        "from": 276,
+        "avg": 365,
+        "samples": 6
+      },
+      "winter": {
+        "from": 276,
+        "avg": 350,
+        "samples": 3
+      },
+      "summer": {
+        "from": 334,
+        "avg": 380,
+        "samples": 3
+      }
+    },
+    {
+      "slug": "hotel-falken",
+      "bookingName": "Historic Hotel Falken",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/falken-wengen.en-gb.html",
+      "address": "Gruebi, 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": null,
+        "2027-01-20": 326,
+        "2027-02-17": null,
+        "2027-06-23": 349,
+        "2027-07-21": 349,
+        "2027-09-08": 333
+      },
+      "all": {
+        "from": 326,
+        "avg": 340,
+        "samples": 4
+      },
+      "winter": {
+        "from": 326,
+        "avg": 325,
+        "samples": 1
+      },
+      "summer": {
+        "from": 333,
+        "avg": 345,
+        "samples": 3
+      }
+    },
+    {
+      "slug": "hotel-victoria-lauberhorn",
+      "bookingName": "Hotel Victoria Lauberhorn Wengen, a Faern Collection Hotel",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/victoria-lauberhorn.en-gb.html",
+      "address": "Dorfstrasse, 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": 261,
+        "2027-01-20": 202,
+        "2027-06-23": 238,
+        "2027-07-21": 256,
+        "2027-02-17": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 202,
+        "avg": 240,
+        "samples": 4
+      },
+      "winter": {
+        "from": 202,
+        "avg": 230,
+        "samples": 2
+      },
+      "summer": {
+        "from": 238,
+        "avg": 245,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "hotel-bellevue",
+      "bookingName": "Hotel Bellevue - Traditional Swiss Hideaway",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/bellevue-wengen.en-gb.html",
+      "address": "Hotel Bellevue, 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": 231,
+        "2027-01-20": 231,
+        "2027-02-17": 231,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 231,
+        "avg": 230,
+        "samples": 3
+      },
+      "winter": {
+        "from": 231,
+        "avg": 230,
+        "samples": 3
+      },
+      "summer": null
+    },
+    {
+      "slug": "grand-hotel-belvedere",
+      "bookingName": "Grand Hotel Belvedere, a Beaumier Hotel",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/belvederekidshotels.en-gb.html",
+      "address": "Galliweidli 1440E, 3823 Wengen, Switzerland",
+      "prices": {
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null,
+        "2027-02-17": null
+      },
+      "all": null,
+      "winter": null,
+      "summer": null
+    }
+  ]
+}

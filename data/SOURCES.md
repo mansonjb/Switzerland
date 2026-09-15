@@ -202,3 +202,19 @@ Retrieved via Wikipedia `pageimages` API (per-language, as specified) then Commo
 - **Männlichen cable car (Wengen side)**: summer 23 May to 25 October 2026, winter 12 December 2026 to 4 April 2027 ([maennlichen.ch timetable](https://www.maennlichen.ch/en/summer/information/timetable.html)).
 - **Wengen to Kleine Scheidegg maintenance closure 2026**: 9 November to 4 December 2026 (jungfraujochtickets.ch via search, unofficial, re-check on jungfrau.ch before November). A 2021 Plattform J article gave 1 Nov to 3 Dec 2021 (older year, not used).
 - **Photos**: 3 public-domain tags confirmed via Commons API (Saas-Fee, St. Moritz, Appenzell). The mockup's wide Wengen photo had no traceable source and was dropped; hero replaced by the CC0 Commons file by Parchaco, cropped 21:9.
+
+---
+
+## Hotels added 15/09/2026 (facts from each official site)
+
+| Hotel | Facts | Source |
+|---|---|---|
+| Hotel Bellevue | built 1890, 34 rooms, seasonal (summer 22 May to 27 Sep 2026, winter 19 Dec 2025 to 22 Mar 2026) | https://www.bellevue-wengen.ch/en/home/ |
+| Hotel Victoria Lauberhorn | since 1897, one minute from station, 1000 m² wellness with indoor pool, open all year | https://www.faernresorts.com/wengen |
+| Braunbär Hotel & Spa | opposite the Männlichen cable car, spa and pool | https://www.braunbaerhotel.com/en/hotel |
+| Hotel Schönegg | founded 1903, renovated 2012, restaurant "1903", centre facing Jungfrau | https://hotel-schoenegg.ch/en/ |
+| Beausite Park Hotel & Spa | established 1898, spa/sauna/pool, free shuttle from station, closed for renovation until 20 Dec | https://www.beausiteparkhotel.ch/en/your-holidays-at-beausite-park-hotel-wengen/ , https://www.beausiteparkhotel.ch/en/contact-arrival/ |
+
+## Hotel prices
+
+`data/prices/wengen.json`: Booking.com via Apify voyager/booking-scraper, scraped 2026-09-15, CHF, 2 adults, 1 room, 1 night, winter dates 2026-12-18 / 2027-01-20 / 2027-02-17, summer dates 2027-06-23 / 2027-07-21 / 2027-09-08. Tiers from average: budget (Bellevue, Victoria Lauberhorn), mid (Falken, Braunbär, Regina, Silberhorn), premium (Schönegg, Beausite Park, Belvédère: no availability on sample dates). Raw aggregated file kept outside the repo.

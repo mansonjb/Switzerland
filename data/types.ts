@@ -18,6 +18,7 @@ export type Destination = {
 }
 
 export type MonthState = 'o' | 'r' | 'x'
+export type Season = 'summer' | 'winter'
 
 export type DestinationGuide = {
   slug: string
@@ -32,7 +33,7 @@ export type DestinationGuide = {
   stats: { value: string; label: L }[]
   hero: { photo: string; caption: L; credit?: PhotoCredit }
   sectors: { title: L; walk: L; text: L; points: L[] }[]
-  hotels: { name: string; url: string; photo?: string; sector: L; facts: L[] }[]
+  hotels: { slug: string; name: string; url: string; photo?: string; sector: L; facts: L[] }[]
   hotelsNote: L
   pass?: {
     title: L
@@ -43,6 +44,8 @@ export type DestinationGuide = {
   }
   calendar?: { title: L; rows: { name: L; months: MonthState[] }[]; note: L }
   practical?: { title: L; items: { title: L; text: L }[] }
+  /** Summer / winter switch: best base in the village and dated facts for each season. */
+  seasons?: Record<Season, { title: L; base: L; facts: { value: string; label: L }[]; note: L }>
   faq: { q: L; a: L }[]
   neighbours: string[]
   updated: string

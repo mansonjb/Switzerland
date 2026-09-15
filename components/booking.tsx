@@ -76,17 +76,19 @@ export type BookingLabels = {
   trust: string
 }
 
-type Place = { value: string; label: string }
+/** href: '#hotels' style anchor on the same page, or a page URL (dates travel with the session). */
+type Place = { value: string; label: string; href: string }
 
-/** Search bar: destination (fixed or select) + dates, opens Stay22 with the dates filled in. */
-export function StayFinder({ places, placement, labels, lang, tone = 'light' }: { places: Place[]; placement: string; labels: BookingLabels; lang: string; tone?: 'light' | 'dark' }) {
+/** Search bar: destination (optional select) + dates. It does not leave the site: it scrolls to the
+ *  hotels (or opens the guide), and the dates then apply to every hotel button and the map. */
+export function StayFinder({ places, labels, lang, tone = 'light' }: { places: Place[]; labels: BookingLabels; lang: string; tone?: 'light' | 'dark' }) {
   const [dates, setDates] = useStayDates()
   const [place, setPlace] = useState(places[0].value)
   const today = iso(new Date())
   const field = 'block w-full border border-ink bg-white px-3 py-3 text-[15px] text-ink outline-none focus:border-swiss'
   const lab = `mb-1 block font-display text-[13px] font-semibold uppercase tracking-[0.08em] ${tone === 'dark' ? 'text-white/80' : 'text-muted'}`
-
-  const href = allezPlaceLink(place, placement, dates)
+  const target = places.find((p) => p.value === place) ?? places[0]
+  const sameAnchor = target.href.startsWith('#')
 
   return (
     <div>
@@ -129,13 +131,19 @@ export function StayFinder({ places, placement, labels, lang, tone = 'light' }: 
           </label>
         </div>
         <a
-          href={href}
-          target="_blank"
-          rel="sponsored nofollow noopener"
+          href={target.href}
+          onClick={(e) => {
+            if (!sameAnchor) return
+            const el = document.getElementById(target.href.slice(1))
+            if (!el) return
+            e.preventDefault()
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            history.replaceState(null, '', target.href)
+          }}
           className="flex items-center justify-center gap-2 bg-swiss px-6 py-3 text-center text-[15px] font-bold text-white no-underline transition-colors hover:bg-swiss-dark md:py-[13px]"
         >
           {labels.search}
-          <span aria-hidden>→</span>
+          <span aria-hidden>{sameAnchor ? '↓' : '→'}</span>
         </a>
       </div>
       <p className={`mb-0 mt-3 text-[13px] ${tone === 'dark' ? 'text-white/80' : 'text-muted'}`}>
@@ -260,6 +268,75 @@ export function StickyBookingBar({ place, placement, title, cta, lang, watchId, 
             ×
           </button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+/* ------------------------------------------------------------------ */
+/* Season: follows the chosen dates (December to April = winter)      */
+/* unless the visitor picks a tab.                                     */
+/* ------------------------------------------------------------------ */
+
+export type Season = 'summer' | 'winter'
+
+const seasonPick = createStore<Season | null>(() => null)
+
+export function seasonOf(d: StayDates | null): Season {
+  if (!d) return 'summer'
+  const m = Number(d.checkin.slice(5, 7))
+  return m === 12 || m <= 4 ? 'winter' : 'summer'
+}
+
+export function useSeason(): [Season, (s: Season) => void] {
+  const [dates] = useStayDates()
+  const picked = useSyncExternalStore(seasonPick.subscribe, seasonPick.get, () => null)
+  return [picked ?? seasonOf(dates), (s: Season) => seasonPick.set(s)]
+}
+
+export function SeasonTabs({ labels, tone = 'light' }: { labels: Record<Season, string>; tone?: 'light' | 'dark' }) {
+  const [season, setSeason] = useSeason()
+  return (
+    <div className={`inline-flex border ${tone === 'dark' ? 'border-white/40' : 'border-ink'}`} role="tablist">
+      {(['summer', 'winter'] as Season[]).map((s) => (
+        <button
+          key={s}
+          type="button"
+          role="tab"
+          aria-selected={season === s}
+          onClick={() => setSeason(s)}
+          className={`cursor-pointer px-4 py-2 font-display text-[15px] font-semibold uppercase tracking-[0.06em] transition-colors ${
+            season === s ? 'bg-ink text-white' : tone === 'dark' ? 'text-white hover:bg-white/10' : 'bg-white text-ink hover:bg-mist'
+          }`}
+        >
+          {s === 'summer' ? '☀ ' : '❄ '}
+          {labels[s]}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+type SeasonContent = { title: string; base: string; facts: { value: string; label: string }[]; note: string }
+
+export function SeasonPanel({ content, baseLabel }: { content: Record<Season, SeasonContent>; baseLabel: string }) {
+  const [season] = useSeason()
+  const c = content[season]
+  return (
+    <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_1.4fr] lg:gap-12" role="tabpanel">
+      <div className={`border-t-4 p-5 md:p-6 ${season === 'winter' ? 'border-ink bg-mist' : 'border-open bg-mist'}`}>
+        <h3 className="m-0 font-display text-[28px] font-bold uppercase leading-none text-ink md:text-[34px]">{c.title}</h3>
+        <div className="mt-4 font-display text-sm font-semibold uppercase tracking-[0.08em] text-muted">{baseLabel}</div>
+        <p className="mb-0 mt-1.5 text-base leading-relaxed text-ink md:text-lg">{c.base}</p>
+      </div>
+      <div className="grid grid-cols-2 gap-x-6 gap-y-5 self-start">
+        {c.facts.map((f, i) => (
+          <div key={i} className="border-t-2 border-ink pt-3">
+            <div className="font-display text-[30px] font-bold leading-none tabular-nums text-ink md:text-[40px]">{f.value}</div>
+            <div className="mt-1.5 text-[14px] leading-snug text-muted md:text-[15px]">{f.label}</div>
+          </div>
+        ))}
+        <p className="col-span-2 m-0 text-[13px] leading-normal text-muted md:text-sm">{c.note}</p>
       </div>
     </div>
   )

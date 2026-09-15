@@ -58,6 +58,11 @@ const HOTELS = [
   { slug: "hotel-silberhorn", name: "Hotel Silberhorn Wengen" },
   { slug: "hotel-falken", name: "Hotel Falken Wengen" },
   { slug: "grand-hotel-belvedere", name: "Grand Hotel Belvédère Wengen" },
+  { slug: "hotel-bellevue", name: "Hotel Bellevue Traditional Swiss Hideaway Wengen" },
+  { slug: "hotel-victoria-lauberhorn", name: "Hotel Victoria Lauberhorn Wengen" },
+  { slug: "braunbar-hotel-spa", name: "Braunbär Hotel Spa Wengen" },
+  { slug: "hotel-schonegg", name: "Hotel Schönegg Wengen" },
+  { slug: "beausite-park-hotel", name: "Beausite Park Hotel Spa Wengen" },
 ];
 
 async function loadToken() {

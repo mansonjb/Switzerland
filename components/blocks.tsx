@@ -12,7 +12,7 @@ export function Container({ children, className = '' }: { children: ReactNode; c
 
 export function Section({ id, title, children, gap = 'mb-6 md:mb-10', aside }: { id?: string; title: string; children: ReactNode; gap?: string; aside?: ReactNode }) {
   return (
-    <section id={id} className="scroll-mt-6 pt-10 md:pt-[104px]">
+    <section id={id} className="scroll-mt-12 pt-10 md:pt-[104px]">
       <Container>
         <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
           <h2 className="m-0 font-display text-[28px] font-semibold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[40px]">{title}</h2>
@@ -208,7 +208,7 @@ export function Faq({ items, locale }: { items: { q: L; a: L }[]; locale: Locale
       {items.map((f, i) => (
         <div key={i} className="grid gap-2 border-b border-rule py-5 md:grid-cols-[420px_1fr] md:gap-10 md:py-6">
           <h3 className="m-0 text-[17px] font-bold leading-[1.4] text-ink md:text-lg">{t(f.q, locale)}</h3>
-          <p className="m-0 max-w-[68ch] text-base leading-relaxed text-ink md:text-[17px]">{t(f.a, locale)}</p>
+          <p className="m-0 text-base leading-relaxed text-ink md:text-[17px]">{t(f.a, locale)}</p>
         </div>
       ))}
     </div>
@@ -257,7 +257,7 @@ export function CtaBand({ title, text, children }: { title: string; text: string
   return (
     <section className="mt-10 bg-ink md:mt-[104px]">
       <Container className="flex flex-col items-start justify-between gap-5 py-10 md:flex-row md:items-center md:gap-10 md:py-14">
-        <div className="max-w-[720px]">
+        <div className="flex-1">
           <h2 className="m-0 font-display text-[28px] font-bold uppercase leading-[1.05] tracking-[0.01em] text-white md:text-[40px]">{title}</h2>
           <p className="mb-0 mt-3 text-base leading-relaxed text-white/80">{text}</p>
         </div>

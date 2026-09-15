@@ -5,7 +5,7 @@ import { LOCALES, hasLocale, languageAlternates, localePath, t, type L } from '@
 import { fill, getDict } from '@/lib/dict'
 import { SITE_URL, SITE_NAME } from '@/lib/site'
 import { getDestination, getRegion, hasGuide, publishedGuides, publishedRegions } from '@/data'
-import { AffiliateBar, Footer, Header } from '@/components/chrome'
+import { Footer, Header } from '@/components/chrome'
 import { BookingPanel, Container, CtaBand, Eyebrow, JsonLd, NetworkLinks, PhotoHero, Section, Squares } from '@/components/blocks'
 import { LiveMap, PlaceButton, StayFinder, StickyBookingBar } from '@/components/booking'
 import { SectionNav } from '@/components/section-nav'
@@ -39,7 +39,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
   const path = `/regions/${slug}`
   const regionName = T(region.name)
   const dests = region.destinations.map((s) => getDestination(s)!)
-  const places = dests.map((x) => ({ value: T(x.name), label: T(x.name) }))
+  const places = dests.map((x) => ({ value: T(x.name), label: T(x.name), href: hasGuide(x.slug) ? `${localePath(lang, `/${x.slug}`)}#hotels` : '#map' }))
   const liveSlugs = publishedGuides().map((g) => g.slug)
   // Best pick per criterion = highest score (ties: first row)
   const best = region.criteria.map((_, k) => {
@@ -65,7 +65,6 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
   return (
     <>
       <Header locale={lang} path={path} />
-      <AffiliateBar locale={lang} />
       <main className="flex-1">
         <JsonLd data={jsonLd} />
 
@@ -77,9 +76,9 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
           </nav>
           <div className="text-[13px] font-medium uppercase tracking-[0.08em] text-white/75 md:text-sm">{T({ en: 'Region', fr: 'Région', de: 'Region' })} · {dests.length} {T({ en: 'bases', fr: 'bases', de: 'Standorte' })}</div>
           <h1 className="m-0 mt-2 font-display text-[44px] font-bold uppercase leading-[0.95] tracking-[0.01em] text-white md:text-[72px] lg:text-[88px]">{regionName}</h1>
-          <p className="mb-0 mt-4 max-w-[62ch] text-lg leading-normal text-white md:text-xl">{T(region.quickAnswer)}</p>
+          <p className="mb-0 mt-4 text-lg leading-normal text-white md:text-xl">{T(region.quickAnswer)}</p>
           <BookingPanel>
-            <StayFinder places={places} placement={`${slug}-hero`} labels={d.booking} lang={lang} />
+            <StayFinder places={places} labels={d.booking} lang={lang} />
           </BookingPanel>
         </PhotoHero>
 
@@ -90,14 +89,14 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
                 <h2 className="m-0 font-display text-[28px] font-semibold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[40px]">{fill(d.sell.liveMap, { place: regionName })}</h2>
-                <p className="mb-0 mt-2 max-w-[70ch] text-[15px] leading-relaxed text-muted">{d.sell.liveMapSub}</p>
+                <p className="mb-0 mt-2 text-[15px] leading-relaxed text-muted">{d.sell.liveMapSub}</p>
               </div>
             </div>
             <div className="mt-5 md:mt-6">
               <LiveMap lat={region.map.lat} lng={region.map.lng} zoom={region.map.zoom} placement={`${slug}-map`} lang={lang} title={fill(d.sell.hotelsIn, { place: regionName })} loadLabel={d.mapLoad} />
             </div>
             <p className="mb-0 mt-3 text-[13px] text-muted md:text-sm">{d.mapNote}</p>
-            <p className="mb-0 mt-6 max-w-[68ch] text-base leading-relaxed text-ink md:text-lg">{T(region.intro)}</p>
+            <p className="mb-0 mt-6 text-base leading-relaxed text-ink md:text-lg">{T(region.intro)}</p>
           </Container>
         </section>
 

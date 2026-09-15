@@ -66,11 +66,11 @@ export const home = {
       } as L,
     },
     {
-      q: { en: 'Why no hotel ratings or prices?', fr: "Pourquoi aucune note ni aucun prix d'hôtel ?", de: 'Warum keine Hotelbewertungen oder Preise?' } as L,
+      q: { en: 'Where do the hotel prices come from?', fr: 'D’où viennent les prix des hôtels ?', de: 'Woher stammen die Hotelpreise?' } as L,
       a: {
-        en: 'Ratings change every week and prices depend on your dates. We publish facts you can check instead: distance to the station, opening periods, services.',
-        fr: 'Les notes changent chaque semaine et les prix dépendent des dates. Nous publions des faits vérifiables : distance à la gare, périodes d’ouverture, services.',
-        de: 'Bewertungen ändern sich wöchentlich und Preise hängen von Ihren Daten ab. Wir veröffentlichen überprüfbare Fakten: Distanz zum Bahnhof, Öffnungszeiten, Leistungen.',
+        en: 'From Booking.com: the lowest and the average nightly rate for 2 adults, seen on several winter and summer dates, with the date they were collected. They are indicative; the live map and the buttons show the real price for your dates. We publish no ratings or reviews.',
+        fr: 'De Booking.com : le tarif le plus bas et la moyenne par nuit pour 2 adultes, relevés sur plusieurs dates d’hiver et d’été, avec la date du relevé. Ils sont indicatifs ; la carte en direct et les boutons donnent le vrai prix pour vos dates. Nous ne publions ni notes ni avis.',
+        de: 'Von Booking.com: der tiefste und der durchschnittliche Nachtpreis für 2 Erwachsene an mehreren Winter- und Sommerdaten, mit Erhebungsdatum. Richtwerte; die Live-Karte und die Schaltflächen zeigen den echten Preis für Ihre Daten. Bewertungen oder Rezensionen veröffentlichen wir nicht.',
       } as L,
     },
     {

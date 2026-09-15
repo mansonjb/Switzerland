@@ -73,21 +73,6 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
   )
 }
 
-export function AffiliateBar({ locale }: { locale: Locale }) {
-  const d = getDict(locale)
-  return (
-    <div className="border-b border-rule bg-paper">
-      <div className="mx-auto max-w-[1280px] px-4 py-2 text-[13px] leading-normal text-muted md:px-8 md:py-2.5 md:text-sm">
-        <span className="md:hidden">{d.affiliateShort} </span>
-        <span className="hidden md:inline">{d.affiliate} </span>
-        <Link href={localePath(locale, '/about')} className="text-muted underline">
-          {d.methodology}
-        </Link>
-      </div>
-    </div>
-  )
-}
-
 export function Footer({ locale }: { locale: Locale }) {
   const d = getDict(locale)
   const regions = publishedRegions()

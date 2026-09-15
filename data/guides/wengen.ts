@@ -8,9 +8,9 @@ export const wengen: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Wengen: areas, hotels, car-free access', fr: 'Où dormir à Wengen : secteurs, hôtels, accès sans voiture', de: 'Wo übernachten in Wengen: Ortsteile, Hotels, autofreie Anreise' },
     description: {
-      en: 'Wengen area by area: the station centre, the Männlichen cable car, the slope above the village. Four hotels with checked facts, Swiss Travel Pass coverage and what closes when.',
-      fr: 'Wengen secteur par secteur : le centre autour de la gare, le téléphérique du Männlichen, le versant au-dessus du village. Quatre hôtels, la couverture du Swiss Travel Pass et ce qui ferme quand.',
-      de: 'Wengen Ortsteil für Ortsteil: Bahnhofszentrum, Männlichenbahn, Hang oberhalb des Dorfes. Vier Hotels mit geprüften Fakten, Swiss Travel Pass und was wann geschlossen ist.',
+      en: 'Wengen area by area: the station centre, the Männlichen cable car, the slope above the village. Nine hotels from budget to top end with dated prices, Swiss Travel Pass coverage and what closes when.',
+      fr: 'Wengen secteur par secteur : le centre autour de la gare, le téléphérique du Männlichen, le versant au-dessus du village. Neuf hôtels du petit budget au haut de gamme, prix datés, la couverture du Swiss Travel Pass et ce qui ferme quand.',
+      de: 'Wengen Ortsteil für Ortsteil: Bahnhofszentrum, Männlichenbahn, Hang oberhalb des Dorfes. Neun Hotels von günstig bis gehoben mit datierten Preisen, Swiss Travel Pass und was wann geschlossen ist.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Lauterbrunnen', fr: 'Oberland bernois · Lauterbrunnen', de: 'Berner Oberland · Lauterbrunnen' },
@@ -95,6 +95,7 @@ export const wengen: DestinationGuide = {
   ],
   hotels: [
     {
+      slug: 'hotel-regina',
       name: 'Hotel Regina',
       photo: '/photos/hotels/hotel-regina.jpg',
       url: 'https://www.hotelregina.ch/en/index',
@@ -106,6 +107,7 @@ export const wengen: DestinationGuide = {
       ],
     },
     {
+      slug: 'hotel-silberhorn',
       name: 'Hotel Silberhorn',
       photo: '/photos/hotels/hotel-silberhorn.jpg',
       url: 'https://www.silberhorn.ch/en',
@@ -117,6 +119,7 @@ export const wengen: DestinationGuide = {
       ],
     },
     {
+      slug: 'hotel-falken',
       name: 'Hotel Falken',
       photo: '/photos/hotels/hotel-falken.jpg',
       url: 'https://www.hotelfalken.com/history',
@@ -128,6 +131,7 @@ export const wengen: DestinationGuide = {
       ],
     },
     {
+      slug: 'grand-hotel-belvedere',
       name: 'Grand Hotel Belvédère',
       photo: '/photos/hotels/grand-hotel-belvedere.jpg',
       url: 'https://www.beaumier.com/en/properties/grand-hotel-belvedere/',
@@ -138,11 +142,70 @@ export const wengen: DestinationGuide = {
         { en: 'Seasonal closure: check dates on the hotel site', fr: "Fermeture saisonnière : dates sur le site de l'hôtel", de: 'Saisonale Schliessung: Daten auf der Hotelwebsite' },
       ],
     },
+    {
+      slug: 'hotel-bellevue',
+      name: 'Hotel Bellevue',
+      url: 'https://www.bellevue-wengen.ch/en/home/',
+      photo: '/photos/hotels/hotel-bellevue.jpg',
+      sector: { en: 'Edge of the village', fr: 'En bordure du village', de: 'Am Dorfrand' },
+      facts: [
+        { en: 'Traditional house built in 1890', fr: 'Maison traditionnelle construite en 1890', de: 'Traditionshaus, erbaut 1890' },
+        { en: '34 rooms', fr: '34 chambres', de: '34 Zimmer' },
+        { en: 'Open in the summer and winter seasons only', fr: 'Ouvert uniquement en saison d’été et d’hiver', de: 'Nur in der Sommer- und Wintersaison geöffnet' },
+      ],
+    },
+    {
+      slug: 'hotel-victoria-lauberhorn',
+      name: 'Hotel Victoria Lauberhorn',
+      url: 'https://www.faernresorts.com/wengen',
+      photo: '/photos/hotels/hotel-victoria-lauberhorn.jpg',
+      sector: { en: 'Around the station', fr: 'Autour de la gare', de: 'Rund um den Bahnhof' },
+      facts: [
+        { en: 'One minute from the station, by the hotel’s own count', fr: 'À une minute de la gare, selon l’hôtel', de: 'Eine Minute vom Bahnhof, laut Hotel' },
+        { en: 'Wellness area of 1000 m² with an indoor pool', fr: 'Espace bien-être de 1000 m² avec piscine intérieure', de: '1000 m² Wellnessbereich mit Hallenbad' },
+        { en: 'Welcoming guests since 1897, open all year', fr: 'Accueille des clients depuis 1897, ouvert toute l’année', de: 'Gäste seit 1897, ganzjährig geöffnet' },
+      ],
+    },
+    {
+      slug: 'braunbar-hotel-spa',
+      name: 'Braunbär Hotel & Spa',
+      url: 'https://www.braunbaerhotel.com/en/hotel',
+      photo: '/photos/hotels/braunbar-hotel-spa.jpg',
+      sector: { en: 'Up the main street', fr: 'En remontant la rue principale', de: 'Die Dorfstrasse hinauf' },
+      facts: [
+        { en: 'Directly opposite the Männlichen cable car', fr: 'Juste en face du téléphérique du Männlichen', de: 'Direkt gegenüber der Männlichenbahn' },
+        { en: 'Spa with a pool', fr: 'Spa avec piscine', de: 'Spa mit Pool' },
+      ],
+    },
+    {
+      slug: 'hotel-schonegg',
+      name: 'Hotel Schönegg',
+      url: 'https://hotel-schoenegg.ch/en/',
+      photo: '/photos/hotels/hotel-schonegg.jpg',
+      sector: { en: 'Village centre', fr: 'Centre du village', de: 'Dorfzentrum' },
+      facts: [
+        { en: 'Founded in 1903, fully renovated in 2012', fr: 'Fondé en 1903, entièrement rénové en 2012', de: 'Gegründet 1903, 2012 komplett renoviert' },
+        { en: 'Facing the Jungfrau massif', fr: 'Face au massif de la Jungfrau', de: 'Gegenüber dem Jungfraumassiv' },
+        { en: 'Restaurant “1903” in the hotel', fr: 'Restaurant « 1903 » dans l’hôtel', de: 'Restaurant «1903» im Haus' },
+      ],
+    },
+    {
+      slug: 'beausite-park-hotel',
+      name: 'Beausite Park Hotel & Spa',
+      url: 'https://www.beausiteparkhotel.ch/en/',
+      photo: '/photos/hotels/beausite-park-hotel.jpg',
+      sector: { en: 'Free shuttle from the station', fr: 'Navette gratuite depuis la gare', de: 'Gratis Shuttle ab Bahnhof' },
+      facts: [
+        { en: 'Established in 1898', fr: 'Fondé en 1898', de: 'Gegründet 1898' },
+        { en: 'Spa with sauna and pool', fr: 'Spa avec sauna et piscine', de: 'Spa mit Sauna und Pool' },
+        { en: 'Closed for renovation, reopening on 20 December per the hotel', fr: 'Fermé pour rénovation, réouverture le 20 décembre selon l’hôtel', de: 'Wegen Renovierung geschlossen, Wiedereröffnung am 20. Dezember laut Hotel' },
+      ],
+    },
   ],
   hotelsNote: {
-    en: 'Facts taken from each hotel’s own website on 15 September 2026. No prices, ratings or reviews on this guide. Hotels set their own seasonal closing dates.',
-    fr: "Faits relevés sur le site de chaque hôtel le 15 septembre 2026. Aucun prix, aucune note, aucun avis sur ce guide. Chaque hôtel fixe ses propres dates de fermeture.",
-    de: 'Fakten von der Website des jeweiligen Hotels, Stand 15. September 2026. Keine Preise, Bewertungen oder Rezensionen. Jedes Hotel legt seine Schliessungsdaten selbst fest.',
+    en: 'Facts taken from each hotel’s own website on 15 September 2026. No ratings or reviews on this guide. Hotels set their own seasonal closing dates.',
+    fr: "Faits relevés sur le site de chaque hôtel le 15 septembre 2026. Aucune note ni aucun avis sur ce guide. Chaque hôtel fixe ses propres dates de fermeture.",
+    de: 'Fakten von der Website des jeweiligen Hotels, Stand 15. September 2026. Keine Bewertungen oder Rezensionen. Jedes Hotel legt seine Schliessungsdaten selbst fest.',
   },
   pass: {
     title: { en: 'Swiss Travel Pass, on the way up', fr: 'Swiss Travel Pass, dans la montée', de: 'Swiss Travel Pass, auf dem Weg nach oben' },
@@ -171,9 +234,9 @@ export const wengen: DestinationGuide = {
       { name: { en: 'Wengen to Männlichen cable car', fr: 'Téléphérique Wengen → Männlichen', de: 'Luftseilbahn Wengen → Männlichen' }, months: ['o', 'o', 'o', 'r', 'r', 'o', 'o', 'o', 'o', 'r', 'x', 'r'] },
     ],
     note: {
-      en: '2026 and start of winter 2026/27. Männlichen cable car: winter season until early April, summer season 23 May to 25 October 2026, winter from 12 December 2026. Wengen to Kleine Scheidegg: annual maintenance closure, announced for 9 November to 4 December 2026. Hotels and restaurants set their own dates: many close roughly from mid-April to late May and in November.',
-      fr: "2026 et début de l'hiver 2026/27. Téléphérique du Männlichen : saison d'hiver jusqu'à début avril, saison d'été du 23 mai au 25 octobre 2026, hiver à partir du 12 décembre 2026. Wengen → Kleine Scheidegg : fermeture annuelle pour entretien, annoncée du 9 novembre au 4 décembre 2026. Hôtels et restaurants fixent leurs propres dates : beaucoup ferment environ de mi-avril à fin mai et en novembre.",
-      de: '2026 und Beginn des Winters 2026/27. Männlichenbahn: Wintersaison bis Anfang April, Sommersaison 23. Mai bis 25. Oktober 2026, Winter ab 12. Dezember 2026. Wengen → Kleine Scheidegg: jährlicher Revisionsunterbruch, angekündigt vom 9. November bis 4. Dezember 2026. Hotels und Restaurants legen ihre Daten selbst fest: viele schliessen etwa von Mitte April bis Ende Mai und im November.',
+      en: '2026 and start of winter 2026/27. Männlichen cable car: winter season until early April, summer season 23 May to 25 October 2026, winter from 12 December 2026. Wengen to Kleine Scheidegg: annual maintenance break around November, exact 2026 dates not yet published by the operator. Hotels and restaurants set their own dates: many close roughly from mid-April to late May and in November.',
+      fr: "2026 et début de l'hiver 2026/27. Téléphérique du Männlichen : saison d'hiver jusqu'à début avril, saison d'été du 23 mai au 25 octobre 2026, hiver à partir du 12 décembre 2026. Wengen → Kleine Scheidegg : pause annuelle d'entretien vers novembre, dates 2026 pas encore publiées par l'exploitant. Hôtels et restaurants fixent leurs propres dates : beaucoup ferment environ de mi-avril à fin mai et en novembre.",
+      de: '2026 und Beginn des Winters 2026/27. Männlichenbahn: Wintersaison bis Anfang April, Sommersaison 23. Mai bis 25. Oktober 2026, Winter ab 12. Dezember 2026. Wengen → Kleine Scheidegg: jährliche Revisionspause um November, genaue Daten 2026 vom Betreiber noch nicht veröffentlicht. Hotels und Restaurants legen ihre Daten selbst fest: viele schliessen etwa von Mitte April bis Ende Mai und im November.',
     },
   },
   practical: {
@@ -212,6 +275,46 @@ export const wengen: DestinationGuide = {
         },
       },
     ],
+  },
+  seasons: {
+    winter: {
+      title: { en: 'Winter in Wengen', fr: 'L’hiver à Wengen', de: 'Winter in Wengen' },
+      base: {
+        en: 'Skiers do best near the station or up the main street: the Männlichen cable car and the Wengernalp train to Wengernalp and Kleine Scheidegg both lead into the Grindelwald-Wengen ski area.',
+        fr: 'Pour skier, visez les abords de la gare ou le haut de la rue principale : le téléphérique du Männlichen et le train de la Wengernalp vers Wengernalp et la Kleine Scheidegg mènent tous deux au domaine Grindelwald-Wengen.',
+        de: 'Skifahrer wohnen am besten beim Bahnhof oder die Dorfstrasse hinauf: Männlichenbahn und Wengernalpbahn nach Wengernalp und Kleine Scheidegg führen beide ins Skigebiet Grindelwald-Wengen.',
+      },
+      facts: [
+        { value: '103 km', label: { en: 'of pistes in the Grindelwald-Wengen ski area', fr: 'de pistes sur le domaine Grindelwald-Wengen', de: 'Pisten im Skigebiet Grindelwald-Wengen' } },
+        { value: '12.12 → 4.4', label: { en: 'Männlichen cable car, winter 2026/27', fr: 'téléphérique du Männlichen, hiver 2026/27', de: 'Männlichenbahn, Winter 2026/27' } },
+        { value: '15-17.1', label: { en: 'Lauberhorn World Cup races 2027, finish at Innerwengen', fr: 'courses de Coupe du monde du Lauberhorn 2027, arrivée à Innerwengen', de: 'Lauberhorn-Weltcuprennen 2027, Ziel in Innerwengen' } },
+        { value: '4.5 km', label: { en: 'Fox Run sledge run from Wengernalp', fr: 'piste de luge Fox Run depuis Wengernalp', de: 'Schlittelbahn Fox Run ab Wengernalp' } },
+      ],
+      note: {
+        en: 'Lauberhorn tickets go on sale on 2 November 2026 on lauberhorn.ch. Sources: wengen.swiss, maennlichen.ch, lauberhorn.ch, checked 15 September 2026.',
+        fr: 'Billets du Lauberhorn en vente dès le 2 novembre 2026 sur lauberhorn.ch. Sources : wengen.swiss, maennlichen.ch, lauberhorn.ch, vérifiées le 15 septembre 2026.',
+        de: 'Lauberhorn-Tickets ab 2. November 2026 auf lauberhorn.ch. Quellen: wengen.swiss, maennlichen.ch, lauberhorn.ch, geprüft am 15. September 2026.',
+      },
+    },
+    summer: {
+      title: { en: 'Summer in Wengen', fr: 'L’été à Wengen', de: 'Sommer in Wengen' },
+      base: {
+        en: 'Hikers do best up the main street, a few steps from the Männlichen cable car for the ridge walks. For day trips down the valley, stay around the station.',
+        fr: 'Pour randonner, le haut de la rue principale, à deux pas du téléphérique du Männlichen et des chemins de crête. Pour les excursions dans la vallée, restez près de la gare.',
+        de: 'Wanderer wohnen am besten die Dorfstrasse hinauf, nah an der Männlichenbahn und den Gratwegen. Für Ausflüge ins Tal bleibt man beim Bahnhof.',
+      },
+      facts: [
+        { value: '23.5 → 25.10', label: { en: 'Männlichen cable car, summer 2026', fr: 'téléphérique du Männlichen, été 2026', de: 'Männlichenbahn, Sommer 2026' } },
+        { value: '30 min', label: { en: 'Royal Walk on the Männlichen, 120 m climb', fr: 'Royal Walk au Männlichen, 120 m de montée', de: 'Royal Walk auf dem Männlichen, 120 m Aufstieg' } },
+        { value: '40 × 20 m', label: { en: 'outdoor pool in Wengen, open in summer since 1931', fr: 'piscine en plein air de Wengen, ouverte l’été depuis 1931', de: 'Freibad Wengen, im Sommer offen seit 1931' } },
+        { value: '2222 m', label: { en: 'Männlichen top station, start of the panorama trail to Kleine Scheidegg', fr: 'gare du Männlichen, départ du sentier panoramique vers la Kleine Scheidegg', de: 'Bergstation Männlichen, Start des Panoramawegs zur Kleinen Scheidegg' } },
+      ],
+      note: {
+        en: 'Summer 2027 lift dates are not published yet. Sources: wengen.swiss, maennlichen.ch, checked 15 September 2026.',
+        fr: 'Les dates des remontées pour l’été 2027 ne sont pas encore publiées. Sources : wengen.swiss, maennlichen.ch, vérifiées le 15 septembre 2026.',
+        de: 'Die Bahndaten für Sommer 2027 sind noch nicht veröffentlicht. Quellen: wengen.swiss, maennlichen.ch, geprüft am 15. September 2026.',
+      },
+    },
   },
   faq: [
     {
