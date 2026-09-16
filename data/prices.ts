@@ -6,6 +6,7 @@ import lauterbrunnen from './prices/lauterbrunnen.json'
 import interlaken from './prices/interlaken.json'
 import zermatt from './prices/zermatt.json'
 import saasFee from './prices/saas-fee.json'
+import verbier from './prices/verbier.json'
 
 /** Real nightly prices scraped from Booking.com on dated samples (2 adults, 1 room, 1 night).
  *  Regenerate with scripts/scrape-booking-prices.mjs, never edit numbers by hand. */
@@ -21,6 +22,7 @@ const FILES: Record<string, PriceFile> = {
   interlaken: interlaken as unknown as PriceFile,
   zermatt: zermatt as unknown as PriceFile,
   'saas-fee': saasFee as unknown as PriceFile,
+  verbier: verbier as unknown as PriceFile,
 }
 
 export const getPriceFile = (destination: string): PriceFile | undefined => FILES[destination]

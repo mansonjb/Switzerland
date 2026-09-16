@@ -1,0 +1,134 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "verbier-w-verbier",
+      "bookingName": "W Verbier",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/w-verbier.en-gb.html",
+      "address": "Rue De Médran 70, 1936 Verbier, Switzerland",
+      "prices": {
+        "2026-12-18": 1307,
+        "2027-02-17": 1857,
+        "2027-07-21": 777,
+        "2027-01-20": 1357
+      },
+      "all": {
+        "from": 777,
+        "avg": 1325,
+        "samples": 4
+      },
+      "winter": {
+        "from": 1307,
+        "avg": 1505,
+        "samples": 3
+      },
+      "summer": {
+        "from": 777,
+        "avg": 775,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "verbier-vanessa",
+      "bookingName": "Hôtel Vanessa",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/vanessa.en-gb.html",
+      "address": "Ch. des Vernes 1, 1936 Verbier, Switzerland",
+      "prices": {
+        "2027-01-20": 563
+      },
+      "all": {
+        "from": 563,
+        "avg": 565,
+        "samples": 1
+      },
+      "winter": {
+        "from": 563,
+        "avg": 565,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "verbier-bristol",
+      "bookingName": "Hotel Bristol Verbier",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/bristol-verbier-verbier.en-gb.html",
+      "address": "Route des Creux 4, 1936 Verbier, Switzerland",
+      "prices": {
+        "2027-01-20": 307
+      },
+      "all": {
+        "from": 307,
+        "avg": 305,
+        "samples": 1
+      },
+      "winter": {
+        "from": 307,
+        "avg": 305,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "verbier-chalet-adrien",
+      "bookingName": "Chalet d'Adrien",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/chalet-d-adrien.en-gb.html",
+      "address": "Route des Creux 91, 1936 Verbier, Switzerland",
+      "prices": {
+        "2027-01-20": 788
+      },
+      "all": {
+        "from": 788,
+        "avg": 790,
+        "samples": 1
+      },
+      "winter": {
+        "from": 788,
+        "avg": 790,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "verbier-cordee-des-alpes",
+      "bookingName": "La Cordée des Alpes SUP",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/la-cordee-des-alpes.en-gb.html",
+      "address": "Route du Centre Sportif 24, 1936 Verbier, Switzerland",
+      "prices": {
+        "2027-01-20": 422
+      },
+      "all": {
+        "from": 422,
+        "avg": 420,
+        "samples": 1
+      },
+      "winter": {
+        "from": 422,
+        "avg": 420,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}
