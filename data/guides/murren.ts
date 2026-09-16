@@ -279,6 +279,117 @@ export const murren: DestinationGuide = {
       },
     },
   },
+  doing: {
+    title: { en: 'What to do in Mürren', fr: 'Que faire à Mürren', de: 'Was man in Mürren unternimmt' },
+    intro: {
+      en: 'Not a trail guide: a handful of named places from the Schilthorn company and the tourist office, to see what a day here looks like.',
+      fr: 'Pas un guide de randonnée : une poignée de lieux nommés, repris de la compagnie du Schilthorn et de l’office du tourisme, pour voir à quoi ressemble une journée ici.',
+      de: 'Kein Wanderführer: eine Handvoll benannter Orte von der Schilthornbahn und vom Tourismusbüro, damit Sie sehen, wie ein Tag hier aussieht.',
+    },
+    groups: [
+      {
+        kind: 'walk',
+        title: { en: 'Two signposted walks from the village', fr: 'Deux marches balisées depuis le village', de: 'Zwei markierte Wanderungen ab dem Dorf' },
+        items: [
+          {
+            name: 'Northface Trail',
+            meta: { en: '2 h 30 · medium · 12 information boards', fr: '2 h 30 · moyen · 12 panneaux d’information', de: '2 Std. 30 · mittel · 12 Infotafeln' },
+            text: {
+              en: 'A loop that leaves from the Schilthorn cable car station in Mürren and comes back down from Allmendhubel by funicular. The Schilthorn company gives 2 h 30 at medium difficulty, with twelve panels on the history of these mountains.',
+              fr: 'Une boucle qui part de la station du téléphérique du Schilthorn à Mürren et redescend de l’Allmendhubel en funiculaire. La compagnie du Schilthorn annonce 2 h 30 de difficulté moyenne, avec douze panneaux sur l’histoire de ces montagnes.',
+              de: 'Eine Runde ab der Schilthornbahn-Station in Mürren, zurück vom Allmendhubel mit der Standseilbahn. Die Schilthornbahn gibt 2 Std. 30 bei mittlerer Schwierigkeit an, mit zwölf Tafeln zur Geschichte dieser Berge.',
+            },
+          },
+          {
+            name: { en: 'Mountain View Trail, Allmendhubel to Grütschalp', fr: 'Mountain View Trail, de l’Allmendhubel à Grütschalp', de: 'Mountain View Trail, Allmendhubel bis Grütschalp' },
+            meta: { en: '2 h · medium', fr: '2 h · moyen', de: '2 Std. · mittel' },
+            text: {
+              en: 'Alpine meadows and forest facing the Eiger, Mönch and Jungfrau, ending at Grütschalp where the mountain train takes you back to Mürren.',
+              fr: 'Alpages et forêt face à l’Eiger, au Mönch et à la Jungfrau, avec arrivée à Grütschalp où le train de montagne ramène à Mürren.',
+              de: 'Alpweiden und Wald mit Blick auf Eiger, Mönch und Jungfrau, bis Grütschalp, wo die Bergbahn zurück nach Mürren fährt.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'ride',
+        title: { en: 'The cable car at the end of the lane', fr: 'Le téléphérique au bout de la rue', de: 'Die Bahn am Ende der Gasse' },
+        items: [
+          {
+            name: 'Schilthorn, Piz Gloria',
+            meta: { en: '2970 m · revolving restaurant', fr: '2970 m · restaurant tournant', de: '2970 m · Drehrestaurant' },
+            text: {
+              en: 'Two cable car sections above the village lead to the 360 degree restaurant at 2970 m, with the viewing terraces and the Bond exhibition at the top.',
+              fr: 'Deux tronçons de téléphérique au-dessus du village mènent au restaurant à 360 degrés à 2970 m, avec les terrasses panoramiques et l’exposition Bond au sommet.',
+              de: 'Zwei Bahnsektionen über dem Dorf führen zum 360-Grad-Restaurant auf 2970 m, mit Aussichtsterrassen und der Bond-Ausstellung.',
+            },
+          },
+          {
+            name: { en: 'Birg and the Thrill Walk', fr: 'Birg et le Thrill Walk', de: 'Birg und der Thrill Walk' },
+            meta: { en: '2677 m', fr: '2677 m', de: '2677 m' },
+            text: {
+              en: 'The middle station at 2677 m, where a walkway is fixed to the vertical rock below the platform. You can stop there on the way up or down.',
+              fr: 'La station intermédiaire à 2677 m, où une passerelle est fixée à la paroi verticale sous la plateforme. On peut s’y arrêter à la montée comme à la descente.',
+              de: 'Die Mittelstation auf 2677 m, wo ein Steg an der senkrechten Wand unter der Plattform hängt. Halt auf dem Weg hinauf oder hinunter möglich.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'local',
+        title: { en: 'Small things that fill a half day', fr: 'De quoi remplir une demi-journée', de: 'Kleines für einen halben Tag' },
+        items: [
+          {
+            name: { en: 'Allmendhubel flower trail', fr: 'Le sentier des fleurs de l’Allmendhubel', de: 'Der Blumenweg auf dem Allmendhubel' },
+            meta: { en: '20 min · circular · pushchairs', fr: '20 min · en boucle · poussettes', de: '20 Min. · Rundweg · Kinderwagen' },
+            text: {
+              en: 'A short circuit at the top of the funicular, with up to 150 different mountain flowers in summer, next to the panorama restaurant, the playground and the water maze.',
+              fr: 'Un petit circuit au sommet du funiculaire, avec jusqu’à 150 fleurs de montagne différentes en été, à côté du restaurant panoramique, de la place de jeux et du labyrinthe d’eau.',
+              de: 'Ein kurzer Rundweg oben an der Standseilbahn, im Sommer mit bis zu 150 verschiedenen Bergblumen, neben Panoramarestaurant, Spielplatz und Wasserlabyrinth.',
+            },
+          },
+          {
+            name: { en: 'The Alpine Sports Centre', fr: 'Le centre sportif alpin', de: 'Das Alpine Sportzentrum' },
+            meta: { en: 'indoor pool, 25 by 11 m', fr: 'piscine intérieure de 25 sur 11 m', de: 'Hallenbad, 25 auf 11 m' },
+            text: {
+              en: 'The village sports centre at Höhematte, the answer to a grey afternoon. Some hotels include entry for their guests.',
+              fr: 'Le centre sportif du village à Höhematte, la solution d’un après-midi gris. Certains hôtels en offrent l’entrée à leurs clients.',
+              de: 'Das Sportzentrum an der Höhematte, die Antwort auf einen grauen Nachmittag. Einige Hotels bieten ihren Gästen den Eintritt an.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'table',
+        title: { en: 'Two tables in the village', fr: 'Deux tables au village', de: 'Zwei Adressen zum Essen' },
+        items: [
+          {
+            name: 'Stägerstübli',
+            meta: { en: 'Swiss cooking, centre of the village', fr: 'cuisine suisse, au centre du village', de: 'Schweizer Küche, im Dorfzentrum' },
+            text: {
+              en: 'A small family run dining room in the middle of Mürren, listed by the tourist office among the village restaurants.',
+              fr: 'Une petite salle familiale au milieu de Mürren, inscrite par l’office du tourisme parmi les restaurants du village.',
+              de: 'Eine kleine, familiär geführte Stube mitten in Mürren, vom Tourismusbüro unter den Dorfrestaurants aufgeführt.',
+            },
+          },
+          {
+            name: 'Tham’s Snack',
+            meta: { en: 'Asian', fr: 'asiatique', de: 'asiatisch' },
+            text: {
+              en: 'Spring rolls, rice dishes and noodle soups, the quick option when you come down off the mountain.',
+              fr: 'Rouleaux de printemps, plats de riz et soupes de nouilles, l’option rapide en redescendant de la montagne.',
+              de: 'Frühlingsrollen, Reisgerichte und Nudelsuppen, die schnelle Variante nach der Rückkehr vom Berg.',
+            },
+          },
+        ],
+      },
+    ],
+    note: {
+      en: 'Times, seasons and figures come from the Schilthorn company and the Mürren tourist office, checked on 16 September 2026. We publish no ratings and no route descriptions: check conditions on the spot before you set off.',
+      fr: 'Durées, saisons et chiffres viennent de la compagnie du Schilthorn et de l’office du tourisme de Mürren, vérifiés le 16 septembre 2026. Nous ne publions ni notes ni descriptifs d’itinéraires : renseignez-vous sur place avant de partir.',
+      de: 'Zeiten, Saisons und Zahlen stammen von der Schilthornbahn und vom Tourismusbüro Mürren, geprüft am 16. September 2026. Wir veröffentlichen keine Bewertungen und keine Routenbeschreibungen: Erkundigen Sie sich vor Ort, bevor Sie losgehen.',
+    },
+  },
   faq: [
     {
       q: { en: 'Is Mürren really car-free?', fr: 'Mürren est-il vraiment sans voiture ?', de: 'Ist Mürren wirklich autofrei?' },

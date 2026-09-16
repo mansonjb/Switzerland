@@ -202,6 +202,41 @@ function Legend({ swatch, label }: { swatch: string; label: string }) {
   )
 }
 
+/** What to do: named walks, mountain rides, local things and tables. Never a trail guide. */
+export function ThingsToDo({ doing, locale }: { doing: NonNullable<DestinationGuide['doing']>; locale: Locale }) {
+  const d = getDict(locale)
+  return (
+    <div>
+      <p className="mb-0 mt-0 max-w-none text-base leading-relaxed text-ink md:text-lg">{t(doing.intro, locale)}</p>
+      <div className="mt-7 grid gap-x-8 gap-y-8 md:mt-10 md:grid-cols-2 md:gap-y-12">
+        {doing.groups.map((g, i) => (
+          <div key={i} className="min-w-0 border-t-2 border-ink pt-3.5 md:pt-5">
+            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+              <span className="bg-swiss px-2 py-1 font-display text-xs font-semibold uppercase tracking-[0.08em] text-white">{d.sell.doing.kinds[g.kind]}</span>
+              <h3 className="m-0 font-display text-[22px] font-bold uppercase tracking-[0.01em] text-ink md:text-[26px]">{t(g.title, locale)}</h3>
+            </div>
+            <ul className="m-0 mt-4 flex list-none flex-col gap-4 p-0 md:gap-5">
+              {g.items.map((it, k) => (
+                <li key={k} className="flex gap-3 border-b border-rule pb-4 last:border-0 last:pb-0">
+                  <span className="mt-[9px] size-[7px] shrink-0 bg-ink" aria-hidden />
+                  <div className="min-w-0">
+                    <div className="flex flex-wrap items-baseline gap-x-3">
+                      <span className="text-[17px] font-bold leading-snug text-ink">{typeof it.name === 'string' ? it.name : t(it.name, locale)}</span>
+                      {it.meta && <span className="text-[13px] tabular-nums text-muted md:text-sm">{t(it.meta, locale)}</span>}
+                    </div>
+                    <p className="mb-0 mt-1.5 text-[15px] leading-relaxed text-ink">{t(it.text, locale)}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <p className="mb-0 mt-6 border-t border-rule pt-4 text-[13px] leading-normal text-muted md:text-sm">{t(doing.note, locale)}</p>
+    </div>
+  )
+}
+
 export function Faq({ items, locale }: { items: { q: L; a: L }[]; locale: Locale }) {
   return (
     <div>

@@ -239,6 +239,117 @@ export const grindelwald: DestinationGuide = {
       },
     },
   },
+  doing: {
+    title: { en: 'What to do in Grindelwald', fr: 'Que faire à Grindelwald', de: 'Was man in Grindelwald unternimmt' },
+    intro: {
+      en: 'Not a trail guide: a few named places from Grindelwald tourism and the railway companies, enough to plan two or three days.',
+      fr: 'Pas un guide de randonnée : quelques lieux nommés, repris de l’office du tourisme de Grindelwald et des compagnies de chemin de fer, de quoi organiser deux ou trois jours.',
+      de: 'Kein Wanderführer: ein paar benannte Orte von Grindelwald Tourismus und den Bahnen, genug für zwei bis drei Tage.',
+    },
+    groups: [
+      {
+        kind: 'walk',
+        title: { en: 'Two walks with a mountain in front of you', fr: 'Deux marches face à la montagne', de: 'Zwei Wanderungen mit Bergblick' },
+        items: [
+          {
+            name: { en: 'First to Bachalpsee', fr: 'Du First au Bachalpsee', de: 'Vom First zum Bachalpsee' },
+            meta: { en: 'about 1 h from the top station', fr: 'environ 1 h depuis la station supérieure', de: 'rund 1 Std. ab der Bergstation' },
+            text: {
+              en: 'The lake that mirrors the peaks on a still morning, on a well kept path. The Jungfrau railways give it as under an hour from the First station, and the same path brings you back.',
+              fr: 'Le lac qui reflète les sommets par un matin calme, sur un chemin bien entretenu. Les chemins de fer de la Jungfrau annoncent moins d’une heure depuis la station de First, et l’on revient par le même chemin.',
+              de: 'Der See, der an einem windstillen Morgen die Gipfel spiegelt, auf einem gut unterhaltenen Weg. Die Jungfraubahnen geben weniger als eine Stunde ab der Station First an, zurück auf demselben Weg.',
+            },
+          },
+          {
+            name: { en: 'Eiger Trail, Eigergletscher to Alpiglen', fr: 'Eiger Trail, d’Eigergletscher à Alpiglen', de: 'Eiger Trail, Eigergletscher bis Alpiglen' },
+            meta: { en: '6.09 km · 2 h · 773 m of descent', fr: '6,09 km · 2 h · 773 m de descente', de: '6,09 km · 2 Std. · 773 m Abstieg' },
+            text: {
+              en: 'Straight under the north face, from the Eigergletscher station down to Alpiglen, where the Wengernalpbahn takes you back. Grindelwald tourism gives 6.09 km, two hours, 69 m of climb and 773 m of descent.',
+              fr: 'Juste sous la face nord, de la station d’Eigergletscher jusqu’à Alpiglen, d’où le Wengernalpbahn ramène. L’office du tourisme de Grindelwald annonce 6,09 km, deux heures, 69 m de montée et 773 m de descente.',
+              de: 'Direkt unter der Nordwand, von der Station Eigergletscher hinunter nach Alpiglen, von dort zurück mit der Wengernalpbahn. Grindelwald Tourismus gibt 6,09 km, zwei Stunden, 69 m Aufstieg und 773 m Abstieg an.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'ride',
+        title: { en: 'The lifts from the village', fr: 'Les remontées depuis le village', de: 'Die Bahnen ab dem Dorf' },
+        items: [
+          {
+            name: { en: 'Grindelwald-First and the First Cliff Walk', fr: 'Grindelwald-First et le First Cliff Walk', de: 'Grindelwald-First und der First Cliff Walk' },
+            meta: { en: 'footbridge of 45 m', fr: 'passerelle de 45 m', de: 'Steg von 45 m' },
+            text: {
+              en: 'At the top station a 45 metre footbridge is fixed to the cliff, and the path to Bachalpsee starts just behind it.',
+              fr: 'À la station supérieure, une passerelle de 45 mètres est fixée à la falaise, et le chemin du Bachalpsee part juste derrière.',
+              de: 'An der Bergstation hängt ein 45 Meter langer Steg an der Felswand, und gleich dahinter beginnt der Weg zum Bachalpsee.',
+            },
+          },
+          {
+            name: 'Pfingstegg',
+            meta: { en: '1028 m to 1391 m · summer toboggan run', fr: 'de 1028 m à 1391 m · luge d’été', de: 'von 1028 m auf 1391 m · Sommerrodelbahn' },
+            text: {
+              en: 'A short cable car straight above the village, from 1028 m to 1391 m, with a summer toboggan run that Grindelwald tourism gives as 736 metres long.',
+              fr: 'Un petit téléphérique juste au-dessus du village, de 1028 m à 1391 m, avec une piste de luge d’été que l’office du tourisme annonce à 736 mètres.',
+              de: 'Eine kurze Luftseilbahn direkt über dem Dorf, von 1028 m auf 1391 m, mit einer Sommerrodelbahn, die Grindelwald Tourismus mit 736 Metern angibt.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'local',
+        title: { en: 'When the weather turns', fr: 'Quand le temps tourne', de: 'Wenn das Wetter kippt' },
+        items: [
+          {
+            name: { en: 'The Glacier Gorge', fr: 'La gorge du glacier', de: 'Die Gletscherschlucht' },
+            meta: { en: 'May to 21 November', fr: 'de mai au 21 novembre', de: 'Mai bis 21. November' },
+            text: {
+              en: 'Walkways inside the gorge cut by the Lower Grindelwald glacier, between rock faces 300 metres high, with a walkable web of 170 m² strung across the gap.',
+              fr: 'Des passerelles à l’intérieur de la gorge creusée par le glacier inférieur de Grindelwald, entre des parois de 300 mètres, avec une toile praticable de 170 m² tendue au-dessus du vide.',
+              de: 'Stege in der Schlucht, die der Untere Grindelwaldgletscher gegraben hat, zwischen 300 Meter hohen Wänden, mit einem begehbaren Netz von 170 m² über dem Abgrund.',
+            },
+          },
+          {
+            name: { en: 'The village on a wet day', fr: 'Le village un jour de pluie', de: 'Das Dorf an einem Regentag' },
+            meta: { en: 'the gorge stays open in the rain', fr: 'la gorge reste praticable sous la pluie', de: 'die Schlucht bleibt auch bei Regen offen' },
+            text: {
+              en: 'Grindelwald tourism presents the gorge as an outing for all weathers, which makes it the fallback when the peaks are in cloud and the lifts are not worth the fare.',
+              fr: 'L’office du tourisme présente la gorge comme une sortie par tous les temps, ce qui en fait le repli quand les sommets sont dans les nuages et que les remontées ne valent pas leur prix.',
+              de: 'Grindelwald Tourismus beschreibt die Schlucht als Ausflug bei jedem Wetter, also die Ausweichlösung, wenn die Gipfel in den Wolken stecken und sich die Bergfahrt nicht lohnt.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'table',
+        title: { en: 'Where to eat', fr: 'Où manger', de: 'Wo essen' },
+        items: [
+          {
+            name: 'Onkel Tom’s Hütte',
+            meta: { en: 'Italian · Dorfstrasse 194', fr: 'italien · Dorfstrasse 194', de: 'italienisch · Dorfstrasse 194' },
+            text: {
+              en: 'A very small dining room on the main street, Italian cooking, on the tourist office list. Few tables, so book ahead in season.',
+              fr: 'Une toute petite salle sur la rue principale, cuisine italienne, dans la liste de l’office du tourisme. Peu de tables : réservez en saison.',
+              de: 'Eine sehr kleine Stube an der Hauptstrasse, italienische Küche, auf der Liste des Tourismusbüros. Wenige Tische, in der Saison also reservieren.',
+            },
+          },
+          {
+            name: 'Berggasthaus First',
+            meta: { en: 'at the top station, 2166 m', fr: 'à la station supérieure, 2166 m', de: 'an der Bergstation, 2166 m' },
+            text: {
+              en: 'The mountain guest house at the arrival of the First gondola, the obvious stop before or after the walk to Bachalpsee.',
+              fr: 'L’auberge de montagne à l’arrivée de la télécabine de First, l’arrêt évident avant ou après la marche du Bachalpsee.',
+              de: 'Das Berggasthaus an der Ankunft der First-Bahn, der naheliegende Halt vor oder nach der Wanderung zum Bachalpsee.',
+            },
+          },
+        ],
+      },
+    ],
+    note: {
+      en: 'Times, seasons and figures come from Grindelwald tourism, the Jungfrau railways and the Pfingstegg cableway, checked on 16 September 2026. We publish no ratings and no route descriptions: check conditions on the spot before you set off.',
+      fr: 'Durées, saisons et chiffres viennent de l’office du tourisme de Grindelwald, des chemins de fer de la Jungfrau et du téléphérique de Pfingstegg, vérifiés le 16 septembre 2026. Nous ne publions ni notes ni descriptifs d’itinéraires : renseignez-vous sur place avant de partir.',
+      de: 'Zeiten, Saisons und Zahlen stammen von Grindelwald Tourismus, den Jungfraubahnen und der Pfingsteggbahn, geprüft am 16. September 2026. Wir veröffentlichen keine Bewertungen und keine Routenbeschreibungen: Erkundigen Sie sich vor Ort, bevor Sie losgehen.',
+    },
+  },
   faq: [
     {
       q: { en: 'Can you drive to Grindelwald?', fr: 'Peut-on venir en voiture à Grindelwald ?', de: 'Kann man mit dem Auto nach Grindelwald fahren?' },

@@ -275,6 +275,93 @@ export const interlaken: DestinationGuide = {
       },
     },
   },
+  doing: {
+    title: { en: 'What to do in Interlaken', fr: 'Que faire à Interlaken', de: 'Was man in Interlaken unternimmt' },
+    intro: {
+      en: 'Not a trail guide: a few named outings from the tourist office and the operators, the ones that work even when the high mountains are in cloud.',
+      fr: 'Pas un guide de randonnée : quelques sorties nommées, reprises de l’office du tourisme et des exploitants, celles qui tiennent même quand la haute montagne est dans les nuages.',
+      de: 'Kein Wanderführer: ein paar benannte Ausflüge vom Tourismusbüro und von den Betreibern, die auch dann funktionieren, wenn die hohen Berge in den Wolken stecken.',
+    },
+    groups: [
+      {
+        kind: 'ride',
+        title: { en: 'The town mountain and the two lakes', fr: 'La montagne de la ville et les deux lacs', de: 'Hausberg und zwei Seen' },
+        items: [
+          {
+            name: 'Harder Kulm',
+            meta: { en: '1322 m · funicular about 10 min · mid-April to end of November', fr: '1322 m · funiculaire environ 10 min · de mi-avril à fin novembre', de: '1322 m · Standseilbahn rund 10 Min. · Mitte April bis Ende November' },
+            text: {
+              en: 'The local mountain, reached from Interlaken Ost by a funicular over a hundred years old. At the top, the Zwei-Seen-Steg platform hangs over the void, with the panorama restaurant five minutes from the station. On foot it is 750 metres of climb, one to two hours.',
+              fr: 'La montagne de la ville, desservie depuis Interlaken Ost par un funiculaire plus que centenaire. En haut, la plateforme Zwei-Seen-Steg surplombe le vide, et le restaurant panoramique est à cinq minutes de la station. À pied, comptez 750 mètres de montée, une à deux heures.',
+              de: 'Der Hausberg, ab Interlaken Ost mit einer über hundertjährigen Standseilbahn erreichbar. Oben ragt der Zwei-Seen-Steg über die Kante, das Panoramarestaurant liegt fünf Minuten von der Station entfernt. Zu Fuss sind es 750 Höhenmeter, ein bis zwei Stunden.',
+            },
+          },
+          {
+            name: { en: 'The lake boats', fr: 'Les bateaux des lacs', de: 'Die Kursschiffe' },
+            meta: { en: 'Interlaken West for Lake Thun, Interlaken Ost for Lake Brienz', fr: 'Interlaken West pour le lac de Thoune, Interlaken Ost pour le lac de Brienz', de: 'Interlaken West für den Thunersee, Interlaken Ost für den Brienzersee' },
+            text: {
+              en: 'Interlaken to Thun takes about 2 h 10 by boat. On Lake Brienz, one way is about 1 h 15 and the round trip 2 h 30, past the Giessbach falls and Iseltwald.',
+              fr: 'Interlaken à Thoune prend environ 2 h 10 en bateau. Sur le lac de Brienz, comptez environ 1 h 15 à l’aller et 2 h 30 en boucle, en passant par les chutes du Giessbach et Iseltwald.',
+              de: 'Interlaken bis Thun dauert mit dem Schiff rund 2 Std. 10. Auf dem Brienzersee sind es etwa 1 Std. 15 pro Weg und 2 Std. 30 für die Rundfahrt, vorbei am Giessbachfall und an Iseltwald.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'local',
+        title: { en: 'Cheese, caves and old houses', fr: 'Fromage, grottes et vieilles maisons', de: 'Käse, Höhlen und alte Häuser' },
+        items: [
+          {
+            name: { en: 'Ballenberg and its cheese dairy', fr: 'Ballenberg et sa fromagerie d’alpage', de: 'Ballenberg und seine Alpkäserei' },
+            meta: { en: '9 April to 1 November 2026 · 10:00 to 17:00', fr: 'du 9 avril au 1er novembre 2026 · 10h00 à 17h00', de: '9. April bis 1. November 2026 · 10:00 bis 17:00' },
+            text: {
+              en: 'An open-air museum near Brienz with more than a hundred historic buildings brought from all over the country and over 200 farm animals. In house 1361, the alpine cheese dairy built at Kandersteg in 1780, cheese is made almost every day in a copper cauldron, the small Mutschli they made there for two hundred years.',
+              fr: 'Un musée en plein air près de Brienz, avec plus de cent bâtiments historiques rapportés de tout le pays et plus de 200 animaux de ferme. Dans la maison 1361, la fromagerie d’alpage bâtie à Kandersteg en 1780, on fait le fromage presque chaque jour dans un chaudron de cuivre, ces petits Mutschli qu’on y a produits pendant deux cents ans.',
+              de: 'Ein Freilichtmuseum bei Brienz mit über hundert historischen Gebäuden aus dem ganzen Land und mehr als 200 Bauernhoftieren. Im Haus 1361, der 1780 in Kandersteg gebauten Alpkäserei, wird fast täglich im Kupferkessi gekäst, die kleinen Mutschli, die man dort zweihundert Jahre lang gemacht hat.',
+            },
+          },
+          {
+            name: { en: 'St. Beatus Caves', fr: 'Les grottes de Saint-Béat', de: 'Die St. Beatus-Höhlen' },
+            meta: { en: 'open all year · 8 to 10 °C · CHF 20 for adults', fr: 'ouvert toute l’année · 8 à 10 °C · 20 CHF pour les adultes', de: 'ganzjährig offen · 8 bis 10 °C · CHF 20 für Erwachsene' },
+            text: {
+              en: 'One kilometre of the cave system is laid out for visitors, with waterfalls inside the rock, on the north shore of Lake Thun at Sundlauenen. The boat and the bus both stop nearby.',
+              fr: 'Un kilomètre du réseau est aménagé pour la visite, avec des cascades dans la roche, sur la rive nord du lac de Thoune à Sundlauenen. Le bateau comme le bus s’arrêtent à proximité.',
+              de: 'Ein Kilometer des Höhlensystems ist erschlossen, mit Wasserfällen im Fels, am Nordufer des Thunersees bei Sundlauenen. Schiff und Bus halten in der Nähe.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'table',
+        title: { en: 'Where to eat', fr: 'Où manger', de: 'Wo essen' },
+        items: [
+          {
+            name: 'Grand Café Restaurant Schuh',
+            meta: { en: 'since 1818 · on the Höhematte', fr: 'depuis 1818 · au bord de la Höhematte', de: 'seit 1818 · an der Höhematte' },
+            text: {
+              en: 'The house has been making chocolate and pastry since 1818, and its terrace faces the meadow and the Jungfrau. Useful for a long afternoon rather than a quick lunch.',
+              fr: 'La maison fait chocolat et pâtisserie depuis 1818, et sa terrasse donne sur la prairie et la Jungfrau. À réserver plutôt à un long après-midi qu’à un déjeuner rapide.',
+              de: 'Das Haus macht seit 1818 Schokolade und Patisserie, die Terrasse blickt auf die Matte und die Jungfrau. Eher für einen langen Nachmittag als für einen schnellen Mittagshalt.',
+            },
+          },
+          {
+            name: 'Hüsi Bierhaus',
+            meta: { en: 'Postgasse 3 · closed on Tuesdays', fr: 'Postgasse 3 · fermé le mardi', de: 'Postgasse 3 · dienstags geschlossen' },
+            text: {
+              en: 'Regional cooking and Swiss dishes in a small house with a beer garden, 55 seats in all, dogs allowed. Book if you are more than four.',
+              fr: 'Cuisine régionale et plats suisses dans une petite maison avec jardin à bière, 55 places en tout, chiens acceptés. Réservez si vous êtes plus de quatre.',
+              de: 'Regionale Küche und Schweizer Gerichte in einem kleinen Haus mit Biergarten, insgesamt 55 Plätze, Hunde erlaubt. Ab fünf Personen reservieren.',
+            },
+          },
+        ],
+      },
+    ],
+    note: {
+      en: 'Seasons, times and prices come from Interlaken tourism, the Jungfrau railways, Ballenberg and the St. Beatus Caves, checked on 16 September 2026. We publish no ratings and no route descriptions: check conditions on the spot before you set off.',
+      fr: 'Saisons, horaires et tarifs viennent de l’office du tourisme d’Interlaken, des chemins de fer de la Jungfrau, de Ballenberg et des grottes de Saint-Béat, vérifiés le 16 septembre 2026. Nous ne publions ni notes ni descriptifs d’itinéraires : renseignez-vous sur place avant de partir.',
+      de: 'Saisons, Zeiten und Preise stammen von Interlaken Tourismus, den Jungfraubahnen, Ballenberg und den St. Beatus-Höhlen, geprüft am 16. September 2026. Wir veröffentlichen keine Bewertungen und keine Routenbeschreibungen: Erkundigen Sie sich vor Ort, bevor Sie losgehen.',
+    },
+  },
   faq: [
     {
       q: { en: 'Which station do I arrive at, Ost or West?', fr: 'À quelle gare arrive-t-on, Ost ou West ?', de: 'An welchem Bahnhof kommt man an, Ost oder West?' },

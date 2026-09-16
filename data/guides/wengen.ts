@@ -316,6 +316,117 @@ export const wengen: DestinationGuide = {
       },
     },
   },
+  doing: {
+    title: { en: 'What to do in Wengen', fr: 'Que faire à Wengen', de: 'Was man in Wengen unternimmt' },
+    intro: {
+      en: 'This is not a trail guide. A few named places, taken from the village and railway companies’ own pages, so you can picture your days before you book a room.',
+      fr: 'Ce n’est pas un guide de randonnée. Quelques lieux nommés, repris des pages officielles du village et des compagnies de chemin de fer, pour vous représenter vos journées avant de réserver une chambre.',
+      de: 'Das ist kein Wanderführer. Nur ein paar benannte Orte von den offiziellen Seiten des Dorfes und der Bahnen, damit Sie sich Ihre Tage vorstellen können, bevor Sie ein Zimmer buchen.',
+    },
+    groups: [
+      {
+        kind: 'walk',
+        title: { en: 'Two walks that start with a train', fr: 'Deux marches qui commencent par un train', de: 'Zwei Wanderungen, die mit einer Bahn beginnen' },
+        items: [
+          {
+            name: { en: 'Panoramaweg, Männlichen to Kleine Scheidegg', fr: 'Panoramaweg, du Männlichen à la Kleine Scheidegg', de: 'Panoramaweg, Männlichen bis Kleine Scheidegg' },
+            meta: { en: '4.5 km · 1 h 20 downhill · mid-June to October', fr: '4,5 km · 1 h 20 en descente · de mi-juin à octobre', de: '4,5 km · 1 Std. 20 abwärts · Mitte Juni bis Oktober' },
+            text: {
+              en: 'The balcony path with the Eiger, Mönch and Jungfrau in front of you the whole way. The Männlichen company publishes 4.5 km and 1 h 20 going down, 2 h in the other direction. Cable car up from Wengen, train back from Kleine Scheidegg.',
+              fr: 'Le chemin en balcon avec l’Eiger, le Mönch et la Jungfrau en face pendant tout le parcours. La compagnie du Männlichen annonce 4,5 km et 1 h 20 en descente, 2 h dans l’autre sens. Montée en télécabine depuis Wengen, retour en train depuis la Kleine Scheidegg.',
+              de: 'Der Höhenweg mit Eiger, Mönch und Jungfrau die ganze Zeit vor Augen. Die Männlichenbahn gibt 4,5 km und 1 Std. 20 abwärts an, 2 Std. in der Gegenrichtung. Mit der Bahn ab Wengen hinauf, mit dem Zug ab Kleiner Scheidegg zurück.',
+            },
+          },
+          {
+            name: { en: 'Wengen to Lauterbrunnen through Wengwald', fr: 'De Wengen à Lauterbrunnen par Wengwald', de: 'Von Wengen nach Lauterbrunnen über Wengwald' },
+            meta: { en: 'close to 500 m of descent · train back in 12 minutes', fr: 'près de 500 m de descente · retour en train en 12 minutes', de: 'knapp 500 m Abstieg · Rückfahrt in 12 Minuten' },
+            text: {
+              en: 'The old way down to the valley floor, past the Reformed church, which the Wengen tourist office gives as a drop of nearly 500 metres. You walk down, the train brings you back up.',
+              fr: 'L’ancien chemin qui descend au fond de la vallée, en passant devant l’église réformée, que l’office du tourisme de Wengen annonce à près de 500 mètres de dénivelé. On descend à pied, le train remonte.',
+              de: 'Der alte Weg hinunter ins Tal, an der reformierten Kirche vorbei, laut Tourismusbüro Wengen knapp 500 Höhenmeter. Hinunter zu Fuss, hinauf mit dem Zug.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'ride',
+        title: { en: 'Above the village', fr: 'Au-dessus du village', de: 'Über dem Dorf' },
+        items: [
+          {
+            name: 'Männlichen',
+            meta: { en: '2230 m', fr: '2230 m', de: '2230 m' },
+            text: {
+              en: 'The cable car from Wengen reaches the ridge at 2230 m, where the Panoramaweg starts. Mountain restaurants at the top and at Kleine Scheidegg.',
+              fr: 'La télécabine de Wengen atteint la crête à 2230 m, point de départ du Panoramaweg. Restaurants d’altitude au sommet et à la Kleine Scheidegg.',
+              de: 'Die Bahn ab Wengen erreicht den Grat auf 2230 m, wo der Panoramaweg beginnt. Bergrestaurants oben und auf der Kleinen Scheidegg.',
+            },
+          },
+          {
+            name: { en: 'Kleine Scheidegg and the Jungfraujoch', fr: 'La Kleine Scheidegg et le Jungfraujoch', de: 'Kleine Scheidegg und Jungfraujoch' },
+            meta: { en: '1 h 10 to 1 h 20 from Wengen', fr: '1 h 10 à 1 h 20 depuis Wengen', de: '1 Std. 10 bis 1 Std. 20 ab Wengen' },
+            text: {
+              en: 'You change at Kleine Scheidegg for the Jungfraubahn. Counting the connection, Wengen to the Jungfraujoch takes 1 h 10 to 1 h 20 one way.',
+              fr: 'On change à la Kleine Scheidegg pour la Jungfraubahn. Correspondance comprise, Wengen au Jungfraujoch prend 1 h 10 à 1 h 20 à l’aller.',
+              de: 'Umsteigen auf der Kleinen Scheidegg in die Jungfraubahn. Mit Anschluss dauert Wengen bis Jungfraujoch 1 Std. 10 bis 1 Std. 20 pro Weg.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'local',
+        title: { en: 'What the valley is known for', fr: 'Ce qui fait la réputation de la vallée', de: 'Wofür das Tal bekannt ist' },
+        items: [
+          {
+            name: { en: 'The Lauberhorn races', fr: 'Les courses du Lauberhorn', de: 'Die Lauberhornrennen' },
+            meta: { en: '15 to 17 January 2027', fr: 'du 15 au 17 janvier 2027', de: '15. bis 17. Januar 2027' },
+            text: {
+              en: 'Super-G on the Friday, the downhill on the Saturday, slalom on the Sunday. The organisers call the Lauberhorn the longest downhill of the World Cup, and the village fills up months ahead.',
+              fr: 'Super-G le vendredi, descente le samedi, slalom le dimanche. Les organisateurs présentent le Lauberhorn comme la plus longue descente de la Coupe du monde, et le village se remplit des mois à l’avance.',
+              de: 'Super-G am Freitag, Abfahrt am Samstag, Slalom am Sonntag. Die Organisatoren nennen das Lauberhorn die längste Abfahrt im Weltcup, und das Dorf ist Monate im Voraus ausgebucht.',
+            },
+          },
+          {
+            name: { en: 'The waterfalls on the valley floor', fr: 'Les cascades au fond de la vallée', de: 'Die Wasserfälle im Talboden' },
+            meta: { en: '12 minutes by train to Lauterbrunnen', fr: '12 minutes de train jusqu’à Lauterbrunnen', de: '12 Minuten mit dem Zug nach Lauterbrunnen' },
+            text: {
+              en: 'Lauterbrunnen counts 72 waterfalls. The Staubbach drops straight off the cliff at the edge of the village, and the ten Trümmelbach falls run inside the mountain, open from early April to early November.',
+              fr: 'Lauterbrunnen compte 72 cascades. Le Staubbach tombe droit de la falaise à l’entrée du village, et les dix chutes du Trümmelbach coulent dans la montagne, ouvertes de début avril à début novembre.',
+              de: 'Lauterbrunnen zählt 72 Wasserfälle. Der Staubbach fällt direkt über die Felswand am Dorfrand, und die zehn Trümmelbachfälle fliessen im Berginnern, geöffnet von Anfang April bis Anfang November.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'table',
+        title: { en: 'Two tables in the village', fr: 'Deux tables au village', de: 'Zwei Adressen zum Essen' },
+        items: [
+          {
+            name: 'Ristorante Pizzeria Steakhouse Da Sina',
+            meta: { en: 'Italian', fr: 'italien', de: 'italienisch' },
+            text: {
+              en: 'Pizza, pasta and grilled meat, on the tourist office list of village restaurants.',
+              fr: 'Pizzas, pâtes et grillades, dans la liste des restaurants du village tenue par l’office du tourisme.',
+              de: 'Pizza, Pasta und Grilliertes, auf der Restaurantliste des Tourismusbüros.',
+            },
+          },
+          {
+            name: 'Restaurant Altitude',
+            meta: { en: 'Swiss and Mediterranean', fr: 'suisse et méditerranéen', de: 'schweizerisch und mediterran' },
+            text: {
+              en: 'Swiss dishes given a Mediterranean turn, as the tourist office describes it. Useful on the evening you have had enough fondue.',
+              fr: 'Des plats suisses tournés vers la Méditerranée, selon la description de l’office du tourisme. Utile le soir où vous en avez assez de la fondue.',
+              de: 'Schweizer Gerichte mit mediterraner Note, wie es das Tourismusbüro beschreibt. Praktisch am Abend, an dem Sie genug Fondue hatten.',
+            },
+          },
+        ],
+      },
+    ],
+    note: {
+      en: 'Times, seasons and dates come from the operators and the tourist offices, checked on 16 September 2026. We publish no ratings and no route descriptions: check conditions on the spot before you set off.',
+      fr: 'Durées, saisons et dates viennent des exploitants et des offices du tourisme, vérifiées le 16 septembre 2026. Nous ne publions ni notes ni descriptifs d’itinéraires : renseignez-vous sur place avant de partir.',
+      de: 'Zeiten, Saisons und Daten stammen von den Betreibern und Tourismusbüros, geprüft am 16. September 2026. Wir veröffentlichen keine Bewertungen und keine Routenbeschreibungen: Erkundigen Sie sich vor Ort, bevor Sie losgehen.',
+    },
+  },
   faq: [
     {
       q: { en: 'Can you drive to Wengen?', fr: 'Peut-on venir en voiture à Wengen ?', de: 'Kann man mit dem Auto nach Wengen fahren?' },

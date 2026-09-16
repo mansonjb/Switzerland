@@ -18,6 +18,8 @@ export type Destination = {
 }
 
 export type MonthState = 'o' | 'r' | 'x'
+/** Kind of thing to do, drives the label on the card. */
+export type DoingKind = 'walk' | 'ride' | 'local' | 'table'
 export type Season = 'summer' | 'winter'
 
 export type DestinationGuide = {
@@ -44,6 +46,13 @@ export type DestinationGuide = {
   }
   calendar?: { title: L; rows: { name: L; months: MonthState[] }[]; note: L }
   practical?: { title: L; items: { title: L; text: L }[] }
+  /** What there is to do: named places and walks, never a trail guide. Facts sourced in data/SOURCES-doing.md. */
+  doing?: {
+    title: L
+    intro: L
+    groups: { kind: DoingKind; title: L; items: { name: string | L; meta?: L; text: L }[] }[]
+    note: L
+  }
   /** Summer / winter switch: best base in the village and dated facts for each season. */
   seasons?: Record<Season, { title: L; base: L; facts: { value: string; label: L }[]; note: L }>
   faq: { q: L; a: L }[]

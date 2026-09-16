@@ -265,6 +265,117 @@ export const lauterbrunnen: DestinationGuide = {
       },
     },
   },
+  doing: {
+    title: { en: 'What to do in Lauterbrunnen', fr: 'Que faire à Lauterbrunnen', de: 'Was man in Lauterbrunnen unternimmt' },
+    intro: {
+      en: 'Not a trail guide: named places from the tourist office and the operators, so you know what fills a day on the valley floor.',
+      fr: 'Pas un guide de randonnée : des lieux nommés, repris de l’office du tourisme et des exploitants, pour savoir ce qui remplit une journée au fond de la vallée.',
+      de: 'Kein Wanderführer: benannte Orte vom Tourismusbüro und von den Betreibern, damit Sie wissen, was einen Tag im Tal füllt.',
+    },
+    groups: [
+      {
+        kind: 'walk',
+        title: { en: 'Two walks on the valley floor', fr: 'Deux marches au fond de la vallée', de: 'Zwei Spaziergänge im Talboden' },
+        items: [
+          {
+            name: { en: 'Lauterbrunnen to Stechelberg', fr: 'De Lauterbrunnen à Stechelberg', de: 'Von Lauterbrunnen nach Stechelberg' },
+            meta: { en: 'flat · suitable for pushchairs', fr: 'plat · praticable en poussette', de: 'flach · kinderwagentauglich' },
+            text: {
+              en: 'The path that follows the valley between its two walls, past the streams falling off the cliffs. The tourist office describes it as easy and flat, and the valley bus brings you back.',
+              fr: 'Le chemin qui suit la vallée entre ses deux parois, le long des torrents qui tombent des falaises. L’office du tourisme le décrit comme facile et plat, et le bus de la vallée permet de rentrer.',
+              de: 'Der Weg dem Tal entlang zwischen den beiden Wänden, vorbei an den Bächen, die über die Felsen stürzen. Das Tourismusbüro nennt ihn einfach und flach, zurück geht es mit dem Postauto.',
+            },
+          },
+          {
+            name: { en: 'The Staubbach Fall', fr: 'La cascade du Staubbach', de: 'Der Staubbachfall' },
+            meta: { en: 'a few minutes from the church', fr: 'à quelques minutes de l’église', de: 'wenige Minuten ab der Kirche' },
+            text: {
+              en: 'The fall drops straight off the cliff at the edge of the village. The tourist office calls it one of the highest free falling waterfalls in Europe, and its spray is what gave it the name: Staub means dust.',
+              fr: 'La cascade tombe droit de la falaise à l’entrée du village. L’office du tourisme la présente comme l’une des plus hautes chutes en fil libre d’Europe, et ce sont ses gouttelettes qui lui ont donné son nom : Staub veut dire poussière.',
+              de: 'Der Fall stürzt direkt über die Wand am Dorfrand. Das Tourismusbüro nennt ihn einen der höchsten frei fallenden Wasserfälle Europas, und der feine Sprühnebel gab ihm den Namen: Staub.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'local',
+        title: { en: 'The waterfalls you pay to see', fr: 'Les cascades payantes', de: 'Die Wasserfälle mit Eintritt' },
+        items: [
+          {
+            name: { en: 'Trümmelbach Falls', fr: 'Les chutes du Trümmelbach', de: 'Die Trümmelbachfälle' },
+            meta: { en: 'early April to early November · 09:00 to 17:00', fr: 'de début avril à début novembre · 9h00 à 17h00', de: 'Anfang April bis Anfang November · 09:00 bis 17:00' },
+            text: {
+              en: 'Ten glacier waterfalls inside the mountain, reached by a tunnel lift, carrying up to 20 000 litres a second. Hours run 08:30 to 18:00 in July and August. No dogs, and no children under four.',
+              fr: 'Dix chutes glaciaires dans la montagne, desservies par un ascenseur creusé dans la roche, avec jusqu’à 20 000 litres par seconde. Horaires de 8h30 à 18h00 en juillet et en août. Ni chiens ni enfants de moins de quatre ans.',
+              de: 'Zehn Gletscherwasserfälle im Berginnern, erschlossen durch einen Tunnellift, mit bis zu 20 000 Litern pro Sekunde. Im Juli und August 08:30 bis 18:00. Keine Hunde, keine Kinder unter vier Jahren.',
+            },
+          },
+          {
+            name: { en: 'Mürrenbach Fall', fr: 'La cascade du Mürrenbach', de: 'Der Mürrenbachfall' },
+            meta: { en: '417 m · near Stechelberg', fr: '417 m · près de Stechelberg', de: '417 m · bei Stechelberg' },
+            text: {
+              en: 'The tourist office gives it as 417 metres. It is visible from the valley road, at the end of the flat walk, without paying anything.',
+              fr: 'L’office du tourisme l’annonce à 417 mètres. On la voit depuis la route de la vallée, au bout de la marche plate, sans rien payer.',
+              de: 'Das Tourismusbüro gibt 417 Meter an. Sichtbar von der Talstrasse, am Ende des flachen Spaziergangs, ohne Eintritt.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'ride',
+        title: { en: 'Up from the valley', fr: 'Monter depuis la vallée', de: 'Hinauf aus dem Tal' },
+        items: [
+          {
+            name: { en: 'Grütschalp and Mürren', fr: 'Grütschalp et Mürren', de: 'Grütschalp und Mürren' },
+            meta: { en: 'cable car then mountain train', fr: 'téléphérique puis train de montagne', de: 'Seilbahn, dann Bergbahn' },
+            text: {
+              en: 'The cable car leaves from the station in Lauterbrunnen; the mountain train then runs the terrace to Mürren, where the Schilthorn cable car starts.',
+              fr: 'Le téléphérique part de la gare de Lauterbrunnen ; le train de montagne longe ensuite la terrasse jusqu’à Mürren, d’où part le téléphérique du Schilthorn.',
+              de: 'Die Seilbahn fährt ab dem Bahnhof Lauterbrunnen, danach fährt die Bergbahn der Terrasse entlang nach Mürren, wo die Schilthornbahn beginnt.',
+            },
+          },
+          {
+            name: { en: 'Wengen and Kleine Scheidegg', fr: 'Wengen et la Kleine Scheidegg', de: 'Wengen und Kleine Scheidegg' },
+            meta: { en: '12 minutes by train to Wengen', fr: '12 minutes de train jusqu’à Wengen', de: '12 Minuten mit dem Zug nach Wengen' },
+            text: {
+              en: 'The Wengernalpbahn climbs the other side of the valley, and carries on to Kleine Scheidegg, where the Jungfraujoch trains leave.',
+              fr: 'Le Wengernalpbahn grimpe l’autre versant de la vallée et continue jusqu’à la Kleine Scheidegg, d’où partent les trains du Jungfraujoch.',
+              de: 'Die Wengernalpbahn steigt auf der anderen Talseite hinauf und fährt weiter bis zur Kleinen Scheidegg, wo die Züge aufs Jungfraujoch abfahren.',
+            },
+          },
+        ],
+      },
+      {
+        kind: 'table',
+        title: { en: 'Where to eat', fr: 'Où manger', de: 'Wo essen' },
+        items: [
+          {
+            name: 'Hotel Oberland',
+            meta: { en: 'Swiss cooking, main street', fr: 'cuisine suisse, rue principale', de: 'Schweizer Küche, Hauptstrasse' },
+            text: {
+              en: 'Rösti, cheese fondue and Alpine dishes, as the tourist office describes the house. Useful because it serves late for the valley.',
+              fr: 'Rösti, fondue et plats de montagne, selon la description de l’office du tourisme. Utile parce qu’on y sert tard pour la vallée.',
+              de: 'Rösti, Käsefondue und Bergküche, wie das Tourismusbüro das Haus beschreibt. Praktisch, weil für das Tal spät serviert wird.',
+            },
+          },
+          {
+            name: 'Food Point',
+            meta: { en: 'Turkish and Italian', fr: 'turc et italien', de: 'türkisch und italienisch' },
+            text: {
+              en: 'The quick option in the village, listed by the tourist office, for the evening you come back late from the mountain.',
+              fr: 'L’option rapide du village, inscrite par l’office du tourisme, pour le soir où l’on redescend tard de la montagne.',
+              de: 'Die schnelle Adresse im Dorf, vom Tourismusbüro aufgeführt, für den Abend nach einer späten Rückkehr vom Berg.',
+            },
+          },
+        ],
+      },
+    ],
+    note: {
+      en: 'Seasons, hours and figures come from the Lauterbrunnen tourist office and the Trümmelbach falls, checked on 16 September 2026. We publish no ratings and no route descriptions: check conditions on the spot before you set off.',
+      fr: 'Saisons, horaires et chiffres viennent de l’office du tourisme de Lauterbrunnen et des chutes du Trümmelbach, vérifiés le 16 septembre 2026. Nous ne publions ni notes ni descriptifs d’itinéraires : renseignez-vous sur place avant de partir.',
+      de: 'Saisons, Zeiten und Zahlen stammen vom Tourismusbüro Lauterbrunnen und von den Trümmelbachfällen, geprüft am 16. September 2026. Wir veröffentlichen keine Bewertungen und keine Routenbeschreibungen: Erkundigen Sie sich vor Ort, bevor Sie losgehen.',
+    },
+  },
   faq: [
     {
       q: { en: 'Can I drive to Lauterbrunnen?', fr: 'Peut-on venir en voiture à Lauterbrunnen ?', de: 'Kann man mit dem Auto nach Lauterbrunnen fahren?' },

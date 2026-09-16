@@ -6,7 +6,7 @@ import { fill, getDict } from '@/lib/dict'
 import { SITE_URL, SITE_NAME } from '@/lib/site'
 import { getDestination, getGuide, hasGuide, publishedGuides, publishedRegions, regionNames } from '@/data'
 import { Footer, Header } from '@/components/chrome'
-import { BookingPanel, Container, CtaBand, Faq, JsonLd, NetworkLinks, OpeningCalendar, PassTable, PhotoHero, Section, SquareBullet } from '@/components/blocks'
+import { BookingPanel, Container, CtaBand, Faq, JsonLd, NetworkLinks, OpeningCalendar, PassTable, PhotoHero, Section, SquareBullet, ThingsToDo } from '@/components/blocks'
 import { LiveMap, PlaceButton, SeasonPanel, SeasonTabs, StayFinder, StickyBookingBar } from '@/components/booking'
 import { SectionNav } from '@/components/section-nav'
 import { HotelsBrowser, type HotelView } from '@/components/hotels'
@@ -50,6 +50,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
     ...(guide.seasons ? [{ id: 'summer-winter', label: `${d.sell.seasons.summer} / ${d.sell.seasons.winter}` }] : []),
     { id: 'hotels', label: nav.hotels },
     { id: 'areas', label: nav.areas },
+    ...(guide.doing ? [{ id: 'things-to-do', label: nav.doing }] : []),
     ...(guide.pass ? [{ id: 'swiss-travel-pass', label: nav.pass }] : []),
     ...(guide.calendar ? [{ id: 'seasons', label: nav.seasons }] : []),
     ...(guide.practical ? [{ id: 'car-free', label: nav.carFree }] : []),
@@ -229,6 +230,13 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
             ))}
           </div>
         </Section>
+
+        {/* 5b. What to do: named walks, rides, local things, tables */}
+        {guide.doing && (
+          <Section id="things-to-do" title={T(guide.doing.title)}>
+            <ThingsToDo doing={guide.doing} locale={lang} />
+          </Section>
+        )}
 
         {guide.pass && (
           <Section id="swiss-travel-pass" title={T(guide.pass.title)} gap="mb-5 md:mb-8">
