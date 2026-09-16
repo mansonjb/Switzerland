@@ -8,9 +8,9 @@ export const lugano: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Lugano: old town, Riva Caccia, station hill', fr: 'Où dormir à Lugano : vieille ville, Riva Caccia, coteau de la gare', de: 'Wo übernachten in Lugano: Altstadt, Riva Caccia, Bahnhofshügel' },
     description: {
-      en: 'Lugano area by area: the pedestrian old town around Via Nassa, Riva Caccia toward Paradiso, and the station hillside. Hotels with real addresses, two mountain funiculars, and what closes when.',
-      fr: 'Lugano secteur par secteur : la vieille ville piétonne autour de la Via Nassa, la Riva Caccia vers Paradiso, et le coteau de la gare. Hôtels avec adresses réelles, deux funiculaires de montagne, et ce qui ferme quand.',
-      de: 'Lugano Ortsteil für Ortsteil: die Fussgänger-Altstadt rund um die Via Nassa, die Riva Caccia Richtung Paradiso, und der Bahnhofshang. Hotels mit echten Adressen, zwei Bergbahnen, und was wann schliesst.',
+      en: 'Where to sleep in Lugano: the pedestrian old town, the lakefront palaces on Riva Caccia, or the station hillside, with two mountain funiculars and dated hotel prices to help you choose.',
+      fr: 'Où dormir à Lugano : la vieille ville piétonne, les palaces du bord du lac sur la Riva Caccia, ou le coteau de la gare, avec deux funiculaires de montagne et des prix d’hôtels datés pour choisir.',
+      de: 'Wo übernachten in Lugano: die Fussgänger-Altstadt, die Seepaläste an der Riva Caccia oder der Bahnhofshang, mit zwei Bergbahnen und datierten Hotelpreisen als Entscheidungshilfe.',
     },
   },
   eyebrow: { en: 'Ticino · Lugano', fr: 'Tessin · Lugano', de: 'Tessin · Lugano' },
@@ -27,20 +27,45 @@ export const lugano: DestinationGuide = {
   },
   snapshot: {
     why: {
-      en: 'Two funiculars start close to the centre: Monte San Salvatore at 912 m and Monte Bré at 933 m, reached from Lugano (Cassarate) or Suvigliana, while the historic centre around Via Nassa and Piazza Luini stays a pedestrian zone by the lake.',
-      fr: 'Deux funiculaires partent tout près du centre : le Monte San Salvatore à 912 m et le Monte Bré à 933 m, rejoints depuis Lugano (Cassarate) ou Suvigliana, tandis que le centre historique autour de la Via Nassa et de la Piazza Luini reste une zone piétonne au bord du lac.',
-      de: 'Zwei Bergbahnen starten ganz in der Nähe des Zentrums: der Monte San Salvatore auf 912 m und der Monte Bré auf 933 m, erreichbar ab Lugano (Cassarate) oder Suvigliana, während das historische Zentrum rund um die Via Nassa und die Piazza Luini eine Fussgängerzone am See bleibt.',
+      en: 'Because Lugano gives you a real city to come back to at night, not a single street. From one bed you can ride two different mountains, Monte San Salvatore and Monte Bré, walk a pedestrian old town whose church holds Bernardino Luini’s last frescoes, and still catch a direct train onward to Milan in 1 h 19 or back to Zurich in 1 h 53.',
+      fr: 'Parce que Lugano offre une vraie ville où rentrer le soir, pas une seule rue. Depuis un même hébergement, on peut monter sur deux montagnes différentes, le Monte San Salvatore et le Monte Bré, marcher dans une vieille ville piétonne dont l’église abrite les dernières fresques de Bernardino Luini, et prendre malgré tout un train direct vers Milan en 1 h 19 ou vers Zurich en 1 h 53.',
+      de: 'Weil Lugano eine richtige Stadt bietet, in die man abends zurückkehrt, nicht nur eine Strasse. Von derselben Unterkunft aus fahren Sie auf zwei verschiedene Berge, den Monte San Salvatore und den Monte Bré, gehen durch eine Fussgänger-Altstadt, deren Kirche die letzten Fresken Bernardino Luinis birgt, und erreichen trotzdem mit dem direkten Zug Mailand in 1 Std. 19 oder Zürich in 1 Std. 53.',
     },
     where: {
-      en: 'Around Via Nassa and Piazza Luini for the historic centre, along Riva Caccia toward Paradiso and the San Salvatore funicular valley station for the west lakefront, or near the station and the hillside above for Villa Principe Leopoldo and the city funicular down to the lake.',
-      fr: 'Autour de la Via Nassa et de la Piazza Luini pour le centre historique, le long de la Riva Caccia vers Paradiso et la station de départ du funiculaire du San Salvatore pour le front de lac ouest, ou près de la gare et sur le coteau au-dessus pour la Villa Principe Leopoldo et le funiculaire urbain qui descend au lac.',
-      de: 'Rund um die Via Nassa und die Piazza Luini für das historische Zentrum, entlang der Riva Caccia Richtung Paradiso und der Talstation der San-Salvatore-Bahn für das westliche Seeufer, oder nahe dem Bahnhof und auf dem Hang darüber für die Villa Principe Leopoldo und die Standseilbahn hinunter zum See.',
+      en: 'First stay or want everything on foot: the historic centre around Via Nassa and Piazza Luini. Here for the lake itself: Riva Caccia toward Paradiso, by the Monte San Salvatore valley station. Arriving by train, or after quiet on the hill: the station and the slope above it, Villa Principe Leopoldo included, linked to the lake by the short city funicular.',
+      fr: 'Premier séjour ou tout faire à pied : le centre historique autour de la Via Nassa et de la Piazza Luini. Venu pour le lac lui-même : la Riva Caccia vers Paradiso, près de la station de départ du Monte San Salvatore. Arrivée en train, ou en quête de calme sur le coteau : la gare et le versant au-dessus, Villa Principe Leopoldo comprise, reliés au lac par le court funiculaire urbain.',
+      de: 'Erster Besuch oder alles zu Fuss erreichbar: das historische Zentrum rund um die Via Nassa und die Piazza Luini. Wegen des Sees selbst hier: die Riva Caccia Richtung Paradiso, nahe der Talstation des Monte San Salvatore. Anreise mit dem Zug, oder auf der Suche nach Ruhe am Hang: der Bahnhof und der Hang darüber, mit der Villa Principe Leopoldo, durch die kurze Standseilbahn mit dem See verbunden.',
     },
     watch: {
-      en: 'Monte San Salvatore closes for renovation works from 9 November 2026 to 12 March 2027, and Monte Bré closes from 11 to 12 February inclusive and on Christmas Day: check both before planning a mountain day.',
-      fr: 'Le Monte San Salvatore ferme pour travaux de rénovation du 9 novembre 2026 au 12 mars 2027, et le Monte Bré ferme du 11 au 12 février inclus, ainsi que le jour de Noël : à vérifier avant de prévoir une journée en montagne.',
-      de: 'Der Monte San Salvatore schliesst wegen Renovierungsarbeiten vom 9. November 2026 bis 12. März 2027, und der Monte Bré schliesst vom 11. bis 12. Februar sowie am Weihnachtstag: vor einem Bergtag beides prüfen.',
+      en: 'Monte San Salvatore closes entirely from 9 November 2026 to 12 March 2027 for renovation work, and Monte Bré pauses from 11 January to 12 February 2027 plus Christmas Day, a window that falls inside San Salvatore’s own closure: for about a month, neither funicular runs. Check both calendars before booking a mountain day, or plan around the pedestrian old town and its two year-round churches instead.',
+      fr: 'Le Monte San Salvatore ferme entièrement du 9 novembre 2026 au 12 mars 2027 pour travaux de rénovation, et le Monte Bré s’arrête du 11 janvier au 12 février 2027, ainsi que le jour de Noël, une période comprise dans la fermeture du San Salvatore : pendant environ un mois, aucun des deux funiculaires ne circule. Vérifiez les deux calendriers avant de prévoir une journée en montagne, ou misez plutôt sur la vieille ville piétonne et ses deux églises ouvertes toute l’année.',
+      de: 'Der Monte San Salvatore schliesst vollständig vom 9. November 2026 bis 12. März 2027 wegen Renovierungsarbeiten, und der Monte Bré pausiert vom 11. Januar bis 12. Februar 2027 sowie am Weihnachtstag, ein Zeitraum, der in die Schliessung des San Salvatore fällt: Rund einen Monat lang fährt keine der beiden Bahnen. Prüfen Sie beide Kalender, bevor Sie einen Bergtag planen, oder setzen Sie stattdessen auf die Fussgänger-Altstadt und ihre zwei ganzjährig offenen Kirchen.',
     },
+  },
+  story: {
+    title: { en: 'Lugano, before you book', fr: 'Lugano, avant de réserver', de: 'Lugano, bevor Sie buchen' },
+    paragraphs: [
+      {
+        en: 'Lugano is a real city on a lake, not a mountain village: 68 633 residents across 21 quartieri, formed by mergers between 2004 and 2013, with streets, buses and a funicular, and only the historic centre around Via Nassa closed to cars. A community here was first recorded in 875, and after the Gotthard railway opened in 1882 the population more than doubled within thirty years. A direct train from Zurich now takes 1 h 53 through the Gotthard Base Tunnel, and from Milan just 1 h 19.',
+        fr: 'Lugano est une vraie ville sur un lac, pas un village de montagne : 68 633 habitants répartis en 21 quartiers, nés des fusions menées entre 2004 et 2013, avec des rues, des bus et un funiculaire, seul le centre historique autour de la Via Nassa restant fermé aux voitures. Une communauté y est attestée dès 875, et après l’ouverture de la ligne du Gothard en 1882, la population a plus que doublé en trente ans. Un train direct depuis Zurich met désormais 1 h 53 par le tunnel de base du Gothard, et depuis Milan seulement 1 h 19.',
+        de: 'Lugano ist eine richtige Stadt am See, kein Bergdorf: 68 633 Einwohnerinnen und Einwohner in 21 Quartieren, entstanden aus den zwischen 2004 und 2013 durchgeführten Fusionen, mit Strassen, Bussen und einer Standseilbahn, nur das historische Zentrum rund um die Via Nassa bleibt autofrei. Eine Siedlung ist hier bereits 875 belegt, und nach der Eröffnung der Gotthardbahn 1882 wuchs die Bevölkerung innert dreissig Jahren auf mehr als das Doppelte. Ein direkter Zug ab Zürich braucht heute 1 Std. 53 durch den Gotthard-Basistunnel, ab Mailand nur 1 Std. 19.',
+      },
+      {
+        en: 'Where to sleep depends on which shore, or which mountain, you want closest. The historic centre around Via Nassa and Piazza Luini is the pedestrian heart, right on the lake. Riva Caccia runs west toward Paradiso and the valley station for Monte San Salvatore, at 912 m. Up behind the railway station, a short city funicular drops to the lake, and the residential hillside above it looks down over the same water; Monte Bré, at 933 m, starts from Lugano (Cassarate) or Suvigliana.',
+        fr: 'Le choix du secteur dépend de la rive, ou de la montagne, que l’on veut avoir à proximité. Le centre historique autour de la Via Nassa et de la Piazza Luini est le cœur piéton, en bordure directe du lac. La Riva Caccia longe l’eau vers l’ouest, jusqu’à Paradiso et la station de départ du Monte San Salvatore, à 912 m. En amont de la gare, un court funiculaire urbain descend au lac, et le coteau résidentiel au-dessus domine la même étendue d’eau ; le Monte Bré, à 933 m, se rejoint depuis Lugano (Cassarate) ou Suvigliana.',
+        de: 'Die Wahl des Ortsteils hängt davon ab, welches Ufer oder welcher Berg in der Nähe liegen soll. Das historische Zentrum rund um die Via Nassa und die Piazza Luini bildet das Fussgänger-Herz, direkt am See. Die Riva Caccia führt westwärts am Wasser entlang bis Paradiso und zur Talstation des Monte San Salvatore, auf 912 m. Hinter dem Bahnhof bringt eine kurze Standseilbahn zum See hinunter, und der Wohnhang darüber blickt auf dasselbe Wasser; der Monte Bré, auf 933 m, startet ab Lugano (Cassarate) oder Suvigliana.',
+      },
+      {
+        en: 'The six hotels here range from a family-run budget address to Belle Époque and hillside palaces holding Michelin recognition. Hotel Delfino Lugano, near the station, comes out as the least expensive of the selection. Our dated price samples show every hotel with both seasons costing more in summer than in winter, from the historic-centre addresses around Via Nassa to Hotel Splendide Royal and Villa Principe Leopoldo, the two premium addresses on the lake and the hillside.',
+        fr: 'Les six hôtels vont d’une adresse familiale et abordable à des palaces Belle Époque et de coteau distingués par le Michelin. L’Hôtel Delfino Lugano, près de la gare, ressort comme le moins cher de la sélection. Nos relevés de prix datés montrent, pour chaque hôtel disposant des deux saisons, des nuits d’été plus chères que celles d’hiver, des adresses du centre historique autour de la Via Nassa jusqu’au Splendide Royal et à la Villa Principe Leopoldo, les deux adresses haut de gamme du lac et du coteau.',
+        de: 'Die sechs Hotels reichen von einer familiengeführten, günstigen Adresse bis zu Belle-Époque- und Hangpalästen mit Michelin-Auszeichnung. Das Hotel Delfino Lugano, beim Bahnhof, erweist sich als die günstigste Adresse der Auswahl. Unsere datierten Preisstichproben zeigen bei jedem Hotel mit Werten aus beiden Saisons höhere Sommer- als Winterpreise, von den Adressen des historischen Zentrums rund um die Via Nassa bis zum Splendide Royal und zur Villa Principe Leopoldo, den beiden gehobenen Adressen am See und am Hang.',
+      },
+      {
+        en: 'Time your visit around the funiculars: Monte San Salvatore closes completely from 9 November 2026 to 12 March 2027 for renovation work, and Monte Bré pauses from 11 January to 12 February 2027, plus Christmas Day. Outside those windows, both run from morning to evening, and the two churches stay open all year regardless. However you time it, Lugano itself stays within easy reach: 1 h 53 by direct train from Zurich, 14 minutes from Bellinzona, or 1 h 19 from Milan.',
+        fr: 'Calez votre séjour sur les funiculaires : le Monte San Salvatore ferme complètement du 9 novembre 2026 au 12 mars 2027 pour travaux de rénovation, et le Monte Bré s’arrête du 11 janvier au 12 février 2027, ainsi que le jour de Noël. En dehors de ces périodes, les deux circulent du matin au soir, et les deux églises restent ouvertes toute l’année quoi qu’il arrive. Quelle que soit la période choisie, Lugano reste facile d’accès : 1 h 53 en train direct depuis Zurich, 14 minutes depuis Bellinzone, ou 1 h 19 depuis Milan.',
+        de: 'Planen Sie Ihren Aufenthalt rund um die Bergbahnen: Der Monte San Salvatore schliesst vollständig vom 9. November 2026 bis 12. März 2027 wegen Renovierungsarbeiten, und der Monte Bré pausiert vom 11. Januar bis 12. Februar 2027 sowie am Weihnachtstag. Ausserhalb dieser Zeiten fahren beide von morgens bis abends, und die beiden Kirchen bleiben ohnehin das ganze Jahr geöffnet. Wie auch immer Sie die Reise timen, Lugano bleibt gut erreichbar: 1 Std. 53 mit dem direkten Zug ab Zürich, 14 Minuten ab Bellinzona, oder 1 Std. 19 ab Mailand.',
+      },
+    ],
   },
   stats: [
     { value: '68 633', label: { en: 'residents of 141 nationalities, Città di Lugano', fr: 'habitants de 141 nationalités, Città di Lugano', de: 'Einwohner aus 141 Nationen, Città di Lugano' } },
@@ -65,6 +90,11 @@ export const lugano: DestinationGuide = {
         { en: 'International au Lac carries UNESCO’s distinction “historic hotel with special mention”, 75 rooms, 120 beds', fr: 'L’International au Lac porte la distinction de l’UNESCO « hôtel historique avec mention spéciale », 75 chambres, 120 lits', de: 'Das International au Lac trägt die UNESCO-Auszeichnung „historisches Hotel mit besonderer Erwähnung“, 75 Zimmer, 120 Betten' },
         { en: 'The church of Santa Maria degli Angeli, Piazza Luini 3, sits in this sector', fr: 'L’église Santa Maria degli Angeli, Piazza Luini 3, se trouve dans ce secteur', de: 'Die Kirche Santa Maria degli Angeli, Piazza Luini 3, liegt in diesem Quartier' },
       ],
+      story: {
+        en: 'This is Lugano’s pedestrian heart, where Via Nassa’s shops and the promenade around Piazza Luini keep cars out entirely. The International au Lac, opposite the piazza, carries UNESCO’s own historic-hotel distinction, and the Walter au Lac has looked onto Piazza Rezzonico since 1888, now run by its fourth generation. It suits a stay built around walking rather than driving, and the trade-off is that both mountain funiculars start a walk away, on the west lakefront or up by the station.',
+        fr: 'C’est le cœur piéton de Lugano, où les commerces de la Via Nassa et la promenade autour de la Piazza Luini tiennent les voitures entièrement à distance. L’International au Lac, en face de la place, porte la distinction UNESCO d’hôtel historique, et le Walter au Lac donne sur la Piazza Rezzonico depuis 1888, aujourd’hui tenu par sa quatrième génération. Ce secteur convient à un séjour organisé à pied plutôt qu’en voiture ; en contrepartie, les deux funiculaires de montagne se trouvent à quelques rues, sur le front de lac ouest ou près de la gare.',
+        de: 'Das ist das Fussgänger-Herz von Lugano, wo die Geschäfte der Via Nassa und die Promenade rund um die Piazza Luini Autos ganz fernhalten. Das International au Lac, gegenüber dem Platz, trägt die UNESCO-Auszeichnung als historisches Hotel, und das Walter au Lac blickt seit 1888 auf die Piazza Rezzonico, heute in vierter Generation geführt. Dieses Quartier eignet sich für einen zu Fuss organisierten Aufenthalt statt mit dem Auto; im Gegenzug liegen beide Bergbahnen einen kurzen Fussweg entfernt, am westlichen Seeufer oder beim Bahnhof.',
+      },
     },
     {
       title: { en: 'Riva Caccia, west lakefront', fr: 'Riva Caccia, front de lac ouest', de: 'Riva Caccia, westliches Seeufer' },
@@ -78,6 +108,11 @@ export const lugano: DestinationGuide = {
         { en: 'The restaurant I Due Sud, inside the Splendide Royal, holds 16 GaultMillau points and one Michelin star', fr: 'Le restaurant I Due Sud, au sein du Splendide Royal, compte 16 points GaultMillau et une étoile Michelin', de: 'Das Restaurant I Due Sud im Splendide Royal trägt 16 GaultMillau-Punkte und einen Michelin-Stern' },
         { en: 'The San Salvatore funicular valley station lies at the edge of this sector', fr: 'La station de départ du funiculaire du San Salvatore se trouve en bordure de ce secteur', de: 'Die Talstation der San-Salvatore-Bahn liegt am Rand dieses Quartiers' },
       ],
+      story: {
+        en: 'Riva Caccia runs along the water toward Paradiso, ending at the valley station for the Monte San Salvatore funicular. The Splendide Royal, a Belle Époque palace directly on the lake, anchors this stretch, its restaurant I Due Sud holding one Michelin star. It suits a stay built around the lake and the mountain above it, in exchange for a longer walk back to the historic centre and its shops.',
+        fr: 'La Riva Caccia longe l’eau vers Paradiso, jusqu’à la station de départ du funiculaire du Monte San Salvatore. Le Splendide Royal, palace Belle Époque directement sur le lac, ancre ce secteur, avec son restaurant I Due Sud distingué d’une étoile Michelin. Il convient à un séjour organisé autour du lac et de la montagne qui le surplombe, en échange d’une marche plus longue pour rejoindre le centre historique et ses commerces.',
+        de: 'Die Riva Caccia führt am Wasser entlang bis Paradiso, wo die Talstation der Monte-San-Salvatore-Bahn liegt. Das Splendide Royal, ein Belle-Époque-Palast direkt am See, prägt diesen Abschnitt, sein Restaurant I Due Sud trägt einen Michelin-Stern. Das Quartier eignet sich für einen Aufenthalt rund um den See und den Berg darüber, im Gegenzug ist der Weg zurück zum historischen Zentrum mit seinen Geschäften länger.',
+      },
     },
     {
       title: { en: 'The station and the hillside', fr: 'La gare et le coteau', de: 'Bahnhof und Hang' },
@@ -91,6 +126,11 @@ export const lugano: DestinationGuide = {
         { en: 'Villa Principe Leopoldo holds 2 Michelin Keys and the restaurant La Luce', fr: 'La Villa Principe Leopoldo détient 2 Clés Michelin et le restaurant La Luce', de: 'Die Villa Principe Leopoldo trägt 2 Michelin-Schlüssel und das Restaurant La Luce' },
         { en: 'Hotel Federale Lugano has 47 rooms and 88 beds', fr: 'L’Hôtel Federale Lugano compte 47 chambres et 88 lits', de: 'Das Hotel Federale Lugano hat 47 Zimmer und 88 Betten' },
       ],
+      story: {
+        en: 'The station area and the residential hillside above it trade lakefront views for arrival convenience, and a short city funicular links the two down to the water. The Federale has stood three minutes from the station since 1923, while higher on the hill, Villa Principe Leopoldo holds 2 Michelin Keys and its own restaurant, La Luce. It suits arrivals by train, or by car, since Hotel Delfino Lugano here has its own covered parking, in exchange for a slightly longer walk to the pedestrian centre.',
+        fr: 'Le quartier de la gare et le coteau résidentiel au-dessus échangent la vue sur le lac contre la commodité de l’arrivée, un court funiculaire urbain reliant les deux jusqu’à l’eau. L’Hôtel Federale se dresse à trois minutes de la gare depuis 1923, tandis que plus haut sur le coteau, la Villa Principe Leopoldo détient 2 Clés Michelin et son propre restaurant, La Luce. Ce secteur convient aux arrivées en train, ou en voiture puisque l’Hôtel Delfino Lugano y dispose de son propre parking couvert, en échange d’une marche un peu plus longue jusqu’au centre piéton.',
+        de: 'Das Bahnhofsquartier und der Wohnhang darüber tauschen Seeblick gegen bequeme Anreise, eine kurze Standseilbahn verbindet beide mit dem Wasser. Das Federale steht seit 1923 drei Minuten vom Bahnhof entfernt, während weiter oben am Hang die Villa Principe Leopoldo 2 Michelin-Schlüssel und ein eigenes Restaurant, La Luce, führt. Das Quartier eignet sich für die Anreise mit dem Zug oder mit dem Auto, da das Hotel Delfino Lugano hier über einen eigenen gedeckten Parkplatz verfügt, im Gegenzug ist der Weg zum Fussgängerzentrum etwas länger.',
+      },
     },
   ],
   hotels: [
@@ -104,6 +144,11 @@ export const lugano: DestinationGuide = {
         { en: 'UNESCO distinction “historic hotel with special mention”', fr: 'Distinction UNESCO « hôtel historique avec mention spéciale »', de: 'UNESCO-Auszeichnung „historisches Hotel mit besonderer Erwähnung“' },
         { en: '75 rooms, 120 beds, garden pool', fr: '75 chambres, 120 lits, piscine de jardin', de: '75 Zimmer, 120 Betten, Gartenpool' },
       ],
+      blurb: {
+        en: 'Opposite Piazza Luini at Via Nassa 68, the International au Lac carries UNESCO’s own distinction as a historic hotel with special mention. It has 75 rooms and 120 beds, with a garden pool, right in the pedestrian centre.',
+        fr: 'Face à la Piazza Luini, au 68 de la Via Nassa, l’International au Lac porte la distinction UNESCO d’hôtel historique avec mention spéciale. Il compte 75 chambres et 120 lits, avec une piscine de jardin, en plein centre piéton.',
+        de: 'Gegenüber der Piazza Luini, an der Via Nassa 68, trägt das International au Lac die UNESCO-Auszeichnung als historisches Hotel mit besonderer Erwähnung. Es zählt 75 Zimmer und 120 Betten, mit Gartenpool, mitten im Fussgängerzentrum.',
+      },
     },
     {
       slug: 'lugano-walter-au-lac',
@@ -115,6 +160,11 @@ export const lugano: DestinationGuide = {
         { en: 'Family-run since 1888, now the 4th generation of the Cereda family', fr: 'En mains familiales depuis 1888, aujourd’hui la 4e génération de la famille Cereda', de: 'Seit 1888 in Familienbesitz, heute in der 4. Generation der Familie Cereda' },
         { en: '38 rooms, all with a lake view, rooftop panoramic terrace', fr: '38 chambres, toutes avec vue sur le lac, terrasse panoramique sur le toit', de: '38 Zimmer, alle mit Seeblick, Panoramaterrasse auf dem Dach' },
       ],
+      blurb: {
+        en: 'Run by the Cereda family since 1888, now in its fourth generation, the Walter au Lac stands on Piazza Rezzonico with all 38 rooms facing the lake. A rooftop panoramic terrace looks over the same water.',
+        fr: 'Tenu par la famille Cereda depuis 1888, aujourd’hui à la quatrième génération, le Walter au Lac se dresse sur la Piazza Rezzonico, avec ses 38 chambres toutes tournées vers le lac. Une terrasse panoramique sur le toit domine la même étendue d’eau.',
+        de: 'Seit 1888 von der Familie Cereda geführt, heute in vierter Generation, steht das Walter au Lac an der Piazza Rezzonico, alle 38 Zimmer mit Blick auf den See. Eine Panoramaterrasse auf dem Dach überblickt dasselbe Wasser.',
+      },
     },
     {
       slug: 'lugano-splendide-royal',
@@ -126,6 +176,11 @@ export const lugano: DestinationGuide = {
         { en: 'A Belle Époque palace directly on the lake', fr: 'Un palace Belle Époque directement sur le lac', de: 'Ein Belle-Époque-Palast direkt am See' },
         { en: '93 rooms, 176 beds; restaurant I Due Sud, 16 GaultMillau points and one Michelin star', fr: '93 chambres, 176 lits ; restaurant I Due Sud, 16 points GaultMillau et une étoile Michelin', de: '93 Zimmer, 176 Betten; Restaurant I Due Sud, 16 GaultMillau-Punkte und ein Michelin-Stern' },
       ],
+      blurb: {
+        en: 'A Belle Époque palace directly on the lake at Riva Caccia 7, the Splendide Royal has 93 rooms and 176 beds. Its restaurant, I Due Sud, holds one Michelin star and 16 GaultMillau points.',
+        fr: 'Palace Belle Époque directement sur le lac, au 7 de la Riva Caccia, le Splendide Royal compte 93 chambres et 176 lits. Son restaurant, I Due Sud, détient une étoile Michelin et 16 points GaultMillau.',
+        de: 'Ein Belle-Époque-Palast direkt am See, an der Riva Caccia 7, das Splendide Royal zählt 93 Zimmer und 176 Betten. Sein Restaurant I Due Sud trägt einen Michelin-Stern und 16 GaultMillau-Punkte.',
+      },
     },
     {
       slug: 'lugano-federale',
@@ -137,6 +192,11 @@ export const lugano: DestinationGuide = {
         { en: 'Family-run since 1923, 3 minutes on foot from the railway station', fr: 'En mains familiales depuis 1923, à 3 minutes à pied de la gare', de: 'Seit 1923 familiengeführt, 3 Gehminuten vom Bahnhof entfernt' },
         { en: '47 rooms, 88 beds', fr: '47 chambres, 88 lits', de: '47 Zimmer, 88 Betten' },
       ],
+      blurb: {
+        en: 'Family-run since 1923, the Federale stands at Via Paolo Regazzoni 8, three minutes on foot from the railway station. It has 47 rooms and 88 beds, a practical base for arriving by train.',
+        fr: 'En mains familiales depuis 1923, le Federale se trouve au 8 de la Via Paolo Regazzoni, à trois minutes à pied de la gare. Il compte 47 chambres et 88 lits, une base pratique pour une arrivée en train.',
+        de: 'Seit 1923 familiengeführt, steht das Federale an der Via Paolo Regazzoni 8, drei Gehminuten vom Bahnhof entfernt. Es zählt 47 Zimmer und 88 Betten, eine praktische Basis für die Anreise mit dem Zug.',
+      },
     },
     {
       slug: 'lugano-villa-principe-leopoldo',
@@ -148,6 +208,11 @@ export const lugano: DestinationGuide = {
         { en: 'Hillside luxury hotel holding 2 Michelin Keys', fr: 'Hôtel de luxe sur le coteau, détenteur de 2 Clés Michelin', de: 'Luxushotel am Hang mit 2 Michelin-Schlüsseln' },
         { en: '37 suites with a lake view, restaurant La Luce', fr: '37 suites avec vue sur le lac, restaurant La Luce', de: '37 Suiten mit Seeblick, Restaurant La Luce' },
       ],
+      blurb: {
+        en: 'Set on the hillside at Via Montalbano 5A, Villa Principe Leopoldo holds 2 Michelin Keys and has 37 suites, each with a lake view. Its restaurant, La Luce, is part of the same address.',
+        fr: 'Installée sur le coteau, au 5A de la Via Montalbano, la Villa Principe Leopoldo détient 2 Clés Michelin et compte 37 suites, chacune avec vue sur le lac. Son restaurant, La Luce, fait partie de la même adresse.',
+        de: 'Am Hang gelegen, an der Via Montalbano 5A, trägt die Villa Principe Leopoldo 2 Michelin-Schlüssel und zählt 37 Suiten, jede mit Seeblick. Ihr Restaurant La Luce gehört zur selben Adresse.',
+      },
     },
     {
       slug: 'lugano-delfino',
@@ -159,6 +224,11 @@ export const lugano: DestinationGuide = {
         { en: 'Central position near the station, with lake-view rooms', fr: 'Position centrale près de la gare, avec chambres vue lac', de: 'Zentrale Lage nahe dem Bahnhof, mit Zimmern mit Seeblick' },
         { en: 'Covered parking and bike infrastructure', fr: 'Parking couvert et infrastructure pour vélos', de: 'Gedeckter Parkplatz und Veloinfrastruktur' },
       ],
+      blurb: {
+        en: 'Near the station on Via Casserinetta, Hotel Delfino Lugano has lake-view rooms plus covered parking and bike storage for arriving by car or on two wheels. Our dated price samples make it the least expensive address in this selection.',
+        fr: 'Près de la gare, sur la Via Casserinetta, l’Hôtel Delfino Lugano propose des chambres vue lac ainsi qu’un parking couvert et un espace vélos pour une arrivée en voiture ou à deux roues. Nos relevés de prix datés en font l’adresse la moins chère de cette sélection.',
+        de: 'Beim Bahnhof, an der Via Casserinetta, bietet das Hotel Delfino Lugano Zimmer mit Seeblick sowie einen gedeckten Parkplatz und Veloabstellplätze für die Anreise mit dem Auto oder auf zwei Rädern. Unsere datierten Preisstichproben machen es zur günstigsten Adresse dieser Auswahl.',
+      },
     },
   ],
   hotelsNote: {
@@ -173,9 +243,9 @@ export const lugano: DestinationGuide = {
       { name: { en: 'Monte Bré funicular', fr: 'Funiculaire du Monte Bré', de: 'Standseilbahn Monte Bré' }, months: ['r', 'r', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'r'] },
     ],
     note: {
-      en: '2026/2027. Monte San Salvatore: closed 9 November 2026 to 12 March 2027 for renovation of the summit restaurant. Monte Bré: closed 11 to 12 February 2027 inclusive, and on Christmas Day, 25 December. Sources: montesansalvatore.ch, montebre.ch, checked 16 September 2026.',
-      fr: '2026/2027. Monte San Salvatore : fermé du 9 novembre 2026 au 12 mars 2027 pour la rénovation du restaurant du sommet. Monte Bré : fermé du 11 au 12 février 2027 inclus, ainsi que le jour de Noël, le 25 décembre. Sources : montesansalvatore.ch, montebre.ch, vérifiées le 16 septembre 2026.',
-      de: '2026/2027. Monte San Salvatore: geschlossen vom 9. November 2026 bis 12. März 2027 wegen der Renovation des Gipfelrestaurants. Monte Bré: geschlossen vom 11. bis 12. Februar 2027 sowie am Weihnachtstag, 25. Dezember. Quellen: montesansalvatore.ch, montebre.ch, geprüft am 16. September 2026.',
+      en: '2026/2027. Monte San Salvatore: closed 9 November 2026 to 12 March 2027 for renovation of the summit restaurant. Monte Bré: closed 11 January to 12 February 2027 inclusive, and on Christmas Day, 25 December. Sources: montesansalvatore.ch, montebre.ch, checked 16 September 2026.',
+      fr: '2026/2027. Monte San Salvatore : fermé du 9 novembre 2026 au 12 mars 2027 pour la rénovation du restaurant du sommet. Monte Bré : fermé du 11 janvier au 12 février 2027 inclus, ainsi que le jour de Noël, le 25 décembre. Sources : montesansalvatore.ch, montebre.ch, vérifiées le 16 septembre 2026.',
+      de: '2026/2027. Monte San Salvatore: geschlossen vom 9. November 2026 bis 12. März 2027 wegen der Renovation des Gipfelrestaurants. Monte Bré: geschlossen vom 11. Januar bis 12. Februar 2027 sowie am Weihnachtstag, 25. Dezember. Quellen: montesansalvatore.ch, montebre.ch, geprüft am 16. September 2026.',
     },
   },
   practical: {
@@ -184,33 +254,33 @@ export const lugano: DestinationGuide = {
       {
         title: { en: 'The city funicular', fr: 'Le funiculaire urbain', de: 'Die Standseilbahn zur Stadt' },
         text: {
-          en: 'A short city funicular connects the railway station to the centre and the lake, so a hillside address near the station is not a walk away from the water.',
-          fr: 'Un court funiculaire urbain relie la gare au centre-ville et au lac, si bien qu’une adresse sur le coteau, près de la gare, n’est pas loin de l’eau.',
-          de: 'Eine kurze Standseilbahn verbindet den Bahnhof mit dem Zentrum und dem See, sodass eine Adresse am Hang nahe dem Bahnhof nicht weit vom Wasser entfernt liegt.',
+          en: 'A short city funicular connects the railway station to the centre and the lake, so a hillside address near the station is not a walk away from the water: you can ride down instead.',
+          fr: 'Un court funiculaire urbain relie la gare au centre-ville et au lac, si bien qu’une adresse sur le coteau, près de la gare, n’oblige pas à marcher jusqu’à l’eau : on peut descendre en funiculaire.',
+          de: 'Eine kurze Standseilbahn verbindet den Bahnhof mit dem Zentrum und dem See, sodass eine Adresse am Hang nahe dem Bahnhof nicht zu Fuss zum Wasser führt: Man fährt einfach mit der Bahn hinunter.',
         },
       },
       {
         title: { en: 'Monte San Salvatore closure', fr: 'Fermeture du Monte San Salvatore', de: 'Schliessung des Monte San Salvatore' },
         text: {
-          en: 'The funicular to Monte San Salvatore is closed from 9 November 2026 to 12 March 2027 for renovation of the summit restaurant.',
-          fr: 'Le funiculaire du Monte San Salvatore est fermé du 9 novembre 2026 au 12 mars 2027 pour la rénovation du restaurant du sommet.',
-          de: 'Die Standseilbahn auf den Monte San Salvatore ist vom 9. November 2026 bis 12. März 2027 wegen der Renovation des Gipfelrestaurants geschlossen.',
+          en: 'The funicular to Monte San Salvatore is closed from 9 November 2026 to 12 March 2027 for renovation of the summit restaurant, so a winter stay should not be planned around that ride.',
+          fr: 'Le funiculaire du Monte San Salvatore est fermé du 9 novembre 2026 au 12 mars 2027 pour la rénovation du restaurant du sommet : un séjour d’hiver ne doit pas être organisé autour de cette montée.',
+          de: 'Die Standseilbahn auf den Monte San Salvatore ist vom 9. November 2026 bis 12. März 2027 wegen der Renovation des Gipfelrestaurants geschlossen: Ein Winteraufenthalt sollte nicht um diese Fahrt herum geplant werden.',
         },
       },
       {
         title: { en: 'Monte Bré closure', fr: 'Fermeture du Monte Bré', de: 'Schliessung des Monte Bré' },
         text: {
-          en: 'The funicular to Monte Bré closes from 11 to 12 February inclusive, and on Christmas Day.',
-          fr: 'Le funiculaire du Monte Bré ferme du 11 au 12 février inclus, ainsi que le jour de Noël.',
-          de: 'Die Standseilbahn auf den Monte Bré schliesst vom 11. bis 12. Februar sowie am Weihnachtstag.',
+          en: 'The funicular to Monte Bré closes from 11 January to 12 February inclusive, and on Christmas Day, a window that falls inside the Monte San Salvatore closure too, so neither summit is reachable during those weeks.',
+          fr: 'Le funiculaire du Monte Bré ferme du 11 janvier au 12 février inclus, ainsi que le jour de Noël, une période comprise dans la fermeture du Monte San Salvatore : aucun des deux sommets n’est accessible durant ces semaines.',
+          de: 'Die Standseilbahn auf den Monte Bré schliesst vom 11. Januar bis 12. Februar sowie am Weihnachtstag, ein Zeitraum, der auch in die Schliessung des Monte San Salvatore fällt: In diesen Wochen ist keiner der beiden Gipfel erreichbar.',
         },
       },
       {
         title: { en: 'Trains without a car', fr: 'Trains sans voiture', de: 'Züge ohne Auto' },
         text: {
-          en: 'Direct trains reach Lugano in 1 h 53 from Zurich through the Gotthard Base Tunnel, in 14 minutes from Bellinzona, and in 1 h 19 from Milan.',
-          fr: 'Des trains directs relient Lugano en 1 h 53 depuis Zurich par le tunnel de base du Gothard, en 14 minutes depuis Bellinzone, et en 1 h 19 depuis Milan.',
-          de: 'Direkte Züge erreichen Lugano ab Zürich in 1 Std. 53 durch den Gotthard-Basistunnel, ab Bellinzona in 14 Minuten, und ab Mailand in 1 Std. 19.',
+          en: 'Direct trains reach Lugano in 1 h 53 from Zurich through the Gotthard Base Tunnel, in 14 minutes from Bellinzona, and in 1 h 19 from Milan, so a car is not needed to get here or to day-trip onward.',
+          fr: 'Des trains directs relient Lugano en 1 h 53 depuis Zurich par le tunnel de base du Gothard, en 14 minutes depuis Bellinzone, et en 1 h 19 depuis Milan : une voiture n’est pas nécessaire pour venir ni pour une excursion d’une journée.',
+          de: 'Direkte Züge erreichen Lugano ab Zürich in 1 Std. 53 durch den Gotthard-Basistunnel, ab Bellinzona in 14 Minuten, und ab Mailand in 1 Std. 19: Ein Auto ist weder für die Anreise noch für einen Tagesausflug nötig.',
         },
       },
     ],
@@ -236,13 +306,13 @@ export const lugano: DestinationGuide = {
     winter: {
       title: { en: 'Winter in Lugano', fr: 'L’hiver à Lugano', de: 'Winter in Lugano' },
       base: {
-        en: 'Monte San Salvatore closes entirely for renovation and Monte Bré pauses for part of January and February: the station and hillside sector, and the historic centre with its year-round churches, stay the most reliable bases.',
-        fr: 'Le Monte San Salvatore ferme entièrement pour rénovation et le Monte Bré s’arrête une partie de janvier et février : le secteur de la gare et du coteau, ainsi que le centre historique avec ses églises ouvertes toute l’année, restent les bases les plus fiables.',
-        de: 'Der Monte San Salvatore schliesst vollständig wegen Renovation, und der Monte Bré pausiert für einen Teil von Januar und Februar: das Bahnhofs- und Hangquartier sowie das historische Zentrum mit seinen ganzjährig offenen Kirchen bleiben die verlässlichsten Basen.',
+        en: 'Monte San Salvatore closes entirely for renovation from 9 November to 12 March, and Monte Bré adds its own pause from 11 January to 12 February, so for about a month neither summit is reachable: book the station and hillside sector, or the historic centre with its year-round churches, and plan a mountain day only outside that window.',
+        fr: 'Le Monte San Salvatore ferme entièrement pour rénovation du 9 novembre au 12 mars, et le Monte Bré ajoute sa propre pause du 11 janvier au 12 février : pendant environ un mois, aucun des deux sommets n’est accessible. Réservez plutôt dans le secteur de la gare et du coteau, ou dans le centre historique avec ses églises ouvertes toute l’année, et ne prévoyez une journée en montagne qu’en dehors de cette période.',
+        de: 'Der Monte San Salvatore schliesst vollständig wegen Renovation vom 9. November bis 12. März, und der Monte Bré pausiert zusätzlich vom 11. Januar bis 12. Februar: Rund einen Monat lang ist keiner der beiden Gipfel erreichbar. Buchen Sie stattdessen im Bahnhofs- und Hangquartier oder im historischen Zentrum mit seinen ganzjährig offenen Kirchen, und planen Sie einen Bergtag nur ausserhalb dieses Zeitraums.',
       },
       facts: [
         { value: '9.11 → 12.3', label: { en: 'Monte San Salvatore closed for renovation of the summit restaurant', fr: 'Monte San Salvatore fermé pour la rénovation du restaurant du sommet', de: 'Monte San Salvatore wegen Renovation des Gipfelrestaurants geschlossen' } },
-        { value: '11 → 12.2', label: { en: 'Monte Bré closed, plus Christmas Day', fr: 'Monte Bré fermé, ainsi que le jour de Noël', de: 'Monte Bré geschlossen, sowie am Weihnachtstag' } },
+        { value: '11 Jan → 12 Feb', label: { en: 'Monte Bré closed, plus Christmas Day', fr: 'Monte Bré fermé, ainsi que le jour de Noël', de: 'Monte Bré geschlossen, sowie am Weihnachtstag' } },
       ],
       note: {
         en: 'Sources: montesansalvatore.ch, montebre.ch, checked 16 September 2026.',
@@ -254,9 +324,9 @@ export const lugano: DestinationGuide = {
   doing: {
     title: { en: 'What to do in Lugano', fr: 'Que faire à Lugano', de: 'Was man in Lugano unternimmt' },
     intro: {
-      en: 'Not a trail guide: named places from Lugano Region tourism, the Città di Lugano and the two mountain operators, checked on their own pages.',
-      fr: 'Pas un guide de randonnée : des lieux nommés, repris de Lugano Region tourisme, de la Città di Lugano et des deux exploitants de montagne, vérifiés sur leurs propres pages.',
-      de: 'Kein Wanderführer: benannte Orte von Lugano Region Tourismus, der Città di Lugano und den beiden Bergbahnbetreibern, auf deren eigenen Seiten geprüft.',
+      en: 'Lugano is not short of things to do, but a few named places give a stay its shape. These are the ones we would plan a day around, checked on the pages of Lugano Region tourism, the Città di Lugano and the two mountain operators.',
+      fr: 'Les activités ne manquent pas à Lugano, mais quelques lieux nommés donnent sa forme à un séjour. Voici ceux autour desquels nous organiserions une journée, vérifiés sur les pages de Lugano Region tourisme, de la Città di Lugano et des deux exploitants de montagne.',
+      de: 'An Aktivitäten fehlt es in Lugano nicht, doch einige benannte Orte prägen einen Aufenthalt. Hier jene, um die wir einen Tag planen würden, geprüft auf den Seiten von Lugano Region Tourismus, der Città di Lugano und den beiden Bergbahnbetreibern.',
     },
     groups: [
       {
@@ -322,7 +392,7 @@ export const lugano: DestinationGuide = {
           },
           {
             name: 'Cattedrale di San Lorenzo',
-            meta: { en: 'parish church by 818 · cathedral since 1888 · facade 1500–1517', fr: 'église paroissiale dès 818 · cathédrale depuis 1888 · façade 1500-1517', de: 'Pfarrkirche seit 818 · Kathedrale seit 1888 · Fassade 1500–1517' },
+            meta: { en: 'parish church by 818 · cathedral since 1888 · facade 1500-1517', fr: 'église paroissiale dès 818 · cathédrale depuis 1888 · façade 1500-1517', de: 'Pfarrkirche seit 818 · Kathedrale seit 1888 · Fassade 1500-1517' },
             text: {
               en: 'A parish church already in 818, it became collegiate in 1078 and was designated a cathedral only in 1888. Its Renaissance facade, completed between 1500 and 1517, is called one of the masterpieces of the Lombard Renaissance, and the octagonal baptismal font dates from 1430.',
               fr: 'Église paroissiale dès 818, elle devient collégiale en 1078 et n’est désignée cathédrale qu’en 1888. Sa façade Renaissance, achevée entre 1500 et 1517, est qualifiée de chef-d’œuvre de la Renaissance lombarde, et les fonts baptismaux octogonaux datent de 1430.',
@@ -366,41 +436,41 @@ export const lugano: DestinationGuide = {
     {
       q: { en: 'How far is Lugano from Milan?', fr: 'Lugano est-elle loin de Milan ?', de: 'Wie weit ist Lugano von Mailand entfernt?' },
       a: {
-        en: '1 h 19 direct by train, from Milano Centrale.',
-        fr: '1 h 19 en train direct, depuis Milano Centrale.',
-        de: '1 Std. 19 mit dem direkten Zug ab Milano Centrale.',
+        en: 'A direct train from Milano Centrale takes 1 h 19, so Lugano works well as a day trip from Milan, or as a first or last stop on a longer Swiss itinerary.',
+        fr: 'Un train direct depuis Milano Centrale met 1 h 19, ce qui fait de Lugano une bonne excursion d’une journée depuis Milan, ou une première ou dernière étape d’un plus long itinéraire suisse.',
+        de: 'Ein direkter Zug ab Milano Centrale braucht 1 Std. 19, damit eignet sich Lugano gut für einen Tagesausflug ab Mailand oder als erste oder letzte Station einer längeren Schweizer Reise.',
       },
     },
     {
       q: { en: 'Which is higher, Monte Bré or Monte San Salvatore?', fr: 'Quel sommet est le plus haut, le Monte Bré ou le Monte San Salvatore ?', de: 'Welcher Berg ist höher, der Monte Bré oder der Monte San Salvatore?' },
       a: {
-        en: 'Monte Bré’s summit is at 933 m and Monte San Salvatore’s at 912 m, so Monte Bré is slightly higher, though the San Salvatore funicular line is steeper, with gradients of 37 then 61 per cent over 1660 m.',
-        fr: 'Le sommet du Monte Bré culmine à 933 m et celui du Monte San Salvatore à 912 m : le Monte Bré est donc légèrement plus haut, même si la ligne du San Salvatore est plus raide, avec des pentes de 37 puis 61 % sur 1660 m.',
-        de: 'Der Gipfel des Monte Bré liegt auf 933 m, jener des Monte San Salvatore auf 912 m: Der Monte Bré ist also etwas höher, auch wenn die Strecke des San Salvatore mit Steigungen von 37, dann 61 Prozent auf 1660 m steiler ist.',
+        en: 'Monte Bré’s summit is at 933 m and Monte San Salvatore’s at 912 m, so Monte Bré is slightly higher, though the San Salvatore funicular line is steeper, with gradients of 37 then 61 per cent over 1660 m. Both funiculars start close to the centre, so either summit fits into a half day without changing hotels.',
+        fr: 'Le sommet du Monte Bré culmine à 933 m et celui du Monte San Salvatore à 912 m : le Monte Bré est donc légèrement plus haut, même si la ligne du San Salvatore est plus raide, avec des pentes de 37 puis 61 % sur 1660 m. Les deux funiculaires partent tout près du centre, si bien que chaque sommet tient dans une demi-journée sans changer d’hôtel.',
+        de: 'Der Gipfel des Monte Bré liegt auf 933 m, jener des Monte San Salvatore auf 912 m: Der Monte Bré ist also etwas höher, auch wenn die Strecke des San Salvatore mit Steigungen von 37, dann 61 Prozent auf 1660 m steiler ist. Beide Bergbahnen starten ganz in der Nähe des Zentrums, sodass jeder Gipfel in einen halben Tag passt, ohne das Hotel zu wechseln.',
       },
     },
     {
       q: { en: 'Are the Luini frescoes really in Lugano?', fr: 'Les fresques de Luini se trouvent-elles vraiment à Lugano ?', de: 'Sind die Luini-Fresken wirklich in Lugano?' },
       a: {
-        en: 'Yes, in the church of Santa Maria degli Angeli, Piazza Luini 3: the Crucifixion fresco is described as Bernardino Luini’s last work, painted 1529 to 1532, alongside his 1530 Madonna con Bambino e San Giovannino.',
-        fr: 'Oui, dans l’église Santa Maria degli Angeli, Piazza Luini 3 : la fresque de la Crucifixion est décrite comme la dernière œuvre de Bernardino Luini, peinte de 1529 à 1532, aux côtés de sa Madonna con Bambino e San Giovannino de 1530.',
-        de: 'Ja, in der Kirche Santa Maria degli Angeli, Piazza Luini 3: Das Kreuzigungsfresko gilt als letztes Werk Bernardino Luinis, gemalt von 1529 bis 1532, neben seiner Madonna con Bambino e San Giovannino von 1530.',
+        en: 'Yes, in the church of Santa Maria degli Angeli, Piazza Luini 3: the Crucifixion fresco is described as Bernardino Luini’s last work, painted 1529 to 1532, alongside his 1530 Madonna con Bambino e San Giovannino. Entry is free, so it is an easy stop between the lakefront and the shops on Via Nassa.',
+        fr: 'Oui, dans l’église Santa Maria degli Angeli, Piazza Luini 3 : la fresque de la Crucifixion est décrite comme la dernière œuvre de Bernardino Luini, peinte de 1529 à 1532, aux côtés de sa Madonna con Bambino e San Giovannino de 1530. L’entrée est libre, ce qui en fait une halte facile entre le bord du lac et les commerces de la Via Nassa.',
+        de: 'Ja, in der Kirche Santa Maria degli Angeli, Piazza Luini 3: Das Kreuzigungsfresko gilt als letztes Werk Bernardino Luinis, gemalt von 1529 bis 1532, neben seiner Madonna con Bambino e San Giovannino von 1530. Der Eintritt ist frei, damit ist sie ein einfacher Halt zwischen dem Seeufer und den Geschäften der Via Nassa.',
       },
     },
     {
       q: { en: 'How old is Lugano’s cathedral?', fr: 'Quel est l’âge de la cathédrale de Lugano ?', de: 'Wie alt ist die Kathedrale von Lugano?' },
       a: {
-        en: 'The site was already a parish church in 818, became collegiate in 1078, and was only designated a cathedral in 1888; its Renaissance facade dates from 1500 to 1517.',
-        fr: 'Le site était déjà une église paroissiale en 818, devenue collégiale en 1078, et n’a été désignée cathédrale qu’en 1888 ; sa façade Renaissance date de 1500 à 1517.',
-        de: 'Der Ort war bereits 818 Pfarrkirche, wurde 1078 Kollegiatkirche und erst 1888 zur Kathedrale erhoben; ihre Renaissancefassade stammt aus den Jahren 1500 bis 1517.',
+        en: 'The site was already a parish church in 818, became collegiate in 1078, and was only designated a cathedral in 1888; its Renaissance facade dates from 1500 to 1517. Like Santa Maria degli Angeli, it stays open all year, so it is a reliable stop even when the mountain funiculars are not running.',
+        fr: 'Le site était déjà une église paroissiale en 818, devenue collégiale en 1078, et n’a été désignée cathédrale qu’en 1888 ; sa façade Renaissance date de 1500 à 1517. Comme Santa Maria degli Angeli, elle reste ouverte toute l’année, une halte fiable même quand les funiculaires de montagne ne circulent pas.',
+        de: 'Der Ort war bereits 818 Pfarrkirche, wurde 1078 Kollegiatkirche und erst 1888 zur Kathedrale erhoben; ihre Renaissancefassade stammt aus den Jahren 1500 bis 1517. Wie Santa Maria degli Angeli bleibt sie das ganze Jahr geöffnet, ein verlässlicher Halt, auch wenn die Bergbahnen nicht fahren.',
       },
     },
     {
       q: { en: 'Is Monte San Salvatore open year-round?', fr: 'Le Monte San Salvatore est-il ouvert toute l’année ?', de: 'Ist der Monte San Salvatore ganzjährig geöffnet?' },
       a: {
-        en: 'No: it closes for renovation works from 9 November 2026 to 12 March 2027.',
-        fr: 'Non : il ferme pour travaux de rénovation du 9 novembre 2026 au 12 mars 2027.',
-        de: 'Nein: Er schliesst wegen Renovierungsarbeiten vom 9. November 2026 bis 12. März 2027.',
+        en: 'No: it closes for renovation works from 9 November 2026 to 12 March 2027. Monte Bré also pauses within that window, from 11 January to 12 February 2027, so for about a month neither mountain funicular runs; the old town and its two churches stay open year-round instead.',
+        fr: 'Non : il ferme pour travaux de rénovation du 9 novembre 2026 au 12 mars 2027. Le Monte Bré s’arrête lui aussi durant cette période, du 11 janvier au 12 février 2027, si bien que pendant environ un mois aucun des deux funiculaires ne circule ; la vieille ville et ses deux églises restent ouvertes toute l’année.',
+        de: 'Nein: Er schliesst wegen Renovierungsarbeiten vom 9. November 2026 bis 12. März 2027. Auch der Monte Bré pausiert innerhalb dieses Zeitraums, vom 11. Januar bis 12. Februar 2027, sodass rund einen Monat lang keine der beiden Bergbahnen fährt; die Altstadt und ihre zwei Kirchen bleiben dagegen das ganze Jahr geöffnet.',
       },
     },
   ],
