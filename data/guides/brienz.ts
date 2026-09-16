@@ -238,17 +238,17 @@ export const brienz: DestinationGuide = {
       {
         title: { en: 'Two lakes, one line', fr: 'Deux lacs, une seule ligne', de: 'Zwei Seen, eine Linie' },
         text: {
-          en: 'Interlaken Ost is 17 minutes away on the Luzern-Interlaken Express or 20 minutes on the regional R70. Lucerne is 1 h 27, Bern 1 h 17 with one change at Interlaken Ost, and Meiringen 11 minutes, all direct or with that single change.',
-          fr: 'Interlaken Ost est à 17 minutes avec le Luzern-Interlaken Express ou 20 minutes avec le train régional R70. Lucerne est à 1 h 27, Berne à 1 h 17 avec un changement à Interlaken Ost, et Meiringen à 11 minutes, tous en direct ou avec ce seul changement.',
-          de: 'Interlaken Ost ist 17 Minuten entfernt mit dem Luzern-Interlaken Express oder 20 Minuten mit der Regio R70. Luzern liegt 1 Std. 27 entfernt, Bern 1 Std. 17 mit einem Umstieg in Interlaken Ost, und Meiringen 11 Minuten, alle direkt oder mit diesem einen Umstieg.',
+          en: 'Brienz sits on the Zentralbahn line between Lucerne and Interlaken, so day trips reach out in both directions without a change of plan: Interlaken Ost is 17 minutes away on the Luzern-Interlaken Express or 20 on the regional R70, and Lucerne, Bern and Meiringen are all within about an hour and a half, direct or with a single change at Interlaken Ost. That makes it a workable base for exploring the wider Bernese Oberland by train rather than only a stop for the steam railway.',
+          fr: 'Brienz se trouve sur la ligne du Zentralbahn entre Lucerne et Interlaken, si bien que les excursions rayonnent dans les deux sens sans changer de plan : Interlaken Ost est à 17 minutes avec le Luzern-Interlaken Express ou 20 avec le train régional R70, et Lucerne, Berne et Meiringen se rejoignent toutes en environ une heure et demie, en direct ou avec un seul changement à Interlaken Ost. Cela en fait une base pratique pour explorer l’Oberland bernois en train, pas seulement une étape pour le train à vapeur.',
+          de: 'Brienz liegt an der Zentralbahn-Linie zwischen Luzern und Interlaken, sodass Ausflüge in beide Richtungen möglich sind, ohne die Reise umzuplanen: Interlaken Ost ist 17 Minuten entfernt mit dem Luzern-Interlaken Express oder 20 Minuten mit der Regio R70, und Luzern, Bern und Meiringen liegen alle rund eineinhalb Stunden entfernt, direkt oder mit einem einzigen Umstieg in Interlaken Ost. Das macht es zu einer praktischen Basis, um das Berner Oberland mit dem Zug zu erkunden, nicht nur zu einer Station für die Dampfbahn.',
         },
       },
       {
         title: { en: 'Reaching Giessbach', fr: 'Rejoindre Giessbach', de: 'Nach Giessbach' },
         text: {
-          en: 'Only by BLS boat to the Giessbach See landing stage, then the 1891 funicular, with direct connections to the BLS boats. There is no walking path from the village. Winter operation runs 21 October 2026 to 20 March 2027, Wednesday to Sunday, with limited hours.',
-          fr: 'Uniquement par bateau BLS jusqu’à l’embarcadère de Giessbach See, puis par le funiculaire de 1891, avec des correspondances directes avec les bateaux BLS. Il n’existe pas de chemin pédestre depuis le village. L’ouverture d’hiver court du 21 octobre 2026 au 20 mars 2027, du mercredi au dimanche, avec des horaires réduits.',
-          de: 'Nur mit dem BLS-Schiff bis zur Anlegestelle Giessbach See, dann mit der Standseilbahn von 1891, mit direkten Anschlüssen an die BLS-Schiffe. Ein Fussweg vom Dorf aus besteht nicht. Der Winterbetrieb läuft vom 21. Oktober 2026 bis 20. März 2027, Mittwoch bis Sonntag, mit eingeschränkten Öffnungszeiten.',
+          en: 'There is no path along the shore to Giessbach: the only way there is a BLS boat to the Giessbach See landing stage, then the funicular built in 1891, which connects directly with the boats, so build the crossing into your day rather than planning a walk. Outside summer, the hotel there keeps limited hours, Wednesday to Sunday only, from 21 October 2026 to 20 March 2027, so check the calendar before you plan a visit off season.',
+          fr: 'Aucun chemin ne longe la rive jusqu’à Giessbach : on y accède uniquement par bateau BLS jusqu’à l’embarcadère de Giessbach See, puis par le funiculaire construit en 1891, qui assure des correspondances directes avec les bateaux ; il faut donc prévoir la traversée dans son programme plutôt qu’une marche. En dehors de l’été, l’hôtel n’ouvre que du mercredi au dimanche, du 21 octobre 2026 au 20 mars 2027 : mieux vaut vérifier le calendrier avant d’y prévoir une visite hors saison.',
+          de: 'Es gibt keinen Uferweg nach Giessbach: Der einzige Weg dorthin führt mit dem BLS-Schiff zur Anlegestelle Giessbach See und dann mit der 1891 gebauten Standseilbahn, die direkt an die Schiffe anschliesst; die Überfahrt gehört also fest ins Tagesprogramm statt eines Spaziergangs. Ausserhalb des Sommers öffnet das Hotel dort nur von Mittwoch bis Sonntag, vom 21. Oktober 2026 bis 20. März 2027, ein Blick in den Kalender lohnt sich also vor einem Besuch ausserhalb der Saison.',
         },
       },
       {
@@ -273,9 +273,9 @@ export const brienz: DestinationGuide = {
     summer: {
       title: { en: 'Summer in Brienz', fr: 'L’été à Brienz', de: 'Sommer in Brienz' },
       base: {
-        en: 'Stay on the Hauptstrasse, by the Rothorn Bahn valley station and the boat landing: Ballenberg is about 11 minutes away on bus 151, and Giessbach is a boat ride across the lake.',
-        fr: 'Logez sur la Hauptstrasse, près de la station de départ du Rothorn Bahn et de l’embarcadère : Ballenberg est à environ 11 minutes en bus 151, et Giessbach se rejoint en bateau de l’autre côté du lac.',
-        de: 'Wohnen Sie an der Hauptstrasse, nahe der Talstation der Rothorn Bahn und dem Schiffssteg: Ballenberg ist rund 11 Minuten mit dem Bus 151 entfernt, und Giessbach erreicht man mit dem Schiff auf der anderen Seeseite.',
+        en: 'Stay on the Hauptstrasse, by the Rothorn Bahn valley station and the boat landing, if you want the steam train and the lake within a few minutes of your hotel. Ballenberg is about 11 minutes away on bus 151, and Giessbach, on the far shore, is always a boat ride from here rather than a walk.',
+        fr: 'Logez sur la Hauptstrasse, près de la station de départ du Rothorn Bahn et de l’embarcadère, si vous voulez avoir le train à vapeur et le lac à quelques minutes de l’hôtel. Ballenberg est à environ 11 minutes en bus 151, et Giessbach, sur l’autre rive, se rejoint toujours en bateau depuis ici, jamais à pied.',
+        de: 'Wohnen Sie an der Hauptstrasse, nahe der Talstation der Rothorn Bahn und dem Schiffssteg, wenn Sie Dampfbahn und See nur wenige Minuten vom Hotel entfernt haben wollen. Ballenberg ist rund 11 Minuten mit dem Bus 151 entfernt, und Giessbach am gegenüberliegenden Ufer erreicht man von hier stets mit dem Schiff, nie zu Fuss.',
       },
       facts: [
         { value: '6.6 → 25.10', label: { en: 'Rothorn steam railway, season 2026', fr: 'train à vapeur du Rothorn, saison 2026', de: 'Rothorn-Dampfbahn, Saison 2026' } },
@@ -310,9 +310,9 @@ export const brienz: DestinationGuide = {
   doing: {
     title: { en: 'What to do in Brienz', fr: 'Que faire à Brienz', de: 'Was man in Brienz unternimmt' },
     intro: {
-      en: 'Not a trail guide: named outings from the railway, the museum and the two craft schools that give Brienz its name.',
-      fr: 'Pas un guide de randonnée : quelques sorties nommées, issues du chemin de fer, du musée et des deux écoles d’artisanat qui valent à Brienz son nom.',
-      de: 'Kein Wanderführer: benannte Ausflüge von der Bahn, dem Museum und den zwei Handwerksschulen, die Brienz seinen Namen geben.',
+      en: 'Brienz is not a trail-guide destination, but a handful of named places give a stay here its shape: the steam railway, the open-air museum and the two craft schools that give the village its name. These are the ones we would build a day around, with the figures their operators publish.',
+      fr: 'Brienz n’est pas une destination de randonnée, mais quelques lieux nommés donnent sa forme à un séjour ici : le train à vapeur, le musée en plein air et les deux écoles d’artisanat qui valent son nom au village. Voici ceux autour desquels nous organiserions une journée, avec les chiffres publiés par leurs exploitants.',
+      de: 'Brienz ist kein Wanderziel, doch einige benannte Orte geben einem Aufenthalt hier seine Form: die Dampfbahn, das Freilichtmuseum und die zwei Handwerksschulen, die dem Dorf seinen Namen geben. Das sind jene, um die wir einen Tag planen würden, mit den Zahlen ihrer Betreiber.',
     },
     groups: [
       {
@@ -323,9 +323,9 @@ export const brienz: DestinationGuide = {
             name: 'Brienz Rothorn Bahn',
             meta: { en: 'about 1 hour to the summit · 6 June to 25 October 2026', fr: 'environ 1 heure jusqu’au sommet · 6 juin au 25 octobre 2026', de: 'rund 1 Stunde bis zum Gipfel · 6. Juni bis 25. Oktober 2026' },
             text: {
-              en: 'Built in about 16 months by around 700 workers, mostly Italian, at a cost of CHF 2.2 million, opened 16 June 1892 and never electrified. The concession was renewed in 2019 for the next 50 years, and 2024 storm damage cost about CHF 5 million to repair.',
-              fr: 'Construit en environ 16 mois par quelque 700 ouvriers, en majorité italiens, pour un coût de CHF 2,2 millions, ouvert le 16 juin 1892 et jamais électrifié. La concession a été renouvelée en 2019 pour les 50 prochaines années, et les dégâts causés par une tempête en 2024 ont coûté environ CHF 5 millions à réparer.',
-              de: 'Gebaut in rund 16 Monaten von etwa 700 Arbeitern, mehrheitlich Italienern, für CHF 2,2 Millionen, eröffnet am 16. Juni 1892 und nie elektrifiziert. Die Konzession wurde 2019 für die nächsten 50 Jahre erneuert, und die Sturmschäden von 2024 kosteten rund CHF 5 Millionen an Reparaturen.',
+              en: 'Opened in 1892 and never electrified, the steam railway climbs from beside Brienz station to the Rothorn summit in about an hour. It runs in summer only, from 6 June to 25 October 2026, with a first departure at 07:36 and a last one at 16:36, so an early train leaves the whole day for walking at the top. An adult return costs CHF 98, and a seat guarantee costs CHF 8 if you want to be sure of your place.',
+              fr: 'Ouvert en 1892 et jamais électrifié, ce train à vapeur monte depuis la gare de Brienz jusqu’au sommet du Rothorn en une heure environ. Il ne circule qu’en été, du 6 juin au 25 octobre 2026, avec un premier départ à 7 h 36 et un dernier à 16 h 36 : un train matinal laisse toute la journée pour marcher là-haut. L’aller-retour adulte coûte CHF 98, et la garantie de place coûte CHF 8 si vous voulez être sûr d’avoir votre siège.',
+              de: 'Seit 1892 in Betrieb und nie elektrifiziert, fährt die Dampfbahn von neben dem Bahnhof Brienz in rund einer Stunde auf das Rothorn. Sie verkehrt nur im Sommer, vom 6. Juni bis 25. Oktober 2026, erste Abfahrt um 7.36 Uhr, letzte um 16.36 Uhr: Mit einem frühen Zug bleibt der ganze Tag zum Wandern oben. Die Retourfahrt für Erwachsene kostet CHF 98, die Sitzplatzgarantie kostet CHF 8, wenn Sie sicher einen Platz wollen.',
             },
           },
           {
@@ -371,9 +371,9 @@ export const brienz: DestinationGuide = {
             name: 'Ballenberg',
             meta: { en: '9 April to 1 November 2026 · about 11 min on bus 151', fr: '9 avril au 1er novembre 2026 · environ 11 min en bus 151', de: '9. April bis 1. November 2026 · rund 11 Min. mit Bus 151' },
             text: {
-              en: 'The Swiss open-air museum at Hofstetten bei Brienz, with over 100 historic buildings brought from all over the country and over 200 farm animals, open daily 10:00 to 17:00.',
-              fr: 'Le musée suisse en plein air de Hofstetten bei Brienz, avec plus de cent bâtiments historiques rapportés de tout le pays et plus de 200 animaux de ferme, ouvert tous les jours de 10h00 à 17h00.',
-              de: 'Das Schweizer Freilichtmuseum in Hofstetten bei Brienz, mit über hundert historischen Gebäuden aus dem ganzen Land und über 200 Bauernhoftieren, täglich von 10.00 bis 17.00 Uhr offen.',
+              en: 'Ballenberg is the Swiss open-air museum at Hofstetten bei Brienz, with over 100 historic buildings brought from all over the country and over 200 farm animals. It opens daily from 10:00 to 17:00, about 11 minutes from Brienz station on bus 151, close enough to fill a single afternoon.',
+              fr: 'Ballenberg est le musée suisse en plein air de Hofstetten bei Brienz, avec plus de cent bâtiments historiques rapportés de tout le pays et plus de 200 animaux de ferme. Il ouvre tous les jours de 10h00 à 17h00, à environ 11 minutes de la gare de Brienz en bus 151, assez proche pour y consacrer un après-midi.',
+              de: 'Ballenberg ist das Schweizer Freilichtmuseum in Hofstetten bei Brienz, mit über hundert historischen Gebäuden aus dem ganzen Land und über 200 Bauernhoftieren. Es öffnet täglich von 10.00 bis 17.00 Uhr, rund 11 Minuten ab Bahnhof Brienz mit Bus 151, nah genug für einen einzelnen Nachmittag.',
             },
           },
           {
@@ -395,18 +395,18 @@ export const brienz: DestinationGuide = {
             name: 'Seerestaurant Löwen',
             meta: { en: 'Hauptstrasse 11 · Hotel Brienzerburli', fr: 'Hauptstrasse 11 · Hôtel Brienzerburli', de: 'Hauptstrasse 11 · Hotel Brienzerburli' },
             text: {
-              en: 'On the lake, part of Hotel Brienzerburli; the house describes it as rustic and home-style, with lunch, dinner and set menus.',
-              fr: 'Au bord du lac, il fait partie de l’Hôtel Brienzerburli ; la maison le décrit comme rustique et familial, avec déjeuner, dîner et menus fixes.',
-              de: 'Am See, Teil des Hotels Brienzerburli; das Haus beschreibt es als rustikal und heimelig, mit Mittag-, Abendkarte und Menüs.',
+              en: 'Seerestaurant Löwen sits on the lake as part of Hotel Brienzerburli, and the house describes it as rustic and home-style, with lunch, dinner and set menus.',
+              fr: 'Le Seerestaurant Löwen se trouve au bord du lac, au sein de l’Hôtel Brienzerburli, et la maison le décrit comme rustique et familial, avec déjeuner, dîner et menus fixes.',
+              de: 'Das Seerestaurant Löwen liegt am See und gehört zum Hotel Brienzerburli; das Haus beschreibt es als rustikal und heimelig, mit Mittag-, Abendkarte und Menüs.',
             },
           },
           {
             name: 'Goethestübli',
             meta: { en: 'Hauptstrasse 143 · Hotel Weisses Kreuz', fr: 'Hauptstrasse 143 · Hôtel Weisses Kreuz', de: 'Hauptstrasse 143 · Hotel Weisses Kreuz' },
             text: {
-              en: 'Inside Hotel Weisses Kreuz, a dining room the house calls historic and rich in tradition.',
-              fr: 'À l’intérieur de l’Hôtel Weisses Kreuz, une salle à manger que la maison qualifie d’historique et riche de tradition.',
-              de: 'Im Hotel Weisses Kreuz, eine Gaststube, die das Haus als historisch und traditionsreich bezeichnet.',
+              en: 'The Goethestübli is a dining room inside Hotel Weisses Kreuz that the house calls historic and rich in tradition.',
+              fr: 'Le Goethestübli est une salle à manger à l’intérieur de l’Hôtel Weisses Kreuz, que la maison qualifie d’historique et riche de tradition.',
+              de: 'Das Goethestübli ist eine Gaststube im Hotel Weisses Kreuz, die das Haus als historisch und traditionsreich bezeichnet.',
             },
           },
         ],
@@ -422,9 +422,9 @@ export const brienz: DestinationGuide = {
     {
       q: { en: 'How do I get to Brienz?', fr: 'Comment se rendre à Brienz ?', de: 'Wie kommt man nach Brienz?' },
       a: {
-        en: 'By the Zentralbahn between Interlaken and Lucerne. Interlaken Ost to Brienz is 17 minutes on the Luzern-Interlaken Express and 20 minutes on the regional train; Lucerne is 1 h 27, Bern 1 h 17 with a change at Interlaken Ost.',
-        fr: 'Par le Zentralbahn entre Interlaken et Lucerne. Interlaken Ost à Brienz se fait en 17 minutes avec le Luzern-Interlaken Express et en 20 minutes avec le train régional ; Lucerne est à 1 h 27, Berne à 1 h 17 avec un changement à Interlaken Ost.',
-        de: 'Mit der Zentralbahn zwischen Interlaken und Luzern. Interlaken Ost nach Brienz dauert 17 Minuten mit dem Luzern-Interlaken Express und 20 Minuten mit der Regionalbahn; Luzern liegt 1 Std. 27, Bern 1 Std. 17 mit einem Umstieg in Interlaken Ost.',
+        en: 'Brienz is reached by the Zentralbahn line between Interlaken and Lucerne: Interlaken Ost to Brienz takes 17 minutes on the Luzern-Interlaken Express or 20 minutes on the regional train, and Lucerne is 1 h 27 away, Bern 1 h 17 with a change at Interlaken Ost. Since the village sits directly on this line, it fits into a Lucerne to Interlaken itinerary as a stop along the way rather than a detour.',
+        fr: 'Brienz se rejoint par la ligne du Zentralbahn entre Interlaken et Lucerne : Interlaken Ost à Brienz se fait en 17 minutes avec le Luzern-Interlaken Express ou en 20 minutes avec le train régional, et Lucerne est à 1 h 27, Berne à 1 h 17 avec un changement à Interlaken Ost. Le village se trouvant directement sur cette ligne, il s’intègre dans un trajet Lucerne-Interlaken comme une étape en chemin plutôt que comme un détour.',
+        de: 'Brienz erreicht man mit der Zentralbahn zwischen Interlaken und Luzern: Interlaken Ost nach Brienz dauert 17 Minuten mit dem Luzern-Interlaken Express oder 20 Minuten mit der Regionalbahn, und Luzern liegt 1 Std. 27, Bern 1 Std. 17 mit einem Umstieg in Interlaken Ost. Da das Dorf direkt an dieser Linie liegt, fügt es sich als Zwischenstation in eine Fahrt zwischen Luzern und Interlaken ein, statt als Umweg.',
       },
     },
     {
@@ -438,25 +438,25 @@ export const brienz: DestinationGuide = {
     {
       q: { en: 'Is the Rothorn railway really steam?', fr: 'Le train du Rothorn est-il vraiment à vapeur ?', de: 'Fährt die Rothornbahn wirklich mit Dampf?' },
       a: {
-        en: 'It opened on 16 June 1892 and has not been electrified to this day, though diesel locomotives may be used for passenger services when there are too many passengers or a technical problem.',
-        fr: 'Il a ouvert le 16 juin 1892 et n’a jamais été électrifié, même si des locomotives diesel peuvent assurer le service voyageurs en cas d’affluence ou de problème technique.',
-        de: 'Sie wurde am 16. Juni 1892 eröffnet und bis heute nicht elektrifiziert, auch wenn bei zu vielen Fahrgästen oder einem technischen Problem Diesellokomotiven für den Personenverkehr eingesetzt werden können.',
+        en: 'It opened on 16 June 1892 and has never been electrified: it remains a steam railway. Diesel locomotives may be used for passenger services when there are too many passengers or a technical problem, so a steam engine at the head of the train is not guaranteed on every trip.',
+        fr: 'Il a ouvert le 16 juin 1892 et n’a jamais été électrifié : c’est resté un chemin de fer à vapeur. Des locomotives diesel peuvent assurer le service voyageurs en cas d’affluence ou de problème technique, une locomotive à vapeur n’est donc pas garantie à chaque trajet.',
+        de: 'Sie wurde am 16. Juni 1892 eröffnet und nie elektrifiziert: Sie ist eine Dampfbahn geblieben. Bei zu vielen Fahrgästen oder einem technischen Problem können Diesellokomotiven für den Personenverkehr eingesetzt werden, eine Dampflok an der Spitze ist also nicht bei jeder Fahrt garantiert.',
       },
     },
     {
       q: { en: 'What is there to do in Brienz apart from the railway?', fr: 'Que faire à Brienz en dehors du train ?', de: 'Was gibt es in Brienz ausser der Bahn zu tun?' },
       a: {
-        en: 'Ballenberg, the Swiss open-air museum at Hofstetten bei Brienz, with over 100 historic buildings and over 200 farm animals, open 9 April to 1 November 2026, about 11 minutes from the station on bus 151. In the village itself there is the School for Woodcarving and the Swiss Violin Making School.',
-        fr: 'Ballenberg, le musée suisse en plein air de Hofstetten bei Brienz, avec plus de cent bâtiments historiques et plus de 200 animaux de ferme, ouvert du 9 avril au 1er novembre 2026, à environ 11 minutes de la gare en bus 151. Dans le village même, on trouve l’école de sculpture sur bois et l’école suisse de lutherie.',
-        de: 'Ballenberg, das Schweizer Freilichtmuseum in Hofstetten bei Brienz, mit über hundert historischen Gebäuden und über 200 Bauernhoftieren, geöffnet vom 9. April bis 1. November 2026, rund 11 Minuten ab Bahnhof mit Bus 151. Im Dorf selbst gibt es die Schule für Holzbildhauerei und die Geigenbauschule.',
+        en: 'Ballenberg, the Swiss open-air museum at Hofstetten bei Brienz, has over 100 historic buildings and over 200 farm animals, and it is open 9 April to 1 November 2026, about 11 minutes from the station on bus 151. In the village itself there is also the School for Woodcarving and the Swiss Violin Making School, so a stay can easily mix a half-day at the museum with a walk past both schools.',
+        fr: 'Ballenberg, le musée suisse en plein air de Hofstetten bei Brienz, compte plus de cent bâtiments historiques et plus de 200 animaux de ferme, et il est ouvert du 9 avril au 1er novembre 2026, à environ 11 minutes de la gare en bus 151. Dans le village même se trouvent aussi l’école de sculpture sur bois et l’école suisse de lutherie, un séjour peut donc facilement combiner une demi-journée au musée avec une marche devant les deux écoles.',
+        de: 'Ballenberg, das Schweizer Freilichtmuseum in Hofstetten bei Brienz, zählt über hundert historische Gebäude und über 200 Bauernhoftiere und ist vom 9. April bis 1. November 2026 geöffnet, rund 11 Minuten ab Bahnhof mit Bus 151. Im Dorf selbst liegen auch die Schule für Holzbildhauerei und die Geigenbauschule, ein Aufenthalt lässt sich also leicht mit einem halben Tag im Museum und einem Spaziergang an beiden Schulen vorbei verbinden.',
       },
     },
     {
       q: { en: 'Why is Brienz called the woodcarving village?', fr: 'Pourquoi Brienz est-il appelé le village des sculpteurs sur bois ?', de: 'Warum nennt man Brienz das Schnitzlerdorf?' },
       a: {
-        en: 'The municipality describes itself as a carving village with a long tradition in wood processing, and the School for Woodcarving on Schleegasse trains carvers across six artisanal wood professions. The violin making school stands in the same village.',
-        fr: 'La commune se décrit elle-même comme un village de sculpteurs sur bois, à la longue tradition de travail du bois, et l’école de sculpture sur bois de la Schleegasse forme des sculpteurs dans six métiers artisanaux du bois. L’école de lutherie se trouve dans le même village.',
-        de: 'Die Gemeinde bezeichnet sich selbst als Schnitzlerdorf mit langer Tradition in der Holzverarbeitung, und die Schule für Holzbildhauerei an der Schleegasse bildet Schnitzer in sechs handwerklichen Holzberufen aus. Die Geigenbauschule liegt im selben Dorf.',
+        en: 'The municipality describes itself as a carving village with a long tradition in wood processing, and the School for Woodcarving on Schleegasse trains carvers across six artisanal wood professions. The Swiss Violin Making School stands in the same village, so visitors curious about the craft can walk to both schools without leaving Brienz.',
+        fr: 'La commune se décrit elle-même comme un village de sculpteurs sur bois, à la longue tradition de travail du bois, et l’école de sculpture sur bois de la Schleegasse forme des sculpteurs dans six métiers artisanaux du bois. L’école suisse de lutherie se trouve dans le même village, si bien que les curieux de ces métiers peuvent rejoindre les deux écoles à pied, sans quitter Brienz.',
+        de: 'Die Gemeinde bezeichnet sich selbst als Schnitzlerdorf mit langer Tradition in der Holzverarbeitung, und die Schule für Holzbildhauerei an der Schleegasse bildet Schnitzer in sechs handwerklichen Holzberufen aus. Die Geigenbauschule liegt im selben Dorf, wer sich für das Handwerk interessiert, erreicht also beide Schulen zu Fuss, ohne Brienz zu verlassen.',
       },
     },
   ],
