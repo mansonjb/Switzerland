@@ -22,7 +22,7 @@ export type Season = 'summer' | 'winter'
 
 export type DestinationGuide = {
   slug: string
-  stamp: 'wengen' | 'generic'
+  stamp: 'wengen' | 'lauterbrunnen' | 'grindelwald' | 'murren' | 'interlaken' | 'generic'
   meta: { title: L; description: L }
   eyebrow: L
   title: L

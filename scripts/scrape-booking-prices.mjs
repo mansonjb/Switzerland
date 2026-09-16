@@ -33,8 +33,10 @@ const SCRATCH_DIR =
   (() => {
     throw new Error("Set SCRATCH_DIR env var to an out-of-repo scratch directory");
   })();
-const OUT_AGG = path.join(SCRATCH_DIR, "wengen-booking-aggregated.json");
-const OUT_RAW = path.join(SCRATCH_DIR, "wengen-booking-raw.json");
+const PLACE = (() => { const i = process.argv.indexOf("--place"); return i >= 0 && process.argv[i + 1] ? process.argv[i + 1] : "Wengen"; })();
+const SLUG = PLACE.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+const OUT_AGG = path.join(SCRATCH_DIR, `${SLUG}-booking-aggregated.json`);
+const OUT_RAW = path.join(SCRATCH_DIR, `${SLUG}-booking-raw.json`);
 
 const ALL_DATES = [
   ["2026-12-18", "2026-12-19"],
@@ -47,7 +49,7 @@ const ALL_DATES = [
 
 // Known Wengen properties that don't reliably surface in a generic
 // "Wengen, Switzerland" Booking.com search, scraped via direct hotel URL too.
-const EXTRA_START_URLS = ["https://www.booking.com/hotel/ch/falken-wengen.html"];
+const EXTRA_START_URLS = PLACE === "Wengen" ? ["https://www.booking.com/hotel/ch/falken-wengen.html"] : [];
 
 const argv = process.argv.slice(2);
 const datesArg = (() => {
@@ -81,8 +83,7 @@ async function runActor(input, token) {
 
 function isWengen(item) {
   const full = item.address?.full || "";
-  if (!/3823\s*wengen/i.test(full)) return false;
-  if (/lauterbrunnen|interlaken|grindelwald/i.test(full)) return false;
+  if (!new RegExp(PLACE.replace("ü", "[uü]"), "i").test(full)) return false;
   return true;
 }
 
@@ -111,7 +112,7 @@ async function main() {
     try {
       const r1 = await runActor(
         {
-          search: "Wengen, Switzerland",
+          search: `${PLACE}, Switzerland`,
           maxItems: 60,
           currency: "CHF",
           language: "en-gb",

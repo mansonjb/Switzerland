@@ -1,0 +1,142 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-06-23",
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "gw-schweizerhof",
+      "bookingName": "Romantik Hotel Schweizerhof",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/romantik-schweizerhof-grindelwald.en-gb.html",
+      "address": "Swiss Alp  Resort 1 , 3818 Grindelwald, Switzerland",
+      "prices": {
+        "2026-12-18": 658,
+        "2027-01-20": 416,
+        "2027-02-17": 412,
+        "2027-06-23": 1140,
+        "2027-07-21": 1246,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 412,
+        "avg": 775,
+        "samples": 5
+      },
+      "winter": {
+        "from": 412,
+        "avg": 495,
+        "samples": 3
+      },
+      "summer": {
+        "from": 1140,
+        "avg": 1195,
+        "samples": 2
+      },
+      "tier": "premium"
+    },
+    {
+      "slug": "gw-sunstar-hotel",
+      "bookingName": "Sunstar Hotel & SPA Grindelwald",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sunstar-grindelwald.en-gb.html",
+      "address": "Dorfstrasse 168, 3818 Grindelwald, Switzerland",
+      "prices": {
+        "2026-12-18": 336,
+        "2027-01-20": 293,
+        "2027-02-17": 345,
+        "2027-06-23": 538,
+        "2027-07-21": 508,
+        "2027-09-08": 597
+      },
+      "all": {
+        "from": 293,
+        "avg": 435,
+        "samples": 6
+      },
+      "winter": {
+        "from": 293,
+        "avg": 325,
+        "samples": 3
+      },
+      "summer": {
+        "from": 508,
+        "avg": 550,
+        "samples": 3
+      },
+      "tier": "mid"
+    },
+    {
+      "slug": "gw-hotel-gletschergarten",
+      "bookingName": "Hotel Gletschergarten",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/gletschergarten.en-gb.html",
+      "address": "Obere Gletscherstrasse 1, 3818 Grindelwald, Switzerland",
+      "prices": {
+        "2026-12-18": 335,
+        "2027-01-20": 255,
+        "2027-02-17": 375,
+        "2027-06-23": 395,
+        "2027-07-21": 395,
+        "2027-09-08": 395
+      },
+      "all": {
+        "from": 255,
+        "avg": 360,
+        "samples": 6
+      },
+      "winter": {
+        "from": 255,
+        "avg": 320,
+        "samples": 3
+      },
+      "summer": {
+        "from": 395,
+        "avg": 395,
+        "samples": 3
+      },
+      "tier": "mid"
+    },
+    {
+      "slug": "gw-hotel-wetterhorn",
+      "bookingName": "Hotel Wetterhorn",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/wetterhorn.en-gb.html",
+      "address": "Obere Gletscherstrasse 159, 3818 Grindelwald, Switzerland",
+      "prices": {
+        "2026-12-18": 259,
+        "2027-01-20": 255,
+        "2027-02-17": 259,
+        "2027-06-23": 259,
+        "2027-07-21": 259,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 255,
+        "avg": 260,
+        "samples": 5
+      },
+      "winter": {
+        "from": 255,
+        "avg": 260,
+        "samples": 3
+      },
+      "summer": {
+        "from": 259,
+        "avg": 260,
+        "samples": 2
+      },
+      "tier": "budget"
+    }
+  ]
+}

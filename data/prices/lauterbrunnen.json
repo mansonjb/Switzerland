@@ -1,0 +1,76 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-06-23",
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "lb-hotel-oberland",
+      "bookingName": "Hotel Oberland",
+      "tier": "mid",
+      "stars": 2,
+      "bookingUrl": "https://www.booking.com/hotel/ch/oberland.en-gb.html",
+      "address": "Fuhren, 3822 Lauterbrunnen, Switzerland",
+      "prices": {
+        "2026-12-18": 337,
+        "2027-01-20": 305,
+        "2027-02-17": 305,
+        "2027-06-23": 324,
+        "2027-07-21": 324,
+        "2027-09-08": 324
+      },
+      "all": {
+        "from": 305,
+        "avg": 320,
+        "samples": 6
+      },
+      "winter": {
+        "from": 305,
+        "avg": 315,
+        "samples": 3
+      },
+      "summer": {
+        "from": 324,
+        "avg": 325,
+        "samples": 3
+      }
+    },
+    {
+      "slug": "lb-hotel-steinbock",
+      "bookingName": "Hotel Steinbock",
+      "tier": "budget",
+      "stars": 2,
+      "bookingUrl": "https://www.booking.com/hotel/ch/steinbock-lauterbrunnen.en-gb.html",
+      "address": "Bahnhofplatz 477b, 3822 Lauterbrunnen, Switzerland",
+      "prices": {
+        "2026-12-18": 158,
+        "2027-01-20": null,
+        "2027-02-17": 168,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 158,
+        "avg": 165,
+        "samples": 2
+      },
+      "winter": {
+        "from": 158,
+        "avg": 165,
+        "samples": 2
+      },
+      "summer": null
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-06-23",
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "il-victoria-jungfrau",
+      "bookingName": "Victoria Jungfrau Grand Hotel & Spa",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/victoria-jungfrau-grand-spa.en-gb.html",
+      "address": "Höheweg 41, 3800 Interlaken, Switzerland",
+      "prices": {
+        "2026-12-18": 953,
+        "2027-01-20": 838,
+        "2027-02-17": 785,
+        "2027-06-23": 2610,
+        "2027-07-21": 1640,
+        "2027-09-08": 1479
+      },
+      "all": {
+        "from": 785,
+        "avg": 1385,
+        "samples": 6
+      },
+      "winter": {
+        "from": 785,
+        "avg": 860,
+        "samples": 3
+      },
+      "summer": {
+        "from": 1479,
+        "avg": 1910,
+        "samples": 3
+      }
+    },
+    {
+      "slug": "il-hotel-beausite",
+      "bookingName": "Hotel Beausite",
+      "tier": "premium",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/beausite.en-gb.html",
+      "address": "Seestrasse 16, 3800 Interlaken, Switzerland",
+      "prices": {
+        "2027-06-23": 585,
+        "2027-07-21": 585,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 585,
+        "avg": 585,
+        "samples": 2
+      },
+      "winter": null,
+      "summer": {
+        "from": 585,
+        "avg": 585,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "il-carlton-europe",
+      "bookingName": "Carlton-Europe Vintage Adults Hotel",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/villaeurope.en-gb.html",
+      "address": "Hoeheweg 92-94, 3800 Interlaken, Switzerland",
+      "prices": {
+        "2027-06-23": 348,
+        "2027-07-21": 390,
+        "2027-09-08": 390,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null
+      },
+      "all": {
+        "from": 348,
+        "avg": 375,
+        "samples": 3
+      },
+      "winter": null,
+      "summer": {
+        "from": 348,
+        "avg": 375,
+        "samples": 3
+      }
+    },
+    {
+      "slug": "il-hotel-krebs",
+      "bookingName": "Hotel Krebs Interlaken",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/krebs-interlaken.en-gb.html",
+      "address": "Bahnhofstrasse 4, 3800 Interlaken, Switzerland",
+      "prices": {
+        "2026-12-18": 271,
+        "2027-01-20": 248,
+        "2027-02-17": 248,
+        "2027-09-08": 377,
+        "2027-06-23": null,
+        "2027-07-21": null
+      },
+      "all": {
+        "from": 248,
+        "avg": 285,
+        "samples": 4
+      },
+      "winter": {
+        "from": 248,
+        "avg": 255,
+        "samples": 3
+      },
+      "summer": {
+        "from": 377,
+        "avg": 375,
+        "samples": 1
+      }
+    }
+  ]
+}

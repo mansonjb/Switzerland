@@ -63,6 +63,29 @@ const HOTELS = [
   { slug: "braunbar-hotel-spa", name: "Braunbär Hotel Spa Wengen" },
   { slug: "hotel-schonegg", name: "Hotel Schönegg Wengen" },
   { slug: "beausite-park-hotel", name: "Beausite Park Hotel Spa Wengen" },
+  { slug: "murren-hotel-regina", name: "Hotel Regina Mürren" },
+  { slug: "murren-hotel-jungfrau", name: "Hotel Jungfrau Mürren" },
+  { slug: "murren-hotel-alpenruh", name: "Hotel Alpenruh Mürren" },
+  { slug: "murren-hotel-blumental", name: "Hotel Blumental Mürren" },
+  { slug: "murren-hotel-eiger", name: "Eiger Mürren Swiss Quality Hotel" },
+  { slug: "murren-hotel-palace", name: "Hotel Mürren Palace" },
+  { slug: "lb-hotel-silberhorn", name: "Hotel Silberhorn Lauterbrunnen" },
+  { slug: "lb-hotel-staubbach", name: "Hotel Staubbach Lauterbrunnen" },
+  { slug: "lb-hotel-oberland", name: "Hotel Oberland Lauterbrunnen" },
+  { slug: "lb-hotel-jungfrau", name: "Hotel Restaurant Jungfrau Lauterbrunnen" },
+  { slug: "lb-hotel-steinbock", name: "Hotel Restaurant Steinbock Lauterbrunnen" },
+  { slug: "lb-horner-pub", name: "Horner Pub Hotel Lauterbrunnen" },
+  { slug: "il-hotel-du-lac", name: "Hotel Du Lac Interlaken" },
+  { slug: "il-hotel-metropole", name: "Hotel Metropole Interlaken" },
+  { slug: "il-hotel-lotschberg", name: "Hotel Lötschberg Interlaken" },
+  { slug: "il-hotel-krebs", name: "Hotel Krebs Interlaken" },
+  { slug: "il-hotel-beausite", name: "Hotel Beausite Interlaken" },
+  { slug: "il-carlton-europe", name: "Carlton Europe Vintage Adults Hotel Interlaken" },
+  { slug: "il-victoria-jungfrau", name: "Victoria Jungfrau Grand Hotel Spa Interlaken" },
+  { slug: "gw-hotel-wetterhorn", name: "Hotel Wetterhorn Grindelwald" },
+  { slug: "gw-hotel-gletschergarten", name: "Hotel Gletschergarten Grindelwald" },
+  { slug: "gw-sunstar-hotel", name: "Sunstar Hotel Spa Grindelwald" },
+  { slug: "gw-schweizerhof", name: "Romantik Hotel Schweizerhof Grindelwald" },
 ];
 
 async function loadToken() {
@@ -134,7 +157,7 @@ async function main() {
   if (candidatesArg) {
     await mkdir(CANDIDATES_DIR, { recursive: true });
     for (const hotel of work) {
-      const searchString = `${hotel.name}, Wengen, Switzerland`;
+      const searchString = `${hotel.name}, Switzerland`;
       console.log(`\n${hotel.slug}: searching "${searchString}"`);
       let raw;
       try {
@@ -169,7 +192,7 @@ async function main() {
 
   const results = [];
   for (const hotel of work) {
-    const searchString = `${hotel.name}, Wengen, Switzerland`;
+    const searchString = `${hotel.name}, Switzerland`;
     console.log(`\n${hotel.slug}: searching "${searchString}"`);
     let raw;
     try {

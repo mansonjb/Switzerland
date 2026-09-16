@@ -1,0 +1,196 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-06-23",
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "murren-hotel-palace",
+      "bookingName": "Hotel Mürren Palace",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/murren-palace-murren3.en-gb.html",
+      "address": "1086 Höhenmatte, 3825 Mürren, Switzerland",
+      "prices": {
+        "2027-02-17": 502,
+        "2027-06-23": 491,
+        "2027-07-21": 491,
+        "2027-09-08": 491,
+        "2026-12-18": null,
+        "2027-01-20": null
+      },
+      "all": {
+        "from": 491,
+        "avg": 495,
+        "samples": 4
+      },
+      "winter": {
+        "from": 502,
+        "avg": 500,
+        "samples": 1
+      },
+      "summer": {
+        "from": 491,
+        "avg": 490,
+        "samples": 3
+      },
+      "tier": "premium"
+    },
+    {
+      "slug": "murren-hotel-eiger",
+      "bookingName": "Eiger Mürren Swiss Quality Hotel",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swissqeiger.en-gb.html",
+      "address": "Aegerta 1, 3825 Mürren, Switzerland",
+      "prices": {
+        "2026-12-18": 373,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 373,
+        "avg": 375,
+        "samples": 1
+      },
+      "winter": {
+        "from": 373,
+        "avg": 375,
+        "samples": 1
+      },
+      "summer": null,
+      "tier": "mid"
+    },
+    {
+      "slug": "murren-hotel-blumental",
+      "bookingName": "Hotel Blumental",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/blumentalhotel.en-gb.html",
+      "address": "Lus 1027, 3825 Mürren, Switzerland",
+      "prices": {
+        "2026-12-18": 266,
+        "2027-02-17": 392,
+        "2027-06-23": 449,
+        "2027-09-08": 392,
+        "2027-01-20": null,
+        "2027-07-21": null
+      },
+      "all": {
+        "from": 266,
+        "avg": 375,
+        "samples": 4
+      },
+      "winter": {
+        "from": 266,
+        "avg": 330,
+        "samples": 2
+      },
+      "summer": {
+        "from": 392,
+        "avg": 420,
+        "samples": 2
+      },
+      "tier": "mid"
+    },
+    {
+      "slug": "murren-hotel-alpenruh",
+      "bookingName": "Hotel Alpenruh",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpenruh.en-gb.html",
+      "address": "Eggli 954B, 3825 Mürren, Switzerland",
+      "prices": {
+        "2026-12-18": 258,
+        "2027-02-17": 382,
+        "2027-06-23": 393,
+        "2027-07-21": 411,
+        "2027-09-08": 411,
+        "2027-01-20": null
+      },
+      "all": {
+        "from": 258,
+        "avg": 370,
+        "samples": 5
+      },
+      "winter": {
+        "from": 258,
+        "avg": 320,
+        "samples": 2
+      },
+      "summer": {
+        "from": 393,
+        "avg": 405,
+        "samples": 3
+      },
+      "tier": "mid"
+    },
+    {
+      "slug": "murren-hotel-jungfrau",
+      "bookingName": "Hotel Jungfrau Mürren",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/jungfrau-murren.en-gb.html",
+      "address": "Im Gruebi, 3825 Mürren, Switzerland",
+      "prices": {
+        "2027-01-20": 290,
+        "2027-02-17": 250,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 250,
+        "avg": 270,
+        "samples": 2
+      },
+      "winter": {
+        "from": 250,
+        "avg": 270,
+        "samples": 2
+      },
+      "summer": null,
+      "tier": "budget"
+    },
+    {
+      "slug": "murren-hotel-regina",
+      "bookingName": "Hotel Regina",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/regina-murren.en-gb.html",
+      "address": "Hotel Regina Mürren AG Borthalten 1036 3825 Mürren, 3825 Mürren, Switzerland",
+      "prices": {
+        "2026-12-18": 244,
+        "2027-01-20": 240,
+        "2027-06-23": 242,
+        "2027-07-21": 261,
+        "2027-09-08": 213,
+        "2027-02-17": null
+      },
+      "all": {
+        "from": 213,
+        "avg": 240,
+        "samples": 5
+      },
+      "winter": {
+        "from": 240,
+        "avg": 240,
+        "samples": 2
+      },
+      "summer": {
+        "from": 213,
+        "avg": 240,
+        "samples": 3
+      },
+      "tier": "budget"
+    }
+  ]
+}

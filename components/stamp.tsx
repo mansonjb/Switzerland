@@ -19,8 +19,77 @@ function WengenArt() {
   )
 }
 
+
+/** Lauterbrunnen: vertical cliffs and the waterfall. */
+function LauterbrunnenArt() {
+  const abs = 'absolute'
+  return (
+    <>
+      <div className={`${abs} bottom-[20%] left-0 h-[72%] w-[34%] bg-st-rock`} />
+      <div className={`${abs} bottom-[20%] right-0 h-[64%] w-[30%] bg-st-rock-light`} />
+      <div className={`${abs} bottom-[20%] left-[30%] h-[80%] w-[3%] bg-st-snow`} />
+      <div className={`${abs} bottom-[20%] left-[26%] h-[10%] w-[12%] bg-st-snow opacity-70`} />
+      <div className={`${abs} inset-x-0 bottom-0 h-[20%] bg-st-meadow`} />
+      <div className={`${abs} tri bottom-[16%] left-[52%] h-[20%] w-[10%] bg-st-fir`} />
+      <div className={`${abs} tri bottom-[14%] left-[62%] h-[15%] w-[8%] bg-st-fir-light`} />
+      <div className={`${abs} tri bottom-[20%] left-[40%] h-[46%] w-[26%] bg-st-rock-dark`} />
+    </>
+  )
+}
+
+/** Grindelwald: the Eiger wall over meadows. */
+function GrindelwaldArt() {
+  const abs = 'absolute'
+  return (
+    <>
+      <div className={`${abs} bottom-[22%] left-[-4%] h-[54%] w-[58%] bg-st-rock-dark [clip-path:polygon(0_100%,58%_0,100%_100%)]`} />
+      <div className={`${abs} bottom-[22%] left-[36%] h-[70%] w-[64%] bg-st-rock [clip-path:polygon(0_100%,46%_0,100%_100%)]`} />
+      <div className={`${abs} bottom-[22%] left-[36%] h-[70%] w-[64%] bg-st-snow [clip-path:polygon(46%_0,66%_40%,56%_33%,46%_44%,36%_32%,28%_38%)]`} />
+      <div className={`${abs} inset-x-0 bottom-0 h-[22%] bg-st-meadow`} />
+      <div className={`${abs} bottom-[22%] left-[10%] h-[8%] w-[16%] bg-st-fir-light`} />
+      <div className={`${abs} tri bottom-[18%] left-[70%] h-[16%] w-[8%] bg-st-fir`} />
+    </>
+  )
+}
+
+/** Mürren: the Schilthorn ridge seen from the terrace. */
+function MurrenArt() {
+  const abs = 'absolute'
+  return (
+    <>
+      <div className={`${abs} tri bottom-[26%] left-[-6%] h-[44%] w-[50%] bg-st-rock-light`} />
+      <div className={`${abs} tri bottom-[26%] left-[24%] h-[62%] w-[52%] bg-st-rock`} />
+      <div className={`${abs} tri bottom-[26%] right-[-6%] h-[48%] w-[46%] bg-st-rock-light`} />
+      <div className={`${abs} bottom-[26%] left-[24%] h-[62%] w-[52%] bg-st-snow [clip-path:polygon(50%_0,72%_44%,62%_37%,52%_48%,42%_36%,32%_45%)]`} />
+      <div className={`${abs} inset-x-0 bottom-0 h-[26%] bg-st-meadow`} />
+      <div className={`${abs} bottom-[20%] left-[18%] h-[10%] w-[20%] bg-st-rock-dark`} />
+      <div className={`${abs} tri bottom-[22%] left-[60%] h-[14%] w-[7%] bg-st-fir`} />
+    </>
+  )
+}
+
+/** Interlaken: the lake between two shoulders. */
+function InterlakenArt() {
+  const abs = 'absolute'
+  return (
+    <>
+      <div className={`${abs} tri bottom-[34%] left-[-8%] h-[40%] w-[56%] bg-st-rock`} />
+      <div className={`${abs} tri bottom-[34%] right-[-8%] h-[46%] w-[58%] bg-st-rock-light`} />
+      <div className={`${abs} bottom-[34%] left-[28%] h-[30%] w-[44%] bg-st-snow [clip-path:polygon(50%_0,100%_100%,0_100%)]`} />
+      <div className={`${abs} inset-x-0 bottom-0 h-[34%] bg-st-lake`} />
+      <div className={`${abs} bottom-[30%] left-0 right-0 h-[6%] bg-st-meadow`} />
+      <div className={`${abs} bottom-[10%] left-[18%] h-[4%] w-[26%] bg-white opacity-70`} />
+      <div className={`${abs} bottom-[18%] left-[56%] h-[3%] w-[20%] bg-white opacity-60`} />
+    </>
+  )
+}
+
 const ART: Record<DestinationGuide['stamp'], () => React.JSX.Element> = {
   wengen: WengenArt,
+  lauterbrunnen: LauterbrunnenArt,
+  grindelwald: GrindelwaldArt,
+  murren: MurrenArt,
+  interlaken: InterlakenArt,
   generic: WengenArt,
 }
 

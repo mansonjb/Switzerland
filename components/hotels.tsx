@@ -42,13 +42,14 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
   const [season] = useSeason()
   const [tier, setTier] = useState<Tier | 'all'>('all')
   const tiers: Tier[] = ['budget', 'mid', 'premium']
-  const shown = hotels.filter((h) => tier === 'all' || h.tier === tier)
+  // A hotel with no collected price is not sorted into a price tier, it only shows under All.
+  const shown = hotels.filter((h) => tier === 'all' || (h.price.all !== null && h.tier === tier))
 
   return (
     <div>
       <div className="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:flex-wrap md:px-0 [&::-webkit-scrollbar]:hidden">
         {(['all', ...tiers] as const).map((k) => {
-          const count = k === 'all' ? hotels.length : hotels.filter((h) => h.tier === k).length
+          const count = k === 'all' ? hotels.length : hotels.filter((h) => h.price.all !== null && h.tier === k).length
           if (!count) return null
           return (
             <button
@@ -71,7 +72,7 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
             <article key={h.name} className="group flex flex-col border border-rule bg-white transition-colors hover:border-ink">
               <div className="hatch relative aspect-[3/2] overflow-hidden">
                 {h.photo && <Image src={h.photo} alt={h.name} fill sizes="(min-width:1024px) 300px, (min-width:640px) 50vw, 100vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]" />}
-                <div className={`absolute left-0 top-0 px-2.5 py-1.5 font-display text-xs font-semibold uppercase tracking-[0.08em] ${TIER_STYLE[h.tier]}`}>{labels.tiers[h.tier]}</div>
+                {h.price.all && <div className={`absolute left-0 top-0 px-2.5 py-1.5 font-display text-xs font-semibold uppercase tracking-[0.08em] ${TIER_STYLE[h.tier]}`}>{labels.tiers[h.tier]}</div>}
               </div>
               <div className="flex flex-1 flex-col gap-3 p-4 md:p-5">
                 <div>

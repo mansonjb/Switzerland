@@ -218,3 +218,13 @@ Retrieved via Wikipedia `pageimages` API (per-language, as specified) then Commo
 ## Hotel prices
 
 `data/prices/wengen.json`: Booking.com via Apify voyager/booking-scraper, scraped 2026-09-15, CHF, 2 adults, 1 room, 1 night, winter dates 2026-12-18 / 2027-01-20 / 2027-02-17, summer dates 2027-06-23 / 2027-07-21 / 2027-09-08. Tiers from average: budget (Bellevue, Victoria Lauberhorn), mid (Falken, Braunbär, Regina, Silberhorn), premium (Schönegg, Beausite Park, Belvédère: no availability on sample dates). Raw aggregated file kept outside the repo.
+
+---
+
+## Bernese Oberland, September 2026
+
+Facts for Mürren, Grindelwald, Lauterbrunnen and Interlaken: `data/SOURCES-oberland.md` (Mürren + Grindelwald) and `data/SOURCES-oberland-2.md` (Lauterbrunnen + Interlaken), both produced from official sources with VERIFIED / UNVERIFIABLE tags. Anything tagged UNVERIFIABLE was reworded or dropped, in particular: Interlaken altitude, exact Interlaken to Jungfraujoch journey time, train times from Zurich/Bern/Basel/Geneva, the Jungfrau Marathon date, ski-area season dates from snow aggregators, Staubbach Fall height, and the Grindelwald specific Jungfraujoch fares (so the Grindelwald page has no Swiss Travel Pass fare block).
+
+Prices: `data/prices/{murren,grindelwald,lauterbrunnen,interlaken}.json`, Booking.com via Apify, 2 adults, 1 room, 1 night, scraped 16 September 2026 on the same 3 winter and 3 summer dates as Wengen. Tier bands are the same everywhere: budget up to CHF 280 average, mid up to CHF 450, premium above. Hotels not returned by the Booking search keep their card without a price rather than showing an invented one.
+
+Swiss Travel Pass, checked figure: on the Schilthorn cable car the pass pays CHF 45.70 instead of CHF 91.40 (half price, schilthorn.ch), not the 25% that applies on the Jungfraujoch line.
