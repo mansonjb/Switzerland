@@ -31,7 +31,7 @@ export function Eyebrow({ children }: { children: ReactNode }) {
 
 export function QuickAnswer({ locale, children }: { locale: Locale; children: ReactNode }) {
   return (
-    <div className="border-l-4 border-swiss bg-mist px-[18px] py-4 md:px-7 md:py-6">
+    <div className="rounded-2xl border border-rule bg-sand px-[18px] py-4 md:px-7 md:py-6">
       <div className="mb-1.5 font-display text-[13px] font-semibold uppercase tracking-[0.08em] text-muted md:mb-2 md:text-[15px]">{getDict(locale).quickAnswer}</div>
       <p className="m-0 text-lg leading-normal text-ink md:text-xl">{children}</p>
     </div>
@@ -54,7 +54,7 @@ export function Stats({ items, locale, big = false }: { items: { value: string; 
 export function SquareBullet({ children, red = false }: { children: ReactNode; red?: boolean }) {
   return (
     <li className="flex items-start gap-2.5">
-      <span className={`mt-[7px] shrink-0 ${red ? 'size-[7px] bg-swiss' : 'size-1.5 bg-ink'}`} aria-hidden />
+      <span className={`mt-[7px] shrink-0 rounded-full ${red ? 'size-[7px] bg-lake' : 'size-1.5 bg-faint'}`} aria-hidden />
       <span className="text-[15px] leading-normal text-ink">{children}</span>
     </li>
   )
@@ -84,10 +84,10 @@ export function Credit({ credit, caption }: { credit?: PhotoCredit; caption?: st
 export function HotelCard({ hotel, place, locale }: { hotel: DestinationGuide['hotels'][number]; place: string; locale: Locale }) {
   const d = getDict(locale)
   return (
-    <article className="group flex flex-col border border-rule bg-white transition-colors hover:border-ink">
+    <article className="group flex flex-col overflow-hidden rounded-2xl border border-rule bg-white shadow-[0_1px_2px_rgba(19,27,34,0.04)] transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_28px_rgba(19,27,34,0.10)]">
       <div className="hatch relative aspect-[3/2] overflow-hidden">
         {hotel.photo && <Image src={hotel.photo} alt={hotel.name} fill sizes="(min-width:1024px) 300px, (min-width:640px) 50vw, 100vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]" />}
-        <div className="absolute left-0 top-0 bg-white px-2.5 py-1.5 font-display text-xs font-semibold uppercase tracking-[0.08em] text-ink">{t(hotel.sector, locale)}</div>
+        <div className="absolute left-3 top-3 rounded-full bg-white/95 px-3 py-1 font-display text-xs font-semibold uppercase tracking-[0.08em] text-ink shadow-sm">{t(hotel.sector, locale)}</div>
       </div>
       <div className="flex flex-1 flex-col gap-3 p-4 md:p-5">
         <h3 className="m-0 font-display text-2xl font-bold uppercase leading-none tracking-[0.01em] text-ink">{hotel.name}</h3>
@@ -210,9 +210,9 @@ export function ThingsToDo({ doing, locale }: { doing: NonNullable<DestinationGu
       <p className="mb-0 mt-0 max-w-none text-base leading-relaxed text-ink md:text-lg">{t(doing.intro, locale)}</p>
       <div className="mt-7 grid gap-x-8 gap-y-8 md:mt-10 md:grid-cols-2 md:gap-y-12">
         {doing.groups.map((g, i) => (
-          <div key={i} className="min-w-0 border-t-2 border-ink pt-3.5 md:pt-5">
+          <div key={i} className="min-w-0 rounded-2xl border border-rule bg-white p-5 md:p-6">
             <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-              <span className="bg-swiss px-2 py-1 font-display text-xs font-semibold uppercase tracking-[0.08em] text-white">{d.sell.doing.kinds[g.kind]}</span>
+              <span className="rounded-full bg-lake-soft px-3 py-1 font-display text-xs font-semibold uppercase tracking-[0.08em] text-lake-dark">{d.sell.doing.kinds[g.kind]}</span>
               <h3 className="m-0 font-display text-[22px] font-bold uppercase tracking-[0.01em] text-ink md:text-[26px]">{t(g.title, locale)}</h3>
             </div>
             <ul className="m-0 mt-4 flex list-none flex-col gap-4 p-0 md:gap-5">
@@ -284,7 +284,7 @@ export function PhotoHero({ photo, alt, children, credit, id = 'hero' }: { photo
 
 /** White booking panel sitting inside a hero. */
 export function BookingPanel({ children }: { children: ReactNode }) {
-  return <div className="mt-6 border-t-4 border-swiss bg-white p-4 shadow-[0_10px_30px_rgba(0,0,0,0.25)] md:mt-8 md:p-6">{children}</div>
+  return <div className="mt-6 rounded-2xl bg-white p-4 shadow-[0_18px_40px_rgba(0,0,0,0.28)] md:mt-8 md:p-6">{children}</div>
 }
 
 /** Full-width ink band with one call to action. */
@@ -309,9 +309,9 @@ export function NetworkLinks({ keyName, locale, title }: { keyName: string; loca
     <Section title={title}>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {links.map((l, i) => (
-          <a key={i} href={l.url(locale)} target="_blank" rel="noopener" className="group block border-t-2 border-ink pt-4 no-underline">
+          <a key={i} href={l.url(locale)} target="_blank" rel="noopener" className="group block rounded-2xl border border-rule bg-sand p-5 no-underline transition-colors hover:border-lake/50 hover:bg-lake-soft">
             <div className="text-[13px] font-medium uppercase tracking-[0.08em] text-muted">{l.site}</div>
-            <div className="mt-1 font-display text-2xl font-bold uppercase leading-none text-ink group-hover:text-swiss">{t(l.title, locale)} <span aria-hidden>→</span></div>
+            <div className="mt-1 font-display text-2xl font-bold uppercase leading-none text-ink group-hover:text-lake">{t(l.title, locale)} <span aria-hidden>→</span></div>
             <p className="mb-0 mt-2 text-[15px] leading-relaxed text-ink">{t(l.text, locale)}</p>
           </a>
         ))}

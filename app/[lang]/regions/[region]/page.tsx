@@ -124,7 +124,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
                     <tr key={row.slug} className={`border-b border-rule transition-colors hover:bg-mist ${i % 2 ? 'bg-mist/60' : ''}`}>
                       <th scope="row" className="p-4 text-left font-normal">
                         {hasGuide(row.slug) ? (
-                          <Link href={localePath(lang, `/${row.slug}`)} className="font-display text-2xl font-bold uppercase leading-none tracking-[0.01em] text-ink no-underline hover:text-swiss">{T(x.name)} →</Link>
+                          <Link href={localePath(lang, `/${row.slug}`)} className="font-display text-2xl font-bold uppercase leading-none tracking-[0.01em] text-ink no-underline hover:text-lake">{T(x.name)} →</Link>
                         ) : (
                           <div className="font-display text-2xl font-bold uppercase leading-none tracking-[0.01em] text-ink">{T(x.name)}</div>
                         )}
@@ -134,7 +134,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
                         <td key={k} className="px-3 py-4">
                           <span className="flex items-center gap-2">
                             <Squares n={s} />
-                            <span className={`size-[7px] rounded-full ${best[k] === i ? 'bg-swiss' : ''}`} />
+                            <span className={`size-[7px] rounded-full ${best[k] === i ? 'bg-lake' : ''}`} />
                           </span>
                         </td>
                       ))}
@@ -162,7 +162,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
                       <div key={k} className="flex items-center gap-2.5">
                         <div className="w-[120px] text-[13px] text-muted">{T(region.criteria[k])}</div>
                         <Squares n={s} />
-                        <span className={`size-[7px] rounded-full ${best[k] === i ? 'bg-swiss' : ''}`} />
+                        <span className={`size-[7px] rounded-full ${best[k] === i ? 'bg-lake' : ''}`} />
                       </div>
                     ))}
                   </div>
@@ -170,7 +170,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
                   <div className="mt-3 flex flex-wrap gap-2">
                     <PlaceButton place={T(x.name)} placement={`${slug}-table`} label={d.sell.checkPrices} variant="outline" />
                     {hasGuide(row.slug) && (
-                      <Link href={localePath(lang, `/${row.slug}`)} className="inline-flex items-center px-3 py-3 text-[15px] font-medium text-swiss no-underline">{d.sell.readGuide} →</Link>
+                      <Link href={localePath(lang, `/${row.slug}`)} className="inline-flex items-center px-3 py-3 text-[15px] font-medium text-lake no-underline">{d.sell.readGuide} →</Link>
                     )}
                   </div>
                 </div>
@@ -179,7 +179,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
           </div>
           <div className="mt-4 flex flex-wrap gap-x-7 gap-y-2">
             <div className="flex items-center gap-2"><span className="size-[11px] bg-ink" /><span className="text-sm text-muted">{d.choice.legendFull}</span></div>
-            <div className="flex items-center gap-2"><span className="size-[7px] rounded-full bg-swiss" /><span className="text-sm text-muted">{d.choice.legendBest}</span></div>
+            <div className="flex items-center gap-2"><span className="size-[7px] rounded-full bg-lake" /><span className="text-sm text-muted">{d.choice.legendBest}</span></div>
           </div>
           <p className="mb-0 mt-3 text-[13px] leading-normal text-muted md:text-sm">{T(region.note)}</p>
         </Section>
@@ -196,7 +196,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
                   <div className="mt-auto flex flex-col gap-2">
                     <PlaceButton place={T(x.name)} placement={`${slug}-verdict`} label={fill(d.sell.hotelsIn, { place: T(x.name) })} />
                     {hasGuide(v.slug) && (
-                      <Link href={localePath(lang, `/${v.slug}`)} className="py-1 text-center text-[15px] font-medium text-ink no-underline hover:text-swiss">{d.sell.readGuide} →</Link>
+                      <Link href={localePath(lang, `/${v.slug}`)} className="py-1 text-center text-[15px] font-medium text-ink no-underline hover:text-lake">{d.sell.readGuide} →</Link>
                     )}
                   </div>
                 </div>

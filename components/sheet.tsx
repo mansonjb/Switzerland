@@ -13,17 +13,17 @@ export function DestinationCard({ dest, locale, live, priority = false }: { dest
   const d = getDict(locale)
   const body = (
     <>
-      <div className="hatch relative aspect-[4/5] overflow-hidden">
+      <div className="hatch relative aspect-[4/5] overflow-hidden rounded-2xl">
         <Image src={dest.photo} alt={t(dest.name, locale)} fill sizes="(min-width:1024px) 400px, 50vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]" priority={priority} />
-        {dest.carFree && <div className="absolute left-0 top-0 bg-ink px-2.5 py-1.5 font-display text-xs font-semibold uppercase tracking-[0.08em] text-white">{d.sell.carFreeFilter}</div>}
+        {dest.carFree && <div className="absolute left-3 top-3 rounded-full bg-ink/90 px-3 py-1 font-display text-xs font-semibold uppercase tracking-[0.08em] text-white backdrop-blur-sm">{d.sell.carFreeFilter}</div>}
         {live ? (
-          <div className="absolute bottom-0 right-0 flex items-center gap-2 bg-swiss px-3 py-2 font-display text-sm font-semibold uppercase tracking-[0.06em] text-white transition-colors group-hover:bg-swiss-dark">
+          <div className="absolute bottom-3 right-3 flex items-center gap-2 rounded-full bg-lake px-3.5 py-2 font-display text-sm font-semibold uppercase tracking-[0.06em] text-white shadow-md transition-colors group-hover:bg-lake-dark">
             {d.sell.readGuide} <span aria-hidden>→</span>
           </div>
         ) : null}
       </div>
-      <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 border-t-2 border-ink pt-2">
-        <div className="min-w-0 font-display text-xl font-bold uppercase leading-[1.05] tracking-[0.01em] text-ink [overflow-wrap:anywhere] group-hover:text-swiss">{t(dest.name, locale)}</div>
+      <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 pt-1">
+        <div className="min-w-0 font-display text-xl font-bold uppercase leading-[1.05] tracking-[0.01em] text-ink [overflow-wrap:anywhere] group-hover:text-lake">{t(dest.name, locale)}</div>
         <div className="shrink-0 font-display text-[17px] font-bold leading-[1.05] tabular-nums text-ink">{dest.altitude} {d.metres}</div>
       </div>
       <div className="text-sm text-muted">
@@ -67,7 +67,7 @@ export function Sheet({ destinations, liveSlugs, locale, cols = 'md:grid-cols-3'
               type="button"
               onClick={() => setFilter(c.key)}
               aria-pressed={filter === c.key}
-              className={`shrink-0 cursor-pointer border px-3.5 py-2 text-sm font-medium transition-colors ${filter === c.key ? 'border-ink bg-ink text-white' : 'border-rule bg-white text-ink hover:border-ink'}`}
+              className={`shrink-0 cursor-pointer rounded-full border px-4 py-2 text-sm font-medium transition-colors ${filter === c.key ? 'border-ink bg-ink text-white' : 'border-rule bg-white text-ink hover:border-lake hover:text-lake'}`}
             >
               {c.label} <span className={filter === c.key ? 'text-white/70' : 'text-faint'}>{c.count}</span>
             </button>

@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
 
 function OutlineLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
-    <Link href={href} className="inline-flex items-center justify-center gap-2 border border-ink px-5 py-3 text-center text-[15px] font-medium text-ink no-underline transition-colors hover:border-swiss hover:bg-swiss hover:text-white">
+    <Link href={href} className="inline-flex items-center justify-center gap-2 rounded-full border border-rule px-6 py-3 text-center text-[15px] font-medium text-ink no-underline transition-colors hover:border-lake hover:bg-lake hover:text-white">
       {children}
     </Link>
   )
@@ -87,11 +87,11 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
         </PhotoHero>
 
         {/* 2. Quick picks */}
-        <div className="border-b border-rule bg-mist">
+        <div className="border-b border-rule bg-sand">
           <Container className="flex gap-2 overflow-x-auto py-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             <span className="shrink-0 self-center pr-2 font-display text-sm font-semibold uppercase tracking-[0.08em] text-muted">{d.sell.popular}</span>
             {popular.map((p) => (
-              <Link key={p.href} href={p.href} className="shrink-0 border border-rule bg-white px-3 py-1.5 text-sm font-medium text-ink no-underline transition-colors hover:border-ink">
+              <Link key={p.href} href={p.href} className="shrink-0 rounded-full border border-rule bg-white px-4 py-1.5 text-sm font-medium text-ink no-underline transition-colors hover:border-lake hover:text-lake">
                 {p.label}
               </Link>
             ))}
@@ -102,8 +102,8 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
         <Section title={d.sell.howTitle}>
           <ol className="m-0 grid list-none gap-6 p-0 md:grid-cols-3">
             {d.sell.how.map((s, i) => (
-              <li key={i} className="border-t-2 border-ink pt-4">
-                <div className="font-display text-5xl font-bold leading-none tabular-nums text-swiss">{String(i + 1).padStart(2, '0')}</div>
+              <li key={i} className="rounded-2xl border border-rule bg-white p-5">
+                <div className="flex size-10 items-center justify-center rounded-full bg-lake-soft font-display text-xl font-bold tabular-nums text-lake-dark">{String(i + 1).padStart(2, '0')}</div>
                 <h3 className="mb-0 mt-3 font-display text-2xl font-bold uppercase leading-none text-ink">{s.t}</h3>
                 <p className="mb-0 mt-2 text-[15px] leading-relaxed text-ink">{s.d}</p>
               </li>
@@ -112,9 +112,9 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
         </Section>
 
         {/* 4. Featured guide with its hotels */}
-        <Section title={d.sell.featured} aside={<Link href={localePath(lang, '/wengen')} className="text-[15px] font-medium text-swiss no-underline hover:text-swiss-dark">{d.sell.readGuide} →</Link>}>
+        <Section title={d.sell.featured} aside={<Link href={localePath(lang, '/wengen')} className="text-[15px] font-medium text-lake no-underline hover:text-lake-dark">{d.sell.readGuide} →</Link>}>
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.1fr_1fr] lg:gap-12">
-            <Link href={localePath(lang, '/wengen')} className="group relative block aspect-[4/3] overflow-hidden bg-ink no-underline lg:aspect-auto">
+            <Link href={localePath(lang, '/wengen')} className="group relative block aspect-[4/3] overflow-hidden rounded-3xl bg-ink no-underline lg:aspect-auto">
               <Image src={wengen.hero.photo} alt={T(wengen.hero.caption)} fill sizes="(min-width:1024px) 640px, 100vw" className="object-cover opacity-90 transition-transform duration-700 group-hover:scale-[1.03]" />
               <div className="absolute bottom-4 left-4 w-[120px] md:w-[150px]">
                 <Stamp name={wengenName} subtitle={T(regionNames[wengenDest.region])} altitude={wengenDest.altitude} art={wengen.stamp} />
@@ -126,7 +126,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
               <ul className="m-0 mt-6 flex list-none flex-col p-0">
                 {wengen.hotels.filter((h) => FEATURED_HOTELS.includes(h.slug)).map((h) => (
                   <li key={h.name} className="flex items-center gap-3 border-t border-rule py-3 md:gap-4">
-                    <div className="hatch relative h-12 w-16 shrink-0 overflow-hidden md:h-14 md:w-20">
+                    <div className="hatch relative h-12 w-16 shrink-0 overflow-hidden rounded-xl md:h-14 md:w-20">
                       {h.photo && <Image src={h.photo} alt={h.name} fill sizes="80px" className="object-cover" />}
                     </div>
                     <div className="min-w-0 flex-1">
@@ -178,7 +178,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
                   return (
                     <tr key={r.slug} className={`border-b border-rule align-middle transition-colors hover:bg-mist ${i % 2 ? 'bg-mist/60' : ''}`}>
                       <th scope="row" className="p-4 text-left font-display text-2xl font-bold uppercase text-ink">
-                        {page ? <Link href={localePath(lang, `/regions/${r.slug}`)} className="no-underline hover:text-swiss">{T(r.name)} →</Link> : T(r.name)}
+                        {page ? <Link href={localePath(lang, `/regions/${r.slug}`)} className="no-underline hover:text-lake">{T(r.name)} →</Link> : T(r.name)}
                       </th>
                       <td className="p-4 text-[15px] text-ink">{T(r.bases)}</td>
                       <td className="p-4 font-display text-2xl font-bold tabular-nums text-ink">{r.fromZurich}</td>

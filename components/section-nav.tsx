@@ -27,7 +27,7 @@ export function SectionNav({ items }: { items: { id: string; label: string }[] }
             key={i.id}
             href={`#${i.id}`}
             className={`shrink-0 border-b-2 px-2 py-3 font-display text-[15px] font-semibold uppercase tracking-[0.06em] no-underline transition-colors md:px-3 md:py-4 md:text-base ${
-              active === i.id ? 'border-swiss text-ink' : 'border-transparent text-muted hover:text-ink'
+              active === i.id ? 'border-lake text-lake-dark' : 'border-transparent text-muted hover:text-ink'
             }`}
           >
             {i.label}

@@ -34,7 +34,7 @@ export function allezPlaceLink(place: string, placement: string, dates?: StayDat
 }
 
 export function stay22MapSrc(lat: number, lng: number, placement: string, lang: string, dates?: StayDates | null, zoom?: number): string {
-  const q = new URLSearchParams({ aid: STAY22_AID, lat: String(lat), lng: String(lng), campaign: `${CAMPAIGN}-${placement}`, maincolor: 'DA291C', lang })
+  const q = new URLSearchParams({ aid: STAY22_AID, lat: String(lat), lng: String(lng), campaign: `${CAMPAIGN}-${placement}`, maincolor: '0E5F6E', lang })
   if (zoom) q.set('zoom', String(zoom))
   dateParams(q, dates)
   return `https://www.stay22.com/embed/gm?${q.toString()}`

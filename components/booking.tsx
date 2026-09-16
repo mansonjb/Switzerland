@@ -85,7 +85,7 @@ export function StayFinder({ places, labels, lang, tone = 'light' }: { places: P
   const [dates, setDates] = useStayDates()
   const [place, setPlace] = useState(places[0].value)
   const today = iso(new Date())
-  const field = 'block w-full border border-ink bg-white px-3 py-3 text-[15px] text-ink outline-none focus:border-swiss'
+  const field = 'block w-full rounded-xl border border-rule bg-white px-3.5 py-3 text-[15px] text-ink outline-none transition-colors focus:border-lake focus:ring-2 focus:ring-lake/20'
   const lab = `mb-1 block font-display text-[13px] font-semibold uppercase tracking-[0.08em] ${tone === 'dark' ? 'text-white/80' : 'text-muted'}`
   const target = places.find((p) => p.value === place) ?? places[0]
   const sameAnchor = target.href.startsWith('#')
@@ -140,7 +140,7 @@ export function StayFinder({ places, labels, lang, tone = 'light' }: { places: P
             el.scrollIntoView({ behavior: 'smooth', block: 'start' })
             history.replaceState(null, '', target.href)
           }}
-          className="flex items-center justify-center gap-2 bg-swiss px-6 py-3 text-center text-[15px] font-bold text-white no-underline transition-colors hover:bg-swiss-dark md:py-[13px]"
+          className="flex items-center justify-center gap-2 rounded-full bg-lake px-6 py-3.5 text-center text-[15px] font-bold text-white no-underline shadow-[0_6px_16px_rgba(14,95,110,0.25)] transition-colors hover:bg-lake-dark md:py-[13px]"
         >
           {labels.search}
           <span aria-hidden>{sameAnchor ? '↓' : '→'}</span>
@@ -168,8 +168,8 @@ export function HotelButton({ hotel, place, label, primary = true }: { hotel: st
       rel="sponsored nofollow noopener"
       className={
         primary
-          ? 'mt-auto flex items-center justify-center gap-2 bg-swiss px-4 py-3 text-center text-[15px] font-bold text-white no-underline transition-colors hover:bg-swiss-dark'
-          : 'mt-auto block border border-ink px-4 py-3 text-center text-[15px] font-medium text-ink no-underline transition-colors hover:border-swiss hover:bg-swiss hover:text-white'
+          ? 'mt-auto flex items-center justify-center gap-2 rounded-full bg-lake px-4 py-3 text-center text-[15px] font-bold text-white no-underline transition-colors hover:bg-lake-dark'
+          : 'mt-auto block rounded-full border border-rule px-4 py-3 text-center text-[15px] font-medium text-ink no-underline transition-colors hover:border-lake hover:bg-lake hover:text-white'
       }
     >
       {label}
@@ -182,12 +182,12 @@ export function HotelButton({ hotel, place, label, primary = true }: { hotel: st
 export function PlaceButton({ place, placement, label, variant = 'red' }: { place: string; placement: string; label: string; variant?: 'red' | 'outline' | 'white' }) {
   const [dates] = useStayDates()
   const cls = {
-    red: 'bg-swiss text-white hover:bg-swiss-dark',
-    outline: 'border border-ink text-ink hover:border-swiss hover:bg-swiss hover:text-white',
-    white: 'bg-white text-ink hover:bg-swiss hover:text-white',
+    red: 'bg-lake text-white shadow-[0_6px_16px_rgba(14,95,110,0.22)] hover:bg-lake-dark',
+    outline: 'border border-rule text-ink hover:border-lake hover:bg-lake hover:text-white',
+    white: 'bg-white text-ink hover:bg-lake hover:text-white',
   }[variant]
   return (
-    <a href={allezPlaceLink(place, placement, dates)} target="_blank" rel="sponsored nofollow noopener" className={`inline-flex items-center justify-center gap-2 px-5 py-3 text-[15px] font-bold no-underline transition-colors ${cls}`}>
+    <a href={allezPlaceLink(place, placement, dates)} target="_blank" rel="sponsored nofollow noopener" className={`inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[15px] font-bold no-underline transition-colors ${cls}`}>
       {label}
       <span aria-hidden>→</span>
     </a>
@@ -218,7 +218,7 @@ export function LiveMap({ lat, lng, placement, lang, title, loadLabel, zoom, hei
       {visible && dates ? (
         <iframe key={`${dates.checkin}-${dates.checkout}`} src={stay22MapSrc(lat, lng, placement, lang, dates, zoom)} title={title} className="block h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen />
       ) : (
-        <button type="button" onClick={() => setVisible(true)} className="cursor-pointer border border-ink bg-white px-5 py-3 text-[15px] font-medium text-ink hover:border-swiss hover:bg-swiss hover:text-white">
+        <button type="button" onClick={() => setVisible(true)} className="cursor-pointer rounded-full border border-rule bg-white px-5 py-3 text-[15px] font-medium text-ink transition-colors hover:border-lake hover:bg-lake hover:text-white">
           {loadLabel}
         </button>
       )}
@@ -250,7 +250,7 @@ export function StickyBookingBar({ place, placement, title, cta, lang, watchId, 
             <div className="truncate font-display text-lg font-bold uppercase leading-tight tracking-[0.01em] md:text-xl">{title}</div>
             <div className="truncate text-[13px] text-white/75">{formatRange(dates, lang)}</div>
           </div>
-          <a href={allezPlaceLink(place, `${placement}-sticky`, dates)} target="_blank" rel="sponsored nofollow noopener" tabIndex={show ? 0 : -1} className="shrink-0 bg-swiss px-4 py-2.5 text-sm font-bold text-white no-underline hover:bg-swiss-dark md:px-6 md:py-3 md:text-[15px]">
+          <a href={allezPlaceLink(place, `${placement}-sticky`, dates)} target="_blank" rel="sponsored nofollow noopener" tabIndex={show ? 0 : -1} className="shrink-0 rounded-full bg-lake px-4 py-2.5 text-sm font-bold text-white no-underline transition-colors hover:bg-lake-dark md:px-6 md:py-3 md:text-[15px]">
             {cta} <span aria-hidden>→</span>
           </a>
           <button
@@ -297,7 +297,7 @@ export function useSeason(): [Season, (s: Season) => void] {
 export function SeasonTabs({ labels, tone = 'light' }: { labels: Record<Season, string>; tone?: 'light' | 'dark' }) {
   const [season, setSeason] = useSeason()
   return (
-    <div className={`inline-flex border ${tone === 'dark' ? 'border-white/40' : 'border-ink'}`} role="tablist">
+    <div className={`inline-flex rounded-full border p-1 ${tone === 'dark' ? 'border-white/40' : 'border-rule bg-sand'}`} role="tablist">
       {(['summer', 'winter'] as Season[]).map((s) => (
         <button
           key={s}
@@ -305,7 +305,7 @@ export function SeasonTabs({ labels, tone = 'light' }: { labels: Record<Season, 
           role="tab"
           aria-selected={season === s}
           onClick={() => setSeason(s)}
-          className={`cursor-pointer px-4 py-2 font-display text-[15px] font-semibold uppercase tracking-[0.06em] transition-colors ${
+          className={`cursor-pointer rounded-full px-4 py-2 font-display text-[15px] font-semibold uppercase tracking-[0.06em] transition-colors ${
             season === s ? 'bg-ink text-white' : tone === 'dark' ? 'text-white hover:bg-white/10' : 'bg-white text-ink hover:bg-mist'
           }`}
         >
@@ -324,14 +324,14 @@ export function SeasonPanel({ content, baseLabel }: { content: Record<Season, Se
   const c = content[season]
   return (
     <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_1.4fr] lg:gap-12" role="tabpanel">
-      <div className={`border-t-4 p-5 md:p-6 ${season === 'winter' ? 'border-ink bg-mist' : 'border-open bg-mist'}`}>
+      <div className={`rounded-2xl border border-rule p-5 md:p-7 ${season === 'winter' ? 'bg-lake-soft' : 'bg-sand'}`}>
         <h3 className="m-0 font-display text-[28px] font-bold uppercase leading-none text-ink md:text-[34px]">{c.title}</h3>
         <div className="mt-4 font-display text-sm font-semibold uppercase tracking-[0.08em] text-muted">{baseLabel}</div>
         <p className="mb-0 mt-1.5 text-base leading-relaxed text-ink md:text-lg">{c.base}</p>
       </div>
       <div className="grid grid-cols-2 gap-x-6 gap-y-5 self-start">
         {c.facts.map((f, i) => (
-          <div key={i} className="border-t-2 border-ink pt-3">
+          <div key={i} className="rounded-xl border border-rule bg-white p-4">
             <div className="font-display text-[30px] font-bold leading-none tabular-nums text-ink md:text-[40px]">{f.value}</div>
             <div className="mt-1.5 text-[14px] leading-snug text-muted md:text-[15px]">{f.label}</div>
           </div>

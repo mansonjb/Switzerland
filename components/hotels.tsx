@@ -31,8 +31,8 @@ export type HotelsLabels = {
 }
 
 const TIER_STYLE: Record<Tier, string> = {
-  budget: 'bg-open text-white',
-  mid: 'bg-white text-ink',
+  budget: 'bg-white/95 text-ink',
+  mid: 'bg-lake text-white',
   premium: 'bg-ink text-white',
 }
 
@@ -57,7 +57,7 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
               type="button"
               onClick={() => setTier(k)}
               aria-pressed={tier === k}
-              className={`shrink-0 cursor-pointer border px-3.5 py-2 text-sm font-medium transition-colors ${tier === k ? 'border-ink bg-ink text-white' : 'border-rule bg-white text-ink hover:border-ink'}`}
+              className={`shrink-0 cursor-pointer rounded-full border px-4 py-2 text-sm font-medium transition-colors ${tier === k ? 'border-ink bg-ink text-white' : 'border-rule bg-white text-ink hover:border-lake hover:text-lake'}`}
             >
               {k === 'all' ? labels.all : labels.tiers[k]} <span className={tier === k ? 'text-white/70' : 'text-faint'}>{count}</span>
             </button>
@@ -69,10 +69,10 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
         {shown.map((h) => {
           const p = h.price[season] ?? h.price.all
           return (
-            <article key={h.name} className="group flex flex-col border border-rule bg-white transition-colors hover:border-ink">
+            <article key={h.name} className="group flex flex-col overflow-hidden rounded-2xl border border-rule bg-white shadow-[0_1px_2px_rgba(19,27,34,0.04)] transition-all hover:-translate-y-0.5 hover:border-lake/40 hover:shadow-[0_12px_28px_rgba(19,27,34,0.10)]">
               <div className="hatch relative aspect-[3/2] overflow-hidden">
                 {h.photo && <Image src={h.photo} alt={h.name} fill sizes="(min-width:1024px) 300px, (min-width:640px) 50vw, 100vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]" />}
-                {h.price.all && <div className={`absolute left-0 top-0 px-2.5 py-1.5 font-display text-xs font-semibold uppercase tracking-[0.08em] ${TIER_STYLE[h.tier]}`}>{labels.tiers[h.tier]}</div>}
+                {h.price.all && <div className={`absolute left-3 top-3 rounded-full px-3 py-1 font-display text-xs font-semibold uppercase tracking-[0.08em] shadow-sm ${TIER_STYLE[h.tier]}`}>{labels.tiers[h.tier]}</div>}
               </div>
               <div className="flex flex-1 flex-col gap-3 p-4 md:p-5">
                 <div>
@@ -82,9 +82,9 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
                     {h.stars ? ` · ${h.stars} ${labels.stars}` : ''}
                   </div>
                 </div>
-                {!p && <div className="border-y border-rule py-3 text-[13px] text-muted">{labels.noPrice}</div>}
+                {!p && <div className="rounded-xl bg-sand px-3.5 py-3 text-[13px] text-muted">{labels.noPrice}</div>}
                 {p && (
-                  <div className="border-y border-rule py-3">
+                  <div className="rounded-xl bg-sand px-3.5 py-3">
                     <div className="text-[12px] font-medium uppercase tracking-[0.08em] text-muted">{labels.from}</div>
                     <div className="flex items-baseline gap-1.5">
                       <span className="font-display text-[34px] font-bold leading-none tabular-nums text-ink">{chf(p.from)}</span>
@@ -99,7 +99,7 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
                 <ul className="m-0 flex list-none flex-col gap-2 p-0">
                   {h.facts.map((f, i) => (
                     <li key={i} className="flex items-start gap-2.5">
-                      <span className="mt-[7px] size-1.5 shrink-0 bg-ink" aria-hidden />
+                      <span className="mt-[7px] size-1.5 shrink-0 rounded-full bg-lake" aria-hidden />
                       <span className="text-[15px] leading-normal text-ink">{f}</span>
                     </li>
                   ))}

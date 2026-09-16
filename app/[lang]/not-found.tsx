@@ -12,10 +12,10 @@ export default function NotFound() {
         </Container>
       </div>
       <Container className="py-16 md:py-[104px]">
-        <div className="font-display text-[96px] font-bold leading-none tabular-nums text-swiss">404</div>
+        <div className="font-display text-[96px] font-bold leading-none tabular-nums text-lake">404</div>
         <h1 className="m-0 mt-4 font-display text-[40px] font-bold uppercase leading-none text-ink">Page not found</h1>
         <p className="mt-4 text-lg text-ink">This page does not exist or has moved.</p>
-        <Link href="/" className="mt-6 inline-block border border-ink px-5 py-3 text-[15px] font-medium text-ink no-underline hover:border-swiss hover:bg-swiss hover:text-white">
+        <Link href="/" className="mt-6 inline-block border border-ink px-5 py-3 text-[15px] font-medium text-ink no-underline hover:border-lake hover:bg-lake hover:text-white">
           Back to the home page
         </Link>
       </Container>

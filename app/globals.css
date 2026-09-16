@@ -9,6 +9,13 @@
   --color-ink: #131b22;
   --color-swiss: #da291c;
   --color-swiss-dark: #b0201a;
+
+  /* Action palette: alpine lake. Red is kept for the flag mark and the stamps only. */
+  --color-lake: #0e5f6e;
+  --color-lake-dark: #0a4a57;
+  --color-lake-soft: #e7f1f3;
+  --color-sand: #f8f4ed;
+  --color-sand-rule: #e7ded0;
   --color-open: #1f7a4a;
   --color-caution: #94610f;
 

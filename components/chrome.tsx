@@ -35,7 +35,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
         <div className="flex items-center gap-8">
           <nav className="hidden items-center gap-[26px] lg:flex">
             {links.map((l) => (
-              <Link key={l.href} href={l.href} className="text-[15px] font-medium text-ink no-underline hover:text-swiss">
+              <Link key={l.href} href={l.href} className="text-[15px] font-medium text-ink no-underline hover:text-lake">
                 {l.label}
               </Link>
             ))}
@@ -43,11 +43,11 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
           <div className="flex items-center gap-2.5 lg:border-l lg:border-rule lg:pl-8">
             {LOCALES.map((l) =>
               l === locale ? (
-                <span key={l} className="border-b-2 border-swiss pb-0.5 text-[13px] font-bold uppercase text-ink md:text-sm">
+                <span key={l} className="border-b-2 border-lake pb-0.5 text-[13px] font-bold uppercase text-ink md:text-sm">
                   {l}
                 </span>
               ) : (
-                <Link key={l} href={localePath(l, path)} hrefLang={l} className="text-[13px] uppercase text-muted no-underline hover:text-swiss md:text-sm">
+                <Link key={l} href={localePath(l, path)} hrefLang={l} className="text-[13px] uppercase text-muted no-underline hover:text-lake md:text-sm">
                   {l}
                 </Link>
               ),
@@ -61,7 +61,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
             </summary>
             <nav className="absolute right-0 top-10 z-20 flex w-60 flex-col border border-rule bg-paper p-2 shadow-[0_5px_12px_rgba(19,27,34,0.12)]">
               {links.map((l) => (
-                <Link key={l.href} href={l.href} className="px-3 py-3 text-[15px] font-medium text-ink no-underline hover:text-swiss">
+                <Link key={l.href} href={l.href} className="px-3 py-3 text-[15px] font-medium text-ink no-underline hover:text-lake">
                   {l.label}
                 </Link>
               ))}

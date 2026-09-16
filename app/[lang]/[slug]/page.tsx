@@ -106,9 +106,9 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
     .sort((a, b) => tierOrder[a.tier] - tierOrder[b.tier])
 
   const snapshot = [
-    { label: { en: `Why ${name}`, fr: `Pourquoi ${name}`, de: `Warum ${name}` }, text: guide.snapshot.why, tone: 'bg-mist' },
-    { label: { en: 'Where to sleep', fr: 'Où dormir', de: 'Wo schlafen' }, text: guide.snapshot.where, tone: 'bg-mist' },
-    { label: { en: 'Watch out', fr: 'Attention', de: 'Gut zu wissen' }, text: guide.snapshot.watch, tone: 'bg-mist' },
+    { label: { en: `Why ${name}`, fr: `Pourquoi ${name}`, de: `Warum ${name}` }, text: guide.snapshot.why, tone: 'bg-sand' },
+    { label: { en: 'Where to sleep', fr: 'Où dormir', de: 'Wo schlafen' }, text: guide.snapshot.where, tone: 'bg-lake-soft' },
+    { label: { en: 'Watch out', fr: 'Attention', de: 'Gut zu wissen' }, text: guide.snapshot.watch, tone: 'bg-sand' },
   ]
 
   return (
@@ -136,7 +136,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
               <p className="mb-0 mt-4 text-lg leading-normal text-white md:mt-5 md:text-xl">{T(guide.quickAnswer)}</p>
               <div className="mt-5 flex flex-wrap gap-2">
                 {guide.stats.map((s, i) => (
-                  <span key={i} className="inline-flex items-baseline gap-2 border border-white/30 bg-white/10 px-3 py-1.5 text-sm text-white backdrop-blur-sm">
+                  <span key={i} className="inline-flex items-baseline gap-2 rounded-full border border-white/25 bg-white/10 px-3.5 py-1.5 text-sm text-white backdrop-blur-sm">
                     <span className="font-display text-xl font-bold leading-none tabular-nums">{s.value}</span>
                     {T(s.label)}
                   </span>
@@ -175,7 +175,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
         <Section id="overview" title={T({ en: `${name} at a glance`, fr: `${name} en bref`, de: `${name} im Überblick` })}>
           <div className="grid gap-4 md:grid-cols-3 md:gap-6">
             {snapshot.map((c, i) => (
-              <div key={i} className={`${c.tone} border-t-4 ${i === 2 ? 'border-caution' : 'border-ink'} p-5 md:p-6`}>
+              <div key={i} className={`${c.tone} rounded-2xl border ${i === 2 ? 'border-caution/40' : 'border-rule'} p-5 md:p-6`}>
                 <div className="font-display text-sm font-semibold uppercase tracking-[0.08em] text-muted">{T(c.label)}</div>
                 <p className="mb-0 mt-2 text-base leading-relaxed text-ink">{T(c.text)}</p>
               </div>
@@ -213,8 +213,8 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
         <Section id="areas" title={T({ en: 'Where to stay, area by area', fr: 'Où dormir, secteur par secteur', de: 'Wo übernachten, Ortsteil für Ortsteil' })}>
           <div className="grid gap-6 md:grid-cols-3">
             {guide.sectors.map((s, i) => (
-              <div key={i} className="flex flex-col border-t-2 border-ink pt-3.5 md:pt-5">
-                <div className="font-display text-4xl font-bold leading-none tabular-nums text-swiss">{String(i + 1).padStart(2, '0')}</div>
+              <div key={i} className="flex flex-col rounded-2xl border border-rule bg-white p-5 md:p-6">
+                <div className="flex size-9 items-center justify-center rounded-full bg-lake-soft font-display text-lg font-bold tabular-nums text-lake-dark">{String(i + 1).padStart(2, '0')}</div>
                 <h3 className="mb-0 mt-2 font-display text-[22px] font-bold uppercase tracking-[0.01em] text-ink md:text-[26px]">{T(s.title)}</h3>
                 <div className="mt-0.5 text-[13px] text-muted md:mt-1 md:text-sm">{T(s.walk)}</div>
                 <p className="mb-0 mt-2.5 text-base leading-relaxed text-ink md:mt-4">{T(s.text)}</p>
@@ -223,7 +223,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
                     <SquareBullet key={k} red>{T(p)}</SquareBullet>
                   ))}
                 </ul>
-                <a href="#map" className="mt-4 inline-flex w-fit items-center gap-2 border-b border-ink pb-0.5 text-[15px] font-medium text-ink no-underline hover:border-swiss hover:text-swiss">
+                <a href="#map" className="mt-4 inline-flex w-fit items-center gap-2 border-b border-ink pb-0.5 text-[15px] font-medium text-ink no-underline hover:border-lake hover:text-lake">
                   {T({ en: 'See the hotels on the map', fr: 'Voir les hôtels sur la carte', de: 'Hotels auf der Karte' })} <span aria-hidden>↑</span>
                 </a>
               </div>
@@ -258,8 +258,8 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
           <Section id="car-free" title={T(guide.practical.title)}>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {guide.practical.items.map((p, i) => (
-                <div key={i} className="border-t-2 border-ink pt-4">
-                  <div className="font-display text-4xl font-bold leading-none tabular-nums text-swiss">{i + 1}</div>
+                <div key={i} className="rounded-2xl border border-rule bg-sand p-5">
+                  <div className="flex size-9 items-center justify-center rounded-full bg-white font-display text-lg font-bold tabular-nums text-lake-dark">{i + 1}</div>
                   <h3 className="mb-0 mt-2.5 text-[17px] font-bold text-ink">{T(p.title)}</h3>
                   <p className="mb-0 mt-2 text-[15px] leading-relaxed text-ink">{T(p.text)}</p>
                 </div>
@@ -274,7 +274,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
 
         <NetworkLinks keyName={slug} locale={lang} title={d.sell.moreForTrip} />
 
-        <Section title={T({ en: 'Nearby destinations', fr: 'Destinations voisines', de: 'Nahe Reiseziele' })} aside={region ? <Link href={localePath(lang, `/regions/${region.slug}`)} className="text-[15px] font-medium text-swiss no-underline hover:text-swiss-dark">{T({ en: `Compare the ${T(region.name)} bases`, fr: `Comparer les bases de l’${T(region.name)}`, de: `Standorte im ${T(region.name)} vergleichen` })} →</Link> : undefined}>
+        <Section title={T({ en: 'Nearby destinations', fr: 'Destinations voisines', de: 'Nahe Reiseziele' })} aside={region ? <Link href={localePath(lang, `/regions/${region.slug}`)} className="text-[15px] font-medium text-lake no-underline hover:text-lake-dark">{T({ en: `Compare the ${T(region.name)} bases`, fr: `Comparer les bases de l’${T(region.name)}`, de: `Standorte im ${T(region.name)} vergleichen` })} →</Link> : undefined}>
           <div className="grid grid-cols-2 gap-5 pb-24 md:gap-8 md:pb-[120px] lg:grid-cols-4">
             {guide.neighbours.map((s) => {
               const n = getDestination(s)
