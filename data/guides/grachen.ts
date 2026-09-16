@@ -108,6 +108,7 @@ export const grachen: DestinationGuide = {
     {
       slug: 'grachen-hannigalp',
       name: 'Aktiv Hotel & Spa Hannigalp',
+      photo: '/photos/hotels/grachen-hannigalp.jpg',
       url: 'https://www.hannigalp.ch/?lang=en',
       sector: { en: 'Hannigalp cable car / Dorfstrasse', fr: 'Téléphérique de Hannigalp / Dorfstrasse', de: 'Hannigalpbahn / Dorfstrasse' },
       facts: [
@@ -141,6 +142,7 @@ export const grachen: DestinationGuide = {
     {
       slug: 'grachen-gaedi',
       name: 'Hotel Gädi',
+      photo: '/photos/hotels/grachen-gaedi.jpg',
       url: 'https://hotel-gaedi.ch/',
       sector: { en: 'Hannigalp cable car', fr: 'Téléphérique de Hannigalp', de: 'Hannigalpbahn' },
       facts: [
@@ -152,6 +154,7 @@ export const grachen: DestinationGuide = {
     {
       slug: 'grachen-graecherhof',
       name: 'Hotel Grächerhof',
+      photo: '/photos/hotels/grachen-graecherhof.jpg',
       url: 'https://graecherhof.ch/',
       sector: { en: 'Wildi, above the centre', fr: 'Wildi, au-dessus du centre', de: 'Wildi, oberhalb des Zentrums' },
       facts: [

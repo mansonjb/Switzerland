@@ -1,0 +1,127 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "grachen-walliserhof",
+      "bookingName": "Hotel Walliserhof - The Dom Collection",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/walliserhof-graechen.en-gb.html",
+      "address": "Dorfplatz 1, 3925 Grächen, Switzerland",
+      "prices": {
+        "2026-12-18": 204,
+        "2027-02-17": 204,
+        "2027-07-21": 204,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 204,
+        "avg": 205,
+        "samples": 3
+      },
+      "winter": {
+        "from": 204,
+        "avg": 205,
+        "samples": 2
+      },
+      "summer": {
+        "from": 204,
+        "avg": 205,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "grachen-hannigalp",
+      "bookingName": "Aktiv Hotel & Spa Hannigalp",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/hannigalp.en-gb.html",
+      "address": "Dorfweg, 3925 Grächen, Switzerland",
+      "prices": {
+        "2026-12-18": 314,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 314,
+        "avg": 315,
+        "samples": 1
+      },
+      "winter": {
+        "from": 314,
+        "avg": 315,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "grachen-gaedi",
+      "bookingName": "Hotel Gädi",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/gadi.en-gb.html",
+      "address": " Bärglistrasse 466, 3925 Grächen, Switzerland",
+      "prices": {
+        "2026-12-18": 218,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 218,
+        "avg": 220,
+        "samples": 1
+      },
+      "winter": {
+        "from": 218,
+        "avg": 220,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "grachen-graecherhof",
+      "bookingName": "Lifestyle & Spa Hotel Grächerhof",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/turm-grachen.en-gb.html",
+      "address": "Grächerhof, 3925 Grächen, Switzerland",
+      "prices": {
+        "2027-07-21": 213,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 213,
+        "avg": 215,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 213,
+        "avg": 215,
+        "samples": 1
+      }
+    }
+  ]
+}
