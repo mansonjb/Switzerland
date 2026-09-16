@@ -107,6 +107,7 @@ export const gstaad: DestinationGuide = {
     {
       slug: 'gstaad-le-grand-bellevue',
       name: 'Le Grand Bellevue',
+      photo: '/photos/hotels/gstaad-le-grand-bellevue.jpg',
       url: 'https://bellevue-gstaad.ch/',
       sector: { en: 'Above the village', fr: 'Au-dessus du village', de: 'Oberhalb des Dorfes' },
       facts: [
@@ -129,6 +130,7 @@ export const gstaad: DestinationGuide = {
     {
       slug: 'gstaad-bernerhof',
       name: 'Bernerhof Gstaad',
+      photo: '/photos/hotels/gstaad-bernerhof.jpg',
       url: 'https://www.bernerhof-gstaad.ch/en/',
       sector: { en: 'The Promenade', fr: 'La Promenade', de: 'Die Promenade' },
       facts: [
@@ -140,6 +142,7 @@ export const gstaad: DestinationGuide = {
     {
       slug: 'gstaad-posthotel-rossli',
       name: 'Posthotel Rössli',
+      photo: '/photos/hotels/gstaad-posthotel-rossli.jpg',
       url: 'https://www.posthotelroessli.ch/en',
       sector: { en: 'The Promenade', fr: 'La Promenade', de: 'Die Promenade' },
       facts: [
@@ -151,6 +154,7 @@ export const gstaad: DestinationGuide = {
     {
       slug: 'gstaad-gstaaderhof',
       name: 'Hotel Gstaaderhof',
+      photo: '/photos/hotels/gstaad-gstaaderhof.jpg',
       url: 'https://www.gstaaderhof.ch/en/',
       sector: { en: 'Village centre, Lauenenstrasse', fr: 'Centre du village, Lauenenstrasse', de: 'Dorfzentrum, Lauenenstrasse' },
       facts: [
@@ -162,6 +166,7 @@ export const gstaad: DestinationGuide = {
     {
       slug: 'gstaad-huus-gstaad',
       name: 'HUUS Gstaad',
+      photo: '/photos/hotels/gstaad-huus-gstaad.jpg',
       url: 'https://huusgstaad.com/en/',
       sector: { en: 'Saanen / Schönried side', fr: 'Côté Saanen / Schönried', de: 'Seite Saanen / Schönried' },
       facts: [
@@ -173,6 +178,7 @@ export const gstaad: DestinationGuide = {
     {
       slug: 'gstaad-golfhotel-les-hauts',
       name: 'Golfhotel Les Hauts de Gstaad & SPA',
+      photo: '/photos/hotels/gstaad-golfhotel-les-hauts.jpg',
       url: 'https://www.golfhotel.ch/en/',
       sector: { en: 'Saanenmöser', fr: 'Saanenmöser', de: 'Saanenmöser' },
       facts: [

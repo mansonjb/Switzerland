@@ -57,9 +57,15 @@ export { destinations, regionNames }
 const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen, engelberg, andermatt, weggis, cransMontana, leukerbad, grachen, laax, flims, scuol, brienz, meiringen, thun, arosa, klosters, lenzerheide]
 const REGIONS: Region[] = [berneseOberland, valais, graubunden, central, lakeGeneva, ticino]
 
-export const publishedGuides = () => GUIDES
+/** A registered guide goes live only once enough of its hotels have a photo. Until then the
+ *  destination card says "Coming soon" and no page is built. Hotels without a photo are not shown. */
+export const MIN_HOTELS_WITH_PHOTO = 4
+const LIVE = GUIDES.filter((g) => g.hotels.filter((h) => h.photo).length >= MIN_HOTELS_WITH_PHOTO)
+
+export const publishedGuides = () => LIVE
+export const comingSoonGuides = () => GUIDES.filter((g) => !LIVE.includes(g))
 export const publishedRegions = () => REGIONS
-export const hasGuide = (slug: string) => GUIDES.some((g) => g.slug === slug)
-export const getGuide = (slug: string) => GUIDES.find((g) => g.slug === slug)
+export const hasGuide = (slug: string) => LIVE.some((g) => g.slug === slug)
+export const getGuide = (slug: string) => LIVE.find((g) => g.slug === slug)
 export const getRegion = (slug: string) => REGIONS.find((r) => r.slug === slug)
 export const getDestination = (slug: string) => destinations.find((d) => d.slug === slug)

@@ -20,7 +20,11 @@ export function DestinationCard({ dest, locale, live, priority = false }: { dest
           <div className="absolute bottom-3 right-3 flex items-center gap-2 rounded-full bg-lake px-3.5 py-2 font-display text-sm font-semibold uppercase tracking-[0.06em] text-white shadow-md transition-colors group-hover:bg-lake-dark">
             {d.sell.readGuide} <span aria-hidden>→</span>
           </div>
-        ) : null}
+        ) : (
+          <div className="absolute bottom-3 right-3 rounded-full bg-white/90 px-3.5 py-2 font-display text-sm font-semibold uppercase tracking-[0.06em] text-ink shadow-md backdrop-blur-sm">
+            {d.inPreparation}
+          </div>
+        )}
       </div>
       <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 pt-1">
         <div className="min-w-0 font-display text-xl font-bold uppercase leading-[1.05] tracking-[0.01em] text-ink [overflow-wrap:anywhere] group-hover:text-lake">{t(dest.name, locale)}</div>
@@ -28,7 +32,6 @@ export function DestinationCard({ dest, locale, live, priority = false }: { dest
       </div>
       <div className="text-sm text-muted">
         {t(regionNames[dest.region], locale)}
-        {!live && <span className="text-faint"> · {d.inPreparation}</span>}
       </div>
     </>
   )

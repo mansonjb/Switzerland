@@ -108,6 +108,7 @@ export const cransMontana: DestinationGuide = {
     {
       slug: 'crans-montana-hotel-royal',
       name: 'Hôtel Royal',
+      photo: '/photos/hotels/crans-montana-hotel-royal.jpg',
       url: 'https://www.hotel-royal.ch/en/',
       sector: { en: 'Crans-Montana centre', fr: 'Centre de Crans-Montana', de: 'Zentrum Crans-Montana' },
       facts: [
@@ -119,6 +120,7 @@ export const cransMontana: DestinationGuide = {
     {
       slug: 'crans-montana-ambassador',
       name: 'Crans Ambassador',
+      photo: '/photos/hotels/crans-montana-ambassador.jpg',
       url: 'https://www.cransambassador.ch/en/',
       sector: { en: 'Montana side', fr: 'Côté Montana', de: 'Seite Montana' },
       facts: [
@@ -130,6 +132,7 @@ export const cransMontana: DestinationGuide = {
     {
       slug: 'crans-montana-pas-de-lours',
       name: 'Hostellerie du Pas de l’Ours',
+      photo: '/photos/hotels/crans-montana-pas-de-lours.jpg',
       url: 'https://www.pasdelours.ch/en/',
       sector: { en: 'Crans', fr: 'Crans', de: 'Crans' },
       facts: [
@@ -141,6 +144,7 @@ export const cransMontana: DestinationGuide = {
     {
       slug: 'crans-montana-guarda-golf',
       name: 'Guarda Golf Hotel & Residences',
+      photo: '/photos/hotels/crans-montana-guarda-golf.jpg',
       url: 'http://guardagolf.com/',
       sector: { en: 'Crans, by the golf courses', fr: 'Crans, près des parcours de golf', de: 'Crans, bei den Golfplätzen' },
       facts: [
@@ -152,6 +156,7 @@ export const cransMontana: DestinationGuide = {
     {
       slug: 'crans-montana-hotel-du-lac',
       name: 'Hôtel du Lac',
+      photo: '/photos/hotels/crans-montana-hotel-du-lac.jpg',
       url: 'https://www.hoteldulac-crans-montana.ch/',
       sector: { en: 'Montana, on Lac Grenon', fr: 'Montana, sur le lac Grenon', de: 'Montana, am Lac Grenon' },
       facts: [
@@ -163,6 +168,7 @@ export const cransMontana: DestinationGuide = {
     {
       slug: 'crans-montana-hotel-olympic',
       name: 'Hôtel Olympic',
+      photo: '/photos/hotels/crans-montana-hotel-olympic.jpg',
       url: 'https://www.hotelolympic.ch/en/',
       sector: { en: 'Montana centre', fr: 'Centre de Montana', de: 'Zentrum Montana' },
       facts: [
@@ -174,6 +180,7 @@ export const cransMontana: DestinationGuide = {
     {
       slug: 'crans-montana-mont-paisible',
       name: 'Hôtel Le Mont-Paisible',
+      photo: '/photos/hotels/crans-montana-mont-paisible.jpg',
       url: 'https://www.montpaisible.ch/en/',
       sector: { en: 'Violettes / Vermala', fr: 'Violettes / Vermala', de: 'Violettes / Vermala' },
       facts: [

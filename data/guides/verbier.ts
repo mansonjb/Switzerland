@@ -131,6 +131,7 @@ export const verbier: DestinationGuide = {
     {
       slug: 'verbier-vanessa',
       name: 'Hotel Vanessa',
+      photo: '/photos/hotels/verbier-vanessa.jpg',
       url: 'https://www.hotelvanessa.ch/en',
       sector: { en: 'Place Centrale', fr: 'Place Centrale', de: 'Place Centrale' },
       facts: [
@@ -153,6 +154,7 @@ export const verbier: DestinationGuide = {
     {
       slug: 'verbier-bristol',
       name: 'Hôtel Bristol Verbier',
+      photo: '/photos/hotels/verbier-bristol.jpg',
       url: 'https://www.bristol-verbier.ch/',
       sector: { en: 'Les Creux', fr: 'Les Creux', de: 'Les Creux' },
       facts: [
@@ -164,6 +166,7 @@ export const verbier: DestinationGuide = {
     {
       slug: 'verbier-chalet-adrien',
       name: 'Hôtel Chalet d’Adrien',
+      photo: '/photos/hotels/verbier-chalet-adrien.jpg',
       url: 'https://chalet-adrien.com/en/',
       sector: { en: 'Les Creux', fr: 'Les Creux', de: 'Les Creux' },
       facts: [
@@ -175,6 +178,7 @@ export const verbier: DestinationGuide = {
     {
       slug: 'verbier-cordee-des-alpes',
       name: 'Hôtel La Cordée des Alpes',
+      photo: '/photos/hotels/verbier-cordee-des-alpes.jpg',
       url: 'https://www.kvhotels.com/en/hotel-la-cordee-des-alpes-en/',
       sector: { en: 'Les Creux', fr: 'Les Creux', de: 'Les Creux' },
       facts: [

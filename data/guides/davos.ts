@@ -97,6 +97,7 @@ export const davos: DestinationGuide = {
     {
       slug: 'davos-seehof',
       name: 'Hotel Seehof Davos',
+      photo: '/photos/hotels/davos-seehof.jpg',
       url: 'https://www.seehofdavos.ch/en/',
       sector: { en: 'Davos Dorf', fr: 'Davos Dorf', de: 'Davos Dorf' },
       facts: [
@@ -108,6 +109,7 @@ export const davos: DestinationGuide = {
     {
       slug: 'davos-grischa',
       name: 'Grischa DAS Hotel Davos',
+      photo: '/photos/hotels/davos-grischa.jpg',
       url: 'https://www.hotelgrischa.ch',
       sector: { en: 'Davos Platz', fr: 'Davos Platz', de: 'Davos Platz' },
       facts: [
@@ -119,6 +121,7 @@ export const davos: DestinationGuide = {
     {
       slug: 'davos-schatzalp',
       name: 'Schatzalp Snow & Mountain Resort',
+      photo: '/photos/hotels/davos-schatzalp.jpg',
       url: 'https://www.schatzalp.ch',
       sector: { en: 'The Schatzalp', fr: 'Le Schatzalp', de: 'Die Schatzalp' },
       facts: [
@@ -130,6 +133,7 @@ export const davos: DestinationGuide = {
     {
       slug: 'davos-turmhotel-victoria',
       name: 'Turmhotel Victoria',
+      photo: '/photos/hotels/davos-turmhotel-victoria.jpg',
       url: 'https://www.victoria-davos.ch',
       sector: { en: 'Davos Dorf', fr: 'Davos Dorf', de: 'Davos Dorf' },
       facts: [
@@ -141,6 +145,7 @@ export const davos: DestinationGuide = {
     {
       slug: 'davos-morosani-schweizerhof',
       name: 'Morosani Schweizerhof',
+      photo: '/photos/hotels/davos-morosani-schweizerhof.jpg',
       url: 'https://www.morosani.ch/en/schweizerhof/',
       sector: { en: 'Davos Platz', fr: 'Davos Platz', de: 'Davos Platz' },
       facts: [
@@ -152,6 +157,7 @@ export const davos: DestinationGuide = {
     {
       slug: 'davos-ameron',
       name: 'AMERON Davos Swiss Mountain Resort',
+      photo: '/photos/hotels/davos-ameron.jpg',
       url: 'https://www.ameroncollection.com',
       sector: { en: 'Davos Platz', fr: 'Davos Platz', de: 'Davos Platz' },
       facts: [

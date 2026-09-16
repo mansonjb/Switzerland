@@ -74,7 +74,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
       {
         '@type': 'ItemList',
         name: fill(d.sell.hotelsIn, { place: name }),
-        itemListElement: guide.hotels.map((h, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@type': 'Hotel', name: h.name, url: h.url, address: { '@type': 'PostalAddress', addressLocality: name, addressCountry: 'CH' } } })),
+        itemListElement: guide.hotels.filter((h) => h.photo).map((h, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@type': 'Hotel', name: h.name, url: h.url, address: { '@type': 'PostalAddress', addressLocality: name, addressCountry: 'CH' } } })),
       },
       {
         '@type': 'BreadcrumbList',
@@ -91,6 +91,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
   const priceFile = getPriceFile(slug)
   const tierOrder = { budget: 0, mid: 1, premium: 2 }
   const hotelViews: HotelView[] = guide.hotels
+    .filter((h) => h.photo)
     .map((h) => {
       const p = getHotelPrice(slug, h.slug)
       return {

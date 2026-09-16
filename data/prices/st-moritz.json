@@ -1,0 +1,189 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "st-moritz-suvretta-house",
+      "bookingName": "Suvretta House",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/suvretta-house.en-gb.html",
+      "address": "Via Chasellas 1, 7500 St. Moritz, Switzerland",
+      "prices": {
+        "2026-12-18": 1485,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 1485,
+        "avg": 1485,
+        "samples": 1
+      },
+      "winter": {
+        "from": 1485,
+        "avg": 1485,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "st-moritz-steffani",
+      "bookingName": "Hotel Steffani",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/steffani.en-gb.html",
+      "address": "Via Traunter Plazzas 6, 7500 St. Moritz, Switzerland",
+      "prices": {
+        "2027-07-21": 419,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 419,
+        "avg": 420,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 419,
+        "avg": 420,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "st-moritz-crystal",
+      "bookingName": "Crystal Hotel superior",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/crystalhotelstmoritz.en-gb.html",
+      "address": "Via Traunter Plazzas 1, 7500 St. Moritz, Switzerland",
+      "prices": {
+        "2027-07-21": 435,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 435,
+        "avg": 435,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 435,
+        "avg": 435,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "st-moritz-hauser",
+      "bookingName": "Hauser Hotel St. Moritz",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swissqhauser.en-gb.html",
+      "address": "Via Traunter Plazzas 7, 7500 St. Moritz, Switzerland",
+      "prices": {
+        "2027-02-17": 526,
+        "2027-07-21": 317,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 317,
+        "avg": 420,
+        "samples": 2
+      },
+      "winter": {
+        "from": 526,
+        "avg": 525,
+        "samples": 1
+      },
+      "summer": {
+        "from": 317,
+        "avg": 315,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "st-moritz-laudinella",
+      "bookingName": "Hotel Laudinella",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/laudinella.en-gb.html",
+      "address": "Via Tegiatscha 17, 7500 St. Moritz, Switzerland",
+      "prices": {
+        "2027-02-17": 597,
+        "2027-07-21": 449,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 449,
+        "avg": 525,
+        "samples": 2
+      },
+      "winter": {
+        "from": 597,
+        "avg": 595,
+        "samples": 1
+      },
+      "summer": {
+        "from": 449,
+        "avg": 450,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "st-moritz-youth-hostel",
+      "bookingName": "St. Moritz Youth Hostel",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/jugendherberge-st-moritz.en-gb.html",
+      "address": "via Surpunt 60, 7500 St. Moritz, Switzerland",
+      "prices": {
+        "2026-12-18": 180,
+        "2027-07-21": 149,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 149,
+        "avg": 165,
+        "samples": 2
+      },
+      "winter": {
+        "from": 180,
+        "avg": 180,
+        "samples": 1
+      },
+      "summer": {
+        "from": 149,
+        "avg": 150,
+        "samples": 1
+      }
+    }
+  ]
+}

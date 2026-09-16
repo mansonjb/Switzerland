@@ -108,6 +108,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-suvretta-house',
       name: 'Suvretta House',
+      photo: '/photos/hotels/st-moritz-suvretta-house.jpg',
       url: 'https://www.suvrettahouse.ch/',
       sector: { en: 'Suvretta, Champfèr and Surlej', fr: 'Suvretta, Champfèr et Surlej', de: 'Suvretta, Champfèr und Surlej' },
       facts: [
@@ -130,6 +131,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-steffani',
       name: 'Hotel Steffani',
+      photo: '/photos/hotels/st-moritz-steffani.jpg',
       url: 'https://steffani.ch/',
       sector: { en: 'St. Moritz Dorf', fr: 'St. Moritz Dorf', de: 'St. Moritz Dorf' },
       facts: [
@@ -141,6 +143,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-crystal',
       name: 'Crystal Hotel St. Moritz',
+      photo: '/photos/hotels/st-moritz-crystal.jpg',
       url: 'https://www.crystalhotel.ch/',
       sector: { en: 'St. Moritz Dorf', fr: 'St. Moritz Dorf', de: 'St. Moritz Dorf' },
       facts: [
@@ -152,6 +155,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-hauser',
       name: 'Hauser Hotel St. Moritz',
+      photo: '/photos/hotels/st-moritz-hauser.jpg',
       url: 'https://hotelhauser.ch/',
       sector: { en: 'St. Moritz Dorf', fr: 'St. Moritz Dorf', de: 'St. Moritz Dorf' },
       facts: [
@@ -174,6 +178,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-laudinella',
       name: 'Hotel Laudinella',
+      photo: '/photos/hotels/st-moritz-laudinella.jpg',
       url: 'https://www.laudinella.ch/',
       sector: { en: 'St. Moritz Bad', fr: 'St. Moritz Bad', de: 'St. Moritz Bad' },
       facts: [
@@ -185,6 +190,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-youth-hostel',
       name: 'St. Moritz Youth Hostel',
+      photo: '/photos/hotels/st-moritz-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/st-moritz-youth-hostel',
       sector: { en: 'St. Moritz Bad', fr: 'St. Moritz Bad', de: 'St. Moritz Bad' },
       facts: [

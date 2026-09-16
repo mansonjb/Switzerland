@@ -1,0 +1,208 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "crans-montana-hotel-royal",
+      "bookingName": "Hotel Royal",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/royal-crans-montana.en-gb.html",
+      "address": "Rue de l'Ehanoun 10, 3963 Crans-Montana, Switzerland",
+      "prices": {
+        "2026-12-18": 740,
+        "2027-02-17": 649,
+        "2027-07-21": 676,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 649,
+        "avg": 690,
+        "samples": 3
+      },
+      "winter": {
+        "from": 649,
+        "avg": 695,
+        "samples": 2
+      },
+      "summer": {
+        "from": 676,
+        "avg": 675,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "crans-montana-ambassador",
+      "bookingName": "Crans Ambassador",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/crans-ambassador.en-gb.html",
+      "address": "Route du Petit Signal 3, 3963 Crans-Montana, Switzerland",
+      "prices": {
+        "2026-12-18": 775,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 775,
+        "avg": 775,
+        "samples": 1
+      },
+      "winter": {
+        "from": 775,
+        "avg": 775,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "crans-montana-pas-de-lours",
+      "bookingName": "Hostellerie du Pas de l'Ours \"Relais et Châteaux\"",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/hostellerie-du-pas-de-l-ours.en-gb.html",
+      "address": "Rue du Pas de l'Ours no 41, 3963 Crans-Montana, Switzerland",
+      "prices": {
+        "2026-12-18": 890,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 890,
+        "avg": 890,
+        "samples": 1
+      },
+      "winter": {
+        "from": 890,
+        "avg": 890,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "crans-montana-guarda-golf",
+      "bookingName": "Guarda Golf Hotel & Residences",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/guarda-golf.en-gb.html",
+      "address": "Route des Zirès 14, 3963 Crans-Montana, Switzerland",
+      "prices": {
+        "2026-12-18": 1010,
+        "2027-02-17": 1560,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 1010,
+        "avg": 1285,
+        "samples": 2
+      },
+      "winter": {
+        "from": 1010,
+        "avg": 1285,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "crans-montana-hotel-du-lac",
+      "bookingName": "Hotel du Lac",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/du-lac-crans-montana.en-gb.html",
+      "address": "Promenade de Grenon 1, 3963 Crans-Montana, Switzerland",
+      "prices": {
+        "2026-12-18": 183,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 183,
+        "avg": 185,
+        "samples": 1
+      },
+      "winter": {
+        "from": 183,
+        "avg": 185,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "crans-montana-hotel-olympic",
+      "bookingName": "Hotel Olympic - Montana Center",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/olympic.en-gb.html",
+      "address": "Rue Louis Antille 9, 3963 Crans-Montana, Switzerland",
+      "prices": {
+        "2027-07-21": 159,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 159,
+        "avg": 160,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 159,
+        "avg": 160,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "crans-montana-mont-paisible",
+      "bookingName": "Hotel-Restaurant Le Mont Paisible, Crans-Montana",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/restaurant-le-mont-paisible.en-gb.html",
+      "address": "Chemin du Mont-Paisible 12, 3975 Crans-Montana, Switzerland",
+      "prices": {
+        "2027-02-17": 208,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 208,
+        "avg": 210,
+        "samples": 1
+      },
+      "winter": {
+        "from": 208,
+        "avg": 210,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

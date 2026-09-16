@@ -1,0 +1,193 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "gstaad-le-grand-bellevue",
+      "bookingName": "Le Grand Bellevue",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/grand-bellevue.en-gb.html",
+      "address": "Untergstaadstrasse 17 , 3780 Gstaad, Switzerland",
+      "prices": {
+        "2026-12-18": 1336,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 1336,
+        "avg": 1335,
+        "samples": 1
+      },
+      "winter": {
+        "from": 1336,
+        "avg": 1335,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "gstaad-bernerhof",
+      "bookingName": "Bernerhof Swiss Quality Hotel Gstaad",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/bernerhof-gstaad.en-gb.html",
+      "address": "Bahnhofstrasse 2, 3780 Gstaad, Switzerland",
+      "prices": {
+        "2027-07-21": 405,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 405,
+        "avg": 405,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 405,
+        "avg": 405,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "gstaad-posthotel-rossli",
+      "bookingName": "Posthotel Rössli",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/posthotelrossli.en-gb.html",
+      "address": "Promenade 10, 3780 Gstaad, Switzerland",
+      "prices": {
+        "2026-12-18": 260,
+        "2027-02-17": 462,
+        "2027-07-21": 462,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 260,
+        "avg": 395,
+        "samples": 3
+      },
+      "winter": {
+        "from": 260,
+        "avg": 360,
+        "samples": 2
+      },
+      "summer": {
+        "from": 462,
+        "avg": 460,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "gstaad-gstaaderhof",
+      "bookingName": "Gstaaderhof - Active & Relax Hotel",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/gstaaderhof.en-gb.html",
+      "address": "Gstaad, 3780 Gstaad, Switzerland",
+      "prices": {
+        "2026-12-18": 453,
+        "2027-07-21": 327,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 327,
+        "avg": 390,
+        "samples": 2
+      },
+      "winter": {
+        "from": 453,
+        "avg": 455,
+        "samples": 1
+      },
+      "summer": {
+        "from": 327,
+        "avg": 325,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "gstaad-huus-gstaad",
+      "bookingName": "HUUS Gstaad",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/huus-gstaad.en-gb.html",
+      "address": "Schönriedstrasse 74, Saanen, 3792 Gstaad, Switzerland",
+      "prices": {
+        "2026-12-18": 340,
+        "2027-02-17": 697,
+        "2027-07-21": 319,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 319,
+        "avg": 450,
+        "samples": 3
+      },
+      "winter": {
+        "from": 340,
+        "avg": 520,
+        "samples": 2
+      },
+      "summer": {
+        "from": 319,
+        "avg": 320,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "gstaad-golfhotel-les-hauts",
+      "bookingName": "GOLFHOTEL Les Hauts de Gstaad & SPA",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/golf-les-hauts-de-gstaad-spa.en-gb.html",
+      "address": "Bahnhofstrasse 7, Saanemöser, 3777 Gstaad, Switzerland",
+      "prices": {
+        "2026-12-18": 516,
+        "2027-07-21": 366,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 366,
+        "avg": 440,
+        "samples": 2
+      },
+      "winter": {
+        "from": 516,
+        "avg": 515,
+        "samples": 1
+      },
+      "summer": {
+        "from": 366,
+        "avg": 365,
+        "samples": 1
+      }
+    }
+  ]
+}
