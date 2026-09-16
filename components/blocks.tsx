@@ -108,13 +108,13 @@ export function PassTable({ pass, locale }: { pass: NonNullable<DestinationGuide
   const d = getDict(locale)
   const head = 'font-display text-sm font-semibold uppercase tracking-[0.06em] text-ink md:text-[17px]'
   return (
-    <div className="tabular-nums">
+    <div className="rounded-2xl border border-rule bg-white p-4 tabular-nums md:p-6">
       <div className="grid grid-cols-[1fr_110px] gap-2 border-b border-ink pb-2.5 md:grid-cols-[1fr_300px] md:gap-0 md:pb-0">
         <div className={`${head} md:px-4 md:py-3`}>{d.pass.section}</div>
         <div className={`${head} text-right md:px-4 md:py-3`}>{d.pass.coverage}</div>
       </div>
       {pass.rows.map((r, i) => (
-        <div key={i} className={`grid grid-cols-[1fr_110px] items-baseline gap-2 border-b border-rule py-3 md:grid-cols-[1fr_300px] md:gap-0 md:py-0 ${i % 2 ? 'bg-mist' : ''}`}>
+        <div key={i} className={`grid grid-cols-[1fr_110px] items-baseline gap-2 border-b border-rule py-3 md:grid-cols-[1fr_300px] md:gap-0 md:py-0 ${i % 2 ? 'bg-sand' : ''}`}>
           <div className="text-sm leading-snug text-ink md:px-4 md:py-3.5 md:text-base">{t(r.section, locale)}</div>
           <div className={`text-right font-display text-xl font-bold uppercase md:px-4 md:py-3.5 md:text-2xl ${r.coverage === 'included' ? 'text-open' : 'text-ink'}`}>
             {r.coverage === 'included' ? d.pass.included : d.pass.discount25}
@@ -241,7 +241,7 @@ export function Faq({ items, locale }: { items: { q: L; a: L }[]; locale: Locale
   return (
     <div>
       {items.map((f, i) => (
-        <div key={i} className="grid gap-2 border-b border-rule py-5 md:grid-cols-[420px_1fr] md:gap-10 md:py-6">
+        <div key={i} className="mb-3 grid gap-2 rounded-2xl border border-rule bg-white p-5 md:mb-4 md:grid-cols-[380px_1fr] md:gap-10 md:p-6">
           <h3 className="m-0 text-[17px] font-bold leading-[1.4] text-ink md:text-lg">{t(f.q, locale)}</h3>
           <p className="m-0 text-base leading-relaxed text-ink md:text-[17px]">{t(f.a, locale)}</p>
         </div>
@@ -269,7 +269,7 @@ export function PhotoHero({ photo, alt, children, credit, id = 'hero' }: { photo
   return (
     <section id={id} className="relative overflow-hidden bg-ink">
       <Image src={photo} alt={alt} fill priority sizes="100vw" className="object-cover opacity-60" />
-      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(19,27,34,0.92)_0%,rgba(19,27,34,0.72)_55%,rgba(19,27,34,0.35)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(19,27,34,0.88)_0%,rgba(19,27,34,0.62)_55%,rgba(14,95,110,0.28)_100%)]" />
       <div className="relative">
         <Container className="pb-8 pt-10 md:pb-14 md:pt-16">{children}</Container>
       </div>

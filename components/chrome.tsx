@@ -115,7 +115,7 @@ export function Footer({ locale }: { locale: Locale }) {
             <Link href={localePath(locale, '/legal')} className={link}>{d.footer.legal}</Link>
           </div>
         </div>
-        <div className="mb-6 mt-10 h-px bg-muted" />
+        <div className="mb-6 mt-10 h-px bg-white/20" />
         <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:gap-10">
           <p className="m-0 max-w-[620px] text-[13px] leading-relaxed text-white md:text-sm">{d.footer.independent}</p>
           <div className="flex flex-wrap gap-4 md:gap-6">
