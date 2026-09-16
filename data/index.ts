@@ -31,6 +31,9 @@ import { weggis } from './guides/weggis'
 import { berneseOberland } from './regions/bernese-oberland'
 import { valais } from './regions/valais'
 import { graubunden } from './regions/graubunden'
+import { central } from './regions/central'
+import { ticino } from './regions/ticino'
+import { lakeGeneva } from './regions/lake-geneva'
 import type { DestinationGuide, Region } from './types'
 
 export { destinations, regionNames }
@@ -40,7 +43,7 @@ export { destinations, regionNames }
  * only once its facts are sourced (data/SOURCES.md). Never generate pages combinatorially.
  */
 const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen, engelberg, andermatt, weggis]
-const REGIONS: Region[] = [berneseOberland, valais, graubunden]
+const REGIONS: Region[] = [berneseOberland, valais, graubunden, central, lakeGeneva, ticino]
 
 export const publishedGuides = () => GUIDES
 export const publishedRegions = () => REGIONS

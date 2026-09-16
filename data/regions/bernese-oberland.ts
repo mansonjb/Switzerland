@@ -31,7 +31,7 @@ export const berneseOberland: Region = {
   },
   // Centred between Interlaken and Grindelwald, over the Lauterbrunnen valley
   map: { lat: 46.63, lng: 7.93, zoom: 11 },
-  destinations: ['interlaken', 'lauterbrunnen', 'wengen', 'murren', 'grindelwald'],
+  destinations: ['interlaken', 'lauterbrunnen', 'wengen', 'murren', 'grindelwald', 'gstaad', 'adelboden', 'kandersteg', 'brienz', 'meiringen', 'thun', 'spiez'],
   criteria: [
     { en: 'Quiet', fr: 'Calme', de: 'Ruhe' },
     { en: 'Views', fr: 'Vue', de: 'Aussicht' },
