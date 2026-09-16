@@ -27,9 +27,9 @@ export const interlaken: DestinationGuide = {
   },
   snapshot: {
     why: {
-      en: 'Because it is the one base in the region that does not depend on a single cable car or cog railway to reach it. Two stations put Lauterbrunnen, Grindelwald and the rest of Switzerland within a direct train ride, and two lakes sit on either side of town, so a stay here can mix mountain days with a boat crossing without changing hotel.',
-      fr: 'Parce que c’est la seule base de la région qui ne dépend ni d’un téléphérique ni d’une crémaillère pour y arriver. Deux gares mettent Lauterbrunnen, Grindelwald et le reste de la Suisse à portée d’un train direct, et deux lacs encadrent la ville, si bien qu’un séjour ici peut mêler journées en montagne et traversée en bateau sans changer d’hôtel.',
-      de: 'Weil es die einzige Basis der Region ist, die nicht von einer einzigen Seilbahn oder Zahnradbahn abhängt, um sie zu erreichen. Zwei Bahnhöfe bringen Lauterbrunnen, Grindelwald und die übrige Schweiz in direkte Zugreichweite, und zwei Seen flankieren die Stadt, sodass sich ein Aufenthalt hier Bergtage und eine Bootsfahrt leisten kann, ohne das Hotel zu wechseln.',
+      en: 'Because it is the region’s junction rather than a mountain village: two stations put Lauterbrunnen, Grindelwald and the rest of Switzerland within a direct train ride, and two lakes sit on either side of town, so a stay here can mix mountain days with a boat crossing without changing hotel.',
+      fr: 'Parce que c’est le carrefour de la région plutôt qu’un village de montagne : deux gares mettent Lauterbrunnen, Grindelwald et le reste de la Suisse à portée d’un train direct, et deux lacs encadrent la ville, si bien qu’un séjour ici peut mêler journées en montagne et traversée en bateau sans changer d’hôtel.',
+      de: 'Weil es der Knotenpunkt der Region ist und kein Bergdorf: Zwei Bahnhöfe bringen Lauterbrunnen, Grindelwald und die übrige Schweiz in direkte Zugreichweite, und zwei Seen flankieren die Stadt, sodass sich ein Aufenthalt hier Bergtage und eine Bootsfahrt leisten kann, ohne das Hotel zu wechseln.',
     },
     where: {
       en: 'Heading into the mountains: around Interlaken Ost, where the trains for Lauterbrunnen and Grindelwald and the Harder Kulm funicular all start. First stay or want to be central: along the Höheweg, between the two stations, near the shops and the paragliding meadow. Here for the lake or the quiet old town: around Interlaken West and Unterseen.',
@@ -436,7 +436,7 @@ export const interlaken: DestinationGuide = {
     {
       q: { en: 'Which station do I arrive at, Ost or West?', fr: 'À quelle gare arrive-t-on, Ost ou West ?', de: 'An welchem Bahnhof kommt man an, Ost oder West?' },
       a: {
-        en: 'Trains from Lauterbrunnen, Grindelwald and the Jungfrau region arrive at Interlaken Ost, while the Lake Thun boats and the road towards Bern use Interlaken West. Booking a hotel near the wrong one means an extra walk or a tram across town with your bags, so match your address to whichever direction you are coming from or heading out to first.',
+        en: 'Trains from Lauterbrunnen, Grindelwald and the Jungfrau region arrive at Interlaken Ost, while the Lake Thun boats and the road towards Bern use Interlaken West. Booking a hotel near the wrong one means crossing town with your bags, so match your address to whichever direction you are coming from or heading out to first.',
         fr: 'Les trains en provenance de Lauterbrunnen, de Grindelwald et de la région de la Jungfrau arrivent à Interlaken Ost, tandis que les bateaux du lac de Thoune et la route vers Berne partent d’Interlaken West. Réserver un hôtel près de la mauvaise gare signifie une marche supplémentaire ou une traversée de la ville avec les bagages : choisissez votre adresse en fonction de la direction d’arrivée ou de la première sortie prévue.',
         de: 'Züge aus Lauterbrunnen, Grindelwald und der Jungfrauregion kommen in Interlaken Ost an, während die Boote auf dem Thunersee und die Strasse Richtung Bern Interlaken West nutzen. Ein Hotel beim falschen Bahnhof bedeutet einen zusätzlichen Fussweg oder eine Fahrt quer durch die Stadt mit Gepäck: Wählen Sie die Adresse nach der Ankunftsrichtung oder dem ersten geplanten Ausflug.',
       },
