@@ -101,6 +101,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
         stars: p?.stars ?? null,
         sector: T(h.sector),
         facts: h.facts.map(T),
+        blurb: h.blurb ? T(h.blurb) : undefined,
         price: { all: p?.all ?? null, summer: p?.summer ?? null, winter: p?.winter ?? null },
       }
     })
@@ -183,7 +184,18 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
               </div>
             ))}
           </div>
-          <p className="mb-0 mt-6 text-base leading-relaxed text-ink md:text-lg">{T(guide.intro)}</p>
+          {guide.story ? (
+            <article className="mt-10 max-w-[68ch] md:mt-14">
+              <h3 className="m-0 font-display text-[26px] font-bold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[34px]">{T(guide.story.title)}</h3>
+              {guide.story.paragraphs.map((para, i) => (
+                <p key={i} className={i === 0 ? 'mb-0 mt-5 text-lg leading-relaxed text-ink first-letter:float-left first-letter:mr-2.5 first-letter:mt-1 first-letter:font-display first-letter:text-[64px] first-letter:font-bold first-letter:leading-[0.8] first-letter:text-lake md:text-xl' : 'mb-0 mt-5 text-base leading-[1.75] text-ink md:text-[17px]'}>
+                  {T(para)}
+                </p>
+              ))}
+            </article>
+          ) : (
+            <p className="mb-0 mt-6 text-base leading-relaxed text-ink md:text-lg">{T(guide.intro)}</p>
+          )}
         </Section>
 
         {/* 3b. Summer / winter */}
@@ -219,12 +231,18 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
                 <div className="flex size-9 items-center justify-center rounded-full bg-lake-soft font-display text-lg font-bold tabular-nums text-lake-dark">{String(i + 1).padStart(2, '0')}</div>
                 <h3 className="mb-0 mt-2 font-display text-[22px] font-bold uppercase tracking-[0.01em] text-ink md:text-[26px]">{T(s.title)}</h3>
                 <div className="mt-0.5 text-[13px] text-muted md:mt-1 md:text-sm">{T(s.walk)}</div>
-                <p className="mb-0 mt-2.5 text-base leading-relaxed text-ink md:mt-4">{T(s.text)}</p>
-                <ul className="m-0 mt-4 flex list-none flex-col gap-2 p-0">
-                  {s.points.map((p, k) => (
-                    <SquareBullet key={k} red>{T(p)}</SquareBullet>
-                  ))}
-                </ul>
+                {s.story ? (
+                  <p className="mb-0 mt-2.5 text-base leading-[1.7] text-ink md:mt-4">{T(s.story)}</p>
+                ) : (
+                  <>
+                    <p className="mb-0 mt-2.5 text-base leading-relaxed text-ink md:mt-4">{T(s.text)}</p>
+                    <ul className="m-0 mt-4 flex list-none flex-col gap-2 p-0">
+                      {s.points.map((p, k) => (
+                        <SquareBullet key={k} red>{T(p)}</SquareBullet>
+                      ))}
+                    </ul>
+                  </>
+                )}
                 <a href="#map" className="mt-4 inline-flex w-fit items-center gap-2 border-b border-ink pb-0.5 text-[15px] font-medium text-ink no-underline hover:border-lake hover:text-lake">
                   {T({ en: 'See the hotels on the map', fr: 'Voir les hôtels sur la carte', de: 'Hotels auf der Karte' })} <span aria-hidden>↑</span>
                 </a>

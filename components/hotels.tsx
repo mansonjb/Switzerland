@@ -14,6 +14,7 @@ export type HotelView = {
   stars: number | null
   sector: string
   facts: string[]
+  blurb?: string
   price: Record<Season, { from: number; avg: number } | null> & { all: { from: number; avg: number } | null }
 }
 
@@ -96,6 +97,9 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
                     </div>
                   </div>
                 )}
+                {h.blurb ? (
+                  <p className="m-0 text-[15px] leading-relaxed text-ink">{h.blurb}</p>
+                ) : (
                 <ul className="m-0 flex list-none flex-col gap-2 p-0">
                   {h.facts.map((f, i) => (
                     <li key={i} className="flex items-start gap-2.5">
@@ -104,6 +108,7 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
                     </li>
                   ))}
                 </ul>
+                )}
                 <div className="mt-auto pt-2">
                   <HotelButton hotel={h.name} place={place} label={labels.cta} />
                 </div>

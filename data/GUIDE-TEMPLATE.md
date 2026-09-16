@@ -53,6 +53,26 @@ Never register the guide yourself: the maintainer adds it to `data/index.ts`.
 - `faq`: 5 questions, real search questions, factual answers with the figure inside.
 - `neighbours`: 3 or 4 slugs that exist in `data/destinations.ts`.
 
+## Writing: advice in real sentences (since 16/09/2026, model: data/guides/zermatt.ts)
+
+The facts stay sourced, but the page must read like a knowledgeable friend giving advice, not a fact sheet.
+- Every card answers its own question. `snapshot.why` starts with the reason to go ("Because ...") and says
+  what it changes for the traveller; listing two funiculars and their altitudes does not answer "why".
+  `snapshot.where` gives one base per profile ("First stay: ... Looking for quiet: ..."). `snapshot.watch`
+  is a concrete warning with what to do about it.
+- `story`: 4 paragraphs of 60 to 90 words. 1) the character of the place and how you arrive, 2) the
+  geography that decides where to sleep, 3) the range of hotels and what the dated prices show, 4) when
+  to go and how long it takes to get there. No bullet points, no list of names.
+- `sectors[].story`: one paragraph: what the area is like, who it suits, the trade-off in exchange.
+- `hotels[].blurb`: 2 or 3 sentences: what the place is, where it stands, who it suits. Keep the
+  `facts` array (source record) but the page shows the blurb.
+- FAQ answers: a full answer in 2 or 3 sentences, with the practical consequence.
+- Remove hedges from body copy ("per the operator", "by its own count") unless the claim is a
+  superlative or a self-description; attribution belongs in the notes.
+- Editorial judgment is welcome when it follows from the facts (a hotel 3 minutes from the funicular
+  suits skiers). Never an opinion on food or service, never an unverifiable superlative.
+- French and German are written natively, not translated sentence by sentence. No em dash.
+
 ## Sources
 Append your source list to `data/SOURCES-<slug>.md`: one line per fact, "fact | VERIFIED | url",
 then an UNVERIFIED section for everything you dropped.

@@ -32,10 +32,14 @@ export type DestinationGuide = {
   quickAnswer: L
   /** Three short editorial cards under the map: why go, where to sleep, what to watch out for. */
   snapshot: { why: L; where: L; watch: L }
+  /** Long-form opening in real paragraphs: character of the place, how a stay works, when to go. Replaces `intro` on the page. */
+  story?: { title: L; paragraphs: L[] }
   stats: { value: string; label: L }[]
   hero: { photo: string; caption: L; credit?: PhotoCredit }
-  sectors: { title: L; walk: L; text: L; points: L[] }[]
-  hotels: { slug: string; name: string; url: string; photo?: string; sector: L; facts: L[] }[]
+  /** `story`, when present, is a full paragraph (who the area suits, the trade-off) shown instead of `text` and `points`. */
+  sectors: { title: L; walk: L; text: L; points: L[]; story?: L }[]
+  /** `blurb`, when present, is a short portrait in sentences shown instead of the `facts` bullets. */
+  hotels: { slug: string; name: string; url: string; photo?: string; sector: L; facts: L[]; blurb?: L }[]
   hotelsNote: L
   pass?: {
     title: L
