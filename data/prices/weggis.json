@@ -1,0 +1,162 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "weggis-beau-rivage",
+      "bookingName": "Hotel Beau Rivage Weggis",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/beau-rivage-weggis.en-gb.html",
+      "address": "Gotthardstrasse 6, 6353 Weggis, Switzerland",
+      "prices": {
+        "2026-12-18": 288,
+        "2027-02-17": 288,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 288,
+        "avg": 290,
+        "samples": 2
+      },
+      "winter": {
+        "from": 288,
+        "avg": 290,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "weggis-alexander",
+      "bookingName": "Hotel Alexander",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alexanderweggis.en-gb.html",
+      "address": "Hertensteinstrasse 42, 6353 Weggis, Switzerland",
+      "prices": {
+        "2026-12-18": 257,
+        "2027-07-21": 678,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 257,
+        "avg": 470,
+        "samples": 2
+      },
+      "winter": {
+        "from": 257,
+        "avg": 255,
+        "samples": 1
+      },
+      "summer": {
+        "from": 678,
+        "avg": 680,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "weggis-gerbi",
+      "bookingName": "See & Wellnesshotel Gerbi",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/gerbiweggis.en-gb.html",
+      "address": "Hertensteinstrasse 48, 6353 Weggis, Switzerland",
+      "prices": {
+        "2026-12-18": 362,
+        "2027-02-17": 291,
+        "2027-07-21": 384,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 291,
+        "avg": 345,
+        "samples": 3
+      },
+      "winter": {
+        "from": 291,
+        "avg": 325,
+        "samples": 2
+      },
+      "summer": {
+        "from": 384,
+        "avg": 385,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "weggis-alpenblick",
+      "bookingName": "Alpenblick Weggis - Panorama & Alpen Chic Hotel",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpenblickweggis.en-gb.html",
+      "address": "Luzernerstrasse 31, 6353 Weggis, Switzerland",
+      "prices": {
+        "2026-12-18": 224,
+        "2027-02-17": 166,
+        "2027-07-21": 246,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 166,
+        "avg": 210,
+        "samples": 3
+      },
+      "winter": {
+        "from": 166,
+        "avg": 195,
+        "samples": 2
+      },
+      "summer": {
+        "from": 246,
+        "avg": 245,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "weggis-rigi-am-see",
+      "bookingName": "Seminar-Hotel Rigi am See",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/seminar-rigi-am-see.en-gb.html",
+      "address": "Seestrasse 53/57, 6353 Weggis, Switzerland",
+      "prices": {
+        "2026-12-18": 208,
+        "2027-02-17": 208,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 208,
+        "avg": 210,
+        "samples": 2
+      },
+      "winter": {
+        "from": 208,
+        "avg": 210,
+        "samples": 2
+      },
+      "summer": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "ascona-eden-roc",
+      "bookingName": "Hotel Eden Roc Marina",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/eden-roc-marina.en-gb.html",
+      "address": "8 Via Albarelle, 6612 Ascona, Switzerland",
+      "prices": {
+        "2026-12-18": 440,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 440,
+        "avg": 440,
+        "samples": 1
+      },
+      "winter": {
+        "from": 440,
+        "avg": 440,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "ascona-carcani",
+      "bookingName": "Albergo Carcani by Ketty & Tommy",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/albergo-carcani.en-gb.html",
+      "address": "Piazza Motta, 6612 Ascona, Switzerland",
+      "prices": {
+        "2026-12-18": 225,
+        "2027-02-17": 191,
+        "2027-07-21": 337,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 191,
+        "avg": 250,
+        "samples": 3
+      },
+      "winter": {
+        "from": 191,
+        "avg": 210,
+        "samples": 2
+      },
+      "summer": {
+        "from": 337,
+        "avg": 335,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ascona-monte-verita",
+      "bookingName": "Hotel Monte Verità",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/monteverita.en-gb.html",
+      "address": "Strada Collina 84, 6612 Ascona, Switzerland",
+      "prices": {
+        "2027-07-21": 258,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 258,
+        "avg": 260,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 258,
+        "avg": 260,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ascona-seven",
+      "bookingName": "Seven Boutique Hotel",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/seven-hotel.en-gb.html",
+      "address": "Piazza G. Motta 21 + 25, 6612 Ascona, Switzerland",
+      "prices": {
+        "2026-12-18": 177,
+        "2027-02-17": 198,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 177,
+        "avg": 190,
+        "samples": 2
+      },
+      "winter": {
+        "from": 177,
+        "avg": 190,
+        "samples": 2
+      },
+      "summer": null
+    }
+  ]
+}

@@ -192,6 +192,37 @@
         "avg": 335,
         "samples": 1
       }
+    },
+    {
+      "slug": "lu-youth-hostel",
+      "bookingName": "Luzern Youth Hostel",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/jugendherberge-luzern.en-gb.html",
+      "address": "Sedelstrasse 12, 6004 Luzern, Switzerland",
+      "prices": {
+        "2027-02-17": 132,
+        "2027-07-21": 132,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 132,
+        "avg": 130,
+        "samples": 2
+      },
+      "winter": {
+        "from": 132,
+        "avg": 130,
+        "samples": 1
+      },
+      "summer": {
+        "from": 132,
+        "avg": 130,
+        "samples": 1
+      }
     }
   ]
 }

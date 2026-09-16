@@ -43,6 +43,37 @@
       }
     },
     {
+      "slug": "mo-mona",
+      "bookingName": "Hotel Mona",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/best-western-eurotel-montreux.en-gb.html",
+      "address": "Grand Rue 81, 1820 Montreux, Switzerland",
+      "prices": {
+        "2026-12-18": 425,
+        "2027-02-17": 225,
+        "2027-07-21": 282,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 225,
+        "avg": 310,
+        "samples": 3
+      },
+      "winter": {
+        "from": 225,
+        "avg": 325,
+        "samples": 2
+      },
+      "summer": {
+        "from": 282,
+        "avg": 280,
+        "samples": 1
+      }
+    },
+    {
       "slug": "mo-helvetie",
       "bookingName": "Hotel Helvetie Montreux",
       "tier": "budget",

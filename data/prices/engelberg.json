@@ -1,0 +1,166 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "engelberg-bellevue-terminus",
+      "bookingName": "Bellevue-Terminus - Urban Lifestyle Hotel",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/bellevue-terminus.en-gb.html",
+      "address": "Bahnhofstrasse 10, 6390 Engelberg, Switzerland",
+      "prices": {
+        "2027-02-17": 319,
+        "2027-07-21": 319,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 319,
+        "avg": 320,
+        "samples": 2
+      },
+      "winter": {
+        "from": 319,
+        "avg": 320,
+        "samples": 1
+      },
+      "summer": {
+        "from": 319,
+        "avg": 320,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "engelberg-alpenclub",
+      "bookingName": "Alpenclub",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpenclub.en-gb.html",
+      "address": "Dorfstrasse 5, 6390 Engelberg, Switzerland",
+      "prices": {
+        "2026-12-18": 418,
+        "2027-02-17": 311,
+        "2027-07-21": 371,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 311,
+        "avg": 365,
+        "samples": 3
+      },
+      "winter": {
+        "from": 311,
+        "avg": 365,
+        "samples": 2
+      },
+      "summer": {
+        "from": 371,
+        "avg": 370,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "engelberg-baenklialp",
+      "bookingName": "Hotel Restaurant Bänklialp",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/restaurant-banklialp-engelberg.en-gb.html",
+      "address": "Bänklialpweg 25, 6390 Engelberg, Switzerland",
+      "prices": {
+        "2027-02-17": 222,
+        "2027-07-21": 302,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 222,
+        "avg": 260,
+        "samples": 2
+      },
+      "winter": {
+        "from": 222,
+        "avg": 220,
+        "samples": 1
+      },
+      "summer": {
+        "from": 302,
+        "avg": 300,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "engelberg-ski-lodge",
+      "bookingName": "Ski Lodge Engelberg",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/ski-lodge-engelberg.en-gb.html",
+      "address": "Erlenweg 36, 6390 Engelberg, Switzerland",
+      "prices": {
+        "2027-02-17": 294,
+        "2027-07-21": 166,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 166,
+        "avg": 230,
+        "samples": 2
+      },
+      "winter": {
+        "from": 294,
+        "avg": 295,
+        "samples": 1
+      },
+      "summer": {
+        "from": 166,
+        "avg": 165,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "engelberg-truebsee",
+      "bookingName": "Berghotel Trübsee - Accessible Only by Cable Car",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/berghotel-trubsee.en-gb.html",
+      "address": "Trübsee, 6390 Engelberg, Switzerland",
+      "prices": {
+        "2027-02-17": 360,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 360,
+        "avg": 360,
+        "samples": 1
+      },
+      "winter": {
+        "from": 360,
+        "avg": 360,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

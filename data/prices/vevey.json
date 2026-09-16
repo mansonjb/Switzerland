@@ -1,0 +1,166 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "ve-grand-hotel-du-lac",
+      "bookingName": "Grand Hotel du Lac - Relais & Châteaux",
+      "tier": "mid",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/du-lac2.en-gb.html",
+      "address": "Rue d'Italie 1, 1800 Vevey, Switzerland",
+      "prices": {
+        "2026-12-18": 370,
+        "2027-02-17": 343,
+        "2027-07-21": 433,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 343,
+        "avg": 380,
+        "samples": 3
+      },
+      "winter": {
+        "from": 343,
+        "avg": 355,
+        "samples": 2
+      },
+      "summer": {
+        "from": 433,
+        "avg": 435,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ve-trois-couronnes",
+      "bookingName": "Hôtel Des Trois Couronnes & Spa - The Leading Hotels of the World",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/des-trois-couronnes.en-gb.html",
+      "address": "49, Rue D'Italie, 1800 Vevey, Switzerland",
+      "prices": {
+        "2026-12-18": 491,
+        "2027-02-17": 544,
+        "2027-07-21": 544,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 491,
+        "avg": 525,
+        "samples": 3
+      },
+      "winter": {
+        "from": 491,
+        "avg": 520,
+        "samples": 2
+      },
+      "summer": {
+        "from": 544,
+        "avg": 545,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ve-astra",
+      "bookingName": "Astra Vevey Hotel & Restaurant",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/astra-pavillon-vevey.en-gb.html",
+      "address": "Place de la Gare 4, 1800 Vevey, Switzerland",
+      "prices": {
+        "2026-12-18": 158,
+        "2027-02-17": 239,
+        "2027-07-21": 216,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 158,
+        "avg": 205,
+        "samples": 3
+      },
+      "winter": {
+        "from": 158,
+        "avg": 200,
+        "samples": 2
+      },
+      "summer": {
+        "from": 216,
+        "avg": 215,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ve-le-leman",
+      "bookingName": "Le Leman Hotel",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/le-leman.en-gb.html",
+      "address": "Route de Blonay 20, 1800 Vevey, Switzerland",
+      "prices": {
+        "2026-12-18": 214,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 214,
+        "avg": 215,
+        "samples": 1
+      },
+      "winter": {
+        "from": 214,
+        "avg": 215,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "ve-modern-times",
+      "bookingName": "Modern Times Hotel, Vevey, A Tribute Portfolio Hotel",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/modern-times-vevey.en-gb.html",
+      "address": "Chemin du Genévrier 20, 1806 Vevey, Switzerland",
+      "prices": {
+        "2026-12-18": 131,
+        "2027-02-17": 127,
+        "2027-07-21": 148,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 127,
+        "avg": 135,
+        "samples": 3
+      },
+      "winter": {
+        "from": 127,
+        "avg": 130,
+        "samples": 2
+      },
+      "summer": {
+        "from": 148,
+        "avg": 150,
+        "samples": 1
+      }
+    }
+  ]
+}

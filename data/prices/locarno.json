@@ -1,0 +1,158 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "locarno-belvedere",
+      "bookingName": "Hotel Belvedere Locarno",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/belvedere-locarno-sa.en-gb.html",
+      "address": "Via ai Monti della Trinita 44, 6601 Locarno, Switzerland",
+      "prices": {
+        "2026-12-18": 357,
+        "2027-02-17": 337,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 337,
+        "avg": 345,
+        "samples": 2
+      },
+      "winter": {
+        "from": 337,
+        "avg": 345,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "locarno-dellangelo",
+      "bookingName": "Hotel dell'Angelo",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/dellangelo.en-gb.html",
+      "address": "Piazza Grande, 6600 Locarno, Switzerland",
+      "prices": {
+        "2026-12-18": 73,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 73,
+        "avg": 75,
+        "samples": 1
+      },
+      "winter": {
+        "from": 73,
+        "avg": 75,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "locarno-millennium",
+      "bookingName": "Hotel Millennium",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/garni-millennium.en-gb.html",
+      "address": "Via Dogana Nuova 2, 6600 Locarno, Switzerland",
+      "prices": {
+        "2026-12-18": 154,
+        "2027-02-17": 137,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 137,
+        "avg": 145,
+        "samples": 2
+      },
+      "winter": {
+        "from": 137,
+        "avg": 145,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "locarno-geranio",
+      "bookingName": "Hotel Geranio Au Lac",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/smarthotel-geranio-au-lac.en-gb.html",
+      "address": "Viale Verbano, Muralto, 6600 Locarno, Switzerland",
+      "prices": {
+        "2026-12-18": 194,
+        "2027-07-21": 258,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 194,
+        "avg": 225,
+        "samples": 2
+      },
+      "winter": {
+        "from": 194,
+        "avg": 195,
+        "samples": 1
+      },
+      "summer": {
+        "from": 258,
+        "avg": 260,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "locarno-palma-au-lac",
+      "bookingName": "Hotel la Palma au Lac",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/h-la-palma-hotel-and-spa-locarno.en-gb.html",
+      "address": "Viale Verbano 29, Muralto, 6602 Locarno, Switzerland",
+      "prices": {
+        "2026-12-18": 219,
+        "2027-02-17": 219,
+        "2027-07-21": 402,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 219,
+        "avg": 280,
+        "samples": 3
+      },
+      "winter": {
+        "from": 219,
+        "avg": 220,
+        "samples": 2
+      },
+      "summer": {
+        "from": 402,
+        "avg": 400,
+        "samples": 1
+      }
+    }
+  ]
+}
