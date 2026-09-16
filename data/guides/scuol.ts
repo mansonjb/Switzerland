@@ -27,9 +27,9 @@ export const scuol: DestinationGuide = {
   },
   snapshot: {
     why: {
-      en: 'Mineral water everywhere, from the fountains in the old quarters to the six pools of the Bogn Engiadina; Romansh as a living language; and Zernez, the main gate of the Swiss National Park, 33 minutes away by direct train.',
-      fr: 'De l’eau minérale partout, des fontaines des vieux quartiers aux six bassins du Bogn Engiadina ; le romanche comme langue vivante ; et Zernez, la porte principale du Parc national suisse, à 33 minutes en train direct.',
-      de: 'Mineralwasser überall, von den Brunnen der Altdorfquartiere bis zu den sechs Becken des Bogn Engiadina; Rätoromanisch als gelebte Sprache; und Zernez, das Haupttor zum Schweizerischen Nationalpark, 33 Minuten mit dem direkten Zug entfernt.',
+      en: 'Because mineral water is the point of a stay in Scuol: it bubbles from fountains in the old quarters and fills six pools at the Bogn Engiadina, so you can plan bathing into every day rather than treat it as a rainy-day extra. Zernez, gateway to the Swiss National Park, is 33 minutes away by direct train, which puts a day in the park within reach without changing base.',
+      fr: 'Parce que l’eau minérale est la raison d’être d’un séjour à Scuol : elle jaillit des fontaines des vieux quartiers et remplit les six bassins du Bogn Engiadina, si bien qu’on peut prévoir la baignade chaque jour plutôt que comme un à-côté les jours de pluie. Zernez, porte du Parc national suisse, est à 33 minutes en train direct, ce qui permet une journée dans le parc sans changer de base.',
+      de: 'Weil Mineralwasser in Scuol der eigentliche Grund für den Aufenthalt ist: Es sprudelt aus den Brunnen der Altdorfquartiere und füllt die sechs Becken des Bogn Engiadina, sodass man das Baden für jeden Tag einplanen kann statt es als Schlechtwetter-Ausweg zu behandeln. Zernez, das Tor zum Schweizerischen Nationalpark, ist 33 Minuten mit dem direkten Zug entfernt, was einen Tagesausflug in den Park ermöglicht, ohne die Basis zu wechseln.',
     },
     where: {
       en: 'The Stradun for the mineral baths and the Motta Naluns gondola; the old village quarters for the fountains and Boutique Hotel ÜJA; Tarasp and Vulpera, across the Inn, for the castle and the golf course.',
@@ -42,8 +42,33 @@ export const scuol: DestinationGuide = {
       de: 'Die Clemgiaschlucht unterhalb des Altdorfs ist bis auf Weiteres geschlossen. Der Saunabereich des Bogn Engiadina bleibt bis Anfang Oktober 2026 geschlossen. Für Scuol ist keine Abdeckung durch den Swiss Travel Pass publiziert; stattdessen gibt es ab der ersten Übernachtung eine gratis Gästekarte, weiter unten beschrieben.',
     },
   },
+  story: {
+    title: { en: 'Scuol, before you book', fr: 'Scuol, avant de réserver', de: 'Scuol, bevor Sie buchen' },
+    paragraphs: [
+      {
+        en: 'Scuol sits at 1250 metres in the Lower Engadine, seat of a municipality that describes itself as the largest in Switzerland by area, spanning Ardez, Ftan, Guarda, Scuol, Sent and Tarasp. Romansh is a living language here, not a museum piece: the municipality writes its own website in it. You arrive by train, since Scuol-Tarasp is the terminus of the Rhaetian Railway’s Engadine line, reached from Zürich HB in 2 h 37 with one change at Landquart.',
+        fr: 'Scuol se trouve à 1250 mètres en Basse-Engadine, siège d’une commune qui se présente comme la plus étendue de Suisse, englobant Ardez, Ftan, Guarda, Scuol, Sent et Tarasp. Le romanche y est une langue vivante, pas une survivance folklorique : la commune rédige elle-même son site dans cette langue. On y arrive en train, puisque Scuol-Tarasp est le terminus de la ligne de l’Engadine des Chemins de fer rhétiques, accessible depuis Zürich HB en 2 h 37 avec un changement à Landquart.',
+        de: 'Scuol liegt auf 1250 Metern im Unterengadin, Sitz einer Gemeinde, die sich als flächengrösste der Schweiz bezeichnet und Ardez, Ftan, Guarda, Scuol, Sent und Tarasp umfasst. Rätoromanisch ist hier eine gelebte Sprache, kein Relikt: Die Gemeinde verfasst ihre eigene Website darin. Angereist wird mit der Bahn, denn Scuol-Tarasp ist die Endstation der Engadinlinie der Rhätischen Bahn, ab Zürich HB in 2 Std. 37 mit einem Umstieg in Landquart erreichbar.',
+      },
+      {
+        en: 'Where you sleep depends on which side of Scuol pulls you in. The Stradun, the lively main street, holds the Bogn Engiadina mineral bath and the valley station of the Motta Naluns gondola, both a few steps from the tourist office. Below it lie the old village quarters, where mineral water still bubbles from fountains among sgraffito houses. Across the Inn, Tarasp castle and Vulpera, with its golf course, sit on the far side of the valley, a bus ride from the Stradun.',
+        fr: 'Le choix de l’hébergement dépend du côté de Scuol qui vous attire. Le Stradun, la rue principale animée, réunit le bain minéral Bogn Engiadina et la gare aval de la télécabine de Motta Naluns, à quelques pas de l’office du tourisme. En contrebas se trouvent les vieux quartiers du village, où l’eau minérale jaillit encore des fontaines parmi les maisons à sgraffites. De l’autre côté de l’Inn, le château de Tarasp et Vulpera, avec son golf, occupent l’autre rive de la vallée, à un trajet de bus du Stradun.',
+        de: 'Wo man wohnt, hängt davon ab, welche Seite von Scuol reizt. Der Stradun, die belebte Hauptstrasse, vereint das Mineralbad Bogn Engiadina und die Talstation der Gondelbahn Motta Naluns, beide wenige Schritte vom Tourismusbüro entfernt. Darunter liegen die alten Dorfquartiere, wo Mineralwasser noch immer aus Brunnen zwischen Sgraffito-Häusern sprudelt. Jenseits des Inn liegen Schloss Tarasp und Vulpera mit seinem Golfplatz auf der anderen Talseite, eine Busfahrt vom Stradun entfernt.',
+      },
+      {
+        en: 'The hotels themselves fall into that same geography. Four stand on or near the Stradun with direct indoor access to the Bogn Engiadina: Hotel Belvedere, Boutique-Hotel GuardaVal, Badehotel Belvair and Hotel Astras. Above the Stradun, Hotel Arnica Scuol keeps to adults only, while Boutique Hotel ÜJA, with 11 rooms, sits in the old village centre instead. No dated price sample exists yet for Scuol, so this guide does not compare what any of them cost.',
+        fr: 'Les hôtels suivent cette même géographie. Quatre se trouvent sur ou près du Stradun, reliés directement au Bogn Engiadina : l’Hotel Belvedere, le Boutique-Hotel GuardaVal, le Badehotel Belvair et l’Hotel Astras. Au-dessus du Stradun, l’Hotel Arnica Scuol est réservé aux adultes, tandis que le Boutique Hotel ÜJA, avec 11 chambres, se trouve plutôt au cœur du vieux village. Aucun relevé de prix daté n’existe encore pour Scuol, ce guide ne compare donc le coût d’aucun d’entre eux.',
+        de: 'Die Hotels folgen derselben Geografie. Vier liegen am oder nahe dem Stradun mit direktem Zugang zum Bogn Engiadina: das Hotel Belvedere, das Boutique-Hotel GuardaVal, das Badehotel Belvair und das Hotel Astras. Über dem Stradun bietet das Hotel Arnica Scuol nur für Erwachsene, während das Boutique Hotel ÜJA mit 11 Zimmern stattdessen mitten im alten Dorf liegt. Für Scuol liegt noch keine datierte Preisstichprobe vor, dieser Reiseführer vergleicht daher keine Kosten zwischen den Häusern.',
+      },
+      {
+        en: 'Winter here runs from 12 December 2026 to 4 April 2027, across 70 km of piste on Motta Naluns. The Bogn Engiadina stays open all year, so bathing is not a seasonal draw the way the pistes are, and summer suits walkers heading up from the gondola’s mountain station. Zürich HB is 2 h 37 away by train with one change at Landquart, and once you are here, Zernez and the Swiss National Park are a further 33 minutes by direct train.',
+        fr: 'L’hiver s’étend ici du 12 décembre 2026 au 4 avril 2027, sur 70 km de pistes à Motta Naluns. Le Bogn Engiadina reste ouvert toute l’année, la baignade n’est donc pas un attrait saisonnier comme le sont les pistes, et l’été convient aux marcheurs qui partent de la station supérieure de la télécabine. Zürich HB est à 2 h 37 en train avec un changement à Landquart, et une fois sur place, Zernez et le Parc national suisse sont à 33 minutes de plus en train direct.',
+        de: 'Der Winter dauert hier vom 12. Dezember 2026 bis 4. April 2027, auf 70 Pistenkilometern auf Motta Naluns. Das Bogn Engiadina bleibt ganzjährig geöffnet, Baden ist hier also kein saisonaler Anreiz wie die Pisten, und der Sommer eignet sich für Wanderer, die ab der Bergstation der Gondelbahn starten. Zürich HB ist 2 Std. 37 mit einem Umstieg in Landquart entfernt, und vor Ort sind Zernez und der Schweizerische Nationalpark eine weitere 33 Minuten mit dem direkten Zug entfernt.',
+      },
+    ],
+  },
   stats: [
-    { value: '1250', label: { en: 'metres above sea level', fr: "mètres d'altitude", de: 'Meter über Meer' } },
+    { value: '1250', label: { en: 'metres above sea level', fr: 'mètres d’altitude', de: 'Meter über Meer' } },
     { value: '2 h 37', label: { en: 'from Zürich HB to Scuol-Tarasp, one change at Landquart', fr: 'de Zürich HB à Scuol-Tarasp, un changement à Landquart', de: 'von Zürich HB nach Scuol-Tarasp, ein Umstieg in Landquart' } },
     { value: '70 km', label: { en: 'of pistes on Motta Naluns', fr: 'de pistes sur Motta Naluns', de: 'Pisten auf Motta Naluns' } },
   ],
@@ -65,6 +90,11 @@ export const scuol: DestinationGuide = {
         { en: 'Four hotels connect directly indoors to the Bogn Engiadina mineral bath', fr: 'Quatre hôtels sont reliés directement au bain minéral Bogn Engiadina', de: 'Vier Hotels sind direkt mit dem Mineralbad Bogn Engiadina verbunden' },
         { en: 'Motta Naluns gondola valley station on the Stradun', fr: 'Gare aval de la télécabine de Motta Naluns sur le Stradun', de: 'Talstation der Gondelbahn Motta Naluns am Stradun' },
       ],
+      story: {
+        en: 'This is Scuol’s busiest stretch, where boutiques and restaurants line the walk between the tourist office and the Bogn Engiadina, and where the Motta Naluns gondola leaves straight from the valley station. It suits anyone who wants the mineral bath and the lifts within a short walk, with four hotels connecting indoors to the baths so you never need a coat to get there. The trade-off is that the old village’s quieter fountains and alleys sit just downhill, not on this street itself.',
+        fr: 'C’est le tronçon le plus animé de Scuol, où boutiques et restaurants bordent le chemin entre l’office du tourisme et le Bogn Engiadina, et d’où part directement la télécabine de Motta Naluns. Il convient à qui veut le bain minéral et les remontées à quelques pas, avec quatre hôtels reliés directement aux bains, sans jamais sortir dehors. En contrepartie, les fontaines et les ruelles plus calmes du vieux village se trouvent juste en contrebas, pas sur cette rue même.',
+        de: 'Das ist der belebteste Abschnitt von Scuol, an dem Boutiquen und Restaurants den Weg zwischen Tourismusbüro und Bogn Engiadina säumen und die Gondelbahn Motta Naluns direkt von der Talstation abfährt. Er passt für alle, die Mineralbad und Bahnen in wenigen Schritten wollen, mit vier Hotels, die drinnen direkt zum Bad führen, ohne je nach draussen zu müssen. Der Nachteil: Die ruhigeren Brunnen und Gassen des alten Dorfs liegen erst leicht bergab, nicht an dieser Strasse selbst.',
+      },
     },
     {
       title: { en: 'The old village quarters', fr: 'Les vieux quartiers du village', de: 'Die alten Dorfquartiere' },
@@ -78,6 +108,11 @@ export const scuol: DestinationGuide = {
         { en: 'Mineral water bubbles from the fountains in the alleys of the old quarters', fr: 'L’eau minérale jaillit des fontaines dans les ruelles des vieux quartiers', de: 'Mineralwasser sprudelt aus den Brunnen in den Gassen der Altdorfquartiere' },
         { en: 'Boutique Hotel ÜJA, 11 rooms, in the heart of the old village', fr: 'Boutique Hotel ÜJA, 11 chambres, au cœur du vieux village', de: 'Boutique Hotel ÜJA, 11 Zimmer, mitten im alten Dorf' },
       ],
+      story: {
+        en: 'Below the Stradun, Scuol slows down: mineral water bubbles from fountains in narrow alleys between sgraffito houses, and the historic centre hosts the Engadin Fountain Bath event each year. It suits travellers who want an Engadine house rather than a modern hotel, with Boutique Hotel ÜJA and its 11 rooms right in the middle of it. The trade-off is a short walk back up to the Stradun for the mineral bath and the gondola.',
+        fr: 'Sous le Stradun, Scuol ralentit : l’eau minérale jaillit des fontaines dans des ruelles étroites entre les maisons à sgraffites, et le centre historique accueille chaque année l’événement du bain des fontaines engadinois. Ce secteur convient à qui préfère une maison engadinoise à un hôtel moderne, avec le Boutique Hotel ÜJA et ses 11 chambres en plein milieu. En contrepartie, il faut remonter à pied jusqu’au Stradun pour le bain minéral et la télécabine.',
+        de: 'Unterhalb des Stradun wird Scuol ruhiger: Mineralwasser sprudelt aus Brunnen in engen Gassen zwischen Sgraffito-Häusern, und im historischen Zentrum findet jedes Jahr das Engadiner Brunnenbad statt. Dieser Teil passt für alle, die ein Engadiner Haus statt eines modernen Hotels suchen, mit dem Boutique Hotel ÜJA und seinen 11 Zimmern mittendrin. Der Nachteil: Für das Mineralbad und die Gondelbahn geht es kurz zu Fuss zurück zum Stradun.',
+      },
     },
     {
       title: { en: 'Tarasp and Vulpera', fr: 'Tarasp et Vulpera', de: 'Tarasp und Vulpera' },
@@ -91,6 +126,11 @@ export const scuol: DestinationGuide = {
         { en: 'Vulpera golf course, 3 km from the Belvedere hotels, 25% green fee reduction for their guests', fr: 'Golf de Vulpera, à 3 km des hôtels Belvedere, réduction de 25% sur le green fee pour leurs clients', de: 'Golfplatz Vulpera, 3 km von den Belvedere-Hotels, 25% Ermässigung auf die Greenfee für deren Gäste' },
         { en: 'A valid ski pass covers the Scuol, Vulpera, Tarasp bus until 8.30 pm in winter', fr: 'Un forfait de ski valide couvre le bus Scuol, Vulpera, Tarasp jusqu’à 20 h 30 en hiver', de: 'Ein gültiger Skipass deckt den Bus Scuol, Vulpera, Tarasp bis 20.30 Uhr im Winter' },
       ],
+      story: {
+        en: 'Across the Inn, the pace changes again: Tarasp castle looks over the valley, and Vulpera holds a golf course the Belvedere hotels list as 3 km from their door, with a 25% green fee reduction for their guests. It suits travellers after a quieter, more spread-out base, and in winter a valid ski pass covers the bus back to Scuol until 8.30 pm. The trade-off is distance from the Stradun’s mineral bath and gondola, which now means a bus ride rather than a walk.',
+        fr: 'De l’autre côté de l’Inn, le rythme change encore : le château de Tarasp domine la vallée, et Vulpera abrite un golf que les hôtels Belvedere situent à 3 km de leur porte, avec une réduction de 25% sur le green fee pour leurs clients. Ce secteur convient à qui cherche une base plus calme et plus étalée, et en hiver, un forfait de ski valide couvre le bus retour vers Scuol jusqu’à 20 h 30. En contrepartie, le bain minéral et la télécabine du Stradun ne sont plus à pied mais en bus.',
+        de: 'Jenseits des Inn ändert sich der Rhythmus erneut: Schloss Tarasp blickt über das Tal, und Vulpera besitzt einen Golfplatz, den die Belvedere-Hotels mit 3 km ab ihrer Tür angeben, samt 25% Ermässigung auf die Greenfee für ihre Gäste. Dieser Teil passt für alle, die eine ruhigere, weitläufigere Basis suchen, und im Winter deckt ein gültiger Skipass die Busfahrt zurück nach Scuol bis 20.30 Uhr ab. Der Nachteil: Mineralbad und Gondelbahn am Stradun sind nun eine Busfahrt entfernt, kein Spaziergang mehr.',
+      },
     },
   ],
   hotels: [
@@ -104,6 +144,11 @@ export const scuol: DestinationGuide = {
         { en: 'Direct access to the Bogn Engiadina, own SPA Vita Nova with saunas, steam bath and whirlpools', fr: 'Accès direct au Bogn Engiadina, propre SPA Vita Nova avec saunas, bain de vapeur et bassins à remous', de: 'Direkter Zugang zum Bogn Engiadina, eigenes SPA Vita Nova mit Saunen, Dampfbad und Whirlpools' },
         { en: 'Daily unlimited entry to the mineral bath and sauna area, 8 am to 9.45 pm, for guests', fr: 'Entrée illimitée quotidienne au bain minéral et à la zone sauna, de 8 h à 21 h 45, pour les clients', de: 'Täglich unbegrenzter Eintritt ins Mineralbad und den Saunabereich, 8 bis 21.45 Uhr, für Gäste' },
       ],
+      blurb: {
+        en: 'Part of the Belvedere Hotel Family alongside GuardaVal and Belvair, Hotel Belvedere stands on the Stradun with direct access to the Bogn Engiadina. Guests also get its own SPA Vita Nova, with saunas, a steam bath and whirlpools, plus daily unlimited entry to the mineral bath and sauna area from 8 am to 9.45 pm. It suits a stay built around bathing rather than sightseeing.',
+        fr: 'Membre de la famille d’hôtels Belvedere aux côtés du GuardaVal et du Belvair, l’Hotel Belvedere se trouve sur le Stradun avec un accès direct au Bogn Engiadina. Les clients disposent aussi de son propre SPA Vita Nova, avec saunas, bain de vapeur et bassins à remous, ainsi que d’une entrée illimitée quotidienne au bain minéral et à la zone sauna de 8 h à 21 h 45. Il convient à un séjour organisé autour de la baignade plutôt que des visites.',
+        de: 'Als Teil der Belvedere Hotel Family neben GuardaVal und Belvair liegt das Hotel Belvedere am Stradun mit direktem Zugang zum Bogn Engiadina. Gäste nutzen zudem das eigene SPA Vita Nova mit Saunen, Dampfbad und Whirlpools sowie täglich unbegrenzten Eintritt ins Mineralbad und den Saunabereich von 8 bis 21.45 Uhr. Es passt für einen Aufenthalt rund ums Baden statt ums Besichtigen.',
+      },
     },
     {
       slug: 'scuol-guardaval',
@@ -115,6 +160,11 @@ export const scuol: DestinationGuide = {
         { en: 'Own wellness area San tras aua, with sauna, steam bath and relaxation room', fr: 'Espace bien-être San tras aua, avec sauna, bain de vapeur et salle de repos', de: 'Eigener Wellnessbereich San tras aua, mit Sauna, Dampfbad und Ruheraum' },
         { en: 'Direct access to the Bogn Engiadina', fr: 'Accès direct au Bogn Engiadina', de: 'Direkter Zugang zum Bogn Engiadina' },
       ],
+      blurb: {
+        en: 'Set in a 400-year-old Engadine house, the Boutique-Hotel GuardaVal pairs its own wellness area, San tras aua, with sauna, steam bath and relaxation room, with direct access to the Bogn Engiadina next door. It suits travellers who want the character of an old Engadine building without giving up the mineral bath on their doorstep.',
+        fr: 'Installé dans une maison engadinoise vieille de 400 ans, le Boutique-Hotel GuardaVal associe son propre espace bien-être San tras aua, avec sauna, bain de vapeur et salle de repos, à un accès direct au Bogn Engiadina voisin. Il convient à qui recherche le caractère d’une ancienne maison engadinoise sans renoncer au bain minéral à sa porte.',
+        de: 'In einem 400 Jahre alten Engadiner Haus verbindet das Boutique-Hotel GuardaVal seinen eigenen Wellnessbereich San tras aua mit Sauna, Dampfbad und Ruheraum mit direktem Zugang zum benachbarten Bogn Engiadina. Es passt für alle, die den Charakter eines alten Engadiner Hauses wollen, ohne auf das Mineralbad vor der Tür zu verzichten.',
+      },
     },
     {
       slug: 'scuol-belvair',
@@ -125,6 +175,11 @@ export const scuol: DestinationGuide = {
         { en: 'Published as the shortest way from your room to the Bogn Engiadina', fr: 'Annoncé comme le chemin le plus court entre la chambre et le Bogn Engiadina', de: 'Angegeben als kürzester Weg vom Zimmer zum Bogn Engiadina' },
         { en: 'Directly connected to the mineral bath', fr: 'Directement relié au bain minéral', de: 'Direkt mit dem Mineralbad verbunden' },
       ],
+      blurb: {
+        en: 'Published as the shortest way from your room to the Bogn Engiadina, the Badehotel Belvair is directly connected to the mineral bath. It suits travellers for whom bathing comes first and everything else, including the walk there, second.',
+        fr: 'Annoncé comme le chemin le plus court entre la chambre et le Bogn Engiadina, le Badehotel Belvair est directement relié au bain minéral. Il convient à qui place la baignade au premier plan, et le reste, y compris le trajet pour y aller, au second.',
+        de: 'Als kürzester Weg vom Zimmer zum Bogn Engiadina angegeben, ist das Badehotel Belvair direkt mit dem Mineralbad verbunden. Es passt für alle, denen das Baden an erster Stelle steht und alles andere, auch der Weg dorthin, an zweiter.',
+      },
     },
     {
       slug: 'scuol-astras',
@@ -135,6 +190,11 @@ export const scuol: DestinationGuide = {
         { en: 'Listed by the mineral bath as having direct access to the baths', fr: 'Répertorié par le bain minéral comme ayant un accès direct aux bains', de: 'Vom Mineralbad als direkt zugänglich zum Bad gelistet' },
         { en: 'Restaurant described by the tourist office as cosy and rustic Stübli', fr: 'Restaurant décrit par l’office du tourisme comme un Stübli cosy et rustique', de: 'Restaurant vom Tourismusbüro als gemütliche, rustikale Stübli beschrieben' },
       ],
+      blurb: {
+        en: 'Listed by the mineral bath as having direct access to the Bogn Engiadina, Hotel Astras keeps a restaurant the tourist office describes as a cosy, rustic Stübli. It suits guests who want the bath close by and a simple, local dinner without leaving the building.',
+        fr: 'Répertorié par le bain minéral comme ayant un accès direct au Bogn Engiadina, l’Hotel Astras tient un restaurant que l’office du tourisme décrit comme un Stübli cosy et rustique. Il convient aux clients qui veulent le bain à proximité et un dîner simple et local sans quitter le bâtiment.',
+        de: 'Vom Mineralbad als direkt zugänglich zum Bogn Engiadina gelistet, führt das Hotel Astras ein Restaurant, das das Tourismusbüro als gemütliche, rustikale Stübli beschreibt. Es passt für Gäste, die das Bad in der Nähe wollen und ein einfaches, lokales Abendessen, ohne das Haus zu verlassen.',
+      },
     },
     {
       slug: 'scuol-arnica',
@@ -146,6 +206,11 @@ export const scuol: DestinationGuide = {
         { en: 'Two buildings: the Ellipse, in Swiss stone pine, and La Funtana, inspired by water', fr: 'Deux bâtiments : l’Ellipse, en pin cembro, et La Funtana, inspiré par l’eau', de: 'Zwei Gebäude: die Ellipse, aus Arvenholz, und La Funtana, vom Wasser inspiriert' },
         { en: 'A daily changing six-course gourmet menu, wellness area, relaxation room and gym', fr: 'Un menu gastronomique de six services, changeant chaque jour, espace bien-être, salle de repos et salle de fitness', de: 'Ein täglich wechselndes Sechs-Gänge-Gourmetmenü, Wellnessbereich, Ruheraum und Fitnessraum' },
       ],
+      blurb: {
+        en: 'Above the Stradun on Via da Brentsch, Hotel Arnica Scuol is an adults-only address split across two buildings, the Swiss-stone-pine Ellipse and the water-inspired La Funtana. A daily changing six-course gourmet menu, a wellness area, a relaxation room and a gym round it out, suiting travellers after a quiet, adult-focused stay away from the Stradun’s bustle.',
+        fr: 'Au-dessus du Stradun, sur la Via da Brentsch, l’Hotel Arnica Scuol est une adresse réservée aux adultes, répartie sur deux bâtiments, l’Ellipse en pin cembro et La Funtana, inspirée par l’eau. Un menu gastronomique de six services, changeant chaque jour, un espace bien-être, une salle de repos et une salle de fitness complètent l’ensemble, pour qui cherche un séjour calme, entre adultes, à l’écart de l’animation du Stradun.',
+        de: 'Über dem Stradun an der Via da Brentsch ist das Hotel Arnica Scuol eine Adresse nur für Erwachsene, verteilt auf zwei Gebäude, die Ellipse aus Arvenholz und die vom Wasser inspirierte La Funtana. Ein täglich wechselndes Sechs-Gänge-Gourmetmenü, ein Wellnessbereich, ein Ruheraum und ein Fitnessraum runden es ab, passend für einen ruhigen Aufenthalt unter Erwachsenen, abseits des Trubels am Stradun.',
+      },
     },
     {
       slug: 'scuol-uja',
@@ -157,6 +222,11 @@ export const scuol: DestinationGuide = {
         { en: 'Self-service café, communal corners and a shop corner with local products', fr: 'Café en self-service, coins communs et coin boutique avec des produits locaux', de: 'Selbstbedienungscafé, Gemeinschaftsecken und eine Ladenecke mit lokalen Produkten' },
         { en: 'Flexible check-in, under new operators since 2025', fr: 'Enregistrement flexible, sous une nouvelle direction depuis 2025', de: 'Flexibler Check-in, seit 2025 unter neuer Führung' },
       ],
+      blurb: {
+        en: 'With 11 rooms in the heart of the old village, Boutique Hotel ÜJA runs a self-service café, communal corners and a shop corner selling local products, under new operators since 2025. Its flexible check-in and informal feel suit travellers who want the old village setting without a traditional hotel routine.',
+        fr: 'Avec 11 chambres au cœur du vieux village, le Boutique Hotel ÜJA tient un café en self-service, des coins communs et un coin boutique de produits locaux, sous une nouvelle direction depuis 2025. Son enregistrement flexible et son ambiance informelle conviennent à qui veut le cadre du vieux village sans le protocole d’un hôtel traditionnel.',
+        de: 'Mit 11 Zimmern mitten im alten Dorf betreibt das Boutique Hotel ÜJA ein Selbstbedienungscafé, Gemeinschaftsecken und eine Ladenecke mit lokalen Produkten, seit 2025 unter neuer Führung. Der flexible Check-in und die unkomplizierte Atmosphäre passen für alle, die das Ambiente des alten Dorfs ohne den festen Ablauf eines klassischen Hotels wollen.',
+      },
     },
   ],
   hotelsNote: {
@@ -170,33 +240,33 @@ export const scuol: DestinationGuide = {
       {
         title: { en: 'By rail, changing at Landquart', fr: 'En train, avec changement à Landquart', de: 'Mit der Bahn, mit Umstieg in Landquart' },
         text: {
-          en: 'Zürich HB to Scuol-Tarasp takes 2 h 37 with one change at Landquart; Chur to Scuol-Tarasp takes 1 h 44. Sagliains is a transfer station: you must buy a valid ticket to Lavin, direction Scuol-Tarasp, or to Susch, direction Zernez.',
-          fr: 'De Zürich HB à Scuol-Tarasp, comptez 2 h 37 avec un changement à Landquart ; de Coire à Scuol-Tarasp, comptez 1 h 44. Sagliains est une gare de correspondance : il faut acheter un billet valable jusqu’à Lavin, direction Scuol-Tarasp, ou jusqu’à Susch, direction Zernez.',
-          de: 'Von Zürich HB nach Scuol-Tarasp dauert es 2 Std. 37 mit einem Umstieg in Landquart; von Chur nach Scuol-Tarasp 1 Std. 44. Sagliains ist ein Umsteigebahnhof: Man muss ein gültiges Billett bis Lavin, Richtung Scuol-Tarasp, oder bis Susch, Richtung Zernez, lösen.',
+          en: 'Allow 2 h 37 from Zürich HB with one change at Landquart, or 1 h 44 from Chur. Sagliains is only a transfer station, so if you buy a ticket for that stretch, buy it through to Lavin when heading to Scuol-Tarasp, or to Susch when heading to Zernez.',
+          fr: 'Comptez 2 h 37 depuis Zürich HB avec un changement à Landquart, ou 1 h 44 depuis Coire. Sagliains n’étant qu’une gare de correspondance, prenez votre billet jusqu’à Lavin si vous allez vers Scuol-Tarasp, ou jusqu’à Susch si vous allez vers Zernez.',
+          de: 'Rechnen Sie mit 2 Std. 37 ab Zürich HB mit einem Umstieg in Landquart, oder 1 Std. 44 ab Chur. Da Sagliains nur ein Umsteigebahnhof ist, lösen Sie Ihr Billett bis Lavin, wenn Sie nach Scuol-Tarasp wollen, oder bis Susch, wenn Sie nach Zernez wollen.',
         },
       },
       {
         title: { en: 'The Guestcard, not the Swiss Travel Pass', fr: 'La Guestcard, pas le Swiss Travel Pass', de: 'Die Gästekarte, nicht der Swiss Travel Pass' },
         text: {
-          en: 'No Swiss Travel Pass coverage is published for Scuol. Instead, from your first overnight stay, you get the Guestcard: free 2nd class rail between Zernez and Scuol-Tarasp, all PostBus and Engadin Bus lines between Brail and Martina, and your dog travels free.',
-          fr: 'Aucune couverture du Swiss Travel Pass n’est publiée pour Scuol. En revanche, dès la première nuitée, vous recevez la Guestcard : trajet gratuit en train 2e classe entre Zernez et Scuol-Tarasp, toutes les lignes de car postal et d’Engadin Bus entre Brail et Martina, et votre chien voyage gratuitement.',
-          de: 'Für Scuol ist keine Abdeckung durch den Swiss Travel Pass publiziert. Stattdessen erhalten Sie ab der ersten Übernachtung die Gästekarte: freie Fahrt 2. Klasse zwischen Zernez und Scuol-Tarasp, alle Postauto- und Engadin-Bus-Linien zwischen Brail und Martina, und Ihr Hund reist gratis mit.',
+          en: 'No Swiss Travel Pass coverage is published for Scuol, so plan around the Guestcard instead: from your first overnight stay it gives free 2nd class rail between Zernez and Scuol-Tarasp, all PostBus and Engadin Bus lines between Brail and Martina, and free travel for your dog, so you need not budget for local transport separately.',
+          fr: 'Aucune couverture du Swiss Travel Pass n’est publiée pour Scuol, misez donc plutôt sur la Guestcard : dès la première nuitée, elle offre un trajet gratuit en train 2e classe entre Zernez et Scuol-Tarasp, toutes les lignes de car postal et d’Engadin Bus entre Brail et Martina, et le transport gratuit pour votre chien, pas besoin donc de prévoir un budget transport local séparé.',
+          de: 'Für Scuol ist keine Abdeckung durch den Swiss Travel Pass publiziert, planen Sie also mit der Gästekarte: Ab der ersten Übernachtung gibt sie freie Fahrt 2. Klasse zwischen Zernez und Scuol-Tarasp, alle Postauto- und Engadin-Bus-Linien zwischen Brail und Martina, und Ihr Hund reist gratis mit, sodass Sie kein eigenes Budget für den Ortsverkehr einplanen müssen.',
         },
       },
       {
         title: { en: 'By car, through the Vereina tunnel', fr: 'En voiture, par le tunnel de la Vereina', de: 'Mit dem Auto, durch den Vereinatunnel' },
         text: {
-          en: 'The Vereina car-carrying train loads at Klosters Selfranga and reaches Sagliains in 18 minutes through the tunnel, running every 30 minutes.',
-          fr: 'Le train navette de la Vereina embarque à Klosters Selfranga et atteint Sagliains en 18 minutes par le tunnel, avec un départ toutes les 30 minutes.',
-          de: 'Der Autoverlad Vereina verlädt in Klosters Selfranga und erreicht Sagliains in 18 Minuten durch den Tunnel, im 30-Minuten-Takt.',
+          en: 'Driving in, load the car onto the Vereina car-carrying train at Klosters Selfranga rather than looking for a road through the mountain: it reaches Sagliains in 18 minutes, and with a departure every 30 minutes, you rarely have to plan your arrival time precisely.',
+          fr: 'En voiture, embarquez sur le train-navette de la Vereina à Klosters Selfranga plutôt que de chercher une route à travers la montagne : il atteint Sagliains en 18 minutes, et avec un départ toutes les 30 minutes, il est rarement nécessaire de planifier précisément son heure d’arrivée.',
+          de: 'Mit dem Auto verladen Sie am besten in Klosters Selfranga auf den Autoverlad Vereina, statt eine Strasse durch den Berg zu suchen: Er erreicht Sagliains in 18 Minuten, und bei einer Abfahrt alle 30 Minuten muss man seine Ankunftszeit selten genau planen.',
         },
       },
       {
         title: { en: 'Evening buses need booking', fr: 'Les bus du soir se réservent', de: 'Abendbusse müssen gebucht werden' },
         text: {
-          en: 'The evening on-call bus, line 922, must be booked free of charge up to one hour before departure, via the SBB Mobile app or sbb.ch, for runs from Scuol to Ftan, Tarasp, Sent and, Friday and Saturday only, Valsot.',
-          fr: 'Le bus du soir sur appel, ligne 922, doit être réservé gratuitement jusqu’à une heure avant le départ, via l’application SBB Mobile ou sbb.ch, pour les trajets depuis Scuol vers Ftan, Tarasp, Sent et, uniquement le vendredi et le samedi, Valsot.',
-          de: 'Der Abend-Rufbus, Linie 922, muss bis eine Stunde vor Abfahrt gratis über die App SBB Mobile oder sbb.ch gebucht werden, für Fahrten ab Scuol nach Ftan, Tarasp, Sent und, nur freitags und samstags, Valsot.',
+          en: 'Book the evening on-call bus, line 922, free of charge up to one hour before departure via the SBB Mobile app or sbb.ch: it serves Scuol to Ftan, Tarasp, Sent and, Friday and Saturday only, Valsot, so book ahead or you will be left waiting without a ride home.',
+          fr: 'Réservez le bus du soir sur appel, ligne 922, gratuitement jusqu’à une heure avant le départ via l’application SBB Mobile ou sbb.ch : il dessert Scuol vers Ftan, Tarasp, Sent et, uniquement le vendredi et le samedi, Valsot, réservez donc à l’avance, sous peine d’attendre sans bus pour rentrer.',
+          de: 'Buchen Sie den Abend-Rufbus, Linie 922, bis eine Stunde vor Abfahrt gratis über die App SBB Mobile oder sbb.ch: Er bedient Scuol Richtung Ftan, Tarasp, Sent und, nur freitags und samstags, Valsot. Buchen Sie rechtzeitig, sonst warten Sie ohne Fahrt nach Hause.',
         },
       },
     ],
@@ -356,41 +426,41 @@ export const scuol: DestinationGuide = {
     {
       q: { en: 'Do I need a car in Scuol?', fr: 'Faut-il une voiture à Scuol ?', de: 'Braucht man in Scuol ein Auto?' },
       a: {
-        en: 'No. Scuol-Tarasp is the terminus of the Rhaetian Railway, and from your first night the Guestcard gives free 2nd class rail between Zernez and Scuol-Tarasp and all PostBus lines between Brail and Martina, with your dog travelling free.',
-        fr: 'Non. Scuol-Tarasp est le terminus des Chemins de fer rhétiques, et dès la première nuit, la Guestcard donne un accès gratuit en train 2e classe entre Zernez et Scuol-Tarasp et à toutes les lignes de car postal entre Brail et Martina, votre chien voyageant gratuitement.',
-        de: 'Nein. Scuol-Tarasp ist die Endstation der Rhätischen Bahn, und ab der ersten Nacht gibt die Gästekarte freie Fahrt 2. Klasse zwischen Zernez und Scuol-Tarasp sowie auf allen Postauto-Linien zwischen Brail und Martina, und Ihr Hund reist gratis mit.',
+        en: 'No. Scuol-Tarasp is the terminus of the Rhaetian Railway, and from your first night the Guestcard gives free 2nd class rail between Zernez and Scuol-Tarasp and all PostBus lines between Brail and Martina, with your dog travelling free, so you can plan the whole stay around public transport instead of renting a car.',
+        fr: 'Non. Scuol-Tarasp est le terminus des Chemins de fer rhétiques, et dès la première nuit, la Guestcard donne un accès gratuit en train 2e classe entre Zernez et Scuol-Tarasp et à toutes les lignes de car postal entre Brail et Martina, votre chien voyageant gratuitement, vous pouvez donc organiser tout le séjour autour des transports publics plutôt que de louer une voiture.',
+        de: 'Nein. Scuol-Tarasp ist die Endstation der Rhätischen Bahn, und ab der ersten Nacht gibt die Gästekarte freie Fahrt 2. Klasse zwischen Zernez und Scuol-Tarasp sowie auf allen Postauto-Linien zwischen Brail und Martina, und Ihr Hund reist gratis mit, Sie können den ganzen Aufenthalt also auf den öffentlichen Verkehr statt auf ein Mietauto ausrichten.',
       },
     },
     {
       q: { en: 'Which hotels reach the mineral baths without going outside?', fr: 'Quels hôtels rejoignent les bains minéraux sans sortir dehors ?', de: 'Welche Hotels erreichen das Mineralbad, ohne nach draussen zu müssen?' },
       a: {
-        en: 'The bath itself lists four: Hotel Belvedere, Boutique-Hotel GuardaVal, Badehotel Belvair and Hotel Astras.',
-        fr: 'Le bain lui-même en cite quatre : l’Hotel Belvedere, le Boutique-Hotel GuardaVal, le Badehotel Belvair et l’Hotel Astras.',
-        de: 'Das Bad selbst nennt vier: das Hotel Belvedere, das Boutique-Hotel GuardaVal, das Badehotel Belvair und das Hotel Astras.',
+        en: 'The bath itself lists four: Hotel Belvedere, Boutique-Hotel GuardaVal, Badehotel Belvair and Hotel Astras, so book one of those four if reaching the pools without a coat, in winter or bad weather, matters more to you than anything else in this guide.',
+        fr: 'Le bain lui-même en cite quatre : l’Hotel Belvedere, le Boutique-Hotel GuardaVal, le Badehotel Belvair et l’Hotel Astras ; réservez l’un de ces quatre hôtels si rejoindre les bassins sans sortir dehors, en hiver ou par mauvais temps, compte plus que tout le reste.',
+        de: 'Das Bad selbst nennt vier: das Hotel Belvedere, das Boutique-Hotel GuardaVal, das Badehotel Belvair und das Hotel Astras; buchen Sie eines dieser vier Hotels, wenn Ihnen der Zugang zu den Becken ohne Mantel, im Winter oder bei schlechtem Wetter, wichtiger ist als alles andere.',
       },
     },
     {
       q: { en: 'Is Scuol a good base for the Swiss National Park?', fr: 'Scuol est-elle une bonne base pour le Parc national suisse ?', de: 'Ist Scuol eine gute Basis für den Schweizerischen Nationalpark?' },
       a: {
-        en: 'Zernez, the park’s main gate, is 33 minutes away by direct train from Scuol-Tarasp, and the Guestcard covers that leg.',
-        fr: 'Zernez, la porte principale du parc, est à 33 minutes en train direct depuis Scuol-Tarasp, et la Guestcard couvre ce trajet.',
-        de: 'Zernez, das Haupttor zum Park, ist ab Scuol-Tarasp 33 Minuten mit dem direkten Zug entfernt, und die Gästekarte deckt diese Strecke ab.',
+        en: 'Zernez, the park’s main gate, is 33 minutes away by direct train from Scuol-Tarasp, and the Guestcard covers that leg for free, so you can base yourself in Scuol for the mineral baths and still fit in a day in the park without renting a car.',
+        fr: 'Zernez, la porte principale du parc, est à 33 minutes en train direct depuis Scuol-Tarasp, et la Guestcard couvre ce trajet gratuitement ; vous pouvez donc vous baser à Scuol pour les bains minéraux tout en prévoyant une journée dans le parc sans louer de voiture.',
+        de: 'Zernez, das Haupttor zum Park, ist ab Scuol-Tarasp 33 Minuten mit dem direkten Zug entfernt, und die Gästekarte deckt diese Strecke gratis ab; Sie können sich also in Scuol wegen der Mineralbäder niederlassen und trotzdem einen Tag im Park einplanen, ohne ein Auto zu mieten.',
       },
     },
     {
       q: { en: 'How big is the ski area?', fr: 'Quelle est la taille du domaine skiable ?', de: 'Wie gross ist das Skigebiet?' },
       a: {
-        en: 'Bergbahnen Scuol publishes 25 pistes over 70 km, served by 13 lift installations, plus a 3.5 km toboggan run from Prui to Ftan with night tobogganing. Winter 2026/27 runs 12 December 2026 to 4 April 2027.',
-        fr: 'Bergbahnen Scuol annonce 25 pistes sur 70 km, desservies par 13 installations, ainsi qu’une piste de luge de 3,5 km de Prui à Ftan avec luge nocturne. L’hiver 2026/27 se déroule du 12 décembre 2026 au 4 avril 2027.',
-        de: 'Bergbahnen Scuol führt 25 Pisten auf 70 km, erschlossen von 13 Anlagen, dazu eine 3,5 km lange Schlittelbahn von Prui nach Ftan mit Nachtschlitteln. Der Winter 2026/27 läuft vom 12. Dezember 2026 bis 4. April 2027.',
+        en: 'Bergbahnen Scuol publishes 25 pistes over 70 km, served by 13 lift installations, plus a 3.5 km toboggan run from Prui to Ftan with night tobogganing, and winter 2026/27 runs from 12 December 2026 to 4 April 2027, so book within that window if skiing or tobogganing is the point of the trip.',
+        fr: 'Bergbahnen Scuol annonce 25 pistes sur 70 km, desservies par 13 installations, ainsi qu’une piste de luge de 3,5 km de Prui à Ftan avec luge nocturne, et l’hiver 2026/27 se déroule du 12 décembre 2026 au 4 avril 2027 ; réservez dans ce créneau si le ski ou la luge est le but du séjour.',
+        de: 'Bergbahnen Scuol führt 25 Pisten auf 70 km, erschlossen von 13 Anlagen, dazu eine 3,5 km lange Schlittelbahn von Prui nach Ftan mit Nachtschlitteln, und der Winter 2026/27 läuft vom 12. Dezember 2026 bis 4. April 2027; buchen Sie also innerhalb dieses Zeitraums, wenn Skifahren oder Schlitteln der Zweck der Reise ist.',
       },
     },
     {
       q: { en: 'Can I visit the mineral baths without staying at a connected hotel?', fr: 'Peut-on visiter les bains minéraux sans loger dans un hôtel relié ?', de: 'Kann man das Mineralbad besuchen, ohne in einem verbundenen Hotel zu wohnen?' },
       a: {
-        en: 'Yes: the Bogn Engiadina is open all year to any visitor, though its sauna area stays closed until early October 2026, and travellers arriving with RhB or RailAway tickets get a published 20% discount on admission.',
-        fr: 'Oui : le Bogn Engiadina est ouvert toute l’année à tout visiteur, même si sa zone sauna reste fermée jusqu’à début octobre 2026, et les voyageurs arrivant avec un billet RhB ou RailAway bénéficient d’une réduction publiée de 20% sur l’entrée.',
-        de: 'Ja: Das Bogn Engiadina ist ganzjährig für alle Besucher geöffnet, auch wenn der Saunabereich bis Anfang Oktober 2026 geschlossen bleibt, und Reisende mit RhB- oder RailAway-Ticket erhalten einen publizierten Rabatt von 20% auf den Eintritt.',
+        en: 'Yes: the Bogn Engiadina is open all year to any visitor, though its sauna area stays closed until early October 2026, and travellers arriving with RhB or RailAway tickets get a published 20% discount on admission, so book your journey through one of those rather than separately if a bath visit is on the plan.',
+        fr: 'Oui : le Bogn Engiadina est ouvert toute l’année à tout visiteur, même si sa zone sauna reste fermée jusqu’à début octobre 2026, et les voyageurs arrivant avec un billet RhB ou RailAway bénéficient d’une réduction publiée de 20% sur l’entrée ; réservez donc votre trajet via l’un de ces canaux plutôt que séparément si une visite au bain est prévue.',
+        de: 'Ja: Das Bogn Engiadina ist ganzjährig für alle Besucher geöffnet, auch wenn der Saunabereich bis Anfang Oktober 2026 geschlossen bleibt, und Reisende mit RhB- oder RailAway-Ticket erhalten einen publizierten Rabatt von 20% auf den Eintritt; buchen Sie Ihre Anreise daher über einen dieser Wege statt separat, wenn ein Badbesuch geplant ist.',
       },
     },
   ],
