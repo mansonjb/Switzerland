@@ -1,0 +1,127 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "adelboden-the-cambrian",
+      "bookingName": "The Cambrian",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/solis-cambrian-spa.en-gb.html",
+      "address": "Dorfstrasse 7, 3715 Adelboden, Switzerland",
+      "prices": {
+        "2026-12-18": 403,
+        "2027-07-21": 385,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 385,
+        "avg": 395,
+        "samples": 2
+      },
+      "winter": {
+        "from": 403,
+        "avg": 405,
+        "samples": 1
+      },
+      "summer": {
+        "from": 385,
+        "avg": 385,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "adelboden-bellevue-parkhotel",
+      "bookingName": "Bellevue Parkhotel & Spa - Relais & Châteaux",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/parkhotel-bellevue-spa.en-gb.html",
+      "address": "Bellevuestrasse 15, 3715 Adelboden, Switzerland",
+      "prices": {
+        "2026-12-18": 410,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 410,
+        "avg": 410,
+        "samples": 1
+      },
+      "winter": {
+        "from": 410,
+        "avg": 410,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "adelboden-alpina",
+      "bookingName": "Ferien- und Familienhotel Alpina Adelboden",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpina-adelboden.en-gb.html",
+      "address": "Flecklistrasse 40, 3715 Adelboden, Switzerland",
+      "prices": {
+        "2026-12-18": 246,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 246,
+        "avg": 245,
+        "samples": 1
+      },
+      "winter": {
+        "from": 246,
+        "avg": 245,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "adelboden-steinmattli",
+      "bookingName": "Hotel Steinmattli",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swissqarenasteinmattli.en-gb.html",
+      "address": "Risetenstraessli 10, 3715 Adelboden, Switzerland",
+      "prices": {
+        "2026-12-18": 398,
+        "2027-02-17": 385,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 385,
+        "avg": 390,
+        "samples": 2
+      },
+      "winter": {
+        "from": 385,
+        "avg": 390,
+        "samples": 2
+      },
+      "summer": null
+    }
+  ]
+}

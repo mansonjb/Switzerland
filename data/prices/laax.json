@@ -1,0 +1,100 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "laax-rocksresort",
+      "bookingName": "rocksresort",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/rocksresort.en-gb.html",
+      "address": "Talstation, 7032 Laax, Switzerland",
+      "prices": {
+        "2027-07-21": 311,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 311,
+        "avg": 310,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 311,
+        "avg": 310,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "laax-signinahotel",
+      "bookingName": "signinahotel",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/signinahotel.en-gb.html",
+      "address": "Talstation, 7032 Laax, Switzerland",
+      "prices": {
+        "2027-02-17": 356,
+        "2027-07-21": 200,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 200,
+        "avg": 280,
+        "samples": 2
+      },
+      "winter": {
+        "from": 356,
+        "avg": 355,
+        "samples": 1
+      },
+      "summer": {
+        "from": 200,
+        "avg": 200,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "laax-riders",
+      "bookingName": "Riders Hotel",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/riders-palace.en-gb.html",
+      "address": "Talstation, 7032 Laax, Switzerland",
+      "prices": {
+        "2027-02-17": 375,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 375,
+        "avg": 375,
+        "samples": 1
+      },
+      "winter": {
+        "from": 375,
+        "avg": 375,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

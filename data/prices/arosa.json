@@ -1,0 +1,162 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "arosa-tschuggen-grand-hotel",
+      "bookingName": "Tschuggen Grand Hotel - The Leading Hotels of the World",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/tschuggen-grand-arosa-arosa.en-gb.html",
+      "address": "Tschuggentorweg 1, 7050 Arosa, Switzerland",
+      "prices": {
+        "2026-12-18": 1000,
+        "2027-07-21": 555,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 555,
+        "avg": 780,
+        "samples": 2
+      },
+      "winter": {
+        "from": 1000,
+        "avg": 1000,
+        "samples": 1
+      },
+      "summer": {
+        "from": 555,
+        "avg": 555,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "arosa-valsana",
+      "bookingName": "Valsana Hotel Arosa - Small Luxury Hotels of the World",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/valsana-hotel-appartements.en-gb.html",
+      "address": "Oberseepromenade 2, 7050 Arosa, Switzerland",
+      "prices": {
+        "2026-12-18": 476,
+        "2027-07-21": 297,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 297,
+        "avg": 385,
+        "samples": 2
+      },
+      "winter": {
+        "from": 476,
+        "avg": 475,
+        "samples": 1
+      },
+      "summer": {
+        "from": 297,
+        "avg": 295,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "arosa-waldhotel",
+      "bookingName": "Waldhotel Arosa",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/waldhotel-national.en-gb.html",
+      "address": "Prätschlistr. 38, 7050 Arosa, Switzerland",
+      "prices": {
+        "2026-12-18": 693,
+        "2027-07-21": 476,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 476,
+        "avg": 585,
+        "samples": 2
+      },
+      "winter": {
+        "from": 693,
+        "avg": 695,
+        "samples": 1
+      },
+      "summer": {
+        "from": 476,
+        "avg": 475,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "arosa-vetter",
+      "bookingName": "Arosa Vetter Hotel",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/arosa-vetter.en-gb.html",
+      "address": "Seeblickstrasse, 7050 Arosa, Switzerland",
+      "prices": {
+        "2027-07-21": 217,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 217,
+        "avg": 215,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 217,
+        "avg": 215,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "arosa-alpensonne",
+      "bookingName": "Hotel Alpensonne - Panoramazimmer & Restaurant",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpensonne.en-gb.html",
+      "address": "Poststrasse 217, 7050 Arosa, Switzerland",
+      "prices": {
+        "2026-12-18": 296,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 296,
+        "avg": 295,
+        "samples": 1
+      },
+      "winter": {
+        "from": 296,
+        "avg": 295,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

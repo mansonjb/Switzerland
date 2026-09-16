@@ -97,6 +97,7 @@ export const laax: DestinationGuide = {
     {
       slug: 'laax-rocksresort',
       name: 'rocksresort',
+      photo: '/photos/hotels/laax-rocksresort.jpg',
       url: 'https://www.rocksresort.com/en/',
       sector: { en: 'Laax Murschetg', fr: 'Laax Murschetg', de: 'Laax Murschetg' },
       facts: [
@@ -108,6 +109,7 @@ export const laax: DestinationGuide = {
     {
       slug: 'laax-signinahotel',
       name: 'signinahotel',
+      photo: '/photos/hotels/laax-signinahotel.jpg',
       url: 'https://www.signinahotel.com/en/',
       sector: { en: 'Laax Murschetg', fr: 'Laax Murschetg', de: 'Laax Murschetg' },
       facts: [
@@ -119,6 +121,7 @@ export const laax: DestinationGuide = {
     {
       slug: 'laax-riders',
       name: 'Riders Hotel',
+      photo: '/photos/hotels/laax-riders.jpg',
       url: 'https://ridershotel.com',
       sector: { en: 'Laax Murschetg', fr: 'Laax Murschetg', de: 'Laax Murschetg' },
       facts: [

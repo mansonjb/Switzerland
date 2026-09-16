@@ -26,6 +26,11 @@ import stMoritz from './prices/st-moritz.json'
 import davos from './prices/davos.json'
 import gstaad from './prices/gstaad.json'
 import cransMontana from './prices/crans-montana.json'
+import laax from './prices/laax.json'
+import arosa from './prices/arosa.json'
+import klosters from './prices/klosters.json'
+import lenzerheide from './prices/lenzerheide.json'
+import adelboden from './prices/adelboden.json'
 
 /** Real nightly prices scraped from Booking.com on dated samples (2 adults, 1 room, 1 night).
  *  Regenerate with scripts/scrape-booking-prices.mjs, never edit numbers by hand. */
@@ -61,6 +66,11 @@ const FILES: Record<string, PriceFile> = {
   davos: davos as unknown as PriceFile,
   gstaad: gstaad as unknown as PriceFile,
   'crans-montana': cransMontana as unknown as PriceFile,
+  laax: laax as unknown as PriceFile,
+  arosa: arosa as unknown as PriceFile,
+  klosters: klosters as unknown as PriceFile,
+  lenzerheide: lenzerheide as unknown as PriceFile,
+  adelboden: adelboden as unknown as PriceFile,
 }
 
 export const getPriceFile = (destination: string): PriceFile | undefined => FILES[destination]

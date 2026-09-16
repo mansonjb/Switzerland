@@ -97,6 +97,7 @@ export const arosa: DestinationGuide = {
     {
       slug: 'arosa-tschuggen-grand-hotel',
       name: 'Tschuggen Grand Hotel',
+      photo: '/photos/hotels/arosa-tschuggen-grand-hotel.jpg',
       url: 'https://tschuggencollection.ch/en/hotel/tschuggen-grand-hotel',
       sector: { en: 'Station and Obersee', fr: 'La gare et l’Obersee', de: 'Bahnhof und Obersee' },
       facts: [
@@ -108,6 +109,7 @@ export const arosa: DestinationGuide = {
     {
       slug: 'arosa-valsana',
       name: 'Valsana Hotel',
+      photo: '/photos/hotels/arosa-valsana.jpg',
       url: 'https://tschuggencollection.ch/en/hotel/valsana-hotel',
       sector: { en: 'Station and Obersee', fr: 'La gare et l’Obersee', de: 'Bahnhof und Obersee' },
       facts: [
@@ -119,6 +121,7 @@ export const arosa: DestinationGuide = {
     {
       slug: 'arosa-waldhotel',
       name: 'Waldhotel Arosa',
+      photo: '/photos/hotels/arosa-waldhotel.jpg',
       url: 'https://www.waldhotel.ch/en/',
       sector: { en: 'Maran and Prätschli', fr: 'Maran et Prätschli', de: 'Maran und Prätschli' },
       facts: [
@@ -152,6 +155,7 @@ export const arosa: DestinationGuide = {
     {
       slug: 'arosa-vetter',
       name: 'Arosa Vetter Hotel',
+      photo: '/photos/hotels/arosa-vetter.jpg',
       url: 'https://www.arosa-vetter-hotel.ch/en/',
       sector: { en: 'Station and Obersee', fr: 'La gare et l’Obersee', de: 'Bahnhof und Obersee' },
       facts: [
@@ -163,6 +167,7 @@ export const arosa: DestinationGuide = {
     {
       slug: 'arosa-alpensonne',
       name: 'Hotel Alpensonne',
+      photo: '/photos/hotels/arosa-alpensonne.jpg',
       url: 'https://www.hotelalpensonne.ch/',
       sector: { en: 'Innerarosa', fr: 'Innerarosa', de: 'Innerarosa' },
       facts: [

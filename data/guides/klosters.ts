@@ -108,6 +108,7 @@ export const klosters: DestinationGuide = {
     {
       slug: 'klosters-piz-buin',
       name: 'Hotel Piz Buin',
+      photo: '/photos/hotels/klosters-piz-buin.jpg',
       url: 'https://www.pizbuin-klosters.ch',
       sector: { en: 'Klosters Platz', fr: 'Klosters Platz', de: 'Klosters Platz' },
       facts: [
@@ -130,6 +131,7 @@ export const klosters: DestinationGuide = {
     {
       slug: 'klosters-steinbock',
       name: 'Steinbock Hotel',
+      photo: '/photos/hotels/klosters-steinbock.jpg',
       url: 'https://www.steinbock-klosters.ch',
       sector: { en: 'Klosters Platz', fr: 'Klosters Platz', de: 'Klosters Platz' },
       facts: [
@@ -141,6 +143,7 @@ export const klosters: DestinationGuide = {
     {
       slug: 'klosters-sport',
       name: 'Hotel Sport Klosters',
+      photo: '/photos/hotels/klosters-sport.jpg',
       url: 'https://www.hotel-sport.ch',
       sector: { en: 'Klosters Platz', fr: 'Klosters Platz', de: 'Klosters Platz' },
       facts: [
@@ -152,6 +155,7 @@ export const klosters: DestinationGuide = {
     {
       slug: 'klosters-sunstar',
       name: 'Sunstar Hotel Klosters',
+      photo: '/photos/hotels/klosters-sunstar.jpg',
       url: 'https://klosters.sunstar.ch',
       sector: { en: 'Klosters Dorf', fr: 'Klosters Dorf', de: 'Klosters Dorf' },
       facts: [
@@ -163,6 +167,7 @@ export const klosters: DestinationGuide = {
     {
       slug: 'klosters-silvapina',
       name: 'Hotel Silvapina',
+      photo: '/photos/hotels/klosters-silvapina.jpg',
       url: 'https://www.silvapina.ch',
       sector: { en: 'Klosters Dorf', fr: 'Klosters Dorf', de: 'Klosters Dorf' },
       facts: [
@@ -174,6 +179,7 @@ export const klosters: DestinationGuide = {
     {
       slug: 'klosters-sport-lodge',
       name: 'Sport-Lodge Klosters',
+      photo: '/photos/hotels/klosters-sport-lodge.jpg',
       url: 'https://www.sport-lodge.ch',
       sector: { en: 'Klosters Platz', fr: 'Klosters Platz', de: 'Klosters Platz' },
       facts: [

@@ -97,6 +97,7 @@ export const adelboden: DestinationGuide = {
     {
       slug: 'adelboden-the-cambrian',
       name: 'The Cambrian Adelboden',
+      photo: '/photos/hotels/adelboden-the-cambrian.jpg',
       url: 'https://www.thecambrianadelboden.com/en/',
       sector: { en: 'Dorfstrasse', fr: 'La Dorfstrasse', de: 'Die Dorfstrasse' },
       facts: [
@@ -141,6 +142,7 @@ export const adelboden: DestinationGuide = {
     {
       slug: 'adelboden-bellevue-parkhotel',
       name: 'Bellevue Parkhotel & Spa',
+      photo: '/photos/hotels/adelboden-bellevue-parkhotel.jpg',
       url: 'https://www.bellevue-parkhotel.ch/',
       sector: { en: 'Above the village, Bellevuestrasse', fr: 'Au-dessus du village, Bellevuestrasse', de: 'Oberhalb des Dorfes, Bellevuestrasse' },
       facts: [
@@ -152,6 +154,7 @@ export const adelboden: DestinationGuide = {
     {
       slug: 'adelboden-alpina',
       name: 'Ferien- und Familienhotel Alpina',
+      photo: '/photos/hotels/adelboden-alpina.jpg',
       url: 'https://www.alpina-adelboden.ch/',
       sector: { en: 'Above the village, Flecklistrasse', fr: 'Au-dessus du village, Flecklistrasse', de: 'Oberhalb des Dorfes, Flecklistrasse' },
       facts: [
@@ -163,6 +166,7 @@ export const adelboden: DestinationGuide = {
     {
       slug: 'adelboden-steinmattli',
       name: 'Hotel Steinmattli',
+      photo: '/photos/hotels/adelboden-steinmattli.jpg',
       url: 'https://www.hotel-steinmattli.ch/',
       sector: { en: 'Above the village, Risetensträssli', fr: 'Au-dessus du village, Risetensträssli', de: 'Oberhalb des Dorfes, Risetensträssli' },
       facts: [

@@ -97,6 +97,7 @@ export const lenzerheide: DestinationGuide = {
     {
       slug: 'lenzerheide-schweizerhof',
       name: 'Hotel Schweizerhof Lenzerheide',
+      photo: '/photos/hotels/lenzerheide-schweizerhof.jpg',
       url: 'https://www.schweizerhof-lenzerheide.ch/en/',
       sector: { en: 'Lenzerheide village centre', fr: 'Le centre du village de Lenzerheide', de: 'Dorfzentrum Lenzerheide' },
       facts: [
@@ -118,6 +119,7 @@ export const lenzerheide: DestinationGuide = {
     {
       slug: 'lenzerheide-revier',
       name: 'Revier Mountain Lodge Lenzerheide',
+      photo: '/photos/hotels/lenzerheide-revier.jpg',
       url: 'https://lenzerheide.revierhotels.com/en/',
       sector: { en: 'Lenzerheide village centre', fr: 'Le centre du village de Lenzerheide', de: 'Dorfzentrum Lenzerheide' },
       facts: [
@@ -128,6 +130,7 @@ export const lenzerheide: DestinationGuide = {
     {
       slug: 'lenzerheide-lenzerhorn',
       name: 'Hotel Lenzerhorn, Alpine Stay, Spa & Savour',
+      photo: '/photos/hotels/lenzerheide-lenzerhorn.jpg',
       url: 'https://hotel-lenzerhorn.ch/en/',
       sector: { en: 'Lenzerheide village centre', fr: 'Le centre du village de Lenzerheide', de: 'Dorfzentrum Lenzerheide' },
       facts: [
@@ -139,6 +142,7 @@ export const lenzerheide: DestinationGuide = {
     {
       slug: 'lenzerheide-sunstar',
       name: 'Sunstar Lenzerheide',
+      photo: '/photos/hotels/lenzerheide-sunstar.jpg',
       url: 'https://lenzerheide.sunstar.ch/en',
       sector: { en: 'Lenzerheide village centre', fr: 'Le centre du village de Lenzerheide', de: 'Dorfzentrum Lenzerheide' },
       facts: [

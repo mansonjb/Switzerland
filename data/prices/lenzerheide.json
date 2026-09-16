@@ -1,0 +1,131 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "lenzerheide-schweizerhof",
+      "bookingName": "Hotel Schweizerhof Lenzerheide",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/schweizerhof-lenzerheide.en-gb.html",
+      "address": "Voa Principala 39, 7078 Lenzerheide, Switzerland",
+      "prices": {
+        "2027-07-21": 310,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 310,
+        "avg": 310,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 310,
+        "avg": 310,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lenzerheide-revier",
+      "bookingName": "Revier Mountain Lodge Lenzerheide",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/revier-mountain-lodge.en-gb.html",
+      "address": "Voa Principala 84, 7078 Lenzerheide, Switzerland",
+      "prices": {
+        "2027-07-21": 152,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 152,
+        "avg": 150,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 152,
+        "avg": 150,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lenzerheide-lenzerhorn",
+      "bookingName": "Hotel Lenzerhorn - Alpine Stay, Spa & Savour",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/lenzerhorn.en-gb.html",
+      "address": "Voa Principala 41, 7078 Lenzerheide, Switzerland",
+      "prices": {
+        "2026-12-18": 351,
+        "2027-07-21": 250,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 250,
+        "avg": 300,
+        "samples": 2
+      },
+      "winter": {
+        "from": 351,
+        "avg": 350,
+        "samples": 1
+      },
+      "summer": {
+        "from": 250,
+        "avg": 250,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lenzerheide-sunstar",
+      "bookingName": "Sunstar Hotel Lenzerheide",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sunstar-lenzerheide.en-gb.html",
+      "address": "Voa Sporz 8, 7078 Lenzerheide, Switzerland",
+      "prices": {
+        "2026-12-18": 402,
+        "2027-02-17": 345,
+        "2027-07-21": 300,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 300,
+        "avg": 350,
+        "samples": 3
+      },
+      "winter": {
+        "from": 345,
+        "avg": 375,
+        "samples": 2
+      },
+      "summer": {
+        "from": 300,
+        "avg": 300,
+        "samples": 1
+      }
+    }
+  ]
+}
