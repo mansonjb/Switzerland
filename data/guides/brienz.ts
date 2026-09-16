@@ -8,9 +8,9 @@ export const brienz: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Brienz: the Rothorn steam train, Ballenberg', fr: 'Où dormir à Brienz : le train à vapeur du Rothorn, Ballenberg', de: 'Wo übernachten in Brienz: Rothorn-Dampfbahn, Ballenberg' },
     description: {
-      en: 'Brienz area by area: the Hauptstrasse lakefront, the slope above the village, and Giessbach across the lake. Hotels with sourced facts, the Rothorn steam railway, the woodcarving school and Ballenberg.',
-      fr: 'Brienz secteur par secteur : la Hauptstrasse au bord du lac, le versant au-dessus du village, et Giessbach sur l’autre rive. Hôtels avec faits sourcés, le train à vapeur du Rothorn, l’école de sculpture sur bois et Ballenberg.',
-      de: 'Brienz Ortsteil für Ortsteil: die Hauptstrasse am See, der Hang oberhalb des Dorfes, und Giessbach am anderen Ufer. Hotels mit belegten Fakten, die Rothorn-Dampfbahn, die Schule für Holzbildhauerei und Ballenberg.',
+      en: 'Where to sleep in Brienz, from the lakefront Hauptstrasse to Grandhotel Giessbach across the water, with sourced hotel facts, the Rothorn steam railway and Ballenberg, and when each one runs.',
+      fr: 'Où dormir à Brienz, de la Hauptstrasse au bord du lac jusqu’au Grandhotel Giessbach sur l’autre rive, avec des faits d’hôtels sourcés, le train à vapeur du Rothorn et Ballenberg, et le calendrier de chacun.',
+      de: 'Wo übernachten in Brienz, von der Hauptstrasse am See bis zum Grandhotel Giessbach am anderen Ufer, mit belegten Hotelfakten, der Rothorn-Dampfbahn und Ballenberg, und wann jedes davon läuft.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Interlaken-Oberhasli', fr: 'Oberland bernois · Interlaken-Oberhasli', de: 'Berner Oberland · Interlaken-Oberhasli' },
@@ -21,26 +21,51 @@ export const brienz: DestinationGuide = {
     de: 'Brienz liegt auf 566 m am Ostende des gleichnamigen Sees, eine Gemeinde mit 3261 Einwohnenden (31. Dezember 2021) auf 5495 Hektaren, wovon 703 auf den Brienzersee selbst entfallen. Das Dorf liegt an der Zentralbahn-Linie zwischen Interlaken Ost, 17 Minuten entfernt, und Luzern, 1 Std. 27 entfernt, bedient vom Luzern-Interlaken Express. Autofrei ist es nicht: Hauptstrasse und Bahnlinie führen beide dem Ufer entlang durchs Dorf. Brienz bezeichnet sich selbst als Schnitzlerdorf mit einer Schule für Holzbildhauerei und einer Geigenbauschule, und ist die Talstation der dampfbetriebenen Brienz Rothorn Bahn, eröffnet 1892.',
   },
   quickAnswer: {
-    en: 'Stay in Brienz for the Rothorn steam railway leaving from the village, the woodcarving and violin-making schools, and Ballenberg a short bus ride away, all quieter than Interlaken. For the widest choice of trains and boats on both lakes, sleep in Interlaken instead.',
-    fr: 'Dormez à Brienz pour le train à vapeur du Rothorn qui part du village, les écoles de sculpture sur bois et de lutherie, et Ballenberg à quelques minutes de bus, le tout plus calme qu’Interlaken. Pour le plus large choix de trains et de bateaux sur les deux lacs, dormez plutôt à Interlaken.',
-    de: 'Übernachten Sie in Brienz für die Rothorn-Dampfbahn direkt ab dem Dorf, die Schule für Holzbildhauerei und die Geigenbauschule, sowie Ballenberg wenige Busminuten entfernt, alles ruhiger als Interlaken. Für die grösste Auswahl an Zügen und Booten auf beiden Seen übernachten Sie besser in Interlaken.',
+    en: 'Stay in Brienz if a steam railway leaving from your doorstep, the woodcarving and violin-making schools, and Ballenberg a short bus ride away sound like a quieter version of a Bernese Oberland base. If you want the widest choice of trains and boats on both lakes instead, sleep in Interlaken.',
+    fr: 'Dormez à Brienz si un train à vapeur au pied de l’hôtel, les écoles de sculpture sur bois et de lutherie, et Ballenberg à quelques minutes de bus vous conviennent comme version plus calme d’une base dans l’Oberland bernois. Si vous préférez le plus large choix de trains et de bateaux sur les deux lacs, dormez plutôt à Interlaken.',
+    de: 'Übernachten Sie in Brienz, wenn eine Dampfbahn direkt vor der Tür, die Schule für Holzbildhauerei und die Geigenbauschule sowie Ballenberg wenige Busminuten entfernt für Sie eine ruhigere Variante einer Basis im Berner Oberland klingen. Wer stattdessen die grösste Auswahl an Zügen und Booten auf beiden Seen sucht, übernachtet besser in Interlaken.',
   },
   snapshot: {
     why: {
-      en: 'A steam railway starting from the village, two craft schools that give Brienz its name as the woodcarving village, and Ballenberg, the open-air museum, a short bus ride away.',
-      fr: 'Un train à vapeur qui part du village, deux écoles d’artisanat qui valent à Brienz son nom de village de sculpteurs sur bois, et Ballenberg, le musée en plein air, à quelques minutes de bus.',
-      de: 'Eine Dampfbahn direkt ab dem Dorf, zwei Handwerksschulen, die Brienz seinen Namen als Schnitzlerdorf geben, und Ballenberg, das Freilichtmuseum, wenige Busminuten entfernt.',
+      en: 'Because the things that set Brienz apart sit close together and need no full day of transfers to reach: the Rothorn steam railway leaves from beside the SBB station, the woodcarving and violin-making schools are a short walk into the village, and Ballenberg is about eleven minutes away by bus. That closeness lets a stay here turn around named crafts and a historic railway, not just the view.',
+      fr: 'Parce que ce qui distingue Brienz se trouve à portée de main, sans qu’il faille une journée entière de correspondances : le train à vapeur du Rothorn part juste à côté de la gare CFF, les écoles de sculpture sur bois et de lutherie sont à quelques pas dans le village, et Ballenberg se rejoint en environ onze minutes de bus. Cette proximité permet d’organiser un séjour autour de métiers nommés et d’un chemin de fer historique, pas seulement autour du paysage.',
+      de: 'Weil das, was Brienz auszeichnet, nah beieinanderliegt und keinen ganzen Tag mit Umsteigen kostet: Die Rothorn-Dampfbahn fährt direkt neben dem SBB-Bahnhof ab, die Schule für Holzbildhauerei und die Geigenbauschule liegen einen kurzen Spaziergang entfernt im Dorf, und Ballenberg erreicht man in rund elf Busminuten. Diese Nähe erlaubt einen Aufenthalt rund um benannte Handwerke und eine historische Bahn, nicht nur um die Aussicht.',
     },
     where: {
-      en: 'Along the Hauptstrasse for the station, the Rothorn Bahn valley station and the boat landing, above the village on the slope for the woodcarving school and the view, or across the lake at Giessbach, reached only by boat.',
-      fr: 'Le long de la Hauptstrasse pour la gare, la station de départ du Rothorn Bahn et l’embarcadère, au-dessus du village sur le versant pour l’école de sculpture sur bois et la vue, ou de l’autre côté du lac à Giessbach, accessible uniquement par bateau.',
-      de: 'Entlang der Hauptstrasse für den Bahnhof, die Talstation der Rothorn Bahn und die Schiffsanlegestelle, oberhalb des Dorfes am Hang für die Schule für Holzbildhauerei und die Aussicht, oder auf der anderen Seeseite in Giessbach, nur mit dem Schiff erreichbar.',
+      en: 'First stay or want everything within reach: the Hauptstrasse, by the station, the Rothorn Bahn valley station and the boat landing. Away from the road, for space and a view: above the village, near the woodcarving school. Willing to start and end each day with a boat ride: Giessbach, on the far shore, reached only by BLS boat and funicular.',
+      fr: 'Premier séjour ou envie de tout avoir à portée : la Hauptstrasse, près de la gare, de la station de départ du Rothorn Bahn et de l’embarcadère. À l’écart de la route, pour l’espace et la vue : au-dessus du village, près de l’école de sculpture sur bois. Prêt à commencer et finir chaque journée par une traversée en bateau : Giessbach, sur l’autre rive, accessible uniquement par bateau BLS puis funiculaire.',
+      de: 'Erster Aufenthalt oder alles in Reichweite gewünscht: die Hauptstrasse, beim Bahnhof, der Talstation der Rothorn Bahn und dem Schiffssteg. Abseits der Strasse, für Platz und Aussicht: oberhalb des Dorfes, bei der Schule für Holzbildhauerei. Bereit, jeden Tag mit einer Schifffahrt zu beginnen und zu beenden: Giessbach, am gegenüberliegenden Ufer, nur mit dem BLS-Schiff und der Standseilbahn erreichbar.',
     },
     watch: {
-      en: 'The Rothorn Bahn is a summer-only steam railway, running 6 June to 25 October 2026. Ballenberg closes from 2 November, and Grandhotel Giessbach keeps limited winter hours, Wednesday to Sunday, from 21 October 2026 to 20 March 2027.',
-      fr: 'Le Rothorn Bahn est un train à vapeur estival, en service du 6 juin au 25 octobre 2026. Ballenberg ferme dès le 2 novembre, et le Grandhotel Giessbach garde des horaires d’hiver réduits, du mercredi au dimanche, du 21 octobre 2026 au 20 mars 2027.',
-      de: 'Die Rothorn Bahn ist eine reine Sommer-Dampfbahn, in Betrieb vom 6. Juni bis 25. Oktober 2026. Ballenberg schliesst ab dem 2. November, und das Grandhotel Giessbach hält im Winter reduzierte Öffnungszeiten, Mittwoch bis Sonntag, vom 21. Oktober 2026 bis 20. März 2027.',
+      en: 'The Rothorn Bahn only runs 6 June to 25 October 2026, and Ballenberg closes for the season on 2 November: outside those dates, two of the main reasons to come will not be running. Grandhotel Giessbach then switches to limited winter hours, Wednesday to Sunday, from 21 October 2026 to 20 March 2027, so check the calendar before booking a stay outside summer.',
+      fr: 'Le Rothorn Bahn ne circule que du 6 juin au 25 octobre 2026, et Ballenberg ferme pour la saison le 2 novembre : en dehors de ces dates, deux des principales raisons de venir ne fonctionnent plus. Le Grandhotel Giessbach passe alors à des horaires d’hiver réduits, du mercredi au dimanche, du 21 octobre 2026 au 20 mars 2027 : mieux vaut vérifier le calendrier avant de réserver un séjour hors été.',
+      de: 'Die Rothorn Bahn fährt nur vom 6. Juni bis 25. Oktober 2026, und Ballenberg schliesst am 2. November für die Saison: Ausserhalb dieser Daten fallen zwei der Hauptgründe für einen Besuch weg. Das Grandhotel Giessbach wechselt dann zu reduzierten Winteröffnungszeiten, Mittwoch bis Sonntag, vom 21. Oktober 2026 bis 20. März 2027: Vor einer Buchung ausserhalb des Sommers lohnt sich ein Blick in den Kalender.',
     },
+  },
+  story: {
+    title: { en: 'Brienz, before you book', fr: 'Brienz, avant de réserver', de: 'Brienz, bevor Sie buchen' },
+    paragraphs: [
+      {
+        en: 'Brienz lies at 566 metres at the eastern end of the lake that carries its name, strung along the shore where the main road and the Zentralbahn line both run straight through the village: this is not one of the region’s car-free spots. Trains from Interlaken Ost take seventeen minutes on the Luzern-Interlaken Express or twenty on the regional line, and from spring to autumn a BLS boat covers the same stretch in about an hour and a quarter, passing the Giessbach falls and Iseltwald. Arriving by water rather than by rail already says something about the place.',
+        fr: 'Brienz se trouve à 566 mètres, à l’extrémité est du lac qui porte son nom, égrené le long de la rive où la route principale et la ligne du Zentralbahn traversent toutes deux le village : ce n’est pas l’un des endroits sans voiture de la région. Les trains depuis Interlaken Ost mettent dix-sept minutes avec le Luzern-Interlaken Express ou vingt avec le train régional, et du printemps à l’automne, un bateau BLS couvre la même distance en environ une heure et quart, en passant devant les chutes du Giessbach et Iseltwald. Arriver par l’eau plutôt que par le rail en dit déjà long sur l’endroit.',
+        de: 'Brienz liegt auf 566 Metern am Ostende des gleichnamigen Sees, dem Ufer entlang aufgereiht, wo Hauptstrasse und Zentralbahn-Linie beide mitten durchs Dorf führen: Ein autofreier Ort der Region ist das nicht. Züge ab Interlaken Ost brauchen siebzehn Minuten mit dem Luzern-Interlaken Express oder zwanzig mit der Regionalbahn, und von Frühling bis Herbst legt ein BLS-Schiff dieselbe Strecke in rund eineinviertel Stunden zurück, vorbei am Giessbachfall und an Iseltwald. Wer mit dem Schiff statt mit der Bahn ankommt, spürt schon etwas vom Charakter des Ortes.',
+      },
+      {
+        en: 'Three areas decide where to sleep, and each is reached differently. The Hauptstrasse follows the shore, gathering the station, the Rothorn Bahn’s valley station and the boat landing within a few minutes of each other, useful for a short stay or an early start up the mountain. Climb just behind it and the village turns quieter, past the woodcarving school and towards a view of the Brienzer Rothorn. Across the water, Giessbach stands alone on the south shore, reached only by boat and funicular, never on foot.',
+        fr: 'Trois secteurs déterminent où dormir, chacun accessible différemment. La Hauptstrasse longe la rive, réunissant la gare, la station de départ du Rothorn Bahn et l’embarcadère à quelques minutes les uns des autres, pratique pour un court séjour ou un départ matinal vers le sommet. En montant juste derrière, le village devient plus calme, en passant devant l’école de sculpture sur bois et vers une vue sur le Brienzer Rothorn. De l’autre côté de l’eau, Giessbach se dresse seul sur la rive sud, accessible uniquement par bateau puis funiculaire, jamais à pied.',
+        de: 'Drei Ortsteile bestimmen, wo man schläft, und jeder ist anders erreichbar. Die Hauptstrasse folgt dem Ufer und bündelt Bahnhof, Talstation der Rothorn Bahn und Schiffssteg auf wenigen Minuten, praktisch für einen kurzen Aufenthalt oder einen frühen Start auf den Berg. Steigt man gleich dahinter an, wird das Dorf ruhiger, vorbei an der Schule für Holzbildhauerei und Richtung Aussicht auf den Brienzer Rothorn. Auf der anderen Seeseite steht Giessbach für sich allein am Südufer, nur mit Schiff und Standseilbahn erreichbar, nie zu Fuss.',
+      },
+      {
+        en: 'The range runs from lakefront houses to a hillside retreat and a grand hotel reachable only by boat. Hotel Weisses Kreuz, Hotel Brienzerburli and Seehotel Bären all stand directly on Lake Brienz along the Hauptstrasse, close enough to the station to arrive with heavy bags. Hotel Lindenhof sits apart, in its own park above the village, with rooms spread across five separate houses. Furthest from the ordinary run of things is the Grandhotel Giessbach, an 1875 house above the falls on the far shore, open in full through summer and on limited hours each winter.',
+        fr: 'L’offre va de maisons au bord du lac à une retraite sur les hauteurs et un grand hôtel accessible uniquement par bateau. L’Hôtel Weisses Kreuz, l’Hôtel Brienzerburli et le Seehotel Bären se dressent tous directement au bord du lac de Brienz, le long de la Hauptstrasse, assez près de la gare pour arriver avec de gros bagages. L’Hôtel Lindenhof se tient à l’écart, dans son propre parc au-dessus du village, avec des chambres réparties sur cinq maisons distinctes. Plus à l’écart encore, le Grandhotel Giessbach, une maison de 1875 au-dessus des chutes sur l’autre rive, ouvre pleinement l’été et selon des horaires réduits chaque hiver.',
+        de: 'Das Angebot reicht von Häusern direkt am See über einen Rückzugsort am Hang bis zu einem Grandhotel, das nur mit dem Schiff erreichbar ist. Hotel Weisses Kreuz, Hotel Brienzerburli und Seehotel Bären stehen alle direkt am Brienzersee an der Hauptstrasse, nah genug am Bahnhof, um mit schwerem Gepäck anzureisen. Das Hotel Lindenhof liegt für sich, in seinem eigenen Park oberhalb des Dorfes, mit Zimmern verteilt auf fünf einzelne Häuser. Am weitesten abseits liegt das Grandhotel Giessbach, ein 1875 eröffnetes Haus oberhalb des Wasserfalls am anderen Ufer, im Sommer durchgehend offen und im Winter mit reduzierten Zeiten.',
+      },
+      {
+        en: 'The Rothorn steam railway, the reason many people come at all, runs only from 6 June to 25 October, and Ballenberg’s open-air museum closes for the season on 2 November: outside those months the village turns quiet, with just the Hauptstrasse hotels and Grandhotel Giessbach’s reduced winter hours still open. From Interlaken Ost, the train takes seventeen to twenty minutes, so Brienz works equally well as a day trip base from a bigger town or as somewhere to sleep after watching the steam train pull out in the morning.',
+        fr: 'Le train à vapeur du Rothorn, la principale raison qui pousse beaucoup de gens à venir, ne circule que du 6 juin au 25 octobre, et le musée en plein air de Ballenberg ferme pour la saison le 2 novembre : en dehors de ces mois, le village devient calme, avec pour seules adresses ouvertes les hôtels de la Hauptstrasse et les horaires d’hiver réduits du Grandhotel Giessbach. Depuis Interlaken Ost, le train met dix-sept à vingt minutes, ce qui fait de Brienz une base pratique pour une excursion d’une journée depuis une ville plus grande, ou un lieu où dormir après avoir vu partir le train à vapeur le matin.',
+        de: 'Die Rothorn-Dampfbahn, für viele der eigentliche Grund für den Besuch, fährt nur vom 6. Juni bis 25. Oktober, und das Freilichtmuseum Ballenberg schliesst am 2. November für die Saison: Ausserhalb dieser Monate wird das Dorf ruhig, offen bleiben dann nur die Hotels an der Hauptstrasse und die reduzierten Winterzeiten des Grandhotel Giessbach. Ab Interlaken Ost dauert die Zugfahrt siebzehn bis zwanzig Minuten, sodass Brienz sich ebenso gut als Tagesausflugsbasis von einer grösseren Stadt eignet wie als Ort zum Übernachten, nachdem man die Dampfbahn morgens hat abfahren sehen.',
+      },
+    ],
   },
   stats: [
     { value: '566', label: { en: 'metres above sea level, at the lake shore', fr: 'mètres d’altitude, au bord du lac', de: 'Meter über Meer, am Seeufer' } },
@@ -65,6 +90,11 @@ export const brienz: DestinationGuide = {
         { en: 'The Rothorn Bahn valley station stands at Hauptstrasse 149, beside the SBB station', fr: 'La station de départ du Rothorn Bahn se trouve au Hauptstrasse 149, à côté de la gare CFF', de: 'Die Talstation der Rothorn Bahn liegt an der Hauptstrasse 149, neben dem SBB-Bahnhof' },
         { en: 'A 2 km lakeside promenade starts at Hotel Weisses Kreuz’s door', fr: 'Une promenade au bord du lac de 2 km débute à la porte de l’Hôtel Weisses Kreuz', de: 'Eine 2 km lange Seepromenade beginnt direkt vor dem Hotel Weisses Kreuz' },
       ],
+      story: {
+        en: 'This is the practical side of Brienz: the SBB station, the Rothorn Bahn’s valley station and the boat landing all sit within a few minutes of each other along the shore, and three hotels, Weisses Kreuz, Brienzerburli and Seehotel Bären, stand directly on the water. It suits a short stay, an early start up the mountain or arriving with heavy bags. The trade-off is that the main road and the railway line run along here too, so this is not the quiet side of the village.',
+        fr: 'C’est le côté pratique de Brienz : la gare CFF, la station de départ du Rothorn Bahn et l’embarcadère se trouvent tous à quelques minutes les uns des autres le long de la rive, et trois hôtels, Weisses Kreuz, Brienzerburli et Seehotel Bären, se dressent directement au bord de l’eau. Il convient pour un court séjour, un départ matinal vers le sommet ou une arrivée avec de gros bagages. La contrepartie : la route principale et la voie ferrée longent aussi ce tronçon, ce n’est donc pas le côté calme du village.',
+        de: 'Das ist die praktische Seite von Brienz: SBB-Bahnhof, Talstation der Rothorn Bahn und Schiffssteg liegen alle wenige Minuten voneinander entfernt am Ufer, und drei Hotels, Weisses Kreuz, Brienzerburli und Seehotel Bären, stehen direkt am Wasser. Sie eignet sich für einen kurzen Aufenthalt, einen frühen Start auf den Berg oder die Anreise mit schwerem Gepäck. Der Nachteil: Hauptstrasse und Bahnlinie führen hier ebenfalls durch, es ist also nicht die ruhige Seite des Dorfes.',
+      },
     },
     {
       title: { en: 'Above the village, on the slope', fr: 'Au-dessus du village, sur le versant', de: 'Oberhalb des Dorfes, am Hang' },
@@ -78,6 +108,11 @@ export const brienz: DestinationGuide = {
         { en: 'The School for Woodcarving trains carvers across six artisanal wood professions', fr: 'L’école de sculpture sur bois forme des sculpteurs dans six métiers artisanaux du bois', de: 'Die Schule für Holzbildhauerei bildet Schnitzer in sechs handwerklichen Holzberufen aus' },
         { en: 'Hotel Lindenhof has 43 theme rooms over 5 houses in its park', fr: 'L’Hôtel Lindenhof compte 43 chambres à thème réparties sur 5 maisons dans son parc', de: 'Das Hotel Lindenhof hat 43 Themenzimmer verteilt auf 5 Häuser im Park' },
       ],
+      story: {
+        en: 'Climb just behind the Hauptstrasse and the road noise falls away. Hotel Lindenhof sits in its own park above the lake, with a view towards the Brienzer Rothorn, and the School for Woodcarving stands a short walk down at Schleegasse 1. Choose this side for space and quiet rather than for being steps from the station.',
+        fr: 'Il suffit de monter juste derrière la Hauptstrasse pour laisser le bruit de la route derrière soi. L’Hôtel Lindenhof se dresse dans son propre parc au-dessus du lac, avec une vue vers le Brienzer Rothorn, et l’école de sculpture sur bois se trouve à quelques pas en contrebas, au Schleegasse 1. On choisit ce côté pour l’espace et le calme, pas pour être à deux pas de la gare.',
+        de: 'Steigt man nur ein Stück hinter die Hauptstrasse an, verliert sich der Strassenlärm. Das Hotel Lindenhof liegt in seinem eigenen Park oberhalb des Sees, mit Blick zum Brienzer Rothorn, und die Schule für Holzbildhauerei liegt einen kurzen Spaziergang bergab an der Schleegasse 1. Diese Seite wählt man für Platz und Ruhe, nicht für die Nähe zum Bahnhof.',
+      },
     },
     {
       title: { en: 'Giessbach, the south shore', fr: 'Giessbach, la rive sud', de: 'Giessbach, das Südufer' },
@@ -91,6 +126,11 @@ export const brienz: DestinationGuide = {
         { en: 'The funicular, built in 1891, carries a maximum of 40 passengers a trip', fr: 'Le funiculaire, construit en 1891, transporte au maximum 40 passagers par trajet', de: 'Die 1891 gebaute Standseilbahn befördert maximal 40 Fahrgäste pro Fahrt' },
         { en: 'Winter opening 21 October 2026 to 20 March 2027, Wednesday to Sunday, limited hours', fr: 'Ouverture d’hiver du 21 octobre 2026 au 20 mars 2027, du mercredi au dimanche, horaires réduits', de: 'Winteröffnung vom 21. Oktober 2026 bis 20. März 2027, Mittwoch bis Sonntag, eingeschränkte Öffnungszeiten' },
       ],
+      story: {
+        en: 'Giessbach is not a neighbourhood you walk to: the Grandhotel, opened in 1875 above the Giessbach falls, is reached only by BLS boat and then the funicular built in 1891. It suits a stay built around the crossing itself rather than easy access to the village’s shops and station, and outside summer the hotel keeps limited hours, Wednesday to Sunday only.',
+        fr: 'Giessbach n’est pas un quartier où l’on se rend à pied : le Grandhotel, ouvert en 1875 au-dessus des chutes du Giessbach, ne se rejoint que par bateau BLS puis par le funiculaire construit en 1891. Il convient à un séjour organisé autour de la traversée elle-même plutôt qu’autour de la proximité des commerces et de la gare du village, et en dehors de l’été, l’hôtel garde des horaires réduits, uniquement du mercredi au dimanche.',
+        de: 'Giessbach ist kein Ortsteil, den man zu Fuss erreicht: Das Grandhotel, 1875 oberhalb des Giessbachfalls eröffnet, erreicht man nur mit dem BLS-Schiff und anschliessend der 1891 gebauten Standseilbahn. Es eignet sich für einen Aufenthalt, der sich um die Überfahrt selbst dreht, statt um die Nähe zu Dorfläden und Bahnhof, und ausserhalb des Sommers hält das Hotel nur eingeschränkte Öffnungszeiten, allein von Mittwoch bis Sonntag.',
+      },
     },
   ],
   hotels: [
@@ -104,6 +144,11 @@ export const brienz: DestinationGuide = {
         { en: 'A 2 km lakeside promenade starts at the door, near the station, the Rothorn steam train and the boat landing', fr: 'Une promenade lacustre de 2 km débute à la porte, près de la gare, du train à vapeur du Rothorn et de l’embarcadère', de: 'Eine 2 km lange Seepromenade beginnt vor der Tür, nahe Bahnhof, Rothorn-Dampfbahn und Schiffssteg' },
         { en: 'The historic Goethestübli is one of its dining rooms', fr: 'Le Goethestübli historique fait partie de ses salles à manger', de: 'Das historische Goethestübli gehört zu seinen Gaststuben' },
       ],
+      blurb: {
+        en: 'Hotel Weisses Kreuz stands directly on Lake Brienz at Hauptstrasse 143, with 45 hotel beds and the 2 km lakeside promenade starting at its door. It is close enough to the station, the Rothorn steam train and the boat landing to suit a short stay, and its historic Goethestübli is one of its dining rooms.',
+        fr: 'L’Hôtel Weisses Kreuz se dresse directement au bord du lac de Brienz, au 143 de la Hauptstrasse, avec 45 lits et la promenade lacustre de 2 km qui débute à sa porte. Il est assez proche de la gare, du train à vapeur du Rothorn et de l’embarcadère pour convenir à un court séjour, et son Goethestübli historique fait partie de ses salles à manger.',
+        de: 'Das Hotel Weisses Kreuz steht direkt am Brienzersee, an der Hauptstrasse 143, mit 45 Hotelbetten und der 2 km langen Seepromenade, die vor der Tür beginnt. Es liegt nah genug an Bahnhof, Rothorn-Dampfbahn und Schiffssteg, um sich für einen kurzen Aufenthalt zu eignen, und sein historisches Goethestübli gehört zu seinen Gaststuben.',
+      },
     },
     {
       slug: 'brienz-brienzerburli',
@@ -115,6 +160,11 @@ export const brienz: DestinationGuide = {
         { en: 'Two dining venues, including the rustic Seerestaurant Löwen', fr: 'Deux espaces de restauration, dont le rustique Seerestaurant Löwen', de: 'Zwei Gasträume, darunter das rustikale Seerestaurant Löwen' },
         { en: 'Works with Hotel Weisses Kreuz for larger groups', fr: 'Collabore avec l’Hôtel Weisses Kreuz pour les grands groupes', de: 'Arbeitet für grössere Gruppen mit dem Hotel Weisses Kreuz zusammen' },
       ],
+      blurb: {
+        en: 'On the lake at Hauptstrasse 11, Hotel Brienzerburli has two dining venues, including the rustic Seerestaurant Löwen, and works with Hotel Weisses Kreuz next door for larger groups. It suits travellers who want a table on the water without leaving the hotel.',
+        fr: 'Au bord du lac, au 11 de la Hauptstrasse, l’Hôtel Brienzerburli compte deux espaces de restauration, dont le rustique Seerestaurant Löwen, et collabore avec l’Hôtel Weisses Kreuz voisin pour les grands groupes. Il convient à qui veut une table au bord de l’eau sans quitter l’hôtel.',
+        de: 'Am See, an der Hauptstrasse 11, verfügt das Hotel Brienzerburli über zwei Gasträume, darunter das rustikale Seerestaurant Löwen, und arbeitet für grössere Gruppen mit dem benachbarten Hotel Weisses Kreuz zusammen. Es eignet sich für Gäste, die einen Tisch am Wasser wollen, ohne das Hotel zu verlassen.',
+      },
     },
     {
       slug: 'brienz-baeren',
@@ -125,6 +175,11 @@ export const brienz: DestinationGuide = {
         { en: 'Hauptstrasse 72, directly on the lakeshore', fr: 'Hauptstrasse 72, directement au bord du lac', de: 'Hauptstrasse 72, direkt am Seeufer' },
         { en: 'Lakeside terrace serving regional Swiss dishes, free Wi-Fi', fr: 'Terrasse au bord du lac servant des plats suisses régionaux, Wi-Fi gratuit', de: 'Seeterrasse mit regionalen Schweizer Gerichten, gratis WLAN' },
       ],
+      blurb: {
+        en: 'Seehotel Bären sits directly on the lakeshore at Hauptstrasse 72, with a terrace serving regional Swiss dishes and free Wi-Fi throughout. It is one of the three lakefront addresses on the Hauptstrasse, within reach of the station and the boat landing.',
+        fr: 'Le Seehotel Bären se trouve directement au bord du lac, au 72 de la Hauptstrasse, avec une terrasse servant des plats suisses régionaux et le Wi-Fi gratuit dans tout l’établissement. C’est l’une des trois adresses au bord du lac sur la Hauptstrasse, à portée de la gare et de l’embarcadère.',
+        de: 'Das Seehotel Bären liegt direkt am Seeufer, an der Hauptstrasse 72, mit einer Terrasse für regionale Schweizer Gerichte und gratis WLAN im ganzen Haus. Es ist eine der drei Adressen am See an der Hauptstrasse, nah an Bahnhof und Schiffssteg.',
+      },
     },
     {
       slug: 'brienz-lindenhof',
@@ -136,6 +191,11 @@ export const brienz: DestinationGuide = {
         { en: 'Indoor pool and Finnish sauna open daily 08:00 to 20:00, plus a herb steam shower', fr: 'Piscine intérieure et sauna finlandais ouverts tous les jours de 08h00 à 20h00, plus une douche vapeur aux herbes', de: 'Hallenbad und finnische Sauna täglich von 08.00 bis 20.00 Uhr offen, dazu eine Kräuterdampfdusche' },
         { en: 'Restaurant Lindenblüte, part of the Art Garten Hotels open-air exhibition April to November 2026', fr: 'Restaurant Lindenblüte, participe à l’exposition en plein air Art Garten Hotels d’avril à novembre 2026', de: 'Restaurant Lindenblüte, Teil der Freiluftausstellung Art Garten Hotels von April bis November 2026' },
       ],
+      blurb: {
+        en: 'Hotel Lindenhof spreads 43 theme rooms across five houses in its own park above the lake, with a view towards the Brienzer Rothorn. Guests have an indoor pool, a Finnish sauna open daily from 08:00 to 20:00 and a herb steam shower, and the hotel takes part in the Art Garten Hotels open-air exhibition from April to November 2026, useful for a stay built around space and quiet rather than being next to the station.',
+        fr: 'L’Hôtel Lindenhof répartit 43 chambres à thème sur cinq maisons dans son propre parc au-dessus du lac, avec une vue vers le Brienzer Rothorn. Les clients disposent d’une piscine intérieure, d’un sauna finlandais ouvert tous les jours de 08h00 à 20h00 et d’une douche vapeur aux herbes, et l’hôtel participe à l’exposition en plein air Art Garten Hotels d’avril à novembre 2026, utile pour un séjour construit autour de l’espace et du calme plutôt que de la proximité de la gare.',
+        de: 'Das Hotel Lindenhof verteilt 43 Themenzimmer auf fünf Häuser in seinem eigenen Park oberhalb des Sees, mit Blick zum Brienzer Rothorn. Den Gästen stehen ein Hallenbad, eine finnische Sauna täglich von 08.00 bis 20.00 Uhr und eine Kräuterdampfdusche offen, und das Hotel nimmt von April bis November 2026 an der Freiluftausstellung Art Garten Hotels teil, praktisch für einen Aufenthalt rund um Platz und Ruhe statt Bahnhofsnähe.',
+      },
     },
     {
       slug: 'brienz-giessbach',
@@ -147,6 +207,11 @@ export const brienz: DestinationGuide = {
         { en: 'Reached by BLS boat and the 1891 funicular, maximum 40 passengers, running April to October', fr: 'Accessible par bateau BLS puis par le funiculaire de 1891, 40 passagers maximum, en service d’avril à octobre', de: 'Erreichbar mit dem BLS-Schiff und der Standseilbahn von 1891, maximal 40 Fahrgäste, in Betrieb April bis Oktober' },
         { en: 'Winter operation 21 October 2026 to 20 March 2027, Wednesday to Sunday with limited hours', fr: 'Ouverture d’hiver du 21 octobre 2026 au 20 mars 2027, du mercredi au dimanche, horaires réduits', de: 'Winterbetrieb vom 21. Oktober 2026 bis 20. März 2027, Mittwoch bis Sonntag, mit eingeschränkten Öffnungszeiten' },
       ],
+      blurb: {
+        en: 'Grandhotel Giessbach opened in 1875, designed by the architect Horace Edouard Davinet, above the Giessbach falls on the south shore. It is reached only by BLS boat and then the funicular built in 1891, which carries a maximum of 40 passengers a trip and runs from April to October, and the hotel then keeps limited winter hours, Wednesday to Sunday, from 21 October 2026 to 20 March 2027.',
+        fr: 'Le Grandhotel Giessbach a ouvert en 1875, dessiné par l’architecte Horace Edouard Davinet, au-dessus des chutes du Giessbach sur la rive sud. Il ne se rejoint que par bateau BLS puis par le funiculaire construit en 1891, qui transporte au maximum 40 passagers par trajet et circule d’avril à octobre, et l’hôtel garde ensuite des horaires d’hiver réduits, du mercredi au dimanche, du 21 octobre 2026 au 20 mars 2027.',
+        de: 'Das Grandhotel Giessbach wurde 1875 eröffnet, entworfen vom Architekten Horace Edouard Davinet, oberhalb des Giessbachfalls am Südufer. Man erreicht es nur mit dem BLS-Schiff und anschliessend der 1891 gebauten Standseilbahn, die maximal 40 Fahrgäste pro Fahrt befördert und von April bis Oktober fährt, und das Hotel hält danach reduzierte Winteröffnungszeiten, Mittwoch bis Sonntag, vom 21. Oktober 2026 bis 20. März 2027.',
+      },
     },
   ],
   hotelsNote: {
@@ -181,17 +246,17 @@ export const brienz: DestinationGuide = {
       {
         title: { en: 'Reaching Giessbach', fr: 'Rejoindre Giessbach', de: 'Nach Giessbach' },
         text: {
-          en: 'Only by BLS boat to the Giessbach See landing stage, then the 1891 funicular, which the operator says has direct connections with the BLS boats. There is no walking path from the village. Winter operation runs 21 October 2026 to 20 March 2027, Wednesday to Sunday, with limited hours.',
-          fr: 'Uniquement par bateau BLS jusqu’à l’embarcadère de Giessbach See, puis par le funiculaire de 1891, qui selon l’exploitant assure des correspondances directes avec les bateaux BLS. Il n’existe pas de chemin pédestre depuis le village. L’ouverture d’hiver court du 21 octobre 2026 au 20 mars 2027, du mercredi au dimanche, avec des horaires réduits.',
-          de: 'Nur mit dem BLS-Schiff bis zur Anlegestelle Giessbach See, dann mit der Standseilbahn von 1891, die laut Betreiber direkte Anschlüsse an die BLS-Schiffe bietet. Ein Fussweg vom Dorf aus besteht nicht. Der Winterbetrieb läuft vom 21. Oktober 2026 bis 20. März 2027, Mittwoch bis Sonntag, mit eingeschränkten Öffnungszeiten.',
+          en: 'Only by BLS boat to the Giessbach See landing stage, then the 1891 funicular, with direct connections to the BLS boats. There is no walking path from the village. Winter operation runs 21 October 2026 to 20 March 2027, Wednesday to Sunday, with limited hours.',
+          fr: 'Uniquement par bateau BLS jusqu’à l’embarcadère de Giessbach See, puis par le funiculaire de 1891, avec des correspondances directes avec les bateaux BLS. Il n’existe pas de chemin pédestre depuis le village. L’ouverture d’hiver court du 21 octobre 2026 au 20 mars 2027, du mercredi au dimanche, avec des horaires réduits.',
+          de: 'Nur mit dem BLS-Schiff bis zur Anlegestelle Giessbach See, dann mit der Standseilbahn von 1891, mit direkten Anschlüssen an die BLS-Schiffe. Ein Fussweg vom Dorf aus besteht nicht. Der Winterbetrieb läuft vom 21. Oktober 2026 bis 20. März 2027, Mittwoch bis Sonntag, mit eingeschränkten Öffnungszeiten.',
         },
       },
       {
         title: { en: 'The Rothorn Bahn is steam, and seasonal', fr: 'Le Rothorn Bahn est à vapeur, et saisonnier', de: 'Die Rothorn Bahn ist eine Dampfbahn, und saisonal' },
         text: {
-          en: 'Opened 16 June 1892, it has not been electrified to this day, though diesel locomotives may be used when there are too many passengers or a technical problem. Season 2026 runs 6 June to 25 October only, about one hour to the summit, and the operator advises booking ahead since capacity is limited.',
-          fr: 'Ouvert le 16 juin 1892, il n’a jamais été électrifié, même si des locomotives diesel peuvent être utilisées en cas d’affluence ou de problème technique. La saison 2026 court uniquement du 6 juin au 25 octobre, environ une heure jusqu’au sommet, et l’exploitant conseille de réserver à l’avance vu la capacité limitée.',
-          de: 'Eröffnet am 16. Juni 1892, wurde sie bis heute nicht elektrifiziert, auch wenn bei zu vielen Fahrgästen oder einem technischen Problem Diesellokomotiven eingesetzt werden können. Die Saison 2026 läuft nur vom 6. Juni bis 25. Oktober, rund eine Stunde bis zum Gipfel, und der Betreiber empfiehlt wegen der begrenzten Kapazität eine Reservierung im Voraus.',
+          en: 'Opened 16 June 1892, it has not been electrified to this day, though diesel locomotives may be used when there are too many passengers or a technical problem. Season 2026 runs 6 June to 25 October only, about one hour to the summit, and capacity is limited, so book ahead.',
+          fr: 'Ouvert le 16 juin 1892, il n’a jamais été électrifié, même si des locomotives diesel peuvent être utilisées en cas d’affluence ou de problème technique. La saison 2026 court uniquement du 6 juin au 25 octobre, environ une heure jusqu’au sommet, et la capacité étant limitée, mieux vaut réserver à l’avance.',
+          de: 'Eröffnet am 16. Juni 1892, wurde sie bis heute nicht elektrifiziert, auch wenn bei zu vielen Fahrgästen oder einem technischen Problem Diesellokomotiven eingesetzt werden können. Die Saison 2026 läuft nur vom 6. Juni bis 25. Oktober, rund eine Stunde bis zum Gipfel, und da die Kapazität begrenzt ist, lohnt sich eine Reservierung im Voraus.',
         },
       },
       {
@@ -226,9 +291,9 @@ export const brienz: DestinationGuide = {
     winter: {
       title: { en: 'Winter in Brienz', fr: 'L’hiver à Brienz', de: 'Winter in Brienz' },
       base: {
-        en: 'The Rothorn Bahn is a summer-only steam railway and does not run. Ballenberg closes for the season, and Grandhotel Giessbach keeps only limited winter hours. There is no ski area in Brienz itself: the Axalp plateau above the village is the local winter terrain, with no official figures published.',
-        fr: 'Le Rothorn Bahn est un train à vapeur estival et ne circule pas. Ballenberg ferme pour la saison, et le Grandhotel Giessbach ne garde que des horaires d’hiver réduits. Il n’y a pas de domaine skiable à Brienz même : le plateau de l’Axalp au-dessus du village est le terrain d’hiver local, sans chiffre officiel publié.',
-        de: 'Die Rothorn Bahn ist eine reine Sommer-Dampfbahn und fährt nicht. Ballenberg schliesst für die Saison, und das Grandhotel Giessbach hält nur reduzierte Winteröffnungszeiten. In Brienz selbst gibt es kein Skigebiet: Die Axalp oberhalb des Dorfes ist das lokale Wintergelände, ohne veröffentlichte offizielle Zahlen.',
+        en: 'Stay on the Hauptstrasse if you come in winter: the Rothorn Bahn does not run, Ballenberg closes for the season, and Grandhotel Giessbach keeps only limited hours, Wednesday to Sunday, so the lakefront hotels near the station stay the most practical base. Brienz has no ski area of its own; the Axalp plateau above the village is the local winter terrain, with no official figures published.',
+        fr: 'Logez sur la Hauptstrasse si vous venez en hiver : le Rothorn Bahn ne circule pas, Ballenberg ferme pour la saison, et le Grandhotel Giessbach ne garde que des horaires réduits, du mercredi au dimanche, ce qui fait des hôtels au bord du lac, près de la gare, la base la plus pratique. Brienz n’a pas de domaine skiable à elle : le plateau de l’Axalp au-dessus du village est le terrain d’hiver local, sans chiffre officiel publié.',
+        de: 'Wohnen Sie im Winter an der Hauptstrasse: Die Rothorn Bahn fährt nicht, Ballenberg schliesst für die Saison, und das Grandhotel Giessbach hält nur reduzierte Öffnungszeiten, Mittwoch bis Sonntag, sodass die Hotels am See nahe dem Bahnhof die praktischste Basis bleiben. Brienz hat kein eigenes Skigebiet: Die Axalp oberhalb des Dorfes ist das lokale Wintergelände, ohne veröffentlichte offizielle Zahlen.',
       },
       facts: [
         { value: '2 Nov', label: { en: 'Ballenberg closes for the season', fr: 'Ballenberg ferme pour la saison', de: 'Ballenberg schliesst für die Saison' } },
@@ -365,17 +430,17 @@ export const brienz: DestinationGuide = {
     {
       q: { en: 'When does the Rothorn steam railway run, and what does it cost?', fr: 'Quand circule le train à vapeur du Rothorn, et combien coûte-t-il ?', de: 'Wann fährt die Rothorn-Dampfbahn, und was kostet sie?' },
       a: {
-        en: '6 June to 25 October 2026, first departure from Brienz at 07:36 and last at 16:36, about an hour to the summit. An adult full-fare return is CHF 98, with a seat guarantee CHF 8 extra; under-6s travel free and dogs cost CHF 10. Capacity is limited, so the operator advises booking ahead.',
-        fr: 'Du 6 juin au 25 octobre 2026, premier départ de Brienz à 07h36 et dernier à 16h36, environ une heure jusqu’au sommet. Un aller-retour adulte plein tarif coûte CHF 98, avec la garantie de place à CHF 8 en plus ; les moins de 6 ans voyagent gratuitement et les chiens coûtent CHF 10. La capacité étant limitée, l’exploitant conseille de réserver à l’avance.',
-        de: 'Vom 6. Juni bis 25. Oktober 2026, erste Abfahrt ab Brienz um 07.36 Uhr und letzte um 16.36 Uhr, rund eine Stunde bis zum Gipfel. Ein Erwachsenen-Vollpreis-Retourbillett kostet CHF 98, mit CHF 8 zusätzlich für die Platzgarantie; Kinder unter 6 fahren gratis und Hunde kosten CHF 10. Da die Kapazität begrenzt ist, empfiehlt der Betreiber eine Reservierung im Voraus.',
+        en: '6 June to 25 October 2026, first departure from Brienz at 07:36 and last at 16:36, about an hour to the summit. An adult full-fare return is CHF 98, with a seat guarantee CHF 8 extra; under-6s travel free and dogs cost CHF 10. Capacity is limited, so book ahead.',
+        fr: 'Du 6 juin au 25 octobre 2026, premier départ de Brienz à 07h36 et dernier à 16h36, environ une heure jusqu’au sommet. Un aller-retour adulte plein tarif coûte CHF 98, avec la garantie de place à CHF 8 en plus ; les moins de 6 ans voyagent gratuitement et les chiens coûtent CHF 10. La capacité étant limitée, mieux vaut réserver à l’avance.',
+        de: 'Vom 6. Juni bis 25. Oktober 2026, erste Abfahrt ab Brienz um 07.36 Uhr und letzte um 16.36 Uhr, rund eine Stunde bis zum Gipfel. Ein Erwachsenen-Vollpreis-Retourbillett kostet CHF 98, mit CHF 8 zusätzlich für die Platzgarantie; Kinder unter 6 fahren gratis und Hunde kosten CHF 10. Da die Kapazität begrenzt ist, lohnt sich eine Reservierung im Voraus.',
       },
     },
     {
       q: { en: 'Is the Rothorn railway really steam?', fr: 'Le train du Rothorn est-il vraiment à vapeur ?', de: 'Fährt die Rothornbahn wirklich mit Dampf?' },
       a: {
-        en: 'It opened on 16 June 1892 and has not been electrified to this day, though the operator says diesel locomotives may be used for passenger services when there are too many passengers or a technical problem.',
-        fr: 'Il a ouvert le 16 juin 1892 et n’a jamais été électrifié, même si l’exploitant indique que des locomotives diesel peuvent assurer le service voyageurs en cas d’affluence ou de problème technique.',
-        de: 'Sie wurde am 16. Juni 1892 eröffnet und bis heute nicht elektrifiziert, auch wenn der Betreiber angibt, dass bei zu vielen Fahrgästen oder einem technischen Problem Diesellokomotiven für den Personenverkehr eingesetzt werden können.',
+        en: 'It opened on 16 June 1892 and has not been electrified to this day, though diesel locomotives may be used for passenger services when there are too many passengers or a technical problem.',
+        fr: 'Il a ouvert le 16 juin 1892 et n’a jamais été électrifié, même si des locomotives diesel peuvent assurer le service voyageurs en cas d’affluence ou de problème technique.',
+        de: 'Sie wurde am 16. Juni 1892 eröffnet und bis heute nicht elektrifiziert, auch wenn bei zu vielen Fahrgästen oder einem technischen Problem Diesellokomotiven für den Personenverkehr eingesetzt werden können.',
       },
     },
     {
