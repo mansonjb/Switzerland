@@ -18,10 +18,9 @@ export function Logo({ small = false }: { small?: boolean }) {
 
 export function Header({ locale, path }: { locale: Locale; path: string }) {
   const d = getDict(locale)
-  const oberland = localePath(locale, '/regions/bernese-oberland')
   const links = [
     { href: localePath(locale, '/#destinations'), label: d.nav.destinations },
-    { href: oberland, label: d.nav.regions },
+    { href: localePath(locale, '/#regions'), label: d.nav.regions },
     { href: localePath(locale, '/#car-free'), label: d.nav.carFree },
     { href: localePath(locale, '/#swiss-travel-pass'), label: d.nav.pass },
   ]

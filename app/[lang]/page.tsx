@@ -162,7 +162,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
         </Section>
 
         {/* 7. Regions */}
-        <Section title={T(home.regionsTitle)} gap="mb-0 md:mb-8">
+        <Section id="regions" title={T(home.regionsTitle)} gap="mb-0 md:mb-8">
           <div className="hidden lg:block">
             <table className="w-full border-collapse">
               <thead>
