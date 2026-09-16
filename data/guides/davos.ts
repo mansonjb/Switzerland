@@ -8,9 +8,9 @@ export const davos: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Davos: Platz, Dorf or Schatzalp', fr: 'Où dormir à Davos : Platz, Dorf ou Schatzalp', de: 'Wo übernachten in Davos: Platz, Dorf oder Schatzalp' },
     description: {
-      en: 'Davos area by area: Davos Platz and Davos Dorf are two separate halves of town, plus the Schatzalp terrace. Hotels with dated facts, lift season dates and the free Premium Card.',
-      fr: 'Davos secteur par secteur : Davos Platz et Davos Dorf sont deux moitiés distinctes de la ville, plus la terrasse du Schatzalp. Hôtels avec faits datés, dates d’ouverture des remontées et la Premium Card gratuite.',
-      de: 'Davos Ortsteil für Ortsteil: Davos Platz und Davos Dorf sind zwei getrennte Hälften des Ortes, dazu die Terrasse Schatzalp. Hotels mit datierten Fakten, Bahnsaisons und die gratis Premium Card.',
+      en: 'Where to sleep in Davos, a town in two separate halves plus the funicular-only Schatzalp terrace, with dated hotel prices, the Parsenn and Jakobshorn season dates, and the free Premium Card that covers local transport.',
+      fr: 'Où dormir à Davos, une ville en deux moitiés distinctes et la terrasse du Schatzalp accessible seulement en funiculaire, avec des prix d’hôtels datés, les dates de saison du Parsenn et du Jakobshorn, et la Premium Card gratuite qui couvre les transports locaux.',
+      de: 'Wo übernachten in Davos, einem Ort in zwei getrennten Hälften plus der nur mit der Standseilbahn erreichbaren Schatzalp-Terrasse, mit datierten Hotelpreisen, den Saisondaten von Parsenn und Jakobshorn und der gratis Premium Card für die lokalen Verkehrsmittel.',
     },
   },
   eyebrow: { en: 'Graubünden · Landquart', fr: 'Grisons · Landquart', de: 'Graubünden · Landquart' },
@@ -21,26 +21,51 @@ export const davos: DestinationGuide = {
     de: 'Davos liegt auf 1560 m im Kanton Graubünden und besteht eigentlich aus zwei Hälften: Davos Platz und Davos Dorf, jede mit eigenem Bahnhof, rund 2 km voneinander entfernt entlang der Promenade. Die Gemeinde zählte Ende Dezember 2024 12’771 Einwohner, auf 283,99 km2, die sechstgrösste Gemeinde der Schweiz nach Fläche. Sie zählt 60 Hotels mit 3607 Zimmern und 7096 Betten. Ab Zürich HB erreicht man Davos Platz in 2 Std. 20 mit einem Umstieg in Landquart, mit der Rhätischen Bahn.',
   },
   quickAnswer: {
-    en: 'Stay in Davos Platz for the Jakobshorn slopes and the Congress Centre, or in Davos Dorf for the Parsennbahn and Lake Davos, both on the same Rhaetian Railway line at 1560 m. For a smaller, quieter base on the same line, Klosters suits better.',
-    fr: 'Dormez à Davos Platz pour les pistes du Jakobshorn et le Centre de congrès, ou à Davos Dorf pour le Parsennbahn et le lac de Davos, les deux desservis par la même ligne des Chemins de fer rhétiques, à 1560 m. Pour une base plus petite et plus calme sur la même ligne, Klosters convient mieux.',
-    de: 'Übernachten Sie in Davos Platz für die Jakobshorn-Pisten und das Kongresszentrum, oder in Davos Dorf für die Parsennbahn und den Davosersee, beide an derselben Linie der Rhätischen Bahn, auf 1560 m. Für eine kleinere, ruhigere Basis an derselben Linie ist Klosters besser geeignet.',
+    en: 'Stay in Davos if you want lift-close hotels, a genuine choice between two town centres, and the option to simply drive to the door: Davos Platz for the Jakobshorn and the Congress Centre, Davos Dorf for the Parsennbahn and the lake. If a through-road town is not what you are after, Klosters sits on the same railway line with a smaller, quieter centre.',
+    fr: 'Dormez à Davos si vous voulez des hôtels proches des remontées, un vrai choix entre deux centres-villes, et la possibilité de venir simplement en voiture jusqu’à la porte : Davos Platz pour le Jakobshorn et le Centre de congrès, Davos Dorf pour le Parsennbahn et le lac. Si une ville traversée par une route de transit ne vous convient pas, Klosters se trouve sur la même ligne ferroviaire, avec un centre plus petit et plus calme.',
+    de: 'Übernachten Sie in Davos, wenn Sie liftnahe Hotels wollen, eine echte Wahl zwischen zwei Ortszentren und die Möglichkeit, einfach mit dem Auto vorzufahren: Davos Platz für das Jakobshorn und das Kongresszentrum, Davos Dorf für die Parsennbahn und den See. Wenn ein Ort an einer Durchgangsstrasse nichts für Sie ist, liegt Klosters an derselben Bahnlinie, mit einem kleineren, ruhigeren Zentrum.',
   },
   snapshot: {
     why: {
-      en: 'A town in two halves on the same railway line, the Parsenn (about 97 km of slopes) reached from both Davos and Klosters, and the Schatzalp terrace, 300 m above the town and reached only by funicular.',
-      fr: 'Une ville en deux moitiés sur la même ligne ferroviaire, le Parsenn (environ 97 km de pistes) accessible depuis Davos comme depuis Klosters, et la terrasse du Schatzalp, à 300 m au-dessus de la ville et accessible uniquement en funiculaire.',
-      de: 'Ein Ort in zwei Hälften an derselben Bahnlinie, der Parsenn (rund 97 Pistenkilometer), erreichbar sowohl von Davos als auch von Klosters, und die Terrasse Schatzalp, 300 m über dem Ort und nur mit der Standseilbahn erreichbar.',
+      en: 'Because Davos lets you choose how you arrive and where you land: drive straight up the A28 or take the train, then pick between the lift-side energy of Davos Platz, the quieter lakeside of Davos Dorf, or the traffic-free Schatzalp terrace above them both, all on one railway line and covered by one free transit card.',
+      fr: 'Parce que Davos vous laisse choisir comment arriver et où poser vos valises : montez directement par l’A28 ou prenez le train, puis choisissez entre l’animation de Davos Platz, côté remontées, le calme du bord de lac de Davos Dorf, ou la terrasse du Schatzalp, sans circulation, au-dessus des deux, le tout sur une seule ligne ferroviaire et couvert par une seule carte de transport gratuite.',
+      de: 'Weil Davos die Wahl lässt, wie man anreist und wo man wohnt: fahren Sie direkt über die A28 hinauf oder nehmen Sie den Zug, und wählen Sie dann zwischen dem liftnahen Trubel von Davos Platz, dem ruhigeren Seeufer von Davos Dorf oder der verkehrsfreien Terrasse Schatzalp über beiden, alles an einer einzigen Bahnlinie und abgedeckt von einer einzigen Gratis-Verkehrskarte.',
     },
     where: {
-      en: 'Davos Platz for the Congress Centre, the Kirchner Museum and the Jakobshorn base station; Davos Dorf for the Parsennbahn funicular and Lake Davos; the Schatzalp for the Alpinum garden and the toboggan runs, with no through traffic.',
-      fr: 'Davos Platz pour le Centre de congrès, le Kirchner Museum et la station de base du Jakobshorn ; Davos Dorf pour le funiculaire du Parsennbahn et le lac de Davos ; le Schatzalp pour le jardin Alpinum et les pistes de luge, sans circulation de transit.',
-      de: 'Davos Platz für das Kongresszentrum, das Kirchner Museum und die Talstation des Jakobshorns; Davos Dorf für die Parsennbahn und den Davosersee; die Schatzalp für den Alpengarten Alpinum und die Schlittelbahnen, ohne Durchgangsverkehr.',
+      en: 'First stay or want the lifts close: Davos Platz, across from the Jakobshorn station and near the Congress Centre. Prefer the lake and a quieter street: Davos Dorf, about 200 m from the Parsennbahn and Lake Davos. Want to skip the traffic altogether: the Schatzalp, reached only by funicular, 300 m above the town.',
+      fr: 'Premier séjour ou envie d’avoir les remontées à deux pas : Davos Platz, en face de la station du Jakobshorn et près du Centre de congrès. Préférence pour le lac et une rue plus calme : Davos Dorf, à environ 200 m du Parsennbahn et du lac de Davos. Envie d’échapper totalement à la circulation : le Schatzalp, accessible uniquement en funiculaire, à 300 m au-dessus de la ville.',
+      de: 'Erster Aufenthalt oder liftnahe Lage gewünscht: Davos Platz, gegenüber der Jakobshorn-Station und nahe dem Kongresszentrum. Lieber der See und eine ruhigere Strasse: Davos Dorf, rund 200 m von der Parsennbahn und vom Davosersee entfernt. Dem Verkehr ganz entgehen: die Schatzalp, nur mit der Standseilbahn erreichbar, 300 m über dem Ort.',
     },
     watch: {
-      en: 'Davos is not car-free: it sits on a through road, and the World Economic Forum meets at the Congress Centre in January, when the lift operator warns its published dates may change because of closures.',
-      fr: 'Davos n’est pas sans voiture : la ville se trouve sur un axe de passage, et le Forum économique mondial se réunit au Centre de congrès en janvier, période où l’exploitant des remontées prévient que ses dates publiées peuvent changer en raison de fermetures.',
-      de: 'Davos ist nicht autofrei: der Ort liegt an einer Durchgangsstrasse, und das Weltwirtschaftsforum tagt im Januar im Kongresszentrum, weshalb der Bahnbetreiber warnt, dass sich seine publizierten Daten wegen Schliessungen ändern können.',
+      en: 'Davos is not car-free like many Swiss resorts: it sits on a through road, so do not expect traffic-free streets outside the Schatzalp. The World Economic Forum meets at the Congress Centre every January, and the lift operator warns its published dates can change because of the closures that causes, so check the calendar before booking a January stay.',
+      fr: 'Davos n’est pas sans voiture comme beaucoup de stations suisses : la ville se trouve sur un axe de transit, ne vous attendez donc pas à des rues sans circulation en dehors du Schatzalp. Le Forum économique mondial se réunit au Centre de congrès chaque mois de janvier, et l’exploitant des remontées prévient que ses dates publiées peuvent changer à cause des fermetures que cela entraîne : vérifiez le calendrier avant de réserver un séjour en janvier.',
+      de: 'Davos ist nicht autofrei wie viele Schweizer Orte: Der Ort liegt an einer Durchgangsstrasse, erwarten Sie also keine verkehrsfreien Strassen ausserhalb der Schatzalp. Das Weltwirtschaftsforum tagt jeden Januar im Kongresszentrum, und der Bahnbetreiber warnt, dass sich seine publizierten Daten wegen der dadurch verursachten Schliessungen ändern können: Prüfen Sie den Kalender, bevor Sie einen Aufenthalt im Januar buchen.',
     },
+  },
+  story: {
+    title: { en: 'Davos, before you book', fr: 'Davos, avant de réserver', de: 'Davos, bevor Sie buchen' },
+    paragraphs: [
+      {
+        en: 'Davos sits at 1560 metres in canton Graubünden, and unlike the car-free resorts it is a town you can drive into: the A28 runs straight through from Landquart via Klosters, and the Flüela and Wolfgang passes continue east and north from here. By train, Zürich HB reaches Davos Platz in 2 hours 20, with a single change at Landquart onto the Rhaetian Railway. The town spreads across the sixth largest municipality in Switzerland by area, which is part of why it feels like two places rather than one.',
+        fr: 'Davos se trouve à 1560 mètres dans le canton des Grisons, et contrairement aux stations sans voiture, on y entre en voiture : l’A28 la traverse depuis Landquart via Klosters, et les cols de la Flüela et du Wolfgang continuent vers l’est et le nord depuis ici. En train, Zürich HB rejoint Davos Platz en 2 heures 20, avec un seul changement à Landquart sur les Chemins de fer rhétiques. La commune s’étend sur la sixième plus grande superficie de Suisse, ce qui explique en partie pourquoi elle se vit comme deux lieux plutôt qu’un seul.',
+        de: 'Davos liegt auf 1560 Metern im Kanton Graubünden, und anders als die autofreien Orte ist es mit dem Auto erreichbar: Die A28 führt direkt hindurch, von Landquart über Klosters, und die Flüela- und die Wolfgangpassstrasse führen von hier aus weiter Richtung Osten und Norden. Mit dem Zug erreicht man ab Zürich HB Davos Platz in 2 Stunden 20, mit einem einzigen Umstieg in Landquart auf die Rhätische Bahn. Die Gemeinde erstreckt sich über die sechstgrösste Fläche der Schweiz, was mit erklärt, warum sich der Ort eher wie zwei Orte anfühlt als wie einer.',
+      },
+      {
+        en: 'Davos is really two towns sharing one name: Davos Platz to the south, with the Congress Centre, the Kirchner Museum and the Jakobshorn base station, and Davos Dorf to the north, near the Parsennbahn funicular and Lake Davos. The two centres lie about 2 km apart along the Promenade, on the same Rhaetian Railway line, so picking a station shapes the whole stay. Above Davos Platz, the Schatzalp terrace breaks the pattern completely: reached only by funicular, 300 metres up, with no road running through it.',
+        fr: 'Davos, ce sont en réalité deux villes qui partagent un nom : Davos Platz au sud, avec le Centre de congrès, le Kirchner Museum et la station de base du Jakobshorn, et Davos Dorf au nord, près du funiculaire du Parsennbahn et du lac de Davos. Les deux centres se trouvent à environ 2 km l’un de l’autre le long de la Promenade, sur la même ligne des Chemins de fer rhétiques : le choix de la gare détermine tout le séjour. Au-dessus de Davos Platz, la terrasse du Schatzalp rompt totalement ce schéma : accessible uniquement en funiculaire, à 300 mètres plus haut, sans aucune route qui y mène.',
+        de: 'Davos besteht eigentlich aus zwei Orten unter einem Namen: Davos Platz im Süden, mit dem Kongresszentrum, dem Kirchner Museum und der Talstation des Jakobshorns, und Davos Dorf im Norden, nahe der Parsennbahn und dem Davosersee. Die beiden Zentren liegen rund 2 km voneinander entfernt entlang der Promenade, an derselben Linie der Rhätischen Bahn, sodass die Wahl des Bahnhofs den ganzen Aufenthalt prägt. Über Davos Platz durchbricht die Terrasse Schatzalp dieses Muster völlig: nur mit der Standseilbahn erreichbar, 300 Meter höher gelegen, ohne jede Zufahrtsstrasse.',
+      },
+      {
+        en: 'The hotels span both halves of town and one hilltop above them. Davos Platz holds the Grischa DAS Hotel opposite the Jakobshorn lift, and the wellness-focused Morosani Schweizerhof and AMERON; Davos Dorf has the Seehof, open since 1869, and the Turmhotel Victoria by the lake. Up on the Schatzalp, a single hotel keeps its own forest park and ski area. Our dated price samples put the Turmhotel Victoria as the least expensive of the six, with most others costing more in winter than in summer.',
+        fr: 'Les hôtels se répartissent dans les deux moitiés de la ville et sur une colline au-dessus. Davos Platz accueille le Grischa DAS Hotel, en face du départ du Jakobshorn, ainsi que le Morosani Schweizerhof et l’AMERON, tournés vers le bien-être ; Davos Dorf a le Seehof, ouvert depuis 1869, et le Turmhotel Victoria, près du lac. Sur le Schatzalp, un seul hôtel dispose de son propre parc forestier et de son propre domaine skiable. Nos relevés de prix datés placent le Turmhotel Victoria comme l’adresse la moins chère des six, la plupart des autres coûtant plus cher l’hiver que l’été.',
+        de: 'Die Hotels verteilen sich auf beide Ortshälften und einen Hügel darüber. In Davos Platz liegen das Grischa DAS Hotel gegenüber der Jakobshorn-Talstation sowie die wellnessorientierten Häuser Morosani Schweizerhof und AMERON; Davos Dorf hat das seit 1869 bestehende Seehof und das Turmhotel Victoria am See. Auf der Schatzalp führt ein einziges Hotel seinen eigenen Waldpark und sein eigenes Skigebiet. Unsere datierten Preisstichproben zeigen das Turmhotel Victoria als günstigste der sechs Adressen, während die meisten anderen im Winter mehr kosten als im Sommer.',
+      },
+      {
+        en: 'Winter runs from 13 November 2026 to 4 April 2027 on the Parsenn, with the Jakobshorn open a little longer, to 11 April. Summer belongs to walkers, on a 700 km network of trails across Davos Klosters, with the Schatzalpbahn funicular running from 1 May to 25 October. Whichever season you choose, allow 2 hours 20 by train from Zürich HB, with one change at Landquart. Unlike its car-free neighbours, Davos sits on a real road, so driving here is a normal option, not an exception.',
+        fr: 'L’hiver court du 13 novembre 2026 au 4 avril 2027 sur le Parsenn, le Jakobshorn restant ouvert un peu plus longtemps, jusqu’au 11 avril. L’été appartient aux marcheurs, sur un réseau de 700 km de sentiers à Davos Klosters, avec le funiculaire du Schatzalpbahn en service du 1er mai au 25 octobre. Quelle que soit la saison, comptez 2 heures 20 de train depuis Zürich HB, avec un seul changement à Landquart. Contrairement à ses voisines sans voiture, Davos se trouve sur une vraie route : y venir en voiture est donc une option normale, pas une exception.',
+        de: 'Der Winter dauert vom 13. November 2026 bis 4. April 2027 auf dem Parsenn, das Jakobshorn bleibt etwas länger offen, bis zum 11. April. Der Sommer gehört den Wanderern, auf einem 700 km langen Wegnetz in Davos Klosters, mit der Schatzalpbahn in Betrieb vom 1. Mai bis 25. Oktober. In welcher Saison auch immer: Rechnen Sie mit 2 Stunden 20 Zugfahrt ab Zürich HB, mit einem einzigen Umstieg in Landquart. Anders als seine autofreien Nachbarn liegt Davos an einer echten Strasse, mit dem Auto anzureisen ist hier also die Regel, keine Ausnahme.',
+      },
+    ],
   },
   stats: [
     { value: '1560', label: { en: 'metres above sea level', fr: "mètres d'altitude", de: 'Meter über Meer' } },
@@ -65,6 +90,11 @@ export const davos: DestinationGuide = {
         { en: 'Grischa DAS Hotel directly across from the Jakobshorn station', fr: 'Grischa DAS Hotel directement en face de la station du Jakobshorn', de: 'Grischa DAS Hotel direkt gegenüber der Jakobshorn-Station' },
         { en: 'Kirchner Museum at Promenade 82', fr: 'Kirchner Museum au 82 de la Promenade', de: 'Kirchner Museum an der Promenade 82' },
       ],
+      story: {
+        en: 'Davos Platz is the busier of the two halves, home to the Congress Centre where the World Economic Forum meets, the Kirchner Museum at Promenade 82, and the base station for the Jakobshorn. The Grischa DAS Hotel stands directly across from that station, with a direct underpass, and the whole area sits about 10 minutes on foot from the Congress Centre. It suits skiers and conference visitors more than anyone chasing the lake, which lies at the other end of the Promenade.',
+        fr: 'Davos Platz est la plus animée des deux moitiés de la ville : elle abrite le Centre de congrès où se réunit le Forum économique mondial, le Kirchner Museum au 82 de la Promenade, et la station de base du Jakobshorn. Le Grischa DAS Hotel se trouve juste en face de cette station, avec un passage souterrain direct, et tout le quartier se situe à environ 10 minutes à pied du Centre de congrès. Ce secteur convient aux skieurs et aux visiteurs de congrès plutôt qu’à ceux qui recherchent le lac, situé à l’autre bout de la Promenade.',
+        de: 'Davos Platz ist die belebtere der beiden Ortshälften: Hier liegen das Kongresszentrum, Tagungsort des Weltwirtschaftsforums, das Kirchner Museum an der Promenade 82 und die Talstation des Jakobshorns. Das Grischa DAS Hotel steht direkt gegenüber dieser Station, mit einer direkten Unterführung, und das ganze Quartier liegt rund 10 Gehminuten vom Kongresszentrum entfernt. Dieser Ortsteil eignet sich eher für Skifahrer und Kongressgäste als für alle, die den See suchen, der am anderen Ende der Promenade liegt.',
+      },
     },
     {
       title: { en: 'Davos Dorf', fr: 'Davos Dorf', de: 'Davos Dorf' },
@@ -78,6 +108,11 @@ export const davos: DestinationGuide = {
         { en: 'Turmhotel Victoria about 200 m from the lake, the funicular and the station', fr: 'Turmhotel Victoria à environ 200 m du lac, du funiculaire et de la gare', de: 'Turmhotel Victoria rund 200 m von See, Bahn und Bahnhof entfernt' },
         { en: 'Hotel Seehof on the promenade, near the Parsenn cable car', fr: 'Hotel Seehof sur la promenade, près du téléphérique du Parsenn', de: 'Hotel Seehof an der Promenade, nahe der Parsennbahn' },
       ],
+      story: {
+        en: 'Davos Dorf is the quieter half, gathered around the Parsennbahn funicular and Lake Davos rather than the Congress Centre. The Turmhotel Victoria puts the lake, the funicular and Davos Dorf station all about 200 metres away, and the Seehof sits directly on the promenade near the Parsenn cable car. It suits anyone who wants the lake on their doorstep and skiing straight from Davos rather than from Klosters, at the cost of being further from the Jakobshorn and the Congress Centre.',
+        fr: 'Davos Dorf est la moitié la plus calme, organisée autour du funiculaire du Parsennbahn et du lac de Davos plutôt qu’autour du Centre de congrès. Le Turmhotel Victoria place le lac, le funiculaire et la gare de Davos Dorf à environ 200 mètres, et le Seehof se trouve directement sur la promenade, près du téléphérique du Parsenn. Ce secteur convient à qui veut le lac à sa porte et skier directement depuis Davos plutôt que depuis Klosters, au prix d’un éloignement du Jakobshorn et du Centre de congrès.',
+        de: 'Davos Dorf ist die ruhigere Hälfte, gruppiert um die Parsennbahn und den Davosersee statt um das Kongresszentrum. Das Turmhotel Victoria bringt See, Bahn und den Bahnhof Davos Dorf auf rund 200 Meter zusammen, und das Seehof liegt direkt an der Promenade, nahe der Parsennbahn. Dieser Ortsteil passt zu allen, die den See vor der Tür haben und direkt ab Davos statt ab Klosters Ski fahren wollen, auf Kosten der grösseren Distanz zum Jakobshorn und zum Kongresszentrum.',
+      },
     },
     {
       title: { en: 'The Schatzalp', fr: 'Le Schatzalp', de: 'Die Schatzalp' },
@@ -91,6 +126,11 @@ export const davos: DestinationGuide = {
         { en: '4 minutes by funicular from Davos Platz, no through traffic', fr: '4 minutes en funiculaire depuis Davos Platz, sans circulation de transit', de: '4 Minuten mit der Bahn ab Davos Platz, ohne Durchgangsverkehr' },
         { en: 'Free funicular for overnight guests, 8 am to midnight', fr: 'Funiculaire gratuit pour les clients logés, de 8 h à minuit', de: 'Gratis Bahnfahrt für Übernachtungsgäste, 8 bis 24 Uhr' },
       ],
+      story: {
+        en: 'The Schatzalp is the one part of Davos with no road at all: the funicular from Promenade 63 in Davos Platz reaches it in 4 minutes, and overnight guests ride it free from 8 am to midnight. At the top, a single hotel keeps its own forest park and ski area next to the Alpinum botanical garden and a 2.8 km winter toboggan run. Choose it for the quiet above the traffic, in exchange for depending on the funicular schedule for every trip down.',
+        fr: 'Le Schatzalp est la seule partie de Davos totalement dépourvue de route : le funiculaire, au départ du 63 de la Promenade à Davos Platz, l’atteint en 4 minutes, et les clients logés y montent gratuitement de 8 h à minuit. Au sommet, un seul hôtel dispose de son propre parc forestier et de son propre domaine skiable, à côté du jardin botanique Alpinum et d’une piste de luge d’hiver de 2,8 km. On le choisit pour le calme, loin de la circulation, au prix d’une dépendance aux horaires du funiculaire pour chaque descente.',
+        de: 'Die Schatzalp ist der einzige Teil von Davos ganz ohne Strasse: Die Standseilbahn ab der Promenade 63 in Davos Platz erreicht sie in 4 Minuten, und Übernachtungsgäste fahren von 8 Uhr bis Mitternacht gratis mit. Oben führt ein einziges Hotel seinen eigenen Waldpark und sein eigenes Skigebiet, neben dem botanischen Garten Alpinum und einer 2,8 km langen Winter-Schlittelbahn. Man wählt sie wegen der Ruhe über dem Verkehr, dafür ist man für jede Fahrt hinunter an den Fahrplan der Bahn gebunden.',
+      },
     },
   ],
   hotels: [
@@ -105,6 +145,11 @@ export const davos: DestinationGuide = {
         { en: 'Located on Davos’s promenade near the Parsenn cable car, per the tourist office', fr: 'Situé sur la promenade de Davos, près du téléphérique du Parsenn, selon l’office du tourisme', de: 'Laut Tourismusbüro an der Promenade von Davos gelegen, nahe der Parsennbahn' },
         { en: 'Three restaurants including a fondue restaurant and Restaurant Chesa, plus a 400 m2 Bella Vita Spa', fr: 'Trois restaurants, dont un restaurant à fondue et le Restaurant Chesa, et un spa Bella Vita de 400 m2', de: 'Drei Restaurants, darunter ein Fondue-Restaurant und das Restaurant Chesa, sowie ein 400 m2 grosses Bella Vita Spa' },
       ],
+      blurb: {
+        en: 'Open since 1869, the Seehof stands on Davos’s promenade near the Parsenn cable car, in Davos Dorf. It runs three restaurants, including a fondue restaurant and the Restaurant Chesa, plus a 400 square metre Bella Vita Spa, enough to fill an evening without leaving the building.',
+        fr: 'Ouvert depuis 1869, le Seehof se dresse sur la promenade de Davos, près du téléphérique du Parsenn, à Davos Dorf. Il compte trois restaurants, dont un restaurant à fondue et le Restaurant Chesa, ainsi qu’un spa Bella Vita de 400 mètres carrés, de quoi occuper une soirée sans quitter l’hôtel.',
+        de: 'Seit 1869 in Betrieb, steht das Seehof an der Promenade von Davos, nahe der Parsennbahn, in Davos Dorf. Es führt drei Restaurants, darunter ein Fondue-Restaurant und das Restaurant Chesa, sowie ein 400 Quadratmeter grosses Bella Vita Spa, genug, um einen Abend zu füllen, ohne das Haus zu verlassen.',
+      },
     },
     {
       slug: 'davos-grischa',
@@ -117,6 +162,11 @@ export const davos: DestinationGuide = {
         { en: 'About 10 minutes on foot from the Congress Centre', fr: 'À environ 10 minutes à pied du Centre de congrès', de: 'Rund 10 Gehminuten vom Kongresszentrum' },
         { en: 'Garage CHF 20 per day, dogs CHF 20 per day', fr: 'Garage CHF 20 par jour, chiens CHF 20 par jour', de: 'Garage CHF 20 pro Tag, Hunde CHF 20 pro Tag' },
       ],
+      blurb: {
+        en: 'The Grischa stands at Talstrasse 3, directly across from the Jakobshorn station with a direct underpass, about 10 minutes on foot from the Congress Centre. It suits skiers who want to step from the lobby onto the slopes, and it takes dogs for CHF 20 a day, the same rate as the garage.',
+        fr: 'Le Grischa se trouve au 3 de la Talstrasse, directement en face de la station du Jakobshorn, avec un passage souterrain direct, à environ 10 minutes à pied du Centre de congrès. Il convient aux skieurs qui veulent passer du hall à la piste, et accepte les chiens pour CHF 20 par jour, le même tarif que le garage.',
+        de: 'Das Grischa steht an der Talstrasse 3, direkt gegenüber der Jakobshorn-Station mit einer direkten Unterführung, rund 10 Gehminuten vom Kongresszentrum entfernt. Es eignet sich für Skifahrer, die direkt aus der Lobby auf die Piste wollen, und nimmt Hunde für CHF 20 pro Tag auf, zum gleichen Tarif wie die Garage.',
+      },
     },
     {
       slug: 'davos-schatzalp',
@@ -129,6 +179,11 @@ export const davos: DestinationGuide = {
         { en: 'Free funicular transport for overnight guests, daily from 8 am', fr: 'Transport gratuit en funiculaire pour les clients logés, tous les jours dès 8 h', de: 'Gratis Bahnfahrt für Übernachtungsgäste, täglich ab 8 Uhr' },
         { en: 'Belle Epoque restaurant, Art Nouveau lobby, own forest park and own ski area', fr: 'Restaurant Belle Époque, hall Art nouveau, parc forestier et domaine skiable propres', de: 'Belle-Epoque-Restaurant, Jugendstil-Lobby, eigener Waldpark und eigenes Skigebiet' },
       ],
+      blurb: {
+        en: 'Reached only by the funicular that leaves Promenade 63 in Davos Platz, 4 minutes below, the Schatzalp keeps an Art Nouveau lobby, its own forest park and its own small ski area, plus the Belle Epoque restaurant. Overnight guests ride the funicular free from 8 am to midnight, which suits anyone who wants Davos without the traffic.',
+        fr: 'Accessible uniquement par le funiculaire qui part du 63 de la Promenade, à Davos Platz, 4 minutes plus bas, le Schatzalp conserve un hall Art nouveau, son propre parc forestier et son propre petit domaine skiable, ainsi que le restaurant Belle Époque. Les clients logés montent gratuitement en funiculaire de 8 h à minuit, ce qui convient à qui veut Davos sans la circulation.',
+        de: 'Nur mit der Standseilbahn erreichbar, die an der Promenade 63 in Davos Platz startet, 4 Minuten weiter unten, bewahrt die Schatzalp eine Jugendstil-Lobby, einen eigenen Waldpark und ein eigenes kleines Skigebiet sowie das Restaurant Belle Epoque. Übernachtungsgäste fahren von 8 Uhr bis Mitternacht gratis mit der Bahn, passend für alle, die Davos ohne Verkehr erleben wollen.',
+      },
     },
     {
       slug: 'davos-turmhotel-victoria',
@@ -141,6 +196,11 @@ export const davos: DestinationGuide = {
         { en: 'About 200 metres from Lake Davos, the Parsenn funicular and Davos Dorf station', fr: 'À environ 200 mètres du lac de Davos, du funiculaire du Parsenn et de la gare de Davos Dorf', de: 'Rund 200 Meter vom Davosersee, der Parsennbahn und dem Bahnhof Davos Dorf entfernt' },
         { en: 'Free bus across Davos Klosters, with a stop next to the hotel', fr: 'Bus gratuit dans tout Davos Klosters, avec un arrêt juste à côté de l’hôtel', de: 'Gratis Bus in ganz Davos Klosters, mit Haltestelle direkt beim Hotel' },
       ],
+      blurb: {
+        en: 'The Turmhotel Victoria has 96 rooms across four categories at Alte Flüelastrasse 2, about 200 metres from Lake Davos, the Parsenn funicular and Davos Dorf station, with a free-bus stop right outside. Our dated price samples put it as the least expensive of the hotels in this selection.',
+        fr: 'Le Turmhotel Victoria compte 96 chambres réparties en quatre catégories, à l’Alte Flüelastrasse 2, à environ 200 mètres du lac de Davos, du funiculaire du Parsenn et de la gare de Davos Dorf, avec un arrêt de bus gratuit juste devant. Nos relevés de prix datés en font l’adresse la moins chère de notre sélection.',
+        de: 'Das Turmhotel Victoria zählt 96 Zimmer in vier Kategorien, an der Alte Flüelastrasse 2, rund 200 Meter vom Davosersee, der Parsennbahn und dem Bahnhof Davos Dorf entfernt, mit einer Gratis-Bushaltestelle direkt davor. Unsere datierten Preisstichproben zeigen es als die günstigste Adresse dieser Auswahl.',
+      },
     },
     {
       slug: 'davos-morosani-schweizerhof',
@@ -153,6 +213,11 @@ export const davos: DestinationGuide = {
         { en: 'Wellness area with bio sauna, Finnish sauna, steam bath and a fitness room', fr: 'Espace bien-être avec bio-sauna, sauna finlandais, bain de vapeur et salle de fitness', de: 'Wellnessbereich mit Biosauna, finnischer Sauna, Dampfbad und Fitnessraum' },
         { en: 'In-house restaurants DAMORO and DAMIA', fr: 'Restaurants maison DAMORO et DAMIA', de: 'Hauseigene Restaurants DAMORO und DAMIA' },
       ],
+      blurb: {
+        en: 'On the Promenade at number 50 in Davos Platz, the Morosani Schweizerhof centres on its wellness area, with a bio sauna, a Finnish sauna, a steam bath and a fitness room, and on two in-house restaurants, DAMORO and DAMIA. It suits a stay built around slow mornings rather than an early start on the lifts.',
+        fr: 'Au 50 de la Promenade, à Davos Platz, le Morosani Schweizerhof s’organise autour de son espace bien-être, avec bio-sauna, sauna finlandais, bain de vapeur et salle de fitness, et de deux restaurants maison, DAMORO et DAMIA. Il convient à un séjour construit autour de matinées tranquilles plutôt que d’un départ matinal vers les pistes.',
+        de: 'An der Promenade 50 in Davos Platz dreht sich im Morosani Schweizerhof vieles um den Wellnessbereich, mit Biosauna, finnischer Sauna, Dampfbad und Fitnessraum, sowie um zwei hauseigene Restaurants, DAMORO und DAMIA. Es passt zu einem Aufenthalt mit ruhigen Morgen statt einem frühen Start zu den Bahnen.',
+      },
     },
     {
       slug: 'davos-ameron',
@@ -165,6 +230,11 @@ export const davos: DestinationGuide = {
         { en: '148 rooms and suites, each with a balcony', fr: '148 chambres et suites, chacune avec balcon', de: '148 Zimmer und Suiten, jedes mit Balkon' },
         { en: '4 elements SPA spanning 850 square metres', fr: 'Spa « 4 elements » sur 850 mètres carrés', de: '4 elements SPA auf 850 Quadratmetern' },
       ],
+      blurb: {
+        en: 'Opposite the Congress Centre on Scalettastrasse 22, the AMERON has 148 rooms and suites, each with its own balcony, and the 850 square metre 4 elements SPA. Its position across from the conference building suits business stays as much as skiing ones.',
+        fr: 'En face du Centre de congrès, au 22 de la Scalettastrasse, l’AMERON compte 148 chambres et suites, chacune avec son balcon, et le spa 4 elements de 850 mètres carrés. Sa position en face du bâtiment de congrès convient aussi bien à un séjour professionnel qu’à un séjour de ski.',
+        de: 'Gegenüber dem Kongresszentrum an der Scalettastrasse 22 bietet das AMERON 148 Zimmer und Suiten, jedes mit eigenem Balkon, sowie das 850 Quadratmeter grosse 4 elements SPA. Die Lage gegenüber dem Kongressgebäude passt ebenso zu Geschäftsreisen wie zu Skiferien.',
+      },
     },
   ],
   hotelsNote: {
