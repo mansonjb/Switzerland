@@ -62,12 +62,14 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
   }
 
   const popular = [
-    { href: localePath(lang, '/wengen'), label: T(wengen.title) },
+    { href: localePath(lang, '/zermatt'), label: T({ en: 'Where to stay in Zermatt', fr: 'Où dormir à Zermatt', de: 'Wo übernachten in Zermatt' }) },
     { href: localePath(lang, '/regions/bernese-oberland'), label: T({ en: 'Bernese Oberland: which base?', fr: 'Oberland bernois : quelle base ?', de: 'Berner Oberland: welcher Standort?' }) },
+    { href: localePath(lang, '/regions/valais'), label: T({ en: 'Zermatt, Saas-Fee or Verbier?', fr: 'Zermatt, Saas-Fee ou Verbier ?', de: 'Zermatt, Saas-Fee oder Verbier?' }) },
+    { href: localePath(lang, '/regions/graubunden'), label: T({ en: 'Davos or St. Moritz?', fr: 'Davos ou Saint-Moritz ?', de: 'Davos oder St. Moritz?' }) },
     { href: localePath(lang, '/wengen#swiss-travel-pass'), label: T({ en: 'Swiss Travel Pass to Wengen', fr: 'Swiss Travel Pass jusqu’à Wengen', de: 'Swiss Travel Pass bis Wengen' }) },
-    { href: localePath(lang, '/wengen#seasons'), label: T({ en: 'Wengen low season', fr: 'Basse saison à Wengen', de: 'Zwischensaison in Wengen' }) },
+    { href: localePath(lang, '/lucerne'), label: T({ en: 'Where to stay in Lucerne', fr: 'Où dormir à Lucerne', de: 'Wo übernachten in Luzern' }) },
     { href: localePath(lang, '/wengen#faq'), label: T({ en: 'Wengen or Mürren?', fr: 'Wengen ou Mürren ?', de: 'Wengen oder Mürren?' }) },
-    { href: localePath(lang, '/wengen#car-free'), label: T({ en: 'Car-free Wengen in practice', fr: 'Wengen sans voiture, en pratique', de: 'Autofreies Wengen in der Praxis' }) },
+    { href: localePath(lang, '/murren#car-free'), label: T({ en: 'Car-free villages in practice', fr: 'Villages sans voiture, en pratique', de: 'Autofreie Dörfer in der Praxis' }) },
   ]
 
   return (
