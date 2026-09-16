@@ -9,9 +9,9 @@ export const graubunden: Region = {
   meta: {
     title: { en: 'Graubünden: Davos, St. Moritz or Pontresina?', fr: 'Grisons : Davos, Saint-Moritz ou Pontresina ?', de: 'Graubünden: Davos, St. Moritz oder Pontresina?' },
     description: {
-      en: 'Three possible bases in Graubünden compared on quiet, views, nightlife, getting around without a car and the size of the ski area, with a verdict for each type of traveller.',
-      fr: 'Trois bases possibles aux Grisons comparées sur le calme, la vue, la vie nocturne, les déplacements sans voiture et la taille du domaine skiable, avec un verdict par profil.',
-      de: 'Drei mögliche Standorte in Graubünden im Vergleich: Ruhe, Aussicht, Ausgehen, Unterwegssein ohne Auto und Grösse des Skigebiets, mit Empfehlung pro Reisetyp.',
+      en: 'Six possible bases in Graubünden compared on quiet, views, nightlife, getting around without a car and the size of the ski area, with a verdict for each type of traveller.',
+      fr: 'Six bases possibles aux Grisons comparées sur le calme, la vue, la vie nocturne, les déplacements sans voiture et la taille du domaine skiable, avec un verdict par profil.',
+      de: 'Sechs mögliche Standorte in Graubünden im Vergleich: Ruhe, Aussicht, Ausgehen, Unterwegssein ohne Auto und Grösse des Skigebiets, mit Empfehlung pro Reisetyp.',
     },
   },
   intro: {
@@ -43,6 +43,9 @@ export const graubunden: Region = {
     { slug: 'davos', scores: [2, 3, 4, 4, 5], forWhom: { en: 'A town that stays open all year, two separate ski mountains', fr: 'Une ville ouverte toute l’année, deux montagnes à ski distinctes', de: 'Eine Stadt, die das ganze Jahr offen ist, zwei getrennte Skiberge' } },
     { slug: 'st-moritz', scores: [2, 5, 5, 4, 5], forWhom: { en: 'The lake, the Bernina line, the busiest evenings in the Engadin', fr: 'Le lac, la ligne de la Bernina, les soirées les plus animées de l’Engadine', de: 'Der See, die Berninalinie, die lebhaftesten Abende im Engadin' } },
     { slug: 'pontresina', scores: [5, 5, 2, 4, 4], forWhom: { en: 'The same valley without the crowd, walkers and glacier trips', fr: 'La même vallée sans la foule, marcheurs et sorties sur les glaciers', de: 'Dasselbe Tal ohne Trubel, Wanderer und Gletscherausflüge' } },
+    { slug: 'klosters', scores: [4, 4, 2, 4, 5], forWhom: { en: 'The quiet side of the Parsenn, chalets rather than blocks', fr: 'Le versant calme du Parsenn, des chalets plutôt que des immeubles', de: 'Die ruhige Seite des Parsenn, Chalets statt Blöcke' } },
+    { slug: 'arosa', scores: [4, 5, 2, 5, 4], forWhom: { en: 'End of the valley, reached by the narrow gauge line from Chur', fr: 'Bout de la vallée, desservi par la ligne à voie étroite depuis Coire', de: 'Talende, erreichbar mit der Schmalspurbahn ab Chur' } },
+    { slug: 'laax', scores: [3, 4, 3, 3, 5], forWhom: { en: 'Snowboarding and the Vorderrhein side, lifts from the village', fr: 'Le snowboard et le versant du Rhin antérieur, remontées depuis le village', de: 'Snowboard und die Vorderrhein-Seite, Bahnen ab dem Dorf' } },
   ],
   verdicts: [
     { profile: { en: 'First visit', fr: 'Première fois', de: 'Erster Besuch' }, slug: 'st-moritz', reason: { en: 'The lake, the Corviglia funicular from the village and the Bernina line all start where you sleep.', fr: 'Le lac, le funiculaire de Corviglia depuis le village et la ligne de la Bernina partent là où vous dormez.', de: 'Der See, die Corviglia-Bahn ab dem Dorf und die Berninalinie beginnen dort, wo Sie schlafen.' } },
