@@ -8,9 +8,9 @@ export const thun: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Thun: the castle, the lake boats', fr: 'Où dormir à Thoune : le château, les bateaux du lac', de: 'Wo übernachten in Thun: Schloss, Kursschiffe' },
     description: {
-      en: 'Thun area by area: the old town below the castle, the station centre, and Schadau Park on the lake. Hotels with sourced facts, Schloss Thun, the BLS boats and the Thun-Panorama.',
-      fr: 'Thoune secteur par secteur : la vieille ville sous le château, le centre autour de la gare, et le Schadaupark au bord du lac. Hôtels avec faits sourcés, le Château de Thoune, les bateaux BLS et le Thun-Panorama.',
-      de: 'Thun Ortsteil für Ortsteil: die Altstadt unterhalb des Schlosses, das Zentrum rund um den Bahnhof, und der Schadaupark am See. Hotels mit belegten Fakten, das Schloss Thun, die BLS-Schiffe und das Thun-Panorama.',
+      en: 'Where to sleep in Thun, from the Läuben-lined old town below the castle to the station centre and Schadau Park on the lake, with sourced hotel facts, Schloss Thun, the BLS boats and the Thun-Panorama.',
+      fr: 'Où dormir à Thoune, de la vieille ville aux Läuben sous le château au centre-gare et au Schadaupark au bord du lac, avec des faits d’hôtels sourcés, le Château de Thoune, les bateaux BLS et le Thun-Panorama.',
+      de: 'Wo übernachten in Thun, von der Lauben-Altstadt unterhalb des Schlosses über das Bahnhofszentrum bis zum Schadaupark am See, mit belegten Hotelfakten, dem Schloss Thun, den BLS-Schiffen und dem Thun-Panorama.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Thun', fr: 'Oberland bernois · Thoune', de: 'Berner Oberland · Thun' },
@@ -27,20 +27,45 @@ export const thun: DestinationGuide = {
   },
   snapshot: {
     why: {
-      en: 'Schloss Thun above the old town, BLS boats to the rest of the lake including the historic paddle steamer Blümlisalp, and the Thun-Panorama, described by the tourist office as the oldest still-preserved panorama painting in the world.',
-      fr: 'Le Château de Thoune au-dessus de la vieille ville, les bateaux BLS vers le reste du lac, dont le bateau à aubes historique Blümlisalp, et le Thun-Panorama, décrit par l’office du tourisme comme le plus ancien panorama peint encore conservé au monde.',
-      de: 'Das Schloss Thun über der Altstadt, BLS-Schiffe zum übrigen See, darunter der historische Raddampfer Blümlisalp, und das Thun-Panorama, vom Tourismusbüro als das älteste noch erhaltene Rundbild der Welt bezeichnet.',
+      en: 'Because Thun pairs a real Swiss city with a castle on its doorstep and a lake at its edge: Schloss Thun’s four white towers stand right above the old town, and the BLS boats, including the paddle steamer Blümlisalp, leave from the same centre. That mix of city, castle and water is what a stay here adds that a single-attraction village cannot.',
+      fr: 'Parce que Thoune associe une vraie ville suisse à un château à sa porte et à un lac à ses pieds : les quatre tours blanches du Château de Thoune dominent la vieille ville, et les bateaux BLS, dont le bateau à aubes Blümlisalp, partent du même centre. Ce mélange de ville, de château et d’eau, c’est ce qu’un séjour ici apporte qu’un village tourné vers une seule attraction ne peut pas offrir.',
+      de: 'Weil Thun eine echte Schweizer Stadt mit einem Schloss vor der Tür und einem See am Rand verbindet: Die vier weissen Türme des Schlosses Thun stehen direkt über der Altstadt, und die BLS-Schiffe, darunter der Raddampfer Blümlisalp, legen im selben Zentrum ab. Diese Mischung aus Stadt, Schloss und Wasser bietet ein Aufenthalt hier, was ein auf eine einzige Attraktion ausgerichtetes Dorf nicht kann.',
     },
     where: {
-      en: 'Around the Obere Hauptgasse and Schlossberg in the old town below the castle, around the station and Freienhofgasse for the centre, or along Seestrasse towards Schadau Park for the lakeside.',
-      fr: 'Autour de l’Obere Hauptgasse et du Schlossberg dans la vieille ville, sous le château, autour de la gare et de la Freienhofgasse pour le centre, ou le long de la Seestrasse vers le Schadaupark pour le bord du lac.',
-      de: 'Rund um Obere Hauptgasse und Schlossberg in der Altstadt unterhalb des Schlosses, rund um Bahnhof und Freienhofgasse für das Zentrum, oder entlang der Seestrasse Richtung Schadaupark für die Seelage.',
+      en: 'First stay or heavy bags: around the station and Freienhofgasse, five minutes from the platforms. Looking for character: the old town below the castle, along the Läuben-lined Obere Hauptgasse. Here for the lake: Seestrasse towards Schadau Park, about 15 minutes on foot from the centre.',
+      fr: 'Premier séjour ou bagages lourds : autour de la gare et de la Freienhofgasse, à cinq minutes des quais. En quête de caractère : la vieille ville sous le château, le long de l’Obere Hauptgasse et de ses Läuben. Venu pour le lac : la Seestrasse vers le Schadaupark, à environ 15 minutes à pied du centre.',
+      de: 'Erster Aufenthalt oder schweres Gepäck: rund um Bahnhof und Freienhofgasse, fünf Minuten von den Gleisen. Auf der Suche nach Charakter: die Altstadt unterhalb des Schlosses, entlang der Obere Hauptgasse mit ihren Lauben. Wegen des Sees hier: die Seestrasse Richtung Schadaupark, rund 15 Gehminuten vom Zentrum.',
     },
     watch: {
-      en: 'Schloss Thun keeps reduced hours from November to January, Sundays only, 13:00 to 16:00, and the Thun-Panorama closes altogether outside March to November.',
-      fr: 'Le Château de Thoune réduit ses horaires de novembre à janvier, uniquement le dimanche de 13h00 à 16h00, et le Thun-Panorama ferme complètement en dehors de la période de mars à novembre.',
-      de: 'Das Schloss Thun hat von November bis Januar reduzierte Öffnungszeiten, nur sonntags von 13.00 bis 16.00 Uhr, und das Thun-Panorama schliesst ausserhalb der Zeit von März bis November ganz.',
+      en: 'Schloss Thun keeps reduced hours from November to January, open only on Sunday afternoons from 13:00 to 16:00, and the Thun-Panorama closes altogether outside March to November. If either is the reason for your visit, check the calendar before you book a winter stay, or plan around the Sunday opening.',
+      fr: 'Le Château de Thoune réduit ses horaires de novembre à janvier, ouvert seulement le dimanche après-midi de 13h00 à 16h00, et le Thun-Panorama ferme complètement en dehors de la période de mars à novembre. Si l’un des deux est la raison de votre venue, vérifiez le calendrier avant de réserver un séjour d’hiver, ou organisez-vous autour de l’ouverture du dimanche.',
+      de: 'Das Schloss Thun hat von November bis Januar reduzierte Öffnungszeiten, nur sonntagnachmittags von 13.00 bis 16.00 Uhr geöffnet, und das Thun-Panorama schliesst ausserhalb der Zeit von März bis November ganz. Ist eines der beiden der Grund für Ihren Besuch, prüfen Sie den Kalender vor einer Winterbuchung oder planen Sie den Sonntagnachmittag fest ein.',
     },
+  },
+  story: {
+    title: { en: 'Thun, before you book', fr: 'Thoune, avant de réserver', de: 'Thun, bevor Sie buchen' },
+    paragraphs: [
+      {
+        en: 'Thun is not a resort village but a working Swiss city, home to more than 44,000 people and, by its own count, the eleventh-largest in the country. You arrive by train rather than cable car: direct services reach it in 19 minutes from Bern and 1 h 21 from Zurich, and the Aare cuts straight through the centre on its way out of the lake. Each autumn the city marks Ausschiesset, a tradition of parades, music and shooting competitions that residents call a highlight of the year.',
+        fr: 'Thoune n’est pas un village de villégiature mais une véritable ville suisse, qui compte plus de 44 000 habitants et se présente elle-même comme la onzième plus grande du pays. On y arrive en train plutôt qu’en téléphérique : des liaisons directes la relient à Berne en 19 minutes et à Zurich en 1 h 21, et l’Aar traverse le centre au moment où elle quitte le lac. Chaque automne, la ville célèbre l’Ausschiesset, une tradition de cortèges, de musique et de concours de tir que les habitants considèrent comme un temps fort de l’année.',
+        de: 'Thun ist kein Ferienort, sondern eine echte Schweizer Stadt mit über 44 000 Einwohnenden, nach eigener Angabe die elftgrösste des Landes. Man kommt mit dem Zug an, nicht mit der Seilbahn: Direktverbindungen erreichen Thun in 19 Minuten ab Bern und in 1 Std. 21 ab Zürich, und die Aare durchquert das Zentrum genau dort, wo sie den See verlässt. Jeden Herbst feiert die Stadt das Ausschiesset, eine Tradition aus Umzügen, Musik und Schiesswettbewerben, die für viele Thunerinnen und Thuner ein Höhepunkt des Jahres ist.',
+      },
+      {
+        en: 'The city sits at the point where the Aare flows out of Lake Thun, and everything is built around that: Schloss Thun and its four white towers rise above the Läuben-lined Obere Hauptgasse, the station and Freienhofgasse form a plainer, practical centre a short walk further down, and Seestrasse follows the river and then the shore out to Schadau Park. Thun itself is not car-free: only the Obere Hauptgasse carries the historic pedestrian arcades.',
+        fr: 'La ville se trouve au point où l’Aar sort du lac de Thoune, et tout s’organise autour de cela : le Château de Thoune et ses quatre tours blanches dominent l’Obere Hauptgasse et ses Läuben, la gare et la Freienhofgasse forment un centre plus simple et pratique un peu plus bas, et la Seestrasse longe d’abord la rivière puis la rive jusqu’au Schadaupark. Thoune elle-même n’est pas sans voiture : seule l’Obere Hauptgasse conserve ses arcades piétonnes historiques.',
+        de: 'Die Stadt liegt dort, wo die Aare aus dem Thunersee fliesst, und darauf ist alles ausgerichtet: Das Schloss Thun mit seinen vier weissen Türmen thront über der Obere Hauptgasse mit ihren Lauben, Bahnhof und Freienhofgasse bilden ein Stück weiter unten ein schlichteres, praktisches Zentrum, und die Seestrasse folgt erst dem Fluss und dann dem Ufer bis zum Schadaupark. Thun selbst ist nicht autofrei: Nur die Obere Hauptgasse trägt noch die historischen Fussgängerarkaden.',
+      },
+      {
+        en: 'The choice runs from a four-star house built into the old town, next to the Aare and the castle, to a family guesthouse near the station that has kept the same trade since 1898. Down at the lake, a four-star superior hotel stands inside Schadau Park itself, alongside a nineteenth-century neo-gothic castle that now rents out nine rooms, and a smaller address further along the shore with its own certified regional-produce restaurant. What separates them is size and setting far more than category: a castle view from one side of town, the water from the other.',
+        fr: 'L’offre va d’un établissement 4 étoiles bâti dans la vieille ville, près de l’Aar et du château, à une auberge familiale près de la gare qui exerce le même métier depuis 1898. Au bord du lac, un hôtel 4 étoiles supérieur se dresse à l’intérieur même du Schadaupark, aux côtés d’un château néogothique du XIXe siècle qui loue aujourd’hui neuf chambres, et d’une adresse plus modeste un peu plus loin sur la rive, avec son propre restaurant certifié pour les produits régionaux. Ce qui les distingue tient moins à la catégorie qu’à l’emplacement : la vue sur le château d’un côté de la ville, l’eau de l’autre.',
+        de: 'Das Angebot reicht von einem 4-Sterne-Haus mitten in der Altstadt, neben Aare und Schloss, bis zu einem familiengeführten Gasthaus beim Bahnhof, das seit 1898 denselben Betrieb führt. Am See steht ein 4-Sterne-Superior-Hotel direkt im Schadaupark, daneben ein neugotisches Schloss aus dem 19. Jahrhundert, das heute neun Zimmer vermietet, und etwas weiter am Ufer eine kleinere Adresse mit einem eigenen, für Regionalprodukte zertifizierten Restaurant. Was sie unterscheidet, ist weniger die Kategorie als die Lage: auf der einen Seite der Blick aufs Schloss, auf der anderen das Wasser.',
+      },
+      {
+        en: 'Schloss Thun keeps its longest hours from July to August, open daily from 9:30 to 17:30, while the Thun-Panorama only opens between March and November, Tuesday to Sunday. Outside that window, from December to February, the panorama closes altogether and the castle drops to Sunday afternoons only, though BLS keeps its lake boats running year round. From Zurich HB, allow about 1 h 21 by direct train to Thun, and the station sits in the centre of the city itself.',
+        fr: 'Le Château de Thoune propose ses horaires les plus longs de juillet à août, ouvert tous les jours de 9h30 à 17h30, tandis que le Thun-Panorama n’ouvre qu’entre mars et novembre, du mardi au dimanche. En dehors de cette période, de décembre à février, le panorama ferme complètement et le château se limite au dimanche après-midi, même si les bateaux BLS continuent de naviguer sur le lac toute l’année. Depuis Zurich HB, comptez environ 1 h 21 de train direct jusqu’à Thoune, dont la gare se trouve en plein centre-ville.',
+        de: 'Das Schloss Thun hat von Juli bis August die längsten Öffnungszeiten, täglich von 9.30 bis 17.30 Uhr, während das Thun-Panorama nur von März bis November, Dienstag bis Sonntag, geöffnet ist. Ausserhalb dieser Zeit, von Dezember bis Februar, schliesst das Panorama ganz, und das Schloss öffnet nur noch sonntagnachmittags, auch wenn die BLS-Schiffe das ganze Jahr über auf dem See fahren. Ab Zürich HB rechnen Sie mit rund 1 Std. 21 Zugfahrt direkt nach Thun, mit dem Bahnhof mitten in der Stadt.',
+      },
+    ],
   },
   stats: [
     { value: '44000', label: { en: 'residents, the eleventh-largest city in Switzerland', fr: 'habitants, onzième plus grande ville de Suisse', de: 'Einwohnende, elftgrösste Stadt der Schweiz' } },
@@ -65,6 +90,11 @@ export const thun: DestinationGuide = {
         { en: 'The Rathaus was first documented in 1358', fr: 'Le Rathaus est mentionné pour la première fois en 1358', de: 'Das Rathaus wird erstmals 1358 urkundlich erwähnt' },
         { en: 'Hotel Krone: 4-star, 34 rooms, 76 beds', fr: 'Hôtel Krone : 4 étoiles, 34 chambres, 76 lits', de: 'Hotel Krone: 4 Sterne, 34 Zimmer, 76 Betten' },
       ],
+      story: {
+        en: 'This is Thun’s postcard side, the old town stacked beneath Schloss Thun’s four towers, its Läuben carrying shoppers along raised walkways above the shop rows. Hotel Krone sits at the heart of it, on the Obere Hauptgasse next to the Aare and the castle, while Hotel Restaurant Rathaus looks onto a town hall first recorded in 1358. Choose this side for the castle view and the walk up to it; the station and the lake both sit a short distance away rather than at the door.',
+        fr: 'C’est le visage carte postale de Thoune, la vieille ville nichée sous les quatre tours du Château de Thoune, ses Läuben menant les passants le long de trottoirs surélevés au-dessus des arcades commerçantes. L’Hôtel Krone se trouve en plein cœur, sur l’Obere Hauptgasse, à côté de l’Aar et du château, tandis que l’Hôtel Restaurant Rathaus fait face à un hôtel de ville mentionné pour la première fois en 1358. On choisit ce côté pour la vue sur le château et la montée qui y mène ; la gare et le lac se trouvent tous deux à quelque distance plutôt qu’à la porte.',
+        de: 'Das ist Thuns Postkartenseite, die Altstadt unterhalb der vier Türme des Schlosses Thun, mit Lauben, die Fussgänger auf erhöhten Trottoirs über den Geschäftszeilen entlangführen. Das Hotel Krone liegt mittendrin, an der Obere Hauptgasse, neben Aare und Schloss, während das Hotel Restaurant Rathaus auf ein erstmals 1358 urkundlich erwähntes Rathaus blickt. Diese Seite wählt man wegen des Schlossblicks und des Wegs hinauf; Bahnhof und See liegen beide etwas entfernt, nicht direkt vor der Tür.',
+      },
     },
     {
       title: { en: 'Station and centre, Freienhofgasse', fr: 'Gare et centre, Freienhofgasse', de: 'Bahnhof und Zentrum, Freienhofgasse' },
@@ -78,6 +108,11 @@ export const thun: DestinationGuide = {
         { en: 'Hotel Aare: 60 rooms, 120 beds', fr: 'Hôtel Aare : 60 chambres, 120 lits', de: 'Hotel Aare: 60 Zimmer, 120 Betten' },
         { en: 'Hotel Emmental: 14 rooms, 25 beds, guesthouse since 1898', fr: 'Hôtel Emmental : 14 chambres, 25 lits, auberge depuis 1898', de: 'Hotel Emmental: 14 Zimmer, 25 Betten, Gasthaus seit 1898' },
       ],
+      story: {
+        en: 'The practical side of Thun, built around the railway station rather than the castle view. Hotel Aare stands five minutes on foot from the platforms, and Hotel Emmental has kept the same trade since 1898, a short walk further on. This is the base for arriving with luggage or catching an early train onward to Bern, Spiez or Interlaken; the castle and the lake are both a walk away rather than on the doorstep.',
+        fr: 'Le côté pratique de Thoune, organisé autour de la gare plutôt que de la vue sur le château. L’Hôtel Aare se trouve à cinq minutes à pied des quais, et l’Hôtel Emmental exerce le même métier depuis 1898, un peu plus loin. C’est la base pour arriver avec des bagages ou prendre tôt un train vers Berne, Spiez ou Interlaken ; le château et le lac se trouvent tous deux à distance de marche plutôt qu’à la porte.',
+        de: 'Die praktische Seite Thuns, rund um den Bahnhof statt um den Schlossblick. Das Hotel Aare liegt fünf Gehminuten von den Gleisen entfernt, und das Hotel Emmental führt seit 1898 denselben Betrieb, ein Stück weiter. Das ist die Basis, wenn man mit Gepäck ankommt oder früh Richtung Bern, Spiez oder Interlaken weiterreist; Schloss und See liegen beide einen Fussweg entfernt, nicht direkt vor der Tür.',
+      },
     },
     {
       title: { en: 'Lakeside and Schadau Park, Seestrasse', fr: 'Bord du lac et Schadaupark, Seestrasse', de: 'Seelage und Schadaupark, Seestrasse' },
@@ -91,6 +126,11 @@ export const thun: DestinationGuide = {
         { en: 'Hotel Seepark: 4-star superior, 91 rooms and suites, 121 beds', fr: 'Hôtel Seepark : 4 étoiles supérieur, 91 chambres et suites, 121 lits', de: 'Hotel Seepark: 4 Sterne Superior, 91 Zimmer und Suiten, 121 Betten' },
         { en: 'Schloss Schadau was built in 1846, in neo-gothic style', fr: 'Le Schloss Schadau a été construit en 1846, dans un style néogothique', de: 'Das Schloss Schadau wurde 1846 im neugotischen Stil erbaut' },
       ],
+      story: {
+        en: 'Out along the Seestrasse, the city gives way to the lake and the grounds of Schadau Park, about fifteen minutes on foot from the old town. Hotel Seepark, a four-star superior address with 91 rooms and suites, stands directly on the water inside the park, and Schloss Schadau, a neo-gothic castle from 1846, now rents out nine rooms of its own. This is the side for the lake itself, at the cost of a longer walk back to Schloss Thun and the station.',
+        fr: 'Le long de la Seestrasse, la ville cède la place au lac et aux jardins du Schadaupark, à environ quinze minutes à pied de la vieille ville. L’Hôtel Seepark, 4 étoiles supérieur avec 91 chambres et suites, se dresse directement sur l’eau à l’intérieur du parc, et le Schloss Schadau, château néogothique de 1846, loue aujourd’hui neuf chambres. C’est le côté du lac lui-même, au prix d’une marche plus longue pour revenir au Château de Thoune et à la gare.',
+        de: 'Entlang der Seestrasse weicht die Stadt dem See und den Gartenanlagen des Schadauparks, rund fünfzehn Gehminuten von der Altstadt entfernt. Das Hotel Seepark, ein 4-Sterne-Superior-Haus mit 91 Zimmern und Suiten, steht direkt am Wasser mitten im Park, und das Schloss Schadau, ein neugotisches Schloss von 1846, vermietet heute neun eigene Zimmer. Das ist die Seite für den See selbst, auf Kosten eines längeren Rückwegs zum Schloss Thun und zum Bahnhof.',
+      },
     },
   ],
   hotels: [
@@ -103,6 +143,11 @@ export const thun: DestinationGuide = {
         { en: '4-star, 34 rooms, 76 beds', fr: '4 étoiles, 34 chambres, 76 lits', de: '4 Sterne, 34 Zimmer, 76 Betten' },
         { en: 'Old town centre, next to the Aare and Thun Castle', fr: 'Centre de la vieille ville, à côté de l’Aar et du Château de Thoune', de: 'Altstadtzentrum, neben der Aare und dem Schloss Thun' },
       ],
+      blurb: {
+        en: 'Hotel Krone stands at Obere Hauptgasse 2, in the old town centre next to the Aare and Thun Castle. A four-star house with 34 rooms and 76 beds, it suits a stay built around the castle and the Läuben rather than the lake.',
+        fr: 'L’Hôtel Krone se trouve à l’Obere Hauptgasse 2, au cœur de la vieille ville, à côté de l’Aar et du Château de Thoune. Établissement 4 étoiles de 34 chambres et 76 lits, il convient à un séjour organisé autour du château et des Läuben plutôt que du lac.',
+        de: 'Das Hotel Krone liegt an der Obere Hauptgasse 2, mitten in der Altstadt, neben der Aare und dem Schloss Thun. Als 4-Sterne-Haus mit 34 Zimmern und 76 Betten passt es zu einem Aufenthalt rund um Schloss und Lauben, nicht um den See.',
+      },
     },
     {
       slug: 'thun-aare',
@@ -113,6 +158,11 @@ export const thun: DestinationGuide = {
         { en: 'Right in the centre, 5 minutes on foot from Thun station', fr: 'En plein centre, à 5 minutes à pied de la gare de Thoune', de: 'Direkt im Zentrum, 5 Gehminuten vom Bahnhof Thun entfernt' },
         { en: '60 rooms, 120 beds', fr: '60 chambres, 120 lits', de: '60 Zimmer, 120 Betten' },
       ],
+      blurb: {
+        en: 'Hotel Aare stands right in the centre, five minutes on foot from Thun station, with 60 rooms and 120 beds. It is a practical choice for a short stay or an early departure, closer to the platforms than to the castle or the lake.',
+        fr: 'L’Hôtel Aare se trouve en plein centre, à cinq minutes à pied de la gare de Thoune, avec 60 chambres et 120 lits. C’est un choix pratique pour un court séjour ou un départ matinal, plus proche des quais que du château ou du lac.',
+        de: 'Das Hotel Aare liegt mitten im Zentrum, fünf Gehminuten vom Bahnhof Thun, mit 60 Zimmern und 120 Betten. Eine praktische Wahl für einen kurzen Aufenthalt oder eine frühe Abreise, näher bei den Gleisen als beim Schloss oder am See.',
+      },
     },
     {
       slug: 'thun-emmental',
@@ -123,6 +173,11 @@ export const thun: DestinationGuide = {
         { en: 'A guesthouse since 1898, renovated, 14 rooms, 25 beds', fr: 'Une auberge depuis 1898, rénovée, 14 chambres, 25 lits', de: 'Ein Gasthaus seit 1898, renoviert, 14 Zimmer, 25 Betten' },
         { en: 'TexMex restaurant with a terrace facing Thun Castle', fr: 'Restaurant TexMex avec une terrasse face au Château de Thoune', de: 'TexMex-Restaurant mit Terrasse gegenüber dem Schloss Thun' },
       ],
+      blurb: {
+        en: 'Hotel Emmental has run as a guesthouse since 1898, now renovated to 14 rooms and 25 beds near the station. Its TexMex restaurant has a terrace that faces Thun Castle, an unexpected pairing of cuisine and view.',
+        fr: 'L’Hôtel Emmental exerce comme auberge depuis 1898, aujourd’hui rénovée, avec 14 chambres et 25 lits près de la gare. Son restaurant TexMex dispose d’une terrasse face au Château de Thoune, un mariage inattendu de cuisine et de vue.',
+        de: 'Das Hotel Emmental ist seit 1898 als Gasthaus in Betrieb, heute renoviert, mit 14 Zimmern und 25 Betten nahe dem Bahnhof. Sein TexMex-Restaurant hat eine Terrasse mit Blick auf das Schloss Thun, eine unerwartete Kombination aus Küche und Aussicht.',
+      },
     },
     {
       slug: 'thun-seepark',
@@ -133,6 +188,11 @@ export const thun: DestinationGuide = {
         { en: '4-star superior, 91 stylish rooms and suites, 121 beds', fr: '4 étoiles supérieur, 91 chambres et suites élégantes, 121 lits', de: '4 Sterne Superior, 91 stilvolle Zimmer und Suiten, 121 Betten' },
         { en: 'Directly on Lake Thun within the historic Schadau Park', fr: 'Directement sur le lac de Thoune, au sein du Schadaupark historique', de: 'Direkt am Thunersee im historischen Schadaupark' },
       ],
+      blurb: {
+        en: 'Hotel Seepark stands directly on Lake Thun, inside the historic Schadau Park, with 91 rooms and suites across 121 beds at four-star superior level. It suits a stay built around the water and the park rather than the old town on the other side of the city.',
+        fr: 'L’Hôtel Seepark se dresse directement sur le lac de Thoune, à l’intérieur du Schadaupark historique, avec 91 chambres et suites pour 121 lits en 4 étoiles supérieur. Il convient à un séjour tourné vers l’eau et le parc plutôt que vers la vieille ville, de l’autre côté de la ville.',
+        de: 'Das Hotel Seepark steht direkt am Thunersee, im historischen Schadaupark, mit 91 Zimmern und Suiten für 121 Betten auf 4-Sterne-Superior-Niveau. Es passt zu einem Aufenthalt rund um Wasser und Park statt um die Altstadt auf der anderen Seite der Stadt.',
+      },
     },
     {
       slug: 'thun-alpha',
@@ -143,6 +203,11 @@ export const thun: DestinationGuide = {
         { en: '33 rooms, 67 beds, directly by the lake', fr: '33 chambres, 67 lits, directement au bord du lac', de: '33 Zimmer, 67 Betten, direkt am See' },
         { en: 'Its restaurant is Switzerland’s only one with the OIC certificate for regional products', fr: 'Son restaurant est le seul en Suisse à détenir le certificat OIC pour les produits régionaux', de: 'Sein Restaurant ist gesamtschweizerisch das einzige mit dem OIC-Zertifikat für Regionalprodukte' },
       ],
+      blurb: {
+        en: 'Hotel Alpha stands directly by the lake on Gwattstrasse, with 33 rooms and 67 beds. Its restaurant is the only one in Switzerland to hold the OIC certificate for regional products, a detail that sets the table apart from the rest of this list.',
+        fr: 'L’Hôtel Alpha se dresse directement au bord du lac, sur la Gwattstrasse, avec 33 chambres et 67 lits. Son restaurant est le seul en Suisse à détenir le certificat OIC pour les produits régionaux, un détail qui distingue sa table du reste de cette liste.',
+        de: 'Das Hotel Alpha steht direkt am See, an der Gwattstrasse, mit 33 Zimmern und 67 Betten. Sein Restaurant ist gesamtschweizerisch das einzige mit dem OIC-Zertifikat für Regionalprodukte, ein Detail, das seine Küche vom Rest dieser Liste abhebt.',
+      },
     },
   ],
   hotelsNote: {
@@ -169,9 +234,9 @@ export const thun: DestinationGuide = {
       {
         title: { en: 'Bern, Spiez and Interlaken, all direct', fr: 'Berne, Spiez et Interlaken, tous en direct', de: 'Bern, Spiez und Interlaken, alle direkt' },
         text: {
-          en: 'Bern is 19 minutes away, Spiez 9 minutes on the RE1, and Interlaken Ost 35 minutes, all direct. Zurich HB is 1 h 21 direct on the IC81.',
-          fr: 'Berne se trouve à 19 minutes, Spiez à 9 minutes en RE1, et Interlaken Ost à 35 minutes, tous en direct. Zurich HB est à 1 h 21 en direct avec l’IC81.',
-          de: 'Bern liegt 19 Minuten entfernt, Spiez 9 Minuten mit dem RE1, und Interlaken Ost 35 Minuten, alle direkt. Zürich HB ist 1 Std. 21 direkt mit dem IC81 erreichbar.',
+          en: 'Bern is 19 minutes away, Spiez 9 minutes on the RE1, and Interlaken Ost 35 minutes, all direct; Zurich HB is 1 h 21 direct on the IC81. The station sits in the centre of the city itself, so none of these connections start with a transfer across town.',
+          fr: 'Berne se trouve à 19 minutes, Spiez à 9 minutes en RE1, et Interlaken Ost à 35 minutes, tous en direct ; Zurich HB est à 1 h 21 en direct avec l’IC81. La gare se trouve en plein centre-ville, si bien qu’aucune de ces liaisons ne commence par un trajet à travers la ville.',
+          de: 'Bern liegt 19 Minuten entfernt, Spiez 9 Minuten mit dem RE1, und Interlaken Ost 35 Minuten, alle direkt; Zürich HB ist 1 Std. 21 direkt mit dem IC81 erreichbar. Der Bahnhof liegt mitten in der Stadt, sodass keine dieser Verbindungen mit einem Weg quer durch die Stadt beginnt.',
         },
       },
       {
@@ -204,9 +269,9 @@ export const thun: DestinationGuide = {
     summer: {
       title: { en: 'Summer in Thun', fr: 'L’été à Thoune', de: 'Sommer in Thun' },
       base: {
-        en: 'Stay along Seestrasse for the lake and Schadau Park, or in the old town for Schloss Thun and the Läuben: the castle keeps its longest hours, the boats sail the full lake, and the Thun-Panorama is open.',
-        fr: 'Logez le long de la Seestrasse pour le lac et le Schadaupark, ou dans la vieille ville pour le Château de Thoune et les Läuben : le château garde ses horaires les plus longs, les bateaux desservent tout le lac, et le Thun-Panorama est ouvert.',
-        de: 'Wohnen Sie entlang der Seestrasse für den See und den Schadaupark, oder in der Altstadt für das Schloss Thun und die Lauben: Das Schloss hat seine längsten Öffnungszeiten, die Schiffe befahren den ganzen See, und das Thun-Panorama ist geöffnet.',
+        en: 'Stay along Seestrasse for the lake and Schadau Park, or in the old town for Schloss Thun and the Läuben: the castle keeps its longest hours, the boats sail the full lake, and the Thun-Panorama is open. Either base keeps you close to the boats, which leave from the same central point regardless of which side of Thun you choose.',
+        fr: 'Logez le long de la Seestrasse pour le lac et le Schadaupark, ou dans la vieille ville pour le Château de Thoune et les Läuben : le château garde ses horaires les plus longs, les bateaux desservent tout le lac, et le Thun-Panorama est ouvert. Dans les deux cas, vous restez proche des bateaux, qui partent du même point central quel que soit le côté de Thoune choisi.',
+        de: 'Wohnen Sie entlang der Seestrasse für den See und den Schadaupark, oder in der Altstadt für das Schloss Thun und die Lauben: Das Schloss hat seine längsten Öffnungszeiten, die Schiffe befahren den ganzen See, und das Thun-Panorama ist geöffnet. In beiden Fällen bleiben Sie nah an den Schiffen, die unabhängig von der gewählten Seite Thuns vom selben zentralen Punkt ablegen.',
       },
       facts: [
         { value: '9:30 → 17:30', label: { en: 'Schloss Thun opening hours, July and August', fr: 'horaires du Château de Thoune, juillet et août', de: 'Öffnungszeiten Schloss Thun, Juli und August' } },
@@ -222,9 +287,9 @@ export const thun: DestinationGuide = {
     winter: {
       title: { en: 'Winter in Thun', fr: 'L’hiver à Thoune', de: 'Winter in Thun' },
       base: {
-        en: 'The Thun-Panorama closes altogether outside March to November. Schloss Thun keeps only Sunday afternoons from November to January, with a daily exception over the festive period. BLS boats keep sailing year round on a seasonal timetable.',
-        fr: 'Le Thun-Panorama ferme complètement en dehors de la période mars à novembre. Le Château de Thoune ne garde que le dimanche après-midi de novembre à janvier, avec une exception quotidienne sur la période des fêtes. Les bateaux BLS continuent de naviguer toute l’année selon un horaire saisonnier.',
-        de: 'Das Thun-Panorama schliesst ausserhalb der Zeit von März bis November ganz. Das Schloss Thun hat von November bis Januar nur sonntagnachmittags geöffnet, mit einer täglichen Ausnahme über die Festtage. Die BLS-Schiffe fahren ganzjährig nach saisonalem Fahrplan weiter.',
+        en: 'Base yourself near the station or the old town in winter, since the boats, which keep sailing year round on a seasonal timetable, are the one attraction that runs regardless of where you sleep. The Thun-Panorama closes altogether outside March to November, and Schloss Thun keeps only Sunday afternoons from November to January, with a daily exception over the festive period.',
+        fr: 'Installez-vous près de la gare ou de la vieille ville en hiver, puisque les bateaux, qui continuent de naviguer toute l’année selon un horaire saisonnier, sont la seule attraction qui fonctionne quel que soit votre lieu de séjour. Le Thun-Panorama ferme complètement en dehors de la période mars à novembre, et le Château de Thoune ne garde que le dimanche après-midi de novembre à janvier, avec une exception quotidienne sur la période des fêtes.',
+        de: 'Wohnen Sie im Winter nahe dem Bahnhof oder der Altstadt, denn die Schiffe, die ganzjährig nach saisonalem Fahrplan weiterfahren, sind die einzige Attraktion, die unabhängig vom Wohnort läuft. Das Thun-Panorama schliesst ausserhalb der Zeit von März bis November ganz, und das Schloss Thun hat von November bis Januar nur sonntagnachmittags geöffnet, mit einer täglichen Ausnahme über die Festtage.',
       },
       facts: [
         { value: '13:00 → 16:00', label: { en: 'Schloss Thun, Sundays only, November to January', fr: 'Château de Thoune, dimanche uniquement, de novembre à janvier', de: 'Schloss Thun, nur sonntags, November bis Januar' } },
@@ -241,9 +306,9 @@ export const thun: DestinationGuide = {
   doing: {
     title: { en: 'What to do in Thun', fr: 'Que faire à Thoune', de: 'Was man in Thun unternimmt' },
     intro: {
-      en: 'Not a trail guide: named places from the city and the regional tourist office, the castle, the lake and the two riverside and lakeside promenades.',
-      fr: 'Pas un guide de randonnée : quelques lieux nommés, repris de la ville et de l’office du tourisme régional, le château, le lac et les deux promenades le long de la rivière et du lac.',
-      de: 'Kein Wanderführer: benannte Orte von der Stadt und dem regionalen Tourismusbüro, das Schloss, der See und die zwei Promenaden entlang Fluss und See.',
+      en: 'Thun is not short of things to do, but a handful of places give a stay its shape: the castle above the old town, the lake boats leaving from the centre, and two promenades that follow first the river and then the shore. These are the ones named by the city and the regional tourist office, with the figures they publish.',
+      fr: 'Thoune ne manque pas d’activités, mais quelques lieux donnent sa forme à un séjour : le château au-dessus de la vieille ville, les bateaux du lac qui partent du centre, et deux promenades qui suivent d’abord la rivière puis la rive. Ce sont ceux que nomment la ville et l’office du tourisme régional, avec les chiffres qu’ils publient.',
+      de: 'An Aktivitäten fehlt es Thun nicht, doch eine Handvoll Orte prägt einen Aufenthalt: das Schloss über der Altstadt, die Kursschiffe, die im Zentrum ablegen, und zwei Promenaden, die erst dem Fluss und dann dem Ufer folgen. Das sind jene, die von der Stadt und dem regionalen Tourismusbüro genannt werden, mit den Zahlen, die sie veröffentlichen.',
     },
     groups: [
       {
@@ -302,18 +367,18 @@ export const thun: DestinationGuide = {
             name: { en: 'Aarequai and Brahmsquai', fr: 'Aarequai et Brahmsquai', de: 'Aarequai und Brahmsquai' },
             meta: { en: 'about 2 km · old town to Hünibach', fr: 'environ 2 km · vieille ville à Hünibach', de: 'rund 2 km · Altstadt bis Hünibach' },
             text: {
-              en: 'A promenade running from Thun’s old town to Hünibach, along the Aarequai and the adjoining Brahmsquai.',
-              fr: 'Une promenade qui va de la vieille ville de Thoune à Hünibach, le long de l’Aarequai et du Brahmsquai qui lui fait suite.',
-              de: 'Eine Promenade von der Thuner Altstadt bis nach Hünibach, entlang des Aarequais und des daran anschliessenden Brahmsquais.',
+              en: 'A promenade of about 2 km, running from Thun’s old town to Hünibach along the Aarequai and the adjoining Brahmsquai. Short enough for an evening walk after checking in, it follows the river out past the edge of the city rather than climbing into the hills.',
+              fr: 'Une promenade d’environ 2 km, de la vieille ville de Thoune à Hünibach, le long de l’Aarequai et du Brahmsquai qui lui fait suite. Assez courte pour une sortie du soir après l’arrivée, elle longe la rivière en sortant de la ville plutôt que de grimper dans les hauteurs.',
+              de: 'Eine rund 2 km lange Promenade von der Thuner Altstadt bis nach Hünibach, entlang des Aarequais und des daran anschliessenden Brahmsquais. Kurz genug für einen Abendspaziergang nach der Ankunft, folgt sie dem Fluss aus der Stadt hinaus, statt in die Höhe zu führen.',
             },
           },
           {
             name: { en: 'The lakeside Uferweg', fr: 'L’Uferweg au bord du lac', de: 'Der Uferweg' },
             meta: { en: 'about 6 km · city centre to Gwattlischenmoos', fr: 'environ 6 km · centre-ville à Gwattlischenmoos', de: 'rund 6 km · Stadtzentrum bis Gwattlischenmoos' },
             text: {
-              en: 'A lakeside path running from the city centre to Gwattlischenmoos, along the shore of Lake Thun.',
-              fr: 'Un chemin riverain qui va du centre-ville à Gwattlischenmoos, le long de la rive du lac de Thoune.',
-              de: 'Ein Uferweg vom Stadtzentrum bis Gwattlischenmoos, dem Thunerseeufer entlang.',
+              en: 'The lakeside Uferweg runs about 6 km from the city centre to Gwattlischenmoos, following the shore of Lake Thun. At that length, plan on half a day rather than a quick stroll to walk it end to end.',
+              fr: 'L’Uferweg longe le lac sur environ 6 km, du centre-ville jusqu’à Gwattlischenmoos, au bord du lac de Thoune. Sur cette distance, prévoyez une demi-journée plutôt qu’une courte balade pour le parcourir d’un bout à l’autre.',
+              de: 'Der Uferweg führt rund 6 km vom Stadtzentrum bis Gwattlischenmoos, dem Thunerseeufer entlang. Auf dieser Strecke braucht es eher einen halben Tag als einen kurzen Spaziergang, um ihn von Anfang bis Ende zu gehen.',
             },
           },
         ],
@@ -326,18 +391,18 @@ export const thun: DestinationGuide = {
             name: 'Hotel Restaurant Rathaus',
             meta: { en: 'Gerberngasse 1 · closed Sundays', fr: 'Gerberngasse 1 · fermé le dimanche', de: 'Gerberngasse 1 · sonntags geschlossen' },
             text: {
-              en: 'Seating for 120 indoors in total, 80 in the banquet hall and 80 on the terrace, with Italian, Mediterranean, fish and grill dishes plus a pizzeria.',
-              fr: 'Une capacité de 120 places en intérieur, 80 dans la salle de banquet et 80 en terrasse, avec des plats italiens, méditerranéens, de poisson et de grill, plus une pizzeria.',
-              de: 'Insgesamt 120 Sitzplätze innen, 80 im Bankettsaal und 80 auf der Terrasse, mit italienischen, mediterranen, Fisch- und Grillgerichten sowie einer Pizzeria.',
+              en: 'Seating for 120 indoors in total, 80 in the banquet hall and 80 on the terrace, with Italian, Mediterranean, fish and grill dishes plus a pizzeria. It closes on Sundays, worth checking before planning a weekend dinner near the castle.',
+              fr: 'Une capacité de 120 places en intérieur, 80 dans la salle de banquet et 80 en terrasse, avec des plats italiens, méditerranéens, de poisson et de grill, plus une pizzeria. Il ferme le dimanche, à vérifier avant de prévoir un dîner de week-end près du château.',
+              de: 'Insgesamt 120 Sitzplätze innen, 80 im Bankettsaal und 80 auf der Terrasse, mit italienischen, mediterranen, Fisch- und Grillgerichten sowie einer Pizzeria. Er ist sonntags geschlossen, gut zu wissen, bevor man ein Wochenend-Nachtessen nahe dem Schloss plant.',
             },
           },
           {
             name: 'Schloss Schadau Restaurant',
             meta: { en: 'Seestrasse 45 · inside Schadau Park', fr: 'Seestrasse 45 · dans le Schadaupark', de: 'Seestrasse 45 · im Schadaupark' },
             text: {
-              en: 'Seating across the interior, the main hall, two side rooms, a terrace and a veranda, with French, Mediterranean, regional Swiss and vegan dishes.',
-              fr: 'Des places réparties entre l’intérieur, la salle principale, deux salons, une terrasse et une véranda, avec des plats français, méditerranéens, suisses régionaux et végans.',
-              de: 'Sitzplätze verteilt auf Innenraum, Hauptsaal, zwei Nebenräume, Terrasse und Veranda, mit französischen, mediterranen, regionalen Schweizer und veganen Gerichten.',
+              en: 'Seating across the interior, the main hall, two side rooms, a terrace and a veranda, with French, Mediterranean, regional Swiss and vegan dishes. Set inside Schadau Park itself, it works as a stop after a walk along the lake rather than a detour back into town.',
+              fr: 'Des places réparties entre l’intérieur, la salle principale, deux salons, une terrasse et une véranda, avec des plats français, méditerranéens, suisses régionaux et végans. Installé à l’intérieur même du Schadaupark, il sert d’étape après une marche au bord du lac plutôt que d’un détour en ville.',
+              de: 'Sitzplätze verteilt auf Innenraum, Hauptsaal, zwei Nebenräume, Terrasse und Veranda, mit französischen, mediterranen, regionalen Schweizer und veganen Gerichten. Mitten im Schadaupark gelegen, eignet es sich als Zwischenstopp nach einem Spaziergang am See statt als Umweg in die Stadt.',
             },
           },
         ],
@@ -353,17 +418,17 @@ export const thun: DestinationGuide = {
     {
       q: { en: 'How far is Thun from Bern?', fr: 'À quelle distance Thoune se trouve-t-elle de Berne ?', de: 'Wie weit ist Thun von Bern entfernt?' },
       a: {
-        en: '19 minutes direct by train.',
-        fr: '19 minutes en train direct.',
-        de: '19 Minuten mit dem direkten Zug.',
+        en: 'Thun is 19 minutes from Bern by direct train. That is close enough to treat Bern as a half-day trip without changing where you sleep.',
+        fr: 'Thoune se trouve à 19 minutes de Berne en train direct. C’est assez proche pour traiter Berne comme une excursion d’une demi-journée sans changer d’hébergement.',
+        de: 'Thun liegt 19 Minuten von Bern entfernt, mit dem direkten Zug. Das ist nah genug, um Bern als Halbtagesausflug zu behandeln, ohne die Unterkunft zu wechseln.',
       },
     },
     {
       q: { en: 'Can I see the Eiger, Mönch and Jungfrau from Thun?', fr: 'Peut-on voir l’Eiger, le Mönch et la Jungfrau depuis Thoune ?', de: 'Sieht man von Thun aus Eiger, Mönch und Jungfrau?' },
       a: {
-        en: 'The regional tourist office lists views of the Eiger, Mönch and Jungfrau as part of the Thun area’s outlook.',
-        fr: 'L’office du tourisme régional mentionne des vues sur l’Eiger, le Mönch et la Jungfrau parmi les panoramas offerts par la région de Thoune.',
-        de: 'Das regionale Tourismusbüro nennt Ausblicke auf Eiger, Mönch und Jungfrau als Teil des Panoramas der Region Thun.',
+        en: 'The regional tourist office lists views of the Eiger, Mönch and Jungfrau as part of the outlook from the Thun area. Whether you actually see them depends on the weather and which side of the lake you are on, so treat it as a bonus of the location rather than a guarantee from every window.',
+        fr: 'L’office du tourisme régional mentionne des vues sur l’Eiger, le Mönch et la Jungfrau parmi les panoramas offerts par la région de Thoune. Les apercevoir dépend de la météo et du côté du lac où l’on se trouve, à considérer donc comme un avantage du lieu plutôt qu’une garantie depuis chaque fenêtre.',
+        de: 'Das regionale Tourismusbüro nennt Ausblicke auf Eiger, Mönch und Jungfrau als Teil des Panoramas der Region Thun. Ob man sie tatsächlich sieht, hängt vom Wetter und der Seeseite ab, an der man sich befindet, also eher ein Bonus der Lage als eine Garantie von jedem Fenster aus.',
       },
     },
     {
@@ -385,9 +450,9 @@ export const thun: DestinationGuide = {
     {
       q: { en: 'Can I get from Thun to Spiez and Interlaken by train easily?', fr: 'Peut-on facilement rejoindre Spiez et Interlaken depuis Thoune en train ?', de: 'Kommt man von Thun einfach mit dem Zug nach Spiez und Interlaken?' },
       a: {
-        en: 'Yes, Thun to Spiez is 9 minutes direct, and Thun to Interlaken Ost is 35 minutes direct, both on the same line.',
-        fr: 'Oui, Thoune à Spiez se fait en 9 minutes en direct, et Thoune à Interlaken Ost en 35 minutes en direct, les deux sur la même ligne.',
-        de: 'Ja, Thun nach Spiez sind 9 Minuten direkt, und Thun nach Interlaken Ost 35 Minuten direkt, beide auf derselben Linie.',
+        en: 'Yes: Thun to Spiez takes 9 minutes and Thun to Interlaken Ost 35 minutes, both direct on the same line. That makes Thun a workable base for day trips further into the Bernese Oberland without changing trains.',
+        fr: 'Oui : Thoune à Spiez se fait en 9 minutes et Thoune à Interlaken Ost en 35 minutes, les deux en direct sur la même ligne. Cela fait de Thoune une base pratique pour des excursions plus loin dans l’Oberland bernois, sans changer de train.',
+        de: 'Ja: Thun nach Spiez dauert 9 Minuten und Thun nach Interlaken Ost 35 Minuten, beide direkt auf derselben Linie. Das macht Thun zu einer praktischen Basis für Ausflüge weiter ins Berner Oberland, ohne umzusteigen.',
       },
     },
   ],
