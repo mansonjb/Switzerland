@@ -1,0 +1,263 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "la-lausanne-palace",
+      "bookingName": "Lausanne Palace",
+      "tier": "mid",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/lausannepalace.en-gb.html",
+      "address": "Grand Chene 7-9, Lausanne Centre, 1002 Lausanne, Switzerland",
+      "prices": {
+        "2026-12-18": 348,
+        "2027-02-17": 348,
+        "2027-07-21": 388,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 348,
+        "avg": 360,
+        "samples": 3
+      },
+      "winter": {
+        "from": 348,
+        "avg": 350,
+        "samples": 2
+      },
+      "summer": {
+        "from": 388,
+        "avg": 390,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "la-beau-rivage-palace",
+      "bookingName": "Beau-Rivage Palace",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/beaurivagepalace.en-gb.html",
+      "address": "Place du Port 17-19, 1006 Lausanne, Switzerland",
+      "prices": {
+        "2026-12-18": 554,
+        "2027-02-17": 534,
+        "2027-07-21": 574,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 534,
+        "avg": 555,
+        "samples": 3
+      },
+      "winter": {
+        "from": 534,
+        "avg": 545,
+        "samples": 2
+      },
+      "summer": {
+        "from": 574,
+        "avg": 575,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "la-chateau-douchy",
+      "bookingName": "Château d'Ouchy",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/chateau-d-ouchy.en-gb.html",
+      "address": "Place du Port 2, 1000 Lausanne, Switzerland",
+      "prices": {
+        "2026-12-18": 258,
+        "2027-02-17": 258,
+        "2027-07-21": 353,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 258,
+        "avg": 290,
+        "samples": 3
+      },
+      "winter": {
+        "from": 258,
+        "avg": 260,
+        "samples": 2
+      },
+      "summer": {
+        "from": 353,
+        "avg": 355,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "la-angleterre-residence",
+      "bookingName": "Hotel Angleterre",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/angleterre-residence.en-gb.html",
+      "address": "Place du Port 11, 1006 Lausanne, Switzerland",
+      "prices": {
+        "2026-12-18": 233,
+        "2027-02-17": 233,
+        "2027-07-21": 297,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 233,
+        "avg": 255,
+        "samples": 3
+      },
+      "winter": {
+        "from": 233,
+        "avg": 235,
+        "samples": 2
+      },
+      "summer": {
+        "from": 297,
+        "avg": 295,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "la-royal-savoy",
+      "bookingName": "Royal Savoy Hotel & Spa",
+      "tier": "mid",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/royal-savoy-lausanne.en-gb.html",
+      "address": "Avenue d'Ouchy 40, 1006 Lausanne, Switzerland",
+      "prices": {
+        "2026-12-18": 373,
+        "2027-02-17": 373,
+        "2027-07-21": 567,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 373,
+        "avg": 440,
+        "samples": 3
+      },
+      "winter": {
+        "from": 373,
+        "avg": 375,
+        "samples": 2
+      },
+      "summer": {
+        "from": 567,
+        "avg": 565,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "la-continental",
+      "bookingName": "Continental Hotel Lausanne",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/continental.en-gb.html",
+      "address": "Place de la Gare 2, Lausanne Centre, 1001 Lausanne, Switzerland",
+      "prices": {
+        "2026-12-18": 181,
+        "2027-02-17": 199,
+        "2027-07-21": 252,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 181,
+        "avg": 210,
+        "samples": 3
+      },
+      "winter": {
+        "from": 181,
+        "avg": 190,
+        "samples": 2
+      },
+      "summer": {
+        "from": 252,
+        "avg": 250,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "la-victoria",
+      "bookingName": "Hotel Victoria",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/victoria-lausanne.en-gb.html",
+      "address": "46 Av. de la Gare, Lausanne Centre, 1001 Lausanne, Switzerland",
+      "prices": {
+        "2026-12-18": 222,
+        "2027-07-21": 250,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 222,
+        "avg": 235,
+        "samples": 2
+      },
+      "winter": {
+        "from": 222,
+        "avg": 220,
+        "samples": 1
+      },
+      "summer": {
+        "from": 250,
+        "avg": 250,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "la-du-port",
+      "bookingName": "Hôtel du Port",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/du-port.en-gb.html",
+      "address": "Place du Port 5, 1006 Lausanne, Switzerland",
+      "prices": {
+        "2027-02-17": 154,
+        "2027-07-21": 154,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 154,
+        "avg": 155,
+        "samples": 2
+      },
+      "winter": {
+        "from": 154,
+        "avg": 155,
+        "samples": 1
+      },
+      "summer": {
+        "from": 154,
+        "avg": 155,
+        "samples": 1
+      }
+    }
+  ]
+}

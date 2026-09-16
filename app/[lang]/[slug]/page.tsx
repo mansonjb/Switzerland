@@ -53,7 +53,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
     ...(guide.doing ? [{ id: 'things-to-do', label: nav.doing }] : []),
     ...(guide.pass ? [{ id: 'swiss-travel-pass', label: nav.pass }] : []),
     ...(guide.calendar ? [{ id: 'seasons', label: nav.seasons }] : []),
-    ...(guide.practical ? [{ id: 'car-free', label: nav.carFree }] : []),
+    ...(guide.practical ? [{ id: 'car-free', label: dest.carFree ? nav.carFree : nav.practical }] : []),
     { id: 'faq', label: nav.faq },
   ]
 
