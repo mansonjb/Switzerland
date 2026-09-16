@@ -117,7 +117,7 @@ export function PassTable({ pass, locale }: { pass: NonNullable<DestinationGuide
         <div key={i} className={`grid grid-cols-[1fr_110px] items-baseline gap-2 border-b border-rule py-3 md:grid-cols-[1fr_300px] md:gap-0 md:py-0 ${i % 2 ? 'bg-sand' : ''}`}>
           <div className="text-sm leading-snug text-ink md:px-4 md:py-3.5 md:text-base">{t(r.section, locale)}</div>
           <div className={`text-right font-display text-xl font-bold uppercase md:px-4 md:py-3.5 md:text-2xl ${r.coverage === 'included' ? 'text-open' : 'text-ink'}`}>
-            {r.coverage === 'included' ? d.pass.included : d.pass.discount25}
+            {r.coverage === 'included' ? d.pass.included : r.coverage === 'discount50' ? d.pass.discount50 : d.pass.discount25}
           </div>
         </div>
       ))}

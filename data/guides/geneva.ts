@@ -107,7 +107,7 @@ export const geneva: DestinationGuide = {
     {
       slug: 'ge-9hotel-paquis',
       name: '9Hotel Pâquis',
-      url: 'https://9hotelpaquis.ch/',
+      url: 'https://9-hotel-geneve-paquis.ch',
       sector: { en: 'Pâquis, near the station', fr: 'Pâquis, près de la gare', de: 'Pâquis, nahe dem Bahnhof' },
       facts: [
         { en: 'Rue de Berne 31, 300 m from Cornavin station and 500 m from the lake', fr: 'Rue de Berne 31, à 300 m de la gare de Cornavin et 500 m du lac', de: 'Rue de Berne 31, 300 m vom Bahnhof Cornavin und 500 m vom See entfernt' },

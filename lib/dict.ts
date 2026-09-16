@@ -16,7 +16,7 @@ const en = {
   closed: 'Closed',
   months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
   choice: { village: 'Village', forWhom: 'Who it suits', legendFull: 'Filled square = stronger on this criterion', legendBest: 'Best pick for the criterion' },
-  pass: { section: 'Section', coverage: 'Swiss Travel Pass', included: 'Included', discount25: '25% off', fare: '2026 fare · CHF', without: 'Without pass', with: 'With pass', withoutShort: 'Without', withShort: 'With' },
+  pass: { section: 'Section', coverage: 'Swiss Travel Pass', included: 'Included', discount25: '25% off', discount50: '50% off', fare: '2026 fare · CHF', without: 'Without pass', with: 'With pass', withoutShort: 'Without', withShort: 'With' },
   booking: { where: 'Where', checkin: 'Check-in', checkout: 'Check-out', search: 'See the hotels', nights: 'nights', trust: 'Your dates apply to every hotel and to the live map below.' },
   sell: {
     liveMap: 'Hotels in {place}, live prices',
@@ -79,7 +79,7 @@ const fr: Dict = {
   closed: 'Fermé',
   months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
   choice: { village: 'Village', forWhom: 'Pour qui', legendFull: 'Carré plein = plus fort sur ce critère', legendBest: 'Meilleur choix du critère' },
-  pass: { section: 'Section', coverage: 'Swiss Travel Pass', included: 'Inclus', discount25: '-25 %', fare: 'Tarif 2026 · CHF', without: 'Sans pass', with: 'Avec pass', withoutShort: 'Sans', withShort: 'Avec' },
+  pass: { section: 'Section', coverage: 'Swiss Travel Pass', included: 'Inclus', discount25: '-25 %', discount50: '-50 %', fare: 'Tarif 2026 · CHF', without: 'Sans pass', with: 'Avec pass', withoutShort: 'Sans', withShort: 'Avec' },
   booking: { where: 'Où', checkin: 'Arrivée', checkout: 'Départ', search: 'Voir les hôtels', nights: 'nuits', trust: 'Vos dates s’appliquent à chaque hôtel et à la carte en direct.' },
   sell: {
     liveMap: 'Hôtels à {place}, prix en direct',
@@ -140,7 +140,7 @@ const de: Dict = {
   closed: 'Geschlossen',
   months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
   choice: { village: 'Ort', forWhom: 'Für wen', legendFull: 'Volles Quadrat = stärker bei diesem Kriterium', legendBest: 'Beste Wahl für das Kriterium' },
-  pass: { section: 'Strecke', coverage: 'Swiss Travel Pass', included: 'Inbegriffen', discount25: '-25 %', fare: 'Tarif 2026 · CHF', without: 'Ohne Pass', with: 'Mit Pass', withoutShort: 'Ohne', withShort: 'Mit' },
+  pass: { section: 'Strecke', coverage: 'Swiss Travel Pass', included: 'Inbegriffen', discount25: '-25 %', discount50: '-50 %', fare: 'Tarif 2026 · CHF', without: 'Ohne Pass', with: 'Mit Pass', withoutShort: 'Ohne', withShort: 'Mit' },
   booking: { where: 'Wohin', checkin: 'Anreise', checkout: 'Abreise', search: 'Hotels ansehen', nights: 'Nächte', trust: 'Ihre Daten gelten für jedes Hotel und die Live-Karte.' },
   sell: {
     liveMap: 'Hotels in {place}, Live-Preise',

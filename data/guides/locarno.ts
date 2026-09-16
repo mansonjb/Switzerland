@@ -174,7 +174,7 @@ export const locarno: DestinationGuide = {
     title: { en: 'Swiss Travel Pass, up to Orselina and Cardada', fr: 'Swiss Travel Pass, jusqu’à Orselina et Cardada', de: 'Swiss Travel Pass, hinauf nach Orselina und Cardada' },
     rows: [
       { section: { en: 'Funicular Locarno–Madonna del Sasso–Orselina', fr: 'Funiculaire Locarno–Madonna del Sasso–Orselina', de: 'Standseilbahn Locarno–Madonna del Sasso–Orselina' }, coverage: 'discount25' },
-      { section: { en: 'Cardada cable car and Cimetta chairlift', fr: 'Téléphérique de Cardada et télésiège de Cimetta', de: 'Cardada-Seilbahn und Cimetta-Sessellift' }, coverage: 'discount25' },
+      { section: { en: 'Cardada cable car and Cimetta chairlift', fr: 'Téléphérique de Cardada et télésiège de Cimetta', de: 'Cardada-Seilbahn und Cimetta-Sessellift' }, coverage: 'discount50' },
     ],
     fare: {
       label: { en: 'Cardada return, adult, fares valid 20 December 2025 to 8 November 2026', fr: 'Aller-retour Cardada, adulte, tarifs valables du 20 décembre 2025 au 8 novembre 2026', de: 'Retourfahrt Cardada, Erwachsene, Tarife gültig vom 20. Dezember 2025 bis 8. November 2026' },

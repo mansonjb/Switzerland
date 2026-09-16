@@ -40,7 +40,7 @@ export type DestinationGuide = {
   pass?: {
     title: L
     /** What the pass does on each leg. Single-leg fares are not published by operators, so none are shown. */
-    rows: { section: L; coverage: 'included' | 'discount25' }[]
+    rows: { section: L; coverage: 'included' | 'discount25' | 'discount50' }[]
     fare: { label: L; without: string; with: string }
     note: L
   }

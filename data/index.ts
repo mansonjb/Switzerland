@@ -16,6 +16,15 @@ import { pontresina } from './guides/pontresina'
 import { gstaad } from './guides/gstaad'
 import { adelboden } from './guides/adelboden'
 import { kandersteg } from './guides/kandersteg'
+import { locarno } from './guides/locarno'
+import { ascona } from './guides/ascona'
+import { lugano } from './guides/lugano'
+import { lausanne } from './guides/lausanne'
+import { montreux } from './guides/montreux'
+import { vevey } from './guides/vevey'
+import { geneva } from './guides/geneva'
+import { basel } from './guides/basel'
+import { stGallen } from './guides/st-gallen'
 import { berneseOberland } from './regions/bernese-oberland'
 import { valais } from './regions/valais'
 import { graubunden } from './regions/graubunden'
@@ -27,7 +36,7 @@ export { destinations, regionNames }
  * Published pages. Anti scaled-content rule: ONE rich page per destination, a guide ships
  * only once its facts are sourced (data/SOURCES.md). Never generate pages combinatorially.
  */
-const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg]
+const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen]
 const REGIONS: Region[] = [berneseOberland, valais, graubunden]
 
 export const publishedGuides = () => GUIDES
