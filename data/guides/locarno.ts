@@ -97,6 +97,7 @@ export const locarno: DestinationGuide = {
     {
       slug: 'locarno-belvedere',
       name: 'Hotel Belvedere Locarno',
+      photo: '/photos/hotels/locarno-belvedere.jpg',
       url: 'https://www.belvedere-locarno.com/en',
       sector: { en: 'Orselina hillside', fr: 'Coteau d’Orselina', de: 'Orselina, am Hang' },
       facts: [
@@ -107,6 +108,7 @@ export const locarno: DestinationGuide = {
     {
       slug: 'locarno-dellangelo',
       name: 'Hotel dell’Angelo',
+      photo: '/photos/hotels/locarno-dellangelo.jpg',
       url: 'https://www.dellangelo.ch/en',
       sector: { en: 'Piazza Grande', fr: 'Piazza Grande', de: 'Piazza Grande' },
       facts: [
@@ -117,6 +119,7 @@ export const locarno: DestinationGuide = {
     {
       slug: 'locarno-millennium',
       name: 'Hotel Millennium',
+      photo: '/photos/hotels/locarno-millennium.jpg',
       url: 'https://millennium-hotel.ch/',
       sector: { en: 'Muralto, opposite the landing stage', fr: 'Muralto, face à l’embarcadère', de: 'Muralto, gegenüber der Anlegestelle' },
       facts: [
@@ -127,6 +130,7 @@ export const locarno: DestinationGuide = {
     {
       slug: 'locarno-geranio',
       name: 'Hotel Geranio au Lac',
+      photo: '/photos/hotels/locarno-geranio.jpg',
       url: 'https://www.hotelgeranio.ch/',
       sector: { en: 'Muralto lakefront', fr: 'Front de lac de Muralto', de: 'Muralto, am Seeufer' },
       facts: [
@@ -147,6 +151,7 @@ export const locarno: DestinationGuide = {
     {
       slug: 'locarno-palma-au-lac',
       name: 'La Palma au Lac',
+      photo: '/photos/hotels/locarno-palma-au-lac.jpg',
       url: 'https://www.lapalmaaulac.com/',
       sector: { en: 'Muralto lakefront, Viale Verbano', fr: 'Front de lac de Muralto, Viale Verbano', de: 'Muralto, Seeufer, Viale Verbano' },
       facts: [

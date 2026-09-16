@@ -107,6 +107,7 @@ export const ascona: DestinationGuide = {
     {
       slug: 'ascona-eden-roc',
       name: 'Hotel Eden Roc',
+      photo: '/photos/hotels/ascona-eden-roc.jpg',
       url: 'https://tschuggencollection.ch/en/hotel/hotel-eden-roc',
       sector: { en: 'Lakefront', fr: 'Front de lac', de: 'Seeufer' },
       facts: [
@@ -127,6 +128,7 @@ export const ascona: DestinationGuide = {
     {
       slug: 'ascona-carcani',
       name: 'Albergo Carcani',
+      photo: '/photos/hotels/ascona-carcani.jpg',
       url: 'https://carcani.ch/en/',
       sector: { en: 'Lakefront', fr: 'Front de lac', de: 'Seeufer' },
       facts: [
@@ -157,6 +159,7 @@ export const ascona: DestinationGuide = {
     {
       slug: 'ascona-monte-verita',
       name: 'Hotel Fondazione Monte Verità',
+      photo: '/photos/hotels/ascona-monte-verita.jpg',
       url: 'https://monteverita.org/en/',
       sector: { en: 'Via Collina 84, Monte Verità', fr: 'Via Collina 84, Monte Verità', de: 'Via Collina 84, Monte Verità' },
       facts: [
@@ -167,6 +170,7 @@ export const ascona: DestinationGuide = {
     {
       slug: 'ascona-seven',
       name: 'Seven Boutique Hotel Ascona',
+      photo: '/photos/hotels/ascona-seven.jpg',
       url: 'https://www.seven.ch/en/',
       sector: { en: 'Piazza Giuseppe Motta 21 and 25', fr: 'Piazza Giuseppe Motta 21 et 25', de: 'Piazza Giuseppe Motta 21 und 25' },
       facts: [

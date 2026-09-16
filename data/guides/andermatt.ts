@@ -97,6 +97,7 @@ export const andermatt: DestinationGuide = {
     {
       slug: 'andermatt-chedi',
       name: 'The Chedi Andermatt',
+      photo: '/photos/hotels/andermatt-chedi.jpg',
       url: 'https://www.thechediandermatt.com/',
       sector: { en: 'Andermatt Reuss', fr: 'Andermatt Reuss', de: 'Andermatt Reuss' },
       facts: [
@@ -108,6 +109,7 @@ export const andermatt: DestinationGuide = {
     {
       slug: 'andermatt-river-house',
       name: 'Boutique Hotel The River House',
+      photo: '/photos/hotels/andermatt-river-house.jpg',
       url: 'https://www.theriverhouse.ch/',
       sector: { en: 'Village centre', fr: 'Centre du village', de: 'Dorfzentrum' },
       facts: [
@@ -129,6 +131,7 @@ export const andermatt: DestinationGuide = {
     {
       slug: 'andermatt-radisson-blu-reussen',
       name: 'Radisson Blu Hotel Reussen, Andermatt',
+      photo: '/photos/hotels/andermatt-radisson-blu-reussen.jpg',
       url: 'https://www.radissonhotels.com/en-us/hotels/radisson-blu-andermatt-reussen',
       sector: { en: 'Andermatt Reuss', fr: 'Andermatt Reuss', de: 'Andermatt Reuss' },
       facts: [
@@ -149,6 +152,7 @@ export const andermatt: DestinationGuide = {
     {
       slug: 'andermatt-sonne',
       name: 'Hotel Sonne',
+      photo: '/photos/hotels/andermatt-sonne.jpg',
       url: 'https://www.andermatt-sedrun-disentis.ch/andermatt/en/service-providers/hotel-sonne-24',
       sector: { en: 'By the station', fr: 'Près de la gare', de: 'Beim Bahnhof' },
       facts: [
@@ -159,6 +163,7 @@ export const andermatt: DestinationGuide = {
     {
       slug: 'andermatt-bergidyll',
       name: 'Hotel Bergidyll',
+      photo: '/photos/hotels/andermatt-bergidyll.jpg',
       url: 'https://www.andermatt-sedrun-disentis.ch/andermatt/en/service-providers/hotel-bergidyll-33',
       sector: { en: 'By the Gütsch cable car and the station', fr: 'Près du téléphérique du Gütsch et de la gare', de: 'Bei der Gütschbahn und dem Bahnhof' },
       facts: [

@@ -97,6 +97,7 @@ export const bern: DestinationGuide = {
     {
       slug: 'be-bellevue-palace',
       name: 'Bellevue Palace',
+      photo: '/photos/hotels/be-bellevue-palace.jpg',
       url: 'https://www.bellevue-palace.ch/',
       sector: { en: 'Kochergasse, by the Federal Palace', fr: 'Kochergasse, près du Palais fédéral', de: 'Kochergasse, beim Bundeshaus' },
       facts: [
@@ -107,6 +108,7 @@ export const bern: DestinationGuide = {
     {
       slug: 'be-schweizerhof',
       name: 'Hotel Schweizerhof Bern & Spa',
+      photo: '/photos/hotels/be-schweizerhof.jpg',
       url: 'https://www.schweizerhof-bern.ch/',
       sector: { en: 'Bahnhofplatz, station square', fr: 'Bahnhofplatz, place de la gare', de: 'Bahnhofplatz, am Bahnhof' },
       facts: [
@@ -117,6 +119,7 @@ export const bern: DestinationGuide = {
     {
       slug: 'be-belle-epoque',
       name: 'Boutique Hotel Belle Époque',
+      photo: '/photos/hotels/be-belle-epoque.jpg',
       url: 'https://www.belle-epoque.ch/',
       sector: { en: 'Gerechtigkeitsgasse, lower old town', fr: 'Gerechtigkeitsgasse, basse vieille ville', de: 'Gerechtigkeitsgasse, untere Altstadt' },
       facts: [
@@ -127,6 +130,7 @@ export const bern: DestinationGuide = {
     {
       slug: 'be-kreuz',
       name: 'Hotel Kreuz Bern',
+      photo: '/photos/hotels/be-kreuz.jpg',
       url: 'https://www.kreuzbern.ch/',
       sector: { en: 'Zeughausgasse, old town', fr: 'Zeughausgasse, vieille ville', de: 'Zeughausgasse, Altstadt' },
       facts: [
@@ -137,6 +141,7 @@ export const bern: DestinationGuide = {
     {
       slug: 'be-national',
       name: 'Hotel National Bern',
+      photo: '/photos/hotels/be-national.jpg',
       url: 'https://www.nationalbern.ch/',
       sector: { en: 'Hirschengraben', fr: 'Hirschengraben', de: 'Hirschengraben' },
       facts: [
@@ -157,6 +162,7 @@ export const bern: DestinationGuide = {
     {
       slug: 'be-innere-enge',
       name: 'Hotel Innere Enge',
+      photo: '/photos/hotels/be-innere-enge.jpg',
       url: 'http://innere-enge.ch/',
       sector: { en: 'Engehalbinsel', fr: 'Engehalbinsel', de: 'Engehalbinsel' },
       facts: [
@@ -167,6 +173,7 @@ export const bern: DestinationGuide = {
     {
       slug: 'be-youth-hostel',
       name: 'Bern Youth Hostel',
+      photo: '/photos/hotels/be-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/bern-youth-hostel',
       sector: { en: 'Marzili, on the Aare', fr: 'Marzili, au bord de l’Aar', de: 'Marzili, an der Aare' },
       facts: [

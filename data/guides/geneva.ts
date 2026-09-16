@@ -97,6 +97,7 @@ export const geneva: DestinationGuide = {
     {
       slug: 'ge-les-armures',
       name: 'Hotel Les Armures',
+      photo: '/photos/hotels/ge-les-armures.jpg',
       url: 'https://www.lesarmures.ch/en/',
       sector: { en: 'Vieille Ville', fr: 'Vieille Ville', de: 'Vieille Ville' },
       facts: [
@@ -107,6 +108,7 @@ export const geneva: DestinationGuide = {
     {
       slug: 'ge-9hotel-paquis',
       name: '9Hotel Pâquis',
+      photo: '/photos/hotels/ge-9hotel-paquis.jpg',
       url: 'https://9-hotel-geneve-paquis.ch',
       sector: { en: 'Pâquis, near the station', fr: 'Pâquis, près de la gare', de: 'Pâquis, nahe dem Bahnhof' },
       facts: [
@@ -117,6 +119,7 @@ export const geneva: DestinationGuide = {
     {
       slug: 'ge-ibis-centre-gare',
       name: 'ibis Genève Centre Gare',
+      photo: '/photos/hotels/ge-ibis-centre-gare.jpg',
       url: 'https://all.accor.com/hotel/2154/index.en.shtml',
       sector: { en: 'Pâquis, near the station', fr: 'Pâquis, près de la gare', de: 'Pâquis, nahe dem Bahnhof' },
       facts: [
@@ -127,6 +130,7 @@ export const geneva: DestinationGuide = {
     {
       slug: 'ge-ibis-centre-nations',
       name: 'ibis Genève Centre Nations',
+      photo: '/photos/hotels/ge-ibis-centre-nations.jpg',
       url: 'https://all.accor.com/hotel/8069/index.en.shtml',
       sector: { en: 'Quai du Mont-Blanc, international side', fr: 'Quai du Mont-Blanc, côté international', de: 'Quai du Mont-Blanc, internationale Seite' },
       facts: [
@@ -137,6 +141,7 @@ export const geneva: DestinationGuide = {
     {
       slug: 'ge-beau-rivage',
       name: 'Hotel Beau-Rivage',
+      photo: '/photos/hotels/ge-beau-rivage.jpg',
       url: 'https://www.beau-rivage.com/en/',
       sector: { en: 'Quai du Mont-Blanc, lakefront', fr: 'Quai du Mont-Blanc, au bord du lac', de: 'Quai du Mont-Blanc, am See' },
       facts: [

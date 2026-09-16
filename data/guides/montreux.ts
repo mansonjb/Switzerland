@@ -97,6 +97,7 @@ export const montreux: DestinationGuide = {
     {
       slug: 'mo-fairmont-montreux-palace',
       name: 'Fairmont Le Montreux Palace',
+      photo: '/photos/hotels/mo-fairmont-montreux-palace.jpg',
       url: 'https://www.fairmont.com/en/hotels/montreux/fairmont-le-montreux-palace.html',
       sector: { en: 'The lakefront quai', fr: 'Le quai', de: 'Die Seepromenade' },
       facts: [
@@ -108,6 +109,7 @@ export const montreux: DestinationGuide = {
     {
       slug: 'mo-mona',
       name: 'MONA Montreux',
+      photo: '/photos/hotels/mo-mona.jpg',
       url: 'https://www.mona-montreux.ch/',
       sector: { en: 'Grand-Rue, town centre', fr: 'Grand-Rue, centre-ville', de: 'Grand-Rue, Stadtzentrum' },
       facts: [
@@ -117,6 +119,7 @@ export const montreux: DestinationGuide = {
     {
       slug: 'mo-helvetie',
       name: 'Hôtel Helvétie',
+      photo: '/photos/hotels/mo-helvetie.jpg',
       url: 'https://helvetie.ch/',
       sector: { en: 'Avenue du Casino, lakefront', fr: 'Avenue du Casino, quai', de: 'Avenue du Casino, Seepromenade' },
       facts: [
@@ -127,6 +130,7 @@ export const montreux: DestinationGuide = {
     {
       slug: 'mo-bon-port',
       name: 'Hôtel Bon Port',
+      photo: '/photos/hotels/mo-bon-port.jpg',
       url: 'https://www.hotelbonport.ch/',
       sector: { en: 'Rue du Théâtre, centre', fr: 'Rue du Théâtre, centre', de: 'Rue du Théâtre, Zentrum' },
       facts: [
@@ -137,6 +141,7 @@ export const montreux: DestinationGuide = {
     {
       slug: 'mo-tralala',
       name: 'Tralala Hôtel Montreux',
+      photo: '/photos/hotels/mo-tralala.jpg',
       url: 'https://www.tralalahotel.ch/',
       sector: { en: 'Rue du Temple, old town', fr: 'Rue du Temple, vieille ville', de: 'Rue du Temple, Altstadt' },
       facts: [

@@ -108,6 +108,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-mont-cervin-palace',
       name: 'Mont Cervin Palace',
+      photo: '/photos/hotels/zermatt-mont-cervin-palace.jpg',
       url: 'https://www.montcervinpalace.ch/',
       sector: { en: 'Bahnhofstrasse and the station', fr: 'La Bahnhofstrasse et la gare', de: 'Bahnhofstrasse und der Bahnhof' },
       facts: [
@@ -119,6 +120,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-monte-rosa',
       name: 'Hotel Monte Rosa',
+      photo: '/photos/hotels/zermatt-monte-rosa.jpg',
       url: 'https://www.monterosazermatt.ch/',
       sector: { en: 'Bahnhofstrasse and the station', fr: 'La Bahnhofstrasse et la gare', de: 'Bahnhofstrasse und der Bahnhof' },
       facts: [
@@ -130,6 +132,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-walliserhof',
       name: 'Hotel Walliserhof Zermatt',
+      photo: '/photos/hotels/zermatt-walliserhof.jpg',
       url: 'https://www.walliserhof-zermatt.ch/en/',
       sector: { en: 'Bahnhofstrasse and the station', fr: 'La Bahnhofstrasse et la gare', de: 'Bahnhofstrasse und der Bahnhof' },
       facts: [
@@ -141,6 +144,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-alex-alpine-resort',
       name: 'Alex Alpine Resort',
+      photo: '/photos/hotels/zermatt-alex-alpine-resort.jpg',
       url: 'https://www.hotelalexzermatt.com/',
       sector: { en: 'Village centre', fr: 'Centre du village', de: 'Dorfzentrum' },
       facts: [
@@ -162,6 +166,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-allalin',
       name: 'Swiss Alpine Hotel Allalin',
+      photo: '/photos/hotels/zermatt-allalin.jpg',
       url: 'https://www.hotel-allalin.ch/',
       sector: { en: 'Kirchstrasse, old village side', fr: 'Kirchstrasse, côté vieux village', de: 'Kirchstrasse, alte Dorfseite' },
       facts: [
@@ -173,6 +178,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-the-omnia',
       name: 'THE OMNIA',
+      photo: '/photos/hotels/zermatt-the-omnia.jpg',
       url: 'https://the-omnia.com/',
       sector: { en: 'On the rock above the centre', fr: 'Sur le rocher au-dessus du centre', de: 'Auf dem Felsen über dem Zentrum' },
       facts: [
@@ -206,6 +212,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-youth-hostel',
       name: 'Zermatt Youth Hostel',
+      photo: '/photos/hotels/zermatt-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/zermatt-youth-hostel',
       sector: { en: 'Near the village square', fr: 'Près de la place du village', de: 'Nahe dem Dorfplatz' },
       facts: [

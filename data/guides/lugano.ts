@@ -97,6 +97,7 @@ export const lugano: DestinationGuide = {
     {
       slug: 'lugano-international-au-lac',
       name: 'International au Lac Historic Lakeside Hotel',
+      photo: '/photos/hotels/lugano-international-au-lac.jpg',
       url: 'https://www.luganoregion.com/it/hotels/details/International-au-Lac-Historic-Lakeside-Hotel/13647.html',
       sector: { en: 'Via Nassa, historic centre', fr: 'Via Nassa, centre historique', de: 'Via Nassa, Altstadt' },
       facts: [
@@ -107,6 +108,7 @@ export const lugano: DestinationGuide = {
     {
       slug: 'lugano-walter-au-lac',
       name: 'Hotel Walter au Lac',
+      photo: '/photos/hotels/lugano-walter-au-lac.jpg',
       url: 'https://www.luganoregion.com/it/hotels/details/Hotel-Walter-au-Lac/13634.html',
       sector: { en: 'Piazza Rezzonico, historic centre', fr: 'Piazza Rezzonico, centre historique', de: 'Piazza Rezzonico, Altstadt' },
       facts: [
@@ -117,6 +119,7 @@ export const lugano: DestinationGuide = {
     {
       slug: 'lugano-splendide-royal',
       name: 'Hotel Splendide Royal',
+      photo: '/photos/hotels/lugano-splendide-royal.jpg',
       url: 'https://www.luganoregion.com/it/hotels/details/Hotel-Splendide-Royal/13711.html',
       sector: { en: 'Riva Caccia 7', fr: 'Riva Caccia 7', de: 'Riva Caccia 7' },
       facts: [
@@ -127,6 +130,7 @@ export const lugano: DestinationGuide = {
     {
       slug: 'lugano-federale',
       name: 'Hotel Federale Lugano',
+      photo: '/photos/hotels/lugano-federale.jpg',
       url: 'https://www.luganoregion.com/it/hotels/details/Hotel-Federale-Lugano/13636.html',
       sector: { en: 'Via Paolo Regazzoni 8, near the station', fr: 'Via Paolo Regazzoni 8, près de la gare', de: 'Via Paolo Regazzoni 8, beim Bahnhof' },
       facts: [
@@ -137,6 +141,7 @@ export const lugano: DestinationGuide = {
     {
       slug: 'lugano-villa-principe-leopoldo',
       name: 'Villa Principe Leopoldo',
+      photo: '/photos/hotels/lugano-villa-principe-leopoldo.jpg',
       url: 'https://www.luganoregion.com/it/hotels/details/Villa-Principe-Leopoldo/13761.html',
       sector: { en: 'Via Montalbano 5A, hillside', fr: 'Via Montalbano 5A, coteau', de: 'Via Montalbano 5A, Hang' },
       facts: [
@@ -147,6 +152,7 @@ export const lugano: DestinationGuide = {
     {
       slug: 'lugano-delfino',
       name: 'Hotel Delfino Lugano',
+      photo: '/photos/hotels/lugano-delfino.jpg',
       url: 'https://www.luganoregion.com/it/hotels/details/Hotel-Delfino-Lugano/13677.html',
       sector: { en: 'Via Casserinetta, near the station', fr: 'Via Casserinetta, près de la gare', de: 'Via Casserinetta, beim Bahnhof' },
       facts: [

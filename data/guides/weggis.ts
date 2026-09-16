@@ -97,6 +97,7 @@ export const weggis: DestinationGuide = {
     {
       slug: 'weggis-beau-rivage',
       name: 'Romantik Hotel Beau Rivage',
+      photo: '/photos/hotels/weggis-beau-rivage.jpg',
       url: 'https://www.beaurivage-weggis.ch/en/home',
       sector: { en: 'Seestrasse', fr: 'Seestrasse', de: 'Seestrasse' },
       facts: [
@@ -107,6 +108,7 @@ export const weggis: DestinationGuide = {
     {
       slug: 'weggis-alexander',
       name: 'Hotel Alexander',
+      photo: '/photos/hotels/weggis-alexander.jpg',
       url: 'https://www.alexander-gerbi.ch/en',
       sector: { en: 'Seestrasse, Hertensteinstrasse 42', fr: 'Seestrasse, Hertensteinstrasse 42', de: 'Seestrasse, Hertensteinstrasse 42' },
       facts: [
@@ -118,6 +120,7 @@ export const weggis: DestinationGuide = {
     {
       slug: 'weggis-gerbi',
       name: 'Hotel Gerbi',
+      photo: '/photos/hotels/weggis-gerbi.jpg',
       url: 'https://www.alexander-gerbi.ch/en',
       sector: { en: 'Seestrasse, Hertensteinstrasse 48', fr: 'Seestrasse, Hertensteinstrasse 48', de: 'Seestrasse, Hertensteinstrasse 48' },
       facts: [
@@ -128,6 +131,7 @@ export const weggis: DestinationGuide = {
     {
       slug: 'weggis-alpenblick',
       name: 'Hotel Restaurant Alpenblick',
+      photo: '/photos/hotels/weggis-alpenblick.jpg',
       url: 'https://www.alpenblick-weggis.ch/en',
       sector: { en: 'Dorfplatz, Luzernerstrasse 31', fr: 'Dorfplatz, Luzernerstrasse 31', de: 'Dorfplatz, Luzernerstrasse 31' },
       facts: [
@@ -139,6 +143,7 @@ export const weggis: DestinationGuide = {
     {
       slug: 'weggis-rigi-am-see',
       name: 'Seminar-Hotel Rigi am See',
+      photo: '/photos/hotels/weggis-rigi-am-see.jpg',
       url: 'https://www.hotelrigi.ch/',
       sector: { en: 'Seestrasse', fr: 'Seestrasse', de: 'Seestrasse' },
       facts: [

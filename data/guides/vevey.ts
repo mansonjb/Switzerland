@@ -97,6 +97,7 @@ export const vevey: DestinationGuide = {
     {
       slug: 've-grand-hotel-du-lac',
       name: 'Grand Hôtel du Lac',
+      photo: '/photos/hotels/ve-grand-hotel-du-lac.jpg',
       url: 'https://www.ghdl.ch/',
       sector: { en: 'The Grande Place, lakefront', fr: 'La Grande Place, front de lac', de: 'Grande Place, Seepromenade' },
       facts: [
@@ -107,6 +108,7 @@ export const vevey: DestinationGuide = {
     {
       slug: 've-trois-couronnes',
       name: 'Hôtel des Trois Couronnes',
+      photo: '/photos/hotels/ve-trois-couronnes.jpg',
       url: 'https://www.hoteltroiscouronnes.ch/',
       sector: { en: 'Lakefront', fr: 'Front de lac', de: 'Seepromenade' },
       facts: [
@@ -116,6 +118,7 @@ export const vevey: DestinationGuide = {
     {
       slug: 've-astra',
       name: 'Astra Hôtel Vevey',
+      photo: '/photos/hotels/ve-astra.jpg',
       url: 'https://astra-hotel.ch/',
       sector: { en: 'By the station', fr: 'Près de la gare', de: 'Beim Bahnhof' },
       facts: [
@@ -126,6 +129,7 @@ export const vevey: DestinationGuide = {
     {
       slug: 've-le-leman',
       name: 'Hôtel Le Léman',
+      photo: '/photos/hotels/ve-le-leman.jpg',
       url: 'https://www.hotel-leleman.ch/',
       sector: { en: 'Route de Blonay, above town', fr: 'Route de Blonay, sur les hauteurs', de: 'Route de Blonay, über der Stadt' },
       facts: [
@@ -136,6 +140,7 @@ export const vevey: DestinationGuide = {
     {
       slug: 've-modern-times',
       name: 'Modern Times Hotel',
+      photo: '/photos/hotels/ve-modern-times.jpg',
       url: 'https://www.moderntimeshotel.ch/',
       sector: { en: 'Blonay-Saint-Légier, above Vevey', fr: 'Blonay-Saint-Légier, au-dessus de Vevey', de: 'Blonay-Saint-Légier, über Vevey' },
       facts: [

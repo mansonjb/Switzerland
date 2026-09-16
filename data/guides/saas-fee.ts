@@ -97,6 +97,7 @@ export const saasFee: DestinationGuide = {
     {
       slug: 'saas-fee-the-capra',
       name: 'The Capra Saas-Fee',
+      photo: '/photos/hotels/saas-fee-the-capra.jpg',
       url: 'https://www.capra.ch/',
       sector: { en: 'Wildistrasse and the upper edge', fr: 'Wildistrasse et le versant supérieur', de: 'Wildistrasse und der obere Rand' },
       facts: [
@@ -119,6 +120,7 @@ export const saasFee: DestinationGuide = {
     {
       slug: 'saas-fee-schweizerhof',
       name: 'Wellnesshotel Schweizerhof',
+      photo: '/photos/hotels/saas-fee-schweizerhof.jpg',
       url: 'https://www.schweizerhof-saasfee.ch/en',
       sector: { en: 'Dorfplatz and the centre', fr: 'Dorfplatz et le centre', de: 'Dorfplatz und Zentrum' },
       facts: [
@@ -141,6 +143,7 @@ export const saasFee: DestinationGuide = {
     {
       slug: 'saas-fee-wellnesshostel4000',
       name: 'wellnessHostel4000',
+      photo: '/photos/hotels/saas-fee-wellnesshostel4000.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/wellnesshostel4000-saas-fee',
       sector: { en: 'Panoramastrasse and the lift side', fr: 'Panoramastrasse et le côté remontées', de: 'Panoramastrasse und die Bahnseite' },
       facts: [
@@ -152,6 +155,7 @@ export const saasFee: DestinationGuide = {
     {
       slug: 'saas-fee-feehof',
       name: 'Hotel Feehof',
+      photo: '/photos/hotels/saas-fee-feehof.jpg',
       url: 'https://www.feehof.ch/',
       sector: { en: 'Wildistrasse and the upper edge', fr: 'Wildistrasse et le versant supérieur', de: 'Wildistrasse und der obere Rand' },
       facts: [

@@ -97,6 +97,7 @@ export const verbier: DestinationGuide = {
     {
       slug: 'verbier-w-verbier',
       name: 'W Verbier',
+      photo: '/photos/hotels/verbier-w-verbier.jpg',
       url: 'https://www.marriott.com/en-us/hotels/gvawh-w-verbier/overview/',
       sector: { en: 'Médran', fr: 'Médran', de: 'Médran' },
       facts: [

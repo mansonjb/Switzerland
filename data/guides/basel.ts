@@ -97,6 +97,7 @@ export const basel: DestinationGuide = {
     {
       slug: 'bs-trois-rois',
       name: 'Grand Hotel Les Trois Rois',
+      photo: '/photos/hotels/bs-trois-rois.jpg',
       url: 'https://lestroisrois.com',
       sector: { en: 'Blumenrain, old town on the Rhine', fr: 'Blumenrain, vieille ville sur le Rhin', de: 'Blumenrain, Altstadt am Rhein' },
       facts: [
@@ -107,6 +108,7 @@ export const basel: DestinationGuide = {
     {
       slug: 'bs-krafft',
       name: 'Hotel Krafft',
+      photo: '/photos/hotels/bs-krafft.jpg',
       url: 'https://krafftbasel.ch',
       sector: { en: 'Rheingasse, Kleinbasel', fr: 'Rheingasse, Kleinbasel', de: 'Rheingasse, Kleinbasel' },
       facts: [
@@ -117,6 +119,7 @@ export const basel: DestinationGuide = {
     {
       slug: 'bs-teufelhof',
       name: 'Der Teufelhof Basel',
+      photo: '/photos/hotels/bs-teufelhof.jpg',
       url: 'https://teufelhof.com',
       sector: { en: 'Old town, Grossbasel', fr: 'Vieille ville, Grossbasel', de: 'Altstadt, Grossbasel' },
       facts: [
@@ -127,6 +130,7 @@ export const basel: DestinationGuide = {
     {
       slug: 'bs-volkshaus',
       name: 'Volkshaus Basel',
+      photo: '/photos/hotels/bs-volkshaus.jpg',
       url: 'https://volkshaus-basel.ch',
       sector: { en: 'Kleinbasel', fr: 'Kleinbasel', de: 'Kleinbasel' },
       facts: [
@@ -137,6 +141,7 @@ export const basel: DestinationGuide = {
     {
       slug: 'bs-youth-hostel',
       name: 'Basel Youth Hostel',
+      photo: '/photos/hotels/bs-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/basel',
       sector: { en: 'St. Alban quarter', fr: 'Quartier de St. Alban', de: 'Quartier St. Alban' },
       facts: [

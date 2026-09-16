@@ -97,6 +97,7 @@ export const engelberg: DestinationGuide = {
     {
       slug: 'engelberg-bellevue-terminus',
       name: 'Hotel Bellevue-Terminus',
+      photo: '/photos/hotels/engelberg-bellevue-terminus.jpg',
       url: 'https://www.bellevue-terminus.ch/',
       sector: { en: 'Station square', fr: 'Place de la gare', de: 'Bahnhofplatz' },
       facts: [
@@ -108,6 +109,7 @@ export const engelberg: DestinationGuide = {
     {
       slug: 'engelberg-alpenclub',
       name: 'Alpenclub Engelberg',
+      photo: '/photos/hotels/engelberg-alpenclub.jpg',
       url: 'https://www.alpenclub.ch/',
       sector: { en: 'Dorfstrasse', fr: 'Dorfstrasse', de: 'Dorfstrasse' },
       facts: [
@@ -129,6 +131,7 @@ export const engelberg: DestinationGuide = {
     {
       slug: 'engelberg-baenklialp',
       name: 'Hotel Restaurant Bänklialp',
+      photo: '/photos/hotels/engelberg-baenklialp.jpg',
       url: 'https://www.baenklialp.ch/',
       sector: { en: 'Bänklialp and the golf course', fr: 'Bänklialp et le golf', de: 'Bänklialp und der Golfplatz' },
       facts: [
@@ -150,6 +153,7 @@ export const engelberg: DestinationGuide = {
     {
       slug: 'engelberg-ski-lodge',
       name: 'Ski Lodge Engelberg',
+      photo: '/photos/hotels/engelberg-ski-lodge.jpg',
       url: 'https://skilodgeengelberg.com/',
       sector: { en: 'Village', fr: 'Village', de: 'Dorf' },
       facts: [
@@ -160,6 +164,7 @@ export const engelberg: DestinationGuide = {
     {
       slug: 'engelberg-truebsee',
       name: 'Berghotel Trübsee',
+      photo: '/photos/hotels/engelberg-truebsee.jpg',
       url: 'https://www.truebsee.ch/',
       sector: { en: 'On the mountain at Trübsee, on the Titlis route', fr: 'En montagne, au Trübsee, sur la route du Titlis', de: 'Am Berg, beim Trübsee, an der Titlis-Route' },
       facts: [

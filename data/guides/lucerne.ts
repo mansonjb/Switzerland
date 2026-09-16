@@ -97,6 +97,7 @@ export const lucerne: DestinationGuide = {
     {
       slug: 'lu-schweizerhof',
       name: 'Hotel Schweizerhof Luzern',
+      photo: '/photos/hotels/lu-schweizerhof.jpg',
       url: 'https://www.schweizerhof-luzern.ch/',
       sector: { en: 'Schweizerhofquai, lake front', fr: 'Schweizerhofquai, front de lac', de: 'Schweizerhofquai, am Seeufer' },
       facts: [
@@ -107,6 +108,7 @@ export const lucerne: DestinationGuide = {
     {
       slug: 'lu-hotel-des-balances',
       name: 'Hotel des Balances',
+      photo: '/photos/hotels/lu-hotel-des-balances.jpg',
       url: 'https://www.balances.ch/',
       sector: { en: 'Weinmarkt, old town', fr: 'Weinmarkt, vieille ville', de: 'Weinmarkt, Altstadt' },
       facts: [
@@ -117,6 +119,7 @@ export const lucerne: DestinationGuide = {
     {
       slug: 'lu-wilden-mann',
       name: 'Hotel Wilden Mann',
+      photo: '/photos/hotels/lu-wilden-mann.jpg',
       url: 'https://www.wilden-mann.ch/',
       sector: { en: 'Bahnhofstrasse, old town', fr: 'Bahnhofstrasse, vieille ville', de: 'Bahnhofstrasse, Altstadt' },
       facts: [
@@ -127,6 +130,7 @@ export const lucerne: DestinationGuide = {
     {
       slug: 'lu-chateau-guetsch',
       name: 'Hotel Château Gütsch',
+      photo: '/photos/hotels/lu-chateau-guetsch.jpg',
       url: 'https://www.chateau-guetsch.ch/',
       sector: { en: 'Above the town, on the Gütsch', fr: 'Au-dessus de la ville, sur le Gütsch', de: 'Über der Stadt, auf dem Gütsch' },
       facts: [
@@ -137,6 +141,7 @@ export const lucerne: DestinationGuide = {
     {
       slug: 'lu-hotel-montana',
       name: 'Art Deco Hotel Montana',
+      photo: '/photos/hotels/lu-hotel-montana.jpg',
       url: 'https://www.hotel-montana.ch/',
       sector: { en: 'Adligenswilerstrasse, lake front', fr: 'Adligenswilerstrasse, front de lac', de: 'Adligenswilerstrasse, am Seeufer' },
       facts: [
@@ -147,6 +152,7 @@ export const lucerne: DestinationGuide = {
     {
       slug: 'lu-waldstaetterhof',
       name: 'Hotel Waldstätterhof',
+      photo: '/photos/hotels/lu-waldstaetterhof.jpg',
       url: 'https://www.hotel-waldstaetterhof.ch/',
       sector: { en: 'Next to the station', fr: 'À côté de la gare', de: 'Neben dem Bahnhof' },
       facts: [
@@ -167,6 +173,7 @@ export const lucerne: DestinationGuide = {
     {
       slug: 'lu-youth-hostel',
       name: 'Lucerne Youth Hostel',
+      photo: '/photos/hotels/lu-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/lucerne-youth-hostel',
       sector: { en: 'Sedelstrasse, by the Rotsee', fr: 'Sedelstrasse, près du Rotsee', de: 'Sedelstrasse, beim Rotsee' },
       facts: [

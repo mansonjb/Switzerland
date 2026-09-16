@@ -97,6 +97,7 @@ export const stGallen: DestinationGuide = {
     {
       slug: 'sg-einstein',
       name: 'Einstein St.Gallen',
+      photo: '/photos/hotels/sg-einstein.jpg',
       url: 'https://einstein.ch/en/',
       sector: { en: 'Berneggstrasse, Abbey District edge', fr: 'Berneggstrasse, en bordure du quartier de l’abbaye', de: 'Berneggstrasse, am Rand des Stiftsbezirks' },
       facts: [
@@ -117,6 +118,7 @@ export const stGallen: DestinationGuide = {
     {
       slug: 'sg-metropol',
       name: 'Hotel Metropol',
+      photo: '/photos/hotels/sg-metropol.jpg',
       url: 'https://www.hotel-metropol.ch/',
       sector: { en: 'Bahnhofplatz, opposite the station', fr: 'Bahnhofplatz, en face de la gare', de: 'Bahnhofplatz, gegenüber dem Bahnhof' },
       facts: [
@@ -127,6 +129,7 @@ export const stGallen: DestinationGuide = {
     {
       slug: 'sg-walhalla',
       name: 'Hotel Walhalla',
+      photo: '/photos/hotels/sg-walhalla.jpg',
       url: 'https://hotelwalhalla.ch/',
       sector: { en: 'A few steps from the station', fr: 'À quelques pas de la gare', de: 'Wenige Schritte vom Bahnhof' },
       facts: [
@@ -137,6 +140,7 @@ export const stGallen: DestinationGuide = {
     {
       slug: 'sg-radisson-blu',
       name: 'Radisson Blu Hotel, St. Gallen',
+      photo: '/photos/hotels/sg-radisson-blu.jpg',
       url: 'https://www.radissonhotels.com/en-us/hotels/radisson-blu-st-gallen',
       sector: { en: 'St Jakob-Strasse, opposite OLMA', fr: 'St Jakob-Strasse, en face d’OLMA', de: 'St Jakob-Strasse, gegenüber OLMA' },
       facts: [
@@ -147,6 +151,7 @@ export const stGallen: DestinationGuide = {
     {
       slug: 'sg-youth-hostel',
       name: 'St. Gallen Youth Hostel',
+      photo: '/photos/hotels/sg-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/st-gallen-youth-hostel',
       sector: { en: 'Jüchstrasse', fr: 'Jüchstrasse', de: 'Jüchstrasse' },
       facts: [

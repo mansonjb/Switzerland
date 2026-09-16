@@ -107,6 +107,7 @@ export const zurich: DestinationGuide = {
     {
       slug: 'zh-storchen',
       name: 'Storchen Zürich',
+      photo: '/photos/hotels/zh-storchen.jpg',
       url: 'https://www.storchen.ch/',
       sector: { en: 'Weinplatz, on the Limmat', fr: 'Weinplatz, sur la Limmat', de: 'Weinplatz, an der Limmat' },
       facts: [
@@ -117,6 +118,7 @@ export const zurich: DestinationGuide = {
     {
       slug: 'zh-widder',
       name: 'Widder Hotel',
+      photo: '/photos/hotels/zh-widder.jpg',
       url: 'https://www.widderhotel.com/',
       sector: { en: 'Rennweg, old town', fr: 'Rennweg, vieille ville', de: 'Rennweg, Altstadt' },
       facts: [
@@ -127,6 +129,7 @@ export const zurich: DestinationGuide = {
     {
       slug: 'zh-marktgasse',
       name: 'Hotel Marktgasse',
+      photo: '/photos/hotels/zh-marktgasse.jpg',
       url: 'https://www.marktgassehotel.ch/',
       sector: { en: 'Marktgasse, old town', fr: 'Marktgasse, vieille ville', de: 'Marktgasse, Altstadt' },
       facts: [
@@ -137,6 +140,7 @@ export const zurich: DestinationGuide = {
     {
       slug: 'zh-adler',
       name: 'Hotel Adler',
+      photo: '/photos/hotels/zh-adler.jpg',
       url: 'https://www.hotel-adler.ch/',
       sector: { en: 'Rosengasse, Niederdorf', fr: 'Rosengasse, Niederdorf', de: 'Rosengasse, Niederdorf' },
       facts: [

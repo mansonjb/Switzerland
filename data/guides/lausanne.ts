@@ -97,6 +97,7 @@ export const lausanne: DestinationGuide = {
     {
       slug: 'la-lausanne-palace',
       name: 'Lausanne Palace',
+      photo: '/photos/hotels/la-lausanne-palace.jpg',
       url: 'https://www.lausanne-palace.ch/',
       sector: { en: 'Grand-Chêne, the centre', fr: 'Grand-Chêne, le centre', de: 'Grand-Chêne, Zentrum' },
       facts: [
@@ -107,6 +108,7 @@ export const lausanne: DestinationGuide = {
     {
       slug: 'la-beau-rivage-palace',
       name: 'Beau-Rivage Palace',
+      photo: '/photos/hotels/la-beau-rivage-palace.jpg',
       url: 'https://www.brp.ch/',
       sector: { en: 'Ouchy, on the shore', fr: 'Ouchy, au bord du lac', de: 'Ouchy, am Ufer' },
       facts: [
@@ -117,6 +119,7 @@ export const lausanne: DestinationGuide = {
     {
       slug: 'la-chateau-douchy',
       name: 'Château d’Ouchy',
+      photo: '/photos/hotels/la-chateau-douchy.jpg',
       url: 'https://www.chateaudouchy.ch/',
       sector: { en: 'Ouchy, on the harbour', fr: 'Ouchy, sur le port', de: 'Ouchy, am Hafen' },
       facts: [
@@ -127,6 +130,7 @@ export const lausanne: DestinationGuide = {
     {
       slug: 'la-angleterre-residence',
       name: 'Hôtel Angleterre & Résidence',
+      photo: '/photos/hotels/la-angleterre-residence.jpg',
       url: 'https://www.hotelangleterre.ch/',
       sector: { en: 'Ouchy, lakeside', fr: 'Ouchy, au bord du lac', de: 'Ouchy, am See' },
       facts: [
@@ -137,6 +141,7 @@ export const lausanne: DestinationGuide = {
     {
       slug: 'la-royal-savoy',
       name: 'Royal Savoy Hôtel & Spa',
+      photo: '/photos/hotels/la-royal-savoy.jpg',
       url: 'https://royalsavoylausanne.com/',
       sector: { en: 'Between the centre and Ouchy', fr: 'Entre le centre et Ouchy', de: 'Zwischen Zentrum und Ouchy' },
       facts: [
@@ -147,6 +152,7 @@ export const lausanne: DestinationGuide = {
     {
       slug: 'la-continental',
       name: 'Hôtel Continental',
+      photo: '/photos/hotels/la-continental.jpg',
       url: 'https://www.hotelcontinental.ch/',
       sector: { en: 'Opposite the main station', fr: 'En face de la gare centrale', de: 'Gegenüber dem Hauptbahnhof' },
       facts: [
@@ -157,6 +163,7 @@ export const lausanne: DestinationGuide = {
     {
       slug: 'la-victoria',
       name: 'Hôtel Victoria',
+      photo: '/photos/hotels/la-victoria.jpg',
       url: 'https://www.hotelvictoria.ch/',
       sector: { en: 'Station district', fr: 'Quartier de la gare', de: 'Bahnhofviertel' },
       facts: [
@@ -166,6 +173,7 @@ export const lausanne: DestinationGuide = {
     {
       slug: 'la-du-port',
       name: 'Hôtel-Restaurant du Port',
+      photo: '/photos/hotels/la-du-port.jpg',
       url: 'https://www.hotel-du-port.ch/',
       sector: { en: 'Ouchy', fr: 'Ouchy', de: 'Ouchy' },
       facts: [
