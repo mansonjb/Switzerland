@@ -17,7 +17,7 @@ export const verbier: DestinationGuide = {
   title: { en: 'Where to stay in Verbier', fr: 'Où dormir à Verbier', de: 'Wo übernachten in Verbier' },
   intro: {
     en: 'Verbier sits at 1500 m in the municipality of Val de Bagnes, and unlike most Valais mountain resorts it is reached by road as well as by rail: the tourist office lists car parks inside the village itself, at Catogne, Ermitage, Périn and Marais Vert. The nearest railhead is Le Châble, from where a gondola reaches the Médran lift station or a bus reaches the central square, both on the same fare, running from 05:10 to 23:55. The lift operator describes the 4 Vallées as the largest ski area entirely in Switzerland, with 410 km of slopes and a high point of 3330 m at Mont-Fort.',
-    fr: 'Verbier se trouve à 1500 m, dans la commune de Val de Bagnes, et contrairement à la plupart des stations valaisannes, on y accède aussi bien par la route que par le rail : l’office du tourisme recense des parkings jusque dans le village même, à Catogne, Ermitage, Périn et Marais Vert. La gare la plus proche est Le Châble, d’où un télécabine rejoint la station de Médran et un bus la place centrale, au même tarif, en circulant de 5h10 à 23h55. L’exploitant des remontées présente les 4 Vallées comme le plus grand domaine skiable entièrement suisse, avec 410 km de pistes et un point culminant à 3330 m au Mont-Fort.',
+    fr: 'Verbier se trouve à 1500 m, dans la commune de Val de Bagnes, et contrairement à la plupart des stations valaisannes, on y accède aussi bien par la route que par le rail : l’office du tourisme recense des parkings jusque dans le village même, à Catogne, Ermitage, Périn et Marais Vert. La gare la plus proche est Le Châble, d’où une télécabine rejoint la station de Médran et un bus la place centrale, au même tarif, en circulant de 5h10 à 23h55. L’exploitant des remontées présente les 4 Vallées comme le plus grand domaine skiable entièrement suisse, avec 410 km de pistes et un point culminant à 3330 m au Mont-Fort.',
     de: 'Verbier liegt auf 1500 m in der Gemeinde Val de Bagnes, und anders als die meisten Walliser Bergorte ist es sowohl per Strasse als auch per Bahn erreichbar: Das Tourismusbüro führt Parkplätze mitten im Dorf auf, bei Catogne, Ermitage, Périn und Marais Vert. Der nächste Bahnhof ist Le Châble, von wo eine Gondelbahn zur Station Médran fährt oder ein Bus zum Hauptplatz, beide zum selben Tarif, von 5.10 bis 23.55 Uhr. Der Bahnbetreiber bezeichnet die 4 Vallées als das grösste vollständig auf Schweizer Boden liegende Skigebiet, mit 410 Pistenkilometern und einem höchsten Punkt von 3330 m am Mont-Fort.',
   },
   quickAnswer: {
@@ -33,7 +33,7 @@ export const verbier: DestinationGuide = {
     },
     where: {
       en: 'Médran for the shortest walk to the lifts and the gondola from Le Châble, Place Centrale for the shops and the tourist office, Les Creux for the quieter slope towards Savoleyres.',
-      fr: 'Médran pour le trajet le plus court jusqu’aux remontées et le télécabine du Châble, Place Centrale pour les commerces et l’office du tourisme, Les Creux pour le versant plus calme vers Savoleyres.',
+      fr: 'Médran pour le trajet le plus court jusqu’aux remontées et la télécabine du Châble, Place Centrale pour les commerces et l’office du tourisme, Les Creux pour le versant plus calme vers Savoleyres.',
       de: 'Médran für den kürzesten Weg zu den Bahnen und die Gondelbahn ab Le Châble, Place Centrale für die Läden und das Tourismusbüro, Les Creux für den ruhigeren Hang Richtung Savoleyres.',
     },
     watch: {
@@ -58,7 +58,7 @@ export const verbier: DestinationGuide = {
       walk: { en: 'The foot of the lifts', fr: 'Au pied des remontées', de: 'Am Fuss der Bahnen' },
       text: {
         en: 'Rue de Médran runs down from the centre to the Médran lift station, where the gondola from Le Châble arrives and where the ski lifts leave for Les Ruinettes. Hôtel Mirabeau gives less than 1 minute on the flat from the lift departure.',
-        fr: 'La Rue de Médran descend du centre vers la station de Médran, où arrive le télécabine du Châble et d’où partent les remontées vers Les Ruinettes. L’Hôtel Mirabeau indique moins d’1 minute à plat depuis le départ des remontées.',
+        fr: 'La Rue de Médran descend du centre vers la station de Médran, où arrive la télécabine du Châble et d’où partent les remontées vers Les Ruinettes. L’Hôtel Mirabeau indique moins d’1 minute à plat depuis le départ des remontées.',
         de: 'Die Rue de Médran führt vom Zentrum hinunter zur Station Médran, wo die Gondelbahn ab Le Châble ankommt und die Skilifte Richtung Les Ruinettes abfahren. Das Hôtel Mirabeau gibt weniger als 1 Minute ebenerdig vom Bahnabgang an.',
       },
       points: [
@@ -355,12 +355,12 @@ export const verbier: DestinationGuide = {
       q: { en: 'Can you reach Verbier by train?', fr: 'Peut-on rejoindre Verbier en train ?', de: 'Kommt man mit dem Zug nach Verbier?' },
       a: {
         en: 'Not all the way. Trains run to Le Châble, then a gondola to Médran or a bus to Station Poste on the central square covers the last stretch, what the tourist office calls the final 20 minutes. Both cost the same fare.',
-        fr: 'Pas jusqu’au bout. Les trains vont jusqu’au Châble, puis un télécabine jusqu’à Médran ou un bus jusqu’à Station Poste sur la place centrale couvre le dernier tronçon, ce que l’office du tourisme appelle les 20 dernières minutes. Les deux coûtent le même prix.',
+        fr: 'Pas jusqu’au bout. Les trains vont jusqu’au Châble, puis une télécabine jusqu’à Médran ou un bus jusqu’à Station Poste sur la place centrale couvre le dernier tronçon, ce que l’office du tourisme appelle les 20 dernières minutes. Les deux coûtent le même prix.',
         de: 'Nicht ganz. Die Züge fahren bis Le Châble, dann übernimmt eine Gondelbahn nach Médran oder ein Bus bis Station Poste am Hauptplatz die letzte Etappe, laut Tourismusbüro die letzten 20 Minuten. Beide kosten denselben Tarif.',
       },
     },
     {
-      q: { en: 'How late does the gondola from Le Châble run?', fr: 'Jusqu’à quelle heure circule le télécabine du Châble ?', de: 'Wie spät fährt die Gondelbahn ab Le Châble?' },
+      q: { en: 'How late does the gondola from Le Châble run?', fr: 'Jusqu’à quelle heure circule la télécabine du Châble ?', de: 'Wie spät fährt die Gondelbahn ab Le Châble?' },
       a: {
         en: 'Continuously from 05:10 to 23:55, all year, except on maintenance days when extra buses run instead.',
         fr: 'En continu de 5h10 à 23h55, toute l’année, sauf les jours de maintenance, où des bus supplémentaires circulent à la place.',
