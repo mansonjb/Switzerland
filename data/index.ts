@@ -17,6 +17,8 @@ import { gstaad } from './guides/gstaad'
 import { adelboden } from './guides/adelboden'
 import { kandersteg } from './guides/kandersteg'
 import { berneseOberland } from './regions/bernese-oberland'
+import { valais } from './regions/valais'
+import { graubunden } from './regions/graubunden'
 import type { DestinationGuide, Region } from './types'
 
 export { destinations, regionNames }
@@ -26,7 +28,7 @@ export { destinations, regionNames }
  * only once its facts are sourced (data/SOURCES.md). Never generate pages combinatorially.
  */
 const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg]
-const REGIONS: Region[] = [berneseOberland]
+const REGIONS: Region[] = [berneseOberland, valais, graubunden]
 
 export const publishedGuides = () => GUIDES
 export const publishedRegions = () => REGIONS
