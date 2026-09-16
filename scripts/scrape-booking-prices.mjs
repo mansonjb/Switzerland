@@ -81,10 +81,17 @@ async function runActor(input, token) {
   return res.json();
 }
 
-function isWengen(item) {
+// Booking writes addresses in the local language, so a place can need several
+// spellings: --match "Lucerne|Luzern". Defaults to the --place value.
+const MATCH = (() => {
+  const i = process.argv.indexOf("--match");
+  return i >= 0 && process.argv[i + 1] ? process.argv[i + 1] : PLACE;
+})();
+const MATCH_RE = new RegExp(MATCH.replace(/ü/g, "[uü]").replace(/è/g, "[eè]"), "i");
+
+function isPlace(item) {
   const full = item.address?.full || "";
-  if (!new RegExp(PLACE.replace("ü", "[uü]"), "i").test(full)) return false;
-  return true;
+  return MATCH_RE.test(full);
 }
 
 function normType(t) {
@@ -155,10 +162,10 @@ async function main() {
 
     rawByDate[checkIn] = results;
 
-    const wengenResults = results.filter(isWengen);
-    console.log(`  -> ${wengenResults.length} in 3823 Wengen`);
+    const placeResults = results.filter(isPlace);
+    console.log(`  -> ${placeResults.length} matching ${MATCH}`);
 
-    for (const item of wengenResults) {
+    for (const item of placeResults) {
       const key = (item.url || "").split("?")[0];
       if (!key) continue;
       if (!byUrl.has(key)) {

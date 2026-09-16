@@ -4,6 +4,9 @@ import { murren } from './guides/murren'
 import { grindelwald } from './guides/grindelwald'
 import { lauterbrunnen } from './guides/lauterbrunnen'
 import { interlaken } from './guides/interlaken'
+import { zermatt } from './guides/zermatt'
+import { saasFee } from './guides/saas-fee'
+import { verbier } from './guides/verbier'
 import { berneseOberland } from './regions/bernese-oberland'
 import type { DestinationGuide, Region } from './types'
 
@@ -13,7 +16,7 @@ export { destinations, regionNames }
  * Published pages. Anti scaled-content rule: ONE rich page per destination, a guide ships
  * only once its facts are sourced (data/SOURCES.md). Never generate pages combinatorially.
  */
-const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken]
+const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier]
 const REGIONS: Region[] = [berneseOberland]
 
 export const publishedGuides = () => GUIDES
