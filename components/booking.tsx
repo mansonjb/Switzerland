@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { allezHotelLink, allezPlaceLink, stay22MapSrc, type StayDates } from '@/lib/site'
+import { SunIcon, SnowIcon } from './icons'
 
 /* ------------------------------------------------------------------ */
 /* Shared stay dates: one value for the whole page (search bar, map,   */
@@ -187,7 +188,7 @@ export function PlaceButton({ place, placement, label, variant = 'red' }: { plac
     white: 'bg-white text-ink hover:bg-lake hover:text-white',
   }[variant]
   return (
-    <a href={allezPlaceLink(place, placement, dates)} target="_blank" rel="sponsored nofollow noopener" className={`inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[15px] font-bold no-underline transition-colors ${cls}`}>
+    <a href={allezPlaceLink(place, placement, dates)} target="_blank" rel="sponsored nofollow noopener" className={`inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full px-6 py-3 text-[15px] font-bold no-underline transition-colors ${cls}`}>
       {label}
       <span aria-hidden>→</span>
     </a>
@@ -296,23 +297,34 @@ export function useSeason(): [Season, (s: Season) => void] {
 
 export function SeasonTabs({ labels, tone = 'light' }: { labels: Record<Season, string>; tone?: 'light' | 'dark' }) {
   const [season, setSeason] = useSeason()
+  const active: Record<Season, string> = {
+    summer: 'bg-sun text-white shadow-[0_4px_12px_rgba(200,137,27,0.35)]',
+    winter: 'bg-lake text-white shadow-[0_4px_12px_rgba(14,95,110,0.35)]',
+  }
   return (
-    <div className={`inline-flex rounded-full border p-1 ${tone === 'dark' ? 'border-white/40' : 'border-rule bg-sand'}`} role="tablist">
-      {(['summer', 'winter'] as Season[]).map((s) => (
-        <button
-          key={s}
-          type="button"
-          role="tab"
-          aria-selected={season === s}
-          onClick={() => setSeason(s)}
-          className={`cursor-pointer rounded-full px-4 py-2 font-display text-[15px] font-semibold uppercase tracking-[0.06em] transition-colors ${
-            season === s ? 'bg-ink text-white' : tone === 'dark' ? 'text-white hover:bg-white/10' : 'bg-white text-ink hover:bg-mist'
-          }`}
-        >
-          {s === 'summer' ? '☀ ' : '❄ '}
-          {labels[s]}
-        </button>
-      ))}
+    <div
+      className={`inline-flex items-center gap-1 rounded-full border p-1.5 ${tone === 'dark' ? 'border-white/30 bg-white/10' : 'border-rule bg-white shadow-[0_1px_3px_rgba(19,27,34,0.08)]'}`}
+      role="tablist"
+    >
+      {(['summer', 'winter'] as Season[]).map((s) => {
+        const on = season === s
+        const Icon = s === 'summer' ? SunIcon : SnowIcon
+        return (
+          <button
+            key={s}
+            type="button"
+            role="tab"
+            aria-selected={on}
+            onClick={() => setSeason(s)}
+            className={`flex cursor-pointer items-center gap-2 rounded-full px-5 py-2.5 font-display text-base font-semibold uppercase tracking-[0.06em] transition-all md:text-[17px] ${
+              on ? active[s] : tone === 'dark' ? 'text-white/80 hover:bg-white/10' : 'text-muted hover:bg-mist hover:text-ink'
+            }`}
+          >
+            <Icon />
+            {labels[s]}
+          </button>
+        )
+      })}
     </div>
   )
 }
@@ -324,7 +336,7 @@ export function SeasonPanel({ content, baseLabel }: { content: Record<Season, Se
   const c = content[season]
   return (
     <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_1.4fr] lg:gap-12" role="tabpanel">
-      <div className={`rounded-2xl border border-rule p-5 md:p-7 ${season === 'winter' ? 'bg-lake-soft' : 'bg-sand'}`}>
+      <div className={`rounded-2xl border p-5 md:p-7 ${season === 'winter' ? 'border-lake/25 bg-lake-soft' : 'border-sun/25 bg-sun-soft'}`}>
         <h3 className="m-0 font-display text-[28px] font-bold uppercase leading-none text-ink md:text-[34px]">{c.title}</h3>
         <div className="mt-4 font-display text-sm font-semibold uppercase tracking-[0.08em] text-muted">{baseLabel}</div>
         <p className="mb-0 mt-1.5 text-base leading-relaxed text-ink md:text-lg">{c.base}</p>

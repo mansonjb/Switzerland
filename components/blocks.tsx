@@ -5,6 +5,7 @@ import { getDict } from '@/lib/dict'
 import { HotelButton } from './booking'
 import type { DestinationGuide, MonthState, PhotoCredit } from '@/data/types'
 import { networkLinks } from '@/data/network'
+import { doingStyle } from './icons'
 
 export function Container({ children, className = '' }: { children: ReactNode; className?: string }) {
   return <div className={`mx-auto max-w-[1280px] px-4 md:px-8 ${className}`}>{children}</div>
@@ -208,29 +209,37 @@ export function ThingsToDo({ doing, locale }: { doing: NonNullable<DestinationGu
   return (
     <div>
       <p className="mb-0 mt-0 max-w-none text-base leading-relaxed text-ink md:text-lg">{t(doing.intro, locale)}</p>
-      <div className="mt-7 grid gap-x-8 gap-y-8 md:mt-10 md:grid-cols-2 md:gap-y-12">
-        {doing.groups.map((g, i) => (
-          <div key={i} className="min-w-0 rounded-2xl border border-rule bg-white p-5 md:p-6">
-            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-              <span className="rounded-full bg-lake-soft px-3 py-1 font-display text-xs font-semibold uppercase tracking-[0.08em] text-lake-dark">{d.sell.doing.kinds[g.kind]}</span>
-              <h3 className="m-0 font-display text-[22px] font-bold uppercase tracking-[0.01em] text-ink md:text-[26px]">{t(g.title, locale)}</h3>
-            </div>
-            <ul className="m-0 mt-4 flex list-none flex-col gap-4 p-0 md:gap-5">
-              {g.items.map((it, k) => (
-                <li key={k} className="flex gap-3 border-b border-rule pb-4 last:border-0 last:pb-0">
-                  <span className="mt-[9px] size-[7px] shrink-0 bg-ink" aria-hidden />
-                  <div className="min-w-0">
-                    <div className="flex flex-wrap items-baseline gap-x-3">
-                      <span className="text-[17px] font-bold leading-snug text-ink">{typeof it.name === 'string' ? it.name : t(it.name, locale)}</span>
-                      {it.meta && <span className="text-[13px] tabular-nums text-muted md:text-sm">{t(it.meta, locale)}</span>}
+      <div className="mt-7 grid gap-5 md:mt-10 md:grid-cols-2 md:gap-7">
+        {doing.groups.map((g, i) => {
+          const s = doingStyle[g.kind]
+          return (
+            <div key={i} className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-rule bg-white">
+              <div className={`flex items-center gap-3 px-5 py-4 ${s.strip}`}>
+                <span className={`flex size-10 shrink-0 items-center justify-center rounded-full bg-white ${s.chip.split(' ')[1]}`}>
+                  <s.Icon />
+                </span>
+                <div className="min-w-0">
+                  <div className="font-display text-xs font-semibold uppercase tracking-[0.1em] text-muted">{d.sell.doing.kinds[g.kind]}</div>
+                  <h3 className="m-0 font-display text-[21px] font-bold uppercase leading-tight tracking-[0.01em] text-ink md:text-[24px]">{t(g.title, locale)}</h3>
+                </div>
+              </div>
+              <ul className="m-0 flex list-none flex-col gap-4 p-5 pt-4 md:gap-5">
+                {g.items.map((it, k) => (
+                  <li key={k} className="flex gap-3 border-b border-rule pb-4 last:border-0 last:pb-0">
+                    <span className={`mt-[9px] size-[7px] shrink-0 rounded-full ${s.dot}`} aria-hidden />
+                    <div className="min-w-0">
+                      <div className="flex flex-wrap items-baseline gap-x-3">
+                        <span className="text-[17px] font-bold leading-snug text-ink">{typeof it.name === 'string' ? it.name : t(it.name, locale)}</span>
+                        {it.meta && <span className="text-[13px] tabular-nums text-muted md:text-sm">{t(it.meta, locale)}</span>}
+                      </div>
+                      <p className="mb-0 mt-1.5 text-[15px] leading-relaxed text-ink">{t(it.text, locale)}</p>
                     </div>
-                    <p className="mb-0 mt-1.5 text-[15px] leading-relaxed text-ink">{t(it.text, locale)}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        })}
       </div>
       <p className="mb-0 mt-6 border-t border-rule pt-4 text-[13px] leading-normal text-muted md:text-sm">{t(doing.note, locale)}</p>
     </div>

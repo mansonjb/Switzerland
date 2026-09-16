@@ -25,6 +25,9 @@ import { vevey } from './guides/vevey'
 import { geneva } from './guides/geneva'
 import { basel } from './guides/basel'
 import { stGallen } from './guides/st-gallen'
+import { engelberg } from './guides/engelberg'
+import { andermatt } from './guides/andermatt'
+import { weggis } from './guides/weggis'
 import { berneseOberland } from './regions/bernese-oberland'
 import { valais } from './regions/valais'
 import { graubunden } from './regions/graubunden'
@@ -36,7 +39,7 @@ export { destinations, regionNames }
  * Published pages. Anti scaled-content rule: ONE rich page per destination, a guide ships
  * only once its facts are sourced (data/SOURCES.md). Never generate pages combinatorially.
  */
-const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen]
+const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen, engelberg, andermatt, weggis]
 const REGIONS: Region[] = [berneseOberland, valais, graubunden]
 
 export const publishedGuides = () => GUIDES

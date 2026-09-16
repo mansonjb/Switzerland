@@ -15,6 +15,12 @@
   --color-lake-dark: #0a4a57;
   --color-lake-soft: #e7f1f3;
   --color-sand: #f8f4ed;
+  --color-sun: #c8891b;
+  --color-sun-soft: #fdf1dc;
+  --color-clay: #a2552f;
+  --color-clay-soft: #fbeee8;
+  --color-pine: #1f6f4a;
+  --color-pine-soft: #e6f2ea;
   --color-sand-rule: #e7ded0;
   --color-open: #1f7a4a;
   --color-caution: #94610f;
@@ -35,25 +41,29 @@
   --breakpoint-3xl: 1920px;
 }
 
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* These belong in the base layer: unlayered rules beat every Tailwind utility,
+   and `a { color: inherit }` outside a layer silently killed text-white on links. */
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-body {
-  background: var(--color-paper);
-  color: var(--color-ink);
-  font-family: var(--font-sans);
-}
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
 
-a {
-  color: inherit;
-}
+  a {
+    color: inherit;
+  }
 
-:focus-visible {
-  outline: 2px solid var(--color-ink);
-  outline-offset: 2px;
-  box-shadow: 0 0 0 4px #fff;
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px #fff;
+  }
 }
 
 .hatch {
