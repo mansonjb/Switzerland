@@ -6,7 +6,7 @@ import { regionNames, destinations, publishedGuides, publishedRegions } from '@/
 export function Logo({ small = false }: { small?: boolean }) {
   return (
     <span className="flex items-center gap-2.5">
-      <span className={`relative shrink-0 bg-swiss ${small ? 'h-[27px] w-[22px]' : 'h-8 w-[26px]'}`} aria-hidden>
+      <span className={`relative shrink-0 rounded-[6px] bg-swiss ${small ? 'h-[27px] w-[22px]' : 'h-8 w-[26px]'}`} aria-hidden>
         <span className={`cross-window absolute bg-white ${small ? 'left-1 top-[5px] size-3.5' : 'left-[5px] top-1.5 size-4'}`} />
       </span>
       <span className={`font-display font-bold uppercase leading-none tracking-[0.02em] text-ink ${small ? 'text-[17px]' : 'text-[21px]'}`}>
@@ -43,11 +43,11 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
           <div className="flex items-center gap-2.5 lg:border-l lg:border-rule lg:pl-8">
             {LOCALES.map((l) =>
               l === locale ? (
-                <span key={l} className="border-b-2 border-lake pb-0.5 text-[13px] font-bold uppercase text-ink md:text-sm">
+                <span key={l} className="rounded-full bg-lake-soft px-2.5 py-1 text-[13px] font-bold uppercase text-lake-dark md:text-sm">
                   {l}
                 </span>
               ) : (
-                <Link key={l} href={localePath(l, path)} hrefLang={l} className="text-[13px] uppercase text-muted no-underline hover:text-lake md:text-sm">
+                <Link key={l} href={localePath(l, path)} hrefLang={l} className="rounded-full px-2.5 py-1 text-[13px] uppercase text-muted no-underline transition-colors hover:bg-mist hover:text-lake md:text-sm">
                   {l}
                 </Link>
               ),

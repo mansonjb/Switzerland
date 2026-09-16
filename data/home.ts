@@ -11,9 +11,9 @@ export const home = {
   },
   title: { en: 'Where to stay in Switzerland, no guesswork', fr: 'Où dormir en Suisse, sans hésiter', de: 'Wo übernachten in der Schweiz, ohne zu zögern' } as L,
   intro: {
-    en: 'Fifteen destinations, the exact village or area to drop your bags in, and the numbers that settle it: travel times, Swiss Travel Pass, seasonal closures, car-free access. Pages go live one by one, once every fact is checked.',
-    fr: 'Quinze destinations, le village ou le secteur exact où poser ses bagages, et les chiffres qui tranchent : trajets, Swiss Travel Pass, fermetures de saison, accès sans voiture. Les pages sont publiées une à une, une fois chaque fait vérifié.',
-    de: 'Fünfzehn Reiseziele, der genaue Ort oder Ortsteil für Ihr Gepäck und die Zahlen, die entscheiden: Reisezeiten, Swiss Travel Pass, saisonale Schliessungen, autofreier Zugang. Die Seiten erscheinen nacheinander, sobald jede Angabe geprüft ist.',
+    en: 'The exact village or area to drop your bags in, and the numbers that settle it: travel times, Swiss Travel Pass, seasonal closures, car-free access. Pages go live one by one, once every fact is checked.',
+    fr: 'Le village ou le secteur exact où poser ses bagages, et les chiffres qui tranchent : trajets, Swiss Travel Pass, fermetures de saison, accès sans voiture. Les pages sont publiées une à une, une fois chaque fait vérifié.',
+    de: 'Der genaue Ort oder Ortsteil für Ihr Gepäck und die Zahlen, die entscheiden: Reisezeiten, Swiss Travel Pass, saisonale Schliessungen, autofreier Zugang. Die Seiten erscheinen nacheinander, sobald jede Angabe geprüft ist.',
   } as L,
   sheetTitle: { en: 'The sheet', fr: 'La planche', de: 'Der Bogen' } as L,
   sheetNote: { en: 'Altitude of the village in metres', fr: 'Altitude du village en mètres', de: 'Höhe des Ortes in Metern' } as L,
