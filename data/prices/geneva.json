@@ -1,0 +1,162 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "ge-les-armures",
+      "bookingName": "Hôtel Les Armures",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/lesarmures.en-gb.html",
+      "address": "Rue Puits-St-Pierre, 1, 1204 Geneva, Switzerland",
+      "prices": {
+        "2027-07-21": 660,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 660,
+        "avg": 660,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 660,
+        "avg": 660,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ge-9hotel-paquis",
+      "bookingName": "9Hotel Paquis",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/9hotel-paquis.en-gb.html",
+      "address": "31 Rue de Berne, Paquis, 1201 Geneva, Switzerland",
+      "prices": {
+        "2026-12-18": 207,
+        "2027-02-17": 207,
+        "2027-07-21": 225,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 207,
+        "avg": 215,
+        "samples": 3
+      },
+      "winter": {
+        "from": 207,
+        "avg": 205,
+        "samples": 2
+      },
+      "summer": {
+        "from": 225,
+        "avg": 225,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ge-ibis-centre-gare",
+      "bookingName": "ibis Genève Centre Gare",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/geneve-centre-gare.en-gb.html",
+      "address": "10, rue Voltaire, Saint-Gervais / des Grottes, 1201 Geneva, Switzerland",
+      "prices": {
+        "2026-12-18": 121,
+        "2027-02-17": 128,
+        "2027-07-21": 179,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 121,
+        "avg": 145,
+        "samples": 3
+      },
+      "winter": {
+        "from": 121,
+        "avg": 125,
+        "samples": 2
+      },
+      "summer": {
+        "from": 179,
+        "avg": 180,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ge-ibis-centre-nations",
+      "bookingName": "ibis Genève Centre Nations",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/ibis-geneve-centre-nations.en-gb.html",
+      "address": "Rue du Grand Pré 33-35, Petit-Saconnex / Servette, 1201 Geneva, Switzerland",
+      "prices": {
+        "2027-07-21": 195,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 195,
+        "avg": 195,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 195,
+        "avg": 195,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "ge-beau-rivage",
+      "bookingName": "Beau-Rivage Genève",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/beaurivagegeneva.en-gb.html",
+      "address": "13, Quai du Mont-Blanc, Paquis, 1201 Geneva, Switzerland",
+      "prices": {
+        "2026-12-18": 765,
+        "2027-02-17": 849,
+        "2027-07-21": 1437,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 765,
+        "avg": 1015,
+        "samples": 3
+      },
+      "winter": {
+        "from": 765,
+        "avg": 805,
+        "samples": 2
+      },
+      "summer": {
+        "from": 1437,
+        "avg": 1435,
+        "samples": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "bs-trois-rois",
+      "bookingName": "Grand Hotel LES TROIS ROIS",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/grandhotel-les-trois-rois.en-gb.html",
+      "address": "Blumenrain 8, Old Town Grossbasel, 4001 Basel, Switzerland",
+      "prices": {
+        "2026-12-18": 707,
+        "2027-07-21": 910,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 707,
+        "avg": 810,
+        "samples": 2
+      },
+      "winter": {
+        "from": 707,
+        "avg": 705,
+        "samples": 1
+      },
+      "summer": {
+        "from": 910,
+        "avg": 910,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "bs-krafft",
+      "bookingName": "Krafft Basel",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/krafft-basel.en-gb.html",
+      "address": "Rheingasse 12, Old Town Kleinbasel, 4058 Basel, Switzerland",
+      "prices": {
+        "2026-12-18": 264,
+        "2027-07-21": 267,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 264,
+        "avg": 265,
+        "samples": 2
+      },
+      "winter": {
+        "from": 264,
+        "avg": 265,
+        "samples": 1
+      },
+      "summer": {
+        "from": 267,
+        "avg": 265,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "bs-teufelhof",
+      "bookingName": "Gast - und Kulturhaus Der Teufelhof Basel",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/kultur-und-gasthaus-der-teufelhof-basel.en-gb.html",
+      "address": "Leonhardsgraben 47-49, Old Town Grossbasel, 4051 Basel, Switzerland",
+      "prices": {
+        "2026-12-18": 304,
+        "2027-07-21": 233,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 233,
+        "avg": 270,
+        "samples": 2
+      },
+      "winter": {
+        "from": 304,
+        "avg": 305,
+        "samples": 1
+      },
+      "summer": {
+        "from": 233,
+        "avg": 235,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "bs-volkshaus",
+      "bookingName": "Boutique & Design Hotel Volkshaus Basel",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/volkshaus-basel.en-gb.html",
+      "address": "12 Rebgasse, Old Town Kleinbasel, 4058 Basel, Switzerland",
+      "prices": {
+        "2026-12-18": 266,
+        "2027-02-17": 296,
+        "2027-07-21": 263,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 263,
+        "avg": 275,
+        "samples": 3
+      },
+      "winter": {
+        "from": 266,
+        "avg": 280,
+        "samples": 2
+      },
+      "summer": {
+        "from": 263,
+        "avg": 265,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "bs-youth-hostel",
+      "bookingName": "Basel Youth Hostel",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/youh-hostel-st-alban.en-gb.html",
+      "address": "Maja Sacher-Platz 10, Vorstädte, 4052 Basel, Switzerland",
+      "prices": {
+        "2026-12-18": 162,
+        "2027-02-17": 168,
+        "2027-07-21": 168,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 162,
+        "avg": 165,
+        "samples": 3
+      },
+      "winter": {
+        "from": 162,
+        "avg": 165,
+        "samples": 2
+      },
+      "summer": {
+        "from": 168,
+        "avg": 170,
+        "samples": 1
+      }
+    }
+  ]
+}

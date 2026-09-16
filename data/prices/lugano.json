@@ -1,0 +1,197 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "lugano-international-au-lac",
+      "bookingName": "International au Lac Historic Lakeside Hotel",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/international-au-lac.en-gb.html",
+      "address": "Via Nassa 68 - Piazza Luini, 6901 Lugano, Switzerland",
+      "prices": {
+        "2027-07-21": 285,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 285,
+        "avg": 285,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 285,
+        "avg": 285,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lugano-walter-au-lac",
+      "bookingName": "Hotel Walter Au Lac",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/walter-au-lac.en-gb.html",
+      "address": "Piazza Rezzonico 7, 6900 Lugano, Switzerland",
+      "prices": {
+        "2026-12-18": 233,
+        "2027-07-21": 293,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 233,
+        "avg": 265,
+        "samples": 2
+      },
+      "winter": {
+        "from": 233,
+        "avg": 235,
+        "samples": 1
+      },
+      "summer": {
+        "from": 293,
+        "avg": 295,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lugano-splendide-royal",
+      "bookingName": "Hotel Splendide Royal",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/splendideroyal.en-gb.html",
+      "address": "Riva Caccia 7, 6900 Lugano, Switzerland",
+      "prices": {
+        "2026-12-18": 487,
+        "2027-07-21": 623,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 487,
+        "avg": 555,
+        "samples": 2
+      },
+      "winter": {
+        "from": 487,
+        "avg": 485,
+        "samples": 1
+      },
+      "summer": {
+        "from": 623,
+        "avg": 625,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lugano-federale",
+      "bookingName": "Hotel Federale",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/federale.en-gb.html",
+      "address": "via Paolo Regazzoni 8, 6900 Lugano, Switzerland",
+      "prices": {
+        "2026-12-18": 216,
+        "2027-07-21": 224,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 216,
+        "avg": 220,
+        "samples": 2
+      },
+      "winter": {
+        "from": 216,
+        "avg": 215,
+        "samples": 1
+      },
+      "summer": {
+        "from": 224,
+        "avg": 225,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lugano-villa-principe-leopoldo",
+      "bookingName": "Villa Principe Leopoldo",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/villaprincipeleopoldo.en-gb.html",
+      "address": "Via Montalbano 5A, 6900 Lugano, Switzerland",
+      "prices": {
+        "2026-12-18": 390,
+        "2027-07-21": 732,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 390,
+        "avg": 560,
+        "samples": 2
+      },
+      "winter": {
+        "from": 390,
+        "avg": 390,
+        "samples": 1
+      },
+      "summer": {
+        "from": 732,
+        "avg": 730,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lugano-delfino",
+      "bookingName": "Hotel Delfino Lugano",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/delfino.en-gb.html",
+      "address": "Via Casserinetta 6, 6900 Lugano, Switzerland",
+      "prices": {
+        "2026-12-18": 144,
+        "2027-07-21": 232,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 144,
+        "avg": 190,
+        "samples": 2
+      },
+      "winter": {
+        "from": 144,
+        "avg": 145,
+        "samples": 1
+      },
+      "summer": {
+        "from": 232,
+        "avg": 230,
+        "samples": 1
+      }
+    }
+  ]
+}

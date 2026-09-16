@@ -1,0 +1,166 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "sg-einstein",
+      "bookingName": "Einstein St. Gallen",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/einstein-st-gallen.en-gb.html",
+      "address": "Berneggstrasse 2, 9000 St. Gallen, Switzerland",
+      "prices": {
+        "2026-12-18": 265,
+        "2027-02-17": 305,
+        "2027-07-21": 306,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 265,
+        "avg": 290,
+        "samples": 3
+      },
+      "winter": {
+        "from": 265,
+        "avg": 285,
+        "samples": 2
+      },
+      "summer": {
+        "from": 306,
+        "avg": 305,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "sg-metropol",
+      "bookingName": "Tailormade Hotel METROPOL St Gallen",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/metropol-st-gallen.en-gb.html",
+      "address": "Bahnhofplatz 3, 9001 St. Gallen, Switzerland",
+      "prices": {
+        "2026-12-18": 142,
+        "2027-02-17": 176,
+        "2027-07-21": 180,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 142,
+        "avg": 165,
+        "samples": 3
+      },
+      "winter": {
+        "from": 142,
+        "avg": 160,
+        "samples": 2
+      },
+      "summer": {
+        "from": 180,
+        "avg": 180,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "sg-walhalla",
+      "bookingName": "Hotel Walhalla",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/walhalla.en-gb.html",
+      "address": "Bahnhofplatz, 9001 St. Gallen, Switzerland",
+      "prices": {
+        "2026-12-18": 156,
+        "2027-02-17": 148,
+        "2027-07-21": 191,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 148,
+        "avg": 165,
+        "samples": 3
+      },
+      "winter": {
+        "from": 148,
+        "avg": 150,
+        "samples": 2
+      },
+      "summer": {
+        "from": 191,
+        "avg": 190,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "sg-radisson-blu",
+      "bookingName": "Radisson Blu Hotel, St. Gallen",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/radisson-sas-st-gallen.en-gb.html",
+      "address": "St. Jakob-Strasse 55, 9000 St. Gallen, Switzerland",
+      "prices": {
+        "2026-12-18": 178,
+        "2027-02-17": 189,
+        "2027-07-21": 188,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 178,
+        "avg": 185,
+        "samples": 3
+      },
+      "winter": {
+        "from": 178,
+        "avg": 185,
+        "samples": 2
+      },
+      "summer": {
+        "from": 188,
+        "avg": 190,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "sg-youth-hostel",
+      "bookingName": "St. Gallen Youth Hostel",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/youth-hostel-st-gallen.en-gb.html",
+      "address": "Jüchstrasse 25, 9000 St. Gallen, Switzerland",
+      "prices": {
+        "2027-07-21": 124,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 124,
+        "avg": 125,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 124,
+        "avg": 125,
+        "samples": 1
+      }
+    }
+  ]
+}

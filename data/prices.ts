@@ -18,6 +18,10 @@ import engelberg from './prices/engelberg.json'
 import locarno from './prices/locarno.json'
 import vevey from './prices/vevey.json'
 import weggis from './prices/weggis.json'
+import lugano from './prices/lugano.json'
+import geneva from './prices/geneva.json'
+import basel from './prices/basel.json'
+import stGallen from './prices/st-gallen.json'
 
 /** Real nightly prices scraped from Booking.com on dated samples (2 adults, 1 room, 1 night).
  *  Regenerate with scripts/scrape-booking-prices.mjs, never edit numbers by hand. */
@@ -45,6 +49,10 @@ const FILES: Record<string, PriceFile> = {
   locarno: locarno as unknown as PriceFile,
   vevey: vevey as unknown as PriceFile,
   weggis: weggis as unknown as PriceFile,
+  lugano: lugano as unknown as PriceFile,
+  geneva: geneva as unknown as PriceFile,
+  basel: basel as unknown as PriceFile,
+  'st-gallen': stGallen as unknown as PriceFile,
 }
 
 export const getPriceFile = (destination: string): PriceFile | undefined => FILES[destination]
