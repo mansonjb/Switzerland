@@ -1,0 +1,139 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "mo-fairmont-montreux-palace",
+      "bookingName": "Fairmont Le Montreux Palace",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/montreuxpalace.en-gb.html",
+      "address": "Avenue Claude Nobs 2, 1820 Montreux, Switzerland",
+      "prices": {
+        "2026-12-18": 604,
+        "2027-02-17": 469,
+        "2027-07-21": 604,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 469,
+        "avg": 560,
+        "samples": 3
+      },
+      "winter": {
+        "from": 469,
+        "avg": 535,
+        "samples": 2
+      },
+      "summer": {
+        "from": 604,
+        "avg": 605,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "mo-helvetie",
+      "bookingName": "Hotel Helvetie Montreux",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/helvetie.en-gb.html",
+      "address": "Avenue du casino 32, 1820 Montreux, Switzerland",
+      "prices": {
+        "2026-12-18": 218,
+        "2027-02-17": 144,
+        "2027-07-21": 180,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 144,
+        "avg": 180,
+        "samples": 3
+      },
+      "winter": {
+        "from": 144,
+        "avg": 180,
+        "samples": 2
+      },
+      "summer": {
+        "from": 180,
+        "avg": 180,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "mo-bon-port",
+      "bookingName": "Bon Port",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/bon-port.en-gb.html",
+      "address": "Rue du Theatre 4, 1820 Montreux, Switzerland",
+      "prices": {
+        "2026-12-18": 182,
+        "2027-02-17": 112,
+        "2027-07-21": 141,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 112,
+        "avg": 145,
+        "samples": 3
+      },
+      "winter": {
+        "from": 112,
+        "avg": 145,
+        "samples": 2
+      },
+      "summer": {
+        "from": 141,
+        "avg": 140,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "mo-tralala",
+      "bookingName": "Tralala Hotel Montreux",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/tralala-montreux.en-gb.html",
+      "address": "Rue du Temple 2, 1820 Montreux, Switzerland",
+      "prices": {
+        "2026-12-18": 309,
+        "2027-02-17": 144,
+        "2027-07-21": 177,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 144,
+        "avg": 210,
+        "samples": 3
+      },
+      "winter": {
+        "from": 144,
+        "avg": 225,
+        "samples": 2
+      },
+      "summer": {
+        "from": 177,
+        "avg": 175,
+        "samples": 1
+      }
+    }
+  ]
+}
