@@ -27,20 +27,45 @@ export const vevey: DestinationGuide = {
   },
   snapshot: {
     why: {
-      en: 'The market on the Grande Place, the Lavaux terraces at the western edge of town, and Chaplin’s World in the hills above are all within a short ride of the same lakefront station.',
-      fr: 'Le marché de la Grande Place, les terrasses de Lavaux à la lisière ouest de la ville et Chaplin’s World dans les hauteurs se trouvent tous à quelques minutes de la même gare, au bord du lac.',
-      de: 'Der Markt auf der Grande Place, die Lavaux-Terrassen am westlichen Stadtrand und Chaplin’s World in den Hügeln liegen alle in kurzer Fahrt vom selben Bahnhof am See.',
+      en: 'Because the market square, the Lavaux vineyard terraces and Chaplin’s World are all within reach of the same lakefront station, you can base yourself in one hotel and cover a market town, a vineyard landscape and a museum estate without changing address.',
+      fr: 'Parce que la place du marché, les terrasses de Lavaux et Chaplin’s World sont tous à portée de la même gare, au bord du lac, vous pouvez loger dans un seul hôtel et couvrir une ville de marché, un paysage viticole et un domaine muséal sans changer d’adresse.',
+      de: 'Weil Marktplatz, die Lavaux-Terrassen und Chaplin’s World alle in Reichweite desselben Bahnhofs am See liegen, genügt ein Hotel in Vevey, um eine Marktstadt, eine Weinberglandschaft und ein Museumsanwesen zu erleben, ohne die Adresse zu wechseln.',
     },
     where: {
-      en: 'Around the Grande Place and the lakefront for the market and the Alimentarium, around the railway station for the shortest ride to Montreux or Lausanne, or on the slopes towards Blonay and Corsier for a quieter, hillside base.',
-      fr: 'Autour de la Grande Place et du front de lac pour le marché et l’Alimentarium, autour de la gare pour la liaison la plus courte vers Montreux ou Lausanne, ou sur les hauteurs vers Blonay et Corsier pour une base plus calme, à flanc de coteau.',
-      de: 'Rund um die Grande Place und die Seepromenade für den Markt und das Alimentarium, rund um den Bahnhof für die kürzeste Verbindung nach Montreux oder Lausanne, oder an den Hängen Richtung Blonay und Corsier für eine ruhigere Basis am Hang.',
+      en: 'For the market and the lake: the Grande Place and the lakefront. For the shortest ride onward to Montreux or Lausanne: around the railway station. Looking for a quieter, hillside base: the slopes towards Blonay and Corsier.',
+      fr: 'Pour le marché et le lac : la Grande Place et le front de lac. Pour la liaison la plus courte vers Montreux ou Lausanne : les abords de la gare. En quête d’une base plus calme, à flanc de coteau : les hauteurs vers Blonay et Corsier.',
+      de: 'Für Markt und See: die Grande Place und die Seepromenade. Für die kürzeste Verbindung nach Montreux oder Lausanne: rund um den Bahnhof. Auf der Suche nach einer ruhigeren Basis am Hang: die Hänge Richtung Blonay und Corsier.',
     },
     watch: {
-      en: 'No date has yet been published for the next Fête des Vignerons, the winegrowers’ festival held in Vevey and listed by UNESCO since 2016; the previous edition ran from 18 July to 11 August 2019.',
-      fr: 'Aucune date n’a encore été publiée pour la prochaine Fête des Vignerons, la fête viticole qui se tient à Vevey et inscrite par l’UNESCO depuis 2016 ; la précédente édition s’est déroulée du 18 juillet au 11 août 2019.',
-      de: 'Für das nächste Fête des Vignerons, das in Vevey abgehaltene Winzerfest, das seit 2016 auf der UNESCO-Liste steht, ist noch kein Datum veröffentlicht; die letzte Ausgabe fand vom 18. Juli bis 11. August 2019 statt.',
+      en: 'No date has yet been published for the next Fête des Vignerons, the winegrowers’ festival held in Vevey and listed by UNESCO since 2016; the previous edition ran from 18 July to 11 August 2019. Check for an announced date before you build a trip around it.',
+      fr: 'Aucune date n’est encore publiée pour la prochaine Fête des Vignerons, la fête viticole qui se tient à Vevey et inscrite par l’UNESCO depuis 2016 ; la précédente édition s’est déroulée du 18 juillet au 11 août 2019. Vérifiez qu’une date a été annoncée avant de construire un séjour autour de cet événement.',
+      de: 'Für das nächste Fête des Vignerons, das in Vevey abgehaltene Winzerfest, das seit 2016 auf der UNESCO-Liste steht, ist noch kein Datum veröffentlicht; die letzte Ausgabe fand vom 18. Juli bis 11. August 2019 statt. Prüfen Sie vor der Planung, ob inzwischen ein Termin angekündigt wurde.',
     },
+  },
+  story: {
+    title: { en: 'Vevey, before you book', fr: 'Vevey, avant de réserver', de: 'Vevey, bevor Sie buchen' },
+    paragraphs: [
+      {
+        en: 'Vevey is a market town on the shore of Lake Geneva, at 383 metres, built around a square that opens straight onto the water. Trains put it close to its neighbours: fourteen minutes from Lausanne on the direct RE 33, six minutes from Montreux, and about an hour and seven minutes from Geneva Airport on the direct IR 90. Arrival is by rail, into a station that serves three sides of the town: the lakefront and its market, and the slopes that climb behind it towards Blonay and Corsier.',
+        fr: 'Vevey est une ville de marché au bord du Léman, à 383 mètres, construite autour d’une place qui s’ouvre directement sur l’eau. Le train la rapproche de ses voisines : quatorze minutes de Lausanne en RE 33 direct, six minutes de Montreux, et environ une heure sept depuis l’aéroport de Genève en IR 90 direct. On arrive par le rail, dans une gare qui dessert trois facettes de la ville : le front de lac et son marché, et les hauteurs qui grimpent derrière vers Blonay et Corsier.',
+        de: 'Vevey ist eine Marktstadt am Ufer des Genfersees, auf 383 Metern, rund um einen Platz gebaut, der sich direkt zum Wasser hin öffnet. Der Zug bringt sie nahe an ihre Nachbarn heran: vierzehn Minuten von Lausanne mit dem direkten RE 33, sechs Minuten von Montreux, und rund eine Stunde sieben ab dem Flughafen Genf mit dem direkten IR 90. Die Ankunft erfolgt mit der Bahn, an einem Bahnhof, der drei Seiten der Stadt erschliesst: die Seepromenade mit ihrem Markt und die Hänge, die dahinter Richtung Blonay und Corsier ansteigen.',
+      },
+      {
+        en: 'Three sectors decide where to sleep. The Grande Place and the lakefront sit right on the water, with the market, the Alimentarium and the Fork sculpture all on the same front. The railway station stands apart from the lake, the departure point for trains to Lausanne and Montreux and for bus 212 towards Chaplin’s World. Behind both, the ground climbs towards Blonay, Mont-Pèlerin and Corsier-sur-Vevey, where Chaplin’s World occupies its four-hectare estate above the town.',
+        fr: 'Trois secteurs déterminent où dormir. La Grande Place et le front de lac se trouvent directement au bord de l’eau, avec le marché, l’Alimentarium et la sculpture de la Fourchette sur ce même front. La gare se tient à l’écart du lac, point de départ des trains vers Lausanne et Montreux et du bus 212 vers Chaplin’s World. Derrière les deux, le terrain grimpe vers Blonay, le Mont-Pèlerin et Corsier-sur-Vevey, où Chaplin’s World occupe son domaine de quatre hectares au-dessus de la ville.',
+        de: 'Drei Ortsteile bestimmen, wo man schläft. Die Grande Place und die Seepromenade liegen direkt am Wasser, mit Markt, Alimentarium und der Gabel-Skulptur an derselben Promenade. Der Bahnhof liegt abseits des Sees, Ausgangspunkt der Züge nach Lausanne und Montreux und des Busses 212 Richtung Chaplin’s World. Dahinter steigt das Gelände Richtung Blonay, Mont-Pèlerin und Corsier-sur-Vevey an, wo Chaplin’s World sein vier Hektar grosses Anwesen oberhalb der Stadt hat.',
+      },
+      {
+        en: 'The five hotels in this selection split across those three sectors: Grand Hôtel du Lac and Hôtel des Trois Couronnes face the water, Astra Hôtel Vevey stands by the station, and Hôtel Le Léman and Modern Times Hotel sit on the slopes above town, the second of the two actually in Blonay-Saint-Légier rather than Vevey itself. Our dated price samples put Hôtel des Trois Couronnes as the most expensive of the five, and Modern Times Hotel as the least expensive, in both the winter and summer samples we recorded.',
+        fr: 'Les cinq hôtels de cette sélection se répartissent entre ces trois secteurs : le Grand Hôtel du Lac et l’Hôtel des Trois Couronnes font face à l’eau, l’Astra Hôtel Vevey se tient près de la gare, et l’Hôtel Le Léman et le Modern Times Hotel se trouvent sur les hauteurs, le second des deux se situant en réalité à Blonay-Saint-Légier plutôt qu’à Vevey même. Nos relevés de prix datés placent l’Hôtel des Trois Couronnes comme le plus cher des cinq, et le Modern Times Hotel comme le moins cher, aussi bien dans les échantillons d’hiver que d’été relevés.',
+        de: 'Die fünf Hotels dieser Auswahl verteilen sich auf diese drei Ortsteile: das Grand Hôtel du Lac und das Hôtel des Trois Couronnes liegen am Wasser, das Astra Hôtel Vevey beim Bahnhof, und das Hôtel Le Léman sowie das Modern Times Hotel an den Hängen über der Stadt, wobei Letzteres tatsächlich in Blonay-Saint-Légier liegt und nicht in Vevey selbst. Unsere datierten Preisstichproben zeigen das Hôtel des Trois Couronnes als das teuerste der fünf und das Modern Times Hotel als das günstigste, sowohl in den Winter- als auch in den Sommerstichproben.',
+      },
+      {
+        en: 'The Grande Place market runs every Tuesday and Saturday, all year, and the Fête des Vignerons, held in Vevey and listed by UNESCO since 2016, has no announced date for its next edition after the 2019 run. Allow fourteen minutes from Lausanne, six from Montreux, or about an hour and seven minutes from Geneva Airport by direct train, whichever direction you are travelling from.',
+        fr: 'Le marché de la Grande Place a lieu chaque mardi et samedi, toute l’année, et la Fête des Vignerons, qui se tient à Vevey et est inscrite par l’UNESCO depuis 2016, n’a pas de date annoncée pour sa prochaine édition après celle de 2019. Comptez quatorze minutes depuis Lausanne, six depuis Montreux, ou environ une heure sept depuis l’aéroport de Genève en train direct, selon d’où vous venez.',
+        de: 'Der Markt auf der Grande Place findet jeden Dienstag und Samstag, ganzjährig, statt, und für das in Vevey abgehaltene, seit 2016 von der UNESCO gelistete Fête des Vignerons ist nach der Ausgabe von 2019 noch kein Termin für die nächste angekündigt. Rechnen Sie mit vierzehn Minuten ab Lausanne, sechs ab Montreux oder rund einer Stunde sieben ab dem Flughafen Genf mit dem direkten Zug, je nachdem, von wo Sie anreisen.',
+      },
+    ],
   },
   stats: [
     { value: '2016', label: { en: 'year the Fête des Vignerons, held in Vevey, entered the UNESCO Intangible Cultural Heritage list', fr: 'année d’inscription de la Fête des Vignerons, tenue à Vevey, au patrimoine culturel immatériel de l’UNESCO', de: 'Jahr, in dem das in Vevey abgehaltene Fête des Vignerons in die Liste des immateriellen Kulturerbes der UNESCO aufgenommen wurde' } },
@@ -65,6 +90,11 @@ export const vevey: DestinationGuide = {
         { en: 'The market is held every Tuesday and Saturday on the Grande Place', fr: 'Le marché a lieu chaque mardi et samedi sur la Grande Place', de: 'Der Markt findet jeden Dienstag und Samstag auf der Grande Place statt' },
         { en: 'The giant Fork sculpture stands in the lake in front of the Alimentarium', fr: 'La sculpture géante de la Fourchette se dresse dans le lac, devant l’Alimentarium', de: 'Die riesige Gabel-Skulptur steht im See, vor dem Alimentarium' },
       ],
+      story: {
+        en: 'The market square sits directly on the water, with the Tuesday and Saturday market, the Alimentarium and the Fork sculpture all on the same front, which suits a stay built around the lake rather than day trips into the hills. Chaplin’s World is reached by bus 212 from the railway station rather than from here, so a market-square address means walking to the station first for that trip.',
+        fr: 'La place du marché se trouve directement au bord de l’eau, avec le marché du mardi et du samedi, l’Alimentarium et la sculpture de la Fourchette sur ce même front, ce qui convient à un séjour organisé autour du lac plutôt qu’à des excursions dans les hauteurs. Chaplin’s World se rejoint par le bus 212 depuis la gare et non depuis ce secteur, si bien qu’une adresse sur la place du marché implique de rejoindre d’abord la gare pour cette sortie.',
+        de: 'Der Marktplatz liegt direkt am Wasser, mit dem Markt vom Dienstag und Samstag, dem Alimentarium und der Gabel-Skulptur an derselben Promenade, was sich für einen Aufenthalt rund um den See eignet statt für Ausflüge in die Hänge. Chaplin’s World erreicht man mit dem Bus 212 ab dem Bahnhof und nicht von hier aus, eine Adresse am Marktplatz bedeutet also, für diesen Ausflug zuerst zum Bahnhof zu gehen.',
+      },
     },
     {
       title: { en: 'Around the railway station', fr: 'Autour de la gare', de: 'Rund um den Bahnhof' },
@@ -78,6 +108,11 @@ export const vevey: DestinationGuide = {
         { en: 'Astra Hotel Vevey stands on the site of the 19th-century Hôtel de la Gare', fr: 'L’Astra Hôtel Vevey occupe le site de l’Hôtel de la Gare du XIXe siècle', de: 'Das Astra Hotel Vevey steht auf dem Gelände des Hôtel de la Gare aus dem 19. Jahrhundert' },
         { en: 'Bus 212 to Chaplin’s World leaves from the station, about 15 minutes', fr: 'Le bus 212 vers Chaplin’s World part de la gare, environ 15 minutes de trajet', de: 'Der Bus 212 nach Chaplin’s World fährt ab dem Bahnhof, rund 15 Minuten Fahrzeit' },
       ],
+      story: {
+        en: 'Vevey station is the departure point for trains to Lausanne and Montreux and for bus 212 towards Chaplin’s World, which makes this side practical if onward travel matters more than a lake view. Astra Hôtel Vevey stands here, on a site that has taken guests since the 19th-century Hôtel de la Gare; the trade-off is a stay set back from the lakefront and the market on the Grande Place.',
+        fr: 'La gare de Vevey est le point de départ des trains vers Lausanne et Montreux et du bus 212 vers Chaplin’s World, ce qui rend ce côté pratique quand la suite du trajet compte plus que la vue sur le lac. L’Astra Hôtel Vevey s’y trouve, sur un site qui accueille des voyageurs depuis l’Hôtel de la Gare du XIXe siècle ; en contrepartie, le séjour se fait en retrait du front de lac et du marché de la Grande Place.',
+        de: 'Der Bahnhof Vevey ist Ausgangspunkt der Züge nach Lausanne und Montreux sowie des Busses 212 Richtung Chaplin’s World, was diese Seite praktisch macht, wenn die Weiterreise wichtiger ist als der Blick auf den See. Das Astra Hotel Vevey steht hier, auf einem Gelände, das seit dem Hôtel de la Gare aus dem 19. Jahrhundert Gäste empfängt; der Nachteil ist ein Aufenthalt abseits der Seepromenade und des Marktes auf der Grande Place.',
+      },
     },
     {
       title: { en: 'The slopes above town', fr: 'Les hauteurs de la ville', de: 'Die Hänge über der Stadt' },
@@ -91,6 +126,11 @@ export const vevey: DestinationGuide = {
         { en: 'Chaplin’s World occupies a four-hectare estate at Corsier-sur-Vevey', fr: 'Chaplin’s World occupe un domaine de quatre hectares à Corsier-sur-Vevey', de: 'Chaplin’s World hat ein vier Hektar grosses Anwesen in Corsier-sur-Vevey' },
         { en: 'Hôtel Le Léman stands at Route de Blonay 20, close to the centre of Vevey', fr: 'L’Hôtel Le Léman se trouve au 20 route de Blonay, à proximité du centre de Vevey', de: 'Das Hôtel Le Léman steht an der Route de Blonay 20, nahe dem Zentrum von Vevey' },
       ],
+      story: {
+        en: 'Ground climbs from the lake towards Mont-Pèlerin, Blonay and Corsier-sur-Vevey, where Chaplin’s World occupies its four-hectare estate, which suits a quieter, hillside stay close to that estate. Hôtel Le Léman stands on the Route de Blonay on this side; in exchange for the quiet, you are away from the lakefront market and the boats on the water.',
+        fr: 'Le terrain grimpe depuis le lac vers le Mont-Pèlerin, Blonay et Corsier-sur-Vevey, où Chaplin’s World occupe son domaine de quatre hectares, ce qui convient à un séjour plus calme, à flanc de coteau, proche de ce domaine. L’Hôtel Le Léman se trouve route de Blonay, de ce côté ; en échange de ce calme, on s’éloigne du marché du front de lac et des bateaux sur l’eau.',
+        de: 'Das Gelände steigt vom See Richtung Mont-Pèlerin, Blonay und Corsier-sur-Vevey an, wo Chaplin’s World sein vier Hektar grosses Anwesen hat, was sich für einen ruhigeren Aufenthalt am Hang, nahe diesem Anwesen, eignet. Das Hôtel Le Léman steht auf dieser Seite an der Route de Blonay; im Tausch gegen die Ruhe liegt man abseits vom Markt an der Seepromenade und von den Schiffen auf dem Wasser.',
+      },
     },
   ],
   hotels: [
@@ -104,6 +144,11 @@ export const vevey: DestinationGuide = {
         { en: 'Gourmet restaurant Emotions by Guy Ravet, Wednesday to Sunday, dinner only', fr: 'Restaurant gastronomique Emotions by Guy Ravet, du mercredi au dimanche, dîner uniquement', de: 'Gourmetrestaurant Emotions by Guy Ravet, Mittwoch bis Sonntag, nur abends' },
         { en: 'The Veranda, a "brasserie chic", open every day', fr: 'The Veranda, une « brasserie chic », ouverte tous les jours', de: 'The Veranda, eine „Brasserie chic“, täglich geöffnet' },
       ],
+      blurb: {
+        en: 'Grand Hôtel du Lac stands on the lakefront by the Grande Place, with a gourmet table, Emotions by Guy Ravet, open Wednesday to Sunday for dinner only, and The Veranda, its brasserie chic, open every day. It suits a stay built around the lake and the market rather than the slopes above town.',
+        fr: 'Le Grand Hôtel du Lac se trouve sur le front de lac, près de la Grande Place, avec une table gastronomique, Emotions by Guy Ravet, ouverte du mercredi au dimanche, dîner uniquement, et The Veranda, sa brasserie chic, ouverte tous les jours. Il convient à un séjour organisé autour du lac et du marché plutôt que des hauteurs de la ville.',
+        de: 'Das Grand Hôtel du Lac steht an der Seepromenade, nahe der Grande Place, mit einem Gourmetrestaurant, Emotions by Guy Ravet, Mittwoch bis Sonntag nur abends geöffnet, und The Veranda, seiner Brasserie chic, täglich geöffnet. Es eignet sich für einen Aufenthalt rund um See und Markt statt für die Hänge über der Stadt.',
+      },
     },
     {
       slug: 've-trois-couronnes',
@@ -114,6 +159,11 @@ export const vevey: DestinationGuide = {
       facts: [
         { en: '34 rooms facing Lake Geneva', fr: '34 chambres avec vue sur le Léman', de: '34 Zimmer mit Blick auf den Genfersee' },
       ],
+      blurb: {
+        en: 'Hôtel des Trois Couronnes faces Lake Geneva directly, with 34 rooms looking onto the water, on the same lakefront as the Grande Place. Of the five hotels in this selection, its dated prices are the highest, in both the winter and summer samples.',
+        fr: 'L’Hôtel des Trois Couronnes fait face au Léman, avec 34 chambres donnant sur l’eau, sur le même front de lac que la Grande Place. Parmi les cinq hôtels de cette sélection, ses prix datés sont les plus élevés, aussi bien dans les échantillons d’hiver que d’été.',
+        de: 'Das Hôtel des Trois Couronnes liegt direkt am Genfersee, mit 34 Zimmern mit Blick aufs Wasser, an derselben Seepromenade wie die Grande Place. Von den fünf Hotels dieser Auswahl sind seine datierten Preise die höchsten, sowohl in den Winter- als auch in den Sommerstichproben.',
+      },
     },
     {
       slug: 've-astra',
@@ -125,6 +175,11 @@ export const vevey: DestinationGuide = {
         { en: 'The Ming family took over the Buffet de la Gare in 1950, starting with an 11-room house; the complex was renamed Astra Hôtel Vevey in 2005', fr: 'La famille Ming reprend le Buffet de la Gare en 1950, avec une maison de 11 chambres ; l’ensemble devient l’Astra Hôtel Vevey en 2005', de: 'Die Familie Ming übernahm 1950 das Buffet de la Gare mit einem Haus mit 11 Zimmern; die Anlage wurde 2005 in Astra Hôtel Vevey umbenannt' },
         { en: 'Brasserie La Coupole 1912 preserves 1927 Fête des Vignerons frescoes and stained glass by Michel Delanoë', fr: 'La brasserie La Coupole 1912 conserve des fresques de la Fête des Vignerons de 1927 et des vitraux de Michel Delanoë', de: 'Die Brasserie La Coupole 1912 bewahrt Fresken des Fête des Vignerons von 1927 und Glasfenster von Michel Delanoë' },
       ],
+      blurb: {
+        en: 'Astra Hôtel Vevey stands by the railway station, on a site that has taken guests since the 19th-century Hôtel de la Gare; the Ming family took it over in 1950 with an 11-room house and renamed it Astra in 2005. Its brasserie, La Coupole 1912, keeps frescoes from the 1927 Fête des Vignerons and stained glass by Michel Delanoë, and suits a stay that leans on the trains to Lausanne and Montreux.',
+        fr: 'L’Astra Hôtel Vevey se tient près de la gare, sur un site qui accueille des voyageurs depuis l’Hôtel de la Gare du XIXe siècle ; la famille Ming en prend la suite en 1950 avec une maison de 11 chambres, rebaptisée Astra en 2005. Sa brasserie, La Coupole 1912, conserve des fresques de la Fête des Vignerons de 1927 et des vitraux de Michel Delanoë, et convient à un séjour qui s’appuie sur les trains vers Lausanne et Montreux.',
+        de: 'Das Astra Hotel Vevey steht beim Bahnhof, auf einem Gelände, das seit dem Hôtel de la Gare aus dem 19. Jahrhundert Gäste empfängt; die Familie Ming übernahm es 1950 mit einem Haus mit 11 Zimmern und benannte es 2005 in Astra um. Seine Brasserie, La Coupole 1912, bewahrt Fresken des Fête des Vignerons von 1927 und Glasfenster von Michel Delanoë, und eignet sich für einen Aufenthalt, der sich auf die Züge nach Lausanne und Montreux stützt.',
+      },
     },
     {
       slug: 've-le-leman',
@@ -136,6 +191,11 @@ export const vevey: DestinationGuide = {
         { en: 'Route de Blonay 20, on the Vaud Riviera close to the centre of Vevey', fr: '20 route de Blonay, sur la Riviera vaudoise, à proximité du centre de Vevey', de: 'Route de Blonay 20, an der Waadtländer Riviera, nahe dem Zentrum von Vevey' },
         { en: 'Hotel and restaurant in the same house', fr: 'Hôtel et restaurant dans la même maison', de: 'Hotel und Restaurant im selben Haus' },
       ],
+      blurb: {
+        en: 'Hôtel Le Léman stands at Route de Blonay 20, on the slopes above the lakefront, with its restaurant in the same house. It suits a quieter stay, closer to Corsier-sur-Vevey and Chaplin’s World than to the market on the Grande Place.',
+        fr: 'L’Hôtel Le Léman se trouve au 20 route de Blonay, sur les hauteurs au-dessus du front de lac, avec son restaurant dans la même maison. Il convient à un séjour plus calme, plus proche de Corsier-sur-Vevey et de Chaplin’s World que du marché de la Grande Place.',
+        de: 'Das Hôtel Le Léman steht an der Route de Blonay 20, an den Hängen über der Seepromenade, mit seinem Restaurant im selben Haus. Es eignet sich für einen ruhigeren Aufenthalt, näher bei Corsier-sur-Vevey und Chaplin’s World als beim Markt auf der Grande Place.',
+      },
     },
     {
       slug: 've-modern-times',
@@ -146,6 +206,11 @@ export const vevey: DestinationGuide = {
       facts: [
         { en: 'Chemin du Genevrier 20, 1806 Blonay-Saint-Légier, part of Marriott’s Tribute Portfolio', fr: '20 chemin du Genevrier, 1806 Blonay-Saint-Légier, membre du Tribute Portfolio de Marriott', de: 'Chemin du Genevrier 20, 1806 Blonay-Saint-Légier, Teil von Marriotts Tribute Portfolio' },
       ],
+      blurb: {
+        en: 'Modern Times Hotel stands at Chemin du Genevrier 20 in Blonay-Saint-Légier, above Vevey rather than in the town itself, and belongs to Marriott’s Tribute Portfolio. Of the five hotels in this selection, its dated prices are the lowest, in both the winter and summer samples.',
+        fr: 'Le Modern Times Hotel se trouve au 20 chemin du Genevrier, à Blonay-Saint-Légier, au-dessus de Vevey plutôt que dans la ville elle-même, et appartient au Tribute Portfolio de Marriott. Parmi les cinq hôtels de cette sélection, ses prix datés sont les plus bas, aussi bien dans les échantillons d’hiver que d’été.',
+        de: 'Das Modern Times Hotel steht am Chemin du Genevrier 20 in Blonay-Saint-Légier, oberhalb von Vevey statt in der Stadt selbst, und gehört zu Marriotts Tribute Portfolio. Von den fünf Hotels dieser Auswahl sind seine datierten Preise die niedrigsten, sowohl in den Winter- als auch in den Sommerstichproben.',
+      },
     },
   ],
   hotelsNote: {
@@ -159,33 +224,33 @@ export const vevey: DestinationGuide = {
       {
         title: { en: 'Getting to Chaplin’s World', fr: 'Se rendre à Chaplin’s World', de: 'Anreise zu Chaplin’s World' },
         text: {
-          en: 'Bus 212 leaves Vevey SBB station for the "Chaplin" stop in about 15 minutes. Parking at the estate costs CHF 5 a day with admission, with two EV charging points.',
-          fr: 'Le bus 212 relie la gare de Vevey CFF à l’arrêt « Chaplin » en environ 15 minutes. Le stationnement sur le domaine coûte 5 CHF par jour, admission comprise, avec deux bornes de recharge électrique.',
-          de: 'Der Bus 212 verbindet den Bahnhof Vevey SBB in rund 15 Minuten mit der Haltestelle „Chaplin“. Das Parkieren auf dem Anwesen kostet CHF 5 pro Tag inklusive Eintritt, mit zwei E-Ladestationen.',
+          en: 'Take the bus if you would rather not drive: bus 212 leaves Vevey SBB station for the "Chaplin" stop in about 15 minutes. Parking on the estate costs CHF 5 a day with admission and includes two EV charging points, so driving stays an easy backup if you prefer it.',
+          fr: 'Prenez le bus si vous préférez ne pas conduire : le bus 212 relie la gare de Vevey CFF à l’arrêt « Chaplin » en environ 15 minutes. Le stationnement sur le domaine coûte 5 CHF par jour, admission comprise, avec deux bornes de recharge électrique, une solution de repli simple si vous préférez la voiture.',
+          de: 'Nehmen Sie den Bus, wenn Sie nicht selbst fahren möchten: Der Bus 212 verbindet den Bahnhof Vevey SBB in rund 15 Minuten mit der Haltestelle „Chaplin“. Das Parkieren auf dem Anwesen kostet CHF 5 pro Tag inklusive Eintritt, mit zwei E-Ladestationen, eine einfache Alternative, wenn Sie lieber mit dem Auto kommen.',
         },
       },
       {
         title: { en: 'The market', fr: 'Le marché', de: 'Der Markt' },
         text: {
-          en: 'The Grande Place market runs every Tuesday and Saturday, all year, right on the lakefront.',
-          fr: 'Le marché de la Grande Place a lieu chaque mardi et samedi, toute l’année, directement au bord du lac.',
-          de: 'Der Markt auf der Grande Place findet jeden Dienstag und Samstag, ganzjährig, direkt am See statt.',
+          en: 'Plan around Tuesday and Saturday if the market matters to your stay: it runs all year, right on the lakefront Grande Place, so a hotel near the square puts the stalls within a short walk on those two mornings.',
+          fr: 'Prévoyez votre séjour autour du mardi et du samedi si le marché compte pour vous : il se tient toute l’année, directement sur la Grande Place au bord du lac, si bien qu’un hôtel proche de la place met les étals à quelques pas ces deux matins-là.',
+          de: 'Planen Sie rund um Dienstag und Samstag, falls Ihnen der Markt wichtig ist: Er findet ganzjährig direkt auf der Grande Place am See statt, sodass ein Hotel nahe dem Platz die Stände an diesen beiden Morgen in wenigen Gehminuten erreichbar macht.',
         },
       },
       {
         title: { en: 'CGN boats', fr: 'Bateaux CGN', de: 'CGN-Schiffe' },
         text: {
-          en: 'CGN calls at Vevey, and one of its Belle Époque boats is named "Vevey". The Swiss Travel Pass is valid on all CGN cruises except events, and so are half-fare and GA travelcards.',
-          fr: 'La CGN fait escale à Vevey, et l’un de ses bateaux Belle Époque porte le nom « Vevey ». Le Swiss Travel Pass est valable sur toutes les croisières CGN, sauf événements, tout comme les abonnements demi-tarif et AG.',
-          de: 'Die CGN legt in Vevey an, und eines ihrer Belle-Époque-Schiffe trägt den Namen „Vevey“. Der Swiss Travel Pass gilt auf allen CGN-Kreuzfahrten ausser Events, ebenso wie Halbtax- und GA-Abonnemente.',
+          en: 'Factor a Belle Époque crossing into your stay if you already hold a Swiss Travel Pass, a half-fare card or a GA travelcard: CGN calls at Vevey, one of its boats is even named "Vevey", and the pass covers all its cruises except events at no extra cost.',
+          fr: 'Prévoyez une traversée à bord d’un bateau Belle Époque si vous possédez déjà un Swiss Travel Pass, un abonnement demi-tarif ou un AG : la CGN fait escale à Vevey, l’un de ses bateaux porte même le nom « Vevey », et le pass couvre toutes ses croisières, sauf événements, sans frais supplémentaires.',
+          de: 'Planen Sie eine Fahrt mit einem Belle-Époque-Schiff ein, wenn Sie bereits einen Swiss Travel Pass, ein Halbtax oder ein GA besitzen: Die CGN legt in Vevey an, eines ihrer Schiffe trägt sogar den Namen „Vevey“, und der Pass deckt alle ihre Kreuzfahrten ausser Events ohne Aufpreis ab.',
         },
       },
       {
         title: { en: 'By car', fr: 'En voiture', de: 'Mit dem Auto' },
         text: {
-          en: 'Vevey is reached by road with no car ban and no access permit published for the town.',
-          fr: 'Vevey se rejoint par la route, sans interdiction de circuler ni permis d’accès publié pour la ville.',
-          de: 'Vevey ist mit dem Auto erreichbar, ohne Fahrverbot und ohne für die Stadt veröffentlichte Zufahrtsbewilligung.',
+          en: 'Driving in needs no special planning: no car ban and no access permit are published for Vevey, so you can arrive and park by car without applying for anything in advance.',
+          fr: 'Venir en voiture ne demande aucune démarche particulière : aucune interdiction de circuler ni permis d’accès n’est publié pour Vevey, vous pouvez donc arriver et stationner sans rien demander à l’avance.',
+          de: 'Die Anreise mit dem Auto erfordert keine besondere Planung: Für Vevey ist weder ein Fahrverbot noch eine Zufahrtsbewilligung veröffentlicht, Sie können also anreisen und parkieren, ohne im Voraus etwas beantragen zu müssen.',
         },
       },
     ],
@@ -194,9 +259,9 @@ export const vevey: DestinationGuide = {
     summer: {
       title: { en: 'Summer in Vevey', fr: 'L’été à Vevey', de: 'Sommer in Vevey' },
       base: {
-        en: 'With the Alimentarium open until 18:00 and extra CGN boats on the lake, the Grande Place and the lakefront work as a base, close to the market and the boat pier alike.',
-        fr: 'Avec l’Alimentarium ouvert jusqu’à 18h00 et des bateaux CGN supplémentaires sur le lac, la Grande Place et le front de lac forment une base pratique, proche à la fois du marché et de l’embarcadère.',
-        de: 'Mit dem bis 18.00 Uhr geöffneten Alimentarium und zusätzlichen CGN-Schiffen auf dem See eignen sich die Grande Place und die Seepromenade als Basis, nahe bei Markt und Schiffsanlegestelle.',
+        en: 'Base yourself around the Grande Place and the lakefront in summer: the Alimentarium stays open until 18:00 and extra CGN boats join the lake, so you are close to both the market and the boat pier when the days are long.',
+        fr: 'Installez-vous autour de la Grande Place et du front de lac l’été : l’Alimentarium reste ouvert jusqu’à 18h00 et des bateaux CGN supplémentaires rejoignent le lac, ce qui vous rapproche à la fois du marché et de l’embarcadère quand les journées s’allongent.',
+        de: 'Wählen Sie im Sommer eine Basis rund um die Grande Place und die Seepromenade: Das Alimentarium bleibt bis 18.00 Uhr geöffnet, und zusätzliche CGN-Schiffe verkehren auf dem See, sodass Sie sowohl dem Markt als auch der Schiffsanlegestelle nahe sind, wenn die Tage lang werden.',
       },
       facts: [
         { value: 'Apr → Sep', label: { en: 'Alimentarium open 10:00 to 18:00', fr: 'Alimentarium ouvert de 10h00 à 18h00', de: 'Alimentarium geöffnet von 10.00 bis 18.00 Uhr' } },
@@ -211,9 +276,9 @@ export const vevey: DestinationGuide = {
     winter: {
       title: { en: 'Winter in Vevey', fr: 'L’hiver à Vevey', de: 'Winter in Vevey' },
       base: {
-        en: 'The Alimentarium keeps shorter hours and the CGN fleet reduces to four boats, but the Grande Place market continues every Tuesday and Saturday, and the railway station keeps Vevey within a few minutes of both Lausanne and Montreux.',
-        fr: 'L’Alimentarium garde des horaires réduits et la flotte CGN se réduit à quatre bateaux, mais le marché de la Grande Place se poursuit chaque mardi et samedi, et la gare maintient Vevey à quelques minutes de Lausanne comme de Montreux.',
-        de: 'Das Alimentarium hat kürzere Öffnungszeiten und die CGN-Flotte reduziert sich auf vier Schiffe, doch der Markt auf der Grande Place läuft weiter jeden Dienstag und Samstag, und der Bahnhof hält Vevey nur wenige Minuten von Lausanne und Montreux entfernt.',
+        en: 'In winter, staying near the railway station or the Grande Place keeps your options open: the Alimentarium keeps shorter hours and the CGN fleet reduces to four boats, but the market continues every Tuesday and Saturday, and the station puts Lausanne and Montreux within a few minutes for the days you want a change of scene.',
+        fr: 'L’hiver, loger près de la gare ou de la Grande Place garde toutes les options ouvertes : l’Alimentarium pratique des horaires réduits et la flotte CGN se limite à quatre bateaux, mais le marché se poursuit chaque mardi et samedi, et la gare place Lausanne et Montreux à quelques minutes pour les jours où vous voulez changer d’air.',
+        de: 'Im Winter hält eine Unterkunft nahe dem Bahnhof oder der Grande Place alle Optionen offen: Das Alimentarium hat kürzere Öffnungszeiten und die CGN-Flotte reduziert sich auf vier Schiffe, doch der Markt läuft weiter jeden Dienstag und Samstag, und der Bahnhof bringt Sie an Tagen für einen Tapetenwechsel in wenigen Minuten nach Lausanne oder Montreux.',
       },
       facts: [
         { value: 'Oct → Mar', label: { en: 'Alimentarium open 10:00 to 17:00', fr: 'Alimentarium ouvert de 10h00 à 17h00', de: 'Alimentarium geöffnet von 10.00 bis 17.00 Uhr' } },
@@ -229,9 +294,9 @@ export const vevey: DestinationGuide = {
   doing: {
     title: { en: 'What to do in Vevey', fr: 'Que faire à Vevey', de: 'Was man in Vevey unternimmt' },
     intro: {
-      en: 'Not a trail guide: named places and figures from Montreux Riviera tourism, Lavaux UNESCO and Chaplin’s World, checked on their own pages.',
-      fr: 'Pas un guide de randonnée : des lieux et des chiffres nommés, repris de Montreux Riviera, de Lavaux UNESCO et de Chaplin’s World, vérifiés sur leurs propres pages.',
-      de: 'Kein Wanderführer: benannte Orte und Zahlen von Montreux Riviera, Lavaux UNESCO und Chaplin’s World, auf deren eigenen Seiten geprüft.',
+      en: 'This is not a trail guide, but a set of named places that give a stay in Vevey its shape, from the market square to the Lavaux terraces and Chaplin’s World. The figures below come from Montreux Riviera tourism, Lavaux UNESCO and Chaplin’s World, checked on their own pages.',
+      fr: 'Ce n’est pas un guide de randonnée, mais un ensemble de lieux nommés qui donnent sa forme à un séjour à Vevey, de la place du marché aux terrasses de Lavaux et à Chaplin’s World. Les chiffres ci-dessous proviennent de Montreux Riviera, de Lavaux UNESCO et de Chaplin’s World, vérifiés sur leurs propres pages.',
+      de: 'Das ist kein Wanderführer, sondern eine Reihe benannter Orte, die einem Aufenthalt in Vevey seine Form geben, vom Marktplatz über die Lavaux-Terrassen bis zu Chaplin’s World. Die Zahlen unten stammen von Montreux Riviera, Lavaux UNESCO und Chaplin’s World, auf deren eigenen Seiten geprüft.',
     },
     groups: [
       {
@@ -242,18 +307,18 @@ export const vevey: DestinationGuide = {
             name: 'Lavaux vineyard terraces, Lutry to Saint-Saphorin',
             meta: { en: '11.1 km · 3 h 15 · +369 m / -393 m · easy · ends at Saint-Saphorin', fr: '11,1 km · 3 h 15 · +369 m / -393 m · facile · arrivée à Saint-Saphorin', de: '11,1 km · 3 Std. 15 · +369 m / -393 m · leicht · Ziel Saint-Saphorin' },
             text: {
-              en: 'The route reaches its eastern end at Saint-Saphorin, on the edge of Vevey, after 11.1 km through the Lavaux vineyard terraces from Lutry.',
-              fr: 'L’itinéraire atteint son extrémité orientale à Saint-Saphorin, à la lisière de Vevey, après 11,1 km à travers les terrasses viticoles de Lavaux depuis Lutry.',
-              de: 'Die Route erreicht ihr östliches Ende in Saint-Saphorin, am Rand von Vevey, nach 11,1 km durch die Weinbergterrassen von Lavaux ab Lutry.',
+              en: 'This route reaches its eastern end at Saint-Saphorin, the end nearest Vevey, after 11.1 km through the Lavaux vineyard terraces from Lutry, so from a Vevey base you are closer to the finish than to the start. Allow the full three hours and fifteen minutes the operator publishes if you plan to walk it end to end.',
+              fr: 'Cet itinéraire atteint son extrémité orientale à Saint-Saphorin, du côté de Vevey, après 11,1 km à travers les terrasses viticoles de Lavaux depuis Lutry : depuis Vevey, vous êtes plus près de l’arrivée que du départ. Comptez les trois heures et quart annoncées par l’exploitant pour le parcourir en entier.',
+              de: 'Diese Route erreicht ihr östliches Ende in Saint-Saphorin, auf der Seite von Vevey, nach 11,1 km durch die Weinbergterrassen von Lavaux ab Lutry: Von Vevey aus sind Sie näher am Ziel als am Start. Rechnen Sie mit den vom Betreiber angegebenen drei Stunden und fünfzehn Minuten für die gesamte Strecke.',
             },
           },
           {
             name: 'La Route des Grands Crus de Lavaux',
             meta: { en: '3 km · through the terraces', fr: '3 km · à travers les terrasses', de: '3 km · durch die Terrassen' },
             text: {
-              en: 'Published by Lavaux UNESCO, the route runs for three kilometres through the vineyard terraces that begin at the western edge of Vevey.',
-              fr: 'Publié par Lavaux UNESCO, l’itinéraire parcourt trois kilomètres à travers les terrasses viticoles qui débutent à la lisière ouest de Vevey.',
-              de: 'Von Lavaux UNESCO veröffentlicht, führt die Route über drei Kilometer durch die Weinbergterrassen, die am westlichen Rand von Vevey beginnen.',
+              en: 'Published by Lavaux UNESCO, this three-kilometre route runs through the vineyard terraces that begin at the western edge of Vevey, so you can start walking straight from town without a transfer. It is a shorter outing than the Lutry to Saint-Saphorin route, useful if half a day is all you have.',
+              fr: 'Publié par Lavaux UNESCO, cet itinéraire de trois kilomètres traverse les terrasses viticoles qui débutent à la lisière ouest de Vevey, ce qui permet de partir à pied directement depuis la ville, sans correspondance. C’est une sortie plus courte que celle de Lutry à Saint-Saphorin, utile si vous ne disposez que d’une demi-journée.',
+              de: 'Von Lavaux UNESCO veröffentlicht, führt diese drei Kilometer lange Route durch die Weinbergterrassen, die am westlichen Rand von Vevey beginnen, sodass man direkt ab der Stadt loslaufen kann, ohne Umsteigen. Das ist ein kürzerer Ausflug als jener von Lutry nach Saint-Saphorin, praktisch, wenn nur ein halber Tag zur Verfügung steht.',
             },
           },
         ],
@@ -266,18 +331,18 @@ export const vevey: DestinationGuide = {
             name: 'Chaplin’s World',
             meta: { en: 'Route de Fenil 2, Corsier-sur-Vevey · four hectares · bus 212 from Vevey SBB, about 15 min', fr: '2 route de Fenil, Corsier-sur-Vevey · quatre hectares · bus 212 depuis Vevey CFF, environ 15 min', de: 'Route de Fenil 2, Corsier-sur-Vevey · vier Hektar · Bus 212 ab Vevey SBB, rund 15 Min.' },
             text: {
-              en: 'The estate covers four hectares at Corsier-sur-Vevey, reached from the station by bus 212 in about 15 minutes, with parking at CHF 5 a day with admission and two EV charging points.',
-              fr: 'Le domaine s’étend sur quatre hectares à Corsier-sur-Vevey, accessible depuis la gare par le bus 212 en environ 15 minutes, avec un stationnement à 5 CHF par jour, admission comprise, et deux bornes de recharge électrique.',
-              de: 'Das Anwesen erstreckt sich über vier Hektar in Corsier-sur-Vevey, ab dem Bahnhof mit dem Bus 212 in rund 15 Minuten erreichbar, mit Parkplätzen für CHF 5 pro Tag inklusive Eintritt und zwei E-Ladestationen.',
+              en: 'The estate covers four hectares at Corsier-sur-Vevey, reached from the station by bus 212 in about 15 minutes, so staying near the station shortens the trip. Parking on site costs CHF 5 a day with admission and includes two EV charging points, for anyone who prefers to drive.',
+              fr: 'Le domaine s’étend sur quatre hectares à Corsier-sur-Vevey, accessible depuis la gare par le bus 212 en environ 15 minutes : loger près de la gare raccourcit donc le trajet. Le stationnement sur place coûte 5 CHF par jour, admission comprise, avec deux bornes de recharge électrique, pour qui préfère venir en voiture.',
+              de: 'Das Anwesen erstreckt sich über vier Hektar in Corsier-sur-Vevey, ab dem Bahnhof mit dem Bus 212 in rund 15 Minuten erreichbar: Wer nahe dem Bahnhof wohnt, verkürzt damit die Fahrt. Das Parkieren vor Ort kostet CHF 5 pro Tag inklusive Eintritt und bietet zwei E-Ladestationen, für alle, die lieber mit dem Auto kommen.',
             },
           },
           {
             name: 'The Alimentarium',
             meta: { en: 'lakefront, former Nestlé head office · Oct-Mar 10:00-17:00, Apr-Sep 10:00-18:00 · CHF 15 adults', fr: 'front de lac, ancien siège de Nestlé · oct-mars 10h00-17h00, avr-sept 10h00-18h00 · 15 CHF adultes', de: 'Seepromenade, ehemaliger Nestlé-Hauptsitz · Okt-Mär 10.00-17.00, Apr-Sep 10.00-18.00 · CHF 15 Erwachsene' },
             text: {
-              en: 'Described by itself as the world’s first food museum, open for over 35 years; the giant Fork sculpture planted in the lake in front of it was placed there for the museum’s 10th anniversary.',
-              fr: 'Présenté comme le premier musée de l’alimentation au monde, ouvert depuis plus de 35 ans ; la sculpture géante de la Fourchette, plantée dans le lac devant le musée, y a été installée pour son 10e anniversaire.',
-              de: 'Bezeichnet sich selbst als das weltweit erste Ernährungsmuseum, seit über 35 Jahren geöffnet; die riesige Gabel-Skulptur, die im See davor steht, wurde zum 10. Jubiläum des Museums dort aufgestellt.',
+              en: 'Described by itself as the world’s first food museum, and open for over 35 years, the Alimentarium keeps shorter winter hours than summer ones, so check the season before you plan your visit. The giant Fork sculpture planted in the lake in front of it marks the museum’s 10th anniversary.',
+              fr: 'Présenté comme le premier musée de l’alimentation au monde et ouvert depuis plus de 35 ans, l’Alimentarium pratique des horaires d’hiver plus courts qu’en été : vérifiez donc la saison avant de planifier votre visite. La sculpture géante de la Fourchette, plantée dans le lac devant le musée, marque son 10e anniversaire.',
+              de: 'Bezeichnet sich selbst als das weltweit erste Ernährungsmuseum und seit über 35 Jahren geöffnet, hat das Alimentarium im Winter kürzere Öffnungszeiten als im Sommer: Prüfen Sie also die Saison, bevor Sie Ihren Besuch planen. Die riesige Gabel-Skulptur, die davor im See steht, erinnert an das 10-jährige Bestehen des Museums.',
             },
           },
         ],
@@ -290,18 +355,18 @@ export const vevey: DestinationGuide = {
             name: 'La Coupole 1912',
             meta: { en: 'Astra Hotel Vevey, by the station', fr: 'Astra Hôtel Vevey, près de la gare', de: 'Astra Hotel Vevey, beim Bahnhof' },
             text: {
-              en: 'The Astra Hotel’s brasserie preserves frescoes from the 1927 Fête des Vignerons and stained glass by Michel Delanoë.',
-              fr: 'La brasserie de l’Astra Hôtel conserve des fresques de la Fête des Vignerons de 1927 et des vitraux de Michel Delanoë.',
-              de: 'Die Brasserie des Astra Hotels bewahrt Fresken des Fête des Vignerons von 1927 und Glasfenster von Michel Delanoë.',
+              en: 'The Astra Hotel’s brasserie preserves frescoes from the 1927 Fête des Vignerons and stained glass by Michel Delanoë, so a meal here doubles as a look at a piece of the festival’s history. It sits by the station, an easy stop before or after a train.',
+              fr: 'La brasserie de l’Astra Hôtel conserve des fresques de la Fête des Vignerons de 1927 et des vitraux de Michel Delanoë : un repas ici vaut donc aussi un aperçu d’un pan de l’histoire de la fête. Elle se trouve près de la gare, une halte facile avant ou après un train.',
+              de: 'Die Brasserie des Astra Hotels bewahrt Fresken des Fête des Vignerons von 1927 und Glasfenster von Michel Delanoë: Ein Essen hier ist also zugleich ein Blick auf ein Stück Festgeschichte. Sie liegt beim Bahnhof, ein einfacher Halt vor oder nach einer Zugfahrt.',
             },
           },
           {
             name: 'The Veranda',
             meta: { en: 'Grand Hôtel du Lac, open daily', fr: 'Grand Hôtel du Lac, ouvert tous les jours', de: 'Grand Hôtel du Lac, täglich geöffnet' },
             text: {
-              en: 'The hotel’s "brasserie chic", open every day, alongside its gourmet restaurant Emotions by Guy Ravet, Wednesday to Sunday, dinner only.',
-              fr: 'La « brasserie chic » de l’hôtel, ouverte tous les jours, aux côtés de son restaurant gastronomique Emotions by Guy Ravet, du mercredi au dimanche, dîner uniquement.',
-              de: 'Die „Brasserie chic“ des Hotels, täglich geöffnet, neben dem Gourmetrestaurant Emotions by Guy Ravet, Mittwoch bis Sonntag, nur abends.',
+              en: 'The hotel’s "brasserie chic", open every day, sits alongside its gourmet restaurant Emotions by Guy Ravet, open Wednesday to Sunday for dinner only, so The Veranda is the fallback on the days the gourmet room is closed. Both look out over the lakefront.',
+              fr: 'La « brasserie chic » de l’hôtel, ouverte tous les jours, voisine avec son restaurant gastronomique Emotions by Guy Ravet, ouvert du mercredi au dimanche, dîner uniquement : The Veranda est donc la solution les jours où la table gastronomique est fermée. Les deux donnent sur le front de lac.',
+              de: 'Die „Brasserie chic“ des Hotels, täglich geöffnet, liegt neben dem Gourmetrestaurant Emotions by Guy Ravet, Mittwoch bis Sonntag nur abends geöffnet: The Veranda ist damit die Alternative an den Tagen, an denen das Gourmetrestaurant geschlossen ist. Beide blicken auf die Seepromenade.',
             },
           },
         ],
@@ -317,41 +382,41 @@ export const vevey: DestinationGuide = {
     {
       q: { en: 'How far is Vevey from Lausanne?', fr: 'À quelle distance Vevey se trouve-t-elle de Lausanne ?', de: 'Wie weit ist Vevey von Lausanne entfernt?' },
       a: {
-        en: '14 minutes by direct RE 33 train. From Geneva airport it is 1 h 07 direct on the IR 90.',
-        fr: '14 minutes en train direct RE 33. Depuis l’aéroport de Genève, comptez 1 h 07 en IR 90 direct.',
-        de: '14 Minuten mit dem direkten RE 33. Ab dem Flughafen Genf sind es 1 Std. 07 mit dem direkten IR 90.',
+        en: 'Lausanne is fourteen minutes away on the direct RE 33 train, close enough for an easy day trip in either direction. From Geneva Airport, allow one hour and seven minutes on the direct IR 90, a single train straight to Vevey station.',
+        fr: 'Lausanne se trouve à quatorze minutes en train direct RE 33, assez proche pour un aller-retour facile dans la journée. Depuis l’aéroport de Genève, comptez une heure sept en IR 90 direct, un seul train jusqu’à la gare de Vevey.',
+        de: 'Lausanne ist mit dem direkten RE 33 vierzehn Minuten entfernt, nah genug für einen einfachen Tagesausflug in beide Richtungen. Ab dem Flughafen Genf rechnen Sie mit einer Stunde und sieben Minuten mit dem direkten IR 90, einem einzigen Zug bis zum Bahnhof Vevey.',
       },
     },
     {
       q: { en: 'When is the Vevey market?', fr: 'Quand a lieu le marché de Vevey ?', de: 'Wann findet der Markt von Vevey statt?' },
       a: {
-        en: 'Every Tuesday and Saturday on the Grande Place, the square that opens onto the lake.',
-        fr: 'Chaque mardi et samedi, sur la Grande Place, la place qui s’ouvre sur le lac.',
-        de: 'Jeden Dienstag und Samstag auf der Grande Place, dem Platz, der sich zum See hin öffnet.',
+        en: 'The market runs every Tuesday and Saturday, all year, on the Grande Place, the square that opens onto the lake. Book a hotel near the square if browsing the stalls before breakfast matters to you, since the market sits right at the water’s edge.',
+        fr: 'Le marché a lieu chaque mardi et samedi, toute l’année, sur la Grande Place, la place qui s’ouvre sur le lac. Réservez un hôtel proche de la place si flâner entre les étals avant le petit-déjeuner vous tient à cœur, puisque le marché se tient au bord de l’eau.',
+        de: 'Der Markt findet jeden Dienstag und Samstag, ganzjährig, auf der Grande Place statt, dem Platz, der sich zum See hin öffnet. Buchen Sie ein Hotel nahe dem Platz, wenn Ihnen ein Bummel über die Stände vor dem Frühstück wichtig ist, denn der Markt liegt direkt am Ufer.',
       },
     },
     {
       q: { en: 'How do I get to Chaplin’s World?', fr: 'Comment se rendre à Chaplin’s World ?', de: 'Wie kommt man zu Chaplin’s World?' },
       a: {
-        en: 'Bus 212 from Vevey SBB station to the "Chaplin" stop, about 15 minutes. The estate is at Route de Fenil 2, Corsier-sur-Vevey, and covers four hectares; parking is CHF 5 a day with admission.',
-        fr: 'Le bus 212 depuis la gare de Vevey CFF jusqu’à l’arrêt « Chaplin », environ 15 minutes. Le domaine se trouve au 2 route de Fenil, à Corsier-sur-Vevey, et s’étend sur quatre hectares ; le stationnement coûte 5 CHF par jour, admission comprise.',
-        de: 'Der Bus 212 ab dem Bahnhof Vevey SBB bis zur Haltestelle „Chaplin“, rund 15 Minuten. Das Anwesen liegt an der Route de Fenil 2, in Corsier-sur-Vevey, und umfasst vier Hektar; das Parkieren kostet CHF 5 pro Tag inklusive Eintritt.',
+        en: 'Bus 212 leaves Vevey SBB station for the "Chaplin" stop in about 15 minutes, so a hotel near the station makes the trip shortest. The estate itself sits at Route de Fenil 2, Corsier-sur-Vevey, and covers four hectares, with on-site parking at CHF 5 a day including admission for anyone who prefers to drive.',
+        fr: 'Le bus 212 quitte la gare de Vevey CFF pour l’arrêt « Chaplin » en environ 15 minutes, ce qui rend le trajet le plus court depuis un hôtel proche de la gare. Le domaine lui-même se trouve au 2 route de Fenil, à Corsier-sur-Vevey, et s’étend sur quatre hectares, avec un stationnement sur place à 5 CHF par jour, admission comprise, pour qui préfère venir en voiture.',
+        de: 'Der Bus 212 fährt ab dem Bahnhof Vevey SBB in rund 15 Minuten zur Haltestelle „Chaplin“, sodass ein Hotel nahe dem Bahnhof die kürzeste Fahrt bietet. Das Anwesen selbst liegt an der Route de Fenil 2 in Corsier-sur-Vevey und umfasst vier Hektar, mit Parkplätzen vor Ort für CHF 5 pro Tag inklusive Eintritt für alle, die lieber mit dem Auto kommen.',
       },
     },
     {
       q: { en: 'When is the next Fête des Vignerons?', fr: 'Quand aura lieu la prochaine Fête des Vignerons ?', de: 'Wann findet das nächste Fête des Vignerons statt?' },
       a: {
-        en: 'No date is published. The last edition ran from 18 July to 11 August 2019, and the festival has been on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity since 1 December 2016.',
-        fr: 'Aucune date n’est publiée. La dernière édition s’est tenue du 18 juillet au 11 août 2019, et la fête est inscrite sur la Liste représentative du patrimoine culturel immatériel de l’humanité de l’UNESCO depuis le 1er décembre 2016.',
-        de: 'Es ist kein Datum veröffentlicht. Die letzte Ausgabe fand vom 18. Juli bis 11. August 2019 statt, und das Fest steht seit dem 1. Dezember 2016 auf der Repräsentativen Liste des immateriellen Kulturerbes der Menschheit der UNESCO.',
+        en: 'No date is published, so do not plan a trip around it yet. The last edition ran from 18 July to 11 August 2019, and the festival, held in Vevey, has been on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity since 1 December 2016; check for an announced date before you book.',
+        fr: 'Aucune date n’est publiée, ne construisez donc pas encore un séjour autour de cet événement. La dernière édition s’est tenue du 18 juillet au 11 août 2019, et la fête, qui se tient à Vevey, est inscrite sur la Liste représentative du patrimoine culturel immatériel de l’humanité de l’UNESCO depuis le 1er décembre 2016 ; vérifiez qu’une date a été annoncée avant de réserver.',
+        de: 'Es ist kein Datum veröffentlicht, planen Sie also noch keine Reise darum. Die letzte Ausgabe fand vom 18. Juli bis 11. August 2019 statt, und das in Vevey abgehaltene Fest steht seit dem 1. Dezember 2016 auf der Repräsentativen Liste des immateriellen Kulturerbes der Menschheit der UNESCO; prüfen Sie vor der Buchung, ob ein Termin angekündigt wurde.',
       },
     },
     {
       q: { en: 'Is Vevey in the Lavaux World Heritage area?', fr: 'Vevey fait-elle partie du site classé de Lavaux ?', de: 'Gehört Vevey zum Welterbegebiet Lavaux?' },
       a: {
-        en: 'The inscribed landscape covers ten communes, among them Corseaux, Corsier-sur-Vevey, Chardonne and Jongny, on the Vevey side; the terraces have been on the UNESCO list since 2007.',
-        fr: 'Le paysage inscrit couvre dix communes, dont Corseaux, Corsier-sur-Vevey, Chardonne et Jongny, du côté de Vevey ; les terrasses sont inscrites à l’UNESCO depuis 2007.',
-        de: 'Die eingetragene Landschaft umfasst zehn Gemeinden, darunter Corseaux, Corsier-sur-Vevey, Chardonne und Jongny auf der Seite von Vevey; die Terrassen stehen seit 2007 auf der UNESCO-Liste.',
+        en: 'The inscribed landscape covers ten communes, among them Corseaux, Corsier-sur-Vevey, Chardonne and Jongny, on the Vevey side, and the terraces have been on the UNESCO list since 2007. A stay in Vevey already sits inside that listed landscape, and the Route des Grands Crus de Lavaux, a three-kilometre walk through the terraces, starts right at the town’s western edge.',
+        fr: 'Le paysage inscrit couvre dix communes, dont Corseaux, Corsier-sur-Vevey, Chardonne et Jongny, du côté de Vevey, et les terrasses sont inscrites à l’UNESCO depuis 2007. Un séjour à Vevey se déroule donc déjà dans ce paysage classé, et la Route des Grands Crus de Lavaux, une marche de trois kilomètres à travers les terrasses, débute juste à la lisière ouest de la ville.',
+        de: 'Die eingetragene Landschaft umfasst zehn Gemeinden, darunter Corseaux, Corsier-sur-Vevey, Chardonne und Jongny auf der Seite von Vevey, und die Terrassen stehen seit 2007 auf der UNESCO-Liste. Ein Aufenthalt in Vevey liegt damit bereits in dieser geschützten Landschaft, und die Route des Grands Crus de Lavaux, ein drei Kilometer langer Weg durch die Terrassen, beginnt direkt am westlichen Stadtrand.',
       },
     },
   ],
