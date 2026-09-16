@@ -261,33 +261,33 @@ export const davos: DestinationGuide = {
       {
         title: { en: 'Drive and park', fr: 'Venir en voiture', de: 'Mit dem Auto anreisen' },
         text: {
-          en: 'Davos is reachable by car on the A28 from Landquart via Klosters, or via the Albula road from Filisur; the Flüela and Wolfgang passes continue east and north. Garage rates are set by each hotel, for example CHF 20 per day at the Grischa DAS Hotel and CHF 30 per day at the Turmhotel Victoria.',
-          fr: 'Davos est accessible en voiture par l’A28 depuis Landquart via Klosters, ou par la route de l’Albula depuis Filisur ; les cols de la Flüela et du Wolfgang continuent vers l’est et le nord. Les tarifs de garage sont fixés par chaque hôtel, par exemple CHF 20 par jour au Grischa DAS Hotel et CHF 30 par jour au Turmhotel Victoria.',
-          de: 'Davos ist mit dem Auto über die A28 ab Landquart via Klosters erreichbar, oder über die Albulastrasse ab Filisur; die Flüela- und die Wolfgangpass-Strasse führen weiter Richtung Osten und Norden. Die Garagentarife legt jedes Hotel selbst fest, zum Beispiel CHF 20 pro Tag beim Grischa DAS Hotel und CHF 30 pro Tag beim Turmhotel Victoria.',
+          en: 'You can drive straight to Davos on the A28 from Landquart via Klosters, or over the Albula road from Filisur, and continue east or north on the Flüela and Wolfgang passes if you are travelling on. A parking space is not automatic though: rates are set by each hotel, from CHF 20 a day at the Grischa DAS Hotel to CHF 30 at the Turmhotel Victoria, so check what your hotel charges before you arrive.',
+          fr: 'Vous pouvez rejoindre Davos directement en voiture par l’A28 depuis Landquart via Klosters, ou par la route de l’Albula depuis Filisur, puis continuer vers l’est ou le nord par les cols de la Flüela et du Wolfgang si vous poursuivez votre route. La place en garage n’est cependant pas automatique : chaque hôtel fixe son propre tarif, de CHF 20 par jour au Grischa DAS Hotel à CHF 30 au Turmhotel Victoria, alors vérifiez le tarif de votre hôtel avant d’arriver.',
+          de: 'Sie können mit dem Auto direkt über die A28 ab Landquart via Klosters nach Davos fahren, oder über die Albulastrasse ab Filisur, und bei einer Weiterreise über die Flüela- oder die Wolfgangpassstrasse nach Osten oder Norden weiterfahren. Ein Garagenplatz ist aber nicht selbstverständlich: Jedes Hotel legt seinen eigenen Tarif fest, von CHF 20 pro Tag beim Grischa DAS Hotel bis CHF 30 beim Turmhotel Victoria, prüfen Sie also den Tarif Ihres Hotels vor der Anreise.',
         },
       },
       {
         title: { en: 'Free transit with the Premium Card', fr: 'Transports gratuits avec la Premium Card', de: 'Gratis unterwegs mit der Premium Card' },
         text: {
-          en: 'Every guest who books at least one night gets the Davos Klosters Premium Card, which gives free 2nd class travel by train and bus within zones 400, 410 and 420.',
-          fr: 'Tout client réservant au moins une nuit reçoit la Premium Card Davos Klosters, qui donne accès gratuit en 2e classe au train et au bus dans les zones 400, 410 et 420.',
-          de: 'Jeder Gast, der mindestens eine Nacht bucht, erhält die Davos Klosters Premium Card, die freie Fahrt 2. Klasse mit Zug und Bus in den Zonen 400, 410 und 420 gibt.',
+          en: 'Every guest who books at least one night gets the Davos Klosters Premium Card, which gives free 2nd class travel by train and bus within zones 400, 410 and 420. Once you have checked in, there is no need to buy separate local tickets to move between Davos Platz, Davos Dorf and the surrounding area.',
+          fr: 'Tout client réservant au moins une nuit reçoit la Premium Card Davos Klosters, qui donne accès gratuit en 2e classe au train et au bus dans les zones 400, 410 et 420. Une fois enregistré, plus besoin d’acheter de billets locaux séparés pour circuler entre Davos Platz, Davos Dorf et les environs.',
+          de: 'Jeder Gast, der mindestens eine Nacht bucht, erhält die Davos Klosters Premium Card, die freie Fahrt 2. Klasse mit Zug und Bus in den Zonen 400, 410 und 420 gibt. Nach dem Check-in braucht es keine separaten lokalen Fahrkarten mehr, um zwischen Davos Platz, Davos Dorf und der Umgebung zu pendeln.',
         },
       },
       {
         title: { en: 'By rail from Zurich', fr: 'En train depuis Zurich', de: 'Mit der Bahn ab Zürich' },
         text: {
-          en: 'Zürich HB to Davos Platz takes 2 h 20 with one change at Landquart (IC to Landquart, then the Rhaetian Railway); Davos Dorf is reached 5 minutes earlier on the same train.',
-          fr: 'De Zürich HB à Davos Platz, comptez 2 h 20 avec un changement à Landquart (IC jusqu’à Landquart, puis les Chemins de fer rhétiques) ; Davos Dorf est desservi 5 minutes plus tôt sur le même train.',
-          de: 'Von Zürich HB nach Davos Platz dauert es 2 Std. 20 mit einem Umstieg in Landquart (IC bis Landquart, dann die Rhätische Bahn); Davos Dorf wird 5 Minuten früher mit demselben Zug erreicht.',
+          en: 'From Zürich HB, allow 2 h 20 to Davos Platz, with one change at Landquart onto the Rhaetian Railway; the same train reaches Davos Dorf 5 minutes earlier. Book the stop that matches your hotel rather than the one that sounds more central, since the two stations serve different halves of town.',
+          fr: 'Depuis Zürich HB, comptez 2 h 20 jusqu’à Davos Platz, avec un changement à Landquart sur les Chemins de fer rhétiques ; le même train dessert Davos Dorf 5 minutes plus tôt. Réservez l’arrêt qui correspond à votre hôtel plutôt que celui qui semble le plus central, car les deux gares desservent des moitiés différentes de la ville.',
+          de: 'Ab Zürich HB rechnen Sie mit 2 Std. 20 bis Davos Platz, mit einem Umstieg in Landquart auf die Rhätische Bahn; derselbe Zug erreicht Davos Dorf 5 Minuten früher. Wählen Sie den Halt, der zu Ihrem Hotel passt, statt den zentraler klingenden, denn die beiden Bahnhöfe bedienen unterschiedliche Ortshälften.',
         },
       },
       {
         title: { en: 'Two stations, one line', fr: 'Deux gares, une seule ligne', de: 'Zwei Bahnhöfe, eine Linie' },
         text: {
-          en: 'Davos Platz and Davos Dorf sit on the same Rhaetian Railway line, about 2 km apart along the Promenade: check which station your hotel is closer to before booking.',
-          fr: 'Davos Platz et Davos Dorf se trouvent sur la même ligne des Chemins de fer rhétiques, à environ 2 km l’un de l’autre le long de la Promenade : vérifiez de quelle gare votre hôtel est le plus proche avant de réserver.',
-          de: 'Davos Platz und Davos Dorf liegen an derselben Linie der Rhätischen Bahn, rund 2 km voneinander entfernt entlang der Promenade: Prüfen Sie vor der Buchung, welchem Bahnhof Ihr Hotel näher liegt.',
+          en: 'Davos Platz and Davos Dorf sit on the same Rhaetian Railway line, about 2 km apart along the Promenade, so the walk between them is not a quick errand. Check which station your hotel is closer to before booking, since it decides whether the Jakobshorn or the Parsenn and the lake are on your doorstep.',
+          fr: 'Davos Platz et Davos Dorf se trouvent sur la même ligne des Chemins de fer rhétiques, à environ 2 km l’une de l’autre le long de la Promenade : la marche entre les deux n’a rien d’une simple course. Vérifiez de quelle gare votre hôtel est le plus proche avant de réserver, car cela détermine si le Jakobshorn ou le Parsenn et le lac se trouvent à votre porte.',
+          de: 'Davos Platz und Davos Dorf liegen an derselben Linie der Rhätischen Bahn, rund 2 km voneinander entfernt entlang der Promenade: Der Weg zwischen beiden ist kein kurzer Sprung. Prüfen Sie vor der Buchung, welchem Bahnhof Ihr Hotel näher liegt, denn das entscheidet, ob das Jakobshorn oder Parsenn und See vor der Tür liegen.',
         },
       },
     ],
@@ -296,9 +296,9 @@ export const davos: DestinationGuide = {
     winter: {
       title: { en: 'Winter in Davos', fr: 'L’hiver à Davos', de: 'Winter in Davos' },
       base: {
-        en: 'Skiers do best in Davos Platz, across from the Jakobshorn station at the Grischa DAS Hotel, or in Davos Dorf, about 200 m from the Parsenn funicular at the Turmhotel Victoria.',
-        fr: 'Pour skier, privilégiez Davos Platz, en face de la station du Jakobshorn, au Grischa DAS Hotel, ou Davos Dorf, à environ 200 m du funiculaire du Parsenn, au Turmhotel Victoria.',
-        de: 'Skifahrer wohnen am besten in Davos Platz, gegenüber der Jakobshorn-Station im Grischa DAS Hotel, oder in Davos Dorf, rund 200 m von der Parsennbahn entfernt im Turmhotel Victoria.',
+        en: 'Skiers do best in Davos Platz, across from the Jakobshorn station at the Grischa DAS Hotel, or in Davos Dorf, about 200 m from the Parsenn funicular at the Turmhotel Victoria. Either base keeps the first lift within walking distance, so a winter day does not start with a bus ride.',
+        fr: 'Pour skier, privilégiez Davos Platz, en face de la station du Jakobshorn, au Grischa DAS Hotel, ou Davos Dorf, à environ 200 m du funiculaire du Parsenn, au Turmhotel Victoria. Les deux options gardent la première remontée à portée de marche, pour ne pas commencer la journée de ski par un trajet en bus.',
+        de: 'Skifahrer wohnen am besten in Davos Platz, gegenüber der Jakobshorn-Station im Grischa DAS Hotel, oder in Davos Dorf, rund 200 m von der Parsennbahn entfernt im Turmhotel Victoria. Beide Basen halten die erste Bahn in Gehdistanz, sodass ein Wintertag nicht mit einer Busfahrt beginnt.',
       },
       facts: [
         { value: '97 km', label: { en: 'of pistes on the Parsenn, from Davos and from Klosters', fr: 'de pistes sur le Parsenn, depuis Davos et depuis Klosters', de: 'Pisten auf dem Parsenn, ab Davos und ab Klosters' } },
@@ -315,9 +315,9 @@ export const davos: DestinationGuide = {
     summer: {
       title: { en: 'Summer in Davos', fr: 'L’été à Davos', de: 'Sommer in Davos' },
       base: {
-        en: 'Hikers do best around Davos Platz, at the foot of the Thomas Mann Trail up to the Schatzalp, or on the Schatzalp itself for the Alpinum garden.',
-        fr: 'Pour randonner, privilégiez Davos Platz, au pied du Thomas Mann Trail qui monte au Schatzalp, ou le Schatzalp lui-même pour le jardin Alpinum.',
-        de: 'Wanderer wohnen am besten in Davos Platz, am Fuss des Thomas-Mann-Wegs hinauf zur Schatzalp, oder auf der Schatzalp selbst für den Alpengarten Alpinum.',
+        en: 'Hikers do best around Davos Platz, at the foot of the Thomas Mann Trail up to the Schatzalp, or on the Schatzalp itself for the Alpinum garden. Either way, the funicular up from Promenade 63 saves the climb on days when you would rather start walking higher up.',
+        fr: 'Pour randonner, privilégiez Davos Platz, au pied du Thomas Mann Trail qui monte au Schatzalp, ou le Schatzalp lui-même pour le jardin Alpinum. Dans les deux cas, le funiculaire au départ du 63 de la Promenade évite la montée les jours où l’on préfère commencer la marche plus haut.',
+        de: 'Wanderer wohnen am besten in Davos Platz, am Fuss des Thomas-Mann-Wegs hinauf zur Schatzalp, oder auf der Schatzalp selbst für den Alpengarten Alpinum. So oder so erspart die Standseilbahn ab der Promenade 63 den Aufstieg an Tagen, an denen man lieber weiter oben zu wandern beginnt.',
       },
       facts: [
         { value: '700 km', label: { en: 'hiking trail network in Davos Klosters', fr: 'de réseau de sentiers de randonnée à Davos Klosters', de: 'Wanderwegnetz in Davos Klosters' } },
@@ -335,9 +335,9 @@ export const davos: DestinationGuide = {
   doing: {
     title: { en: 'What to do in Davos', fr: 'Que faire à Davos', de: 'Was man in Davos unternimmt' },
     intro: {
-      en: 'Not a trail guide: a handful of named places from Destination Davos Klosters, to see what a day here looks like.',
-      fr: 'Pas un guide de randonnée : une poignée de lieux nommés, repris de Destination Davos Klosters, pour voir à quoi ressemble une journée ici.',
-      de: 'Kein Wanderführer: eine Handvoll benannter Orte von Destination Davos Klosters, damit Sie sehen, wie ein Tag hier aussieht.',
+      en: 'Davos is not short of things to do, but a handful of named places, all published by Destination Davos Klosters, give a sense of what a day here looks like. These are not route descriptions, just the places worth building a morning or an evening around.',
+      fr: 'Les activités ne manquent pas à Davos, mais quelques lieux nommés, tous publiés par Destination Davos Klosters, donnent une idée de ce à quoi ressemble une journée ici. Il ne s’agit pas de descriptifs d’itinéraires, seulement des lieux autour desquels construire une matinée ou une soirée.',
+      de: 'An Aktivitäten fehlt es in Davos nicht, doch eine Handvoll benannter Orte, alle von Destination Davos Klosters veröffentlicht, geben eine Vorstellung davon, wie ein Tag hier aussieht. Es sind keine Routenbeschreibungen, nur die Orte, um die sich ein Morgen oder ein Abend lohnt zu planen.',
     },
     groups: [
       {
@@ -348,18 +348,18 @@ export const davos: DestinationGuide = {
             name: { en: 'Pischa panorama winter walk', fr: 'Promenade hivernale panoramique de Pischa', de: 'Winter-Panoramaweg Pischa' },
             meta: { en: '6.3 km · to Hüreli at 2444 m', fr: '6,3 km · jusqu’à Hüreli, à 2444 m', de: '6,3 km · bis Hüreli auf 2444 m' },
             text: {
-              en: 'A winter walking route on Pischa reaching Hüreli at 2444 m; a shorter 1.3 km circular route also starts at the Pischa top station. Only open while Pischa runs, 26 December 2026 to 29 March 2027.',
-              fr: 'Un itinéraire de marche hivernale sur Pischa menant à Hüreli, à 2444 m ; un circuit plus court de 1,3 km part aussi de la station supérieure de Pischa. Ouvert uniquement pendant le fonctionnement de Pischa, du 26 décembre 2026 au 29 mars 2027.',
-              de: 'Eine Winterwanderroute auf der Pischa bis nach Hüreli auf 2444 m; ein kürzerer Rundweg von 1,3 km startet ebenfalls an der Pischa-Bergstation. Nur geöffnet, solange die Pischa in Betrieb ist, vom 26. Dezember 2026 bis 29. März 2027.',
+              en: 'This winter walking route climbs Pischa to Hüreli at 2444 m, with a shorter 1.3 km circular option from the same top station for a lighter morning. It only runs while Pischa itself is open, 26 December 2026 to 29 March 2027, so it suits a clear winter day rather than a shoulder-season stay.',
+              fr: 'Cet itinéraire de marche hivernale grimpe sur la Pischa jusqu’à Hüreli, à 2444 m, avec un circuit plus court de 1,3 km depuis la même station supérieure pour une matinée plus légère. Il ne fonctionne que lorsque la Pischa elle-même est ouverte, du 26 décembre 2026 au 29 mars 2027, ce qui en fait une sortie pour une journée d’hiver dégagée plutôt que pour une saison intermédiaire.',
+              de: 'Diese Winterwanderroute führt auf der Pischa hinauf nach Hüreli auf 2444 m, mit einem kürzeren Rundweg von 1,3 km ab derselben Bergstation für einen leichteren Vormittag. Sie läuft nur, solange die Pischa selbst in Betrieb ist, vom 26. Dezember 2026 bis 29. März 2027, und eignet sich damit eher für einen klaren Wintertag als für die Zwischensaison.',
             },
           },
           {
             name: 'Thomas Mann Trail',
             meta: { en: 'Davos Platz → Schatzalp', fr: 'Davos Platz → Schatzalp', de: 'Davos Platz → Schatzalp' },
             text: {
-              en: 'A named themed path of Davos Klosters, climbing from Davos Platz up to the Schatzalp, the sanatorium terrace that gave Thomas Mann “The Magic Mountain”. No length or walking time is published.',
-              fr: 'Un sentier thématique nommé de Davos Klosters, qui monte de Davos Platz jusqu’au Schatzalp, la terrasse du sanatorium qui inspira à Thomas Mann « La Montagne magique ». Aucune longueur ni durée de marche n’est publiée.',
-              de: 'Ein benannter Themenweg von Davos Klosters, der von Davos Platz hinauf zur Schatzalp führt, jener Sanatoriumsterrasse, die Thomas Mann zu «Der Zauberberg» inspirierte. Es ist weder eine Länge noch eine Gehzeit publiziert.',
+              en: 'This themed path climbs from Davos Platz up to the Schatzalp, the sanatorium terrace that gave Thomas Mann the setting for “The Magic Mountain”. Destination Davos Klosters publishes no length or walking time for it, so treat it as an open-ended walk, or simply take the funicular up and follow the path down instead.',
+              fr: 'Ce sentier thématique monte de Davos Platz jusqu’au Schatzalp, la terrasse du sanatorium qui inspira à Thomas Mann le décor de « La Montagne magique ». Destination Davos Klosters n’en publie ni la longueur ni la durée de marche : prévoyez-le comme une balade sans horaire fixe, ou prenez simplement le funiculaire pour le descendre à pied ensuite.',
+              de: 'Dieser Themenweg führt von Davos Platz hinauf zur Schatzalp, jener Sanatoriumsterrasse, die Thomas Mann als Schauplatz für «Der Zauberberg» diente. Destination Davos Klosters veröffentlicht dafür weder eine Länge noch eine Gehzeit: Planen Sie ihn als offenen Spaziergang, oder fahren Sie einfach mit der Bahn hinauf und gehen den Weg stattdessen hinunter.',
             },
           },
         ],
@@ -372,18 +372,18 @@ export const davos: DestinationGuide = {
             name: 'Schatzalpbahn',
             meta: { en: '4 minutes · 300 m above the town', fr: '4 minutes · 300 m au-dessus de la ville', de: '4 Minuten · 300 m über dem Ort' },
             text: {
-              en: 'The funicular climbs from Promenade 63 in Davos Platz to the Schatzalp in 4 minutes, 300 m above the town. At the top, the Alpinum garden holds over 3500 plant species and varieties, blooming June to September, next to a 500 m summer toboggan run and a 2.8 km winter run lit until 11 pm.',
-              fr: 'Le funiculaire grimpe du 63 de la Promenade, à Davos Platz, jusqu’au Schatzalp en 4 minutes, à 300 m au-dessus de la ville. Au sommet, le jardin Alpinum compte plus de 3500 espèces et variétés de plantes, en fleurs de juin à septembre, à côté d’une piste de luge d’été de 500 m et d’une piste d’hiver de 2,8 km éclairée jusqu’à 23 h.',
-              de: 'Die Standseilbahn fährt von der Promenade 63 in Davos Platz in 4 Minuten zur Schatzalp, 300 m über dem Ort. Oben zählt der Alpengarten Alpinum über 3500 Pflanzenarten und -sorten, blühend von Juni bis September, neben einer 500 m langen Sommer-Rodelbahn und einer 2,8 km langen Winterbahn, beleuchtet bis 23 Uhr.',
+              en: 'The funicular climbs from Promenade 63 in Davos Platz to the Schatzalp in 4 minutes, 300 m above the town, so the outing costs almost no travel time. At the top, the Alpinum garden holds over 3500 plant species and varieties, blooming June to September, next to a 500 m summer toboggan run and a 2.8 km winter run lit until 11 pm, late enough to fit in after dinner.',
+              fr: 'Le funiculaire grimpe du 63 de la Promenade, à Davos Platz, jusqu’au Schatzalp en 4 minutes, à 300 m au-dessus de la ville, ce qui ne coûte presque aucun temps de trajet. Au sommet, le jardin Alpinum compte plus de 3500 espèces et variétés de plantes, en fleurs de juin à septembre, à côté d’une piste de luge d’été de 500 m et d’une piste d’hiver de 2,8 km éclairée jusqu’à 23 h, assez tard pour y aller après le dîner.',
+              de: 'Die Standseilbahn fährt von der Promenade 63 in Davos Platz in 4 Minuten zur Schatzalp, 300 m über dem Ort, der Ausflug kostet also kaum Reisezeit. Oben zählt der Alpengarten Alpinum über 3500 Pflanzenarten und -sorten, blühend von Juni bis September, neben einer 500 m langen Sommer-Rodelbahn und einer 2,8 km langen Winterbahn, beleuchtet bis 23 Uhr, spät genug für einen Ausflug nach dem Abendessen.',
             },
           },
           {
             name: 'Parsennbahn',
             meta: { en: 'Davos Dorf → Weissfluhjoch', fr: 'Davos Dorf → Weissfluhjoch', de: 'Davos Dorf → Weissfluhjoch' },
             text: {
-              en: 'The funicular from Davos Dorf serves the Parsenn ski area, about 97 km of slopes, up to the Weissfluhjoch station area at 2620 m; the classic run down to Küblis is a full 12 km.',
-              fr: 'Le funiculaire depuis Davos Dorf dessert le domaine skiable du Parsenn, environ 97 km de pistes, jusqu’au secteur de la gare de Weissfluhjoch, à 2620 m ; la descente classique jusqu’à Küblis fait 12 km.',
-              de: 'Die Bahn ab Davos Dorf erschliesst das Skigebiet Parsenn, rund 97 Pistenkilometer, bis zum Stationsbereich Weissfluhjoch auf 2620 m; die klassische Abfahrt nach Küblis misst volle 12 km.',
+              en: 'The funicular from Davos Dorf serves the Parsenn ski area, about 97 km of slopes, up to the Weissfluhjoch station area at 2620 m, which makes Davos Dorf the practical base if this run is your main goal. From there, the classic descent to Küblis stretches a full 12 km, enough to fill a good part of the day on its own.',
+              fr: 'Le funiculaire depuis Davos Dorf dessert le domaine skiable du Parsenn, environ 97 km de pistes, jusqu’au secteur de la gare de Weissfluhjoch, à 2620 m, ce qui fait de Davos Dorf la base pratique si cette piste est votre objectif principal. De là, la descente classique jusqu’à Küblis s’étire sur 12 km, de quoi occuper une bonne partie de la journée à elle seule.',
+              de: 'Die Bahn ab Davos Dorf erschliesst das Skigebiet Parsenn, rund 97 Pistenkilometer, bis zum Stationsbereich Weissfluhjoch auf 2620 m, was Davos Dorf zur praktischen Basis macht, wenn diese Abfahrt Ihr Hauptziel ist. Von dort zieht sich die klassische Abfahrt nach Küblis über 12 km, genug, um einen guten Teil des Tages zu füllen.',
             },
           },
         ],
@@ -396,18 +396,18 @@ export const davos: DestinationGuide = {
             name: 'Schatzalp Belle Epoque Restaurant',
             meta: { en: 'Schatzalp · 18:00 to 22:00', fr: 'Schatzalp · 18 h à 22 h', de: 'Schatzalp · 18 bis 22 Uhr' },
             text: {
-              en: 'Contemporary cuisine with vegan options at the top of the Schatzalp funicular, service 18:00 to 22:00 with hot food to 20:00, open all year.',
-              fr: 'Cuisine contemporaine avec options végétaliennes au sommet du funiculaire du Schatzalp, service de 18 h à 22 h avec cuisine chaude jusqu’à 20 h, ouvert toute l’année.',
-              de: 'Zeitgemässe Küche mit veganen Optionen oben an der Schatzalpbahn, Service von 18 bis 22 Uhr, warme Küche bis 20 Uhr, ganzjährig geöffnet.',
+              en: 'At the top of the Schatzalp funicular, this restaurant serves contemporary cuisine with vegan options, open all year, so it works as a dinner destination even outside the ski or hiking season. Service runs 18:00 to 22:00, but hot food stops at 20:00, so a later table means a colder plate.',
+              fr: 'Au sommet du funiculaire du Schatzalp, ce restaurant sert une cuisine contemporaine avec options végétaliennes, ouvert toute l’année, ce qui en fait une adresse de dîner valable même hors saison de ski ou de randonnée. Le service se déroule de 18 h à 22 h, mais la cuisine chaude s’arrête à 20 h : réserver plus tard signifie un plat plus froid.',
+              de: 'Oben an der Schatzalpbahn serviert dieses Restaurant zeitgemässe Küche mit veganen Optionen, ganzjährig geöffnet, was es auch ausserhalb der Ski- oder Wandersaison zu einem Ziel für den Abend macht. Der Service läuft von 18 bis 22 Uhr, die warme Küche endet aber bereits um 20 Uhr: Wer später reserviert, bekommt ein kälteres Gericht.',
             },
           },
           {
             name: 'Gasthaus zum Tschuggen',
             meta: { en: 'Davos Dorf · closed Wednesdays', fr: 'Davos Dorf · fermé le mercredi', de: 'Davos Dorf · Mittwoch Ruhetag' },
             text: {
-              en: 'At Flüelapassstrasse 33 in Davos Dorf, seating in the original Walserstube (50 seats) or the Arvenstube (20 seats); lunch 11:30 to 14:30, dinner 18:00 to 20:30, closed on Wednesdays all year.',
-              fr: 'À la Flüelapassstrasse 33, à Davos Dorf, avec des places dans la Walserstube d’origine (50 places) ou l’Arvenstube (20 places) ; déjeuner de 11 h 30 à 14 h 30, dîner de 18 h à 20 h 30, fermé le mercredi toute l’année.',
-              de: 'An der Flüelapassstrasse 33 in Davos Dorf, mit Plätzen in der ursprünglichen Walserstube (50 Plätze) oder der Arvenstube (20 Plätze); Mittagessen 11.30 bis 14.30 Uhr, Abendessen 18 bis 20.30 Uhr, ganzjährig Mittwoch Ruhetag.',
+              en: 'At Flüelapassstrasse 33 in Davos Dorf, this address keeps its original Walserstube, with 50 seats, alongside the smaller 20-seat Arvenstube, so it suits both a group lunch and a quieter dinner. It serves 11:30 to 14:30 and 18:00 to 20:30, but stays closed on Wednesdays all year, worth checking before you plan a midweek stop.',
+              fr: 'À la Flüelapassstrasse 33, à Davos Dorf, cette adresse a conservé sa Walserstube d’origine, avec 50 places, aux côtés de l’Arvenstube plus petite, avec 20 places, ce qui convient aussi bien à un déjeuner en groupe qu’à un dîner plus calme. Le service se fait de 11 h 30 à 14 h 30 puis de 18 h à 20 h 30, mais l’établissement reste fermé le mercredi toute l’année, à vérifier avant de prévoir une halte en semaine.',
+              de: 'An der Flüelapassstrasse 33 in Davos Dorf hat dieses Lokal seine ursprüngliche Walserstube mit 50 Plätzen bewahrt, neben der kleineren Arvenstube mit 20 Plätzen, was sowohl für ein Gruppenessen als auch für ein ruhigeres Abendessen passt. Der Service läuft von 11.30 bis 14.30 Uhr und von 18 bis 20.30 Uhr, doch bleibt das Lokal ganzjährig am Mittwoch geschlossen, gut zu wissen vor einem Zwischenstopp unter der Woche.',
             },
           },
         ],
@@ -423,33 +423,33 @@ export const davos: DestinationGuide = {
     {
       q: { en: 'Should I stay in Davos Platz or Davos Dorf?', fr: 'Faut-il dormir à Davos Platz ou à Davos Dorf ?', de: 'Soll man in Davos Platz oder in Davos Dorf übernachten?' },
       a: {
-        en: 'Both have their own station on the same Rhaetian Railway line, about 5 minutes apart by train. Davos Platz has the Congress Centre, the Kirchner Museum at Promenade 82 and the Jakobshorn base station; Davos Dorf has the Parsennbahn funicular and Lake Davos, with the Turmhotel Victoria putting the station, the funicular and the lake all about 200 metres away.',
-        fr: 'Les deux ont leur propre gare sur la même ligne des Chemins de fer rhétiques, à environ 5 minutes de train l’une de l’autre. Davos Platz possède le Centre de congrès, le Kirchner Museum au 82 de la Promenade et la station de base du Jakobshorn ; Davos Dorf a le funiculaire du Parsennbahn et le lac de Davos, le Turmhotel Victoria plaçant la gare, le funiculaire et le lac à environ 200 mètres.',
-        de: 'Beide haben einen eigenen Bahnhof an derselben Linie der Rhätischen Bahn, rund 5 Zugminuten voneinander entfernt. Davos Platz hat das Kongresszentrum, das Kirchner Museum an der Promenade 82 und die Talstation des Jakobshorns; Davos Dorf hat die Parsennbahn und den Davosersee, wobei das Turmhotel Victoria Bahnhof, Bahn und See auf rund 200 Meter Entfernung vereint.',
+        en: 'Both have their own station on the same Rhaetian Railway line, about 5 minutes apart by train. Davos Platz has the Congress Centre, the Kirchner Museum at Promenade 82 and the Jakobshorn base station, while Davos Dorf has the Parsennbahn funicular and Lake Davos, with the Turmhotel Victoria putting the station, the funicular and the lake all about 200 metres away. In practice, choose Platz for the lifts and the museum, Dorf for the lake and a quieter evening.',
+        fr: 'Les deux ont leur propre gare sur la même ligne des Chemins de fer rhétiques, à environ 5 minutes de train l’une de l’autre. Davos Platz possède le Centre de congrès, le Kirchner Museum au 82 de la Promenade et la station de base du Jakobshorn, tandis que Davos Dorf a le funiculaire du Parsennbahn et le lac de Davos, le Turmhotel Victoria plaçant la gare, le funiculaire et le lac à environ 200 mètres. En pratique, choisissez Platz pour les remontées et le musée, Dorf pour le lac et une soirée plus calme.',
+        de: 'Beide haben einen eigenen Bahnhof an derselben Linie der Rhätischen Bahn, rund 5 Zugminuten voneinander entfernt. Davos Platz hat das Kongresszentrum, das Kirchner Museum an der Promenade 82 und die Talstation des Jakobshorns, während Davos Dorf die Parsennbahn und den Davosersee hat, wobei das Turmhotel Victoria Bahnhof, Bahn und See auf rund 200 Meter Entfernung vereint. In der Praxis wählen Sie Platz für die Bahnen und das Museum, Dorf für den See und einen ruhigeren Abend.',
       },
     },
     {
       q: { en: 'Can I get to Davos without a car?', fr: 'Peut-on rejoindre Davos sans voiture ?', de: 'Kommt man ohne Auto nach Davos?' },
       a: {
-        en: 'Yes. Zürich HB to Davos Platz takes 2 h 20 with one change at Landquart, on the IC then the Rhaetian Railway RE 13; Davos Dorf is reached 5 minutes earlier on the same train.',
-        fr: 'Oui. De Zürich HB à Davos Platz, comptez 2 h 20 avec un changement à Landquart, en IC puis avec le RE 13 des Chemins de fer rhétiques ; Davos Dorf est desservi 5 minutes plus tôt sur le même train.',
-        de: 'Ja. Von Zürich HB nach Davos Platz dauert es 2 Std. 20 mit einem Umstieg in Landquart, mit dem IC und danach dem RE 13 der Rhätischen Bahn; Davos Dorf wird 5 Minuten früher mit demselben Zug erreicht.',
+        en: 'Yes. Zürich HB to Davos Platz takes 2 h 20 with one change at Landquart, on the IC then the Rhaetian Railway RE 13, and Davos Dorf is reached 5 minutes earlier on the same train. Once there, the free Premium Card covers local trains and buses, so a car is not needed for the stay itself.',
+        fr: 'Oui. De Zürich HB à Davos Platz, comptez 2 h 20 avec un changement à Landquart, en IC puis avec le RE 13 des Chemins de fer rhétiques, et Davos Dorf est desservi 5 minutes plus tôt sur le même train. Une fois sur place, la Premium Card gratuite couvre les trains et bus locaux, la voiture n’est donc pas nécessaire pendant le séjour.',
+        de: 'Ja. Von Zürich HB nach Davos Platz dauert es 2 Std. 20 mit einem Umstieg in Landquart, mit dem IC und danach dem RE 13 der Rhätischen Bahn, und Davos Dorf wird 5 Minuten früher mit demselben Zug erreicht. Vor Ort deckt die gratis Premium Card lokale Züge und Busse ab, ein Auto ist für den Aufenthalt selbst also nicht nötig.',
       },
     },
     {
       q: { en: 'Do I need to buy local bus tickets?', fr: 'Faut-il acheter des billets de bus locaux ?', de: 'Muss man lokale Busfahrkarten kaufen?' },
       a: {
-        en: 'No. Every guest who books at least one night gets the Davos Klosters Premium Card from their host, which includes free 2nd class travel by train and bus within zones 400, 410 and 420.',
-        fr: 'Non. Tout client réservant au moins une nuit reçoit de son hébergeur la Premium Card Davos Klosters, qui inclut le trajet gratuit en train et en bus, en 2e classe, dans les zones 400, 410 et 420.',
-        de: 'Nein. Jeder Gast, der mindestens eine Nacht bucht, erhält von seinem Gastgeber die Davos Klosters Premium Card, die freie Fahrt 2. Klasse mit Zug und Bus in den Zonen 400, 410 und 420 einschliesst.',
+        en: 'No. Every guest who books at least one night gets the Davos Klosters Premium Card from their host, which includes free 2nd class travel by train and bus within zones 400, 410 and 420, so ask for it at check-in if it is not handed over automatically.',
+        fr: 'Non. Tout client réservant au moins une nuit reçoit de son hébergeur la Premium Card Davos Klosters, qui inclut le trajet gratuit en train et en bus, en 2e classe, dans les zones 400, 410 et 420 : demandez-la à l’arrivée si elle ne vous est pas remise automatiquement.',
+        de: 'Nein. Jeder Gast, der mindestens eine Nacht bucht, erhält von seinem Gastgeber die Davos Klosters Premium Card, die freie Fahrt 2. Klasse mit Zug und Bus in den Zonen 400, 410 und 420 einschliesst: Fragen Sie beim Check-in danach, falls sie nicht automatisch ausgehändigt wird.',
       },
     },
     {
       q: { en: 'Which hotel gets me closest to the slopes?', fr: 'Quel hôtel est le plus proche des pistes ?', de: 'Welches Hotel liegt am nächsten an den Pisten?' },
       a: {
-        en: 'The Grischa DAS Hotel stands directly across from the Jakobshorn station with a direct underpass, in Davos Platz; the Turmhotel Victoria gives about 200 m to the Parsenn funicular, in Davos Dorf.',
-        fr: 'Le Grischa DAS Hotel se trouve directement en face de la station du Jakobshorn, avec un passage souterrain direct, à Davos Platz ; le Turmhotel Victoria indique environ 200 m jusqu’au funiculaire du Parsenn, à Davos Dorf.',
-        de: 'Das Grischa DAS Hotel liegt direkt gegenüber der Jakobshorn-Station, mit direkter Unterführung, in Davos Platz; das Turmhotel Victoria gibt rund 200 m bis zur Parsennbahn an, in Davos Dorf.',
+        en: 'The Grischa DAS Hotel stands directly across from the Jakobshorn station, with a direct underpass, in Davos Platz, while the Turmhotel Victoria gives about 200 m to the Parsenn funicular, in Davos Dorf. Pick the one that matches the mountain you plan to ski most, since the two lifts sit at opposite ends of town.',
+        fr: 'Le Grischa DAS Hotel se trouve directement en face de la station du Jakobshorn, avec un passage souterrain direct, à Davos Platz, tandis que le Turmhotel Victoria indique environ 200 m jusqu’au funiculaire du Parsenn, à Davos Dorf. Choisissez celui qui correspond au domaine que vous comptez skier le plus, car les deux remontées se trouvent aux extrémités opposées de la ville.',
+        de: 'Das Grischa DAS Hotel liegt direkt gegenüber der Jakobshorn-Station, mit direkter Unterführung, in Davos Platz, während das Turmhotel Victoria rund 200 m bis zur Parsennbahn angibt, in Davos Dorf. Wählen Sie jenes, das zum Gebiet passt, in dem Sie am meisten fahren wollen, denn die beiden Bahnen liegen an entgegengesetzten Enden des Ortes.',
       },
     },
     {
