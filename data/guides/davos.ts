@@ -68,7 +68,7 @@ export const davos: DestinationGuide = {
     ],
   },
   stats: [
-    { value: '1560', label: { en: 'metres above sea level', fr: "mètres d'altitude", de: 'Meter über Meer' } },
+    { value: '1560', label: { en: 'metres above sea level', fr: "mètres d’altitude", de: 'Meter über Meer' } },
     { value: '2', label: { en: 'km between Davos Platz and Davos Dorf, along the Promenade', fr: 'km entre Davos Platz et Davos Dorf, le long de la Promenade', de: 'km zwischen Davos Platz und Davos Dorf, entlang der Promenade' } },
     { value: '97', label: { en: 'km of pistes on the Parsenn, from Davos and from Klosters', fr: 'km de pistes sur le Parsenn, depuis Davos et depuis Klosters', de: 'Pistenkilometer auf dem Parsenn, ab Davos und ab Klosters' } },
   ],

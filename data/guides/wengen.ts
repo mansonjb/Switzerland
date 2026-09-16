@@ -17,7 +17,7 @@ export const wengen: DestinationGuide = {
   title: { en: 'Where to stay in Wengen', fr: 'Où dormir à Wengen', de: 'Wo übernachten in Wengen' },
   intro: {
     en: 'A car-free village on a terrace above the Lauterbrunnen valley, reached only by the Wengernalp rack railway. Shops and hotels gather around the station, and the same line climbs on to Kleine Scheidegg, where trains leave for the Jungfraujoch.',
-    fr: "Un village sans voiture posé sur une terrasse au-dessus de la vallée de Lauterbrunnen, accessible uniquement par le train à crémaillère de la Wengernalp. Commerces et hôtels se regroupent autour de la gare, et la même ligne continue jusqu'à la Kleine Scheidegg, d'où partent les trains du Jungfraujoch.",
+    fr: "Un village sans voiture posé sur une terrasse au-dessus de la vallée de Lauterbrunnen, accessible uniquement par le train à crémaillère de la Wengernalp. Commerces et hôtels se regroupent autour de la gare, et la même ligne continue jusqu’à la Kleine Scheidegg, d’où partent les trains du Jungfraujoch.",
     de: 'Ein autofreies Dorf auf einer Terrasse über dem Lauterbrunnental, nur mit der Zahnradbahn der Wengernalpbahn erreichbar. Läden und Hotels liegen rund um den Bahnhof, und dieselbe Linie fährt weiter zur Kleinen Scheidegg, wo die Züge aufs Jungfraujoch starten.',
   },
   quickAnswer: {
@@ -68,13 +68,13 @@ export const wengen: DestinationGuide = {
     ],
   },
   stats: [
-    { value: '1274', label: { en: 'metres above sea level', fr: "mètres d'altitude", de: 'Meter über Meer' } },
+    { value: '1274', label: { en: 'metres above sea level', fr: "mètres d’altitude", de: 'Meter über Meer' } },
     { value: '12', label: { en: 'minutes by train from Lauterbrunnen', fr: 'minutes de train depuis Lauterbrunnen', de: 'Zugminuten ab Lauterbrunnen' } },
     { value: '0', label: { en: 'private cars in the village', fr: 'voiture privée dans le village', de: 'Privatautos im Dorf' } },
   ],
   hero: {
     photo: '/photos/wengen-hero.jpg',
-    caption: { en: 'Wengen seen from Isenfluh, with the Eiger, Mönch and Jungfrau behind.', fr: "Wengen vu d'Isenfluh, avec l'Eiger, le Mönch et la Jungfrau en arrière-plan.", de: 'Wengen von Isenfluh aus, dahinter Eiger, Mönch und Jungfrau.' },
+    caption: { en: 'Wengen seen from Isenfluh, with the Eiger, Mönch and Jungfrau behind.', fr: "Wengen vu d’Isenfluh, avec l’Eiger, le Mönch et la Jungfrau en arrière-plan.", de: 'Wengen von Isenfluh aus, dahinter Eiger, Mönch und Jungfrau.' },
     credit: { author: 'Parchaco', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/', source: 'https://commons.wikimedia.org/wiki/File:Wengen_viewed_from_Isenfluh%2C_in_the_background%2C_the_Eiger%2C_M%C3%B6nch%2C_and_Jungfrau_peaks_rise.jpg' },
   },
   sectors: [
@@ -87,7 +87,7 @@ export const wengen: DestinationGuide = {
         de: 'Läden, Restaurants und ein Lebensmittelgeschäft liegen direkt beim Bahnhof. Die einfachste Basis mit Gepäck und abends am lebhaftesten.',
       },
       points: [
-        { en: 'No transfer on arrival', fr: "Aucun transfert à l'arrivée", de: 'Kein Transfer bei der Ankunft' },
+        { en: 'No transfer on arrival', fr: "Aucun transfert à l’arrivée", de: 'Kein Transfer bei der Ankunft' },
         { en: 'Free luggage trolleys at the station', fr: 'Chariots à bagages gratuits à la gare', de: 'Gratis Gepäckwagen am Bahnhof' },
       ],
       story: {
@@ -101,7 +101,7 @@ export const wengen: DestinationGuide = {
       walk: { en: 'By the Männlichen cable car', fr: 'Près du téléphérique du Männlichen', de: 'Bei der Männlichenbahn' },
       text: {
         en: 'The Wengen to Männlichen cable car leaves from the centre, a short walk up the main street next to the tourist office. The practical choice for ridge walks in summer and the slopes in winter.',
-        fr: "Le téléphérique Wengen-Männlichen part du centre, à quelques pas en remontant la rue principale, à côté de l'office du tourisme. Le choix pratique pour les randonnées de crête l'été et les pistes l'hiver.",
+        fr: "Le téléphérique Wengen-Männlichen part du centre, à quelques pas en remontant la rue principale, à côté de l’office du tourisme. Le choix pratique pour les randonnées de crête l’été et les pistes l’hiver.",
         de: 'Die Luftseilbahn Wengen-Männlichen fährt im Zentrum ab, ein paar Schritte die Dorfstrasse hinauf neben dem Tourismusbüro. Praktisch für Gratwanderungen im Sommer und die Pisten im Winter.',
       },
       points: [
@@ -119,7 +119,7 @@ export const wengen: DestinationGuide = {
       walk: { en: 'Uphill from the station', fr: 'En montée depuis la gare', de: 'Bergauf vom Bahnhof' },
       text: {
         en: 'The church stands on an outcrop at the north end of the village. Hotels and chalets on the slope look over the Lauterbrunnen valley, with a steep walk back up.',
-        fr: "L'église se dresse sur un promontoire au nord du village. Hôtels et chalets du versant regardent la vallée de Lauterbrunnen, avec une montée raide au retour.",
+        fr: "L’église se dresse sur un promontoire au nord du village. Hôtels et chalets du versant regardent la vallée de Lauterbrunnen, avec une montée raide au retour.",
         de: 'Die Kirche steht auf einem Felsvorsprung am Nordende des Dorfes. Hotels und Chalets am Hang blicken ins Lauterbrunnental, der Rückweg ist steil.',
       },
       points: [
@@ -143,7 +143,7 @@ export const wengen: DestinationGuide = {
       facts: [
         { en: 'Family hotel founded in 1894', fr: 'Hôtel familial fondé en 1894', de: 'Familienhotel, gegründet 1894' },
         { en: 'A short walk through the village from the station', fr: 'À quelques pas de la gare par le village', de: 'Wenige Schritte vom Bahnhof durchs Dorf' },
-        { en: 'Seasonal closure: check dates on the hotel site', fr: "Fermeture saisonnière : dates sur le site de l'hôtel", de: 'Saisonale Schliessung: Daten auf der Hotelwebsite' },
+        { en: 'Seasonal closure: check dates on the hotel site', fr: "Fermeture saisonnière : dates sur le site de l’hôtel", de: 'Saisonale Schliessung: Daten auf der Hotelwebsite' },
       ],
       blurb: {
         en: 'Founded in 1894, Hotel Regina is a family-run address a short walk through the village from the station. It closes for part of the year, so check current dates on the hotel’s own site before booking outside the main seasons.',
@@ -158,9 +158,9 @@ export const wengen: DestinationGuide = {
       url: 'https://www.silberhorn.ch/en',
       sector: { en: 'Around the station', fr: 'Autour de la gare', de: 'Rund um den Bahnhof' },
       facts: [
-        { en: '1 minute from the station, by the hotel’s own count', fr: "À 1 minute de la gare, selon l'hôtel", de: '1 Minute vom Bahnhof, laut Hotel' },
+        { en: '1 minute from the station, by the hotel’s own count', fr: "À 1 minute de la gare, selon l’hôtel", de: '1 Minute vom Bahnhof, laut Hotel' },
         { en: 'Porter service', fr: 'Service de bagagiste', de: 'Gepäckservice' },
-        { en: 'Fondue restaurant in the hotel', fr: "Restaurant à fondue dans l'hôtel", de: 'Fondue-Restaurant im Haus' },
+        { en: 'Fondue restaurant in the hotel', fr: "Restaurant à fondue dans l’hôtel", de: 'Fondue-Restaurant im Haus' },
       ],
       blurb: {
         en: 'One minute from the station, by the hotel’s own count, the Silberhorn offers porter service for arriving guests and its own fondue restaurant. It is a straightforward choice for a first stay, with nothing to carry far.',
@@ -193,8 +193,8 @@ export const wengen: DestinationGuide = {
       sector: { en: 'Up the main street', fr: 'En remontant la rue principale', de: 'Die Dorfstrasse hinauf' },
       facts: [
         { en: '450 m from the station', fr: 'À 450 m de la gare', de: '450 m vom Bahnhof' },
-        { en: 'Paid porter service from Lauterbrunnen, book ahead', fr: "Service de bagages payant depuis Lauterbrunnen, à réserver à l'avance", de: 'Kostenpflichtiger Gepäckservice ab Lauterbrunnen, im Voraus buchen' },
-        { en: 'Seasonal closure: check dates on the hotel site', fr: "Fermeture saisonnière : dates sur le site de l'hôtel", de: 'Saisonale Schliessung: Daten auf der Hotelwebsite' },
+        { en: 'Paid porter service from Lauterbrunnen, book ahead', fr: "Service de bagages payant depuis Lauterbrunnen, à réserver à l’avance", de: 'Kostenpflichtiger Gepäckservice ab Lauterbrunnen, im Voraus buchen' },
+        { en: 'Seasonal closure: check dates on the hotel site', fr: "Fermeture saisonnière : dates sur le site de l’hôtel", de: 'Saisonale Schliessung: Daten auf der Hotelwebsite' },
       ],
       blurb: {
         en: 'Grand Hotel Belvédère stands 450 metres from the station, up the main street. A paid porter service from Lauterbrunnen can be booked ahead, useful if you would rather not carry bags the last stretch yourself.',
@@ -307,7 +307,7 @@ export const wengen: DestinationGuide = {
     },
     note: {
       en: 'Adult, 2nd class. The pass is valid free of charge as far as Wengen; above Wengen it gives 25% off. A seat reservation (CHF 10) is compulsory on the Jungfrau Railway from 1 May to 31 October. Fares as published for 2026, checked on 15 September 2026: confirm on jungfrau.ch before buying.',
-      fr: "Adulte, 2e classe. Le pass est valable gratuitement jusqu'à Wengen ; au-dessus de Wengen, il donne 25 % de réduction. Une réservation de place (CHF 10) est obligatoire sur le chemin de fer de la Jungfrau du 1er mai au 31 octobre. Tarifs publiés pour 2026, relevés le 15 septembre 2026 : à confirmer sur jungfrau.ch avant achat.",
+      fr: "Adulte, 2e classe. Le pass est valable gratuitement jusqu’à Wengen ; au-dessus de Wengen, il donne 25 % de réduction. Une réservation de place (CHF 10) est obligatoire sur le chemin de fer de la Jungfrau du 1er mai au 31 octobre. Tarifs publiés pour 2026, relevés le 15 septembre 2026 : à confirmer sur jungfrau.ch avant achat.",
       de: 'Erwachsene, 2. Klasse. Der Pass gilt gratis bis Wengen, ab Wengen gibt es 25 % Ermässigung. Auf der Jungfraubahn ist vom 1. Mai bis 31. Oktober eine Sitzplatzreservation (CHF 10) obligatorisch. Tarife gemäss Veröffentlichung 2026, geprüft am 15. September 2026: vor dem Kauf auf jungfrau.ch bestätigen.',
     },
   },
@@ -320,7 +320,7 @@ export const wengen: DestinationGuide = {
     ],
     note: {
       en: '2026 and start of winter 2026/27. Männlichen cable car: winter season until early April, summer season 23 May to 25 October 2026, winter from 12 December 2026. Wengen to Kleine Scheidegg: annual maintenance break around November, exact 2026 dates not yet published by the operator. Hotels and restaurants set their own dates: many close roughly from mid-April to late May and in November.',
-      fr: "2026 et début de l'hiver 2026/27. Téléphérique du Männlichen : saison d'hiver jusqu'à début avril, saison d'été du 23 mai au 25 octobre 2026, hiver à partir du 12 décembre 2026. Wengen → Kleine Scheidegg : pause annuelle d'entretien vers novembre, dates 2026 pas encore publiées par l'exploitant. Hôtels et restaurants fixent leurs propres dates : beaucoup ferment environ de mi-avril à fin mai et en novembre.",
+      fr: "2026 et début de l’hiver 2026/27. Téléphérique du Männlichen : saison d’hiver jusqu’à début avril, saison d’été du 23 mai au 25 octobre 2026, hiver à partir du 12 décembre 2026. Wengen → Kleine Scheidegg : pause annuelle d’entretien vers novembre, dates 2026 pas encore publiées par l’exploitant. Hôtels et restaurants fixent leurs propres dates : beaucoup ferment environ de mi-avril à fin mai et en novembre.",
       de: '2026 und Beginn des Winters 2026/27. Männlichenbahn: Wintersaison bis Anfang April, Sommersaison 23. Mai bis 25. Oktober 2026, Winter ab 12. Dezember 2026. Wengen → Kleine Scheidegg: jährliche Revisionspause um November, genaue Daten 2026 vom Betreiber noch nicht veröffentlicht. Hotels und Restaurants legen ihre Daten selbst fest: viele schliessen etwa von Mitte April bis Ende Mai und im November.',
     },
   },
@@ -533,7 +533,7 @@ export const wengen: DestinationGuide = {
       q: { en: 'How long from Wengen to the Jungfraujoch?', fr: 'Combien de temps de Wengen au Jungfraujoch ?', de: 'Wie lange von Wengen aufs Jungfraujoch?' },
       a: {
         en: 'About 1 hour 10 to 1 hour 20: around 30 minutes to Kleine Scheidegg, then 35 to 40 minutes on the Jungfrau Railway, plus the change. From Grindelwald Terminal, the Eiger Express route takes about 45 minutes.',
-        fr: "Environ 1 h 10 à 1 h 20 : une trentaine de minutes jusqu'à la Kleine Scheidegg, puis 35 à 40 minutes sur le chemin de fer de la Jungfrau, plus la correspondance. Depuis Grindelwald Terminal, l'itinéraire par l'Eiger Express prend environ 45 minutes.",
+        fr: "Environ 1 h 10 à 1 h 20 : une trentaine de minutes jusqu’à la Kleine Scheidegg, puis 35 à 40 minutes sur le chemin de fer de la Jungfrau, plus la correspondance. Depuis Grindelwald Terminal, l’itinéraire par l’Eiger Express prend environ 45 minutes.",
         de: 'Etwa 1 Stunde 10 bis 1 Stunde 20: rund 30 Minuten bis zur Kleinen Scheidegg, dann 35 bis 40 Minuten mit der Jungfraubahn, plus Umsteigen. Ab Grindelwald Terminal dauert die Route mit dem Eiger Express etwa 45 Minuten.',
       },
     },

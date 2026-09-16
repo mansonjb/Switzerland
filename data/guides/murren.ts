@@ -68,7 +68,7 @@ export const murren: DestinationGuide = {
     ],
   },
   stats: [
-    { value: '1638', label: { en: 'metres above sea level, as the cable car company gives it', fr: "mètres d'altitude, selon la compagnie du téléphérique", de: 'Meter über Meer, laut Bahngesellschaft' } },
+    { value: '1638', label: { en: 'metres above sea level, as the cable car company gives it', fr: "mètres d’altitude, selon la compagnie du téléphérique", de: 'Meter über Meer, laut Bahngesellschaft' } },
     { value: '432', label: { en: 'residents at the end of 2023', fr: 'habitants fin 2023', de: 'Einwohner Ende 2023' } },
     { value: '53', label: { en: 'minutes from Interlaken Ost', fr: 'minutes depuis Interlaken Ost', de: 'Minuten ab Interlaken Ost' } },
   ],
@@ -254,7 +254,7 @@ export const murren: DestinationGuide = {
     },
     note: {
       en: 'Adult return to the summit. On this cable car the Swiss Travel Pass, the Half Fare Card and the GA travelcard all pay CHF 45.70 instead of CHF 91.40, so half price rather than the 25% that applies on the Jungfraujoch line. The Berner Oberland Pass travels free. Fares published by the operator and valid to 12 December 2026, checked on 16 September 2026.',
-      fr: "Aller-retour adulte jusqu'au sommet. Sur ce téléphérique, le Swiss Travel Pass, l'abonnement demi-tarif et l'AG paient tous CHF 45.70 au lieu de CHF 91.40, soit la moitié, et non les 25 % de la ligne du Jungfraujoch. Le Berner Oberland Pass voyage gratuitement. Tarifs publiés par l'exploitant, valables jusqu'au 12 décembre 2026, vérifiés le 16 septembre 2026.",
+      fr: "Aller-retour adulte jusqu’au sommet. Sur ce téléphérique, le Swiss Travel Pass, l’abonnement demi-tarif et l’AG paient tous CHF 45.70 au lieu de CHF 91.40, soit la moitié, et non les 25 % de la ligne du Jungfraujoch. Le Berner Oberland Pass voyage gratuitement. Tarifs publiés par l’exploitant, valables jusqu’au 12 décembre 2026, vérifiés le 16 septembre 2026.",
       de: 'Erwachsenen-Retour auf den Gipfel. Auf dieser Bahn zahlen Swiss Travel Pass, Halbtax und GA gleichermassen CHF 45.70 statt CHF 91.40, also den halben Preis und nicht die 25 % der Jungfraujoch-Linie. Der Berner Oberland Pass fährt gratis. Vom Betreiber publizierte Tarife, gültig bis 12. Dezember 2026, geprüft am 16. September 2026.',
     },
   },
@@ -268,7 +268,7 @@ export const murren: DestinationGuide = {
     ],
     note: {
       en: 'Ski area 2026/27: 21 November 2026 to 2 May 2027. Allmendhubel funicular: summer from mid June to mid October, winter from mid December to early April. Schilthorn cable car: replacement bus from 19 to 30 October 2026 and from 26 April to 7 May 2027. Grütschalp cable car: replacement works announced from 13 April to 10 July 2026, in which case use the Stechelberg route. Checked 16 September 2026.',
-      fr: "Domaine skiable 2026/27 : du 21 novembre 2026 au 2 mai 2027. Funiculaire de l'Allmendhubel : été de mi-juin à mi-octobre, hiver de mi-décembre à début avril. Téléphérique du Schilthorn : bus de remplacement du 19 au 30 octobre 2026 et du 26 avril au 7 mai 2027. Téléphérique de Grütschalp : travaux annoncés du 13 avril au 10 juillet 2026, passez alors par Stechelberg. Vérifié le 16 septembre 2026.",
+      fr: "Domaine skiable 2026/27 : du 21 novembre 2026 au 2 mai 2027. Funiculaire de l’Allmendhubel : été de mi-juin à mi-octobre, hiver de mi-décembre à début avril. Téléphérique du Schilthorn : bus de remplacement du 19 au 30 octobre 2026 et du 26 avril au 7 mai 2027. Téléphérique de Grütschalp : travaux annoncés du 13 avril au 10 juillet 2026, passez alors par Stechelberg. Vérifié le 16 septembre 2026.",
       de: 'Skigebiet 2026/27: 21. November 2026 bis 2. Mai 2027. Allmendhubelbahn: Sommer von Mitte Juni bis Mitte Oktober, Winter von Mitte Dezember bis Anfang April. Schilthornbahn: Ersatzbus vom 19. bis 30. Oktober 2026 und vom 26. April bis 7. Mai 2027. Grütschalpbahn: Arbeiten angekündigt vom 13. April bis 10. Juli 2026, dann über Stechelberg fahren. Geprüft am 16. September 2026.',
     },
   },

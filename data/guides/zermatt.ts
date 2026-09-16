@@ -68,7 +68,7 @@ export const zermatt: DestinationGuide = {
     ],
   },
   stats: [
-    { value: '1608', label: { en: 'metres above sea level', fr: "mètres d'altitude", de: 'Meter über Meer' } },
+    { value: '1608', label: { en: 'metres above sea level', fr: "mètres d’altitude", de: 'Meter über Meer' } },
     { value: '12', label: { en: 'minutes from Täsch by shuttle train, every 20 minutes', fr: 'minutes depuis Täsch en train-navette, toutes les 20 minutes', de: 'Minuten ab Täsch mit dem Pendelzug, alle 20 Minuten' } },
     { value: '360', label: { en: 'km of pistes across Switzerland and Italy', fr: 'km de pistes entre la Suisse et l’Italie', de: 'Pistenkilometer zwischen der Schweiz und Italien' } },
   ],
