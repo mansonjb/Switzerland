@@ -1,0 +1,228 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "be-bellevue-palace",
+      "bookingName": "Hotel Bellevue Palace Bern",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/bellevue-palace-bern.en-gb.html",
+      "address": "Kochergasse 3-5, Old City of Bern, 3011 Bern, Switzerland",
+      "prices": {
+        "2026-12-18": 703,
+        "2027-02-17": 538,
+        "2027-07-21": 635,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 538,
+        "avg": 625,
+        "samples": 3
+      },
+      "winter": {
+        "from": 538,
+        "avg": 620,
+        "samples": 2
+      },
+      "summer": {
+        "from": 635,
+        "avg": 635,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "be-schweizerhof",
+      "bookingName": "Hotel Schweizerhof Bern & Spa",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/schweizerhof-bern.en-gb.html",
+      "address": "Bahnhofplatz 11, Rotes Quartier, 3011 Bern, Switzerland",
+      "prices": {
+        "2026-12-18": 661,
+        "2027-02-17": 440,
+        "2027-07-21": 495,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 440,
+        "avg": 530,
+        "samples": 3
+      },
+      "winter": {
+        "from": 440,
+        "avg": 550,
+        "samples": 2
+      },
+      "summer": {
+        "from": 495,
+        "avg": 495,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "be-belle-epoque",
+      "bookingName": "Boutique Hotel Belle Epoque",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/belleepoqueboutbern.en-gb.html",
+      "address": "Gerechtigkeitsgasse 18, Old City of Bern, 3011 Bern, Switzerland",
+      "prices": {
+        "2026-12-18": 255,
+        "2027-02-17": 249,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 249,
+        "avg": 250,
+        "samples": 2
+      },
+      "winter": {
+        "from": 249,
+        "avg": 250,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "be-kreuz",
+      "bookingName": "Kreuz Bern Modern City Hotel",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/kreuz.en-gb.html",
+      "address": "Zeughausgasse 41, Old City of Bern, 3000 Bern, Switzerland",
+      "prices": {
+        "2026-12-18": 206,
+        "2027-02-17": 186,
+        "2027-07-21": 230,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 186,
+        "avg": 205,
+        "samples": 3
+      },
+      "winter": {
+        "from": 186,
+        "avg": 195,
+        "samples": 2
+      },
+      "summer": {
+        "from": 230,
+        "avg": 230,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "be-national",
+      "bookingName": "Hotel National Bern",
+      "tier": "budget",
+      "stars": 2,
+      "bookingUrl": "https://www.booking.com/hotel/ch/national-bern.en-gb.html",
+      "address": "Hirschengraben 24, Rotes Quartier, 3011 Bern, Switzerland",
+      "prices": {
+        "2026-12-18": 234,
+        "2027-02-17": 211,
+        "2027-07-21": 270,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 211,
+        "avg": 240,
+        "samples": 3
+      },
+      "winter": {
+        "from": 211,
+        "avg": 225,
+        "samples": 2
+      },
+      "summer": {
+        "from": 270,
+        "avg": 270,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "be-innere-enge",
+      "bookingName": "Unique Hotel Innere Enge",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/innere-enge.en-gb.html",
+      "address": "Engestrasse 54, Langgasse-Felsenau, 3012 Bern, Switzerland",
+      "prices": {
+        "2026-12-18": 290,
+        "2027-02-17": 254,
+        "2027-07-21": 231,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 231,
+        "avg": 260,
+        "samples": 3
+      },
+      "winter": {
+        "from": 254,
+        "avg": 270,
+        "samples": 2
+      },
+      "summer": {
+        "from": 231,
+        "avg": 230,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "be-youth-hostel",
+      "bookingName": "Bern Youth Hostel",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/youthhostel-bern.en-gb.html",
+      "address": "Weihergasse 4, Mattenhof-Weissenbühl, 3005 Bern, Switzerland",
+      "prices": {
+        "2026-12-18": 171,
+        "2027-02-17": 164,
+        "2027-07-21": 211,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 164,
+        "avg": 180,
+        "samples": 3
+      },
+      "winter": {
+        "from": 164,
+        "avg": 170,
+        "samples": 2
+      },
+      "summer": {
+        "from": 211,
+        "avg": 210,
+        "samples": 1
+      }
+    }
+  ]
+}

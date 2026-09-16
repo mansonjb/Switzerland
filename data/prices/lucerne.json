@@ -1,0 +1,197 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "lu-schweizerhof",
+      "bookingName": "Hotel Schweizerhof Luzern",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/schweizerhof-luzern.en-gb.html",
+      "address": "Schweizerhofquai 3a, 6002 Luzern, Switzerland",
+      "prices": {
+        "2026-12-18": 706,
+        "2027-02-17": 376,
+        "2027-07-21": 946,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 376,
+        "avg": 675,
+        "samples": 3
+      },
+      "winter": {
+        "from": 376,
+        "avg": 540,
+        "samples": 2
+      },
+      "summer": {
+        "from": 946,
+        "avg": 945,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lu-hotel-des-balances",
+      "bookingName": "Hotel des Balances",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/desbalances.en-gb.html",
+      "address": "Weinmarkt, 6004 Luzern, Switzerland",
+      "prices": {
+        "2026-12-18": 287,
+        "2027-02-17": 248,
+        "2027-07-21": 444,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 248,
+        "avg": 325,
+        "samples": 3
+      },
+      "winter": {
+        "from": 248,
+        "avg": 270,
+        "samples": 2
+      },
+      "summer": {
+        "from": 444,
+        "avg": 445,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lu-wilden-mann",
+      "bookingName": "Romantik Hotel Wilden Mann Luzern",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/romantik-wilden-mann.en-gb.html",
+      "address": "Bahnhofstrasse 30, 6003 Luzern, Switzerland",
+      "prices": {
+        "2026-12-18": 427,
+        "2027-02-17": 245,
+        "2027-07-21": 196,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 196,
+        "avg": 290,
+        "samples": 3
+      },
+      "winter": {
+        "from": 245,
+        "avg": 335,
+        "samples": 2
+      },
+      "summer": {
+        "from": 196,
+        "avg": 195,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lu-chateau-guetsch",
+      "bookingName": "Château Gütsch",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/chateau-gutsch.en-gb.html",
+      "address": "Kanonenstrasse, 6003 Luzern, Switzerland",
+      "prices": {
+        "2026-12-18": 282,
+        "2027-02-17": 252,
+        "2027-07-21": 385,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 252,
+        "avg": 305,
+        "samples": 3
+      },
+      "winter": {
+        "from": 252,
+        "avg": 265,
+        "samples": 2
+      },
+      "summer": {
+        "from": 385,
+        "avg": 385,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lu-hotel-montana",
+      "bookingName": "Art Deco Hotel Montana Luzern",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/art-deco-hotel-montana-luzern.en-gb.html",
+      "address": "Adligenswilerstrasse 22, 6002 Luzern, Switzerland",
+      "prices": {
+        "2027-07-21": 454,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 454,
+        "avg": 455,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 454,
+        "avg": 455,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lu-waldstaetterhof",
+      "bookingName": "Waldstätterhof Swiss Quality Hotel",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swissqwaldstaetterhof.en-gb.html",
+      "address": "Zentralstrasse 4, 6003 Luzern, Switzerland",
+      "prices": {
+        "2026-12-18": 206,
+        "2027-02-17": 172,
+        "2027-07-21": 337,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 172,
+        "avg": 240,
+        "samples": 3
+      },
+      "winter": {
+        "from": 172,
+        "avg": 190,
+        "samples": 2
+      },
+      "summer": {
+        "from": 337,
+        "avg": 335,
+        "samples": 1
+      }
+    }
+  ]
+}

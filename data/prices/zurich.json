@@ -1,0 +1,139 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "zh-storchen",
+      "bookingName": "Storchen Zürich - Lifestyle Boutique Hotel",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/zum-storchen.en-gb.html",
+      "address": "Weinplatz 2, City Centre, 8001 Zürich, Switzerland",
+      "prices": {
+        "2026-12-18": 759,
+        "2027-02-17": 619,
+        "2027-07-21": 898,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 619,
+        "avg": 760,
+        "samples": 3
+      },
+      "winter": {
+        "from": 619,
+        "avg": 690,
+        "samples": 2
+      },
+      "summer": {
+        "from": 898,
+        "avg": 900,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zh-widder",
+      "bookingName": "Widder Hotel - Zurichs Luxury Hideaway",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/widderzurich.en-gb.html",
+      "address": "Rennweg 7, City Centre, 8001 Zürich, Switzerland",
+      "prices": {
+        "2026-12-18": 772,
+        "2027-02-17": 682,
+        "2027-07-21": 1042,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 682,
+        "avg": 830,
+        "samples": 3
+      },
+      "winter": {
+        "from": 682,
+        "avg": 725,
+        "samples": 2
+      },
+      "summer": {
+        "from": 1042,
+        "avg": 1040,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zh-marktgasse",
+      "bookingName": "Marktgasse Hotel",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/marktgasse.en-gb.html",
+      "address": "Marktgasse 17, City Centre, 8001 Zürich, Switzerland",
+      "prices": {
+        "2026-12-18": 421,
+        "2027-02-17": 326,
+        "2027-07-21": 356,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 326,
+        "avg": 370,
+        "samples": 3
+      },
+      "winter": {
+        "from": 326,
+        "avg": 375,
+        "samples": 2
+      },
+      "summer": {
+        "from": 356,
+        "avg": 355,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zh-adler",
+      "bookingName": "Hotel Adler Zürich",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/adler.en-gb.html",
+      "address": "Rosengasse 10, Am Hirschenplatz, City Centre, 8001 Zürich, Switzerland",
+      "prices": {
+        "2026-12-18": 373,
+        "2027-02-17": 301,
+        "2027-07-21": 355,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 301,
+        "avg": 345,
+        "samples": 3
+      },
+      "winter": {
+        "from": 301,
+        "avg": 335,
+        "samples": 2
+      },
+      "summer": {
+        "from": 355,
+        "avg": 355,
+        "samples": 1
+      }
+    }
+  ]
+}
