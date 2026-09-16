@@ -14,6 +14,22 @@ Independent affiliate guide "where to stay in Switzerland". Domain staysinswitze
 7. GA / Clarity stay empty until a consent banner exists.
 8. One deploy per day max (global hooks ask before push/deploy).
 
+## Design tokens (since 16/09/2026)
+Action colour is the alpine lake teal `lake` (#0E5F6E), not the Swiss red. Red (`swiss`) is reserved
+for the flag mark in the logo and the destination stamps. Warm `sand` panels replace the old cold
+`mist` blocks. Cards, chips, buttons and fields are rounded (rounded-2xl / rounded-full), hotel and
+destination cards carry a soft shadow and a floating badge. The Stay22 map uses maincolor 0E5F6E.
+
+## Adding destinations
+`data/research/<slug>.md` holds the sourced dossier (identity, access, sectors, seasons, what to do,
+hotels with their official site, FAQ, SOURCES, UNVERIFIED, plus a ready-to-paste sheet line).
+`data/GUIDE-TEMPLATE.md` says how a dossier becomes `data/guides/<slug>.ts`. A destination goes on
+the sheet as soon as its dossier and a verified Commons photo exist; the page goes live only when the
+guide file is registered in `data/index.ts`.
+Booking price scrapes cost about USD 0.21 per destination per date on Apify, and the account cap is
+USD 29 a month: scrape 3 dates per destination, in waves, and check the remaining budget first
+(`GET https://api.apify.com/v2/users/me/limits`).
+
 ## Tech
 Next 16.3 App Router, Tailwind v4 tokens in `app/globals.css`, fonts Barlow Condensed + Noto Sans. Locales en (root, via `proxy.ts` rewrite), de, fr under `app/[lang]`. `L` strings in `lib/i18n.ts` (`de` optional, falls back to en). Static (SSG, dynamicParams false). Dev port 3093.
 
