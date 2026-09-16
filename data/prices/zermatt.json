@@ -1,0 +1,224 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "zermatt-mont-cervin-palace",
+      "bookingName": "Mont Cervin Palace",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/mont-cervin-palace.en-gb.html",
+      "address": "Bahnhofstrasse 31, 3920 Zermatt, Switzerland",
+      "prices": {
+        "2026-12-18": 742,
+        "2027-07-21": 533,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 533,
+        "avg": 640,
+        "samples": 2
+      },
+      "winter": {
+        "from": 742,
+        "avg": 740,
+        "samples": 1
+      },
+      "summer": {
+        "from": 533,
+        "avg": 535,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zermatt-monte-rosa",
+      "bookingName": "Monte Rosa Boutique Hotel",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/monte-rosa-boutique-hotel.en-gb.html",
+      "address": "Bahnhofstrasse 80, 3920 Zermatt, Switzerland",
+      "prices": {
+        "2026-12-18": 492,
+        "2027-07-21": 372,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 372,
+        "avg": 430,
+        "samples": 2
+      },
+      "winter": {
+        "from": 492,
+        "avg": 490,
+        "samples": 1
+      },
+      "summer": {
+        "from": 372,
+        "avg": 370,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zermatt-walliserhof",
+      "bookingName": "Hotel Walliserhof Zermatt",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swissqwalliserhof.en-gb.html",
+      "address": "Bahnhofstrasse, 3920 Zermatt, Switzerland",
+      "prices": {
+        "2026-12-18": 485,
+        "2027-02-17": 469,
+        "2027-07-21": 238,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 238,
+        "avg": 395,
+        "samples": 3
+      },
+      "winter": {
+        "from": 469,
+        "avg": 475,
+        "samples": 2
+      },
+      "summer": {
+        "from": 238,
+        "avg": 240,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zermatt-alex-alpine-resort",
+      "bookingName": "Alex Alpine Resort - Spa & Sports",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alex-zermatt.en-gb.html",
+      "address": "Bodmenstrasse 12, 3920 Zermatt, Switzerland",
+      "prices": {
+        "2027-07-21": 443,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 443,
+        "avg": 445,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 443,
+        "avg": 445,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zermatt-allalin",
+      "bookingName": "Swiss Alpine Hotel Allalin",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swiss-alpine-allalin.en-gb.html",
+      "address": "Kirchstrasse 40, 3920 Zermatt, Switzerland",
+      "prices": {
+        "2027-07-21": 498,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 498,
+        "avg": 500,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 498,
+        "avg": 500,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zermatt-the-omnia",
+      "bookingName": "THE OMNIA - Design Mountain Lodge and Spa with Iconic Matterhorn Views",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/the-omnia.en-gb.html",
+      "address": "Auf dem Fels, 3920 Zermatt, Switzerland",
+      "prices": {
+        "2026-12-18": 987,
+        "2027-07-21": 690,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 690,
+        "avg": 840,
+        "samples": 2
+      },
+      "winter": {
+        "from": 987,
+        "avg": 985,
+        "samples": 1
+      },
+      "summer": {
+        "from": 690,
+        "avg": 690,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zermatt-youth-hostel",
+      "bookingName": "Zermatt Youth Hostel",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/jugendherberge-zermatt.en-gb.html",
+      "address": "Staldenweg 5, 3920 Zermatt, Switzerland",
+      "prices": {
+        "2026-12-18": 335,
+        "2027-02-17": 357,
+        "2027-07-21": 180,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 180,
+        "avg": 290,
+        "samples": 3
+      },
+      "winter": {
+        "from": 335,
+        "avg": 345,
+        "samples": 2
+      },
+      "summer": {
+        "from": 180,
+        "avg": 180,
+        "samples": 1
+      }
+    }
+  ]
+}

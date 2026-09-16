@@ -128,6 +128,17 @@ export const zermatt: DestinationGuide = {
       ],
     },
     {
+      slug: 'zermatt-walliserhof',
+      name: 'Hotel Walliserhof Zermatt',
+      url: 'https://www.walliserhof-zermatt.ch/en/',
+      sector: { en: 'Bahnhofstrasse and the station', fr: 'La Bahnhofstrasse et la gare', de: 'Bahnhofstrasse und der Bahnhof' },
+      facts: [
+        { en: 'Bahnhofstrasse 30, about 250 m from the station', fr: 'Bahnhofstrasse 30, à environ 250 m de la gare', de: 'Bahnhofstrasse 30, rund 250 m vom Bahnhof' },
+        { en: '23 rooms, run by the same family since 1938, third generation since 2015', fr: '23 chambres, tenu par la même famille depuis 1938, troisième génération depuis 2015', de: '23 Zimmer, seit 1938 in derselben Familie, dritte Generation seit 2015' },
+        { en: 'Mini spa for guests and the Theodors Stuba restaurant, fondue and raclette', fr: 'Mini-spa réservé aux clients et restaurant Theodors Stuba, fondue et raclette', de: 'Mini-Spa für Gäste und Restaurant Theodors Stuba, Fondue und Raclette' },
+      ],
+    },
+    {
       slug: 'zermatt-alex-alpine-resort',
       name: 'Alex Alpine Resort',
       url: 'https://www.hotelalexzermatt.com/',

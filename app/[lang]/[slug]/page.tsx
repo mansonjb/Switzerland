@@ -103,7 +103,8 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
         price: { all: p?.all ?? null, summer: p?.summer ?? null, winter: p?.winter ?? null },
       }
     })
-    .sort((a, b) => tierOrder[a.tier] - tierOrder[b.tier])
+    // Hotels with no collected price sit at the end, whatever tier they default to.
+    .sort((a, b) => Number(a.price.all === null) - Number(b.price.all === null) || tierOrder[a.tier] - tierOrder[b.tier])
 
   const snapshot = [
     { label: { en: `Why ${name}`, fr: `Pourquoi ${name}`, de: `Warum ${name}` }, text: guide.snapshot.why, tone: 'bg-sand' },

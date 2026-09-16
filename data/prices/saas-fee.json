@@ -1,0 +1,154 @@
+{
+  "scrapedOn": "2026-09-16",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2026-12-18",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "saas-fee-the-capra",
+      "bookingName": "The Capra Saas-Fee",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/the-capra-saas-fee.en-gb.html",
+      "address": "Lomattenstrasse 6, 3906 Saas-Fee, Switzerland",
+      "prices": {
+        "2027-07-21": 469,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 469,
+        "avg": 470,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 469,
+        "avg": 470,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "saas-fee-schweizerhof",
+      "bookingName": "Wellnesshotel Schweizerhof",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/saas-fee-schweizerhof.en-gb.html",
+      "address": "Saas-Fee, 3906 Saas-Fee, Switzerland",
+      "prices": {
+        "2026-12-18": 346,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 346,
+        "avg": 345,
+        "samples": 1
+      },
+      "winter": {
+        "from": 346,
+        "avg": 345,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "saas-fee-wellnesshostel4000",
+      "bookingName": "Saas-Fee wellnesshostel4000",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/youth-hostel-saas-fee.en-gb.html",
+      "address": "Panoramastrasse 1, 3906 Saas-Fee, Switzerland",
+      "prices": {
+        "2027-07-21": 234,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 234,
+        "avg": 235,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 234,
+        "avg": 235,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "saas-fee-feehof",
+      "bookingName": "Feehof",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/feehof.en-gb.html",
+      "address": "Hotel Feehof Garni, 3906 Saas-Fee, Switzerland",
+      "prices": {
+        "2026-12-18": 284,
+        "2027-07-21": 234,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 234,
+        "avg": 260,
+        "samples": 2
+      },
+      "winter": {
+        "from": 284,
+        "avg": 285,
+        "samples": 1
+      },
+      "summer": {
+        "from": 234,
+        "avg": 235,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "saas-fee-dom-hotel",
+      "bookingName": "The Dom Hotel Saas-Fee operated by Dorint",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/the-dom-saas-fee-operated-by-dorint.en-gb.html",
+      "address": "Dorfplatz 2, 3906 Saas-Fee, Switzerland",
+      "prices": {
+        "2027-07-21": 264,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 264,
+        "avg": 265,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 264,
+        "avg": 265,
+        "samples": 1
+      }
+    }
+  ]
+}
