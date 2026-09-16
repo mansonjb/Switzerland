@@ -86,6 +86,13 @@ const HOTELS = [
   { slug: "gw-hotel-gletschergarten", name: "Hotel Gletschergarten Grindelwald" },
   { slug: "gw-sunstar-hotel", name: "Sunstar Hotel Spa Grindelwald" },
   { slug: "gw-schweizerhof", name: "Romantik Hotel Schweizerhof Grindelwald" },
+  { slug: "laax-casa-mulania", name: "Casa Mulania Laax" },
+  { slug: "laax-posta-veglia", name: "Hotel Posta Veglia Laax" },
+  { slug: "laax-segneshuette", name: "Segneshütte Flims" },
+  { slug: "laax-galaaxy", name: "GALAAXY mountainhostel Laax" },
+  { slug: "grachen-walliserhof", name: "Boutique Hotel Walliserhof Grächen" },
+  { slug: "grachen-desiree", name: "Family Hotel Desirée Grächen" },
+  { slug: "grachen-alpina", name: "B&B Hotel Alpina Grächen" },
 ];
 
 async function loadToken() {

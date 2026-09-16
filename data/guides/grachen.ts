@@ -137,6 +137,7 @@ export const grachen: DestinationGuide = {
     {
       slug: 'grachen-walliserhof',
       name: 'Boutique Hotel Walliserhof',
+      photo: '/photos/hotels/grachen-walliserhof.jpg',
       url: 'https://www.hotel-walliserhof.ch/',
       sector: { en: 'Dorfplatz', fr: 'Dorfplatz', de: 'Dorfplatz' },
       facts: [
@@ -170,6 +171,7 @@ export const grachen: DestinationGuide = {
     {
       slug: 'grachen-desiree',
       name: 'Family Hotel Desirée',
+      photo: '/photos/hotels/grachen-desiree.jpg',
       url: 'https://www.hoteldesiree.ch/?lang=en',
       sector: { en: 'Car-free village centre', fr: 'Centre du village sans voiture', de: 'Autofreies Dorfzentrum' },
       facts: [
@@ -186,6 +188,7 @@ export const grachen: DestinationGuide = {
     {
       slug: 'grachen-alpina',
       name: 'B&B Hotel Alpina Grächen',
+      photo: '/photos/hotels/grachen-alpina.jpg',
       url: 'https://hotelalpinagraechen.ch/',
       sector: { en: 'Car-free historic village', fr: 'Village historique sans voiture', de: 'Autofreies historisches Dorf' },
       facts: [

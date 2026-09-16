@@ -188,6 +188,7 @@ export const laax: DestinationGuide = {
     {
       slug: 'laax-casa-mulania',
       name: 'Casa Mulania',
+      photo: '/photos/hotels/laax-casa-mulania.jpg',
       url: 'https://www.rocksresort.com/en/',
       sector: { en: 'Laax Murschetg', fr: 'Laax Murschetg', de: 'Laax Murschetg' },
       facts: [
@@ -203,6 +204,7 @@ export const laax: DestinationGuide = {
     {
       slug: 'laax-posta-veglia',
       name: 'Hotel Posta Veglia',
+      photo: '/photos/hotels/laax-posta-veglia.jpg',
       url: 'https://postaveglialaax.ch/',
       sector: { en: 'Laax Dorf', fr: 'Laax Dorf', de: 'Laax Dorf' },
       facts: [
@@ -218,6 +220,7 @@ export const laax: DestinationGuide = {
     {
       slug: 'laax-segneshuette',
       name: 'Segneshütte',
+      photo: '/photos/hotels/laax-segneshuette.jpg',
       url: 'https://www.segneshuette.ch',
       sector: { en: 'Up the mountain', fr: 'En altitude', de: 'Oben am Berg' },
       facts: [
@@ -234,6 +237,7 @@ export const laax: DestinationGuide = {
     {
       slug: 'laax-galaaxy',
       name: 'GALAAXY mountainhostel',
+      photo: '/photos/hotels/laax-galaaxy.jpg',
       url: 'https://www.galaaxylaax.com',
       sector: { en: 'Up the mountain', fr: 'En altitude', de: 'Oben am Berg' },
       facts: [
