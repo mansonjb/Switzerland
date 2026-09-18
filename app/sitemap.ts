@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/', priority: 1 },
     ...publishedRegions().map((r) => ({ path: `/regions/${r.slug}`, lastModified: r.updated, priority: 0.9 })),
     ...publishedGuides().map((g) => ({ path: `/${g.slug}`, lastModified: g.updated, priority: 0.9 })),
+    { path: '/car-rental', priority: 0.5 },
     { path: '/about', priority: 0.3 },
   ]
   return entries.flatMap((e) =>

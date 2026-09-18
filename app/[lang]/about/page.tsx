@@ -27,7 +27,7 @@ const body: Record<Locale, React.JSX.Element> = {
       <H2>How destinations and hotels are chosen</H2>
       <P>A destination is added when it has a real choice of base to explain and enough verifiable information to fill a useful page. Hotels are picked to cover each area of the village, not for commercial reasons. No hotel pays to appear.</P>
       <H2 id="affiliate">Affiliate links and funding</H2>
-      <P>The guide is funded by affiliate links. When you click an availability button or use the map and then book, the booking platform may pay us a commission through our partner Stay22. You pay the same price. These links are marked as sponsored in the page code and flagged next to the hotel list on every destination page.</P>
+      <P>The guide is funded by affiliate links. When you click an availability button or use the map and then book, the booking platform may pay us a commission through our partner Stay22. You pay the same price. These links are marked as sponsored in the page code and flagged next to the hotel list on every destination page. The car rental search form works the same way, through GetRentacar and Travelpayouts.</P>
       <H2>Independence</H2>
       <P>Stays in Switzerland is an independent guide. It is not affiliated with the Swiss Confederation, any canton or commune, Switzerland Tourism, or any transport operator. Place names and product names such as Swiss Travel Pass are used only to describe them.</P>
       <H2>Corrections</H2>
@@ -44,7 +44,7 @@ const body: Record<Locale, React.JSX.Element> = {
       <H2>Comment destinations et hôtels sont choisis</H2>
       <P>Une destination entre dans le guide quand elle pose un vrai choix de base à expliquer, avec assez d&apos;informations vérifiables pour une page utile. Les hôtels sont choisis pour couvrir chaque secteur du village, pas pour des raisons commerciales. Aucun hôtel ne paie pour apparaître.</P>
       <H2 id="affiliate">Liens affiliés et financement</H2>
-      <P>Le guide est financé par des liens d&apos;affiliation. Si vous cliquez sur un bouton de disponibilités ou utilisez la carte puis réservez, la plateforme de réservation peut nous verser une commission via notre partenaire Stay22. Vous payez le même prix. Ces liens sont marqués comme sponsorisés dans le code de la page et signalés à côté de la liste d&apos;hôtels de chaque page destination.</P>
+      <P>Le guide est financé par des liens d&apos;affiliation. Si vous cliquez sur un bouton de disponibilités ou utilisez la carte puis réservez, la plateforme de réservation peut nous verser une commission via notre partenaire Stay22. Vous payez le même prix. Ces liens sont marqués comme sponsorisés dans le code de la page et signalés à côté de la liste d&apos;hôtels de chaque page destination. Le formulaire de location de voiture fonctionne de la même façon, via GetRentacar et Travelpayouts.</P>
       <H2>Indépendance</H2>
       <P>Stays in Switzerland est un guide indépendant, sans lien avec la Confédération suisse, les cantons ou communes, Suisse Tourisme ou les entreprises de transport. Les noms de lieux et de produits comme Swiss Travel Pass sont utilisés uniquement pour les désigner.</P>
       <H2>Corrections</H2>
@@ -61,7 +61,7 @@ const body: Record<Locale, React.JSX.Element> = {
       <H2>Wie Reiseziele und Hotels ausgewählt werden</H2>
       <P>Ein Reiseziel kommt dazu, wenn es eine echte Standortwahl zu erklären gibt und genug überprüfbare Informationen für eine nützliche Seite vorliegen. Hotels werden so gewählt, dass sie jeden Ortsteil abdecken, nicht aus kommerziellen Gründen. Kein Hotel bezahlt für seine Nennung.</P>
       <H2 id="affiliate">Affiliate-Links und Finanzierung</H2>
-      <P>Der Reiseführer finanziert sich über Affiliate-Links. Wenn Sie auf eine Verfügbarkeits-Schaltfläche klicken oder die Karte nutzen und danach buchen, kann uns die Buchungsplattform über unseren Partner Stay22 eine Provision zahlen. Ihr Preis bleibt gleich. Diese Links sind im Seitencode als gesponsert markiert und auf jeder Reiseziel-Seite bei der Hotelliste gekennzeichnet.</P>
+      <P>Der Reiseführer finanziert sich über Affiliate-Links. Wenn Sie auf eine Verfügbarkeits-Schaltfläche klicken oder die Karte nutzen und danach buchen, kann uns die Buchungsplattform über unseren Partner Stay22 eine Provision zahlen. Ihr Preis bleibt gleich. Diese Links sind im Seitencode als gesponsert markiert und auf jeder Reiseziel-Seite bei der Hotelliste gekennzeichnet. Das Suchformular für Mietwagen funktioniert gleich, über GetRentacar und Travelpayouts.</P>
       <H2>Unabhängigkeit</H2>
       <P>Stays in Switzerland ist ein unabhängiger Reiseführer, ohne Verbindung zur Schweizerischen Eidgenossenschaft, zu Kantonen oder Gemeinden, zu Schweiz Tourismus oder zu Transportunternehmen. Orts- und Produktnamen wie Swiss Travel Pass werden nur zur Bezeichnung verwendet.</P>
       <H2>Korrekturen</H2>
