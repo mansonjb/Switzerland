@@ -179,6 +179,36 @@ export const schaffhausen: DestinationGuide = {
         de: 'Die Jugendherberge Schaffhausen ist in einem ehemaligen Schloss mit roten Fensterläden an der Randenstrasse 65 untergebracht, nahe Rhein und Rheinfall. Sie ist ibex fairstay Gold zertifiziert, mit einem Garten, der einen Spielplatz und eine Cheminée hat.',
       },
     },
+    {
+      slug: 'schaffhausen-rueden',
+      name: 'Hotel Rüden',
+      url: 'https://www.tmh.swiss/rueden/',
+      sector: { en: 'Old Town, Kirchhofplatz', fr: 'Vieille ville, Kirchhofplatz', de: 'Altstadt, Kirchhofplatz' },
+      facts: [
+        { en: 'Oberstadt 20, in the historic old town, near Schaffhausen station', fr: 'Oberstadt 20, dans la vieille ville historique, près de la gare de Schaffhouse', de: 'Oberstadt 20, in der historischen Altstadt, nahe dem Bahnhof Schaffhausen' },
+        { en: 'Self check-in around the clock, paid parking nearby', fr: 'Enregistrement autonome 24 h sur 24, parkings payants à proximité', de: 'Self-Check-in rund um die Uhr, kostenpflichtige Parkplätze in der Nähe' },
+      ],
+      blurb: {
+        en: 'The Rüden sits at Oberstadt 20, inside the historic old town and still within reach of the station on foot. Check-in is self-service around the clock, which suits a late arrival by train, and the hotel points guests to restaurants in the surrounding streets rather than running its own. Parking is paid and off site, so it reads best as an old-town base for people arriving by rail.',
+        fr: 'Le Rüden occupe le 20 de l’Oberstadt, dans la vieille ville historique et à portée de marche de la gare. L’enregistrement se fait en autonomie 24 h sur 24, pratique pour une arrivée tardive en train, et l’hôtel renvoie vers les restaurants des rues voisines plutôt que d’en tenir un. Le stationnement est payant et à l’extérieur : c’est donc surtout une base de vieille ville pour qui arrive par le rail.',
+        de: 'Der Rüden liegt an der Oberstadt 20, in der historischen Altstadt und zu Fuss vom Bahnhof aus erreichbar. Eingecheckt wird rund um die Uhr im Self-Service, was für eine späte Ankunft mit dem Zug passt, und das Haus verweist auf Restaurants in den umliegenden Gassen, statt ein eigenes zu führen. Parkplätze sind kostenpflichtig und ausserhalb, es ist also vor allem ein Altstadt-Standort für Bahnreisende.',
+      },
+    },
+    {
+      slug: 'schaffhausen-zur-bleiche',
+      name: 'Vienna House by Wyndham zur Bleiche Schaffhausen',
+      url: 'https://www.wyndhamhotels.com/vienna-house/schaffhausen-switzerland/vienna-house-zur-bleiche-schaffhausen/overview',
+      sector: { en: 'Station side and Zur Bleiche', fr: 'Côté gare et Zur Bleiche', de: 'Bahnhofseite und Zur Bleiche' },
+      facts: [
+        { en: '130 rooms and suites, just outside the old town and steps from the station', fr: '130 chambres et suites, juste à l’extérieur de la vieille ville et à deux pas de la gare', de: '130 Zimmer und Suiten, direkt ausserhalb der Altstadt und wenige Schritte vom Bahnhof' },
+        { en: 'Bull & Bonito restaurant, lobby bar, underground paid parking and two EV charging points', fr: 'Restaurant Bull & Bonito, bar du lobby, parking souterrain payant et deux bornes de recharge', de: 'Restaurant Bull & Bonito, Lobbybar, kostenpflichtiges Parkhaus und zwei Ladestationen' },
+      ],
+      blurb: {
+        en: 'The largest house in this selection, with 130 rooms just outside the old town and a few steps from the station. It has its own restaurant, the Bull & Bonito, a lobby bar and underground parking with two charging points, which makes it the straightforward answer for arriving by car or with luggage. The trade-off is scale: this is a chain hotel on the edge of the old streets rather than inside them.',
+        fr: 'La plus grande adresse de cette sélection, avec 130 chambres juste à l’extérieur de la vieille ville et à quelques pas de la gare. Elle a son propre restaurant, le Bull & Bonito, un bar de lobby et un parking souterrain avec deux bornes de recharge, ce qui en fait la réponse simple quand on arrive en voiture ou chargé de bagages. La contrepartie est l’échelle : un hôtel de chaîne en bordure des vieilles rues plutôt qu’au milieu.',
+        de: 'Das grösste Haus dieser Auswahl, mit 130 Zimmern direkt ausserhalb der Altstadt und wenige Schritte vom Bahnhof. Es hat ein eigenes Restaurant, das Bull & Bonito, eine Lobbybar und ein Parkhaus mit zwei Ladestationen, und ist damit die einfache Antwort bei Anreise mit dem Auto oder viel Gepäck. Der Preis dafür ist die Grösse: ein Kettenhotel am Rand der alten Gassen statt mittendrin.',
+      },
+    },
   ],
   hotelsNote: {
     en: 'Facts come from each hotel’s own website, read on 16 September 2026. Two more addresses, Vienna House by Wyndham Zur Bleiche Schaffhausen and Hotel & Restaurant Promenade, and Hotel Rüden in the old town, are named by the Schaffhauserland Tourismus accommodation directory but did not have a first-party website to confirm this round, so they are not listed as bookable entries here. No ratings or reviews on this guide.',

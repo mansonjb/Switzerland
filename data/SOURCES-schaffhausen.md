@@ -32,3 +32,7 @@ Number formats used across EN/FR/DE on the page (same facts as above, restated f
 - Hotel Rüden's and Vienna House Zur Bleiche's own first-party websites, exact addresses and room counts: named in the sectors text as tourist-office listings only, not included in the `hotels` array, which is limited to the three addresses (Kronenhof, Park Villa, Youth Hostel) with a confirmed first-party website.
 - Hotel & Restaurant Promenade's own first-party website: same treatment as above.
 - An exact walking distance or time between the old town and the Rhine Falls (only the two circular trails around the falls themselves were confirmed).
+
+## Added by the maintainer, 20 September 2026
+- Hotel Rüden, Oberstadt 20, 8200 Schaffhausen, in the historic old town, near the station, 24/7 self check-in, paid parking nearby | VERIFIED | https://www.tmh.swiss/rueden/
+- Vienna House by Wyndham zur Bleiche, 130 rooms and suites, just outside the old town and steps from the station, Bull & Bonito restaurant, lobby bar, underground paid parking, two EV charging stations | VERIFIED | https://www.wyndhamhotels.com/vienna-house/schaffhausen-switzerland/vienna-house-zur-bleiche-schaffhausen/overview
