@@ -44,7 +44,7 @@ export function DestinationCard({ dest, locale, live, priority = false }: { dest
   )
 }
 
-type Filter = 'all' | 'car-free' | RegionKey
+type Filter = 'all' | 'live' | 'car-free' | RegionKey
 
 /** The stamp sheet with filter chips (all, car-free, by region). */
 export function Sheet({ destinations, liveSlugs, locale, cols = 'md:grid-cols-3' }: { destinations: Destination[]; liveSlugs: string[]; locale: Locale; cols?: string }) {
@@ -53,11 +53,12 @@ export function Sheet({ destinations, liveSlugs, locale, cols = 'md:grid-cols-3'
   const regions = [...new Set(destinations.map((x) => x.region))]
   const chips: { key: Filter; label: string; count: number }[] = [
     { key: 'all', label: d.sell.all, count: destinations.length },
+    { key: 'live', label: d.sell.liveFilter, count: liveSlugs.length },
     { key: 'car-free', label: d.sell.carFreeFilter, count: destinations.filter((x) => x.carFree).length },
     ...regions.map((r) => ({ key: r as Filter, label: t(regionNames[r], locale), count: destinations.filter((x) => x.region === r).length })),
   ]
   const shown = destinations
-    .filter((x) => filter === 'all' || (filter === 'car-free' ? x.carFree : x.region === filter))
+    .filter((x) => filter === 'all' || (filter === 'live' ? liveSlugs.includes(x.slug) : filter === 'car-free' ? x.carFree : x.region === filter))
     .sort((a, b) => Number(liveSlugs.includes(b.slug)) - Number(liveSlugs.includes(a.slug)))
 
   return (

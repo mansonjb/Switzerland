@@ -10,7 +10,11 @@ import { home } from '@/data/home'
 import { getHotelPrice } from '@/data/prices'
 
 // One hotel per price level on the home page
-const FEATURED_HOTELS = ['hotel-victoria-lauberhorn', 'braunbar-hotel-spa', 'hotel-silberhorn', 'hotel-schonegg']
+/** The featured guide rotates: each build picks the next published guide, so the home page does not
+ *  always sell the same village. Deterministic within a build, so the static page stays stable. */
+function featuredSlug(slugs: string[]) {
+  return slugs[Math.floor(Date.now() / 86_400_000) % slugs.length]
+}
 import { Footer, Header } from '@/components/chrome'
 import { BookingPanel, Container, CtaBand, Faq, JsonLd, PhotoHero, Section, Stats } from '@/components/blocks'
 import { HotelButton, LiveMap, PlaceButton, StayFinder, StickyBookingBar } from '@/components/booking'
@@ -45,7 +49,12 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
   const liveSlugs = publishedGuides().map((g) => g.slug)
   const wengen = getGuide('wengen')!
   const wengenDest = getDestination('wengen')!
-  const wengenName = T(wengenDest.name)
+  const featSlug = featuredSlug(liveSlugs)
+  const feat = getGuide(featSlug)!
+  const featDest = getDestination(featSlug)!
+  const featName = T(featDest.name)
+  // Three hotels of the featured guide that have both a photo and a collected price.
+  const featHotels = feat.hotels.filter((h) => h.photo && getHotelPrice(featSlug, h.slug)?.all).slice(0, 3)
   // Published guides first: the button opens their hotel list. Others scroll to the live map.
   const places = [...destinations]
     .sort((a, b) => Number(hasGuide(b.slug)) - Number(hasGuide(a.slug)))
@@ -114,36 +123,36 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
         </Section>
 
         {/* 4. Featured guide with its hotels */}
-        <Section title={d.sell.featured} aside={<Link href={localePath(lang, '/wengen')} className="text-[15px] font-medium text-lake no-underline hover:text-lake-dark">{d.sell.readGuide} →</Link>}>
+        <Section title={d.sell.featured} aside={<Link href={localePath(lang, `/${featSlug}`)} className="text-[15px] font-medium text-lake no-underline hover:text-lake-dark">{d.sell.readGuide} →</Link>}>
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.1fr_1fr] lg:gap-12">
-            <Link href={localePath(lang, '/wengen')} className="group relative block aspect-[4/3] overflow-hidden rounded-3xl bg-ink no-underline lg:aspect-auto">
-              <Image src={wengen.hero.photo} alt={T(wengen.hero.caption)} fill sizes="(min-width:1024px) 640px, 100vw" className="object-cover opacity-90 transition-transform duration-700 group-hover:scale-[1.03]" />
+            <Link href={localePath(lang, `/${featSlug}`)} className="group relative block aspect-[4/3] overflow-hidden rounded-3xl bg-ink no-underline lg:aspect-auto">
+              <Image src={feat.hero.photo} alt={T(feat.hero.caption)} fill sizes="(min-width:1024px) 640px, 100vw" className="object-cover opacity-90 transition-transform duration-700 group-hover:scale-[1.03]" />
               <div className="absolute bottom-4 left-4 w-[120px] md:w-[150px]">
-                <Stamp name={wengenName} subtitle={T(regionNames[wengenDest.region])} altitude={wengenDest.altitude} art={wengen.stamp} />
+                <Stamp name={featName} subtitle={T(regionNames[featDest.region])} altitude={featDest.altitude} art={feat.stamp} />
               </div>
             </Link>
             <div className="flex min-w-0 flex-col">
-              <h3 className="m-0 font-display text-[36px] font-bold uppercase leading-none text-ink md:text-[48px]">{T(wengen.title)}</h3>
-              <p className="mb-0 mt-4 text-lg leading-normal text-ink">{T(wengen.quickAnswer)}</p>
+              <h3 className="m-0 font-display text-[36px] font-bold uppercase leading-none text-ink md:text-[48px]">{T(feat.title)}</h3>
+              <p className="mb-0 mt-4 text-lg leading-normal text-ink">{T(feat.quickAnswer)}</p>
               <ul className="m-0 mt-6 flex list-none flex-col p-0">
-                {wengen.hotels.filter((h) => FEATURED_HOTELS.includes(h.slug)).map((h) => (
+                {featHotels.map((h) => (
                   <li key={h.name} className="flex items-center gap-3 border-t border-rule py-3 md:gap-4">
                     <div className="hatch relative h-12 w-16 shrink-0 overflow-hidden rounded-xl md:h-14 md:w-20">
                       {h.photo && <Image src={h.photo} alt={h.name} fill sizes="80px" className="object-cover" />}
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="truncate font-bold text-ink">{h.name}</div>
-                      <div className="truncate text-[13px] text-muted">{T(h.sector)}{getHotelPrice('wengen', h.slug)?.all ? ` · ${d.sell.hotels.from} CHF ${getHotelPrice('wengen', h.slug)!.all!.from}` : ''}</div>
+                      <div className="truncate text-[13px] text-muted">{T(h.sector)}{getHotelPrice(featSlug, h.slug)?.all ? ` · ${d.sell.hotels.from} CHF ${getHotelPrice(featSlug, h.slug)!.all!.from}` : ''}</div>
                     </div>
                     <div className="w-[108px] shrink-0 md:w-[130px]">
-                      <HotelButton hotel={h.name} place={wengenName} label={d.sell.checkPrices} primary={false} geo={{ lang, lat: wengenDest.lat, lng: wengenDest.lng }} />
+                      <HotelButton hotel={h.name} place={featName} label={d.sell.checkPrices} primary={false} geo={{ lang, lat: featDest.lat, lng: featDest.lng }} />
                     </div>
                   </li>
                 ))}
               </ul>
               <div className="mt-5 flex flex-wrap gap-3">
-                <PlaceButton place={wengenName} placement="home-featured" label={fill(d.sell.seeAll, { place: wengenName })} geo={{ lang, lat: wengenDest.lat, lng: wengenDest.lng }} />
-                <OutlineLink href={localePath(lang, '/wengen')}>{d.sell.readGuide}</OutlineLink>
+                <PlaceButton place={featName} placement="home-featured" label={fill(d.sell.seeAll, { place: featName })} geo={{ lang, lat: featDest.lat, lng: featDest.lng }} />
+                <OutlineLink href={localePath(lang, `/${featSlug}`)}>{d.sell.readGuide}</OutlineLink>
               </div>
             </div>
           </div>

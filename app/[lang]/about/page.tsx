@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { hasLocale, languageAlternates, localePath, t, type Locale } from '@/lib/i18n'
+import { SITE_NAME } from '@/lib/site'
 import { H2, P, ProsePage } from '@/components/prose'
 
 const title = { en: 'Methodology', fr: 'Méthodologie', de: 'Methodik' }
@@ -13,7 +14,12 @@ const description = {
 export async function generateMetadata({ params }: PageProps<'/[lang]/about'>): Promise<Metadata> {
   const { lang } = await params
   if (!hasLocale(lang)) return {}
-  return { title: t(title, lang), description: t(description, lang), alternates: { canonical: localePath(lang, '/about'), languages: languageAlternates('/about') } }
+  return {
+    title: t(title, lang),
+    description: t(description, lang),
+    alternates: { canonical: localePath(lang, '/about'), languages: languageAlternates('/about') },
+    openGraph: { title: t(title, lang), description: t(description, lang), url: localePath(lang, '/about'), siteName: SITE_NAME, type: 'article', images: ['/photos/lucerne.jpg'] },
+  }
 }
 
 const body: Record<Locale, React.JSX.Element> = {

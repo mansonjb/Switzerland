@@ -48,6 +48,12 @@ const candidatesArg = (() => {
   const i = argv.indexOf("--candidates");
   return i >= 0 && argv[i + 1] ? parseInt(argv[i + 1], 10) : null;
 })();
+/** --list <file.json>: [[guideSlug, hotelSlug, hotelName, placeName], ...], so the hotels to shoot
+ *  can be computed from the guides instead of being hardcoded below. */
+const listArg = (() => {
+  const i = argv.indexOf("--list");
+  return i >= 0 && argv[i + 1] ? argv[i + 1] : null;
+})();
 const finalizeArg = (() => {
   const i = argv.indexOf("--finalize");
   return i >= 0 && argv[i + 1] && argv[i + 2] ? { slug: argv[i + 1], index: parseInt(argv[i + 2], 10) } : null;
@@ -169,10 +175,15 @@ async function main() {
   const token = await loadToken();
 
   let work = HOTELS;
-  if (filterArg) work = HOTELS.filter((h) => filterArg.includes(h.slug));
+  if (listArg) {
+    const rows = JSON.parse(await readFile(listArg, "utf-8"));
+    work = rows.map(([, hotelSlug, name, place]) => ({ slug: hotelSlug, name: `${name}, ${place}` }));
+  }
+  if (filterArg) work = work.filter((h) => filterArg.includes(h.slug));
 
   if (candidatesArg) {
     await mkdir(CANDIDATES_DIR, { recursive: true });
+    const matches = [];
     for (const hotel of work) {
       const searchString = `${hotel.name}, Switzerland`;
       console.log(`\n${hotel.slug}: searching "${searchString}"`);
@@ -192,6 +203,7 @@ async function main() {
       const pool = [best.imageUrl, ...best.imageUrls].filter(Boolean);
       const unique = [...new Set(pool)].slice(0, candidatesArg);
       console.log(`  best match: "${best.name}" (${best.address}) — downloading ${unique.length} candidate photo(s)`);
+      matches.push({ slug: hotel.slug, searched: hotel.name, matched: best.name, address: best.address });
       for (let i = 0; i < unique.length; i++) {
         const outPath = path.join(CANDIDATES_DIR, `${hotel.slug}-${i + 1}.jpg`);
         try {
@@ -203,6 +215,7 @@ async function main() {
       }
       await new Promise((r) => setTimeout(r, 200));
     }
+    await writeFile(path.join(CANDIDATES_DIR, "matches.json"), JSON.stringify(matches, null, 2));
     console.log("\nDone. Review candidates in scripts/photo-candidates/, then run --finalize <slug> <index>.");
     return;
   }

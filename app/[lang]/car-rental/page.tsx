@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { hasLocale, languageAlternates, localePath, t, type L } from '@/lib/i18n'
-import { SITE_URL } from '@/lib/site'
+import { SITE_NAME, SITE_URL } from '@/lib/site'
 import { H2, P, ProsePage } from '@/components/prose'
 import { Faq, JsonLd } from '@/components/blocks'
 import { CarWidget } from '@/components/car-widget'
@@ -19,7 +19,12 @@ const description = {
 export async function generateMetadata({ params }: PageProps<'/[lang]/car-rental'>): Promise<Metadata> {
   const { lang } = await params
   if (!hasLocale(lang)) return {}
-  return { title: t(title, lang), description: t(description, lang), alternates: { canonical: localePath(lang, '/car-rental'), languages: languageAlternates('/car-rental') } }
+  return {
+    title: t(title, lang),
+    description: t(description, lang),
+    alternates: { canonical: localePath(lang, '/car-rental'), languages: languageAlternates('/car-rental') },
+    openGraph: { title: t(title, lang), description: t(description, lang), url: localePath(lang, '/car-rental'), siteName: SITE_NAME, type: 'article', images: ['/photos/andermatt.jpg'] },
+  }
 }
 
 export default async function CarRental({ params }: PageProps<'/[lang]/car-rental'>) {

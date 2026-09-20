@@ -3,13 +3,16 @@ import { LOCALES, localePath } from '@/lib/i18n'
 import { SITE_URL } from '@/lib/site'
 import { publishedGuides, publishedRegions } from '@/data'
 
+/** Build date: these two pages change with the destination list they link to. */
+const TODAY = new Date().toISOString().slice(0, 10)
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: { path: string; lastModified?: string; priority: number }[] = [
-    { path: '/', priority: 1 },
+    { path: '/', lastModified: TODAY, priority: 1 },
     ...publishedRegions().map((r) => ({ path: `/regions/${r.slug}`, lastModified: r.updated, priority: 0.9 })),
     ...publishedGuides().map((g) => ({ path: `/${g.slug}`, lastModified: g.updated, priority: 0.9 })),
-    { path: '/car-rental', priority: 0.5 },
-    { path: '/about', priority: 0.3 },
+    { path: '/car-rental', lastModified: TODAY, priority: 0.5 },
+    { path: '/about', lastModified: TODAY, priority: 0.3 },
   ]
   return entries.flatMap((e) =>
     LOCALES.map((l) => ({
