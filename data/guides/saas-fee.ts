@@ -154,6 +154,7 @@ export const saasFee: DestinationGuide = {
     {
       slug: 'saas-fee-waldhotel-fletschhorn',
       name: 'Waldhotel Fletschhorn',
+      photo: '/photos/hotels/saas-fee-waldhotel-fletschhorn.jpg',
       url: 'https://www.fletschhorn.ch/',
       sector: { en: 'Wildistrasse and the upper edge', fr: 'Wildistrasse et le versant supérieur', de: 'Wildistrasse und der obere Rand' },
       facts: [
@@ -187,6 +188,7 @@ export const saasFee: DestinationGuide = {
     {
       slug: 'saas-fee-saaserhof',
       name: 'Saaserhof',
+      photo: '/photos/hotels/saas-fee-saaserhof.jpg',
       url: 'https://www.saaserhof.ch/',
       sector: { en: 'Panoramastrasse and the lift side', fr: 'Panoramastrasse et le côté remontées', de: 'Panoramastrasse und die Bahnseite' },
       facts: [
@@ -237,6 +239,7 @@ export const saasFee: DestinationGuide = {
     {
       slug: 'saas-fee-dom-hotel',
       name: 'The Dom Hotel Saas-Fee',
+      photo: '/photos/hotels/saas-fee-dom-hotel.jpg',
       url: 'https://thedomhotel-saasfee.com/?lang=en',
       sector: { en: 'Dorfplatz and the centre', fr: 'Dorfplatz et le centre', de: 'Dorfplatz und Zentrum' },
       facts: [
@@ -253,6 +256,7 @@ export const saasFee: DestinationGuide = {
     {
       slug: 'saas-fee-bristol',
       name: 'Hotel Bristol',
+      photo: '/photos/hotels/saas-fee-bristol.jpg',
       url: 'https://www.hotel-bristol-saas-fee.ch/',
       sector: { en: 'Panoramastrasse and the lift side', fr: 'Panoramastrasse et le côté remontées', de: 'Panoramastrasse und die Bahnseite' },
       facts: [

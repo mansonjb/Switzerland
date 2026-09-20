@@ -201,6 +201,7 @@ export const locarno: DestinationGuide = {
     {
       slug: 'locarno-muralto',
       name: 'Hotel Muralto',
+      photo: '/photos/hotels/locarno-muralto.jpg',
       url: 'https://www.hotelmuralto.ch/',
       sector: { en: 'Muralto, by the station', fr: 'Muralto, près de la gare', de: 'Muralto, beim Bahnhof' },
       facts: [
@@ -232,6 +233,7 @@ export const locarno: DestinationGuide = {
     {
       slug: 'locarno-remorino',
       name: 'Boutique-Hotel Remorino',
+      photo: '/photos/hotels/locarno-remorino.jpg',
       url: 'https://www.remorino.ch/en',
       sector: { en: 'Minusio, east of Muralto', fr: 'Minusio, à l’est de Muralto', de: 'Minusio, östlich von Muralto' },
       facts: [

@@ -137,6 +137,7 @@ export const gstaad: DestinationGuide = {
     {
       slug: 'gstaad-palace',
       name: 'Gstaad Palace',
+      photo: '/photos/hotels/gstaad-palace.jpg',
       url: 'https://www.palace.ch/en/',
       sector: { en: 'Above the village', fr: 'Au-dessus du village', de: 'Oberhalb des Dorfes' },
       facts: [
@@ -169,6 +170,7 @@ export const gstaad: DestinationGuide = {
     {
       slug: 'gstaad-hotel-olden',
       name: 'Hotel Olden',
+      photo: '/photos/hotels/gstaad-hotel-olden.jpg',
       url: 'https://www.hotelolden.com/en/',
       sector: { en: 'The Promenade', fr: 'La Promenade', de: 'Die Promenade' },
       facts: [

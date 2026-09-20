@@ -202,6 +202,7 @@ export const meiringen: DestinationGuide = {
     {
       slug: 'meiringen-rosenlaui',
       name: 'Hotel Rosenlaui',
+      photo: '/photos/hotels/meiringen-rosenlaui.jpg',
       url: 'https://www.rosenlaui.ch/',
       sector: { en: 'Rosenlaui, on the Grosse Scheidegg road', fr: 'Rosenlaui, sur la route du Grosse Scheidegg', de: 'Rosenlaui, an der Grosse-Scheidegg-Strasse' },
       facts: [
@@ -218,6 +219,7 @@ export const meiringen: DestinationGuide = {
     {
       slug: 'meiringen-schwarzwaldalp',
       name: 'Chalet-Hotel Schwarzwaldalp',
+      photo: '/photos/hotels/meiringen-schwarzwaldalp.jpg',
       url: 'https://www.schwarzwaldalp.ch/',
       sector: { en: 'Schwarzwaldalp, on the same road', fr: 'Schwarzwaldalp, sur la même route', de: 'Schwarzwaldalp, an derselben Strasse' },
       facts: [

@@ -222,6 +222,7 @@ export const kandersteg: DestinationGuide = {
     {
       slug: 'kandersteg-hotel-des-alpes',
       name: 'Hotel des Alpes',
+      photo: '/photos/hotels/kandersteg-hotel-des-alpes.jpg',
       url: 'https://desalpes-kandersteg.ch/',
       sector: { en: 'Innere Dorfstrasse, station side', fr: 'Innere Dorfstrasse, côté gare', de: 'Innere Dorfstrasse, Bahnhofseite' },
       facts: [
@@ -238,6 +239,7 @@ export const kandersteg: DestinationGuide = {
     {
       slug: 'kandersteg-blausee-hotel',
       name: 'Blausee Hotel',
+      photo: '/photos/hotels/kandersteg-blausee-hotel.jpg',
       url: 'https://www.blausee.ch/en/',
       sector: { en: 'Kandertal, down the valley from the village', fr: 'Kandertal, en aval du village', de: 'Kandertal, talabwärts vom Dorf' },
       facts: [

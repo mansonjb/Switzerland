@@ -154,6 +154,7 @@ export const lenzerheide: DestinationGuide = {
     {
       slug: 'lenzerheide-guarda-val',
       name: 'GUARDA VAL Maiensäss-Hotel',
+      photo: '/photos/hotels/lenzerheide-guarda-val.jpg',
       url: 'https://www.guardaval.ch/en/',
       sector: { en: 'Sporz', fr: 'Sporz', de: 'Sporz' },
       facts: [
@@ -218,6 +219,7 @@ export const lenzerheide: DestinationGuide = {
     {
       slug: 'lenzerheide-valbella-resort',
       name: 'Valbella Resort',
+      photo: '/photos/hotels/lenzerheide-valbella-resort.jpg',
       url: 'https://www.valbellaresort.ch/en/',
       sector: { en: 'The Heidsee and Valbella', fr: 'Le Heidsee et Valbella', de: 'Der Heidsee und Valbella' },
       facts: [

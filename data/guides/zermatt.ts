@@ -137,6 +137,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-zermatterhof',
       name: 'Grand Hotel Zermatterhof',
+      photo: '/photos/hotels/zermatt-zermatterhof.jpg',
       url: 'https://www.zermatterhof.ch/',
       sector: { en: 'Bahnhofstrasse and the station', fr: 'La Bahnhofstrasse et la gare', de: 'Bahnhofstrasse und der Bahnhof' },
       facts: [
@@ -220,6 +221,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-alpine-hotel-perren',
       name: 'Alpine Hotel Perren',
+      photo: '/photos/hotels/zermatt-alpine-hotel-perren.jpg',
       url: 'https://www.hotel-perren.ch/',
       sector: { en: 'Near the Sunnegga funicular', fr: 'Près du funiculaire de Sunnegga', de: 'Bei der Sunnegga-Standseilbahn' },
       facts: [
@@ -270,6 +272,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-cervo',
       name: 'CERVO Mountain Resort',
+      photo: '/photos/hotels/zermatt-cervo.jpg',
       url: 'https://cervo.swiss/',
       sector: { en: 'At the foot of the piste, Sunnegga side', fr: 'Au pied des pistes, côté Sunnegga', de: 'Am Pistenrand, Sunnegga-Seite' },
       facts: [
@@ -286,6 +289,7 @@ export const zermatt: DestinationGuide = {
     {
       slug: 'zermatt-riffelalp-resort',
       name: 'Riffelalp Resort 2222m',
+      photo: '/photos/hotels/zermatt-riffelalp-resort.jpg',
       url: 'https://www.riffelalp.com/',
       sector: { en: 'On the Gornergrat line, above the village', fr: 'Sur la ligne du Gornergrat, au-dessus du village', de: 'An der Gornergratbahn, oberhalb des Dorfes' },
       facts: [

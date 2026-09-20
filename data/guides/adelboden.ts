@@ -154,6 +154,7 @@ export const adelboden: DestinationGuide = {
     {
       slug: 'adelboden-the-brecon',
       name: 'The Brecon',
+      photo: '/photos/hotels/adelboden-the-brecon.jpg',
       url: 'https://thebrecon.com/en/',
       sector: { en: 'Dorfstrasse', fr: 'La Dorfstrasse', de: 'Die Dorfstrasse' },
       facts: [
@@ -170,6 +171,7 @@ export const adelboden: DestinationGuide = {
     {
       slug: 'adelboden-adler',
       name: 'Adler Adelboden',
+      photo: '/photos/hotels/adelboden-adler.jpg',
       url: 'https://www.adleradelboden.ch/',
       sector: { en: 'Dorfstrasse', fr: 'La Dorfstrasse', de: 'Die Dorfstrasse' },
       facts: [
@@ -186,6 +188,7 @@ export const adelboden: DestinationGuide = {
     {
       slug: 'adelboden-baren',
       name: 'Hotel Bären',
+      photo: '/photos/hotels/adelboden-baren.jpg',
       url: 'https://www.baeren-adelboden.ch/',
       sector: { en: 'Dorfstrasse', fr: 'La Dorfstrasse', de: 'Die Dorfstrasse' },
       facts: [

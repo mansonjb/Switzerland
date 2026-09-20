@@ -137,6 +137,7 @@ export const ascona: DestinationGuide = {
     {
       slug: 'ascona-castello-del-sole',
       name: 'Castello del Sole Beach Resort & SPA',
+      photo: '/photos/hotels/ascona-castello-del-sole.jpg',
       url: 'https://www.castellodelsole.com/en/',
       sector: { en: 'Lakefront, Ascona delta', fr: 'Front de lac, delta d’Ascona', de: 'Seeufer, Ascona-Delta' },
       facts: [
@@ -168,6 +169,7 @@ export const ascona: DestinationGuide = {
     {
       slug: 'ascona-castello-seeschloss',
       name: 'Romantik Hotel Castello Seeschloss',
+      photo: '/photos/hotels/ascona-castello-seeschloss.jpg',
       url: 'https://www.castello-seeschloss.ch/welcome/',
       sector: { en: 'Piazza, lakefront', fr: 'Piazza, front de lac', de: 'Piazza, Seeufer' },
       facts: [
@@ -199,6 +201,7 @@ export const ascona: DestinationGuide = {
     {
       slug: 'ascona-piazza',
       name: 'Hotel Piazza Ascona',
+      photo: '/photos/hotels/ascona-piazza.jpg',
       url: 'https://www.hotelpiazza.ch/en/',
       sector: { en: 'Piazza G. Motta 29', fr: 'Piazza G. Motta 29', de: 'Piazza G. Motta 29' },
       facts: [
@@ -214,6 +217,7 @@ export const ascona: DestinationGuide = {
     {
       slug: 'ascona-hotel-ascona',
       name: 'Hotel Ascona',
+      photo: '/photos/hotels/ascona-hotel-ascona.jpg',
       url: 'https://hotel-ascona.ch/en/',
       sector: { en: 'Above the town', fr: 'Au-dessus de la ville', de: 'Über der Stadt' },
       facts: [

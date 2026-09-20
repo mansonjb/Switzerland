@@ -171,6 +171,7 @@ export const engelberg: DestinationGuide = {
     {
       slug: 'engelberg-waldegg',
       name: 'Hotel Waldegg',
+      photo: '/photos/hotels/engelberg-waldegg.jpg',
       url: 'https://waldegg-engelberg.ch/',
       sector: { en: 'Slope above the village', fr: 'Versant au-dessus du village', de: 'Hang über dem Dorf' },
       facts: [

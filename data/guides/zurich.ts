@@ -137,6 +137,7 @@ export const zurich: DestinationGuide = {
     {
       slug: 'zh-baur-au-lac',
       name: 'Baur au Lac',
+      photo: '/photos/hotels/zh-baur-au-lac.jpg',
       url: 'https://www.bauraulac.ch/',
       sector: { en: 'Talstrasse, lake basin', fr: 'Talstrasse, bassin du lac', de: 'Talstrasse, Seebecken' },
       facts: [
@@ -216,6 +217,7 @@ export const zurich: DestinationGuide = {
     {
       slug: 'zh-b2-boutique',
       name: 'B2 Boutique Hotel + Spa',
+      photo: '/photos/hotels/zh-b2-boutique.jpg',
       url: 'https://www.b2hotel.ch/',
       sector: { en: 'Hürlimann Areal', fr: 'Site Hürlimann', de: 'Hürlimann-Areal' },
       facts: [
@@ -231,6 +233,7 @@ export const zurich: DestinationGuide = {
     {
       slug: 'zh-25hours-west',
       name: '25hours Hotel Zurich West',
+      photo: '/photos/hotels/zh-25hours-west.jpg',
       url: 'https://www.25hours-hotels.com/en/hotels/zurich/zurich-west',
       sector: { en: 'Pfingstweidstrasse, Zurich West', fr: 'Pfingstweidstrasse, Zurich West', de: 'Pfingstweidstrasse, Zürich West' },
       facts: [
@@ -246,6 +249,7 @@ export const zurich: DestinationGuide = {
     {
       slug: 'zh-youth-hostel',
       name: 'Zurich Youth Hostel',
+      photo: '/photos/hotels/zh-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/zurich-youth-hostel',
       sector: { en: 'Mutschellenstrasse, Wollishofen', fr: 'Mutschellenstrasse, Wollishofen', de: 'Mutschellenstrasse, Wollishofen' },
       facts: [

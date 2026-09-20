@@ -188,6 +188,7 @@ export const arosa: DestinationGuide = {
     {
       slug: 'arosa-hof-maran',
       name: 'Golf & Sports Hotel Hof Maran',
+      photo: '/photos/hotels/arosa-hof-maran.jpg',
       url: 'https://www.hofmaran.ch/en/',
       sector: { en: 'Maran and Prätschli', fr: 'Maran et Prätschli', de: 'Maran und Prätschli' },
       facts: [
@@ -204,6 +205,7 @@ export const arosa: DestinationGuide = {
     {
       slug: 'arosa-sunstar',
       name: 'Sunstar Hotel Arosa',
+      photo: '/photos/hotels/arosa-sunstar.jpg',
       url: 'https://arosa.sunstar.ch/en',
       sector: { en: 'Station and Obersee', fr: 'La gare et l’Obersee', de: 'Bahnhof und Obersee' },
       facts: [

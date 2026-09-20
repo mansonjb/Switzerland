@@ -170,6 +170,7 @@ export const andermatt: DestinationGuide = {
     {
       slug: 'andermatt-schwarzen-baeren',
       name: 'Hotel & Restaurant Zum Schwarzen Bären',
+      photo: '/photos/hotels/andermatt-schwarzen-baeren.jpg',
       url: 'https://www.baeren-andermatt.ch/',
       sector: { en: 'By the Gemsstock cable car', fr: 'Près du téléphérique du Gemsstock', de: 'Bei der Gemsstockbahn' },
       facts: [
@@ -202,6 +203,7 @@ export const andermatt: DestinationGuide = {
     {
       slug: 'andermatt-schluessel',
       name: 'Alpenhotel Schlüssel',
+      photo: '/photos/hotels/andermatt-schluessel.jpg',
       url: 'https://www.andermatt-sedrun-disentis.ch/andermatt/en/service-providers/alpenhotel-schluessel-5',
       sector: { en: 'Village centre', fr: 'Centre du village', de: 'Dorfzentrum' },
       facts: [

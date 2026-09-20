@@ -153,6 +153,7 @@ export const stGallen: DestinationGuide = {
     {
       slug: 'sg-dom',
       name: 'Hotel Dom',
+      photo: '/photos/hotels/sg-dom.jpg',
       url: 'https://hoteldom.ch/en/',
       sector: { en: 'Webergasse, monastery quarter', fr: 'Webergasse, quartier du couvent', de: 'Webergasse, Klosterquartier' },
       facts: [

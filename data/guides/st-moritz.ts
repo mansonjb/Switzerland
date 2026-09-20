@@ -137,6 +137,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-kulm',
       name: 'Kulm Hotel St. Moritz',
+      photo: '/photos/hotels/st-moritz-kulm.jpg',
       url: 'https://www.kulm.com/',
       sector: { en: 'St. Moritz Dorf', fr: 'St. Moritz Dorf', de: 'St. Moritz Dorf' },
       facts: [
@@ -170,6 +171,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-carlton',
       name: 'Carlton Hotel St. Moritz',
+      photo: '/photos/hotels/st-moritz-carlton.jpg',
       url: 'https://tschuggencollection.ch/en/hotel/carlton-hotel',
       sector: { en: 'St. Moritz Dorf', fr: 'St. Moritz Dorf', de: 'St. Moritz Dorf' },
       facts: [
@@ -237,6 +239,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-waldhaus-am-see',
       name: 'Hotel Waldhaus am See',
+      photo: '/photos/hotels/st-moritz-waldhaus-am-see.jpg',
       url: 'https://www.waldhaus-am-see.ch/',
       sector: { en: 'St. Moritz Bad', fr: 'St. Moritz Bad', de: 'St. Moritz Bad' },
       facts: [
@@ -287,6 +290,7 @@ export const stMoritz: DestinationGuide = {
     {
       slug: 'st-moritz-nira-alpina',
       name: 'Nira Alpina',
+      photo: '/photos/hotels/st-moritz-nira-alpina.jpg',
       url: 'https://www.niraalpina.com/',
       sector: { en: 'Suvretta, Champfèr and Surlej', fr: 'Suvretta, Champfèr et Surlej', de: 'Suvretta, Champfèr und Surlej' },
       facts: [

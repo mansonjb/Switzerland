@@ -137,6 +137,7 @@ export const klosters: DestinationGuide = {
     {
       slug: 'klosters-chesa-grischuna',
       name: 'Chesa Grischuna',
+      photo: '/photos/hotels/klosters-chesa-grischuna.jpg',
       url: 'https://www.chesagrischuna.ch',
       sector: { en: 'Klosters Platz', fr: 'Klosters Platz', de: 'Klosters Platz' },
       facts: [
@@ -170,6 +171,7 @@ export const klosters: DestinationGuide = {
     {
       slug: 'klosters-vereina',
       name: 'Boutique Hotel Vereina',
+      photo: '/photos/hotels/klosters-vereina.jpg',
       url: 'https://www.vereinaklosters.ch',
       sector: { en: 'Klosters Platz', fr: 'Klosters Platz', de: 'Klosters Platz' },
       facts: [

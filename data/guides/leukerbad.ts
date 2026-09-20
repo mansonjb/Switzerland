@@ -154,6 +154,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-sources-des-alpes',
       name: 'Hotel Résidence & Spa Sources des Alpes',
+      photo: '/photos/hotels/leukerbad-sources-des-alpes.jpg',
       url: 'https://sourcesdesalpes.ch/en/',
       sector: { en: 'Tuftstrasse / Gemmi side', fr: 'Tuftstrasse / côté Gemmi', de: 'Tuftstrasse / Gemmi-Seite' },
       facts: [
@@ -255,6 +256,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-heilquelle',
       name: 'Hotel Heilquelle',
+      photo: '/photos/hotels/leukerbad-heilquelle.jpg',
       url: 'https://www.heilquelle.ch/',
       sector: { en: 'Village centre', fr: 'Centre du village', de: 'Dorfzentrum' },
       facts: [

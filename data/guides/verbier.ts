@@ -154,6 +154,7 @@ export const verbier: DestinationGuide = {
     {
       slug: 'verbier-les-chamois',
       name: 'Hôtel Les Chamois',
+      photo: '/photos/hotels/verbier-les-chamois.jpg',
       url: 'https://hotel-chamois.ch/en/',
       sector: { en: 'Médran', fr: 'Médran', de: 'Médran' },
       facts: [
@@ -170,6 +171,7 @@ export const verbier: DestinationGuide = {
     {
       slug: 'verbier-mirabeau',
       name: 'Hôtel Mirabeau',
+      photo: '/photos/hotels/verbier-mirabeau.jpg',
       url: 'https://mirabeauhotel.ch/',
       sector: { en: 'Médran', fr: 'Médran', de: 'Médran' },
       facts: [
@@ -203,6 +205,7 @@ export const verbier: DestinationGuide = {
     {
       slug: 'verbier-ermitage',
       name: 'Hôtel Ermitage Verbier',
+      photo: '/photos/hotels/verbier-ermitage.jpg',
       url: 'https://www.ermitage-verbier.ch/en/',
       sector: { en: 'Place Centrale', fr: 'Place Centrale', de: 'Place Centrale' },
       facts: [

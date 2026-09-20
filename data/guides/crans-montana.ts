@@ -137,6 +137,7 @@ export const cransMontana: DestinationGuide = {
     {
       slug: 'crans-montana-chetzeron',
       name: 'Chetzeron',
+      photo: '/photos/hotels/crans-montana-chetzeron.jpg',
       url: 'https://chetzeron.ch/en/',
       sector: { en: 'On the slopes above Crans', fr: 'Sur les hauteurs de Crans', de: 'Auf den Höhen über Crans' },
       facts: [
