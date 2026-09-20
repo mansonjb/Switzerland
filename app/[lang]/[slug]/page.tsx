@@ -288,6 +288,15 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
           </Section>
         )}
 
+        <Container className="pb-10 md:pb-14">
+          <div className="flex flex-col items-start gap-3 rounded-2xl border border-rule bg-sand p-5 md:flex-row md:items-center md:justify-between md:gap-8 md:p-6">
+            <p className="m-0 text-base leading-relaxed text-ink md:text-[17px]">{fill(dest.carFree ? d.sell.car.carFree : d.sell.car.drive, { place: name })}</p>
+            <Link href={localePath(lang, '/car-rental')} className="shrink-0 rounded-full bg-lake px-5 py-2.5 text-[15px] font-semibold text-white no-underline hover:bg-lake-dark">
+              {d.sell.car.cta} →
+            </Link>
+          </div>
+        </Container>
+
         <Section id="faq" title={T({ en: 'Frequently asked questions', fr: 'Questions fréquentes', de: 'Häufige Fragen' })} gap="mb-0">
           <Faq items={guide.faq} locale={lang} />
         </Section>
