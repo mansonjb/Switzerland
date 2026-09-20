@@ -122,6 +122,7 @@ export const fribourg: DestinationGuide = {
     {
       slug: 'fribourg-hotel-de-la-rose',
       name: 'Hotel de la Rose',
+      photo: '/photos/hotels/fribourg-hotel-de-la-rose.jpg',
       url: 'https://www.hoteldelarose.ch/en/',
       sector: { en: 'The Old Town, near the cathedral', fr: 'La vieille ville, près de la cathédrale', de: 'Die Altstadt, nahe der Kathedrale' },
       facts: [
@@ -138,6 +139,7 @@ export const fribourg: DestinationGuide = {
     {
       slug: 'fribourg-alpha',
       name: 'Alpha Hotel',
+      photo: '/photos/hotels/fribourg-alpha.jpg',
       url: 'https://www.alpha-hotel.ch/',
       sector: { en: 'Station side, Rue du Simplon', fr: 'Côté gare, Rue du Simplon', de: 'Bahnhofseite, Rue du Simplon' },
       facts: [
@@ -148,6 +150,39 @@ export const fribourg: DestinationGuide = {
         en: 'Alpha Hotel stands at Rue du Simplon 13, a short walk from the station side of the centre rather than the Old Town below the cathedral. It suits a practical stay close to the trains, with the fortifications and the cathedral a walk further on.',
         fr: 'L’Alpha Hotel se trouve à la Rue du Simplon 13, à deux pas du côté gare du centre plutôt que de la vieille ville sous la cathédrale. Il convient à un séjour pratique près des trains, les fortifications et la cathédrale se trouvant un peu plus loin.',
         de: 'Das Alpha Hotel liegt an der Rue du Simplon 13, kurzer Weg von der Bahnhofseite des Zentrums statt von der Altstadt unterhalb der Kathedrale. Es passt zu einem praktischen Aufenthalt nahe den Zügen, mit Festungsanlagen und Kathedrale einen Fussweg weiter.',
+      },
+    },
+    {
+      slug: 'fribourg-du-faucon',
+      name: 'Hôtel du Faucon',
+      photo: '/photos/hotels/fribourg-du-faucon.jpg',
+      url: 'https://hotel-du-faucon.ch/en/',
+      sector: { en: 'Station side, Rue du Simplon', fr: 'Côté gare, rue du Simplon', de: 'Bahnhofseite, Rue du Simplon' },
+      facts: [
+        { en: 'Rue de Lausanne 76, on a cobbled pedestrian street a short walk from the centre and the station', fr: 'Rue de Lausanne 76, dans une rue piétonne pavée à quelques minutes du centre et de la gare', de: 'Rue de Lausanne 76, in einer gepflasterten Fussgängergasse, wenige Minuten von Zentrum und Bahnhof' },
+        { en: '23 rooms, some with a kitchenette, pets taken at no extra charge', fr: '23 chambres, certaines avec kitchenette, animaux acceptés sans supplément', de: '23 Zimmer, einige mit Kitchenette, Haustiere ohne Aufpreis' },
+        { en: 'Italian dining with the Restaurant Solemio', fr: 'Cuisine italienne avec le restaurant Solemio', de: 'Italienische Küche mit dem Restaurant Solemio' },
+      ],
+      blurb: {
+        en: 'The Faucon sits on the cobbled Rue de Lausanne, the pedestrian street that climbs between the station and the old town, so both ends of the city are a walk away. Its 23 rooms include some with a kitchenette, pets stay at no extra charge, and the Italian Solemio handles dinner on the ground floor. It is the practical middle ground between sleeping by the platforms and sleeping under the cathedral.',
+        fr: 'Le Faucon occupe la rue de Lausanne pavée, la rue piétonne qui grimpe entre la gare et la vieille ville : les deux extrémités de la ville se font à pied. Ses 23 chambres comptent des chambres avec kitchenette, les animaux sont acceptés sans supplément, et l’italien Solemio assure le dîner au rez-de-chaussée. C’est le juste milieu entre dormir au pied des quais et dormir sous la cathédrale.',
+        de: 'Der Faucon liegt an der gepflasterten Rue de Lausanne, der Fussgängergasse zwischen Bahnhof und Altstadt, beide Enden der Stadt sind also zu Fuss erreichbar. Unter den 23 Zimmern haben einige eine Kitchenette, Haustiere sind ohne Aufpreis willkommen, und das italienische Solemio übernimmt im Erdgeschoss das Abendessen. Der praktische Mittelweg zwischen Schlafen am Perron und Schlafen unter der Kathedrale.',
+      },
+    },
+    {
+      slug: 'fribourg-mercure-remparts',
+      name: 'Mercure Fribourg Centre Remparts',
+      photo: '/photos/hotels/fribourg-mercure-remparts.jpg',
+      url: 'https://all.accor.com/hotel/B971/index.en.shtml',
+      sector: { en: 'The Old Town, near the cathedral', fr: 'La vieille ville, près de la cathédrale', de: 'Die Altstadt, nahe der Kathedrale' },
+      facts: [
+        { en: 'Chemin de Montrevers 1, opposite the Morat Gate, about seven minutes on foot from the historic centre', fr: 'Chemin de Montrevers 1, face à la Porte de Morat, à environ sept minutes à pied du centre historique', de: 'Chemin de Montrevers 1, gegenüber dem Murtentor, rund sieben Gehminuten vom historischen Zentrum' },
+        { en: '63 rooms', fr: '63 chambres', de: '63 Zimmer' },
+      ],
+      blurb: {
+        en: 'The largest address in this selection, with 63 rooms set against the medieval wall opposite the Morat Gate, about seven minutes on foot from the historic centre. The setting is quiet because the fortifications, not a main street, are what it faces. Take it when you want a full-service hotel and do not mind walking the last stretch into the old town.',
+        fr: 'La plus grande adresse de cette sélection, avec 63 chambres adossées au rempart médiéval, face à la Porte de Morat, à environ sept minutes à pied du centre historique. Le calme vient de ce qu’elle regarde les fortifications et non une artère passante. À prendre quand on veut un hôtel avec tous les services et que les derniers mètres à pied ne dérangent pas.',
+        de: 'Die grösste Adresse dieser Auswahl, mit 63 Zimmern an der mittelalterlichen Mauer gegenüber dem Murtentor, rund sieben Gehminuten vom historischen Zentrum. Die Ruhe kommt daher, dass es auf die Befestigung blickt und nicht auf eine Hauptstrasse. Passend, wenn man ein Haus mit vollem Service will und das letzte Stück zu Fuss nicht stört.',
       },
     },
   ],

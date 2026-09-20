@@ -110,6 +110,12 @@ const HOTELS = [
   { slug: "scuol-uja", name: "Boutique Hotel ÜJA Scuol" },
   { slug: "leukerbad-waldhaus", name: "Hotel Restaurant Waldhaus Leukerbad" },
   { slug: "appenzell-hotel-appenzell", name: "Hotel Appenzell hotelappenzell.ch, 9050 Appenzell" },
+  { slug: "wildhaus-toggenburg", name: "Hotel Toggenburg, 9658 Wildhaus" },
+  { slug: "wildhaus-reka", name: "Reka-Feriendorf Wildhaus" },
+  { slug: "neuchatel-alpes-et-lac", name: "Hotel Alpes et Lac, Place de la Gare, Neuchâtel" },
+  { slug: "neuchatel-des-arts", name: "Hotel des Arts, Rue J.-L. Pourtalès 3, Neuchâtel" },
+  { slug: "fribourg-du-faucon", name: "Hôtel du Faucon, Rue de Lausanne 76, Fribourg" },
+  { slug: "fribourg-mercure-remparts", name: "Mercure Fribourg Centre Remparts, Chemin de Montrevers 1" },
 ];
 
 async function loadToken() {

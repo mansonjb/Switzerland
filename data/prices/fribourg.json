@@ -1,0 +1,73 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "fribourg-hotel-de-la-rose",
+      "bookingName": "Hôtel de la Rose",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/roserribourgschweizswitzerland.en-gb.html",
+      "address": "Murtengasse 1, 1702 Fribourg, Switzerland",
+      "prices": {
+        "2027-01-20": 139,
+        "2027-07-21": 139,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 139,
+        "avg": 140,
+        "samples": 2
+      },
+      "winter": {
+        "from": 139,
+        "avg": 140,
+        "samples": 1
+      },
+      "summer": {
+        "from": 139,
+        "avg": 140,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "fribourg-alpha",
+      "bookingName": "Hotel Alpha",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpha-fribourg.en-gb.html",
+      "address": "Rue du Simplon 13, 1700 Fribourg, Switzerland",
+      "prices": {
+        "2027-07-21": 121,
+        "2027-09-08": 121,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 121,
+        "avg": 120,
+        "samples": 2
+      },
+      "winter": null,
+      "summer": {
+        "from": 121,
+        "avg": 120,
+        "samples": 2
+      }
+    }
+  ]
+}

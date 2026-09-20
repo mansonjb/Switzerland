@@ -137,6 +137,7 @@ export const neuchatel: DestinationGuide = {
     {
       slug: 'neuchatel-beaulac',
       name: 'Hotel Beaulac',
+      photo: '/photos/hotels/neuchatel-beaulac.jpg',
       url: 'https://www.beaulac.ch/en/',
       sector: { en: 'Harbour, Place du Port', fr: 'Port, Place du Port', de: 'Hafen, Place du Port' },
       facts: [
@@ -153,6 +154,7 @@ export const neuchatel: DestinationGuide = {
     {
       slug: 'neuchatel-beau-rivage',
       name: 'Beau-Rivage Hotel',
+      photo: '/photos/hotels/neuchatel-beau-rivage.jpg',
       url: 'https://www.beau-rivage-hotel.ch/en/',
       sector: { en: 'Harbour, Esplanade du Mont-Blanc', fr: 'Port, Esplanade du Mont-Blanc', de: 'Hafen, Esplanade du Mont-Blanc' },
       facts: [
@@ -169,6 +171,7 @@ export const neuchatel: DestinationGuide = {
     {
       slug: 'neuchatel-palafitte',
       name: 'Hotel Palafitte',
+      photo: '/photos/hotels/neuchatel-palafitte.jpg',
       url: 'https://www.palafitte.ch/en/',
       sector: { en: 'Over the water, Route des Gouttes-d’Or', fr: 'Sur le lac, Route des Gouttes-d’Or', de: 'Über dem Wasser, Route des Gouttes-d’Or' },
       facts: [
@@ -180,6 +183,38 @@ export const neuchatel: DestinationGuide = {
         en: 'Hotel Palafitte, at Route des Gouttes-d’Or 2, is built as stilted pavilions directly over Lake Neuchatel. Lake and Shore Pavilions run to about 68 m2 plus a 10 m2 terrace, with Lake Pavilions adding a small ladder for direct access into the water; the hotel holds EarthCheck Silver and Swisstainable certification and belongs to Preferred Hotels & Resorts.',
         fr: 'L’Hôtel Palafitte, Route des Gouttes-d’Or 2, est bâti en pavillons sur pilotis directement au-dessus du lac de Neuchâtel. Les Lake et Shore Pavilions font environ 68 m2 plus une terrasse de 10 m2, les Lake Pavilions ajoutant une petite échelle pour un accès direct à l’eau ; l’hôtel est certifié EarthCheck Silver et Swisstainable et appartient à Preferred Hotels & Resorts.',
         de: 'Das Hotel Palafitte, Route des Gouttes-d’Or 2, ist als Pfahlbauten direkt über dem Neuenburgersee errichtet. Die Lake und Shore Pavilions messen rund 68 m2 plus 10 m2 Terrasse, wobei die Lake Pavilions eine kleine Leiter für den direkten Zugang zum Wasser bieten; das Hotel ist EarthCheck-Silver- und Swisstainable-zertifiziert und gehört zu Preferred Hotels & Resorts.',
+      },
+    },
+    {
+      slug: 'neuchatel-alpes-et-lac',
+      name: 'Hotel Alpes et Lac',
+      photo: '/photos/hotels/neuchatel-alpes-et-lac.jpg',
+      url: 'https://www.j3l.ch/en/Z10477/accomodation/hotels',
+      sector: { en: 'Opposite the station', fr: 'En face de la gare', de: 'Gegenüber dem Bahnhof' },
+      facts: [
+        { en: 'Opposite Neuchâtel station', fr: 'En face de la gare de Neuchâtel', de: 'Gegenüber dem Bahnhof Neuchâtel' },
+        { en: '46 rooms, 30 in the main building and 16 in an air-conditioned annex', fr: '46 chambres, 30 dans le bâtiment principal et 16 dans une annexe climatisée', de: '46 Zimmer, 30 im Haupthaus und 16 in einem klimatisierten Nebengebäude' },
+      ],
+      blurb: {
+        en: 'The station address, directly opposite the platforms and above the old town rather than down by the water. Its 46 rooms split between the main building and an air-conditioned annex, which matters in a July heatwave. Take it for an early train or a late arrival, and walk down to the lake in the morning.',
+        fr: 'L’adresse de la gare, juste en face des quais et au-dessus de la vieille ville plutôt qu’au bord de l’eau. Ses 46 chambres se répartissent entre le bâtiment principal et une annexe climatisée, ce qui compte lors d’une canicule de juillet. À prendre pour un train tôt ou une arrivée tardive, quitte à descendre au lac le matin.',
+        de: 'Die Bahnhofsadresse, direkt gegenüber den Perrons und oberhalb der Altstadt statt unten am Wasser. Die 46 Zimmer verteilen sich auf das Haupthaus und einen klimatisierten Anbau, was bei einer Julihitze zählt. Passend für einen frühen Zug oder eine späte Ankunft, der See ist am Morgen zu Fuss erreichbar.',
+      },
+    },
+    {
+      slug: 'neuchatel-des-arts',
+      name: 'Hotel des Arts',
+      photo: '/photos/hotels/neuchatel-des-arts.jpg',
+      url: 'https://www.j3l.ch/en/Z10477/accomodation/hotels',
+      sector: { en: 'Harbour, Place du Port', fr: 'Port, Place du Port', de: 'Hafen, Place du Port' },
+      facts: [
+        { en: 'Rue J.-L. Pourtalès 3, five minutes by public transport from the lake, the centre and the station', fr: 'Rue J.-L. Pourtalès 3, à cinq minutes en transports publics du lac, du centre et de la gare', de: 'Rue J.-L. Pourtalès 3, fünf Minuten mit dem ÖV von See, Zentrum und Bahnhof' },
+        { en: '58 rooms in five categories, Neuchâtel Tourist Card included, Swisstainable certified', fr: '58 chambres en cinq catégories, Neuchâtel Tourist Card incluse, certifié Swisstainable', de: '58 Zimmer in fünf Kategorien, Neuchâtel Tourist Card inklusive, Swisstainable-zertifiziert' },
+      ],
+      blurb: {
+        en: 'A middle position between the water and the station, on Rue J.-L. Pourtalès, with the lake, the centre and the platforms each about five minutes away by public transport. Its 58 rooms come in five categories and the stay includes the Neuchâtel Tourist Card, which covers local transport and several museums. It suits a stay built around the city rather than a lake view from the pillow.',
+        fr: 'Une position intermédiaire entre l’eau et la gare, rue J.-L. Pourtalès, avec le lac, le centre et les quais chacun à cinq minutes en transports publics. Ses 58 chambres se déclinent en cinq catégories et le séjour comprend la Neuchâtel Tourist Card, qui couvre les transports locaux et plusieurs musées. Il convient à un séjour tourné vers la ville plutôt qu’à une vue sur le lac depuis l’oreiller.',
+        de: 'Eine Mittellage zwischen Wasser und Bahnhof, an der Rue J.-L. Pourtalès, mit See, Zentrum und Perrons je rund fünf Minuten mit dem ÖV entfernt. Die 58 Zimmer gibt es in fünf Kategorien, und der Aufenthalt schliesst die Neuchâtel Tourist Card ein, die den Nahverkehr und mehrere Museen abdeckt. Passend für einen Aufenthalt, der die Stadt meint, nicht den Seeblick vom Kopfkissen.',
       },
     },
   ],

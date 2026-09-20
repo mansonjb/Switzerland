@@ -1,0 +1,108 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "neuchatel-beaulac",
+      "bookingName": "Hotel Beaulac",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/hotelbeaulac.en-gb.html",
+      "address": "Esplanade Leopold Robert 2, 2000 Neuchâtel, Switzerland",
+      "prices": {
+        "2027-01-20": 253,
+        "2027-07-21": 261,
+        "2027-09-08": 278,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 253,
+        "avg": 265,
+        "samples": 3
+      },
+      "winter": {
+        "from": 253,
+        "avg": 255,
+        "samples": 1
+      },
+      "summer": {
+        "from": 261,
+        "avg": 270,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "neuchatel-beau-rivage",
+      "bookingName": "Beau Rivage Hotel",
+      "tier": "mid",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/beaurivageneuchatel.en-gb.html",
+      "address": "1, Esplanade du Mont-Blanc, 2000 Neuchâtel, Switzerland",
+      "prices": {
+        "2027-01-20": 262,
+        "2027-07-21": 536,
+        "2027-09-08": 536,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 262,
+        "avg": 445,
+        "samples": 3
+      },
+      "winter": {
+        "from": 262,
+        "avg": 260,
+        "samples": 1
+      },
+      "summer": {
+        "from": 536,
+        "avg": 535,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "neuchatel-palafitte",
+      "bookingName": "Hotel Palafitte",
+      "tier": "mid",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/hotelpalafitteneuchatel.en-gb.html",
+      "address": "Route des Gouttes d'Or 2, 2000 Neuchâtel, Switzerland",
+      "prices": {
+        "2027-01-20": 338,
+        "2027-07-21": 518,
+        "2027-09-08": 398,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 338,
+        "avg": 420,
+        "samples": 3
+      },
+      "winter": {
+        "from": 338,
+        "avg": 340,
+        "samples": 1
+      },
+      "summer": {
+        "from": 398,
+        "avg": 460,
+        "samples": 2
+      }
+    }
+  ]
+}

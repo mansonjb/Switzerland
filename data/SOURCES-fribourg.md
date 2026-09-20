@@ -84,3 +84,7 @@ so hotel and restaurant coverage is thinner than usual. No ratings, no reviews, 
 - A firm three-way sector split: the dossier explicitly declines to force one with only 2 hotels
   confirmed, so the guide uses 2 sectors (Old Town near the cathedral, station side on Rue du Simplon)
   instead of the usual 3.
+
+## Added by the maintainer, 20 September 2026
+- Hôtel du Faucon: Rue de Lausanne 76, cobbled pedestrian street, short walk from centre and station, 23 rooms, some with kitchenette, pets at no extra charge, Restaurant Solemio | VERIFIED | https://hotel-du-faucon.ch/en/ and https://fribourg.ch/en/fribourg/hotels/hotel-du-faucon/
+- Mercure Fribourg Centre Remparts: Chemin de Montrevers 1, opposite the Morat Gate, about 7 minutes on foot from the historic centre, 63 rooms | VERIFIED | https://all.accor.com/hotel/B971/index.en.shtml

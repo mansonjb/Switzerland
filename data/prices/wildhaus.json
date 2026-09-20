@@ -1,0 +1,77 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "wildhaus-sonne",
+      "bookingName": "Hotel Sonne",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sonne-wildhaus.en-gb.html",
+      "address": "Dorf, 9658 Wildhaus, Switzerland",
+      "prices": {
+        "2027-01-20": 116,
+        "2027-02-17": 136,
+        "2027-07-21": 116,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 116,
+        "avg": 125,
+        "samples": 3
+      },
+      "winter": {
+        "from": 116,
+        "avg": 125,
+        "samples": 2
+      },
+      "summer": {
+        "from": 116,
+        "avg": 115,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "wildhaus-hirschen",
+      "bookingName": "Hotel Hirschen Wildhaus",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/hirschen-wildhaus.en-gb.html",
+      "address": "Dorf 1, 9658 Wildhaus, Switzerland",
+      "prices": {
+        "2027-01-20": 361,
+        "2027-02-17": 328,
+        "2027-07-21": 339,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 328,
+        "avg": 345,
+        "samples": 3
+      },
+      "winter": {
+        "from": 328,
+        "avg": 345,
+        "samples": 2
+      },
+      "summer": {
+        "from": 339,
+        "avg": 340,
+        "samples": 1
+      }
+    }
+  ]
+}

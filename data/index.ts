@@ -46,11 +46,16 @@ import { steinAmRhein } from './guides/stein-am-rhein'
 import { wildhaus } from './guides/wildhaus'
 import { fribourg } from './guides/fribourg'
 import { neuchatel } from './guides/neuchatel'
+import { sion } from './guides/sion'
+import { gruyeres } from './guides/gruyeres'
+import { zinal } from './guides/zinal'
 import { berneseOberland } from './regions/bernese-oberland'
 import { valais } from './regions/valais'
 import { graubunden } from './regions/graubunden'
 import { central } from './regions/central'
 import { ticino } from './regions/ticino'
+import { eastern } from './regions/eastern'
+import { mittelland } from './regions/mittelland'
 import { lakeGeneva } from './regions/lake-geneva'
 import type { DestinationGuide, Region } from './types'
 
@@ -60,8 +65,8 @@ export { destinations, regionNames }
  * Published pages. Anti scaled-content rule: ONE rich page per destination, a guide ships
  * only once its facts are sourced (data/SOURCES.md). Never generate pages combinatorially.
  */
-const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen, engelberg, andermatt, weggis, cransMontana, leukerbad, grachen, laax, flims, scuol, brienz, meiringen, thun, arosa, klosters, lenzerheide, appenzell, schaffhausen, steinAmRhein, wildhaus, fribourg, neuchatel]
-const REGIONS: Region[] = [berneseOberland, valais, graubunden, central, lakeGeneva, ticino]
+const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen, engelberg, andermatt, weggis, cransMontana, leukerbad, grachen, laax, flims, scuol, brienz, meiringen, thun, arosa, klosters, lenzerheide, appenzell, schaffhausen, steinAmRhein, wildhaus, fribourg, neuchatel, sion, gruyeres, zinal]
+const REGIONS: Region[] = [berneseOberland, valais, graubunden, central, lakeGeneva, ticino, eastern, mittelland]
 
 /** A registered guide goes live only once enough of its hotels have a photo. Until then the
  *  destination card says "Coming soon" and no page is built. Hotels without a photo are not shown. */

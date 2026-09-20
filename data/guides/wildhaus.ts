@@ -137,6 +137,7 @@ export const wildhaus: DestinationGuide = {
     {
       slug: 'wildhaus-sonne',
       name: 'Hotel Sonne',
+      photo: '/photos/hotels/wildhaus-sonne.jpg',
       url: 'https://www.sonne-wildhaus.ch/en/',
       sector: { en: 'The village centre and the pass', fr: 'Le centre du village et le col', de: 'Dorfzentrum und Pass' },
       facts: [
@@ -153,6 +154,7 @@ export const wildhaus: DestinationGuide = {
     {
       slug: 'wildhaus-toggenburg',
       name: 'Hotel Toggenburg',
+      photo: '/photos/hotels/wildhaus-toggenburg.jpg',
       url: 'https://hoteltoggenburg.com/',
       sector: { en: 'The village centre and the pass', fr: 'Le centre du village et le col', de: 'Dorfzentrum und Pass' },
       facts: [
@@ -169,6 +171,7 @@ export const wildhaus: DestinationGuide = {
     {
       slug: 'wildhaus-hirschen',
       name: 'Hotel Hirschen Wildhaus',
+      photo: '/photos/hotels/wildhaus-hirschen.jpg',
       url: 'https://www.hirschen-wildhaus.ch/en/',
       sector: { en: 'The village centre and the pass', fr: 'Le centre du village et le col', de: 'Dorfzentrum und Pass' },
       facts: [
@@ -185,6 +188,7 @@ export const wildhaus: DestinationGuide = {
     {
       slug: 'wildhaus-reka-feriendorf',
       name: 'Reka-Feriendorf Wildhaus',
+      photo: '/photos/hotels/wildhaus-reka-feriendorf.jpg',
       url: 'https://reka.ch/en/rekaholidays/reka-holiday-village-wildhaus',
       sector: { en: 'Lisighaus and the Gamplüt gondola', fr: 'Lisighaus et la télécabine du Gamplüt', de: 'Lisighaus und die Gamplütbahn' },
       facts: [

@@ -41,6 +41,9 @@ import brienz from './prices/brienz.json'
 import flims from './prices/flims.json'
 import thun from './prices/thun.json'
 import appenzell from './prices/appenzell.json'
+import wildhaus from './prices/wildhaus.json'
+import fribourg from './prices/fribourg.json'
+import neuchatel from './prices/neuchatel.json'
 import schaffhausen from './prices/schaffhausen.json'
 import steinAmRhein from './prices/stein-am-rhein.json'
 
@@ -93,6 +96,9 @@ const FILES: Record<string, PriceFile> = {
   flims: flims as unknown as PriceFile,
   thun: thun as unknown as PriceFile,
   appenzell: appenzell as unknown as PriceFile,
+  wildhaus: wildhaus as unknown as PriceFile,
+  fribourg: fribourg as unknown as PriceFile,
+  neuchatel: neuchatel as unknown as PriceFile,
   schaffhausen: schaffhausen as unknown as PriceFile,
   'stein-am-rhein': steinAmRhein as unknown as PriceFile,
 }
