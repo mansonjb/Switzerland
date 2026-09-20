@@ -137,6 +137,7 @@ export const sion: DestinationGuide = {
     {
       slug: 'sion-elite',
       name: 'Hotel Elite',
+      photo: '/photos/hotels/sion-elite.jpg',
       url: 'https://www.hotelelitesion.ch/en/',
       sector: { en: 'Historic centre, between Valère and Tourbillon', fr: 'Centre historique, entre Valère et Tourbillon', de: 'Historisches Zentrum, zwischen Valère und Tourbillon' },
       facts: [
@@ -153,6 +154,7 @@ export const sion: DestinationGuide = {
     {
       slug: 'sion-castel',
       name: 'Hotel Castel',
+      photo: '/photos/hotels/sion-castel.jpg',
       url: 'https://hotelcastel.ch/',
       sector: { en: 'Historic centre, between Valère and Tourbillon', fr: 'Centre historique, entre Valère et Tourbillon', de: 'Historisches Zentrum, zwischen Valère und Tourbillon' },
       facts: [
@@ -169,6 +171,7 @@ export const sion: DestinationGuide = {
     {
       slug: 'sion-ibis',
       name: 'ibis Sion',
+      photo: '/photos/hotels/sion-ibis.jpg',
       url: 'https://all.accor.com/hotel/0960/index.en.shtml',
       sector: { en: 'Station and Grand-Champsec', fr: 'Gare et Grand-Champsec', de: 'Bahnhof und Grand-Champsec' },
       facts: [
@@ -183,6 +186,7 @@ export const sion: DestinationGuide = {
     {
       slug: 'sion-moxy',
       name: 'Moxy Sion',
+      photo: '/photos/hotels/sion-moxy.jpg',
       url: 'https://www.marriott.com/en-us/hotels/gvaos-moxy-sion/overview/',
       sector: { en: 'Station and Grand-Champsec', fr: 'Gare et Grand-Champsec', de: 'Bahnhof und Grand-Champsec' },
       facts: [
@@ -198,6 +202,7 @@ export const sion: DestinationGuide = {
     {
       slug: 'sion-holiday-inn-express',
       name: 'Holiday Inn Express & Suites Sion',
+      photo: '/photos/hotels/sion-holiday-inn-express.jpg',
       url: 'https://www.ihg.com/holidayinnexpress/hotels/us/en/sion/sirso/hoteldetail',
       sector: { en: 'Station and Grand-Champsec', fr: 'Gare et Grand-Champsec', de: 'Bahnhof und Grand-Champsec' },
       facts: [

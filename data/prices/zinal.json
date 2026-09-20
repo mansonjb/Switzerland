@@ -1,0 +1,108 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "zinal-le-besso",
+      "bookingName": "Hôtel Le Besso - Swiss Romantic Lodge Zinal",
+      "tier": "budget",
+      "stars": 2,
+      "bookingUrl": "https://www.booking.com/hotel/ch/besso-zinal.en-gb.html",
+      "address": "Rue Cinq 4000, 3961 Zinal, Switzerland",
+      "prices": {
+        "2027-01-20": 134,
+        "2027-07-21": 152,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 134,
+        "avg": 145,
+        "samples": 2
+      },
+      "winter": {
+        "from": 134,
+        "avg": 135,
+        "samples": 1
+      },
+      "summer": {
+        "from": 152,
+        "avg": 150,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zinal-europe",
+      "bookingName": "Hotel Europe",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/europe-zinal.en-gb.html",
+      "address": "Rue de 5 x 4000 metres, 3961 Zinal, Switzerland",
+      "prices": {
+        "2027-01-20": 188,
+        "2027-07-21": 179,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 179,
+        "avg": 185,
+        "samples": 2
+      },
+      "winter": {
+        "from": 188,
+        "avg": 190,
+        "samples": 1
+      },
+      "summer": {
+        "from": 179,
+        "avg": 180,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zinal-la-pointe-de-zinal",
+      "bookingName": "Pointe de Zinal",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/pointe-de-zinal.en-gb.html",
+      "address": "5 quatres milles, 3961 Zinal, Switzerland",
+      "prices": {
+        "2027-01-20": 152,
+        "2027-07-21": 161,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 152,
+        "avg": 155,
+        "samples": 2
+      },
+      "winter": {
+        "from": 152,
+        "avg": 150,
+        "samples": 1
+      },
+      "summer": {
+        "from": 161,
+        "avg": 160,
+        "samples": 1
+      }
+    }
+  ]
+}

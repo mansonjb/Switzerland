@@ -137,6 +137,7 @@ export const gruyeres: DestinationGuide = {
     {
       slug: 'gruyeres-hotel-de-gruyeres',
       name: 'Hôtel de Gruyères',
+      photo: '/photos/hotels/gruyeres-hotel-de-gruyeres.jpg',
       url: 'https://www.gruyereshotels.ch/en/hotel-de-gruyeres',
       sector: { en: 'The entrance, by the car parks', fr: 'L’entrée, près des parkings', de: 'Der Eingang, bei den Parkplätzen' },
       facts: [
@@ -153,6 +154,7 @@ export const gruyeres: DestinationGuide = {
     {
       slug: 'gruyeres-fleur-de-lys',
       name: 'Hôtel La Fleur de Lys',
+      photo: '/photos/hotels/gruyeres-fleur-de-lys.jpg',
       url: 'https://www.hotel-fleurdelys.ch/en',
       sector: { en: 'Rue du Bourg, inside the walls', fr: 'La Rue du Bourg, dans les remparts', de: 'Rue du Bourg, innerhalb der Mauern' },
       facts: [
@@ -164,6 +166,39 @@ export const gruyeres: DestinationGuide = {
         en: 'Hôtel La Fleur de Lys occupies a 350-year-old building on Rue du Bourg, the medieval town’s single street, about 300 metres from the castle and the HR Giger Museum. The house has welcomed guests since 1653, and its restaurant, labelled Fait Maison and Swiss Wine Gourmet, opens onto a panoramic terrace. Pets are welcome, a detail worth knowing if Gruyères’ car-free street is otherwise the plan for the day.',
         fr: 'L’Hôtel La Fleur de Lys occupe un bâtiment de 350 ans sur la Rue du Bourg, l’unique rue du village médiéval, à environ 300 mètres du château et du HR Giger Museum. La maison accueille des hôtes depuis 1653, et son restaurant, labellisé Fait Maison et Swiss Wine Gourmet, donne sur une terrasse panoramique. Les animaux y sont acceptés, un détail utile si la rue sans voiture de Gruyères est de toute façon au programme de la journée.',
         de: 'Das Hôtel La Fleur de Lys belegt ein 350 Jahre altes Gebäude an der Rue du Bourg, der einzigen Gasse des mittelalterlichen Städtchens, rund 300 Meter vom Schloss und vom HR Giger Museum entfernt. Das Haus empfängt seit 1653 Gäste, und sein Restaurant mit den Labels Fait Maison und Swiss Wine Gourmet öffnet sich auf eine Panoramaterrasse. Haustiere sind willkommen, ein nützliches Detail, wenn die autofreie Gasse von Greyerz ohnehin auf dem Tagesprogramm steht.',
+      },
+    },
+    {
+      slug: 'gruyeres-hotel-de-ville',
+      name: 'Hôtel de Ville',
+      photo: '/photos/hotels/gruyeres-hotel-de-ville.jpg',
+      url: 'https://hoteldeville.ch/',
+      sector: { en: 'Rue du Bourg, inside the walls', fr: 'Rue du Bourg, dans les murs', de: 'Rue du Bourg, innerhalb der Mauern' },
+      facts: [
+        { en: 'Rue du Bourg 29, on the walled street', fr: 'Rue du Bourg 29, sur la rue fortifiée', de: 'Rue du Bourg 29, an der Gasse innerhalb der Mauern' },
+        { en: '10 renovated rooms, comfort, deluxe and family, breakfast included', fr: '10 chambres rénovées, confort, deluxe et famille, petit-déjeuner compris', de: '10 renovierte Zimmer, Comfort, Deluxe und Familie, Frühstück inbegriffen' },
+      ],
+      blurb: {
+        en: 'A ten-room house on the Rue du Bourg itself, so the castle and the cheese dairy are both a short walk from the door. The rooms come as comfort, deluxe or family and breakfast is part of the rate. Staying inside the walls is the whole point here: the street is yours again once the coaches have left.',
+        fr: 'Une maison de dix chambres sur la rue du Bourg même : le château et la fromagerie sont tous deux à quelques pas de la porte. Les chambres se déclinent en confort, deluxe ou famille, et le petit-déjeuner est compris. Dormir dans les murs est justement l’intérêt : la rue vous revient une fois les autocars partis.',
+        de: 'Ein Haus mit zehn Zimmern direkt an der Rue du Bourg, Schloss und Schaukäserei liegen also wenige Schritte vor der Tür. Die Zimmer gibt es als Comfort, Deluxe oder Familie, das Frühstück ist inbegriffen. Innerhalb der Mauern zu schlafen ist hier der Punkt: Die Gasse gehört wieder Ihnen, sobald die Cars weg sind.',
+      },
+    },
+    {
+      slug: 'gruyeres-saint-georges',
+      name: 'Le Saint Georges',
+      photo: '/photos/hotels/gruyeres-saint-georges.jpg',
+      url: 'https://lesaintgeorges.ch/en/',
+      sector: { en: 'Rue du Bourg, inside the walls', fr: 'Rue du Bourg, dans les murs', de: 'Rue du Bourg, innerhalb der Mauern' },
+      facts: [
+        { en: 'Rue du Bourg 22, in the medieval town near the castle', fr: 'Rue du Bourg 22, dans la cité médiévale près du château', de: 'Rue du Bourg 22, im mittelalterlichen Städtchen nahe dem Schloss' },
+        { en: '14 rooms and suites, with views over the old town or the Prealps', fr: '14 chambres et suites, avec vue sur la vieille ville ou les Préalpes', de: '14 Zimmer und Suiten, mit Blick auf die Altstadt oder die Voralpen' },
+        { en: 'Three dining spaces, including a panoramic veranda and a terrace on the promenade', fr: 'Trois espaces de restauration, dont une véranda panoramique et une terrasse sur la promenade', de: 'Drei Gastbereiche, darunter eine Panoramaveranda und eine Terrasse an der Promenade' },
+      ],
+      blurb: {
+        en: 'The larger of the two addresses on the Rue du Bourg, with 14 rooms and suites looking either onto the old town or out to the Fribourg Prealps. Three dining spaces, one of them a panoramic veranda, mean dinner does not require leaving the walls. Ask for the view you want when you book, since the two sides of the house look at completely different things.',
+        fr: 'La plus grande des deux adresses de la rue du Bourg, avec 14 chambres et suites donnant soit sur la vieille ville, soit sur les Préalpes fribourgeoises. Trois espaces de restauration, dont une véranda panoramique, évitent d’avoir à sortir des murs pour dîner. Précisez la vue souhaitée à la réservation : les deux façades regardent des choses très différentes.',
+        de: 'Die grössere der beiden Adressen an der Rue du Bourg, mit 14 Zimmern und Suiten, die entweder zur Altstadt oder zu den Freiburger Voralpen blicken. Drei Gastbereiche, einer davon eine Panoramaveranda, machen das Abendessen innerhalb der Mauern möglich. Geben Sie bei der Buchung die gewünschte Seite an, denn die beiden Fronten schauen auf ganz Verschiedenes.',
       },
     },
   ],

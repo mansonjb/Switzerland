@@ -50,3 +50,7 @@ guide on 20/09/2026. No ratings, no reviews, no invented numbers.
 - A third or fourth Gruyeres hotel: the research dossier flagged a gap (target 6 to 10, only 2 to 3 candidates found) and could not confirm further names from La Gruyere Tourisme's JavaScript-rendered listing. This guide ships with 2 verified hotels rather than invent others. See note to the requester in the task report.
 - Gruyere AOP national production figures (tonnes/year, number of village dairies): gruyere.com was behind a Cloudflare challenge in the original research session and was not rechecked here; not printed.
 - Cailler chocolate factory at Broc: not checked in the research session, not printed.
+
+## Added by the maintainer, 20 September 2026
+- Hôtel de Ville, Rue du Bourg 29, 1663 Gruyères, 10 renovated rooms (comfort, deluxe, family), breakfast included | VERIFIED | https://hoteldeville.ch/ and https://fribourg.ch/en/la-gruyere/hotels/hotel-de-ville-in-gruyeres/
+- Le Saint Georges, Rue du Bourg 22, 1663 Gruyères, 14 rooms and suites with views over the old town or the Prealps, three dining spaces including a panoramic veranda and a terrace on the promenade | VERIFIED | https://lesaintgeorges.ch/en/

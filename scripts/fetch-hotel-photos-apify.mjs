@@ -116,6 +116,10 @@ const HOTELS = [
   { slug: "neuchatel-des-arts", name: "Hotel des Arts, Rue J.-L. Pourtalès 3, Neuchâtel" },
   { slug: "fribourg-du-faucon", name: "Hôtel du Faucon, Rue de Lausanne 76, Fribourg" },
   { slug: "fribourg-mercure-remparts", name: "Mercure Fribourg Centre Remparts, Chemin de Montrevers 1" },
+  { slug: "gruyeres-hotel-de-ville", name: "Hôtel de Ville, Rue du Bourg 29, Gruyères" },
+  { slug: "gruyeres-saint-georges", name: "Le Saint Georges, Rue du Bourg 22, Gruyères" },
+  { slug: "gruyeres-fleur-de-lys", name: "Hôtel La Fleur de Lys, Rue du Bourg 14, Gruyères" },
+  { slug: "zinal-pension-de-la-poste", name: "Pension de la Poste, 3961 Zinal" },
 ];
 
 async function loadToken() {

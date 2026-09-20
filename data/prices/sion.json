@@ -1,0 +1,170 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "sion-elite",
+      "bookingName": "Hôtel Elite",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/elite-sion.en-gb.html",
+      "address": "Avenue du Midi 6, 1950 Sion, Switzerland",
+      "prices": {
+        "2027-01-20": 129,
+        "2027-07-21": 139,
+        "2027-09-08": 139,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 129,
+        "avg": 135,
+        "samples": 3
+      },
+      "winter": {
+        "from": 129,
+        "avg": 130,
+        "samples": 1
+      },
+      "summer": {
+        "from": 139,
+        "avg": 140,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "sion-castel",
+      "bookingName": "Hotel Castel",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/castel-sion.en-gb.html",
+      "address": "Rue du Scex 38, 1950 Sion, Switzerland",
+      "prices": {
+        "2027-01-20": 159,
+        "2027-07-21": 213,
+        "2027-09-08": 159,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 159,
+        "avg": 175,
+        "samples": 3
+      },
+      "winter": {
+        "from": 159,
+        "avg": 160,
+        "samples": 1
+      },
+      "summer": {
+        "from": 159,
+        "avg": 185,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "sion-ibis",
+      "bookingName": "Ibis Sion",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sion-est.en-gb.html",
+      "address": "Av. Grand-Champsec 21, 1950 Sion, Switzerland",
+      "prices": {
+        "2027-01-20": 123,
+        "2027-07-21": 144,
+        "2027-09-08": 132,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 123,
+        "avg": 135,
+        "samples": 3
+      },
+      "winter": {
+        "from": 123,
+        "avg": 125,
+        "samples": 1
+      },
+      "summer": {
+        "from": 132,
+        "avg": 140,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "sion-moxy",
+      "bookingName": "Moxy Sion",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/moxy-sion.en-gb.html",
+      "address": "Route de Chippis 64, Grand-Champsec, 1950 Sion, Switzerland",
+      "prices": {
+        "2027-01-20": 122,
+        "2027-07-21": 129,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 122,
+        "avg": 125,
+        "samples": 2
+      },
+      "winter": {
+        "from": 122,
+        "avg": 120,
+        "samples": 1
+      },
+      "summer": {
+        "from": 129,
+        "avg": 130,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "sion-holiday-inn-express",
+      "bookingName": "Holiday Inn Express & Suites Sion by IHG",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/holiday-inn-express-suites-sion-an-ihg.en-gb.html",
+      "address": "Av. de Tourbillon 18, 1950, 1950 Sion, Switzerland",
+      "prices": {
+        "2027-01-20": 190,
+        "2027-07-21": 148,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 148,
+        "avg": 170,
+        "samples": 2
+      },
+      "winter": {
+        "from": 190,
+        "avg": 190,
+        "samples": 1
+      },
+      "summer": {
+        "from": 148,
+        "avg": 150,
+        "samples": 1
+      }
+    }
+  ]
+}

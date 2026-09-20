@@ -137,6 +137,7 @@ export const zinal: DestinationGuide = {
     {
       slug: 'zinal-le-besso',
       name: 'Hotel Le Besso',
+      photo: '/photos/hotels/zinal-le-besso.jpg',
       url: 'https://le-besso.ch/en/',
       sector: { en: 'Rue des Cinq 4000', fr: 'Rue des Cinq 4000', de: 'Rue des Cinq 4000' },
       facts: [
@@ -153,6 +154,7 @@ export const zinal: DestinationGuide = {
     {
       slug: 'zinal-europe',
       name: 'Hotel Europe',
+      photo: '/photos/hotels/zinal-europe.jpg',
       url: 'https://europezinal.ch/en/',
       sector: { en: 'Rue des Cinq 4000', fr: 'Rue des Cinq 4000', de: 'Rue des Cinq 4000' },
       facts: [
@@ -169,6 +171,7 @@ export const zinal: DestinationGuide = {
     {
       slug: 'zinal-la-pointe-de-zinal',
       name: 'Hotel La Pointe de Zinal',
+      photo: '/photos/hotels/zinal-la-pointe-de-zinal.jpg',
       url: 'https://lapointedezinal.ch/en/',
       sector: { en: 'Rue des Cinq 4000', fr: 'Rue des Cinq 4000', de: 'Rue des Cinq 4000' },
       facts: [
@@ -185,6 +188,7 @@ export const zinal: DestinationGuide = {
     {
       slug: 'zinal-pension-de-la-poste',
       name: 'Pension de la Poste',
+      photo: '/photos/hotels/zinal-pension-de-la-poste.jpg',
       url: 'https://lapostezinal.ch/en/',
       sector: { en: 'Montferrier', fr: 'Montferrier', de: 'Montferrier' },
       facts: [

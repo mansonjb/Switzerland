@@ -1,0 +1,46 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "gruyeres-hotel-de-gruyeres",
+      "bookingName": "Hôtel de Gruyères",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/hostellerie-des-chevalers.en-gb.html",
+      "address": "Ruelle Des Chevaliers, 1663 Gruyères, Switzerland",
+      "prices": {
+        "2027-01-20": 206,
+        "2027-07-21": 206,
+        "2027-09-08": 206,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 206,
+        "avg": 205,
+        "samples": 3
+      },
+      "winter": {
+        "from": 206,
+        "avg": 205,
+        "samples": 1
+      },
+      "summer": {
+        "from": 206,
+        "avg": 205,
+        "samples": 2
+      }
+    }
+  ]
+}
