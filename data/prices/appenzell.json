@@ -1,0 +1,108 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "appenzell-saentis",
+      "bookingName": "Hotel Säntis - Genuss & Tradition",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/romantik-santis.en-gb.html",
+      "address": "Landsgemeindeplatz 3, 9050 Appenzell, Switzerland",
+      "prices": {
+        "2027-01-20": 394,
+        "2027-07-21": 257,
+        "2027-09-08": 258,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 257,
+        "avg": 305,
+        "samples": 3
+      },
+      "winter": {
+        "from": 394,
+        "avg": 395,
+        "samples": 1
+      },
+      "summer": {
+        "from": 257,
+        "avg": 260,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "appenzell-hecht",
+      "bookingName": "Hotel Hecht",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/hecht-appenzell.en-gb.html",
+      "address": "Hauptgasse 9, 9050 Appenzell, Switzerland",
+      "prices": {
+        "2027-01-20": 226,
+        "2027-07-21": 209,
+        "2027-09-08": 303,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 209,
+        "avg": 245,
+        "samples": 3
+      },
+      "winter": {
+        "from": 226,
+        "avg": 225,
+        "samples": 1
+      },
+      "summer": {
+        "from": 209,
+        "avg": 255,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "appenzell-loewen",
+      "bookingName": "Hotel Löwen",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/lowen.en-gb.html",
+      "address": "Hauptgasse 25, 9050 Appenzell, Switzerland",
+      "prices": {
+        "2027-01-20": 265,
+        "2027-07-21": 264,
+        "2027-09-08": 234,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 234,
+        "avg": 255,
+        "samples": 3
+      },
+      "winter": {
+        "from": 265,
+        "avg": 265,
+        "samples": 1
+      },
+      "summer": {
+        "from": 234,
+        "avg": 250,
+        "samples": 2
+      }
+    }
+  ]
+}

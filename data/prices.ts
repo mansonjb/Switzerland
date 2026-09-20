@@ -40,6 +40,9 @@ import scuol from './prices/scuol.json'
 import brienz from './prices/brienz.json'
 import flims from './prices/flims.json'
 import thun from './prices/thun.json'
+import appenzell from './prices/appenzell.json'
+import schaffhausen from './prices/schaffhausen.json'
+import steinAmRhein from './prices/stein-am-rhein.json'
 
 /** Real nightly prices scraped from Booking.com on dated samples (2 adults, 1 room, 1 night).
  *  Regenerate with scripts/scrape-booking-prices.mjs, never edit numbers by hand. */
@@ -89,6 +92,9 @@ const FILES: Record<string, PriceFile> = {
   brienz: brienz as unknown as PriceFile,
   flims: flims as unknown as PriceFile,
   thun: thun as unknown as PriceFile,
+  appenzell: appenzell as unknown as PriceFile,
+  schaffhausen: schaffhausen as unknown as PriceFile,
+  'stein-am-rhein': steinAmRhein as unknown as PriceFile,
 }
 
 export const getPriceFile = (destination: string): PriceFile | undefined => FILES[destination]

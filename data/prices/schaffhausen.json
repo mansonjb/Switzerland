@@ -1,0 +1,135 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "schaffhausen-kronenhof",
+      "bookingName": "Hotel Kronenhof",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/kronenhof-schaffhausen.en-gb.html",
+      "address": "Kirchhofplatz 7, 8200 Schaffhausen, Switzerland",
+      "prices": {
+        "2027-01-20": 212,
+        "2027-07-21": 212,
+        "2027-09-08": 212,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 212,
+        "avg": 210,
+        "samples": 3
+      },
+      "winter": {
+        "from": 212,
+        "avg": 210,
+        "samples": 1
+      },
+      "summer": {
+        "from": 212,
+        "avg": 210,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "schaffhausen-youth-hostel",
+      "bookingName": "Schaffhausen Youth Hostel",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/jugendherberger-schaffhausen.en-gb.html",
+      "address": "Randenstrasse 65, 8200 Schaffhausen, Switzerland",
+      "prices": {
+        "2027-07-21": 110,
+        "2027-09-08": 216,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 110,
+        "avg": 165,
+        "samples": 2
+      },
+      "winter": null,
+      "summer": {
+        "from": 110,
+        "avg": 165,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "schaffhausen-rueden",
+      "bookingName": "Tailormade Hotel RÜDEN Schaffhausen",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sorellrueden.en-gb.html",
+      "address": "Oberstadt 20, 8200 Schaffhausen, Switzerland",
+      "prices": {
+        "2027-01-20": 184,
+        "2027-07-21": 204,
+        "2027-09-08": 221,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 184,
+        "avg": 205,
+        "samples": 3
+      },
+      "winter": {
+        "from": 184,
+        "avg": 185,
+        "samples": 1
+      },
+      "summer": {
+        "from": 204,
+        "avg": 215,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "schaffhausen-zur-bleiche",
+      "bookingName": "Vienna House by Wyndham zur Bleiche Schaffhausen",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/viennahouse-bleiche-schaffhausen.en-gb.html",
+      "address": "Bleicheplatz 1, Postfach 67, 8201 Schaffhausen, Switzerland",
+      "prices": {
+        "2027-01-20": 146,
+        "2027-07-21": 157,
+        "2027-09-08": 202,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 146,
+        "avg": 170,
+        "samples": 3
+      },
+      "winter": {
+        "from": 146,
+        "avg": 145,
+        "samples": 1
+      },
+      "summer": {
+        "from": 157,
+        "avg": 180,
+        "samples": 2
+      }
+    }
+  ]
+}

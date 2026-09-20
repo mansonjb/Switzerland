@@ -137,6 +137,7 @@ export const appenzell: DestinationGuide = {
     {
       slug: 'appenzell-saentis',
       name: 'Hotel Säntis',
+      photo: '/photos/hotels/appenzell-saentis.jpg',
       url: 'https://appenzeller-hotels.ch',
       sector: { en: 'The Landsgemeindeplatz', fr: 'La Landsgemeindeplatz', de: 'Die Landsgemeindeplatz' },
       facts: [
@@ -153,6 +154,7 @@ export const appenzell: DestinationGuide = {
     {
       slug: 'appenzell-hotel-appenzell',
       name: 'Hotel Appenzell',
+      photo: '/photos/hotels/appenzell-hotel-appenzell.jpg',
       url: 'https://hotelappenzell.ch',
       sector: { en: 'The Landsgemeindeplatz', fr: 'La Landsgemeindeplatz', de: 'Die Landsgemeindeplatz' },
       facts: [
@@ -169,6 +171,7 @@ export const appenzell: DestinationGuide = {
     {
       slug: 'appenzell-hecht',
       name: 'Hotel Hecht',
+      photo: '/photos/hotels/appenzell-hecht.jpg',
       url: 'https://appenzeller-hotels.ch/hecht',
       sector: { en: 'Hauptgasse and Hirschengasse, the village centre', fr: 'Hauptgasse et Hirschengasse, le centre du village', de: 'Hauptgasse und Hirschengasse, das Dorfzentrum' },
       facts: [
@@ -185,6 +188,7 @@ export const appenzell: DestinationGuide = {
     {
       slug: 'appenzell-loewen',
       name: 'Hotel Löwen',
+      photo: '/photos/hotels/appenzell-loewen.jpg',
       url: 'https://appenzeller-hotels.ch',
       sector: { en: 'Hauptgasse and Hirschengasse, the village centre', fr: 'Hauptgasse et Hirschengasse, le centre du village', de: 'Hauptgasse und Hirschengasse, das Dorfzentrum' },
       facts: [

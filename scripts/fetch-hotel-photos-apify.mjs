@@ -109,6 +109,7 @@ const HOTELS = [
   { slug: "scuol-belvair", name: "Badehotel Belvair Scuol" },
   { slug: "scuol-uja", name: "Boutique Hotel ÜJA Scuol" },
   { slug: "leukerbad-waldhaus", name: "Hotel Restaurant Waldhaus Leukerbad" },
+  { slug: "appenzell-hotel-appenzell", name: "Hotel Appenzell hotelappenzell.ch, 9050 Appenzell" },
 ];
 
 async function loadToken() {

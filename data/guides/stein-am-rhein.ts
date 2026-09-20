@@ -137,6 +137,7 @@ export const steinAmRhein: DestinationGuide = {
     {
       slug: 'stein-am-rhein-rheinfels',
       name: 'Hotel Rheinfels',
+      photo: '/photos/hotels/stein-am-rhein-rheinfels.jpg',
       url: 'https://www.rheinfels.ch',
       sector: { en: 'The Rhine front, northern bridgehead', fr: 'Le front du Rhin, tête de pont nord', de: 'Die Rheinfront, nördlicher Brückenkopf' },
       facts: [
@@ -153,6 +154,7 @@ export const steinAmRhein: DestinationGuide = {
     {
       slug: 'stein-am-rhein-adler',
       name: 'Hotel Adler',
+      photo: '/photos/hotels/stein-am-rhein-adler.jpg',
       url: 'https://www.adlersteinamrhein.ch',
       sector: { en: 'Inside the painted old town', fr: 'Dans la vieille ville peinte', de: 'In der bemalten Altstadt' },
       facts: [
@@ -169,6 +171,7 @@ export const steinAmRhein: DestinationGuide = {
     {
       slug: 'stein-am-rhein-rheingerbe',
       name: 'Hotel Rheingerbe',
+      photo: '/photos/hotels/stein-am-rhein-rheingerbe.jpg',
       url: 'https://www.rheingerbe.ch',
       sector: { en: 'The Rhine front, northern bridgehead', fr: 'Le front du Rhin, tête de pont nord', de: 'Die Rheinfront, nördlicher Brückenkopf' },
       facts: [
@@ -185,6 +188,7 @@ export const steinAmRhein: DestinationGuide = {
     {
       slug: 'stein-am-rhein-youth-hostel',
       name: 'Stein am Rhein Youth Hostel',
+      photo: '/photos/hotels/stein-am-rhein-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/stein-am-rhein-youth-hostel',
       sector: { en: 'Riverside towards the lido', fr: 'Au bord du Rhin, vers le lido', de: 'Am Rhein, Richtung Freibad' },
       facts: [

@@ -137,6 +137,7 @@ export const schaffhausen: DestinationGuide = {
     {
       slug: 'schaffhausen-kronenhof',
       name: 'Kronenhof Schaffhausen',
+      photo: '/photos/hotels/schaffhausen-kronenhof.jpg',
       url: 'https://www.kronenhof.ch',
       sector: { en: 'Old Town, Kirchhofplatz', fr: 'Vieille ville, Kirchhofplatz', de: 'Altstadt, Kirchhofplatz' },
       facts: [
@@ -167,6 +168,7 @@ export const schaffhausen: DestinationGuide = {
     {
       slug: 'schaffhausen-youth-hostel',
       name: 'Schaffhausen Youth Hostel',
+      photo: '/photos/hotels/schaffhausen-youth-hostel.jpg',
       url: 'https://www.youthhostel.ch/en/hostels/schaffhausen-youth-hostel',
       sector: { en: 'Edge of town, Randenstrasse', fr: 'Périphérie, Randenstrasse', de: 'Stadtrand, Randenstrasse' },
       facts: [
@@ -182,6 +184,7 @@ export const schaffhausen: DestinationGuide = {
     {
       slug: 'schaffhausen-rueden',
       name: 'Hotel Rüden',
+      photo: '/photos/hotels/schaffhausen-rueden.jpg',
       url: 'https://www.tmh.swiss/rueden/',
       sector: { en: 'Old Town, Kirchhofplatz', fr: 'Vieille ville, Kirchhofplatz', de: 'Altstadt, Kirchhofplatz' },
       facts: [
@@ -197,6 +200,7 @@ export const schaffhausen: DestinationGuide = {
     {
       slug: 'schaffhausen-zur-bleiche',
       name: 'Vienna House by Wyndham zur Bleiche Schaffhausen',
+      photo: '/photos/hotels/schaffhausen-zur-bleiche.jpg',
       url: 'https://www.wyndhamhotels.com/vienna-house/schaffhausen-switzerland/vienna-house-zur-bleiche-schaffhausen/overview',
       sector: { en: 'Station side and Zur Bleiche', fr: 'Côté gare et Zur Bleiche', de: 'Bahnhofseite und Zur Bleiche' },
       facts: [
