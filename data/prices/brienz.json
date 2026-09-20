@@ -1,0 +1,73 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "brienz-weisses-kreuz",
+      "bookingName": "Hotel Weisses Kreuz",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/weisses-kreuz-brienz.en-gb.html",
+      "address": "Hauptstrasse 143, 3855 Brienz, Switzerland",
+      "prices": {
+        "2027-01-20": 136,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 136,
+        "avg": 135,
+        "samples": 1
+      },
+      "winter": {
+        "from": 136,
+        "avg": 135,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "brienz-lindenhof",
+      "bookingName": "Hotel Lindenhof by Crossworld AG",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/lindenhof.en-gb.html",
+      "address": "Lindenhofweg 15, 3855 Brienz, Switzerland",
+      "prices": {
+        "2027-01-20": 114,
+        "2027-07-21": 241,
+        "2027-09-08": 241,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 114,
+        "avg": 200,
+        "samples": 3
+      },
+      "winter": {
+        "from": 114,
+        "avg": 115,
+        "samples": 1
+      },
+      "summer": {
+        "from": 241,
+        "avg": 240,
+        "samples": 2
+      }
+    }
+  ]
+}

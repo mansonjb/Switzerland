@@ -137,6 +137,7 @@ export const pontresina: DestinationGuide = {
     {
       slug: 'pontresina-steinbock',
       name: 'Hotel Steinbock',
+      photo: '/photos/hotels/pontresina-steinbock.jpg',
       url: 'https://hotelsteinbock.ch',
       sector: { en: 'Village centre, Via Maistra', fr: 'Centre du village, Via Maistra', de: 'Dorfzentrum, Via Maistra' },
       facts: [
@@ -152,6 +153,7 @@ export const pontresina: DestinationGuide = {
     {
       slug: 'pontresina-kronenhof',
       name: 'Grand Hotel Kronenhof',
+      photo: '/photos/hotels/pontresina-kronenhof.jpg',
       url: 'https://www.kronenhof.com/en/',
       sector: { en: 'Village centre, Via Maistra', fr: 'Centre du village, Via Maistra', de: 'Dorfzentrum, Via Maistra' },
       facts: [
@@ -168,6 +170,7 @@ export const pontresina: DestinationGuide = {
     {
       slug: 'pontresina-bernina',
       name: 'Hotel Bernina',
+      photo: '/photos/hotels/pontresina-bernina.jpg',
       url: 'https://www.hotelbernina.ch/en/',
       sector: { en: 'Village centre, Via Maistra', fr: 'Centre du village, Via Maistra', de: 'Dorfzentrum, Via Maistra' },
       facts: [
@@ -184,6 +187,7 @@ export const pontresina: DestinationGuide = {
     {
       slug: 'pontresina-engadinerhof',
       name: 'Boutique Hotel Engadinerhof',
+      photo: '/photos/hotels/pontresina-engadinerhof.jpg',
       url: 'https://www.engadinerhof.com/en/',
       sector: { en: 'Village centre, Via Maistra', fr: 'Centre du village, Via Maistra', de: 'Dorfzentrum, Via Maistra' },
       facts: [
@@ -199,6 +203,7 @@ export const pontresina: DestinationGuide = {
     {
       slug: 'pontresina-saratz',
       name: 'Hotel Saratz',
+      photo: '/photos/hotels/pontresina-saratz.jpg',
       url: 'https://www.saratz.ch/en/',
       sector: { en: 'Near the railway station', fr: 'Près de la gare', de: 'Nahe dem Bahnhof' },
       facts: [
@@ -215,6 +220,7 @@ export const pontresina: DestinationGuide = {
     {
       slug: 'pontresina-sunstar',
       name: 'Sunstar Hotel Pontresina',
+      photo: '/photos/hotels/pontresina-sunstar.jpg',
       url: 'https://pontresina.sunstar.ch/en/',
       sector: { en: 'Near the railway station', fr: 'Près de la gare', de: 'Nahe dem Bahnhof' },
       facts: [
@@ -231,6 +237,7 @@ export const pontresina: DestinationGuide = {
     {
       slug: 'pontresina-schweizerhof',
       name: 'Hotel Schweizerhof Pontresina',
+      photo: '/photos/hotels/pontresina-schweizerhof.jpg',
       url: 'https://www.schweizerhofpontresina.ch/en/home.htm',
       sector: { en: 'Village centre, Via Maistra', fr: 'Centre du village, Via Maistra', de: 'Dorfzentrum, Via Maistra' },
       facts: [

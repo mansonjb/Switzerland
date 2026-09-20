@@ -1,0 +1,185 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "scuol-belvedere",
+      "bookingName": "Hotel Belvedere Scuol",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/belvedere-scuol.en-gb.html",
+      "address": "Stradun 330, 7550 Scuol, Switzerland",
+      "prices": {
+        "2027-01-20": 362,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 362,
+        "avg": 360,
+        "samples": 1
+      },
+      "winter": {
+        "from": 362,
+        "avg": 360,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "scuol-guardaval",
+      "bookingName": "Engadiner Boutique-Hotel GuardaVal",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/romantik-und-boutique-guardaval.en-gb.html",
+      "address": "Vi 383, 7550 Scuol, Switzerland",
+      "prices": {
+        "2027-01-20": 362,
+        "2027-07-21": 312,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 312,
+        "avg": 335,
+        "samples": 2
+      },
+      "winter": {
+        "from": 362,
+        "avg": 360,
+        "samples": 1
+      },
+      "summer": {
+        "from": 312,
+        "avg": 310,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "scuol-belvair",
+      "bookingName": "Badehotel Belvair",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/badehotel-belvair.en-gb.html",
+      "address": "Stradun 330, 7550 Scuol, Switzerland",
+      "prices": {
+        "2027-02-17": 472,
+        "2027-07-21": 292,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 292,
+        "avg": 380,
+        "samples": 2
+      },
+      "winter": {
+        "from": 472,
+        "avg": 470,
+        "samples": 1
+      },
+      "summer": {
+        "from": 292,
+        "avg": 290,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "scuol-astras",
+      "bookingName": "Hotel Astras",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/astras.en-gb.html",
+      "address": "Stradun, 7550 Scuol, Switzerland",
+      "prices": {
+        "2027-07-21": 380,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 380,
+        "avg": 380,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 380,
+        "avg": 380,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "scuol-arnica",
+      "bookingName": "Hotel Arnica Scuol - Adults Only",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/arnica-scuol.en-gb.html",
+      "address": "Brentsch 417, 7550 Scuol, Switzerland",
+      "prices": {
+        "2027-01-20": 436,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 436,
+        "avg": 435,
+        "samples": 1
+      },
+      "winter": {
+        "from": 436,
+        "avg": 435,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "scuol-uja",
+      "bookingName": "Boutique Hotel ÜJA",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/uja-scuol.en-gb.html",
+      "address": "Via da l'Ospidal 199, 7550 Scuol, Switzerland",
+      "prices": {
+        "2027-01-20": 240,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 240,
+        "avg": 240,
+        "samples": 1
+      },
+      "winter": {
+        "from": 240,
+        "avg": 240,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

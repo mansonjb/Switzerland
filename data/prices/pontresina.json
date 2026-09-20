@@ -1,0 +1,220 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "pontresina-steinbock",
+      "bookingName": "Hotel Steinbock Pontresina",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/steinbock-pontresina.en-gb.html",
+      "address": "Via Maistra 219, 7504 Pontresina, Switzerland",
+      "prices": {
+        "2027-01-20": 345,
+        "2027-02-17": 384,
+        "2027-07-21": 356,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 345,
+        "avg": 360,
+        "samples": 3
+      },
+      "winter": {
+        "from": 345,
+        "avg": 365,
+        "samples": 2
+      },
+      "summer": {
+        "from": 356,
+        "avg": 355,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "pontresina-kronenhof",
+      "bookingName": "Grand Hotel Kronenhof",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/grand-kronenhof.en-gb.html",
+      "address": "Via Maistra, 7504 Pontresina, Switzerland",
+      "prices": {
+        "2027-01-20": 721,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 721,
+        "avg": 720,
+        "samples": 1
+      },
+      "winter": {
+        "from": 721,
+        "avg": 720,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "pontresina-bernina",
+      "bookingName": "Hotel Bernina",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/bernina.en-gb.html",
+      "address": "Via Maistra, 7504 Pontresina, Switzerland",
+      "prices": {
+        "2027-01-20": 278,
+        "2027-02-17": 290,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 278,
+        "avg": 285,
+        "samples": 2
+      },
+      "winter": {
+        "from": 278,
+        "avg": 285,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "pontresina-engadinerhof",
+      "bookingName": "Boutique Hotel Engadinerhof - A Home for Generations",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/engadinerhof-pontresina.en-gb.html",
+      "address": "Via Maistra 203, 7504 Pontresina, Switzerland",
+      "prices": {
+        "2027-01-20": 218,
+        "2027-07-21": 187,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 187,
+        "avg": 205,
+        "samples": 2
+      },
+      "winter": {
+        "from": 218,
+        "avg": 220,
+        "samples": 1
+      },
+      "summer": {
+        "from": 187,
+        "avg": 185,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "pontresina-saratz",
+      "bookingName": "Hotel Saratz Pontresina Mountain Resort & Spa",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/saratz.en-gb.html",
+      "address": "Pontresina, 7504 Pontresina, Switzerland",
+      "prices": {
+        "2027-01-20": 395,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 395,
+        "avg": 395,
+        "samples": 1
+      },
+      "winter": {
+        "from": 395,
+        "avg": 395,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "pontresina-sunstar",
+      "bookingName": "Sunstar Pontresina",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sunstar-pontresina.en-gb.html",
+      "address": "6 Fulluns, 7504 Pontresina, Switzerland",
+      "prices": {
+        "2027-01-20": 332,
+        "2027-07-21": 344,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 332,
+        "avg": 340,
+        "samples": 2
+      },
+      "winter": {
+        "from": 332,
+        "avg": 330,
+        "samples": 1
+      },
+      "summer": {
+        "from": 344,
+        "avg": 345,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "pontresina-schweizerhof",
+      "bookingName": "Hotel Schweizerhof Pontresina",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/schweizerhof-pontresina.en-gb.html",
+      "address": "Via Maistra, 7504 Pontresina, Switzerland",
+      "prices": {
+        "2027-01-20": 317,
+        "2027-02-17": 282,
+        "2027-07-21": 236,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 236,
+        "avg": 280,
+        "samples": 3
+      },
+      "winter": {
+        "from": 282,
+        "avg": 300,
+        "samples": 2
+      },
+      "summer": {
+        "from": 236,
+        "avg": 235,
+        "samples": 1
+      }
+    }
+  ]
+}

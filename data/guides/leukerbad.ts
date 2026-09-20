@@ -137,6 +137,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-le-bristol',
       name: 'Le Bristol Hotel & Spa',
+      photo: '/photos/hotels/leukerbad-le-bristol.jpg',
       url: 'https://www.lebristol.ch/en/',
       sector: { en: 'Thermenstrasse / Torrent', fr: 'Thermenstrasse / Torrent', de: 'Thermenstrasse / Torrent' },
       facts: [
@@ -169,6 +170,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-regina-terme',
       name: 'Hotel Regina Terme',
+      photo: '/photos/hotels/leukerbad-regina-terme.jpg',
       url: 'https://reginaterme.ch/',
       sector: { en: 'Klibenstrasse, above the centre', fr: 'Klibenstrasse, au-dessus du centre', de: 'Klibenstrasse, oberhalb des Zentrums' },
       facts: [
@@ -185,6 +187,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-thermalhotel-de-france',
       name: 'Thermalhotel De France',
+      photo: '/photos/hotels/leukerbad-thermalhotel-de-france.jpg',
       url: 'https://www.thermalhotels.ch/en/',
       sector: { en: 'Dorfplatz', fr: 'Dorfplatz', de: 'Dorfplatz' },
       facts: [
@@ -201,6 +204,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-therme-51',
       name: 'Therme 51° Hotel Physio & Spa',
+      photo: '/photos/hotels/leukerbad-therme-51.jpg',
       url: 'https://www.therme51.ch/en/',
       sector: { en: 'Kurparkstrasse, village centre', fr: 'Kurparkstrasse, centre du village', de: 'Kurparkstrasse, Dorfzentrum' },
       facts: [
@@ -217,6 +221,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-alpenblick',
       name: 'Hotel Alpenblick',
+      photo: '/photos/hotels/leukerbad-alpenblick.jpg',
       url: 'https://alpenblick-leukerbad.ch/',
       sector: { en: 'Thermenstrasse', fr: 'Thermenstrasse', de: 'Thermenstrasse' },
       facts: [
@@ -233,6 +238,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-croix-federale',
       name: 'Hotel de la Croix Fédérale',
+      photo: '/photos/hotels/leukerbad-croix-federale.jpg',
       url: 'https://www.croix-federale.ch/',
       sector: { en: 'Tuftstrasse / Gemmi side', fr: 'Tuftstrasse / côté Gemmi', de: 'Tuftstrasse / Gemmi-Seite' },
       facts: [
@@ -265,6 +271,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-astoria',
       name: 'Hotel Astoria',
+      photo: '/photos/hotels/leukerbad-astoria.jpg',
       url: 'https://www.astoria-leukerbad.ch/',
       sector: { en: 'Untere Maressenstrasse', fr: 'Untere Maressenstrasse', de: 'Untere Maressenstrasse' },
       facts: [
@@ -281,6 +288,7 @@ export const leukerbad: DestinationGuide = {
     {
       slug: 'leukerbad-waldhaus',
       name: 'Hotel Waldhaus',
+      photo: '/photos/hotels/leukerbad-waldhaus.jpg',
       url: 'https://www.hotel-waldhaus.ch/',
       sector: { en: 'Promenade / Torrent', fr: 'Promenade / Torrent', de: 'Promenade / Torrent' },
       facts: [

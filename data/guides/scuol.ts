@@ -137,6 +137,7 @@ export const scuol: DestinationGuide = {
     {
       slug: 'scuol-belvedere',
       name: 'Hotel Belvedere',
+      photo: '/photos/hotels/scuol-belvedere.jpg',
       url: 'https://www.guardaval-scuol.ch/en/',
       sector: { en: 'The Stradun and the baths', fr: 'Le Stradun et les bains', de: 'Der Stradun und das Bad' },
       facts: [
@@ -153,6 +154,7 @@ export const scuol: DestinationGuide = {
     {
       slug: 'scuol-guardaval',
       name: 'Engadiner Boutique-Hotel GuardaVal',
+      photo: '/photos/hotels/scuol-guardaval.jpg',
       url: 'https://www.guardaval-scuol.ch/en/',
       sector: { en: 'The old village quarters', fr: 'Les vieux quartiers du village', de: 'Die alten Dorfquartiere' },
       facts: [
@@ -169,6 +171,7 @@ export const scuol: DestinationGuide = {
     {
       slug: 'scuol-belvair',
       name: 'Badehotel Belvair',
+      photo: '/photos/hotels/scuol-belvair.jpg',
       url: 'https://www.guardaval-scuol.ch/en/',
       sector: { en: 'The Stradun and the baths', fr: 'Le Stradun et les bains', de: 'Der Stradun und das Bad' },
       facts: [
@@ -184,6 +187,7 @@ export const scuol: DestinationGuide = {
     {
       slug: 'scuol-astras',
       name: 'Hotel Astras',
+      photo: '/photos/hotels/scuol-astras.jpg',
       url: 'https://www.bognengiadina.ch/en',
       sector: { en: 'The Stradun and the baths', fr: 'Le Stradun et les bains', de: 'Der Stradun und das Bad' },
       facts: [
@@ -199,6 +203,7 @@ export const scuol: DestinationGuide = {
     {
       slug: 'scuol-arnica',
       name: 'Hotel Arnica Scuol, Adults Only',
+      photo: '/photos/hotels/scuol-arnica.jpg',
       url: 'https://www.arnica-scuol.ch/en/',
       sector: { en: 'The Stradun and the baths', fr: 'Le Stradun et les bains', de: 'Der Stradun und das Bad' },
       facts: [
@@ -215,6 +220,7 @@ export const scuol: DestinationGuide = {
     {
       slug: 'scuol-uja',
       name: 'Boutique Hotel ÜJA',
+      photo: '/photos/hotels/scuol-uja.jpg',
       url: 'https://www.uja-scuol.ch/',
       sector: { en: 'The old village quarters', fr: 'Les vieux quartiers du village', de: 'Die alten Dorfquartiere' },
       facts: [

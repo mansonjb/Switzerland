@@ -93,6 +93,16 @@ const HOTELS = [
   { slug: "grachen-walliserhof", name: "Boutique Hotel Walliserhof Grächen" },
   { slug: "grachen-desiree", name: "Family Hotel Desirée Grächen" },
   { slug: "grachen-alpina", name: "B&B Hotel Alpina Grächen" },
+  { slug: "brienz-brienzerburli", name: "Hotel Brienzerburli Brienz" },
+  { slug: "brienz-baeren", name: "Seehotel Bären Brienz" },
+  { slug: "brienz-giessbach", name: "Grandhotel Giessbach Brienz" },
+  { slug: "flims-waldhaus", name: "Waldhaus Flims Grand Hotel, Via dil Parc 3, Flims Waldhaus" },
+  { slug: "flims-schweizerhof", name: "Schweizerhof Flims Romantik Hotel" },
+  { slug: "scuol-belvedere", name: "Hotel Belvedere Scuol" },
+  { slug: "scuol-guardaval", name: "Engadiner Boutique-Hotel GuardaVal Scuol" },
+  { slug: "scuol-belvair", name: "Badehotel Belvair Scuol" },
+  { slug: "scuol-uja", name: "Boutique Hotel ÜJA Scuol" },
+  { slug: "leukerbad-waldhaus", name: "Hotel Restaurant Waldhaus Leukerbad" },
 ];
 
 async function loadToken() {

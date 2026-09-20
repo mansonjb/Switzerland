@@ -152,6 +152,7 @@ export const flims: DestinationGuide = {
     {
       slug: 'flims-adula',
       name: 'Hotel Adula',
+      photo: '/photos/hotels/flims-adula.jpg',
       url: 'https://www.adula.ch/en/',
       sector: { en: 'Flims Waldhaus', fr: 'Flims Waldhaus', de: 'Flims Waldhaus' },
       facts: [
@@ -168,6 +169,7 @@ export const flims: DestinationGuide = {
     {
       slug: 'flims-schweizerhof',
       name: 'Schweizerhof Flims, Romantik Hotel',
+      photo: '/photos/hotels/flims-schweizerhof.jpg',
       url: 'https://www.schweizerhof-flims.ch/en/',
       sector: { en: 'Flims Waldhaus', fr: 'Flims Waldhaus', de: 'Flims Waldhaus' },
       facts: [
@@ -184,6 +186,7 @@ export const flims: DestinationGuide = {
     {
       slug: 'flims-vorab',
       name: 'Hotel Vorab',
+      photo: '/photos/hotels/flims-vorab.jpg',
       url: 'https://www.hotelvorab.ch/en/',
       sector: { en: 'Flims Dorf', fr: 'Flims Dorf', de: 'Flims Dorf' },
       facts: [
@@ -200,6 +203,7 @@ export const flims: DestinationGuide = {
     {
       slug: 'flims-fidazerhof',
       name: 'FidazerHof',
+      photo: '/photos/hotels/flims-fidazerhof.jpg',
       url: 'https://www.fidazerhof.ch/',
       sector: { en: 'Fidaz', fr: 'Fidaz', de: 'Fidaz' },
       facts: [

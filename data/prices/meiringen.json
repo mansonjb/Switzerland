@@ -1,0 +1,135 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "meiringen-sauvage",
+      "bookingName": "Parkhotel du Sauvage",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/du-sauvage.en-gb.html",
+      "address": "Bahnhofstrasse 30, 3860 Meiringen, Switzerland",
+      "prices": {
+        "2027-01-20": 289,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 289,
+        "avg": 290,
+        "samples": 1
+      },
+      "winter": {
+        "from": 289,
+        "avg": 290,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "meiringen-victoria",
+      "bookingName": "Victoria - Alpine Boutique Hotel & Fine Dining",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/victoria-meiringen.en-gb.html",
+      "address": "Bahnhofplatz 9, 3860 Meiringen, Switzerland",
+      "prices": {
+        "2027-01-20": 213,
+        "2027-07-21": 297,
+        "2027-09-08": 288,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 213,
+        "avg": 265,
+        "samples": 3
+      },
+      "winter": {
+        "from": 213,
+        "avg": 215,
+        "samples": 1
+      },
+      "summer": {
+        "from": 288,
+        "avg": 295,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "meiringen-alpbach",
+      "bookingName": "Hotel Alpbach",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpbach.en-gb.html",
+      "address": "Kirchgasse 17, 3860 Meiringen, Switzerland",
+      "prices": {
+        "2027-01-20": 278,
+        "2027-07-21": 278,
+        "2027-09-08": 278,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 278,
+        "avg": 280,
+        "samples": 3
+      },
+      "winter": {
+        "from": 278,
+        "avg": 280,
+        "samples": 1
+      },
+      "summer": {
+        "from": 278,
+        "avg": 280,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "meiringen-dakota",
+      "bookingName": "Hotel Dakota",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/dakota.en-gb.html",
+      "address": "Amthausgasse 2, 3860 Meiringen, Switzerland",
+      "prices": {
+        "2027-01-20": 233,
+        "2027-07-21": 334,
+        "2027-09-08": 284,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 233,
+        "avg": 285,
+        "samples": 3
+      },
+      "winter": {
+        "from": 233,
+        "avg": 235,
+        "samples": 1
+      },
+      "summer": {
+        "from": 284,
+        "avg": 310,
+        "samples": 2
+      }
+    }
+  ]
+}

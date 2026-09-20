@@ -137,6 +137,7 @@ export const meiringen: DestinationGuide = {
     {
       slug: 'meiringen-sauvage',
       name: 'Parkhotel du Sauvage',
+      photo: '/photos/hotels/meiringen-sauvage.jpg',
       url: 'https://www.sauvage.ch/en/',
       sector: { en: 'Village centre, Bahnhofstrasse', fr: 'Centre du village, Bahnhofstrasse', de: 'Dorfzentrum, Bahnhofstrasse' },
       facts: [
@@ -153,6 +154,7 @@ export const meiringen: DestinationGuide = {
     {
       slug: 'meiringen-victoria',
       name: 'Victoria, Alpine Boutique Hotel & Fine Dining',
+      photo: '/photos/hotels/meiringen-victoria.jpg',
       url: 'https://www.victoria-meiringen.ch/',
       sector: { en: 'Village centre', fr: 'Centre du village', de: 'Dorfzentrum' },
       facts: [
@@ -168,6 +170,7 @@ export const meiringen: DestinationGuide = {
     {
       slug: 'meiringen-alpbach',
       name: 'Hotel Alpbach',
+      photo: '/photos/hotels/meiringen-alpbach.jpg',
       url: 'https://www.alpbach.ch/',
       sector: { en: 'Village centre, Kirchgasse', fr: 'Centre du village, Kirchgasse', de: 'Dorfzentrum, Kirchgasse' },
       facts: [
@@ -183,6 +186,7 @@ export const meiringen: DestinationGuide = {
     {
       slug: 'meiringen-dakota',
       name: 'Hotel Dakota',
+      photo: '/photos/hotels/meiringen-dakota.jpg',
       url: 'https://hoteldakota.ch/',
       sector: { en: 'Village centre, Amthausgasse', fr: 'Centre du village, Amthausgasse', de: 'Dorfzentrum, Amthausgasse' },
       facts: [

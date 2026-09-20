@@ -137,6 +137,7 @@ export const thun: DestinationGuide = {
     {
       slug: 'thun-krone',
       name: 'Hotel Krone',
+      photo: '/photos/hotels/thun-krone.jpg',
       url: 'https://www.brienzersee.ch/hotel/hotel-krone-thun',
       sector: { en: 'Old Town, Obere Hauptgasse', fr: 'Vieille ville, Obere Hauptgasse', de: 'Altstadt, Obere Hauptgasse' },
       facts: [
@@ -152,6 +153,7 @@ export const thun: DestinationGuide = {
     {
       slug: 'thun-aare',
       name: 'Hotel Aare',
+      photo: '/photos/hotels/thun-aare.jpg',
       url: 'https://www.brienzersee.ch/hotel/hotel-aare-thun',
       sector: { en: 'Station, Freienhofgasse', fr: 'Gare, Freienhofgasse', de: 'Bahnhof, Freienhofgasse' },
       facts: [
@@ -167,6 +169,7 @@ export const thun: DestinationGuide = {
     {
       slug: 'thun-emmental',
       name: 'Hotel Emmental',
+      photo: '/photos/hotels/thun-emmental.jpg',
       url: 'https://www.brienzersee.ch/hotel/hotel-emmental',
       sector: { en: 'Station, Bernstrasse', fr: 'Gare, Bernstrasse', de: 'Bahnhof, Bernstrasse' },
       facts: [
@@ -182,6 +185,7 @@ export const thun: DestinationGuide = {
     {
       slug: 'thun-seepark',
       name: 'Hotel Seepark',
+      photo: '/photos/hotels/thun-seepark.jpg',
       url: 'https://www.brienzersee.ch/hotel/hotel-seepark',
       sector: { en: 'Lakeside, Schadau Park', fr: 'Bord du lac, Schadaupark', de: 'Seelage, Schadaupark' },
       facts: [
@@ -197,6 +201,7 @@ export const thun: DestinationGuide = {
     {
       slug: 'thun-alpha',
       name: 'Hotel Alpha',
+      photo: '/photos/hotels/thun-alpha.jpg',
       url: 'https://www.brienzersee.ch/hotel/alpha-thun',
       sector: { en: 'Lakeside, Gwattstrasse', fr: 'Bord du lac, Gwattstrasse', de: 'Seelage, Gwattstrasse' },
       facts: [
@@ -418,9 +423,9 @@ export const thun: DestinationGuide = {
     {
       q: { en: 'How far is Thun from Bern?', fr: 'À quelle distance Thoune se trouve-t-elle de Berne ?', de: 'Wie weit ist Thun von Bern entfernt?' },
       a: {
-        en: 'Thun is 19 minutes from Bern by direct train. That is close enough to treat Bern as a half-day trip without changing where you sleep.',
-        fr: 'Thoune se trouve à 19 minutes de Berne en train direct. C’est assez proche pour traiter Berne comme une excursion d’une demi-journée sans changer d’hébergement.',
-        de: 'Thun liegt 19 Minuten von Bern entfernt, mit dem direkten Zug. Das ist nah genug, um Bern als Halbtagesausflug zu behandeln, ohne die Unterkunft zu wechseln.',
+        en: 'Thun is 19 minutes from Bern by direct train. That is close enough to treat Bern as a half-day trip without changing where you sleep, and the hotels here are priced like a lakeside town rather than a capital, so the night costs less than the same night in Bern.',
+        fr: 'Thoune se trouve à 19 minutes de Berne en train direct. C’est assez proche pour traiter Berne comme une excursion d’une demi-journée sans changer d’hébergement, et les hôtels d’ici se paient au tarif d’une ville au bord du lac plutôt qu’à celui d’une capitale, donc la nuit revient moins cher qu’à Berne.',
+        de: 'Thun liegt 19 Minuten von Bern entfernt, mit dem direkten Zug. Das ist nah genug, um Bern als Halbtagesausflug zu behandeln, ohne die Unterkunft zu wechseln, und die Hotels hier kosten wie in einer Stadt am See und nicht wie in einer Hauptstadt, die Nacht ist also günstiger als in Bern.',
       },
     },
     {
@@ -442,9 +447,9 @@ export const thun: DestinationGuide = {
     {
       q: { en: 'How old is Thun as a city?', fr: 'Depuis quand Thoune est-elle une ville ?', de: 'Wie alt ist Thun als Stadt?' },
       a: {
-        en: 'Countess Elisabeth of Kyburg granted city rights in 1264; the old town, castle and city church were already built earlier by the Dukes of Zähringen.',
-        fr: 'La comtesse Élisabeth de Kybourg lui accorda les droits de cité en 1264 ; la vieille ville, le château et l’église de la ville avaient déjà été bâtis plus tôt par les ducs de Zähringen.',
-        de: 'Gräfin Elisabeth von Kyburg erteilte 1264 die Stadtrechte; Altstadt, Schloss und Stadtkirche waren bereits früher von den Herzögen von Zähringen erbaut worden.',
+        en: 'Countess Elisabeth of Kyburg granted city rights in 1264, and the old town, castle and city church were already built earlier by the Dukes of Zähringen. That is why the centre still reads as a medieval plan, with the arcaded Obere Hauptgasse and its raised walkways under the castle, so the sightseeing here is done on foot in an afternoon rather than by bus.',
+        fr: 'La comtesse Élisabeth de Kybourg lui accorda les droits de cité en 1264, et la vieille ville, le château et l’église de la ville avaient déjà été bâtis plus tôt par les ducs de Zähringen. D’où un centre qui se lit encore comme un plan médiéval, avec les arcades de l’Obere Hauptgasse et ses trottoirs surélevés sous le château : la visite se fait à pied en un après-midi, pas en bus.',
+        de: 'Gräfin Elisabeth von Kyburg erteilte 1264 die Stadtrechte, und Altstadt, Schloss und Stadtkirche waren bereits früher von den Herzögen von Zähringen erbaut worden. Deshalb liest sich das Zentrum noch als mittelalterlicher Grundriss, mit den Läuben der Oberen Hauptgasse und ihren erhöhten Trottoirs unter dem Schloss, und die Besichtigung geschieht zu Fuss an einem Nachmittag statt mit dem Bus.',
       },
     },
     {

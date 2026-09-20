@@ -137,6 +137,7 @@ export const kandersteg: DestinationGuide = {
     {
       slug: 'kandersteg-waldhotel-doldenhorn',
       name: 'Waldhotel Doldenhorn',
+      photo: '/photos/hotels/kandersteg-waldhotel-doldenhorn.jpg',
       url: 'https://doldenhorn-ruedihus.ch/en/doldenhorn/',
       sector: { en: 'South end, Doldenhornstrasse', fr: 'Extrémité sud, Doldenhornstrasse', de: 'Südende, Doldenhornstrasse' },
       facts: [
@@ -153,6 +154,7 @@ export const kandersteg: DestinationGuide = {
     {
       slug: 'kandersteg-landgasthof-ruedihus',
       name: 'Landgasthof Ruedihus',
+      photo: '/photos/hotels/kandersteg-landgasthof-ruedihus.jpg',
       url: 'https://doldenhorn-ruedihus.ch/en/ruedihus/',
       sector: { en: 'South end, Hinder de Büele', fr: 'Extrémité sud, Hinder de Büele', de: 'Südende, Hinder de Büele' },
       facts: [
@@ -169,6 +171,7 @@ export const kandersteg: DestinationGuide = {
     {
       slug: 'kandersteg-chalet-hotel-adler',
       name: 'Chalet-Hotel Adler',
+      photo: '/photos/hotels/kandersteg-chalet-hotel-adler.jpg',
       url: 'https://www.chalethoteladler.ch/en/',
       sector: { en: 'Aeussere Dorfstrasse', fr: 'Aeussere Dorfstrasse', de: 'Aeussere Dorfstrasse' },
       facts: [
@@ -185,6 +188,7 @@ export const kandersteg: DestinationGuide = {
     {
       slug: 'kandersteg-belle-epoque-victoria',
       name: 'Belle Epoque Hotel Victoria',
+      photo: '/photos/hotels/kandersteg-belle-epoque-victoria.jpg',
       url: 'https://www.hotel-victoria.ch/en/',
       sector: { en: 'Aeussere Dorfstrasse', fr: 'Aeussere Dorfstrasse', de: 'Aeussere Dorfstrasse' },
       facts: [
@@ -201,6 +205,7 @@ export const kandersteg: DestinationGuide = {
     {
       slug: 'kandersteg-hotel-bernerhof',
       name: 'Hotel Bernerhof',
+      photo: '/photos/hotels/kandersteg-hotel-bernerhof.jpg',
       url: 'https://www.bernerhof.ch/',
       sector: { en: 'Aeussere Dorfstrasse', fr: 'Aeussere Dorfstrasse', de: 'Aeussere Dorfstrasse' },
       facts: [

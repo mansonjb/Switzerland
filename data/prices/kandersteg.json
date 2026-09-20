@@ -1,0 +1,166 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "kandersteg-waldhotel-doldenhorn",
+      "bookingName": "Waldhotel Doldenhorn",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/waldhotel-doldenhorn.en-gb.html",
+      "address": "Kandersteg, 3718 Kandersteg, Switzerland",
+      "prices": {
+        "2027-01-20": 383,
+        "2027-02-17": 383,
+        "2027-07-21": 383,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 383,
+        "avg": 385,
+        "samples": 3
+      },
+      "winter": {
+        "from": 383,
+        "avg": 385,
+        "samples": 2
+      },
+      "summer": {
+        "from": 383,
+        "avg": 385,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "kandersteg-landgasthof-ruedihus",
+      "bookingName": "Landgasthof Ruedihus",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/landgasthof-ruedihus.en-gb.html",
+      "address": "Ruedihusweg 37/8, 3718 Kandersteg, Switzerland",
+      "prices": {
+        "2027-01-20": 298,
+        "2027-02-17": 298,
+        "2027-07-21": 298,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 298,
+        "avg": 300,
+        "samples": 3
+      },
+      "winter": {
+        "from": 298,
+        "avg": 300,
+        "samples": 2
+      },
+      "summer": {
+        "from": 298,
+        "avg": 300,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "kandersteg-chalet-hotel-adler",
+      "bookingName": "Chalet Hotel Adler",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/chalet-adler.en-gb.html",
+      "address": "Aeussere Dorfstrasse 19, 3718 Kandersteg, Switzerland",
+      "prices": {
+        "2027-01-20": 141,
+        "2027-02-17": 168,
+        "2027-07-21": 186,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 141,
+        "avg": 165,
+        "samples": 3
+      },
+      "winter": {
+        "from": 141,
+        "avg": 155,
+        "samples": 2
+      },
+      "summer": {
+        "from": 186,
+        "avg": 185,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "kandersteg-belle-epoque-victoria",
+      "bookingName": "Belle Epoque Hotel Victoria & Apartments",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/victoria-ritter.en-gb.html",
+      "address": "Äussere Dorfstrasse 2, 3718 Kandersteg, Switzerland",
+      "prices": {
+        "2027-01-20": 193,
+        "2027-02-17": 218,
+        "2027-07-21": 218,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 193,
+        "avg": 210,
+        "samples": 3
+      },
+      "winter": {
+        "from": 193,
+        "avg": 205,
+        "samples": 2
+      },
+      "summer": {
+        "from": 218,
+        "avg": 220,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "kandersteg-hotel-bernerhof",
+      "bookingName": "Bernerhof Swiss Quality Hotel",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swissqbernerhof.en-gb.html",
+      "address": "Aeussere Dorfstrasse 37, 3718 Kandersteg, Switzerland",
+      "prices": {
+        "2027-01-20": 193,
+        "2027-02-17": 193,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 193,
+        "avg": 195,
+        "samples": 2
+      },
+      "winter": {
+        "from": 193,
+        "avg": 195,
+        "samples": 2
+      },
+      "summer": null
+    }
+  ]
+}

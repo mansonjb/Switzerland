@@ -1,0 +1,96 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "flims-adula",
+      "bookingName": "Hotel Adula",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/wellnesshoteladula.en-gb.html",
+      "address": "Via Sorts Sut 3, 7018 Flims, Switzerland",
+      "prices": {
+        "2027-01-20": 458,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 458,
+        "avg": 460,
+        "samples": 1
+      },
+      "winter": {
+        "from": 458,
+        "avg": 460,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "flims-vorab",
+      "bookingName": "Hotel Vorab - Familienbetrieb mit Herz",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/vorab.en-gb.html",
+      "address": "Via Nova 38, 7017 Flims, Switzerland",
+      "prices": {
+        "2027-01-20": 297,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 297,
+        "avg": 295,
+        "samples": 1
+      },
+      "winter": {
+        "from": 297,
+        "avg": 295,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "flims-fidazerhof",
+      "bookingName": "FidazerHof",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/fidazerhof.en-gb.html",
+      "address": "Via da Fidaz 34, 7019 Flims, Switzerland",
+      "prices": {
+        "2027-01-20": 243,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 243,
+        "avg": 245,
+        "samples": 1
+      },
+      "winter": {
+        "from": 243,
+        "avg": 245,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

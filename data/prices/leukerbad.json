@@ -1,0 +1,247 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "leukerbad-le-bristol",
+      "bookingName": "Le Bristol Leukerbad",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/mercure-bristol-leukerbad.en-gb.html",
+      "address": "Thermenstrasse 95, 3954 Leukerbad, Switzerland",
+      "prices": {
+        "2027-01-20": 284,
+        "2027-07-21": 268,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 268,
+        "avg": 275,
+        "samples": 2
+      },
+      "winter": {
+        "from": 284,
+        "avg": 285,
+        "samples": 1
+      },
+      "summer": {
+        "from": 268,
+        "avg": 270,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "leukerbad-regina-terme",
+      "bookingName": "Hotel Regina Terme",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/regina-terme.en-gb.html",
+      "address": "Klibenstrasse 35, 3954 Leukerbad, Switzerland",
+      "prices": {
+        "2027-01-20": 140,
+        "2027-02-17": 150,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 140,
+        "avg": 145,
+        "samples": 2
+      },
+      "winter": {
+        "from": 140,
+        "avg": 145,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "leukerbad-thermalhotel-de-france",
+      "bookingName": "Thermalhotel De France",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/de-france-by-thermalhotels.en-gb.html",
+      "address": "1 Dorfplatz, 3954 Leukerbad, Switzerland",
+      "prices": {
+        "2027-01-20": 271,
+        "2027-02-17": 295,
+        "2027-07-21": 260,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 260,
+        "avg": 275,
+        "samples": 3
+      },
+      "winter": {
+        "from": 271,
+        "avg": 285,
+        "samples": 2
+      },
+      "summer": {
+        "from": 260,
+        "avg": 260,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "leukerbad-therme-51",
+      "bookingName": "Therme 51° Hotel Physio & Spa",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/kur-ferienhaus-volksheilbad.en-gb.html",
+      "address": "Kurparkstrasse 49, 3954 Leukerbad, Switzerland",
+      "prices": {
+        "2027-01-20": 291,
+        "2027-07-21": 288,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 288,
+        "avg": 290,
+        "samples": 2
+      },
+      "winter": {
+        "from": 291,
+        "avg": 290,
+        "samples": 1
+      },
+      "summer": {
+        "from": 288,
+        "avg": 290,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "leukerbad-alpenblick",
+      "bookingName": "Hotel Alpenblick-Leukerbad-Therme",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpenblick-leukerbad1.en-gb.html",
+      "address": "Thermenstrasse 68, 3954 Leukerbad, Switzerland",
+      "prices": {
+        "2027-01-20": 242,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 242,
+        "avg": 240,
+        "samples": 1
+      },
+      "winter": {
+        "from": 242,
+        "avg": 240,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "leukerbad-croix-federale",
+      "bookingName": "Hotel de la Croix-Fédérale",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/de-la-croix-federale.en-gb.html",
+      "address": "KIRCHSTRASSE 83, 3954 Leukerbad, Switzerland",
+      "prices": {
+        "2027-01-20": 181,
+        "2027-02-17": 201,
+        "2027-07-21": 181,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 181,
+        "avg": 190,
+        "samples": 3
+      },
+      "winter": {
+        "from": 181,
+        "avg": 190,
+        "samples": 2
+      },
+      "summer": {
+        "from": 181,
+        "avg": 180,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "leukerbad-astoria",
+      "bookingName": "Hotel Astoria",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/astoria-leukerbad.en-gb.html",
+      "address": "Untere Maressenstrasse 38, 3954 Leukerbad, Switzerland",
+      "prices": {
+        "2027-01-20": 222,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 222,
+        "avg": 220,
+        "samples": 1
+      },
+      "winter": {
+        "from": 222,
+        "avg": 220,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "leukerbad-waldhaus",
+      "bookingName": "Hotel Restaurant Waldhaus",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/waldhaus.en-gb.html",
+      "address": "Promenade 25, 3954 Leukerbad, Switzerland",
+      "prices": {
+        "2027-01-20": 287,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 287,
+        "avg": 285,
+        "samples": 1
+      },
+      "winter": {
+        "from": 287,
+        "avg": 285,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

@@ -137,6 +137,7 @@ export const brienz: DestinationGuide = {
     {
       slug: 'brienz-weisses-kreuz',
       name: 'Hotel Weisses Kreuz',
+      photo: '/photos/hotels/brienz-weisses-kreuz.jpg',
       url: 'https://www.weisseskreuz-brienz.ch/en/',
       sector: { en: 'Hauptstrasse, on the lake', fr: 'Hauptstrasse, au bord du lac', de: 'Hauptstrasse, am See' },
       facts: [
@@ -153,6 +154,7 @@ export const brienz: DestinationGuide = {
     {
       slug: 'brienz-brienzerburli',
       name: 'Hotel Brienzerburli',
+      photo: '/photos/hotels/brienz-brienzerburli.jpg',
       url: 'https://www.brienzerburli.ch/en/',
       sector: { en: 'Hauptstrasse, on the lake', fr: 'Hauptstrasse, au bord du lac', de: 'Hauptstrasse, am See' },
       facts: [
@@ -169,6 +171,7 @@ export const brienz: DestinationGuide = {
     {
       slug: 'brienz-baeren',
       name: 'Seehotel Bären',
+      photo: '/photos/hotels/brienz-baeren.jpg',
       url: 'https://baeren-brienz.ch/en/',
       sector: { en: 'Hauptstrasse, on the lake', fr: 'Hauptstrasse, au bord du lac', de: 'Hauptstrasse, am See' },
       facts: [
@@ -184,6 +187,7 @@ export const brienz: DestinationGuide = {
     {
       slug: 'brienz-lindenhof',
       name: 'Hotel Lindenhof',
+      photo: '/photos/hotels/brienz-lindenhof.jpg',
       url: 'https://hotel-lindenhof.ch/en/',
       sector: { en: 'Above the village, in the park', fr: 'Au-dessus du village, dans le parc', de: 'Oberhalb des Dorfes, im Park' },
       facts: [
@@ -200,6 +204,7 @@ export const brienz: DestinationGuide = {
     {
       slug: 'brienz-giessbach',
       name: 'Grandhotel Giessbach',
+      photo: '/photos/hotels/brienz-giessbach.jpg',
       url: 'https://www.giessbach.ch/en/',
       sector: { en: 'Giessbach, the south shore', fr: 'Giessbach, la rive sud', de: 'Giessbach, das Südufer' },
       facts: [
