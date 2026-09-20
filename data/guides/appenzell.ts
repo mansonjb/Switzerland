@@ -27,9 +27,9 @@ export const appenzell: DestinationGuide = {
   },
   snapshot: {
     why: {
-      en: 'Because few Swiss villages still put direct democracy on the doorstep: the Landsgemeinde has been documented here since 1403, and every hotel on the square sits within sight of the vote. A cable car eight minutes from nearby Brülisau then adds a summit at 1794 m, with views the operator describes as reaching six countries.',
-      fr: 'Parce que peu de villages suisses gardent la démocratie directe à leur porte : la Landsgemeinde est documentée ici depuis 1403, et chaque hôtel de la place se trouve à portée de vue du vote. Un téléphérique, à huit minutes du proche Brülisau, ajoute ensuite un sommet à 1794 m, avec des vues que l’exploitant annonce comme portant jusqu’à six pays.',
-      de: 'Weil nur wenige Schweizer Dörfer die direkte Demokratie noch vor der Haustür haben: Die Landsgemeinde ist hier seit 1403 belegt, und jedes Hotel am Platz liegt in Sichtweite der Abstimmung. Eine Seilbahn, acht Minuten ab dem nahen Brülisau, fügt dazu einen Gipfel auf 1794 m hinzu, mit Aussicht, die der Betreiber auf sechs Länder angibt.',
+      en: 'Because the vote still happens in the open air here: the Landsgemeinde has been documented in Appenzell since 1403, it is held every last Sunday of April on the Landsgemeindeplatz, and every hotel on the square sits within sight of it. A cable car eight minutes from nearby Brülisau then adds a summit at 1794 m, with views the operator describes as reaching six countries.',
+      fr: 'Parce que le vote se tient encore en plein air : la Landsgemeinde est documentée à Appenzell depuis 1403, elle a lieu chaque dernier dimanche d’avril sur la Landsgemeindeplatz, et chaque hôtel de la place se trouve à portée de vue. Un téléphérique, à huit minutes du proche Brülisau, ajoute ensuite un sommet à 1794 m, avec des vues que l’exploitant annonce comme portant jusqu’à six pays.',
+      de: 'Weil hier noch unter freiem Himmel abgestimmt wird: Die Landsgemeinde ist in Appenzell seit 1403 belegt, sie findet jeden letzten Sonntag im April auf der Landsgemeindeplatz statt, und jedes Hotel am Platz liegt in Sichtweite. Eine Seilbahn, acht Minuten ab dem nahen Brülisau, fügt dazu einen Gipfel auf 1794 m hinzu, mit Aussicht, die der Betreiber auf sechs Länder angibt.',
     },
     where: {
       en: 'On the square itself: Hotel Säntis and Hotel Appenzell, both open directly onto the Landsgemeindeplatz. In the village centre, a short walk away: Hotel Hecht and Hotel Löwen, around Hauptgasse and Hirschengasse.',
