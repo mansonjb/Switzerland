@@ -89,6 +89,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
   }
 
   const priceFile = getPriceFile(slug)
+  const geo = { lang, lat: dest.lat, lng: dest.lng }
   const tierOrder = { budget: 0, mid: 1, premium: 2 }
   const hotelViews: HotelView[] = guide.hotels
     .filter((h) => h.photo)
@@ -165,7 +166,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
                 <h2 className="m-0 font-display text-[28px] font-semibold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[40px]">{fill(d.sell.liveMap, { place: name })}</h2>
                 <p className="mb-0 mt-2 text-[15px] leading-relaxed text-muted">{d.sell.liveMapSub}</p>
               </div>
-              <PlaceButton place={name} placement={`${slug}-map`} label={fill(d.sell.seeAll, { place: name })} variant="outline" />
+              <PlaceButton place={name} placement={`${slug}-map`} label={fill(d.sell.seeAll, { place: name })} variant="outline" geo={geo} />
             </div>
             <div className="mt-5 md:mt-6">
               <LiveMap lat={dest.lat} lng={dest.lng} placement={`${slug}-map`} lang={lang} title={fill(d.sell.hotelsIn, { place: name })} loadLabel={d.mapLoad} />
@@ -214,12 +215,12 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
 
         {/* 4. Hotels: tiers, dated prices following the season */}
         <Section id="hotels" title={fill(d.sell.hotels.title, { count: String(hotelViews.length), place: name })}>
-          <HotelsBrowser hotels={hotelViews} place={name} labels={d.sell.hotels} />
+          <HotelsBrowser hotels={hotelViews} place={name} labels={d.sell.hotels} geo={geo} />
           <div className="mt-6 flex flex-col items-start justify-between gap-4 border-t border-rule pt-5 md:flex-row md:items-center">
             <p className="m-0 text-[13px] leading-normal text-muted md:text-sm">
               {priceFile ? fill(d.sell.hotels.note, { winter: String(priceFile.winterDates.length), summer: String(priceFile.summerDates.length), date: new Intl.DateTimeFormat(lang, { dateStyle: 'long' }).format(new Date(`${priceFile.scrapedOn}T12:00`)) }) : T(guide.hotelsNote)} {d.affiliateShort}
             </p>
-            <PlaceButton place={name} placement={`${slug}-hotels`} label={fill(d.sell.seeAll, { place: name })} />
+            <PlaceButton place={name} placement={`${slug}-hotels`} label={fill(d.sell.seeAll, { place: name })} geo={geo} />
           </div>
         </Section>
 
@@ -265,7 +266,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
         )}
 
         <CtaBand title={fill(d.sell.ctaBandTitle, { place: name })} text={d.sell.ctaBandText}>
-          <PlaceButton place={name} placement={`${slug}-band`} label={fill(d.sell.seeAll, { place: name })} />
+          <PlaceButton place={name} placement={`${slug}-band`} label={fill(d.sell.seeAll, { place: name })} geo={geo} />
         </CtaBand>
 
         {guide.calendar && (

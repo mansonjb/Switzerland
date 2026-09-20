@@ -80,7 +80,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
 
         {/* 1. Hero + search */}
         <PhotoHero photo="/photos/wengen-hero.jpg" alt={T(wengen.hero.caption)} credit={wengen.hero.credit}>
-          <div className="text-[13px] font-medium uppercase tracking-[0.08em] text-white/75 md:text-sm">{T({ en: 'Independent guide · 15 destinations', fr: 'Guide indépendant · 15 destinations', de: 'Unabhängiger Reiseführer · 15 Reiseziele' })}</div>
+          <div className="text-[13px] font-medium uppercase tracking-[0.08em] text-white/75 md:text-sm">{T({ en: `Independent guide · ${liveSlugs.length} destinations`, fr: `Guide indépendant · ${liveSlugs.length} destinations`, de: `Unabhängiger Reiseführer · ${liveSlugs.length} Reiseziele` })}</div>
           <h1 className="m-0 mt-3 font-display text-[48px] font-bold uppercase leading-[0.94] tracking-[0.01em] text-white md:text-[80px] lg:text-[104px]">{T(home.title)}</h1>
           <p className="mb-0 mt-4 text-lg leading-normal text-white md:mt-6 md:text-xl">{T(home.intro)}</p>
           <BookingPanel>
@@ -136,13 +136,13 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
                       <div className="truncate text-[13px] text-muted">{T(h.sector)}{getHotelPrice('wengen', h.slug)?.all ? ` · ${d.sell.hotels.from} CHF ${getHotelPrice('wengen', h.slug)!.all!.from}` : ''}</div>
                     </div>
                     <div className="w-[108px] shrink-0 md:w-[130px]">
-                      <HotelButton hotel={h.name} place={wengenName} label={d.sell.checkPrices} primary={false} />
+                      <HotelButton hotel={h.name} place={wengenName} label={d.sell.checkPrices} primary={false} geo={{ lang, lat: wengenDest.lat, lng: wengenDest.lng }} />
                     </div>
                   </li>
                 ))}
               </ul>
               <div className="mt-5 flex flex-wrap gap-3">
-                <PlaceButton place={wengenName} placement="home-featured" label={fill(d.sell.seeAll, { place: wengenName })} />
+                <PlaceButton place={wengenName} placement="home-featured" label={fill(d.sell.seeAll, { place: wengenName })} geo={{ lang, lat: wengenDest.lat, lng: wengenDest.lng }} />
                 <OutlineLink href={localePath(lang, '/wengen')}>{d.sell.readGuide}</OutlineLink>
               </div>
             </div>
@@ -186,7 +186,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
                       <td className="p-4 font-display text-2xl font-bold tabular-nums text-ink">{r.fromZurich}</td>
                       <td className="p-4 text-[15px] text-ink">{T(r.why)}</td>
                       <td className="py-4 pr-4 text-right">
-                        <PlaceButton place={T(r.bases).split(',')[0]} placement={`home-region-${r.slug}`} label={d.sell.checkPrices} variant="outline" />
+                        <PlaceButton place={T(r.bases).split(',')[0]} placement={`home-region-${r.slug}`} label={d.sell.checkPrices} variant="outline" geo={{ lang }} />
                       </td>
                     </tr>
                   )
@@ -215,7 +215,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
         </Section>
 
         <CtaBand title={T({ en: 'Know where you are going? See what is still available.', fr: 'Vous savez où aller ? Voyez ce qui est encore libre.', de: 'Wissen Sie, wohin? Sehen Sie, was noch frei ist.' })} text={d.sell.ctaBandText}>
-          <PlaceButton place="" placement="home-band" label={T({ en: 'Hotels in Switzerland', fr: 'Hôtels en Suisse', de: 'Hotels in der Schweiz' })} variant="white" />
+          <PlaceButton place="" placement="home-band" label={T({ en: 'Hotels in Switzerland', fr: 'Hôtels en Suisse', de: 'Hotels in der Schweiz' })} variant="white" geo={{ lang }} />
         </CtaBand>
 
         {/* 8. Car-free and pass */}

@@ -160,11 +160,13 @@ export function StayFinder({ places, labels, lang, tone = 'light' }: { places: P
 }
 
 /** Button to one hotel, carrying the page dates. */
-export function HotelButton({ hotel, place, label, primary = true }: { hotel: string; place: string; label: string; primary?: boolean }) {
+export type Geo = { lang?: string; lat?: number; lng?: number }
+
+export function HotelButton({ hotel, place, label, primary = true, geo }: { hotel: string; place: string; label: string; primary?: boolean; geo?: Geo }) {
   const [dates] = useStayDates()
   return (
     <a
-      href={allezHotelLink(hotel, place, 'hotel-card', dates)}
+      href={allezHotelLink(hotel, place, 'hotel-card', dates, geo)}
       target="_blank"
       rel="sponsored nofollow noopener"
       className={
@@ -180,7 +182,7 @@ export function HotelButton({ hotel, place, label, primary = true }: { hotel: st
 }
 
 /** Button to every place to stay in a destination, carrying the page dates. */
-export function PlaceButton({ place, placement, label, variant = 'red' }: { place: string; placement: string; label: string; variant?: 'red' | 'outline' | 'white' }) {
+export function PlaceButton({ place, placement, label, variant = 'red', geo }: { place: string; placement: string; label: string; variant?: 'red' | 'outline' | 'white'; geo?: Geo }) {
   const [dates] = useStayDates()
   const cls = {
     red: 'bg-lake text-white shadow-[0_6px_16px_rgba(14,95,110,0.22)] hover:bg-lake-dark',
@@ -188,7 +190,7 @@ export function PlaceButton({ place, placement, label, variant = 'red' }: { plac
     white: 'bg-white text-ink hover:bg-lake hover:text-white',
   }[variant]
   return (
-    <a href={allezPlaceLink(place, placement, dates)} target="_blank" rel="sponsored nofollow noopener" className={`inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full px-6 py-3 text-[15px] font-bold no-underline transition-colors ${cls}`}>
+    <a href={allezPlaceLink(place, placement, dates, geo)} target="_blank" rel="sponsored nofollow noopener" className={`inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full px-6 py-3 text-[15px] font-bold no-underline transition-colors ${cls}`}>
       {label}
       <span aria-hidden>→</span>
     </a>

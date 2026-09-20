@@ -140,7 +140,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
                       ))}
                       <td className="p-4 text-[15px] leading-normal text-ink">{T(row.forWhom)}</td>
                       <td className="py-4 pr-4 text-right">
-                        <PlaceButton place={T(x.name)} placement={`${slug}-table`} label={d.sell.checkPrices} variant="outline" />
+                        <PlaceButton place={T(x.name)} placement={`${slug}-table`} label={d.sell.checkPrices} variant="outline" geo={{ lang, lat: x.lat, lng: x.lng }} />
                       </td>
                     </tr>
                   )
@@ -168,7 +168,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
                   </div>
                   <div className="mt-3 text-sm leading-normal text-ink">{T(row.forWhom)}</div>
                   <div className="mt-3 flex flex-wrap gap-2">
-                    <PlaceButton place={T(x.name)} placement={`${slug}-table`} label={d.sell.checkPrices} variant="outline" />
+                    <PlaceButton place={T(x.name)} placement={`${slug}-table`} label={d.sell.checkPrices} variant="outline" geo={{ lang, lat: x.lat, lng: x.lng }} />
                     {hasGuide(row.slug) && (
                       <Link href={localePath(lang, `/${row.slug}`)} className="inline-flex items-center px-3 py-3 text-[15px] font-medium text-lake no-underline">{d.sell.readGuide} →</Link>
                     )}
@@ -194,7 +194,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
                   <div className="mt-1.5 font-display text-[34px] font-bold uppercase leading-none tracking-[0.01em] text-ink">{T(x.name)}</div>
                   <p className="mb-4 mt-2.5 text-[15px] leading-relaxed text-ink">{T(v.reason)}</p>
                   <div className="mt-auto flex flex-col gap-2">
-                    <PlaceButton place={T(x.name)} placement={`${slug}-verdict`} label={fill(d.sell.hotelsIn, { place: T(x.name) })} />
+                    <PlaceButton place={T(x.name)} placement={`${slug}-verdict`} label={fill(d.sell.hotelsIn, { place: T(x.name) })} geo={{ lang, lat: x.lat, lng: x.lng }} />
                     {hasGuide(v.slug) && (
                       <Link href={localePath(lang, `/${v.slug}`)} className="py-1 text-center text-[15px] font-medium text-ink no-underline hover:text-lake">{d.sell.readGuide} →</Link>
                     )}
@@ -206,7 +206,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/regions/
         </Section>
 
         <CtaBand title={fill(d.sell.ctaBandTitle, { place: regionName })} text={d.sell.ctaBandText}>
-          <PlaceButton place={T(dests[1].name)} placement={`${slug}-band`} label={fill(d.sell.hotelsIn, { place: regionName })} />
+          <PlaceButton place={T(dests[1].name)} placement={`${slug}-band`} label={fill(d.sell.hotelsIn, { place: regionName })} geo={{ lang, lat: dests[1].lat, lng: dests[1].lng }} />
         </CtaBand>
 
         <NetworkLinks keyName={slug} locale={lang} title={d.sell.moreForTrip} />

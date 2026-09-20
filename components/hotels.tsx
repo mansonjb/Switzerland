@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
-import { HotelButton, useSeason, type Season } from './booking'
+import { HotelButton, useSeason, type Geo, type Season } from './booking'
 
 export type Tier = 'budget' | 'mid' | 'premium'
 
@@ -39,7 +39,7 @@ const TIER_STYLE: Record<Tier, string> = {
 
 const chf = (n: number) => `CHF ${n.toLocaleString('de-CH')}`
 
-export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; place: string; labels: HotelsLabels }) {
+export function HotelsBrowser({ hotels, place, labels, geo }: { hotels: HotelView[]; place: string; labels: HotelsLabels; geo?: Geo }) {
   const [season] = useSeason()
   const [tier, setTier] = useState<Tier | 'all'>('all')
   const tiers: Tier[] = ['budget', 'mid', 'premium']
@@ -110,7 +110,7 @@ export function HotelsBrowser({ hotels, place, labels }: { hotels: HotelView[]; 
                 </ul>
                 )}
                 <div className="mt-auto pt-2">
-                  <HotelButton hotel={h.name} place={place} label={labels.cta} />
+                  <HotelButton hotel={h.name} place={place} label={labels.cta} geo={geo} />
                 </div>
               </div>
             </article>
