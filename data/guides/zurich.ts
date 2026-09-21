@@ -120,11 +120,11 @@ export const zurich: DestinationGuide = {
       text: {
         en: 'Zurich West is the former industrial quarter along Pfingstweidstrasse, home to the 25hours Hotel Zurich West. On the old Hürlimann brewery site, the B2 Boutique Hotel gives direct access to the Hürlimannbad & Spa and its rooftop pool. The youth hostel sits further south, at Mutschellenstrasse 114.',
         fr: 'Zurich West est l’ancien quartier industriel le long de la Pfingstweidstrasse, où se trouve le 25hours Hotel Zurich West. Sur l’ancien site de la brasserie Hürlimann, le B2 Boutique Hotel donne un accès direct au Hürlimannbad & Spa et à sa piscine sur le toit. L’auberge de jeunesse se trouve plus au sud, Mutschellenstrasse 114.',
-        de: 'Zürich West ist das frühere Industriequartier entlang der Pfingstweidstrasse, wo das 25hours Hotel Zurich West liegt. Auf dem alten Hürlimann-Brauereiareal bietet das B2 Boutique Hotel direkten Zugang zum Hürlimannbad & Spa mit seinem Dach-Pool. Die Jugendherberge liegt weiter südlich, an der Mutschellenstrasse 114.',
+        de: 'Zürich West ist das frühere Industriequartier entlang der Pfingstweidstrasse, wo das 25hours Hotel Zürich West liegt. Auf dem alten Hürlimann-Brauereiareal bietet das B2 Boutique Hotel direkten Zugang zum Hürlimannbad & Spa mit seinem Dach-Pool. Die Jugendherberge liegt weiter südlich, an der Mutschellenstrasse 114.',
       },
       points: [
         { en: 'The B2 Boutique Hotel gives direct access to the Hürlimannbad & Spa rooftop pool', fr: 'Le B2 Boutique Hotel donne un accès direct à la piscine sur le toit du Hürlimannbad & Spa', de: 'Das B2 Boutique Hotel bietet direkten Zugang zum Dach-Pool des Hürlimannbad & Spa' },
-        { en: '25hours Hotel Zurich West is at Pfingstweidstrasse 102', fr: 'Le 25hours Hotel Zurich West se trouve Pfingstweidstrasse 102', de: 'Das 25hours Hotel Zurich West liegt an der Pfingstweidstrasse 102' },
+        { en: '25hours Hotel Zurich West is at Pfingstweidstrasse 102', fr: 'Le 25hours Hotel Zurich West se trouve Pfingstweidstrasse 102', de: 'Das 25hours Hotel Zürich West liegt an der Pfingstweidstrasse 102' },
       ],
       story: {
         en: 'Zurich West is the former industrial quarter along Pfingstweidstrasse, and the neighbouring Hürlimann Areal turns an old brewery site into a hotel with its own rooftop spa pool. It suits a stay built around contemporary design and the Hürlimannbad & Spa rather than the old town’s streets, and the youth hostel sits further south again, in Wollishofen. In exchange, both the lake quays and the old town sights are a longer walk or a tram ride away.',

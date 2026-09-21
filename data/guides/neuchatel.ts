@@ -63,7 +63,7 @@ export const neuchatel: DestinationGuide = {
       {
         en: 'Neuchatel runs year round rather than by ski season: there is no lift pass or snow report here, and the Chaumont funicular climbs to a viewpoint at 1171 m above the city whenever it runs. Anyone with a booked night gets the Neuchatel Tourist Card automatically, covering public transport for the stay, many cantonal museums, LNM lake cruises and bike hire. Late September brings the three-day Fete des Vendanges, 26 to 28 September in 2026, with a flower parade and fireworks over the lake.',
         fr: 'Neuchâtel vit toute l’année plutôt qu’au rythme d’une saison de ski : il n’y a ici ni forfait de remontées ni bulletin d’enneigement, et le funiculaire de Chaumont grimpe jusqu’à un point de vue à 1171 m au-dessus de la ville chaque fois qu’il circule. Toute personne ayant réservé une nuitée reçoit automatiquement la Neuchâtel Tourist Card, qui couvre les transports publics pendant le séjour, de nombreux musées cantonaux, les croisières LNM et la location de vélos. Fin septembre apporte les trois jours de la Fête des Vendanges, du 26 au 28 septembre 2026, avec un cortège fleuri et un feu d’artifice sur le lac.',
-        de: 'Neuenburg lebt ganzjährig statt nach Skisaison: Es gibt hier weder Liftpass noch Schneebericht, und die Standseilbahn nach Chaumont steigt zu einem Aussichtspunkt auf 1171 m über der Stadt, sooft sie fährt. Wer eine Übernachtung gebucht hat, erhält automatisch die Neuchatel Tourist Card, die den öffentlichen Verkehr während des Aufenthalts, viele Kantonsmuseen, LNM-Schiffsfahrten und Velovermietung abdeckt. Ende September bringt die drei Tage dauernde Fête des Vendanges, vom 26. bis 28. September 2026, mit Blumenumzug und Feuerwerk über dem See.',
+        de: 'Neuenburg lebt ganzjährig statt nach Skisaison: Es gibt hier weder Liftpass noch Schneebericht, und die Standseilbahn nach Chaumont steigt zu einem Aussichtspunkt auf 1171 m über der Stadt, sooft sie fährt. Wer eine Übernachtung gebucht hat, erhält automatisch die Neuchâtel Tourist Card, die den öffentlichen Verkehr während des Aufenthalts, viele Kantonsmuseen, LNM-Schiffsfahrten und Velovermietung abdeckt. Ende September bringt die drei Tage dauernde Fête des Vendanges, vom 26. bis 28. September 2026, mit Blumenumzug und Feuerwerk über dem See.',
       },
     ],
   },
@@ -243,11 +243,11 @@ export const neuchatel: DestinationGuide = {
         },
       },
       {
-        title: { en: 'The Neuchatel Tourist Card comes free with your booking', fr: 'La Neuchâtel Tourist Card est offerte avec votre réservation', de: 'Die Neuchatel Tourist Card gibt es gratis zur Buchung' },
+        title: { en: 'The Neuchatel Tourist Card comes free with your booking', fr: 'La Neuchâtel Tourist Card est offerte avec votre réservation', de: 'Die Neuchâtel Tourist Card gibt es gratis zur Buchung' },
         text: {
           en: 'Any booked overnight stay in the region automatically triggers the Neuchatel Tourist Card, which gives free public transport for the length of your stay, free entry to many cantonal museums, free LNM lake cruises on Lake Neuchatel and at Les Brenets, and free bicycle rental, so there is no separate pass to buy or activate.',
           fr: 'Toute nuitée réservée dans la région déclenche automatiquement la Neuchâtel Tourist Card, qui offre les transports publics gratuits pendant tout le séjour, l’entrée gratuite dans de nombreux musées cantonaux, les croisières LNM gratuites sur le lac de Neuchâtel et aux Brenets, ainsi que la location gratuite de vélos : aucun pass séparé à acheter ni à activer.',
-          de: 'Jede gebuchte Übernachtung in der Region löst automatisch die Neuchatel Tourist Card aus, die für die Dauer des Aufenthalts kostenlosen öffentlichen Verkehr, freien Eintritt in viele Kantonsmuseen, kostenlose LNM-Schiffsfahrten auf dem Neuenburgersee und bei Les Brenets sowie kostenlose Velovermietung bietet, es gibt also keinen separaten Pass zu kaufen oder zu aktivieren.',
+          de: 'Jede gebuchte Übernachtung in der Region löst automatisch die Neuchâtel Tourist Card aus, die für die Dauer des Aufenthalts kostenlosen öffentlichen Verkehr, freien Eintritt in viele Kantonsmuseen, kostenlose LNM-Schiffsfahrten auf dem Neuenburgersee und bei Les Brenets sowie kostenlose Velovermietung bietet, es gibt also keinen separaten Pass zu kaufen oder zu aktivieren.',
         },
       },
       {
@@ -311,7 +311,7 @@ export const neuchatel: DestinationGuide = {
             text: {
               en: 'LNM boats sail Lake Neuchatel and out to Les Brenets, free for anyone holding the Neuchatel Tourist Card that comes automatically with a booked overnight stay. Without the card, check fares directly with the operator before boarding.',
               fr: 'Les bateaux LNM naviguent sur le lac de Neuchâtel et jusqu’aux Brenets, gratuits pour toute personne munie de la Neuchâtel Tourist Card, offerte automatiquement avec une nuitée réservée. Sans la carte, vérifiez les tarifs directement auprès de l’exploitant avant d’embarquer.',
-              de: 'Die LNM-Schiffe verkehren auf dem Neuenburgersee und bis nach Les Brenets, kostenlos für alle mit der Neuchatel Tourist Card, die automatisch mit einer gebuchten Übernachtung gilt. Ohne Karte die Preise vor dem Einsteigen direkt beim Betreiber prüfen.',
+              de: 'Die LNM-Schiffe verkehren auf dem Neuenburgersee und bis nach Les Brenets, kostenlos für alle mit der Neuchâtel Tourist Card, die automatisch mit einer gebuchten Übernachtung gilt. Ohne Karte die Preise vor dem Einsteigen direkt beim Betreiber prüfen.',
             },
           },
         ],
@@ -377,7 +377,7 @@ export const neuchatel: DestinationGuide = {
       a: {
         en: 'Yes, via the Neuchatel Tourist Card, which comes automatically with any booked overnight stay: free public transport for the length of your stay, free entry to many cantonal museums, free LNM lake cruises on Lake Neuchatel and at Les Brenets, and free bicycle rental. There is nothing separate to book or activate, so it works from the moment you check in.',
         fr: 'Oui, grâce à la Neuchâtel Tourist Card, automatiquement incluse dès qu’une nuitée est réservée : transports publics gratuits pendant tout le séjour, entrée gratuite dans de nombreux musées cantonaux, croisières LNM gratuites sur le lac de Neuchâtel et aux Brenets, et location de vélos gratuite. Rien à réserver ni à activer séparément, elle fonctionne dès l’arrivée.',
-        de: 'Ja, dank der Neuchatel Tourist Card, die automatisch mit jeder gebuchten Übernachtung gilt: kostenloser öffentlicher Verkehr für die Dauer des Aufenthalts, freier Eintritt in viele Kantonsmuseen, kostenlose LNM-Schiffsfahrten auf dem Neuenburgersee und bei Les Brenets sowie kostenlose Velovermietung. Es gibt nichts separat zu buchen oder zu aktivieren, sie gilt ab dem Check-in.',
+        de: 'Ja, dank der Neuchâtel Tourist Card, die automatisch mit jeder gebuchten Übernachtung gilt: kostenloser öffentlicher Verkehr für die Dauer des Aufenthalts, freier Eintritt in viele Kantonsmuseen, kostenlose LNM-Schiffsfahrten auf dem Neuenburgersee und bei Les Brenets sowie kostenlose Velovermietung. Es gibt nichts separat zu buchen oder zu aktivieren, sie gilt ab dem Check-in.',
       },
     },
     {
