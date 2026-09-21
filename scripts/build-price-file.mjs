@@ -80,7 +80,9 @@ for (const h of hotels) {
   // Exact first. A loose substring match once paired "Hotel Bern" with a flat
   // called "Bern 5, City Apartment", so a partial match now needs a long key,
   // a word boundary, and a property that is not a holiday flat.
-  let hit = key ? scraped.find((s) => s.key === key) : undefined;
+  // A name made only of place and generic words ("Rigi Kaltbad Swiss Quality Hotel") normalises to nothing:
+  // fall back to the full name, compared exactly.
+  let hit = key ? scraped.find((s) => s.key === key) : scraped.find((s) => s.name.toLowerCase() === h.name.toLowerCase());
   if (!hit && key.length >= 5) {
     const word = new RegExp(`(^| )${key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}( |$)`);
     hit = scraped.find((s) => s.type !== "apartment" && (word.test(s.key) || (s.key.length >= 5 && new RegExp(`(^| )${s.key}( |$)`).test(key))));

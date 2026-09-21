@@ -1,0 +1,108 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "brunnen-waldstaetterhof",
+      "bookingName": "Seehotel Waldstätterhof Swiss Quality",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swissqseewaldstaetterhof.en-gb.html",
+      "address": "Waldstätterquai 6, 6440 Brunnen, Switzerland",
+      "prices": {
+        "2027-01-20": 293,
+        "2027-02-17": 293,
+        "2027-07-21": 369,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 293,
+        "avg": 320,
+        "samples": 3
+      },
+      "winter": {
+        "from": 293,
+        "avg": 295,
+        "samples": 2
+      },
+      "summer": {
+        "from": 369,
+        "avg": 370,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "brunnen-weisses-roessli",
+      "bookingName": "Weisses Rössli Swiss Quality Hotel",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/weisses-rossli-brunnen.en-gb.html",
+      "address": "Bahnhofstr. 8, 6440 Brunnen, Switzerland",
+      "prices": {
+        "2027-01-20": 175,
+        "2027-02-17": 175,
+        "2027-07-21": 186,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 175,
+        "avg": 180,
+        "samples": 3
+      },
+      "winter": {
+        "from": 175,
+        "avg": 175,
+        "samples": 2
+      },
+      "summer": {
+        "from": 186,
+        "avg": 185,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "brunnen-city-hotel",
+      "bookingName": "City Hotel",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/city-brunnen.en-gb.html",
+      "address": "Gersauerstr. 21, 6440 Brunnen, Switzerland",
+      "prices": {
+        "2027-01-20": 205,
+        "2027-02-17": 205,
+        "2027-07-21": 205,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 205,
+        "avg": 205,
+        "samples": 3
+      },
+      "winter": {
+        "from": 205,
+        "avg": 205,
+        "samples": 2
+      },
+      "summer": {
+        "from": 205,
+        "avg": 205,
+        "samples": 1
+      }
+    }
+  ]
+}

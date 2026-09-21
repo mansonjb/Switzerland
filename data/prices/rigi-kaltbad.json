@@ -1,0 +1,73 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "rigi-kaltbad-swiss-quality-hotel",
+      "bookingName": "Rigi Kaltbad Swiss Quality Hotel",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/rigi-kaltbad.en-gb.html",
+      "address": "Zentrum 4, 6356 Rigi Kaltbad, Switzerland",
+      "prices": {
+        "2027-01-20": 320,
+        "2027-02-17": 368,
+        "2027-07-21": 368,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 320,
+        "avg": 350,
+        "samples": 3
+      },
+      "winter": {
+        "from": 320,
+        "avg": 345,
+        "samples": 2
+      },
+      "summer": {
+        "from": 368,
+        "avg": 370,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "rigi-kaltbad-bergsonne",
+      "bookingName": "Hotel Bergsonne Rigi Kaltbad",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/bergsonne-rigi-kaltbad1.en-gb.html",
+      "address": "Fyrabigweg 1, 6356 Rigi Kaltbad, Switzerland",
+      "prices": {
+        "2027-01-20": 225,
+        "2027-02-17": 225,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 225,
+        "avg": 225,
+        "samples": 2
+      },
+      "winter": {
+        "from": 225,
+        "avg": 225,
+        "samples": 2
+      },
+      "summer": null
+    }
+  ]
+}

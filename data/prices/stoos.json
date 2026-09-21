@@ -1,0 +1,77 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "stoos-wellness-hotel-stoos",
+      "bookingName": "Wellness Hotel Stoos",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sporthotelstoos.en-gb.html",
+      "address": "Ringstrasse 10, 6433 Stoos, Switzerland",
+      "prices": {
+        "2027-01-20": 334,
+        "2027-02-17": 328,
+        "2027-07-21": 306,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 306,
+        "avg": 325,
+        "samples": 3
+      },
+      "winter": {
+        "from": 328,
+        "avg": 330,
+        "samples": 2
+      },
+      "summer": {
+        "from": 306,
+        "avg": 305,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "stoos-stoos-lodge",
+      "bookingName": "Stoos Lodge",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/stoos-lodge.en-gb.html",
+      "address": "Stoosplatz 3, 6433 Stoos, Switzerland",
+      "prices": {
+        "2027-01-20": 189,
+        "2027-02-17": 236,
+        "2027-07-21": 206,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 189,
+        "avg": 210,
+        "samples": 3
+      },
+      "winter": {
+        "from": 189,
+        "avg": 215,
+        "samples": 2
+      },
+      "summer": {
+        "from": 206,
+        "avg": 205,
+        "samples": 1
+      }
+    }
+  ]
+}
