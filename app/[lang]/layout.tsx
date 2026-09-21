@@ -2,7 +2,9 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import { Barlow_Condensed, Noto_Sans } from 'next/font/google'
 import { notFound } from 'next/navigation'
-import { LOCALES, hasLocale } from '@/lib/i18n'
+import { LOCALES, hasLocale, localePath } from '@/lib/i18n'
+import { getDict } from '@/lib/dict'
+import { Consent } from '@/components/consent'
 import { SITE_URL, SITE_NAME, STAY22_LMA_ID, GA_ID, CLARITY_ID } from '@/lib/site'
 import '../globals.css'
 
@@ -24,6 +26,7 @@ export function generateStaticParams() {
 export default async function RootLayout({ children, params }: LayoutProps<'/[lang]'>) {
   const { lang } = await params
   if (!hasLocale(lang)) notFound()
+  const d = getDict(lang)
 
   return (
     <html lang={lang} className={`${barlow.variable} ${noto.variable}`}>
@@ -38,15 +41,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
             }}
           />
         )}
-        {GA_ID && (
-          <>
-            <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
-            <Script id="ga4" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');`}</Script>
-          </>
-        )}
-        {CLARITY_ID && (
-          <Script id="clarity" strategy="lazyOnload">{`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","${CLARITY_ID}");`}</Script>
-        )}
+        {(GA_ID || CLARITY_ID) && <Consent gaId={GA_ID} clarityId={CLARITY_ID} copy={{ ...d.consent, moreHref: localePath(lang, '/legal#privacy') }} />}
       </body>
     </html>
   )

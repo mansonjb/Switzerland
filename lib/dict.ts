@@ -60,6 +60,7 @@ const en = {
     privacy: 'Privacy and cookies',
     independent: 'Independent guide, not affiliated with the Swiss authorities or Switzerland Tourism.',
   },
+  consent: { text: 'We would like to measure visits with Google Analytics and Microsoft Clarity, only if you agree. No advertising cookies.', accept: 'Accept', decline: 'Decline', more: 'Privacy', change: 'Change my cookie choice' },
   notFound: { title: 'Page not found', text: 'This page does not exist or has moved.', home: 'Back to the home page' },
 }
 
@@ -125,6 +126,7 @@ const fr: Dict = {
     privacy: 'Confidentialité et cookies',
     independent: 'Guide indépendant, sans lien avec les autorités suisses ni avec Suisse Tourisme.',
   },
+  consent: { text: 'Nous aimerions mesurer la fréquentation avec Google Analytics et Microsoft Clarity, seulement si vous êtes d’accord. Aucun cookie publicitaire.', accept: 'Accepter', decline: 'Refuser', more: 'Confidentialité', change: 'Modifier mon choix de cookies' },
   notFound: { title: 'Page introuvable', text: "Cette page n'existe pas ou a changé d'adresse.", home: "Retour à l'accueil" },
 }
 
@@ -188,6 +190,7 @@ const de: Dict = {
     privacy: 'Datenschutz und Cookies',
     independent: 'Unabhängiger Reiseführer, ohne Verbindung zu den Schweizer Behörden oder Schweiz Tourismus.',
   },
+  consent: { text: 'Wir möchten die Besuche mit Google Analytics und Microsoft Clarity messen, nur wenn Sie einverstanden sind. Keine Werbe-Cookies.', accept: 'Akzeptieren', decline: 'Ablehnen', more: 'Datenschutz', change: 'Cookie-Auswahl ändern' },
   notFound: { title: 'Seite nicht gefunden', text: 'Diese Seite existiert nicht oder wurde verschoben.', home: 'Zur Startseite' },
 }
 

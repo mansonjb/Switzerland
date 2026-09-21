@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { hasLocale, languageAlternates, localePath, t, type Locale } from '@/lib/i18n'
 import { H2, P, ProsePage } from '@/components/prose'
+import { ConsentReset } from '@/components/consent'
+import { getDict } from '@/lib/dict'
 import { destinations, publishedGuides } from '@/data'
 
 const title = { en: 'Legal notice and privacy', fr: 'Mentions légales et confidentialité', de: 'Impressum und Datenschutz' }
@@ -32,7 +34,8 @@ const body: Record<Locale, React.JSX.Element> = {
       <P>This site contains affiliate links. Bookings made through them may earn the publisher a commission, at no extra cost to you. See the methodology page.</P>
       <H2 id="privacy">Privacy</H2>
       <P>The site itself sets no advertising cookie and runs no account system. Our host keeps technical logs (IP address, pages requested) for security, for a limited period. When you open the Stay22 map or follow an availability link, Stay22 and the booking platform process data under their own privacy policies, including cookies used to attribute a booking.</P>
-      <P>If audience measurement is added, it will only run after your consent, given through a banner you can withdraw at any time. This applies to visitors from the EU (GDPR) and Switzerland (FADP).</P>
+      <P>Audience measurement uses Google Analytics 4 (Google Ireland Ltd) and runs only after you accept it in the banner: before that, no Google script is loaded and no cookie is set. It counts pages viewed and visits, with IP addresses anonymised, and its cookies (_ga) last up to 14 months. Microsoft Clarity (Microsoft Ireland Operations Ltd) runs under the same consent and records clicks, scrolling and mouse movements to show how pages are used, with text typed into fields masked. Data may be transferred to the United States under the EU-US Data Privacy Framework. This applies to visitors from the EU (GDPR) and Switzerland (FADP).</P>
+      <ConsentReset label={getDict('en').consent.change} />
       <P>You can ask for access to, correction or deletion of any personal data we hold by writing to {PUBLISHER.email}. You may also complain to the CNIL (France) or the FDPIC (Switzerland).</P>
       <H2>Photos</H2>
       <P>Destination photos come from Wikimedia Commons under free licences. Authors and licences are listed below.</P>
@@ -48,7 +51,8 @@ const body: Record<Locale, React.JSX.Element> = {
       <P>Ce site contient des liens d&apos;affiliation. Les réservations effectuées par ces liens peuvent rapporter une commission à l&apos;éditeur, sans surcoût pour vous. Voir la page méthodologie.</P>
       <H2 id="privacy">Confidentialité</H2>
       <P>Le site ne dépose aucun cookie publicitaire et ne gère aucun compte. Notre hébergeur conserve des journaux techniques (adresse IP, pages demandées) pour la sécurité, pendant une durée limitée. Quand vous ouvrez la carte Stay22 ou suivez un lien de disponibilités, Stay22 et la plateforme de réservation traitent des données selon leurs propres politiques, y compris des cookies servant à attribuer une réservation.</P>
-      <P>Si une mesure d&apos;audience est ajoutée, elle ne fonctionnera qu&apos;après votre consentement, donné via un bandeau et retirable à tout moment. Cela vaut pour les visiteurs de l&apos;UE (RGPD) et de Suisse (nLPD).</P>
+      <P>La mesure d&apos;audience utilise Google Analytics 4 (Google Ireland Ltd) et ne fonctionne qu&apos;après votre accord dans le bandeau : avant cela, aucun script Google n&apos;est chargé et aucun cookie n&apos;est déposé. Elle compte les pages vues et les visites, avec des adresses IP anonymisées, et ses cookies (_ga) durent au plus 14 mois. Microsoft Clarity (Microsoft Ireland Operations Ltd) fonctionne sous le même consentement et enregistre les clics, le défilement et les mouvements de souris pour montrer comment les pages sont utilisées, le texte saisi dans les champs étant masqué. Des données peuvent être transférées aux États-Unis dans le cadre du Data Privacy Framework UE-États-Unis. Cela vaut pour les visiteurs de l&apos;UE (RGPD) et de Suisse (nLPD).</P>
+      <ConsentReset label={getDict('fr').consent.change} />
       <P>Vous pouvez demander l&apos;accès, la rectification ou la suppression de vos données en écrivant à {PUBLISHER.email}. Vous pouvez aussi saisir la CNIL (France) ou le PFPDT (Suisse).</P>
       <H2>Photos</H2>
       <P>Les photos des destinations proviennent de Wikimedia Commons sous licences libres. Auteurs et licences sont listés ci-dessous.</P>
@@ -64,7 +68,8 @@ const body: Record<Locale, React.JSX.Element> = {
       <P>Diese Website enthält Affiliate-Links. Buchungen über diese Links können dem Herausgeber eine Provision einbringen, ohne Mehrkosten für Sie. Siehe Seite Methodik.</P>
       <H2 id="privacy">Datenschutz</H2>
       <P>Die Website selbst setzt keine Werbe-Cookies und führt keine Benutzerkonten. Unser Hoster speichert technische Protokolle (IP-Adresse, abgerufene Seiten) aus Sicherheitsgründen für begrenzte Zeit. Wenn Sie die Stay22-Karte öffnen oder einem Verfügbarkeits-Link folgen, verarbeiten Stay22 und die Buchungsplattform Daten gemäss ihren eigenen Datenschutzrichtlinien, einschliesslich Cookies zur Zuordnung einer Buchung.</P>
-      <P>Falls eine Reichweitenmessung hinzukommt, läuft sie nur nach Ihrer Einwilligung über ein Banner, die Sie jederzeit widerrufen können. Das gilt für Besucher aus der EU (DSGVO) und der Schweiz (DSG).</P>
+      <P>Die Reichweitenmessung nutzt Google Analytics 4 (Google Ireland Ltd) und läuft erst, nachdem Sie im Banner zugestimmt haben: Vorher wird kein Google-Skript geladen und kein Cookie gesetzt. Sie zählt Seitenaufrufe und Besuche, mit anonymisierten IP-Adressen, und ihre Cookies (_ga) bleiben höchstens 14 Monate. Microsoft Clarity (Microsoft Ireland Operations Ltd) läuft mit derselben Einwilligung und zeichnet Klicks, Scrollen und Mausbewegungen auf, um zu zeigen, wie die Seiten genutzt werden; in Felder eingegebener Text wird maskiert. Daten können im Rahmen des EU-US Data Privacy Framework in die USA übermittelt werden. Das gilt für Besucher aus der EU (DSGVO) und der Schweiz (DSG).</P>
+      <ConsentReset label={getDict('de').consent.change} />
       <P>Auskunft, Berichtigung oder Löschung Ihrer Daten können Sie unter {PUBLISHER.email} verlangen. Beschwerden sind bei der CNIL (Frankreich) oder beim EDÖB (Schweiz) möglich.</P>
       <H2>Fotos</H2>
       <P>Die Fotos der Reiseziele stammen von Wikimedia Commons unter freien Lizenzen. Urheber und Lizenzen sind unten aufgeführt.</P>

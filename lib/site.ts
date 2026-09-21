@@ -5,8 +5,10 @@ export const SITE_NAME = 'Stays in Switzerland'
 export const STAY22_AID = 'eijeanbaptistemanson'
 /** LetMeAllez id for this site (Stay22 hub, 15/09/2026). Public value, safe in code. */
 export const STAY22_LMA_ID = process.env.NEXT_PUBLIC_STAY22_LMA_ID || '6aa966fbda41f0b09452de67'
-export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || ''
-export const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || ''
+/** GA4 property (public value). Loaded only after consent, see components/consent.tsx. */
+export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-JPZ3R8QSEM'
+/** Microsoft Clarity project (public value). Loaded only after consent too. */
+export const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || 'ylsx8ydzv3'
 
 const CAMPAIGN = 'staysinswitzerland'
 
