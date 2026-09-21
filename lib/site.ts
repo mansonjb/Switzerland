@@ -1,4 +1,7 @@
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.staysinswitzerland.com').replace(/\/$/, '')
+// The canonical host is fixed in code. A leftover NEXT_PUBLIC_SITE_URL pointing at *.vercel.app once put
+// vercel.app URLs in the sitemap, canonicals and hreflang, so that env var is ignored when it names Vercel.
+const ENV_URL = process.env.NEXT_PUBLIC_SITE_URL || ''
+export const SITE_URL = (ENV_URL && !ENV_URL.includes('vercel.app') ? ENV_URL : 'https://www.staysinswitzerland.com').replace(/\/$/, '')
 export const SITE_NAME = 'Stays in Switzerland'
 
 /** Stay22 partner id (account level, shared across the network). */
