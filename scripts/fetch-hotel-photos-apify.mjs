@@ -133,6 +133,10 @@ const HOTELS = [
   { slug: "gimmelwald-olle-marias", name: "Olle und Marias Bed and Breakfast Gimmelwald" },
   { slug: "gimmelwald-chalet-husmattli", name: "Chalet Husmättli Gimmelwald" },
   { slug: "spiez-seegarten-marina", name: "Hotel Seegarten Marina, Schachenstrasse, Spiez" },
+  { slug: "gw-hotel-wetterhorn", name: "Hotel Wetterhorn, Grindelwald" },
+  { slug: "bellinzona-sud", name: "Hotel Bellinzona Sud, Bellinzona" },
+  { slug: "chur-hotel-chur", name: "Hotel Chur, Welschdörfli, Chur" },
+  { slug: "lenk-waldrand", name: "Hotel Waldrand, Lenk im Simmental" },
 ];
 
 async function loadToken() {

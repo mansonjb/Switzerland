@@ -1,0 +1,131 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "lenk-lenkerhof",
+      "bookingName": "Lenkerhof gourmet spa resort - Relais & Châteaux",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/lenkerhof-gourmet-spa-resort.en-gb.html",
+      "address": "Badstrasse 20, 3775 Lenk, Switzerland",
+      "prices": {
+        "2027-01-20": 556,
+        "2027-02-17": 567,
+        "2027-07-21": 512,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 512,
+        "avg": 545,
+        "samples": 3
+      },
+      "winter": {
+        "from": 556,
+        "avg": 560,
+        "samples": 2
+      },
+      "summer": {
+        "from": 512,
+        "avg": 510,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lenk-krone",
+      "bookingName": "Hotel Krone Lenk",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/krone-lenk.en-gb.html",
+      "address": "Kronenplatz 1, 3775 Lenk, Switzerland",
+      "prices": {
+        "2027-02-17": 250,
+        "2027-07-21": 250,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 250,
+        "avg": 250,
+        "samples": 2
+      },
+      "winter": {
+        "from": 250,
+        "avg": 250,
+        "samples": 1
+      },
+      "summer": {
+        "from": 250,
+        "avg": 250,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "lenk-lodge",
+      "bookingName": "Mountain Lodge Backpackercamp",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/mountain-lodge-backpackercamp.en-gb.html",
+      "address": "Gutenbrunnenstrasse 6, 3775 Lenk, Switzerland",
+      "prices": {
+        "2027-01-20": 137,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 137,
+        "avg": 135,
+        "samples": 1
+      },
+      "winter": {
+        "from": 137,
+        "avg": 135,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "lenk-waldrand",
+      "bookingName": "Hotel Waldrand",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/waldrand.en-gb.html",
+      "address": "Aegertenstrasse 12, 3775 Lenk, Switzerland",
+      "prices": {
+        "2027-01-20": 353,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 353,
+        "avg": 355,
+        "samples": 1
+      },
+      "winter": {
+        "from": 353,
+        "avg": 355,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

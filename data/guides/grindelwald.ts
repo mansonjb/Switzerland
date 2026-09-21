@@ -137,8 +137,8 @@ export const grindelwald: DestinationGuide = {
     {
       slug: 'gw-hotel-wetterhorn',
       name: 'Hotel Wetterhorn',
-      url: 'https://wetterhorn-hotel.ch/',
       photo: '/photos/hotels/gw-hotel-wetterhorn.jpg',
+      url: 'https://wetterhorn-hotel.ch/',
       sector: { en: 'Obere Gletscherstrasse, near Grund', fr: 'Obere Gletscherstrasse, près de Grund', de: 'Obere Gletscherstrasse, bei Grund' },
       facts: [
         { en: '10 rooms with the Stepfi ski run at the door', fr: '10 chambres avec la piste Stepfi à la porte', de: '10 Zimmer mit der Stepfi-Abfahrt vor der Tür' },
@@ -154,8 +154,8 @@ export const grindelwald: DestinationGuide = {
     {
       slug: 'gw-hotel-gletschergarten',
       name: 'Hotel Gletschergarten',
-      url: 'https://hotel-gletschergarten.ch/en/hotel-en/',
       photo: '/photos/hotels/gw-hotel-gletschergarten.jpg',
+      url: 'https://hotel-gletschergarten.ch/en/hotel-en/',
       sector: { en: 'Obere Gletscherstrasse, near Grund', fr: 'Obere Gletscherstrasse, près de Grund', de: 'Obere Gletscherstrasse, bei Grund' },
       facts: [
         { en: 'Built in 1899, fourth generation of the same family', fr: 'Construit en 1899, quatrième génération de la même famille', de: '1899 erbaut, vierte Generation derselben Familie' },
@@ -171,8 +171,8 @@ export const grindelwald: DestinationGuide = {
     {
       slug: 'gw-sunstar-hotel',
       name: 'Sunstar Hotel & Spa Grindelwald',
-      url: 'https://grindelwald.sunstar.ch/en/',
       photo: '/photos/hotels/gw-sunstar-hotel.jpg',
+      url: 'https://grindelwald.sunstar.ch/en/',
       sector: { en: 'Village, opposite the First cable car', fr: 'Village, face au téléphérique de First', de: 'Dorf, gegenüber der Firstbahn' },
       facts: [
         { en: 'Open all year', fr: 'Ouvert toute l’année', de: 'Ganzjährig geöffnet' },
@@ -188,8 +188,8 @@ export const grindelwald: DestinationGuide = {
     {
       slug: 'gw-schweizerhof',
       name: 'Romantik Hotel Schweizerhof',
-      url: 'https://www.hotel-schweizerhof.com/en/',
       photo: '/photos/hotels/gw-schweizerhof.jpg',
+      url: 'https://www.hotel-schweizerhof.com/en/',
       sector: { en: 'Village centre, by the station', fr: 'Centre du village, près de la gare', de: 'Dorfzentrum, beim Bahnhof' },
       facts: [
         { en: 'Rebuilt in 1893 after the village fire of 1892', fr: 'Reconstruit en 1893 après l’incendie du village de 1892', de: '1893 nach dem Dorfbrand von 1892 neu gebaut' },

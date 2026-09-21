@@ -1,0 +1,166 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "bellinzona-internazionale",
+      "bookingName": "Hotel Internazionale Bellinzona",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/albergo-internazionale.en-gb.html",
+      "address": "Viale Stazione 35, 6500 Bellinzona, Switzerland",
+      "prices": {
+        "2027-01-20": 242,
+        "2027-07-21": 202,
+        "2027-09-08": 197,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 197,
+        "avg": 215,
+        "samples": 3
+      },
+      "winter": {
+        "from": 242,
+        "avg": 240,
+        "samples": 1
+      },
+      "summer": {
+        "from": 197,
+        "avg": 200,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "bellinzona-croce-federale",
+      "bookingName": "Hotel Croce Federale",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/croce-federale.en-gb.html",
+      "address": "Viale Stazione 12 A, 6500 Bellinzona, Switzerland",
+      "prices": {
+        "2027-01-20": 147,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 147,
+        "avg": 145,
+        "samples": 1
+      },
+      "winter": {
+        "from": 147,
+        "avg": 145,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "bellinzona-unione",
+      "bookingName": "Hotel Unione",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/unione.en-gb.html",
+      "address": "Via Henry Guisan 1, 6500 Bellinzona, Switzerland",
+      "prices": {
+        "2027-01-20": 174,
+        "2027-07-21": 238,
+        "2027-09-08": 212,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 174,
+        "avg": 210,
+        "samples": 3
+      },
+      "winter": {
+        "from": 174,
+        "avg": 175,
+        "samples": 1
+      },
+      "summer": {
+        "from": 212,
+        "avg": 225,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "bellinzona-ostello-montebello",
+      "bookingName": "Montebello",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/sasso-corbaro.en-gb.html",
+      "address": "Via Artore, 6500 Bellinzona, Switzerland",
+      "prices": {
+        "2027-01-20": 157,
+        "2027-07-21": 157,
+        "2027-09-08": 157,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 157,
+        "avg": 155,
+        "samples": 3
+      },
+      "winter": {
+        "from": 157,
+        "avg": 155,
+        "samples": 1
+      },
+      "summer": {
+        "from": 157,
+        "avg": 155,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "bellinzona-la-tureta",
+      "bookingName": "La Tureta Boutique Hotel & Restaurant",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/la-tureta.en-gb.html",
+      "address": "Piazza Grande 43, 6512 Bellinzona, Switzerland",
+      "prices": {
+        "2027-01-20": 184,
+        "2027-07-21": 229,
+        "2027-09-08": 202,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 184,
+        "avg": 205,
+        "samples": 3
+      },
+      "winter": {
+        "from": 184,
+        "avg": 185,
+        "samples": 1
+      },
+      "summer": {
+        "from": 202,
+        "avg": 215,
+        "samples": 2
+      }
+    }
+  ]
+}

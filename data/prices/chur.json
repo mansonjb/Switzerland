@@ -1,0 +1,158 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "chur-stern",
+      "bookingName": "Hotel Stern Chur",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/romantik-stern.en-gb.html",
+      "address": "Reichsgasse 11, 7000 Chur, Switzerland",
+      "prices": {
+        "2027-01-20": 1357,
+        "2027-07-21": 278,
+        "2027-09-08": 368,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 278,
+        "avg": 670,
+        "samples": 3
+      },
+      "winter": {
+        "from": 1357,
+        "avg": 1355,
+        "samples": 1
+      },
+      "summer": {
+        "from": 278,
+        "avg": 325,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "chur-freieck",
+      "bookingName": "Ambiente Hotel Freieck",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/freieck.en-gb.html",
+      "address": "Reichsgasse 44, 7000 Chur, Switzerland",
+      "prices": {
+        "2027-07-21": 176,
+        "2027-09-08": 176,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 176,
+        "avg": 175,
+        "samples": 2
+      },
+      "winter": null,
+      "summer": {
+        "from": 176,
+        "avg": 175,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "chur-franziskaner",
+      "bookingName": "Hotel Franziskaner",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/franziskaner-chur.en-gb.html",
+      "address": "Kupfergasse 18, 7000 Chur, Switzerland",
+      "prices": {
+        "2027-07-21": 147,
+        "2027-09-08": 147,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 147,
+        "avg": 145,
+        "samples": 2
+      },
+      "winter": null,
+      "summer": {
+        "from": 147,
+        "avg": 145,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "chur-abc",
+      "bookingName": "ABC Swiss Quality Hotel",
+      "tier": "budget",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/swissqabc.en-gb.html",
+      "address": "Ottostrasse 8, 7000 Chur, Switzerland",
+      "prices": {
+        "2027-07-21": 282,
+        "2027-09-08": 282,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 282,
+        "avg": 280,
+        "samples": 2
+      },
+      "winter": null,
+      "summer": {
+        "from": 282,
+        "avg": 280,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "chur-mercure-city-west",
+      "bookingName": "Mercure Chur City West",
+      "tier": "premium",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/city-west-chur-und-restaurant.en-gb.html",
+      "address": "Comercialstrasse 32, 7000 Chur, Switzerland",
+      "prices": {
+        "2027-01-20": 2282,
+        "2027-07-21": 230,
+        "2027-09-08": 192,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 192,
+        "avg": 900,
+        "samples": 3
+      },
+      "winter": {
+        "from": 2282,
+        "avg": 2280,
+        "samples": 1
+      },
+      "summer": {
+        "from": 192,
+        "avg": 210,
+        "samples": 2
+      }
+    }
+  ]
+}
