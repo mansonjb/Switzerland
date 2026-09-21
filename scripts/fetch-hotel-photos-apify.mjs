@@ -120,6 +120,12 @@ const HOTELS = [
   { slug: "gruyeres-saint-georges", name: "Le Saint Georges, Rue du Bourg 22, Gruyères" },
   { slug: "gruyeres-fleur-de-lys", name: "Hôtel La Fleur de Lys, Rue du Bourg 14, Gruyères" },
   { slug: "zinal-pension-de-la-poste", name: "Pension de la Poste, 3961 Zinal" },
+  { slug: "champery-palladium", name: "Hotel Le Palladium, Champéry" },
+  { slug: "bettmeralp-bettmerhof", name: "Hotel Bettmerhof, Bettmeralp" },
+  { slug: "bettmeralp-alpfrieden", name: "Hotel Alpfrieden, Bettmeralp" },
+  { slug: "bettmeralp-le-postillion", name: "Hotel Le Postillion, Bettmeralp" },
+  { slug: "riederalp-berghaus-toni", name: "Hotel Berghaus Toni, Riederhornweg 9, Riederalp" },
+  { slug: "riederalp-valaisia", name: "Valaisia Riederalp Apartments" },
 ];
 
 async function loadToken() {

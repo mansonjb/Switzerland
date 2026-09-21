@@ -1,0 +1,42 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "bettmeralp-waldhaus",
+      "bookingName": "Hotel Waldhaus",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/waldhaus-bettmeralp.en-gb.html",
+      "address": "5 Hauptstrasse, 3992 Bettmeralp, Switzerland",
+      "prices": {
+        "2027-07-21": 277,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 277,
+        "avg": 275,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 277,
+        "avg": 275,
+        "samples": 1
+      }
+    }
+  ]
+}

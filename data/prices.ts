@@ -43,6 +43,9 @@ import thun from './prices/thun.json'
 import appenzell from './prices/appenzell.json'
 import wildhaus from './prices/wildhaus.json'
 import sion from './prices/sion.json'
+import champery from './prices/champery.json'
+import bettmeralp from './prices/bettmeralp.json'
+import riederalp from './prices/riederalp.json'
 import zinal from './prices/zinal.json'
 import gruyeres from './prices/gruyeres.json'
 import fribourg from './prices/fribourg.json'
@@ -101,6 +104,9 @@ const FILES: Record<string, PriceFile> = {
   appenzell: appenzell as unknown as PriceFile,
   wildhaus: wildhaus as unknown as PriceFile,
   sion: sion as unknown as PriceFile,
+  champery: champery as unknown as PriceFile,
+  bettmeralp: bettmeralp as unknown as PriceFile,
+  riederalp: riederalp as unknown as PriceFile,
   zinal: zinal as unknown as PriceFile,
   gruyeres: gruyeres as unknown as PriceFile,
   fribourg: fribourg as unknown as PriceFile,

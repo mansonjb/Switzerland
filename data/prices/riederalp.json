@@ -1,0 +1,42 @@
+{
+  "scrapedOn": "2026-09-20",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "riederalp-golfhotel-riederhof",
+      "bookingName": "Golfhotel Riederhof",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/golfhotel-riederhof.en-gb.html",
+      "address": "Aletschpromenade 25, 3987 Riederalp, Switzerland",
+      "prices": {
+        "2027-01-20": 339,
+        "2027-02-17": 363,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 339,
+        "avg": 350,
+        "samples": 2
+      },
+      "winter": {
+        "from": 339,
+        "avg": 350,
+        "samples": 2
+      },
+      "summer": null
+    }
+  ]
+}
