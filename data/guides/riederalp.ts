@@ -37,9 +37,9 @@ export const riederalp: DestinationGuide = {
       de: 'Erster Aufenthalt oder kürzester Umstieg: Riederalp Mitte, 9 Minuten ab Mörel. Näher an der Hohfluh-Bahn: Riederalp West, 5 Minuten entfernt. Für den Golfplatz, die Moosfluh-Bahn und das einzige verifizierte Hotel des Dorfes: die Seite der Aletschpromenade.',
     },
     watch: {
-      en: 'Hotel choice is genuinely thin: only one hotel and one apartment operator here publish their own websites, both on the Aletschpromenade side, so Riederalp Mitte and Riederalp West currently have nothing we could confirm directly. The operator also publishes maintenance closures on the Riederalp line in October, November and early December 2026, so check the calendar if you are travelling in the shoulder season.',
-      fr: 'Le choix d’hôtels reste vraiment restreint : seuls un hôtel et un exploitant d’appartements y publient leur propre site, tous deux du côté de l’Aletschpromenade, si bien que Riederalp Mitte et Riederalp West n’offrent aujourd’hui rien que nous ayons pu confirmer directement. L’exploitant publie aussi des fermetures pour entretien sur la ligne de Riederalp en octobre, novembre et début décembre 2026 : vérifiez le calendrier si vous voyagez en intersaison.',
-      de: 'Die Hotelauswahl ist tatsächlich dünn: Nur ein Hotel und ein Apartmentanbieter veröffentlichen hier eine eigene Website, beide auf der Seite der Aletschpromenade, sodass sich in Riederalp Mitte und Riederalp West derzeit nichts direkt bestätigen liess. Der Betreiber veröffentlicht zudem Revisionsschliessungen auf der Riederalp-Linie im Oktober, November und Anfang Dezember 2026, prüfen Sie also den Kalender bei einer Reise in der Zwischensaison.',
+      en: 'Hotel choice is thin: Golfhotel Riederhof and the Valaisia apartments on the Aletschpromenade side, Hotel Berghaus Toni in Riederalp West and Hotel Silbersand in the heart of the village are the addresses with a website of their own, so book early for winter and July. The operator also publishes maintenance closures on the Riederalp line in October, November and early December 2026, so check the calendar if you are travelling in the shoulder season.',
+      fr: 'Le choix d’hôtels reste restreint : le Golfhotel Riederhof et les appartements Valaisia du côté de l’Aletschpromenade, l’Hôtel Berghaus Toni à Riederalp West et l’Hôtel Silbersand au cœur du village sont les adresses dotées d’un site propre : réservez tôt pour l’hiver et pour juillet. L’exploitant publie aussi des fermetures pour entretien sur la ligne de Riederalp en octobre, novembre et début décembre 2026 : vérifiez le calendrier si vous voyagez en intersaison.',
+      de: 'Die Hotelauswahl ist dünn: Das Golfhotel Riederhof und die Valaisia-Apartments auf der Seite der Aletschpromenade, das Hotel Berghaus Toni in Riederalp West und das Hotel Silbersand im Herzen des Dorfs sind die Adressen mit eigener Website, für Winter und Juli also früh buchen. Der Betreiber veröffentlicht zudem Revisionsschliessungen auf der Riederalp-Linie im Oktober, November und Anfang Dezember 2026, prüfen Sie also den Kalender bei einer Reise in der Zwischensaison.',
     },
   },
   story: {
@@ -56,9 +56,9 @@ export const riederalp: DestinationGuide = {
         de: 'Zwei Gondelbahnen erschliessen das Dorf, und diese Aufteilung sollte die Wahl der Unterkunft bestimmen. Riederalp Mitte, ab Mörel über Greich in 9 Minuten erreicht, ist der schnellste Weg hinauf. Riederalp West, ab Ried-Mörel nach einem Kabinenwechsel erreicht, liegt näher am Aussichtspunkt Hohfluh, 5 Minuten entfernt. Auf der anderen Seite führt die Aletschpromenade am Golfplatz vorbei zur Moosfluh-Bahn und steigt Richtung Riederfurka an, wo die Villa Cassel über den Aletschgletscher blickt.',
       },
       {
-        en: 'The hotel choice here is narrow, and worth saying plainly: only one hotel publishes its own website, Golfhotel Riederhof, right at the golf course, plus one apartment operator, Valaisia, a few minutes from the Moosfluh station. Both sit on the Aletschpromenade side of the village. The Aletsch Arena tourist office keeps most local accommodation behind a booking widget rather than a plain list, so this guide shows what could be checked directly rather than everything that exists.',
-        fr: 'Le choix d’hôtels est restreint ici, et il vaut mieux le dire clairement : un seul hôtel y publie son propre site, le Golfhotel Riederhof, juste au bord du golf, ainsi qu’un exploitant d’appartements, Valaisia, à quelques minutes de la station de Moosfluh. Les deux se trouvent du côté de l’Aletschpromenade. L’office du tourisme de l’Aletsch Arena garde l’essentiel de l’hébergement local derrière un widget de réservation plutôt qu’une liste simple : ce guide présente donc ce qui a pu être vérifié directement, et non tout ce qui existe.',
-        de: 'Die Hotelauswahl ist hier schmal, und das sollte man klar sagen: Nur ein Hotel veröffentlicht hier eine eigene Website, das Golfhotel Riederhof direkt am Golfplatz, sowie einen Apartmentanbieter, Valaisia, wenige Minuten von der Moosfluh-Station. Beide liegen auf der Seite der Aletschpromenade. Das Tourismusbüro der Aletsch Arena hält den Grossteil der örtlichen Unterkünfte hinter einem Buchungswidget statt einer einfachen Liste verborgen, weshalb dieser Guide zeigt, was sich direkt prüfen liess, statt alles, was es gibt.',
+        en: 'The hotel choice here is narrow. Golfhotel Riederhof stands right at the golf course and Valaisia rents two apartments a few minutes from the Moosfluh station, both on the Aletschpromenade side; Hotel Berghaus Toni gives Riederalp West 18 rooms, and Hotel Silbersand, a small 3-star house, sits in the heart of the village two minutes from the cable car. The Aletsch Arena tourist office keeps most other accommodation behind a booking widget, so this guide shows what could be checked directly rather than everything that exists.',
+        fr: 'Le choix d’hôtels est restreint ici. Le Golfhotel Riederhof est juste au bord du golf et Valaisia loue deux appartements à quelques minutes de la station de Moosfluh, tous deux du côté de l’Aletschpromenade ; l’Hôtel Berghaus Toni donne 18 chambres à Riederalp West, et l’Hôtel Silbersand, petit 3 étoiles, est au cœur du village, à deux minutes du téléphérique. L’office du tourisme de l’Aletsch Arena garde le reste de l’hébergement derrière un widget de réservation : ce guide présente donc ce qui a pu être vérifié directement, et non tout ce qui existe.',
+        de: 'Die Hotelauswahl ist hier schmal. Das Golfhotel Riederhof liegt direkt am Golfplatz, und Valaisia vermietet zwei Apartments wenige Minuten von der Moosfluh-Station, beide auf der Seite der Aletschpromenade; das Hotel Berghaus Toni gibt Riederalp West 18 Zimmer, und das Hotel Silbersand, ein kleines 3-Sterne-Haus, liegt im Herzen des Dorfs, zwei Minuten von der Seilbahn. Das Tourismusbüro der Aletsch Arena hält die übrigen Unterkünfte hinter einem Buchungswidget verborgen, weshalb dieser Guide zeigt, was sich direkt prüfen liess, statt alles, was es gibt.',
       },
       {
         en: 'Winter 2026/27 runs from 5 December to 3 April, across the 104 km Aletsch Arena ski area between Riederfurka and Eggishorn, with skiing reaching right to the village. Summer opens the 300 km of hiking trails and the golf course, which its club calls the highest in Switzerland at 2000 m, from June to October. Either way, you arrive the same way: by the feeder railway from Mörel, which runs all year and sits inside the SBB GA and half-fare network.',
@@ -154,6 +154,7 @@ export const riederalp: DestinationGuide = {
     {
       slug: 'riederalp-valaisia',
       name: 'Valaisia Riederalp',
+      photo: '/photos/hotels/riederalp-valaisia.jpg',
       url: 'https://www.valaisia-riederalp.ch/',
       sector: { en: 'The Aletschpromenade and the east side', fr: 'L’Aletschpromenade et le côté est', de: 'Aletschpromenade und Ostseite' },
       facts: [
@@ -184,11 +185,28 @@ export const riederalp: DestinationGuide = {
         de: 'Die Adresse, die Riederalp West endlich ein Hotel gibt: achtzehn Zimmer und einundfünfzig Betten am Riederhornweg, familiär geführt, mit Restaurantterrasse und Skiraum im Untergeschoss. Sie liegt näher bei der Hohfluh-Bahn als bei der Golfseite, was Skifahrenden und Wandernden entgegenkommt, die gleich hinauffahren. Haustiere sind willkommen, und das Haus hält den ruhigen, persönlichen Ton eines kleinen Berghotels.',
       },
     },
+    {
+      slug: 'riederalp-silbersand',
+      name: 'Hotel Silbersand',
+      photo: '/photos/hotels/riederalp-silbersand.jpg',
+      url: 'https://www.silbersand.ch/',
+      sector: { en: 'In the heart of the village', fr: 'Au cœur du village', de: 'Im Herzen des Dorfs' },
+      facts: [
+        { en: 'Small 3-star hotel with a restaurant, in the heart of Riederalp', fr: 'Petit hôtel 3 étoiles avec restaurant, au cœur de Riederalp', de: 'Kleines 3-Sterne-Hotel mit Restaurant, im Herzen der Riederalp' },
+        { en: 'Two minutes on foot from the cable car station', fr: 'À deux minutes à pied de la station du téléphérique', de: 'Zwei Minuten zu Fuss von der Seilbahnstation' },
+        { en: 'Run by Rita and Christoph Imboden', fr: 'Tenu par Rita et Christoph Imboden', de: 'Geführt von Rita und Christoph Imboden' },
+      ],
+      blurb: {
+        en: 'Hotel Silbersand is a small 3-star hotel with its own restaurant in the heart of Riederalp, run by Rita and Christoph Imboden. It is two minutes on foot from the cable car station, which matters in a car-free village where every suitcase is carried from the lift to the door.',
+        fr: 'L’Hôtel Silbersand est un petit 3 étoiles avec son propre restaurant, au cœur de Riederalp, tenu par Rita et Christoph Imboden. Il est à deux minutes à pied de la station du téléphérique, ce qui compte dans un village sans voiture où chaque valise se porte de la télécabine jusqu’à la porte.',
+        de: 'Das Hotel Silbersand ist ein kleines 3-Sterne-Hotel mit eigenem Restaurant im Herzen der Riederalp, geführt von Rita und Christoph Imboden. Es liegt zwei Minuten zu Fuss von der Seilbahnstation, was in einem autofreien Dorf zählt, in dem jeder Koffer von der Bahn bis zur Tür getragen wird.',
+      },
+    },
   ],
   hotelsNote: {
-    en: 'Facts taken from each operator’s own website on 16 September 2026. Riederalp keeps most of its accommodation behind a booking widget rather than a plain list, so only these two, a hotel and an apartment operator, could be verified directly. No ratings or reviews on this guide.',
-    fr: 'Faits relevés sur le site de chaque exploitant le 16 septembre 2026. Riederalp garde l’essentiel de son hébergement derrière un widget de réservation plutôt qu’une liste simple, si bien que seuls ces deux-là, un hôtel et un exploitant d’appartements, ont pu être vérifiés directement. Aucune note ni aucun avis sur ce guide.',
-    de: 'Fakten von der Website des jeweiligen Anbieters, Stand 16. September 2026. Riederalp hält den grössten Teil seiner Unterkünfte hinter einem Buchungswidget statt einer einfachen Liste verborgen, sodass sich nur diese zwei, ein Hotel und ein Apartmentanbieter, direkt verifizieren liessen. Keine Bewertungen oder Rezensionen.',
+    en: 'Facts taken from each operator’s own website between 16 and 21 September 2026. Riederalp keeps most of its accommodation behind a booking widget rather than a plain list, so only these addresses could be verified directly. Prices are dated Booking.com readings, not quotes. No ratings or reviews on this guide.',
+    fr: 'Faits relevés sur le site de chaque exploitant entre le 16 et le 21 septembre 2026. Riederalp garde l’essentiel de son hébergement derrière un widget de réservation plutôt qu’une liste simple, si bien que seules ces adresses ont pu être vérifiées directement. Les prix sont des relevés datés sur Booking.com, pas des devis. Aucune note ni aucun avis sur ce guide.',
+    de: 'Fakten von der Website des jeweiligen Anbieters, Stand 16. bis 21. September 2026. Riederalp hält den grössten Teil seiner Unterkünfte hinter einem Buchungswidget statt einer einfachen Liste verborgen, sodass sich nur diese Adressen direkt verifizieren liessen. Die Preise sind datierte Booking.com-Werte, keine Offerten. Keine Bewertungen oder Rezensionen.',
   },
   calendar: {
     title: { en: 'What runs, month by month', fr: 'Ce qui fonctionne, mois par mois', de: 'Was fährt, Monat für Monat' },

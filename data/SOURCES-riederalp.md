@@ -62,3 +62,8 @@ Golfclub Riederalp and the hotels' own sites. No ratings, no reviews, no invente
 
 ## Added by the maintainer, 21 September 2026
 - Hotel Berghaus Toni, Riederhornweg 9, 3987 Riederalp-West, 1950 m, 18 rooms and 51 beds, family run, restaurant with terrace and garden, ski and boot room, pets taken, own site berghaus-toni.com | VERIFIED | https://www.aletscharena.ch/planen-buchen/unterkunft/hotel-berghaus-toni
+
+## Added by the maintainer, 21 September 2026
+- Hotel Silbersand, small 3-star hotel with restaurant in the heart of Riederalp, two minutes on foot from the cable car station, hosts Rita & Christoph Imboden | VERIFIED | https://www.silbersand.ch/
+- Restaurant Alpenrose site describes a new Hotel Alpenrose (80 double rooms) as a building project, not yet open: not listed | VERIFIED | https://www.alpenrose-riederalp.ch/bauprojekt/
+- Valaisia apartment photo: operator's own website main image (Wohnung 49) | VERIFIED | https://www.valaisia-riederalp.ch/
