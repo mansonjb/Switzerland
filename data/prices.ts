@@ -51,6 +51,8 @@ import lenk from './prices/lenk.json'
 import silsMaria from './prices/sils-maria.json'
 import villars from './prices/villars.json'
 import zug from './prices/zug.json'
+import einsiedeln from './prices/einsiedeln.json'
+import vitznau from './prices/vitznau.json'
 import lesDiablerets from './prices/les-diablerets.json'
 import bettmeralp from './prices/bettmeralp.json'
 import riederalp from './prices/riederalp.json'
@@ -120,6 +122,8 @@ const FILES: Record<string, PriceFile> = {
   'sils-maria': silsMaria as unknown as PriceFile,
   villars: villars as unknown as PriceFile,
   zug: zug as unknown as PriceFile,
+  einsiedeln: einsiedeln as unknown as PriceFile,
+  vitznau: vitznau as unknown as PriceFile,
   'les-diablerets': lesDiablerets as unknown as PriceFile,
   bettmeralp: bettmeralp as unknown as PriceFile,
   riederalp: riederalp as unknown as PriceFile,

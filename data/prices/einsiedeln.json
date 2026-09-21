@@ -1,0 +1,108 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "einsiedeln-allegro",
+      "bookingName": "Hotel Allegro Einsiedeln",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/schweizer-jugend-und-bildungszentrum.en-gb.html",
+      "address": "Lincolnweg 23, 8840 Einsiedeln, Switzerland",
+      "prices": {
+        "2027-01-20": 199,
+        "2027-02-17": 316,
+        "2027-07-21": 239,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 199,
+        "avg": 250,
+        "samples": 3
+      },
+      "winter": {
+        "from": 199,
+        "avg": 260,
+        "samples": 2
+      },
+      "summer": {
+        "from": 239,
+        "avg": 240,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "einsiedeln-st-georg",
+      "bookingName": "Boutique Hotel St. Georg",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/st-georg.en-gb.html",
+      "address": "Hauptstrasse 72, 8840 Einsiedeln, Switzerland",
+      "prices": {
+        "2027-01-20": 137,
+        "2027-02-17": 137,
+        "2027-07-21": 137,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 137,
+        "avg": 135,
+        "samples": 3
+      },
+      "winter": {
+        "from": 137,
+        "avg": 135,
+        "samples": 2
+      },
+      "summer": {
+        "from": 137,
+        "avg": 135,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "einsiedeln-drei-koenige",
+      "bookingName": "Hotel Drei Könige",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/drei-kapnige.en-gb.html",
+      "address": "Paracelsuspark 1, 8840 Einsiedeln, Switzerland",
+      "prices": {
+        "2027-01-20": 158,
+        "2027-02-17": 192,
+        "2027-07-21": 158,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 158,
+        "avg": 170,
+        "samples": 3
+      },
+      "winter": {
+        "from": 158,
+        "avg": 175,
+        "samples": 2
+      },
+      "summer": {
+        "from": 158,
+        "avg": 160,
+        "samples": 1
+      }
+    }
+  ]
+}
