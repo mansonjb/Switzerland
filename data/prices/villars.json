@@ -1,0 +1,220 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "villars-palace",
+      "bookingName": "Villars Palace",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/villars-palace-villars-sur-ollon.en-gb.html",
+      "address": "Route des Hôtels 28, 1884 Villars-sur-Ollon, Switzerland",
+      "prices": {
+        "2027-01-20": 471,
+        "2027-07-21": 496,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 471,
+        "avg": 485,
+        "samples": 2
+      },
+      "winter": {
+        "from": 471,
+        "avg": 470,
+        "samples": 1
+      },
+      "summer": {
+        "from": 496,
+        "avg": 495,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "villars-lodge",
+      "bookingName": "Villars Lodge",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/villars-mountain-lodge.en-gb.html",
+      "address": "36 Route des Hôtels, 1884 Villars-sur-Ollon, Switzerland",
+      "prices": {
+        "2027-01-20": 188,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 188,
+        "avg": 190,
+        "samples": 1
+      },
+      "winter": {
+        "from": 188,
+        "avg": 190,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "villars-victoria-and-residence",
+      "bookingName": "Victoria Hotel & Residence",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/victoria-amp-residence.en-gb.html",
+      "address": "Route des Layeux 1, 1884 Villars-sur-Ollon, Switzerland",
+      "prices": {
+        "2027-01-20": 248,
+        "2027-02-17": 478,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 248,
+        "avg": 365,
+        "samples": 2
+      },
+      "winter": {
+        "from": 248,
+        "avg": 365,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "villars-viu",
+      "bookingName": "VIU Hotel Villars",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/viu-villars.en-gb.html",
+      "address": "152 Avenue Centrale, 1884 Villars-sur-Ollon, Switzerland",
+      "prices": {
+        "2027-01-20": 314,
+        "2027-07-21": 261,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 261,
+        "avg": 290,
+        "samples": 2
+      },
+      "winter": {
+        "from": 314,
+        "avg": 315,
+        "samples": 1
+      },
+      "summer": {
+        "from": 261,
+        "avg": 260,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "villars-mazots-du-clos",
+      "bookingName": "Les Mazots du Clos",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/les-mazots-du-clos-villars-sur-ollon.en-gb.html",
+      "address": "Avenue Central 85 Les Mazots du Clos, 1884 Villars-sur-Ollon, Switzerland",
+      "prices": {
+        "2027-01-20": 306,
+        "2027-02-17": 443,
+        "2027-07-21": 374,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 306,
+        "avg": 375,
+        "samples": 3
+      },
+      "winter": {
+        "from": 306,
+        "avg": 375,
+        "samples": 2
+      },
+      "summer": {
+        "from": 374,
+        "avg": 375,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "villars-alpe-fleurie",
+      "bookingName": "Alpe Fleurie Hôtel & Restaurant",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/alpe-fleurie.en-gb.html",
+      "address": "Rue Centrale, 1884 Villars-sur-Ollon, Switzerland",
+      "prices": {
+        "2027-01-20": 330,
+        "2027-07-21": 332,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 330,
+        "avg": 330,
+        "samples": 2
+      },
+      "winter": {
+        "from": 330,
+        "avg": 330,
+        "samples": 1
+      },
+      "summer": {
+        "from": 332,
+        "avg": 330,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "villars-royalp",
+      "bookingName": "Chalet RoyAlp Hôtel & Spa",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/chalet-royalp-spa.en-gb.html",
+      "address": "Domaine de Rochegrise, 1884 Villars-sur-Ollon, Switzerland",
+      "prices": {
+        "2027-01-20": 517,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 517,
+        "avg": 515,
+        "samples": 1
+      },
+      "winter": {
+        "from": 517,
+        "avg": 515,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}

@@ -49,6 +49,8 @@ import bellinzona from './prices/bellinzona.json'
 import chur from './prices/chur.json'
 import lenk from './prices/lenk.json'
 import silsMaria from './prices/sils-maria.json'
+import villars from './prices/villars.json'
+import lesDiablerets from './prices/les-diablerets.json'
 import bettmeralp from './prices/bettmeralp.json'
 import riederalp from './prices/riederalp.json'
 import zinal from './prices/zinal.json'
@@ -115,6 +117,8 @@ const FILES: Record<string, PriceFile> = {
   chur: chur as unknown as PriceFile,
   lenk: lenk as unknown as PriceFile,
   'sils-maria': silsMaria as unknown as PriceFile,
+  villars: villars as unknown as PriceFile,
+  'les-diablerets': lesDiablerets as unknown as PriceFile,
   bettmeralp: bettmeralp as unknown as PriceFile,
   riederalp: riederalp as unknown as PriceFile,
   zinal: zinal as unknown as PriceFile,
