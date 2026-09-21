@@ -126,6 +126,13 @@ const HOTELS = [
   { slug: "bettmeralp-le-postillion", name: "Hotel Le Postillion, Bettmeralp" },
   { slug: "riederalp-berghaus-toni", name: "Hotel Berghaus Toni, Riederhornweg 9, Riederalp" },
   { slug: "riederalp-valaisia", name: "Valaisia Riederalp Apartments" },
+  { slug: "gimmelwald-pension-gimmelwald", name: "Pension Gimmelwald, 3826 Gimmelwald" },
+  { slug: "gimmelwald-mountain-hostel", name: "Mountain Hostel Gimmelwald" },
+  { slug: "gimmelwald-esthers-guesthouse", name: "Esther's Guesthouse Gimmelwald" },
+  { slug: "gimmelwald-chalet-anneli", name: "Chalet Anneli Gimmelwald" },
+  { slug: "gimmelwald-olle-marias", name: "Olle und Marias Bed and Breakfast Gimmelwald" },
+  { slug: "gimmelwald-chalet-husmattli", name: "Chalet Husmättli Gimmelwald" },
+  { slug: "spiez-seegarten-marina", name: "Hotel Seegarten Marina, Schachenstrasse, Spiez" },
 ];
 
 async function loadToken() {

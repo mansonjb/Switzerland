@@ -1,0 +1,104 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "spiez-belvedere-strandhotel",
+      "bookingName": "Belvédère Strandhotel",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/strandhotel-belvedere.en-gb.html",
+      "address": "Schachenstrasse 39, 3700 Spiez, Switzerland",
+      "prices": {
+        "2027-01-20": 279,
+        "2027-07-21": 654,
+        "2027-09-08": 353,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 279,
+        "avg": 430,
+        "samples": 3
+      },
+      "winter": {
+        "from": 279,
+        "avg": 280,
+        "samples": 1
+      },
+      "summer": {
+        "from": 353,
+        "avg": 505,
+        "samples": 2
+      }
+    },
+    {
+      "slug": "spiez-eden",
+      "bookingName": "Hotel Eden Spiez",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/single-eden.en-gb.html",
+      "address": "Seestrasse 58, 3700 Spiez, Switzerland",
+      "prices": {
+        "2027-01-20": 285,
+        "2027-07-21": 326,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 285,
+        "avg": 305,
+        "samples": 2
+      },
+      "winter": {
+        "from": 285,
+        "avg": 285,
+        "samples": 1
+      },
+      "summer": {
+        "from": 326,
+        "avg": 325,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "spiez-movieworld",
+      "bookingName": "Hotel Movieworld",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/movieworld.en-gb.html",
+      "address": "Schlösslistrasse 1, 3700 Spiez, Switzerland",
+      "prices": {
+        "2027-01-20": 189,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 189,
+        "avg": 190,
+        "samples": 1
+      },
+      "winter": {
+        "from": 189,
+        "avg": 190,
+        "samples": 1
+      },
+      "summer": null
+    }
+  ]
+}
