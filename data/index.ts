@@ -57,6 +57,7 @@ import { spiez } from './guides/spiez'
 import { bellinzona } from './guides/bellinzona'
 import { chur } from './guides/chur'
 import { lenk } from './guides/lenk'
+import { silsMaria } from './guides/sils-maria'
 import { berneseOberland } from './regions/bernese-oberland'
 import { valais } from './regions/valais'
 import { graubunden } from './regions/graubunden'
@@ -73,7 +74,7 @@ export { destinations, regionNames }
  * Published pages. Anti scaled-content rule: ONE rich page per destination, a guide ships
  * only once its facts are sourced (data/SOURCES.md). Never generate pages combinatorially.
  */
-const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen, engelberg, andermatt, weggis, cransMontana, leukerbad, grachen, laax, flims, scuol, brienz, meiringen, thun, arosa, klosters, lenzerheide, appenzell, schaffhausen, steinAmRhein, wildhaus, fribourg, neuchatel, sion, gruyeres, zinal, champery, bettmeralp, riederalp, gimmelwald, spiez, bellinzona, chur, lenk]
+const GUIDES: DestinationGuide[] = [wengen, murren, grindelwald, lauterbrunnen, interlaken, zermatt, saasFee, verbier, lucerne, zurich, bern, davos, stMoritz, pontresina, gstaad, adelboden, kandersteg, locarno, ascona, lugano, lausanne, montreux, vevey, geneva, basel, stGallen, engelberg, andermatt, weggis, cransMontana, leukerbad, grachen, laax, flims, scuol, brienz, meiringen, thun, arosa, klosters, lenzerheide, appenzell, schaffhausen, steinAmRhein, wildhaus, fribourg, neuchatel, sion, gruyeres, zinal, champery, bettmeralp, riederalp, gimmelwald, spiez, bellinzona, chur, lenk, silsMaria]
 const REGIONS: Region[] = [berneseOberland, valais, graubunden, central, lakeGeneva, ticino, eastern, mittelland]
 
 /** A registered guide goes live only once enough of its hotels have a photo. Until then the

@@ -1,0 +1,127 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "sils-maria-waldhaus",
+      "bookingName": "Hotel Waldhaus Sils",
+      "tier": "premium",
+      "stars": 5,
+      "bookingUrl": "https://www.booking.com/hotel/ch/waldhaussilsmaria.en-gb.html",
+      "address": "Sils-Maria, 7514 Sils Maria, Switzerland",
+      "prices": {
+        "2027-01-20": 541,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 541,
+        "avg": 540,
+        "samples": 1
+      },
+      "winter": {
+        "from": 541,
+        "avg": 540,
+        "samples": 1
+      },
+      "summer": null
+    },
+    {
+      "slug": "sils-maria-edelweiss",
+      "bookingName": "Edelweiss Swiss Quality Hotel",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/edelweiss-sils-maria.en-gb.html",
+      "address": "Via da Marias 63, 7514 Sils Maria, Switzerland",
+      "prices": {
+        "2027-01-20": 369,
+        "2027-02-17": 422,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 369,
+        "avg": 395,
+        "samples": 2
+      },
+      "winter": {
+        "from": 369,
+        "avg": 395,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "sils-maria-fex",
+      "bookingName": "Hotel Fex",
+      "tier": "mid",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/fex.en-gb.html",
+      "address": "Via da Fex 73, 7514 Sils Maria, Switzerland",
+      "prices": {
+        "2027-07-21": 350,
+        "2026-12-18": null,
+        "2027-01-20": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 350,
+        "avg": 350,
+        "samples": 1
+      },
+      "winter": null,
+      "summer": {
+        "from": 350,
+        "avg": 350,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "sils-maria-schweizerhof",
+      "bookingName": "Hotel Schweizerhof Sils Maria, a Faern Collection Hotel",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/schweizerhof-sils-maria.en-gb.html",
+      "address": "Via da Fex 1, 7514 Sils Maria, Switzerland",
+      "prices": {
+        "2027-01-20": 295,
+        "2027-07-21": 273,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 273,
+        "avg": 285,
+        "samples": 2
+      },
+      "winter": {
+        "from": 295,
+        "avg": 295,
+        "samples": 1
+      },
+      "summer": {
+        "from": 273,
+        "avg": 275,
+        "samples": 1
+      }
+    }
+  ]
+}
