@@ -1,0 +1,69 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "chateau-d-oex-roc-et-neige",
+      "bookingName": "Hotel Roc et Neige",
+      "tier": "budget",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/lodge-roc-et-neige.en-gb.html",
+      "address": "Les Monnaires 46, 1660 Chateau-d'Oex, Switzerland",
+      "prices": {
+        "2027-01-20": 177,
+        "2027-02-17": 196,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 177,
+        "avg": 185,
+        "samples": 2
+      },
+      "winter": {
+        "from": 177,
+        "avg": 185,
+        "samples": 2
+      },
+      "summer": null
+    },
+    {
+      "slug": "chateau-d-oex-ermitage",
+      "bookingName": "Maison d'hôtes Ermitage",
+      "tier": "budget",
+      "stars": null,
+      "bookingUrl": "https://www.booking.com/hotel/ch/ermitage-country-inn.en-gb.html",
+      "address": "4 Grand Rue, 1660 Chateau-d'Oex, Switzerland",
+      "prices": {
+        "2027-01-20": 210,
+        "2027-02-17": 210,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-07-21": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 210,
+        "avg": 210,
+        "samples": 2
+      },
+      "winter": {
+        "from": 210,
+        "avg": 210,
+        "samples": 2
+      },
+      "summer": null
+    }
+  ]
+}

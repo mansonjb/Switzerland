@@ -1,0 +1,77 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20",
+    "2027-02-17"
+  ],
+  "summerDates": [
+    "2027-07-21"
+  ],
+  "hotels": [
+    {
+      "slug": "braunwald-panoramahotel",
+      "bookingName": "Panoramahotel Braunwald",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/panoramahotel-braunwald.en-gb.html",
+      "address": "Panoramahotel Braunwald, 8784 Braunwald, Switzerland",
+      "prices": {
+        "2027-01-20": 291,
+        "2027-02-17": 291,
+        "2027-07-21": 291,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 291,
+        "avg": 290,
+        "samples": 3
+      },
+      "winter": {
+        "from": 291,
+        "avg": 290,
+        "samples": 2
+      },
+      "summer": {
+        "from": 291,
+        "avg": 290,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "braunwald-toediblick",
+      "bookingName": "Hotel Tödiblick",
+      "tier": "mid",
+      "stars": 3,
+      "bookingUrl": "https://www.booking.com/hotel/ch/todiblick.en-gb.html",
+      "address": "Schwändibergstrasse 19, 8784 Braunwald, Switzerland",
+      "prices": {
+        "2027-01-20": 299,
+        "2027-02-17": 347,
+        "2027-07-21": 347,
+        "2026-12-18": null,
+        "2027-06-23": null,
+        "2027-09-08": null
+      },
+      "all": {
+        "from": 299,
+        "avg": 330,
+        "samples": 3
+      },
+      "winter": {
+        "from": 299,
+        "avg": 325,
+        "samples": 2
+      },
+      "summer": {
+        "from": 347,
+        "avg": 345,
+        "samples": 1
+      }
+    }
+  ]
+}
