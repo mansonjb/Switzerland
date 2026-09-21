@@ -137,6 +137,8 @@ const HOTELS = [
   { slug: "bellinzona-sud", name: "Hotel Bellinzona Sud, Bellinzona" },
   { slug: "chur-hotel-chur", name: "Hotel Chur, Welschdörfli, Chur" },
   { slug: "lenk-waldrand", name: "Hotel Waldrand, Lenk im Simmental" },
+  { slug: "zug-ochsen", name: "City-Hotel Ochsen, Kolinplatz 11, Zug" },
+  { slug: "zug-la-colombe", name: "Hotel La Colombe, Unter Altstadt 24, Zug" },
 ];
 
 async function loadToken() {

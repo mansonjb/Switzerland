@@ -34,3 +34,7 @@ Checked 16/09/2026, from data/research/zug.md.
 - Zug Castle's Medieval Festival, dated 19-20 September 2026 on the tourist office's homepage events reference: dropped. The guide is written as of 21 September 2026, after this single dated 2026 event, so it would already be stale for a reader; not evergreen enough for a "what to do" or "watch" note.
 - Zuger Kirschtorte itself (history, recipe protection): not described on the tourist office pages fetched beyond the "Chriesi" reference already used; no separate claim added.
 - Households (14'341, 2023), area (2'165 ha), businesses (7'826) and employees (47'525, 2023), municipal tax rate (52, 2026): verified in the dossier but not used on the page; not relevant to a where-to-stay guide beyond the population figure already used.
+
+## Added by the maintainer, 21 September 2026
+- City-Hotel Ochsen, Kolinplatz 11, 6300 Zug, old town, inn on the spot since 1543, 4-star, 42 rooms, Restaurant au premier, bar, sauna and fitness room | VERIFIED | https://www.ochsen-zug.ch/en/
+- Hotel La Colombe, Unter Altstadt 24, 6300 Zug, old town boutique hotel with a gym and the Restaurant zur Taube | VERIFIED | https://hotel-lacolombe.com/en/

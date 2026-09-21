@@ -137,6 +137,7 @@ export const zug: DestinationGuide = {
     {
       slug: 'zug-park-hotel',
       name: 'Park Hotel Zug',
+      photo: '/photos/hotels/zug-park-hotel.jpg',
       url: 'https://www.parkhotel.ch/',
       sector: { en: 'Industriestrasse', fr: 'Industriestrasse', de: 'Industriestrasse' },
       facts: [
@@ -153,6 +154,7 @@ export const zug: DestinationGuide = {
     {
       slug: 'zug-city-garden',
       name: 'City Garden Hotel Zug',
+      photo: '/photos/hotels/zug-city-garden.jpg',
       url: 'https://www.citygarden.ch/',
       sector: { en: 'Metallstrasse', fr: 'Metallstrasse', de: 'Metallstrasse' },
       facts: [
@@ -169,6 +171,7 @@ export const zug: DestinationGuide = {
     {
       slug: 'zug-loewen-am-see',
       name: 'Hotel Löwen am See',
+      photo: '/photos/hotels/zug-loewen-am-see.jpg',
       url: 'https://www.loewen-zug.ch/',
       sector: { en: 'Landsgemeindeplatz and the lakefront', fr: 'Landsgemeindeplatz et bord du lac', de: 'Landsgemeindeplatz und Seeufer' },
       facts: [
@@ -180,6 +183,39 @@ export const zug: DestinationGuide = {
         en: 'Hotel Löwen am See stands at Landsgemeindeplatz 1, on the shore of Lake Zug in a low-traffic old-town district. Its attached brasserie has a French-inspired interior, and reception stays open from 06:30 to 23:00, a four-star address built around the water rather than the station.',
         fr: 'L’Hôtel Löwen am See se trouve à Landsgemeindeplatz 1, au bord du lac de Zoug, dans un quartier de la vieille ville à faible circulation. Sa brasserie attenante affiche un intérieur d’inspiration française, et la réception reste ouverte de 06h30 à 23h00, une adresse 4 étoiles tournée vers l’eau plutôt que vers la gare.',
         de: 'Das Hotel Löwen am See liegt an der Landsgemeindeplatz 1, am Ufer des Zugersees, in einem verkehrsarmen Altstadtquartier. Die angeschlossene Brasserie hat ein französisch inspiriertes Interieur, und die Rezeption ist von 06.30 bis 23.00 Uhr geöffnet, eine 4-Sterne-Adresse, die sich ums Wasser dreht statt um den Bahnhof.',
+      },
+    },
+    {
+      slug: 'zug-ochsen',
+      name: 'City-Hotel Ochsen',
+      photo: '/photos/hotels/zug-ochsen.jpg',
+      url: 'https://www.ochsen-zug.ch/en/',
+      sector: { en: 'Bahnhofplatz and the Altstadt', fr: 'Bahnhofplatz et la vieille ville', de: 'Bahnhofplatz und Altstadt' },
+      facts: [
+        { en: 'Kolinplatz 11, in the old town, an inn on this spot since 1543', fr: 'Kolinplatz 11, dans la vieille ville, auberge à cet endroit depuis 1543', de: 'Kolinplatz 11, in der Altstadt, seit 1543 Gasthaus an diesem Ort' },
+        { en: '4-star, 42 rooms', fr: '4 étoiles, 42 chambres', de: '4 Sterne, 42 Zimmer' },
+        { en: 'Restaurant au premier, a bar, sauna and fitness room', fr: 'Restaurant au premier, un bar, sauna et salle de fitness', de: 'Restaurant au premier, eine Bar, Sauna und Fitnessraum' },
+      ],
+      blurb: {
+        en: 'The old town address, on the Kolinplatz, where an inn has stood since 1543 and 42 rooms now sit above the Restaurant au premier. A sauna and a fitness room come with the stay, and the lake and the station are both a walk away. Take it if you want the medieval centre outside the door rather than a business quarter.',
+        fr: 'L’adresse de la vieille ville, sur la Kolinplatz, où une auberge se tient depuis 1543 et où 42 chambres surplombent aujourd’hui le Restaurant au premier. Sauna et salle de fitness sont compris, le lac et la gare se font à pied. À prendre si l’on veut le centre médiéval devant la porte plutôt qu’un quartier d’affaires.',
+        de: 'Die Altstadtadresse am Kolinplatz, wo seit 1543 ein Gasthaus steht und heute 42 Zimmer über dem Restaurant au premier liegen. Sauna und Fitnessraum gehören dazu, See und Bahnhof sind zu Fuss erreichbar. Passend, wenn man die mittelalterliche Mitte vor der Tür will und kein Geschäftsquartier.',
+      },
+    },
+    {
+      slug: 'zug-la-colombe',
+      name: 'Hotel La Colombe',
+      photo: '/photos/hotels/zug-la-colombe.jpg',
+      url: 'https://hotel-lacolombe.com/en/',
+      sector: { en: 'Bahnhofplatz and the Altstadt', fr: 'Bahnhofplatz et la vieille ville', de: 'Bahnhofplatz und Altstadt' },
+      facts: [
+        { en: 'Unter Altstadt 24, in the old town', fr: 'Unter Altstadt 24, dans la vieille ville', de: 'Unter Altstadt 24, in der Altstadt' },
+        { en: 'Boutique house with a gym, Restaurant zur Taube on the ground floor', fr: 'Maison boutique avec salle de sport, Restaurant zur Taube au rez-de-chaussée', de: 'Boutiquehaus mit Fitnessraum, Restaurant zur Taube im Erdgeschoss' },
+      ],
+      blurb: {
+        en: 'A small boutique house on the Unter Altstadt, the arcaded street that runs towards the lake, with the Restaurant zur Taube downstairs and a gym for guests. It trades size for position: the old town is the building, not a view from it. Book early, because a house this small sells out before the chain hotels do.',
+        fr: 'Une petite maison boutique sur l’Unter Altstadt, la rue à arcades qui file vers le lac, avec le Restaurant zur Taube en bas et une salle de sport pour les hôtes. Elle échange la taille contre l’emplacement : la vieille ville, c’est le bâtiment lui-même, pas la vue depuis les fenêtres. Réservez tôt, une maison aussi petite se remplit avant les hôtels de chaîne.',
+        de: 'Ein kleines Boutiquehaus an der Unter Altstadt, der Laubengasse Richtung See, mit dem Restaurant zur Taube im Erdgeschoss und einem Fitnessraum für Gäste. Es tauscht Grösse gegen Lage: Die Altstadt ist hier das Gebäude selbst, nicht die Aussicht daraus. Früh buchen, ein so kleines Haus ist vor den Kettenhotels ausgebucht.',
       },
     },
   ],

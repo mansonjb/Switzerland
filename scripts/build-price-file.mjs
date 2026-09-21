@@ -42,9 +42,16 @@ const norm = (s) =>
 // Guide hotels to leave without a price after a manual check of a bad match.
 const EXCLUDE = (arg("exclude") || "").split(",").filter(Boolean);
 
+// Booking sometimes returns a freak rate for a date where only a suite or a whole apartment is left
+// (Park Hotel Zug: 374, 397, then 10063). One such sample would drag the average into fiction, so a
+// value more than six times the hotel's own cheapest sample is dropped.
+const OUTLIER_FACTOR = 6;
+
 const stat = (prices, dates) => {
-  const vals = dates.map((d) => prices[d]).filter((v) => typeof v === "number");
-  if (!vals.length) return null;
+  const raw = dates.map((d) => prices[d]).filter((v) => typeof v === "number");
+  if (!raw.length) return null;
+  const floor = Math.min(...raw);
+  const vals = raw.filter((v) => v <= floor * OUTLIER_FACTOR);
   const from = Math.min(...vals);
   const avg = Math.round(vals.reduce((a, b) => a + b, 0) / vals.length / 5) * 5;
   return { from, avg, samples: vals.length };

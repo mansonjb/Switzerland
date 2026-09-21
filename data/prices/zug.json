@@ -1,0 +1,108 @@
+{
+  "scrapedOn": "2026-09-21",
+  "source": "Booking.com via Apify voyager/booking-scraper",
+  "currency": "CHF",
+  "occupancy": "2 adults, 1 room, 1 night",
+  "winterDates": [
+    "2027-01-20"
+  ],
+  "summerDates": [
+    "2027-07-21",
+    "2027-09-08"
+  ],
+  "hotels": [
+    {
+      "slug": "zug-park-hotel",
+      "bookingName": "Park Hotel Zug",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/parkhotelzug.en-gb.html",
+      "address": "Industriestrasse 14, 6302 Zug, Switzerland",
+      "prices": {
+        "2027-01-20": 374,
+        "2027-07-21": 397,
+        "2027-09-08": 10063,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 374,
+        "avg": 385,
+        "samples": 2
+      },
+      "winter": {
+        "from": 374,
+        "avg": 375,
+        "samples": 1
+      },
+      "summer": {
+        "from": 397,
+        "avg": 395,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zug-city-garden",
+      "bookingName": "City Garden Hotel",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/city-garden.en-gb.html",
+      "address": "Metallstrasse 20, 6304 Zug, Switzerland",
+      "prices": {
+        "2027-01-20": 374,
+        "2027-07-21": 372,
+        "2027-09-08": 10063,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 372,
+        "avg": 375,
+        "samples": 2
+      },
+      "winter": {
+        "from": 374,
+        "avg": 375,
+        "samples": 1
+      },
+      "summer": {
+        "from": 372,
+        "avg": 370,
+        "samples": 1
+      }
+    },
+    {
+      "slug": "zug-loewen-am-see",
+      "bookingName": "Hotel Löwen am See",
+      "tier": "mid",
+      "stars": 4,
+      "bookingUrl": "https://www.booking.com/hotel/ch/lowen-am-see.en-gb.html",
+      "address": "Landsgemeindeplatz 1, 6301 Zug, Switzerland",
+      "prices": {
+        "2027-01-20": 303,
+        "2027-07-21": 396,
+        "2027-09-08": 398,
+        "2026-12-18": null,
+        "2027-02-17": null,
+        "2027-06-23": null
+      },
+      "all": {
+        "from": 303,
+        "avg": 365,
+        "samples": 3
+      },
+      "winter": {
+        "from": 303,
+        "avg": 305,
+        "samples": 1
+      },
+      "summer": {
+        "from": 396,
+        "avg": 395,
+        "samples": 2
+      }
+    }
+  ]
+}

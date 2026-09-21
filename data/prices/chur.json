@@ -126,7 +126,7 @@
     {
       "slug": "chur-mercure-city-west",
       "bookingName": "Mercure Chur City West",
-      "tier": "premium",
+      "tier": "budget",
       "stars": 4,
       "bookingUrl": "https://www.booking.com/hotel/ch/city-west-chur-und-restaurant.en-gb.html",
       "address": "Comercialstrasse 32, 7000 Chur, Switzerland",
@@ -140,8 +140,8 @@
       },
       "all": {
         "from": 192,
-        "avg": 900,
-        "samples": 3
+        "avg": 210,
+        "samples": 2
       },
       "winter": {
         "from": 2282,
