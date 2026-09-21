@@ -32,6 +32,7 @@ ${publishedRegions()
   .join('\n')}
 
 ## Practical
+- [Swiss Travel Pass: 2026 prices and what it covers](${SITE_URL}/swiss-travel-pass)
 - [Car rental in Switzerland](${SITE_URL}/car-rental)
 - [Methodology](${SITE_URL}/about)
 

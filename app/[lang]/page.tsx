@@ -193,7 +193,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
             <div className="mt-6">
               <Stats locale={lang} big items={[{ value: String(carFree), label: { en: 'car-free villages on the sheet', fr: 'villages sans voiture sur la planche', de: 'autofreie Orte auf dem Bogen' } }, { value: String(destinations.length), label: { en: 'reachable by public transport', fr: 'accessibles en transports publics', de: 'mit dem ÖV erreichbar' } }]} />
             </div>
-            {hasGuide('wengen') && <div className="mt-6"><OutlineLink href={localePath(lang, '/wengen#car-free')}>{T({ en: 'Car-free in practice: Wengen', fr: 'Sans voiture en pratique : Wengen', de: 'Autofrei in der Praxis: Wengen' })} →</OutlineLink></div>}
+            {hasGuide('wengen') && <div className="mt-6"><Link href={localePath(lang, '/wengen#car-free')} className="inline-flex items-center justify-center rounded-full bg-lake px-6 py-3 text-[15px] font-bold text-white no-underline shadow-[0_6px_16px_rgba(14,95,110,0.22)] transition-colors hover:bg-lake-dark">{T({ en: 'Car-free in practice: Wengen', fr: 'Sans voiture en pratique : Wengen', de: 'Autofrei in der Praxis: Wengen' })}</Link></div>}
           </div>
           <div id="swiss-travel-pass" className="scroll-mt-6">
             <h2 className="m-0 font-display text-[28px] font-semibold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[40px]">Swiss Travel Pass</h2>
@@ -211,7 +211,10 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
                 />
               </div>
             )}
-            <div className="mt-6"><OutlineLink href={localePath(lang, '/wengen#swiss-travel-pass')}>{T({ en: 'See the full calculation', fr: 'Le calcul complet', de: 'Die ganze Rechnung' })} →</OutlineLink></div>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link href={localePath(lang, '/swiss-travel-pass')} className="inline-flex items-center justify-center rounded-full bg-lake px-6 py-3 text-[15px] font-bold text-white no-underline shadow-[0_6px_16px_rgba(14,95,110,0.22)] transition-colors hover:bg-lake-dark">{T({ en: 'Prices and what it covers', fr: 'Prix et ce qu’il couvre', de: 'Preise und Leistungen' })}</Link>
+              <Link href={localePath(lang, '/wengen#swiss-travel-pass')} className="inline-flex items-center justify-center rounded-full border border-rule bg-white px-6 py-3 text-[15px] font-bold text-ink no-underline transition-colors hover:border-lake hover:bg-lake hover:text-white">{T({ en: 'The Wengen calculation', fr: 'Le calcul pour Wengen', de: 'Die Rechnung für Wengen' })}</Link>
+            </div>
           </div>
         </Container>
 

@@ -22,7 +22,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
     { href: localePath(locale, '/#destinations'), label: d.nav.destinations },
     { href: localePath(locale, '/regions'), label: d.nav.regions },
     { href: localePath(locale, '/#car-free'), label: d.nav.carFree },
-    { href: localePath(locale, '/#swiss-travel-pass'), label: d.nav.pass },
+    { href: localePath(locale, '/swiss-travel-pass'), label: d.nav.pass },
     { href: localePath(locale, '/car-rental'), label: d.nav.carRental },
   ]
   return (
@@ -105,7 +105,7 @@ export function Footer({ locale }: { locale: Locale }) {
           </div>
           <div className={col}>
             <div className={head}>{d.footer.guides}</div>
-            <Link href={localePath(locale, '/#swiss-travel-pass')} className={link}>{d.nav.pass}</Link>
+            <Link href={localePath(locale, '/swiss-travel-pass')} className={link}>{d.nav.pass}</Link>
             <Link href={localePath(locale, '/#car-free')} className={link}>{d.nav.carFree}</Link>
           </div>
           <div className={col}>
