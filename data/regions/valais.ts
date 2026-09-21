@@ -15,9 +15,9 @@ export const valais: Region = {
     },
   },
   intro: {
-    en: 'The Valais is the driest and highest of the Swiss cantons for holidays: two of its best known villages let no private car in at all, the third is reached by road. The choice comes down to how you arrive, how high you sleep, and what you want on the mountain.',
-    fr: 'Le Valais est le canton le plus sec et le plus haut perché pour les vacances : deux de ses villages les plus connus n’acceptent aucune voiture privée, le troisième est accessible par la route. Le choix se joue sur la façon d’arriver, l’altitude où l’on dort, et ce que l’on cherche en montagne.',
-    de: 'Das Wallis ist der trockenste und höchstgelegene Ferienkanton der Schweiz: Zwei seiner bekanntesten Dörfer lassen gar kein Privatauto herein, das dritte ist per Strasse erreichbar. Die Wahl hängt an der Anreise, an der Höhe, auf der Sie schlafen, und daran, was Sie am Berg suchen.',
+    en: 'The Valais is the canton of the high resorts: Zermatt, Saas-Fee, Bettmeralp and Riederalp let no private car in at all, while Verbier, Crans-Montana and the side valleys are reached by road. The choice comes down to how you arrive, how high you sleep, and what you want on the mountain.',
+    fr: 'Le Valais est le canton des stations d’altitude : Zermatt, Saas-Fee, Bettmeralp et Riederalp n’acceptent aucune voiture privée, tandis que Verbier, Crans-Montana et les vallées latérales se rejoignent par la route. Le choix se joue sur la façon d’arriver, l’altitude où l’on dort, et ce que l’on cherche en montagne.',
+    de: 'Das Wallis ist der Kanton der hochgelegenen Ferienorte: Zermatt, Saas-Fee, Bettmeralp und Riederalp lassen keine Privatautos hinein, Verbier, Crans-Montana und die Seitentäler erreicht man über die Strasse. Die Wahl hängt davon ab, wie Sie anreisen, wie hoch Sie schlafen und was Sie am Berg suchen.',
   },
   quickAnswer: {
     en: 'Stay in Zermatt for the Matterhorn and the Gornergrat railway, in Saas-Fee for a smaller car-free village under the glaciers, and in Verbier if you want to drive up to a 410 km ski area.',

@@ -9,6 +9,7 @@ const TODAY = new Date().toISOString().slice(0, 10)
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: { path: string; lastModified?: string; priority: number }[] = [
     { path: '/', lastModified: TODAY, priority: 1 },
+    { path: '/regions', lastModified: TODAY, priority: 0.9 },
     ...publishedRegions().map((r) => ({ path: `/regions/${r.slug}`, lastModified: r.updated, priority: 0.9 })),
     ...publishedGuides().map((g) => ({ path: `/${g.slug}`, lastModified: g.updated, priority: 0.9 })),
     { path: '/car-rental', lastModified: TODAY, priority: 0.5 },

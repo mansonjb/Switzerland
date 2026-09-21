@@ -15,9 +15,9 @@ export const central: Region = {
     },
   },
   intro: {
-    en: 'One lake, a city at its end and three villages around it, all linked by boat, rack railway and cable car. You can sleep in the city and take the mountain as a day trip, or sleep on the mountain and come down for the evening.',
-    fr: 'Un lac, une ville à son extrémité et trois villages autour, tous reliés par bateau, train à crémaillère et téléphérique. On peut dormir en ville et monter à la journée, ou dormir en montagne et redescendre le soir.',
-    de: 'Ein See, eine Stadt an seinem Ende und drei Orte ringsum, verbunden durch Schiff, Zahnradbahn und Seilbahn. Man kann in der Stadt schlafen und den Berg als Tagesausflug nehmen, oder am Berg schlafen und abends hinunterfahren.',
+    en: 'Lake Lucerne and its neighbours: a city at the end of the lake, lakeside villages linked by boat, mountain villages reached by rack railway or cable car, and the towns of Zug and Einsiedeln just beyond. You can sleep in the city and take the mountain as a day trip, or sleep on the mountain and come down for the evening.',
+    fr: 'Le lac des Quatre-Cantons et ses voisins : une ville au bout du lac, des villages de rive reliés par bateau, des villages de montagne rejoints en train à crémaillère ou en téléphérique, et, un peu plus loin, Zoug et Einsiedeln. On peut dormir en ville et monter à la montagne pour la journée, ou dormir en haut et descendre pour la soirée.',
+    de: 'Der Vierwaldstättersee und seine Nachbarn: eine Stadt am Seeende, Uferdörfer mit Schiffsanschluss, Bergdörfer mit Zahnradbahn oder Seilbahn, und etwas weiter Zug und Einsiedeln. Man kann in der Stadt schlafen und den Berg als Tagesausflug nehmen, oder oben schlafen und für den Abend hinunterfahren.',
   },
   quickAnswer: {
     en: 'Stay in Lucerne for the station, the boats and the widest choice of rooms, in Weggis for a quiet lakeside village ten minutes under the Rigi, in Engelberg for the Titlis glacier, and in Andermatt for the biggest ski area and the Glacier Express.',

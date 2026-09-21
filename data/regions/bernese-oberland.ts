@@ -15,9 +15,9 @@ export const berneseOberland: Region = {
     },
   },
   intro: {
-    en: 'Five possible bases in the same corner of the Alps, linked by train and cable car. The choice comes down to three things: altitude, whether cars can reach the village, and how long it takes to get to the Jungfraujoch.',
-    fr: "Cinq bases possibles dans le même coin des Alpes, reliées par le train et le téléphérique. Le choix se joue sur trois choses : l'altitude, l'accès ou non des voitures, et le temps pour rejoindre le Jungfraujoch.",
-    de: 'Fünf mögliche Standorte in derselben Ecke der Alpen, verbunden durch Bahn und Seilbahn. Die Wahl hängt an drei Dingen: Höhe, ob Autos ins Dorf fahren, und wie lange es aufs Jungfraujoch dauert.',
+    en: 'The Jungfrau valleys, the lakes of Thun and Brienz and the resorts of the Simmental, Saanenland and Frutigland, all linked by train, bus and cable car. The choice comes down to three things: altitude, whether cars can reach the village, and how long it takes to get to the mountain you came for.',
+    fr: 'Les vallées de la Jungfrau, les lacs de Thoune et de Brienz et les stations du Simmental, du Saanenland et du Frutigland, reliés par train, car postal et téléphérique. Le choix tient à trois choses : l’altitude, l’accès ou non des voitures, et le temps pour rejoindre la montagne qui vous fait venir.',
+    de: 'Die Jungfrautäler, der Thuner- und der Brienzersee und die Ferienorte im Simmental, Saanenland und Frutigland, alle verbunden durch Bahn, Postauto und Seilbahn. Die Wahl hängt an drei Dingen: Höhe, ob Autos ins Dorf kommen, und wie lange die Fahrt zum Berg dauert, für den Sie kommen.',
   },
   quickAnswer: {
     en: 'Stay in Lauterbrunnen for a central base in the valley, Wengen for a car-free village with shops, Mürren for quiet, Grindelwald for the fastest trip to the Jungfraujoch, and Interlaken if you arrive late by train.',
@@ -31,7 +31,7 @@ export const berneseOberland: Region = {
   },
   // Centred between Interlaken and Grindelwald, over the Lauterbrunnen valley
   map: { lat: 46.63, lng: 7.93, zoom: 11 },
-  destinations: ['interlaken', 'lauterbrunnen', 'wengen', 'murren', 'grindelwald', 'gstaad', 'adelboden', 'kandersteg', 'brienz', 'meiringen', 'thun', 'spiez'],
+  destinations: ['interlaken', 'lauterbrunnen', 'wengen', 'murren', 'grindelwald', 'gstaad', 'adelboden', 'kandersteg', 'brienz', 'meiringen', 'thun', 'spiez', 'gimmelwald', 'lenk'],
   criteria: [
     { en: 'Quiet', fr: 'Calme', de: 'Ruhe' },
     { en: 'Views', fr: 'Vue', de: 'Aussicht' },

@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { hasLocale, languageAlternates, localePath, t, type L } from '@/lib/i18n'
 import { fill, getDict } from '@/lib/dict'
 import { SITE_URL, SITE_NAME } from '@/lib/site'
-import { destinations, getDestination, getGuide, getRegion, hasGuide, publishedGuides, regionNames } from '@/data'
+import { destinations, getDestination, getGuide, hasGuide, publishedGuides, publishedRegions, regionNames } from '@/data'
 import { home } from '@/data/home'
 import { getHotelPrice } from '@/data/prices'
 
@@ -18,6 +18,7 @@ function featuredSlug(slugs: string[]) {
 import { Footer, Header } from '@/components/chrome'
 import { BookingPanel, Container, CtaBand, Faq, JsonLd, PhotoHero, Section, Stats } from '@/components/blocks'
 import { HotelButton, LiveMap, PlaceButton, StayFinder, StickyBookingBar } from '@/components/booking'
+import { RegionCard } from '@/components/regions'
 import { Sheet } from '@/components/sheet'
 import { Stamp } from '@/components/stamp'
 
@@ -171,56 +172,12 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
         </Section>
 
         {/* 7. Regions */}
-        <Section id="regions" title={T(home.regionsTitle)} gap="mb-0 md:mb-8">
-          <div className="hidden lg:block">
-            <table className="w-full border-collapse">
-              <thead>
-                <tr className="border-b border-ink">
-                  <th scope="col" className={`${colHead} w-[240px]`}>{T({ en: 'Region', fr: 'Région', de: 'Region' })}</th>
-                  <th scope="col" className={`${colHead} w-[320px]`}>{T({ en: 'Possible bases', fr: 'Bases possibles', de: 'Mögliche Standorte' })}</th>
-                  <th scope="col" className={`${colHead} w-[170px]`}>{T({ en: 'From Zurich HB', fr: 'Depuis Zurich HB', de: 'Ab Zürich HB' })}</th>
-                  <th scope="col" className={colHead}>{T({ en: 'What you come for', fr: 'Ce que vous venez chercher', de: 'Was Sie erwartet' })}</th>
-                  <th scope="col" className="w-[190px]" />
-                </tr>
-              </thead>
-              <tbody>
-                {home.regions.map((r, i) => {
-                  const page = getRegion(r.slug)
-                  return (
-                    <tr key={r.slug} className={`border-b border-rule align-middle transition-colors hover:bg-mist ${i % 2 ? 'bg-mist/60' : ''}`}>
-                      <th scope="row" className="p-4 text-left font-display text-2xl font-bold uppercase text-ink">
-                        {page ? <Link href={localePath(lang, `/regions/${r.slug}`)} className="no-underline hover:text-lake">{T(r.name)} →</Link> : T(r.name)}
-                      </th>
-                      <td className="p-4 text-[15px] text-ink">{T(r.bases)}</td>
-                      <td className="p-4 font-display text-2xl font-bold tabular-nums text-ink">{r.fromZurich}</td>
-                      <td className="p-4 text-[15px] text-ink">{T(r.why)}</td>
-                      <td className="py-4 pr-4 text-right">
-                        <PlaceButton place={T(r.bases).split(',')[0]} placement={`home-region-${r.slug}`} label={d.sell.checkPrices} variant="outline" geo={{ lang }} />
-                      </td>
-                    </tr>
-                  )
-                })}
-              </tbody>
-            </table>
+        <Section id="regions" title={T(home.regionsTitle)} aside={<Link href={localePath(lang, '/regions')} className="inline-flex items-center justify-center rounded-full bg-lake px-5 py-2.5 text-[14px] font-bold text-white no-underline transition-colors hover:bg-lake-dark">{T({ en: 'All regions compared', fr: 'Toutes les régions comparées', de: 'Alle Regionen im Vergleich' })}</Link>} gap="mb-6 md:mb-8">
+          <div className="grid gap-6 md:grid-cols-2 md:gap-8">
+            {publishedRegions().map((r) => (
+              <RegionCard key={r.slug} region={r} locale={lang} placement={`home-region-${r.slug}`} />
+            ))}
           </div>
-          <div className="lg:hidden">
-            {home.regions.map((r, i) => {
-              const page = getRegion(r.slug)
-              return (
-                <div key={r.slug} className={`border-b border-rule py-4 ${i % 2 ? 'bg-mist/60' : ''}`}>
-                  <div className="flex items-baseline justify-between gap-3">
-                    <div className="font-display text-2xl font-bold uppercase leading-none text-ink">
-                      {page ? <Link href={localePath(lang, `/regions/${r.slug}`)} className="no-underline">{T(r.name)} →</Link> : T(r.name)}
-                    </div>
-                    <div className="font-display text-xl font-bold tabular-nums text-ink">{r.fromZurich}</div>
-                  </div>
-                  <div className="mt-1.5 text-sm text-muted">{T(r.bases)}</div>
-                  <div className="mt-1.5 text-sm leading-normal text-ink">{T(r.why)}</div>
-                </div>
-              )
-            })}
-          </div>
-          <p className="mb-0 mt-4 text-[13px] text-muted md:text-sm">{T(home.regionsNote)}</p>
         </Section>
 
         <CtaBand title={T({ en: 'Know where you are going? See what is still available.', fr: 'Vous savez où aller ? Voyez ce qui est encore libre.', de: 'Wissen Sie, wohin? Sehen Sie, was noch frei ist.' })} text={d.sell.ctaBandText}>

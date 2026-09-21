@@ -31,7 +31,7 @@ export const mittelland: Region = {
   },
   // Centred between Bern, Fribourg and the lake of Neuchâtel
   map: { lat: 46.9, lng: 7.2, zoom: 9 },
-  destinations: ['bern', 'basel', 'fribourg', 'neuchatel', 'gruyeres'],
+  destinations: ['bern', 'basel', 'fribourg', 'neuchatel', 'gruyeres', 'chateau-d-oex'],
   criteria: [
     { en: 'Quiet', fr: 'Calme', de: 'Ruhe' },
     { en: 'Old town', fr: 'Vieille ville', de: 'Altstadt' },

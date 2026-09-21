@@ -20,7 +20,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
   const d = getDict(locale)
   const links = [
     { href: localePath(locale, '/#destinations'), label: d.nav.destinations },
-    { href: localePath(locale, '/#regions'), label: d.nav.regions },
+    { href: localePath(locale, '/regions'), label: d.nav.regions },
     { href: localePath(locale, '/#car-free'), label: d.nav.carFree },
     { href: localePath(locale, '/#swiss-travel-pass'), label: d.nav.pass },
     { href: localePath(locale, '/car-rental'), label: d.nav.carRental },

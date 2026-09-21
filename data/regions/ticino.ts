@@ -15,9 +15,9 @@ export const ticino: Region = {
     },
   },
   intro: {
-    en: 'South of the Gotthard the language changes and so does the weather. Two of these three sit on Lake Maggiore, ten minutes apart, the third on its own lake behind the mountain. The choice is mostly between a working city and a promenade.',
-    fr: 'Au sud du Gothard, la langue change et le temps aussi. Deux de ces trois villes se trouvent sur le lac Majeur, à dix minutes l’une de l’autre, la troisième sur son propre lac derrière la montagne. Le choix se joue surtout entre une ville active et une promenade.',
-    de: 'Südlich des Gotthards ändern sich Sprache und Wetter. Zwei der drei liegen am Lago Maggiore, zehn Minuten voneinander entfernt, die dritte an ihrem eigenen See hinter dem Berg. Die Wahl steht vor allem zwischen einer Arbeitsstadt und einer Promenade.',
+    en: 'South of the Gotthard the language changes and so does the weather. Locarno and Ascona sit on Lake Maggiore, Lugano on its own lake behind the mountain, and Bellinzona guards the valley with its three castles. The choice is mostly between a working city, a lakeside promenade and a castle town.',
+    fr: 'Au sud du Gothard, la langue change, et le temps aussi. Locarno et Ascona sont au bord du lac Majeur, Lugano sur son propre lac derrière la montagne, et Bellinzone garde la vallée avec ses trois châteaux. Le choix se fait surtout entre une ville active, une promenade au bord du lac et une ville de châteaux.',
+    de: 'Südlich des Gotthards wechselt die Sprache und mit ihr das Wetter. Locarno und Ascona liegen am Lago Maggiore, Lugano an seinem eigenen See hinter dem Berg, und Bellinzona bewacht mit seinen drei Burgen das Tal. Die Wahl fällt meist zwischen einer lebendigen Stadt, einer Seepromenade und einer Burgenstadt.',
   },
   quickAnswer: {
     en: 'Stay in Lugano for a city with its own station and two funiculars, in Locarno for the old town and the Cardada cable car, and in Ascona for the lakefront promenade if you do not mind a bus to the nearest station.',

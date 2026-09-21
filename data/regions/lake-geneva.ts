@@ -15,9 +15,9 @@ export const lakeGeneva: Region = {
     },
   },
   intro: {
-    en: 'One long lake, four towns strung along its north shore, all on the same railway line and the same boat network. From Geneva to Vevey the pace drops and the vineyards start, which is really what the choice is about.',
-    fr: 'Un long lac, quatre villes alignées sur sa rive nord, toutes sur la même ligne de chemin de fer et le même réseau de bateaux. De Genève à Vevey, le rythme baisse et les vignes commencent : c’est là que se joue le choix.',
-    de: 'Ein langer See, vier Städte an seinem Nordufer, alle an derselben Bahnlinie und demselben Schiffsnetz. Von Genf bis Vevey wird es ruhiger und die Rebberge beginnen, und genau darum geht es bei der Wahl.',
+    en: 'One long lake with four towns strung along its north shore, on the same railway line and the same boat network, and two mountain resorts in the Vaud Alps above it. From Geneva to Vevey the pace drops and the vineyards start; above Aigle, Villars and Les Diablerets trade the lake for the mountain.',
+    fr: 'Un long lac, quatre villes alignées sur sa rive nord, sur la même ligne de train et le même réseau de bateaux, et deux stations des Alpes vaudoises au-dessus. De Genève à Vevey le rythme ralentit et les vignes commencent ; au-dessus d’Aigle, Villars et Les Diablerets échangent le lac contre la montagne.',
+    de: 'Ein langer See mit vier Städten entlang seines Nordufers, an derselben Bahnlinie und demselben Schiffsnetz, und darüber zwei Ferienorte in den Waadtländer Alpen. Von Genf bis Vevey wird das Tempo ruhiger und die Reben beginnen; oberhalb von Aigle tauschen Villars und Les Diablerets den See gegen den Berg.',
   },
   quickAnswer: {
     en: 'Stay in Geneva if you fly in or work there, in Lausanne for a full city with a metro down to the water, in Montreux for the lakefront and Chillon castle, and in Vevey for a market town at the foot of the Lavaux vineyards.',

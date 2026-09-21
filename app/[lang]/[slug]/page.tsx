@@ -186,7 +186,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
             ))}
           </div>
           {guide.story ? (
-            <article className="mt-10 max-w-[68ch] md:mt-14">
+            <article className="mt-10 md:mt-14">
               <h3 className="m-0 font-display text-[26px] font-bold uppercase leading-[1.05] tracking-[0.01em] text-ink md:text-[34px]">{T(guide.story.title)}</h3>
               {guide.story.paragraphs.map((para, i) => (
                 <p key={i} className={i === 0 ? 'mb-0 mt-5 text-lg leading-relaxed text-ink first-letter:float-left first-letter:mr-2.5 first-letter:mt-1 first-letter:font-display first-letter:text-[64px] first-letter:font-bold first-letter:leading-[0.8] first-letter:text-lake md:text-xl' : 'mb-0 mt-5 text-base leading-[1.75] text-ink md:text-[17px]'}>

@@ -26,6 +26,7 @@ ${guides
   .join('\n')}
 
 ## Regions
+- [All regions compared](${SITE_URL}/regions)
 ${publishedRegions()
   .map((r) => `- [${r.name.en}](${SITE_URL}/regions/${r.slug})`)
   .join('\n')}
