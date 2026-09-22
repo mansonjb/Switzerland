@@ -83,7 +83,7 @@ export function Footer({ locale }: { locale: Locale }) {
   return (
     <footer className="bg-ink text-white">
       <div className="mx-auto max-w-[1280px] px-4 pb-8 pt-10 md:px-8 md:pb-10 md:pt-16">
-        <div className="grid grid-cols-2 gap-7 md:grid-cols-4 md:gap-10">
+        <div className="grid grid-cols-2 gap-7 md:grid-cols-3 md:gap-10">
           <div className={col}>
             <div className={head}>{d.footer.regions}</div>
             {regions.map((r) => (
@@ -93,19 +93,10 @@ export function Footer({ locale }: { locale: Locale }) {
             ))}
           </div>
           <div className={col}>
-            <div className={head}>{d.footer.destinations}</div>
-            {guides.map((g) => {
-              const dest = destinations.find((x) => x.slug === g.slug)!
-              return (
-                <Link key={g.slug} href={localePath(locale, `/${g.slug}`)} className={link}>
-                  {t(dest.name, locale)}
-                </Link>
-              )
-            })}
-          </div>
-          <div className={col}>
             <div className={head}>{d.footer.guides}</div>
+            <Link href={localePath(locale, '/regions')} className={link}>{t({ en: 'All regions compared', fr: 'Toutes les régions comparées', de: 'Alle Regionen im Vergleich' }, locale)}</Link>
             <Link href={localePath(locale, '/swiss-travel-pass')} className={link}>{d.nav.pass}</Link>
+            <Link href={localePath(locale, '/car-rental')} className={link}>{d.nav.carRental}</Link>
             <Link href={localePath(locale, '/#car-free')} className={link}>{d.nav.carFree}</Link>
           </div>
           <div className={col}>
@@ -114,6 +105,21 @@ export function Footer({ locale }: { locale: Locale }) {
             <Link href={localePath(locale, '/about#affiliate')} className={link}>{d.footer.affiliation}</Link>
             <Link href={localePath(locale, '/legal')} className={link}>{d.footer.legal}</Link>
           </div>
+        </div>
+        <div className="mt-10 border-t border-white/20 pt-8 md:mt-12 md:pt-10">
+          <div className={`${head} mb-4 md:mb-5`}>
+            {d.footer.destinations} <span className="ml-1 font-sans text-sm font-normal normal-case tracking-normal text-faint">{guides.length}</span>
+          </div>
+          <ul className="m-0 list-none columns-2 gap-x-7 p-0 sm:columns-3 md:columns-4 lg:columns-6 md:gap-x-10">
+            {guides
+              .map((g) => ({ slug: g.slug, name: t(destinations.find((x) => x.slug === g.slug)!.name, locale) }))
+              .sort((a, b) => a.name.localeCompare(b.name, locale))
+              .map((g) => (
+                <li key={g.slug} className="mb-2.5 break-inside-avoid">
+                  <Link href={localePath(locale, `/${g.slug}`)} className={link}>{g.name}</Link>
+                </li>
+              ))}
+          </ul>
         </div>
         <div className="mb-6 mt-10 h-px bg-white/20" />
         <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:gap-10">

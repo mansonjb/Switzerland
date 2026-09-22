@@ -7,7 +7,7 @@ export const regionNames: Record<RegionKey, L> = {
   graubunden: { en: 'Graubünden', fr: 'Grisons', de: 'Graubünden' },
   central: { en: 'Central Switzerland', fr: 'Suisse centrale', de: 'Zentralschweiz' },
   eastern: { en: 'Eastern Switzerland', fr: 'Suisse orientale', de: 'Ostschweiz' },
-  mittelland: { en: 'Bern region', fr: 'Région de Berne', de: 'Region Bern' },
+  mittelland: { en: 'Swiss Plateau', fr: 'Plateau suisse', de: 'Mittelland' },
   zurich: { en: 'Zurich region', fr: 'Région de Zurich', de: 'Region Zürich' },
   'lake-geneva': { en: 'Lake Geneva region', fr: 'Région lémanique', de: 'Genferseegebiet' },
   ticino: { en: 'Ticino', fr: 'Tessin', de: 'Tessin' },
