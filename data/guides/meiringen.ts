@@ -8,9 +8,9 @@ export const meiringen: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Meiringen: the Aare gorge, Reichenbach falls', fr: 'Où dormir à Meiringen : gorges de l’Aar, chutes de Reichenbach', de: 'Wo übernachten in Meiringen: Aareschlucht, Reichenbachfälle' },
     description: {
-      en: 'Where to sleep in Meiringen, from the village centre near the station to the mountain hotels above Rosenlaui, with the Aare gorge, the Reichenbachfall-Bahn and the Sherlock Holmes Museum, and when each one is open.',
-      fr: 'Où dormir à Meiringen, du centre du village près de la gare aux hôtels de montagne au-dessus de Rosenlaui, avec les gorges de l’Aar, le Reichenbachfall-Bahn et le musée Sherlock Holmes, et le calendrier de chacun.',
-      de: 'Wo übernachten in Meiringen, vom Dorfzentrum beim Bahnhof bis zu den Berghotels oberhalb von Rosenlaui, mit Aareschlucht, Reichenbachfall-Bahn und Sherlock-Holmes-Museum, und wann jede Attraktion geöffnet ist.',
+      en: 'Where to sleep in Meiringen, from the centre near the station to the mountain hotels above Rosenlaui, with the Aare gorge and the Reichenbachfall-Bahn.',
+      fr: 'Où dormir à Meiringen, du centre près de la gare aux hôtels de montagne au-dessus de Rosenlaui, avec les gorges de l’Aar et le Reichenbachfall-Bahn.',
+      de: 'Wo übernachten in Meiringen, vom Dorfzentrum beim Bahnhof bis zu den Berghotels oberhalb von Rosenlaui, mit Aareschlucht und Reichenbachfall-Bahn.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Interlaken-Oberhasli', fr: 'Oberland bernois · Interlaken-Oberhasli', de: 'Berner Oberland · Interlaken-Oberhasli' },

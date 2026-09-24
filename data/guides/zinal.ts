@@ -8,9 +8,9 @@ export const zinal: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Zinal: areas, hotels and access', fr: 'Où dormir à Zinal : secteurs, hôtels et accès', de: 'Wo übernachten in Zinal: Ortsteile, Hotels, Anreise' },
     description: {
-      en: 'Where to sleep in Zinal, from Rue des Cinq 4000 to Montferrier, with sourced hotel facts, the Grimentz-Zinal ski area, the Sierre-Zinal race and how to reach the village by bus, car or cable car.',
-      fr: 'Où dormir à Zinal, de la Rue des Cinq 4000 à Montferrier, avec des faits d’hôtels sourcés, le domaine skiable Grimentz-Zinal, la course Sierre-Zinal et les façons de rejoindre le village.',
-      de: 'Wo übernachten in Zinal, von der Rue des Cinq 4000 bis Montferrier, mit belegten Hotelfakten, dem Skigebiet Grimentz-Zinal, dem Sierre-Zinal-Lauf und den Wegen ins Dorf.',
+      en: 'Where to sleep in Zinal, from Rue des Cinq 4000 to Montferrier, with sourced hotel facts, the Grimentz-Zinal ski area and how to reach the village.',
+      fr: 'Où dormir à Zinal, de la Rue des Cinq 4000 à Montferrier, avec des faits d’hôtels sourcés, le domaine Grimentz-Zinal et la course Sierre-Zinal.',
+      de: 'Wo übernachten in Zinal, von der Rue des Cinq 4000 bis Montferrier, mit belegten Hotelfakten, dem Skigebiet Grimentz-Zinal und dem Sierre-Zinal-Lauf.',
     },
   },
   eyebrow: { en: 'Valais · Sierre', fr: 'Valais · Sierre', de: 'Wallis · Sierre' },

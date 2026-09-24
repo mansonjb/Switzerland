@@ -8,9 +8,9 @@ export const einsiedeln: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Einsiedeln: the abbey square', fr: 'Où dormir à Einsiedeln : la place du couvent', de: 'Wo übernachten in Einsiedeln: der Klosterplatz' },
     description: {
-      en: 'Where to sleep in Einsiedeln, from the Klosterplatz by the abbey to the village centre and the Sihlsee side, with sourced hotel facts and abbey visiting hours.',
-      fr: 'Où dormir à Einsiedeln, de la Klosterplatz près du couvent au centre du village et au côté du Sihlsee, avec des faits d’hôtels sourcés et les horaires de visite du couvent.',
-      de: 'Wo übernachten in Einsiedeln, vom Klosterplatz beim Kloster über das Dorfzentrum bis zur Sihlsee-Seite, mit belegten Hotelfakten und den Besuchszeiten des Klosters.',
+      en: 'Where to sleep in Einsiedeln, from the Klosterplatz by the abbey to the village centre and the Sihlsee, with hotel facts and abbey visiting hours.',
+      fr: 'Où dormir à Einsiedeln, de la Klosterplatz près du couvent au centre du village et au Sihlsee, avec des faits d’hôtels sourcés et les horaires du couvent.',
+      de: 'Wo übernachten in Einsiedeln, vom Klosterplatz beim Kloster über das Dorfzentrum bis zur Sihlsee-Seite, mit Hotelfakten und den Besuchszeiten des Klosters.',
     },
   },
   eyebrow: { en: 'Central Switzerland · Schwyz', fr: 'Suisse centrale · Schwyz', de: 'Zentralschweiz · Schwyz' },

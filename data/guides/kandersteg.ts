@@ -8,9 +8,9 @@ export const kandersteg: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Kandersteg: areas, hotels, the car train', fr: 'Où dormir à Kandersteg : secteurs, hôtels, le train-auto', de: 'Wo übernachten in Kandersteg: Ortsteile, Hotels, der Autoverlad' },
     description: {
-      en: 'Where to stay in Kandersteg, from the station side to the quiet southern end near the Doldenhorn, with sourced hotel facts, the Oeschinensee gondola and the Lötschberg car train through to the Valais.',
-      fr: 'Où dormir à Kandersteg, du côté de la gare jusqu’à l’extrémité sud plus calme près du Doldenhorn, avec des faits d’hôtels sourcés, la télécabine de l’Oeschinensee et le train-auto du Lötschberg vers le Valais.',
-      de: 'Wo übernachten in Kandersteg, von der Bahnhofseite bis zum ruhigeren Südende beim Doldenhorn, mit belegten Hotelfakten, der Oeschinenbahn und dem Autoverlad Lötschberg ins Wallis.',
+      en: 'Where to stay in Kandersteg, from the station side to the quiet southern end near the Doldenhorn, with the Oeschinensee gondola and the Lötschberg car train.',
+      fr: 'Où dormir à Kandersteg, du côté de la gare à l’extrémité sud près du Doldenhorn, avec la télécabine de l’Oeschinensee et le train-auto du Lötschberg.',
+      de: 'Wo übernachten in Kandersteg, von der Bahnhofseite bis zum ruhigeren Südende beim Doldenhorn, mit der Oeschinenbahn und dem Autoverlad Lötschberg.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · BLS Lötschberg line', fr: 'Oberland bernois · ligne du Lötschberg (BLS)', de: 'Berner Oberland · BLS-Lötschberglinie' },

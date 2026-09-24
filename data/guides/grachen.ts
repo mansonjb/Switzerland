@@ -8,9 +8,9 @@ export const grachen: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Grächen: family village, car-free centre', fr: 'Où dormir à Grächen : village familial, centre sans voiture', de: 'Wo übernachten in Grächen: Familiendorf, autofreies Zentrum' },
     description: {
-      en: 'Where to sleep in Grächen: the car-free Dorfplatz, the Hannigalp cable-car side and the outlying hamlets, with dated hotel prices and the postbus from St. Niklaus.',
-      fr: 'Où dormir à Grächen : le Dorfplatz sans voiture, le secteur du téléphérique de Hannigalp et les hameaux alentour, avec des prix d’hôtels datés et le car postal depuis St. Niklaus.',
-      de: 'Wo übernachten in Grächen: der autofreie Dorfplatz, die Seite der Hannigalpbahn und die umliegenden Weiler, mit datierten Hotelpreisen und dem Postauto ab St. Niklaus.',
+      en: 'Where to sleep in Grächen: the car-free Dorfplatz, the Hannigalp cable-car side and the hamlets, with dated hotel prices and the postbus from St. Niklaus.',
+      fr: 'Où dormir à Grächen : le Dorfplatz sans voiture, le secteur du téléphérique de Hannigalp et les hameaux, avec des prix datés et le car postal de St. Niklaus.',
+      de: 'Wo übernachten in Grächen: der autofreie Dorfplatz, die Seite der Hannigalpbahn und die Weiler, mit datierten Hotelpreisen und dem Postauto ab St. Niklaus.',
     },
   },
   eyebrow: { en: 'Valais · St. Niklaus', fr: 'Valais · St. Niklaus', de: 'Wallis · St. Niklaus' },

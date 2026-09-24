@@ -9,8 +9,8 @@ export const riederalp: DestinationGuide = {
     title: { en: 'Where to stay in Riederalp: car-free, golf, glacier views', fr: 'Où dormir à Riederalp : sans voiture, golf, vue glacier', de: 'Wo übernachten in Riederalp: autofrei, Golf, Gletscherblick' },
     description: {
       en: 'Where to sleep in car-free Riederalp above Mörel: the three sectors, the golf course at 2000 m, the Aletsch Glacier view points, and what runs when.',
-      fr: 'Où dormir à Riederalp, plateau sans voiture au-dessus de Mörel : les trois secteurs, le golf à 2000 m, les points de vue sur le glacier d’Aletsch, et le calendrier des saisons.',
-      de: 'Wo übernachten im autofreien Riederalp über Mörel: die drei Ortsteile, der Golfplatz auf 2000 m, die Aussichtspunkte über den Aletschgletscher und der Saisonkalender.',
+      fr: 'Où dormir à Riederalp, plateau sans voiture au-dessus de Mörel : les trois secteurs, le golf à 2000 m et les vues sur le glacier d’Aletsch.',
+      de: 'Wo übernachten im autofreien Riederalp über Mörel: die drei Ortsteile, der Golfplatz auf 2000 m und die Aussicht über den Aletschgletscher.',
     },
   },
   eyebrow: { en: 'Valais · Mörel', fr: 'Valais · Mörel', de: 'Wallis · Mörel' },

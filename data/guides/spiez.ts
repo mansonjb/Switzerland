@@ -8,8 +8,8 @@ export const spiez: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Spiez: harbour, castle, Niesen', fr: 'Où dormir à Spiez : port, château, Niesen', de: 'Wo übernachten in Spiez: Hafen, Schloss, Niesen' },
     description: {
-      en: 'Where to sleep in Spiez, from the Schachenstrasse harbour to Schloss Spiez and its vineyard, with sourced hotel facts, the Niesenbahn funicular and the Spiez wine cooperative.',
-      fr: 'Où dormir à Spiez, du port de la Schachenstrasse au vignoble du Château de Spiez, avec des faits d’hôtels sourcés, le funiculaire de la Niesenbahn et le vin de Spiez.',
+      en: 'Where to sleep in Spiez, from the Schachenstrasse harbour to Schloss Spiez and its vineyard, with sourced hotel facts and the Niesenbahn funicular.',
+      fr: 'Où dormir à Spiez, du port de la Schachenstrasse au vignoble du Château de Spiez, avec des faits d’hôtels sourcés et le funiculaire de la Niesenbahn.',
       de: 'Wo übernachten in Spiez, vom Hafen an der Schachenstrasse bis zum Rebberg beim Schloss Spiez, mit belegten Hotelfakten, der Niesenbahn und dem Spiezer Wein.',
     },
   },

@@ -8,9 +8,9 @@ export const zug: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Zug: the old town, the lakefront', fr: 'Où dormir à Zoug : vieille ville, bord du lac', de: 'Wo übernachten in Zug: Altstadt, Seeufer' },
     description: {
-      en: 'Where to sleep in Zug, from the Altstadt by the station to the Landsgemeindeplatz lakefront and the design-hotel side on Industriestrasse, with sourced hotel facts and the Zytturm, the Zugerberg and Lake Zug.',
-      fr: 'Où dormir à Zoug, de l’Altstadt près de la gare au bord du lac à la Landsgemeindeplatz et au côté design de l’Industriestrasse, avec des faits d’hôtels sourcés, le Zytturm, le Zugerberg et le lac de Zoug.',
-      de: 'Wo übernachten in Zug, von der Altstadt beim Bahnhof über das Seeufer an der Landsgemeindeplatz bis zur Designhotel-Seite an der Industriestrasse, mit belegten Hotelfakten, dem Zytturm, dem Zugerberg und dem Zugersee.',
+      en: 'Where to sleep in Zug, from the Altstadt by the station to the Landsgemeindeplatz lakefront and Industriestrasse, with hotel facts and the Zytturm.',
+      fr: 'Où dormir à Zoug, de l’Altstadt près de la gare à la Landsgemeindeplatz au bord du lac et à l’Industriestrasse, avec le Zytturm et le Zugerberg.',
+      de: 'Wo übernachten in Zug, von der Altstadt beim Bahnhof über das Seeufer an der Landsgemeindeplatz bis zur Industriestrasse, mit Zytturm und Zugerberg.',
     },
   },
   eyebrow: { en: 'Central Switzerland · Zug', fr: 'Suisse centrale · Zoug', de: 'Zentralschweiz · Zug' },

@@ -8,9 +8,9 @@ export const vitznau: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Vitznau: the Rigi railway, the lake', fr: 'Où dormir à Vitznau : train du Rigi, le lac', de: 'Wo übernachten in Vitznau: Rigi-Bahn, der See' },
     description: {
-      en: 'Where to sleep in Vitznau, from the cogwheel station on Bahnhofstrasse to the Seestrasse lakefront and Schibernstrasse, with hotel facts, the Vitznau-Rigi Kulm railway since 1871 and Swiss Travel Pass coverage.',
-      fr: 'Où dormir à Vitznau, de la gare du train à crémaillère sur la Bahnhofstrasse au front de lac de la Seestrasse et à la Schibernstrasse, avec des faits d’hôtels, le train du Rigi depuis 1871 et la couverture du Swiss Travel Pass.',
-      de: 'Wo übernachten in Vitznau, von der Zahnradbahnstation an der Bahnhofstrasse über die Seestrasse am Ufer bis zur Schibernstrasse, mit Hotelfakten, der Rigi-Bahn seit 1871 und der Swiss-Travel-Pass-Abdeckung.',
+      en: 'Where to sleep in Vitznau, from the cogwheel station on Bahnhofstrasse to the Seestrasse lakefront, with hotel facts and the Rigi railway since 1871.',
+      fr: 'Où dormir à Vitznau, de la gare du train à crémaillère sur la Bahnhofstrasse au front de lac de la Seestrasse, avec le train du Rigi depuis 1871.',
+      de: 'Wo übernachten in Vitznau, von der Zahnradbahnstation an der Bahnhofstrasse bis zur Seestrasse am Ufer, mit Hotelfakten und der Rigi-Bahn seit 1871.',
     },
   },
   eyebrow: { en: 'Central Switzerland · Lucerne', fr: 'Suisse centrale · Lucerne', de: 'Zentralschweiz · Luzern' },

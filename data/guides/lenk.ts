@@ -8,9 +8,9 @@ export const lenk: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Lenk im Simmental: areas and hotels', fr: 'Où dormir à Lenk im Simmental : secteurs et hôtels', de: 'Wo übernachten in Lenk im Simmental: Ortsteile und Hotels' },
     description: {
-      en: 'Where to sleep in Lenk im Simmental, from Kronenplatz to the Betelberg gondola and the valley head at Oberried, with sourced hotel facts and when the lifts and trails run.',
-      fr: 'Où dormir à Lenk im Simmental, de la Kronenplatz à la télécabine du Betelberg et au fond de vallée à Oberried, avec des faits d’hôtels sourcés et le calendrier des remontées et sentiers.',
-      de: 'Wo übernachten in Lenk im Simmental, von der Kronenplatz bis zur Betelberg-Gondelbahn und zum Taleende bei Oberried, mit belegten Hotelfakten und dem Kalender von Bahnen und Wegen.',
+      en: 'Where to sleep in Lenk im Simmental, from Kronenplatz to the Betelberg gondola and the valley head at Oberried, with sourced hotel facts.',
+      fr: 'Où dormir à Lenk im Simmental, de la Kronenplatz à la télécabine du Betelberg et au fond de vallée à Oberried, avec des faits d’hôtels sourcés.',
+      de: 'Wo übernachten in Lenk im Simmental, von der Kronenplatz bis zur Betelberg-Gondelbahn und zum Talende bei Oberried, mit belegten Hotelfakten.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Zweisimmen', fr: 'Oberland bernois · Zweisimmen', de: 'Berner Oberland · Zweisimmen' },

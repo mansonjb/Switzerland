@@ -8,9 +8,9 @@ export const chateauDOex: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Chateau-d’Oex: centre or stream', fr: 'Où dormir à Château-d’Œx : centre ou ruisseau', de: 'Wo übernachten in Château-d’Œx: Zentrum oder Bach' },
     description: {
-      en: 'Where to sleep in Chateau-d’Oex, from the Grand-Rue village centre to the streamside Route des Monnaires, with sourced hotel facts, the MOB railway and the Festival International de Ballons.',
-      fr: 'Où dormir à Château-d’Œx, de la Grand-Rue au centre du village jusqu’à la Route des Monnaires au bord du ruisseau, avec des faits d’hôtels sourcés, le train MOB et le Festival International de Ballons.',
-      de: 'Wo übernachten in Château-d’Œx, von der Grand-Rue im Dorfzentrum bis zur Route des Monnaires am Bach, mit belegten Hotelfakten, der MOB-Bahn und dem Festival International de Ballons.',
+      en: 'Where to sleep in Chateau-d’Oex, from the Grand-Rue centre to the streamside Route des Monnaires, with sourced hotel facts and the MOB railway.',
+      fr: 'Où dormir à Château-d’Œx, de la Grand-Rue à la Route des Monnaires au bord du ruisseau, avec des faits d’hôtels sourcés et le train MOB.',
+      de: 'Wo übernachten in Château-d’Œx, von der Grand-Rue im Dorfzentrum bis zur Route des Monnaires am Bach, mit belegten Hotelfakten und der MOB-Bahn.',
     },
   },
   eyebrow: { en: 'Vaud · Montreux', fr: 'Vaud · Montreux', de: 'Waadt · Montreux' },

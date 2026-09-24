@@ -8,9 +8,9 @@ export const laax: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Laax: Murschetg or Laax Dorf', fr: 'Où dormir à Laax : Murschetg ou le village', de: 'Wo übernachten in Laax: Murschetg oder Dorf' },
     description: {
-      en: 'Where to sleep in Laax, from the LAAX gondola base at Murschetg to the old village by the Laaxersee, with dated hotel prices and the 216 km ski area shared with Flims and Falera.',
-      fr: 'Où dormir à Laax, de la base de la télécabine LAAX à Murschetg jusqu’au vieux village au bord du Laaxersee, avec des prix d’hôtels datés et le domaine skiable de 216 km partagé avec Flims et Falera.',
-      de: 'Wo übernachten in Laax, von der Talstation der Gondelbahn LAAX in Murschetg bis zum alten Dorf am Laaxersee, mit datierten Hotelpreisen und dem 216 km grossen Skigebiet, das sich Laax mit Flims und Falera teilt.',
+      en: 'Where to sleep in Laax, from the gondola base at Murschetg to the old village by the Laaxersee, with dated hotel prices and the 216 km ski area.',
+      fr: 'Où dormir à Laax, de la base de la télécabine à Murschetg au vieux village au bord du Laaxersee, avec des prix datés et le domaine skiable de 216 km.',
+      de: 'Wo übernachten in Laax, von der Talstation in Murschetg bis zum alten Dorf am Laaxersee, mit datierten Hotelpreisen und dem 216 km grossen Skigebiet.',
     },
   },
   eyebrow: { en: 'Graubünden · Chur', fr: 'Grisons · Coire', de: 'Graubünden · Chur' },

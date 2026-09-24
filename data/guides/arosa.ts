@@ -8,9 +8,9 @@ export const arosa: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Arosa: station, Innerarosa or Maran', fr: 'Où dormir à Arosa : gare, Innerarosa ou Maran', de: 'Wo übernachten in Arosa: Bahnhof, Innerarosa oder Maran' },
     description: {
-      en: 'Where to sleep in Arosa, from the station by the Weisshorn cable car to Innerarosa near the Hörnli-Express and the sun terrace of Maran above the village, with sourced hotel facts and the mountain railway’s operating dates.',
-      fr: 'Où dormir à Arosa, de la gare près du téléphérique du Weisshorn à Innerarosa, proche du Hörnli-Express, jusqu’à la terrasse ensoleillée de Maran au-dessus du village, avec des faits d’hôtels sourcés et les dates d’exploitation des remontées.',
-      de: 'Wo übernachten in Arosa, vom Bahnhof bei der Weisshornbahn über Innerarosa nahe der Hörnli-Express-Bahn bis zur Sonnenterrasse Maran über dem Ort, mit belegten Hotel-Fakten und den Betriebsdaten der Bergbahnen.',
+      en: 'Where to sleep in Arosa, from the station by the Weisshorn cable car to Innerarosa and the sun terrace of Maran, with sourced hotel facts.',
+      fr: 'Où dormir à Arosa, de la gare près du téléphérique du Weisshorn à Innerarosa et à la terrasse ensoleillée de Maran, avec des faits d’hôtels sourcés.',
+      de: 'Wo übernachten in Arosa, vom Bahnhof bei der Weisshornbahn über Innerarosa bis zur Sonnenterrasse Maran, mit belegten Fakten und den Betriebsdaten.',
     },
   },
   eyebrow: { en: 'Graubünden · Chur', fr: 'Grisons · Coire', de: 'Graubünden · Chur' },

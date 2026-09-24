@@ -8,9 +8,9 @@ export const klosters: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Klosters: Platz, Dorf or Monbiel', fr: 'Où dormir à Klosters : Platz, Dorf ou Monbiel', de: 'Wo übernachten in Klosters: Platz, Dorf oder Monbiel' },
     description: {
-      en: 'Where to sleep in Klosters, from Klosters Platz by the Gotschnabahn to Klosters Dorf at the foot of the Madrisa and Monbiel at the road’s end, with dated hotel prices and the season dates for each lift.',
-      fr: 'Où dormir à Klosters, de Klosters Platz près de la Gotschnabahn à Klosters Dorf au pied de la Madrisa et à Monbiel en bout de route, avec des prix d’hôtels datés et le calendrier de chaque remontée.',
-      de: 'Wo übernachten in Klosters, von Klosters Platz bei der Gotschnabahn über Klosters Dorf am Fuss der Madrisa bis Monbiel am Strassenende, mit datierten Hotelpreisen und den Saisonzeiten jeder Bahn.',
+      en: 'Where to sleep in Klosters, from Klosters Platz by the Gotschnabahn to Klosters Dorf and Monbiel at the road’s end, with dated hotel prices.',
+      fr: 'Où dormir à Klosters, de Klosters Platz près de la Gotschnabahn à Klosters Dorf et à Monbiel en bout de route, avec des prix d’hôtels datés.',
+      de: 'Wo übernachten in Klosters, von Klosters Platz bei der Gotschnabahn über Klosters Dorf bis Monbiel am Strassenende, mit datierten Hotelpreisen.',
     },
   },
   eyebrow: { en: 'Graubünden · Landquart', fr: 'Grisons · Landquart', de: 'Graubünden · Landquart' },

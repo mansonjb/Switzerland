@@ -8,9 +8,9 @@ export const montreux: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Montreux: the quai or the old town', fr: 'Où dormir à Montreux : le quai ou la vieille ville', de: 'Wo übernachten in Montreux: Seepromenade oder Altstadt' },
     description: {
-      en: 'Montreux breaks down into three areas to choose between: the lakefront quai and Casino district, the quieter old town on the hill, and Territet toward Chillon Castle. This guide names real hotel addresses, explains the Rochers-de-Naye cog railway and gives the dates of the Montreux Jazz Festival.',
-      fr: 'Montreux se répartit en trois secteurs entre lesquels choisir : le quai et le quartier du Casino, la vieille ville plus calme sur la colline, et Territet vers le château de Chillon. Ce guide indique de vraies adresses d’hôtels, explique le train à crémaillère des Rochers-de-Naye et donne les dates du Montreux Jazz Festival.',
-      de: 'Montreux gliedert sich in drei Ortsteile, zwischen denen man wählt: die Seepromenade mit dem Casino-Viertel, die ruhigere Altstadt auf dem Hügel, und Territet Richtung Schloss Chillon. Dieser Reiseführer nennt echte Hoteladressen, erklärt die Rochers-de-Naye-Zahnradbahn und gibt die Termine des Montreux Jazz Festival an.',
+      en: 'Montreux in three areas: the lakefront quai and Casino district, the quieter old town on the hill, and Territet towards Chillon Castle, with real hotels.',
+      fr: 'Montreux en trois secteurs : le quai et le quartier du Casino, la vieille ville sur la colline, et Territet vers le château de Chillon, avec de vrais hôtels.',
+      de: 'Montreux in drei Ortsteilen: die Seepromenade mit dem Casino-Viertel, die ruhigere Altstadt auf dem Hügel und Territet Richtung Schloss Chillon.',
     },
   },
   eyebrow: { en: 'Lake Geneva · Montreux', fr: 'Lac Léman · Montreux', de: 'Genfersee · Montreux' },

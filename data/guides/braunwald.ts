@@ -9,7 +9,7 @@ export const braunwald: DestinationGuide = {
     title: { en: 'Where to stay in Braunwald: car-free, above Linthal', fr: 'Où dormir à Braunwald : village sans voiture, au-dessus de Linthal', de: 'Wo übernachten in Braunwald: autofrei, über Linthal' },
     description: {
       en: 'Where to sleep in Braunwald, the car-free village above Linthal reached only by funicular, with hotels by street and what there is to do each season.',
-      fr: 'Où dormir à Braunwald, le village sans voiture au-dessus de Linthal, accessible uniquement en funiculaire, avec les hôtels par rue et les activités de chaque saison.',
+      fr: 'Où dormir à Braunwald, village sans voiture au-dessus de Linthal, accessible seulement en funiculaire, avec les hôtels par rue et les saisons.',
       de: 'Wo übernachten in Braunwald, dem autofreien Dorf über Linthal, nur mit der Standseilbahn erreichbar, mit Hotels nach Strasse und den Aktivitäten jeder Saison.',
     },
   },

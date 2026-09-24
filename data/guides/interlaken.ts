@@ -8,9 +8,9 @@ export const interlaken: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Interlaken: areas, hotels, two stations', fr: 'Où dormir à Interlaken : secteurs, hôtels, deux gares', de: 'Wo übernachten in Interlaken: Ortsteile, Hotels, zwei Bahnhöfe' },
     description: {
-      en: 'Where to sleep in Interlaken between its two stations and two lakes, with dated hotel prices, the Harder Kulm funicular and the boat and rail calendar to help you time the stay.',
-      fr: 'Où dormir à Interlaken entre ses deux gares et ses deux lacs, avec des prix d’hôtels datés, le funiculaire du Harder Kulm et le calendrier des bateaux et des trains pour bien caler le séjour.',
-      de: 'Wo übernachten in Interlaken zwischen den beiden Bahnhöfen und den beiden Seen, mit datierten Hotelpreisen, der Harderbahn und dem Boots- und Zugkalender, um den Aufenthalt richtig zu planen.',
+      en: 'Where to sleep in Interlaken between its two stations and two lakes, with dated hotel prices, the Harder Kulm funicular and the boat and rail calendar.',
+      fr: 'Où dormir à Interlaken entre ses deux gares et ses deux lacs, avec des prix d’hôtels datés, le funiculaire du Harder Kulm et le calendrier des bateaux.',
+      de: 'Wo übernachten in Interlaken zwischen den beiden Bahnhöfen und den beiden Seen, mit datierten Hotelpreisen, der Harderbahn und dem Boots- und Zugkalender.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Interlaken', fr: 'Oberland bernois · Interlaken', de: 'Berner Oberland · Interlaken' },

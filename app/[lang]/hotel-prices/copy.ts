@@ -10,9 +10,9 @@ export const copy = {
       de: 'Hotelpreise in der Schweiz: was eine Nacht kostet, Ort für Ort',
     } as L,
     description: {
-      en: 'Real nightly rates for {hotels} hotels in {towns} Swiss towns, gathered from {samples} dated Booking.com samples in winter and summer. The typical night, the cheapest bases, and where the winter premium bites.',
-      fr: 'Tarifs réels de {hotels} hôtels dans {towns} villes suisses, relevés sur {samples} échantillons datés de Booking.com en hiver et en été. La nuit type, les bases les moins chères, et où la surcote d’hiver se fait sentir.',
-      de: 'Echte Übernachtungspreise von {hotels} Hotels in {towns} Schweizer Orten, aus {samples} datierten Booking.com-Stichproben in Winter und Sommer. Die typische Nacht, die günstigsten Standorte und wo der Winterzuschlag zuschlägt.',
+      en: 'Real nightly rates for {hotels} hotels in {towns} Swiss towns, from {samples} dated Booking.com samples. The typical night, the cheapest bases, the winter premium.',
+      fr: 'Tarifs réels de {hotels} hôtels dans {towns} villes suisses, sur {samples} relevés datés de Booking.com. La nuit type, les bases les moins chères, la surcote d’hiver.',
+      de: 'Echte Preise von {hotels} Hotels in {towns} Schweizer Orten, aus {samples} datierten Booking.com-Stichproben. Die typische Nacht, die günstigsten Standorte, der Winterzuschlag.',
     } as L,
   },
 

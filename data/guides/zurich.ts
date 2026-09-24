@@ -8,9 +8,9 @@ export const zurich: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Zurich: old town, lake, river baths', fr: 'Où dormir à Zurich : vieille ville, lac, bains fluviaux', de: 'Wo übernachten in Zürich: Altstadt, See, Flussbäder' },
     description: {
-      en: 'Where to sleep in Zurich, from the old town by the station to the lake quays and the converted Hürlimann brewery site, with dated hotel prices, the free river and lake baths, and how quickly the airport train gets you there.',
-      fr: 'Où dormir à Zurich, de la vieille ville près de la gare aux quais du lac et à l’ancien site de la brasserie Hürlimann, avec des prix d’hôtels datés, les bains gratuits du lac et de la rivière, et la rapidité du train depuis l’aéroport.',
-      de: 'Wo übernachten in Zürich, von der Altstadt beim Bahnhof über die Seequais bis zum umgenutzten Hürlimann-Brauereiareal, mit datierten Hotelpreisen, den kostenlosen See- und Flussbädern und der kurzen Zugfahrt ab dem Flughafen.',
+      en: 'Where to sleep in Zurich, from the old town by the station to the lake quays and the converted Hürlimann brewery, with dated prices and the river baths.',
+      fr: 'Où dormir à Zurich, de la vieille ville près de la gare aux quais du lac et à l’ancienne brasserie Hürlimann, avec des prix datés et les bains gratuits.',
+      de: 'Wo übernachten in Zürich, von der Altstadt beim Bahnhof über die Seequais bis zum Hürlimann-Brauereiareal, mit Preisen und den kostenlosen Flussbädern.',
     },
   },
   eyebrow: { en: 'Zurich region · Zurich', fr: 'Région de Zurich · Zurich', de: 'Region Zürich · Zürich' },

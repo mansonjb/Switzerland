@@ -8,9 +8,9 @@ export const scuol: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Scuol: the Stradun, the old village or Tarasp', fr: 'Où dormir à Scuol : le Stradun, le vieux village ou Tarasp', de: 'Wo übernachten in Scuol: Stradun, Altdorf oder Tarasp' },
     description: {
-      en: 'Scuol area by area: the Stradun by the mineral baths, the old village quarters, and Tarasp and Vulpera across the Inn, with hotels, the Guestcard and dated facts on the baths and the ski area.',
-      fr: 'Scuol secteur par secteur : le Stradun près des bains minéraux, les vieux quartiers du village, et Tarasp et Vulpera de l’autre côté de l’Inn, avec hôtels, la Guestcard et des chiffres datés sur les bains et le domaine skiable.',
-      de: 'Scuol Ortsteil für Ortsteil: der Stradun bei den Mineralbädern, die alten Dorfquartiere, und Tarasp und Vulpera jenseits des Inn, mit Hotels, der Gästekarte und datierten Zahlen zu Bad und Skigebiet.',
+      en: 'Scuol area by area: the Stradun by the mineral baths, the old village quarters, and Tarasp and Vulpera across the Inn, with hotels and dated facts.',
+      fr: 'Scuol secteur par secteur : le Stradun près des bains, les vieux quartiers, et Tarasp et Vulpera de l’autre côté de l’Inn, avec hôtels et chiffres datés.',
+      de: 'Scuol Ortsteil für Ortsteil: der Stradun bei den Mineralbädern, die alten Dorfquartiere und Tarasp und Vulpera jenseits des Inn, mit datierten Zahlen.',
     },
   },
   eyebrow: { en: 'Graubünden · Landquart', fr: 'Grisons · Landquart', de: 'Graubünden · Landquart' },

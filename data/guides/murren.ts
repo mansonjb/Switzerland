@@ -8,9 +8,9 @@ export const murren: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Mürren: car-free village above Lauterbrunnen', fr: 'Où dormir à Mürren : village sans voiture au-dessus de Lauterbrunnen', de: 'Wo übernachten in Mürren: autofreies Dorf über Lauterbrunnen' },
     description: {
-      en: 'A terrace village with no road at all, reached only by cable car and mountain train. This guide covers where to sleep between the two stations, hotels with dated prices, the Schilthorn fare and what runs when.',
-      fr: 'Un village en terrasse sans aucune route, accessible uniquement en téléphérique et en train de montagne. Ce guide indique où dormir entre les deux stations, les hôtels avec prix datés, le tarif du Schilthorn et ce qui fonctionne quand.',
-      de: 'Ein Terrassendorf ganz ohne Strasse, nur mit Seilbahn und Bergbahn erreichbar. Dieser Guide zeigt, wo man zwischen den beiden Stationen wohnt, Hotels mit datierten Preisen, den Schilthorn-Tarif und was wann fährt.',
+      en: 'A terrace village with no road, reached only by cable car and mountain train. Where to sleep between the two stations, with dated prices and Schilthorn fares.',
+      fr: 'Un village en terrasse sans aucune route, accessible en téléphérique et en train. Où dormir entre les deux stations, avec prix datés et tarif du Schilthorn.',
+      de: 'Ein Terrassendorf ganz ohne Strasse, nur mit Seilbahn und Bergbahn erreichbar. Wo man zwischen den beiden Stationen wohnt, mit datierten Preisen.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Lauterbrunnen', fr: 'Oberland bernois · Lauterbrunnen', de: 'Berner Oberland · Lauterbrunnen' },

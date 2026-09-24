@@ -8,9 +8,9 @@ export const lenzerheide: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Lenzerheide: village, Valbella or Sporz', fr: 'Où dormir à Lenzerheide : village, Valbella ou Sporz', de: 'Wo übernachten in Lenzerheide: Dorf, Valbella oder Sporz' },
     description: {
-      en: 'Where to sleep in Lenzerheide, from the village centre by the Rothornbahn to the Heidsee shore, Valbella and the hillside hamlet of Sporz, with dated hotel prices and the PostBus connection since there is no railway station.',
-      fr: 'Où dormir à Lenzerheide, du centre du village près de la Rothornbahn au bord du Heidsee, à Valbella et au hameau de coteau de Sporz, avec des prix d’hôtels datés et la liaison en car postal, faute de gare.',
-      de: 'Wo übernachten in Lenzerheide, vom Dorfzentrum bei der Rothornbahn über das Heidsee-Ufer, Valbella und den Hangweiler Sporz, mit datierten Hotelpreisen und der Postautoverbindung, da es keinen Bahnhof gibt.',
+      en: 'Where to sleep in Lenzerheide, from the centre by the Rothornbahn to the Heidsee shore, Valbella and Sporz, with dated prices and the PostBus link.',
+      fr: 'Où dormir à Lenzerheide, du centre près de la Rothornbahn au bord du Heidsee, à Valbella et à Sporz, avec des prix datés et la liaison en car postal.',
+      de: 'Wo übernachten in Lenzerheide, vom Dorfzentrum bei der Rothornbahn über das Heidsee-Ufer bis Valbella und Sporz, mit der Postautoverbindung.',
     },
   },
   eyebrow: { en: 'Graubünden · Chur', fr: 'Grisons · Coire', de: 'Graubünden · Chur' },

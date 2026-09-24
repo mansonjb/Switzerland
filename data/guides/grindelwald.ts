@@ -9,7 +9,7 @@ export const grindelwald: DestinationGuide = {
     title: { en: 'Where to stay in Grindelwald: areas, hotels, car access', fr: 'Où dormir à Grindelwald : secteurs, hôtels, accès en voiture', de: 'Wo übernachten in Grindelwald: Ortsteile, Hotels, Anreise mit Auto' },
     description: {
       en: 'Where to sleep in Grindelwald, from the modern Terminal hub to quieter Grund, with dated hotel prices and the fastest lift times up to the Jungfraujoch.',
-      fr: 'Où dormir à Grindelwald, du Terminal moderne au secteur plus calme de Grund, avec des prix d’hôtels datés et les temps de trajet les plus rapides vers le Jungfraujoch.',
+      fr: 'Où dormir à Grindelwald, du Terminal moderne au secteur plus calme de Grund, avec des prix datés et les trajets les plus rapides vers le Jungfraujoch.',
       de: 'Wo übernachten in Grindelwald, vom modernen Terminal bis zum ruhigeren Grund, mit datierten Hotelpreisen und den schnellsten Fahrzeiten zum Jungfraujoch.',
     },
   },

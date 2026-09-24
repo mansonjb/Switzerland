@@ -8,9 +8,9 @@ export const sion: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Sion: old town, station, Valais capital', fr: 'Où dormir à Sion : vieille ville, gare, capitale du Valais', de: 'Wo übernachten in Sion: Altstadt, Bahnhof, Walliser Hauptstadt' },
     description: {
-      en: 'Where to sleep in Sion, from the historic centre below Château de Tourbillon to the station district and the outskirts at Conthey and St-Léonard, with sourced hotel facts and when the castle is open.',
-      fr: 'Où dormir à Sion, du centre historique sous le Château de Tourbillon au quartier de la gare et aux abords de Conthey et Saint-Léonard, avec des faits d’hôtels sourcés et les horaires du château.',
-      de: 'Wo übernachten in Sion, von der Altstadt unterhalb des Schlosses Tourbillon über das Bahnhofsquartier bis zu den Aussenlagen Conthey und St-Léonard, mit belegten Hotelfakten und den Öffnungszeiten des Schlosses.',
+      en: 'Where to sleep in Sion, from the historic centre below Château de Tourbillon to the station district, with sourced hotel facts and castle opening times.',
+      fr: 'Où dormir à Sion, du centre historique sous le Château de Tourbillon au quartier de la gare, avec des faits d’hôtels sourcés et les horaires du château.',
+      de: 'Wo übernachten in Sion, von der Altstadt unterhalb des Schlosses Tourbillon bis zum Bahnhofsquartier, mit Fakten und den Öffnungszeiten des Schlosses.',
     },
   },
   eyebrow: { en: 'Valais · Sion', fr: 'Valais · Sion', de: 'Wallis · Sitten' },

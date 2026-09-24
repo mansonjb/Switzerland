@@ -8,9 +8,9 @@ export const bellinzona: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Bellinzona: the three castles', fr: 'Où dormir à Bellinzone : les trois châteaux', de: 'Wo übernachten in Bellinzona: die drei Burgen' },
     description: {
-      en: 'Where to sleep in Bellinzona, from Viale Stazione to the historic centre under Castelgrande, with hotel facts, the Fortezza Pass and the castle opening seasons.',
-      fr: 'Où dormir à Bellinzone, de la Viale Stazione au centre historique sous Castelgrande, avec des faits d’hôtels, le Fortezza Pass et le calendrier d’ouverture des châteaux.',
-      de: 'Wo übernachten in Bellinzona, von der Viale Stazione bis zur Altstadt unterhalb von Castelgrande, mit Hotelfakten, dem Fortezza Pass und dem Öffnungskalender der Burgen.',
+      en: 'Where to sleep in Bellinzona, from Viale Stazione to the centre under Castelgrande, with hotel facts, the Fortezza Pass and the castle seasons.',
+      fr: 'Où dormir à Bellinzone, de la Viale Stazione au centre historique sous Castelgrande, avec des faits d’hôtels, le Fortezza Pass et l’ouverture des châteaux.',
+      de: 'Wo übernachten in Bellinzona, von der Viale Stazione bis zur Altstadt unter Castelgrande, mit Hotelfakten, dem Fortezza Pass und den Burgöffnungszeiten.',
     },
   },
   eyebrow: { en: 'Ticino · Bellinzona', fr: 'Tessin · Bellinzone', de: 'Tessin · Bellinzona' },

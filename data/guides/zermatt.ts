@@ -8,9 +8,9 @@ export const zermatt: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Zermatt: areas, hotels, car-free access', fr: 'Où dormir à Zermatt : secteurs, hôtels, accès sans voiture', de: 'Wo übernachten in Zermatt: Ortsteile, Hotels, autofreie Anreise' },
     description: {
-      en: 'Where to sleep in Zermatt, from the grand hotels of Bahnhofstrasse to the old village and the glacier end, with dated hotel prices, the Gornergrat and Matterhorn Glacier Paradise fares, and when everything runs.',
-      fr: 'Où dormir à Zermatt, des grands hôtels de la Bahnhofstrasse au vieux village et au côté du glacier, avec des prix d’hôtels datés, les tarifs du Gornergrat et du Matterhorn Glacier Paradise, et le calendrier de chaque saison.',
-      de: 'Wo übernachten in Zermatt, von den Grandhotels der Bahnhofstrasse über das alte Dorf bis zum Gletscherende, mit datierten Hotelpreisen, den Tarifen von Gornergrat und Matterhorn Glacier Paradise und dem Kalender jeder Saison.',
+      en: 'Where to sleep in Zermatt, from the grand hotels of Bahnhofstrasse to the old village and the glacier end, with dated prices and Gornergrat fares.',
+      fr: 'Où dormir à Zermatt, des grands hôtels de la Bahnhofstrasse au vieux village et au côté du glacier, avec des prix datés et les tarifs du Gornergrat.',
+      de: 'Wo übernachten in Zermatt, von den Grandhotels der Bahnhofstrasse über das alte Dorf bis zum Gletscherende, mit den Tarifen von Gornergrat.',
     },
   },
   eyebrow: { en: 'Valais · Visp', fr: 'Valais · Viège', de: 'Wallis · Visp' },

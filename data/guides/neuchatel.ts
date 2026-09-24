@@ -8,9 +8,9 @@ export const neuchatel: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Neuchatel: the castle, the lake', fr: 'Où dormir à Neuchâtel : le château, le lac', de: 'Wo übernachten in Neuenburg: Schloss, See' },
     description: {
-      en: 'Where to sleep in Neuchatel, from the station and the harbour row on Place du Port to Hotel Palafitte built over the lake, with sourced hotel facts, the Chateau de Neuchatel and the Fete des Vendanges.',
-      fr: 'Où dormir à Neuchâtel, de la gare et de la rangée d’hôtels de la Place du Port à l’Hôtel Palafitte bâti sur le lac, avec des faits d’hôtels sourcés, le Château de Neuchâtel et la Fête des Vendanges.',
-      de: 'Wo übernachten in Neuenburg, vom Bahnhof und der Hotelreihe an der Place du Port bis zum Hotel Palafitte über dem See, mit belegten Hotelfakten, dem Schloss Neuenburg und dem Fête des Vendanges.',
+      en: 'Where to sleep in Neuchatel, from the station and the harbour row on Place du Port to Hotel Palafitte built over the lake, with sourced hotel facts.',
+      fr: 'Où dormir à Neuchâtel, de la gare et des hôtels de la Place du Port à l’Hôtel Palafitte bâti sur le lac, avec des faits d’hôtels sourcés.',
+      de: 'Wo übernachten in Neuenburg, vom Bahnhof und der Hotelreihe an der Place du Port bis zum Hotel Palafitte über dem See, mit belegten Hotelfakten.',
     },
   },
   eyebrow: { en: 'Lake Neuchatel · Neuchatel', fr: 'Lac de Neuchâtel · Neuchâtel', de: 'Neuenburgersee · Neuenburg' },

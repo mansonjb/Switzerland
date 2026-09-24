@@ -8,9 +8,9 @@ export const stGallen: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in St. Gallen: Abbey, station, OLMA', fr: 'Où dormir à Saint-Gall : abbaye, gare, OLMA', de: 'Wo übernachten in St. Gallen: Stiftsbezirk, Bahnhof, OLMA' },
     description: {
-      en: 'Where to sleep in St. Gallen, from the cathedral quarter with its Rococo Abbey Library to the station square and the OLMA side, with dated hotel prices and the free Mobility Ticket that covers transport out to Lake Constance.',
-      fr: 'Où dormir à Saint-Gall, du quartier de la cathédrale et sa bibliothèque rococo au Bahnhofplatz et au côté OLMA, avec des prix d’hôtels datés et le Mobility Ticket gratuit qui couvre les transports jusqu’au lac de Constance.',
-      de: 'Wo übernachten in St. Gallen, vom Kathedralenviertel mit seiner Rokoko-Stiftsbibliothek über den Bahnhofplatz bis zur OLMA-Seite, mit datierten Hotelpreisen und dem kostenlosen Mobility Ticket bis zum Bodensee.',
+      en: 'Where to sleep in St. Gallen, from the cathedral quarter with its Rococo Abbey Library to the station square, with dated prices and the Mobility Ticket.',
+      fr: 'Où dormir à Saint-Gall, du quartier de la cathédrale et sa bibliothèque rococo au Bahnhofplatz, avec des prix datés et le Mobility Ticket gratuit.',
+      de: 'Wo übernachten in St. Gallen, vom Kathedralenviertel mit der Rokoko-Stiftsbibliothek bis zum Bahnhofplatz, mit datierten Preisen und dem Mobility Ticket.',
     },
   },
   eyebrow: { en: 'Eastern Switzerland · St. Gallen', fr: 'Suisse orientale · Saint-Gall', de: 'Ostschweiz · St. Gallen' },

@@ -8,9 +8,9 @@ export const lauterbrunnen: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Lauterbrunnen: areas, hotels, parking', fr: 'Où dormir à Lauterbrunnen : secteurs, hôtels, parking', de: 'Wo übernachten in Lauterbrunnen: Ortsteile, Hotels, Parkhaus' },
     description: {
-      en: 'Where to stay in Lauterbrunnen, the valley floor base you can reach by car, from the walk to the Staubbach Fall to the trains on to Wengen and Mürren, with dated hotel prices and what opens when.',
-      fr: 'Où dormir à Lauterbrunnen, la base de fond de vallée accessible en voiture, de la marche jusqu’à la cascade du Staubbach aux trains vers Wengen et Mürren, avec des prix d’hôtels datés et ce qui ouvre quand.',
-      de: 'Wo übernachten in Lauterbrunnen, der mit dem Auto erreichbaren Talbasis, vom Weg zum Staubbachfall bis zu den Bahnen nach Wengen und Mürren, mit datierten Hotelpreisen und dem Kalender, was wann offen ist.',
+      en: 'Where to stay in Lauterbrunnen, the valley floor base you reach by car, from the Staubbach Fall to the trains on to Wengen and Mürren, with dated prices.',
+      fr: 'Où dormir à Lauterbrunnen, base de fond de vallée accessible en voiture, de la cascade du Staubbach aux trains vers Wengen et Mürren, avec des prix datés.',
+      de: 'Wo übernachten in Lauterbrunnen, der mit dem Auto erreichbaren Talbasis, vom Staubbachfall bis zu den Bahnen nach Wengen und Mürren, mit datierten Preisen.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Lauterbrunnen valley', fr: 'Oberland bernois · Vallée de Lauterbrunnen', de: 'Berner Oberland · Lauterbrunnental' },

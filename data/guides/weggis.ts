@@ -8,9 +8,9 @@ export const weggis: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Weggis: lake boats, the Rigi, mild climate', fr: 'Où dormir à Weggis : bateaux, Rigi, climat doux', de: 'Wo übernachten in Weggis: Schiffe, Rigi, mildes Klima' },
     description: {
-      en: 'Where to sleep in Weggis, from the boat landing on Seestrasse to the historic Dorfplatz and the cable-car side at Hertenstein, with dated hotel prices, the 10-minute ride up to Rigi Kaltbad and the lake boats to Lucerne.',
-      fr: 'Où dormir à Weggis, du débarcadère de la Seestrasse au Dorfplatz historique et au secteur du téléphérique à Hertenstein, avec des prix d’hôtels datés, la montée de 10 minutes vers Rigi Kaltbad et les bateaux vers Lucerne.',
-      de: 'Wo übernachten in Weggis, von der Schiffsanlegestelle an der Seestrasse über den historischen Dorfplatz bis zur Seilbahnseite in Hertenstein, mit datierten Hotelpreisen, der 10-minütigen Fahrt nach Rigi Kaltbad und den Schiffen nach Luzern.',
+      en: 'Where to sleep in Weggis, from the boat landing on Seestrasse to the historic Dorfplatz and Hertenstein, with dated prices and the ride up to Rigi Kaltbad.',
+      fr: 'Où dormir à Weggis, du débarcadère de la Seestrasse au Dorfplatz historique et à Hertenstein, avec des prix datés et la montée vers Rigi Kaltbad.',
+      de: 'Wo übernachten in Weggis, von der Schiffsanlegestelle an der Seestrasse über den Dorfplatz bis Hertenstein, mit der Fahrt nach Rigi Kaltbad.',
     },
   },
   eyebrow: { en: 'Central Switzerland · Lucerne', fr: 'Suisse centrale · Lucerne', de: 'Zentralschweiz · Luzern' },

@@ -13,8 +13,8 @@ import { RegionCard, regionFacts } from '@/components/regions'
 const meta = {
   title: { en: 'Where to stay in Switzerland, region by region', fr: 'Où dormir en Suisse, région par région', de: 'Wo übernachten in der Schweiz, Region für Region' } as L,
   description: {
-    en: 'The eight regions of Switzerland side by side: which villages and towns to sleep in, how many are car-free, the altitude range, and a comparison page for each region.',
-    fr: 'Les huit régions de Suisse côte à côte : dans quels villages et villes dormir, combien sont sans voiture, l’écart d’altitude, et une page comparative pour chaque région.',
+    en: 'The eight regions of Switzerland side by side: which villages to sleep in, how many are car-free, the altitude range, and a comparison page for each.',
+    fr: 'Les huit régions de Suisse côte à côte : dans quels villages dormir, combien sont sans voiture, l’écart d’altitude, et une page comparative pour chacune.',
     de: 'Die acht Regionen der Schweiz im Vergleich: in welchen Orten man übernachtet, wie viele autofrei sind, die Höhenlage und eine Vergleichsseite pro Region.',
   } as L,
 }

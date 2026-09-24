@@ -8,9 +8,9 @@ export const cransMontana: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Crans-Montana: two villages, one plateau', fr: 'Où dormir à Crans-Montana : deux villages, un plateau', de: 'Wo übernachten in Crans-Montana: zwei Dörfer, ein Plateau' },
     description: {
-      en: 'Where to stay in Crans-Montana, sector by sector from Crans and Montana to Barzettes and Violettes, with hotels carrying dated facts, the Sierre funicular, and the season dates for skiing and for the Plaine Morte glacier.',
-      fr: 'Où dormir à Crans-Montana, secteur par secteur, de Crans et Montana à Barzettes et Violettes, avec des hôtels aux faits datés, le funiculaire de Sierre, et les dates de saison pour le ski et pour le glacier de la Plaine Morte.',
-      de: 'Wo übernachten in Crans-Montana, Sektor für Sektor von Crans und Montana bis Barzettes und Violettes, mit Hotels mit datierten Fakten, der Standseilbahn ab Siders und den Saisondaten für Ski und für den Plaine-Morte-Gletscher.',
+      en: 'Where to stay in Crans-Montana, sector by sector from Crans and Montana to Barzettes and Violettes, with dated hotel facts and the Sierre funicular.',
+      fr: 'Où dormir à Crans-Montana, secteur par secteur, de Crans et Montana à Barzettes et Violettes, avec des faits d’hôtels datés et le funiculaire de Sierre.',
+      de: 'Wo übernachten in Crans-Montana, Sektor für Sektor von Crans und Montana bis Barzettes und Violettes, mit datierten Fakten und der Standseilbahn ab Siders.',
     },
   },
   eyebrow: { en: 'Valais · Sierre', fr: 'Valais · Sierre', de: 'Wallis · Siders' },

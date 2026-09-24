@@ -8,9 +8,9 @@ export const saasFee: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Saas-Fee: areas, hotels, car-free access', fr: 'Où dormir à Saas-Fee : secteurs, hôtels, accès sans voiture', de: 'Wo übernachten in Saas-Fee: Ortsteile, Hotels, autofreie Anreise' },
     description: {
-      en: 'Where to sleep in Saas-Fee, from the shops around Dorfplatz to the lift side on Panoramastrasse and the quieter upper edge, with dated hotel prices, the Metro Alpin fares and the winter 2026/27 lift dates.',
-      fr: 'Où dormir à Saas-Fee, des commerces autour de la Dorfplatz au côté des remontées sur la Panoramastrasse et au versant plus calme en hauteur, avec des prix d’hôtels datés, les tarifs du Metro Alpin et les dates d’ouverture hiver 2026/27.',
-      de: 'Wo übernachten in Saas-Fee, von den Läden rund um den Dorfplatz über die Bahnseite an der Panoramastrasse bis zum ruhigeren oberen Rand, mit datierten Hotelpreisen, den Tarifen der Metro Alpin und den Bahndaten für Winter 2026/27.',
+      en: 'Where to sleep in Saas-Fee, from the shops around Dorfplatz to the lift side on Panoramastrasse, with dated hotel prices and the Metro Alpin fares.',
+      fr: 'Où dormir à Saas-Fee, des commerces de la Dorfplatz au côté des remontées sur la Panoramastrasse, avec des prix datés et les tarifs du Metro Alpin.',
+      de: 'Wo übernachten in Saas-Fee, von den Läden rund um den Dorfplatz über die Bahnseite an der Panoramastrasse bis zum oberen Rand, mit datierten Preisen.',
     },
   },
   eyebrow: { en: 'Valais · Visp', fr: 'Valais · Viège', de: 'Wallis · Visp' },

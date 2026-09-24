@@ -6,9 +6,9 @@ export const stp = {
   meta: {
     title: { en: 'Swiss Travel Pass 2026: prices, what it covers, is it worth it', fr: 'Swiss Travel Pass 2026 : prix, ce qu’il couvre, est-il rentable', de: 'Swiss Travel Pass 2026: Preise, was er abdeckt, lohnt er sich' } as L,
     description: {
-      en: 'The 2026 Swiss Travel Pass prices (consecutive and Flex, adult and youth), what it includes, the three mountains it covers in full, the Half Fare Card alternative, and real fares from our destination guides.',
-      fr: 'Les prix 2026 du Swiss Travel Pass (jours consécutifs et Flex, adulte et jeune), ce qu’il inclut, les trois montagnes entièrement couvertes, l’alternative de la carte demi-tarif, et des tarifs réels tirés de nos guides.',
-      de: 'Die Swiss-Travel-Pass-Preise 2026 (aufeinanderfolgende Tage und Flex, Erwachsene und Jugendliche), was er einschliesst, die drei vollständig abgedeckten Berge, die Halbtax-Alternative und echte Tarife aus unseren Reiseführern.',
+      en: 'The 2026 Swiss Travel Pass prices, consecutive and Flex, what it includes, the three mountains it covers in full and when the Half Fare Card wins instead.',
+      fr: 'Les prix 2026 du Swiss Travel Pass, jours consécutifs et Flex, ce qu’il inclut, les trois montagnes entièrement couvertes et quand le demi-tarif gagne.',
+      de: 'Die Swiss-Travel-Pass-Preise 2026, Tage am Stück und Flex, was er einschliesst, die drei voll abgedeckten Berge und wann sich das Halbtax mehr lohnt.',
     } as L,
   },
   h1: { en: 'Swiss Travel Pass: what it covers and whether it pays off', fr: 'Swiss Travel Pass : ce qu’il couvre et s’il est rentable', de: 'Swiss Travel Pass: was er abdeckt und ob er sich lohnt' } as L,

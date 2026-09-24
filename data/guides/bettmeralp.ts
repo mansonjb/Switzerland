@@ -8,9 +8,9 @@ export const bettmeralp: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Bettmeralp: car-free plateau, Aletsch Glacier', fr: 'Où dormir à Bettmeralp : plateau sans voiture, glacier d’Aletsch', de: 'Wo übernachten in Bettmeralp: autofreies Plateau, Aletschgletscher' },
     description: {
-      en: 'Where to sleep in Bettmeralp, from the Hauptstrasse shops to the Blausee ski-in ski-out side and Lake Bettmersee, with the three hotels that publish their own facts, the Bettmerhorn view point and when the lifts run.',
-      fr: 'Où dormir à Bettmeralp, des commerces de la Hauptstrasse au côté ski-in ski-out de Blausee et au lac de Bettmersee, avec les trois hôtels qui publient leurs informations, le point de vue du Bettmerhorn et le calendrier des remontées.',
-      de: 'Wo übernachten in Bettmeralp, von den Läden der Hauptstrasse über die Ski-in-Ski-out-Seite Blausee bis zum Bettmersee, mit den drei Hotels, die eigene Angaben veröffentlichen, dem Aussichtspunkt Bettmerhorn und dem Fahrplan der Bahnen.',
+      en: 'Where to sleep in Bettmeralp, from the Hauptstrasse shops to the ski-in ski-out Blausee side and Lake Bettmersee, with hotel facts and lift dates.',
+      fr: 'Où dormir à Bettmeralp, des commerces de la Hauptstrasse au côté ski-in ski-out de Blausee et au lac de Bettmersee, avec le calendrier des remontées.',
+      de: 'Wo übernachten in Bettmeralp, von den Läden der Hauptstrasse über die Ski-in-Ski-out-Seite Blausee bis zum Bettmersee, mit dem Fahrplan der Bahnen.',
     },
   },
   eyebrow: { en: 'Valais · Aletsch Arena', fr: 'Valais · Aletsch Arena', de: 'Wallis · Aletsch Arena' },

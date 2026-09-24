@@ -8,9 +8,9 @@ export const ascona: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Ascona: lakefront, Borgo, Monte Verità', fr: 'Où dormir à Ascona : front de lac, Borgo, Monte Verità', de: 'Wo übernachten in Ascona: Seeufer, Borgo, Monte Verità' },
     description: {
-      en: 'Where to sleep in Ascona, from the lakefront hotels on Piazza Giuseppe Motta to the old-town Borgo and the hill of Monte Verità, with real hotel addresses, the boat to the Brissago Islands, and why the town has no railway station of its own.',
-      fr: 'Où dormir à Ascona, des hôtels du front de lac sur la Piazza Giuseppe Motta à la vieille ville du Borgo et à la colline du Monte Verità, avec des adresses d’hôtels réelles, le bateau vers les îles de Brissago, et pourquoi la ville n’a pas de gare propre.',
-      de: 'Wo übernachten in Ascona, von den Seehotels an der Piazza Giuseppe Motta über die Altstadt Borgo bis zum Hügel Monte Verità, mit echten Hoteladressen, dem Boot zu den Brissago-Inseln, und weshalb die Stadt keinen eigenen Bahnhof hat.',
+      en: 'Where to sleep in Ascona, from the lakefront on Piazza Giuseppe Motta to the old Borgo and Monte Verità, with real hotel addresses and the Brissago boat.',
+      fr: 'Où dormir à Ascona, des hôtels du front de lac sur la Piazza Motta au Borgo et à la colline du Monte Verità, avec le bateau vers les îles de Brissago.',
+      de: 'Wo übernachten in Ascona, von den Seehotels an der Piazza Motta über die Altstadt Borgo bis zum Monte Verità, mit dem Boot zu den Brissago-Inseln.',
     },
   },
   eyebrow: { en: 'Ticino · Locarno', fr: 'Tessin · Locarno', de: 'Tessin · Locarno' },

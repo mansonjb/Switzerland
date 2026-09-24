@@ -9,8 +9,8 @@ export const gimmelwald: DestinationGuide = {
     title: { en: 'Where to stay in Gimmelwald: the hamlet with no road', fr: 'Où dormir à Gimmelwald : le hameau sans route', de: 'Wo übernachten in Gimmelwald: der Weiler ohne Strasse' },
     description: {
       en: 'A car-free hamlet reached only by cable car. This guide covers where to sleep, the six bookable addresses and the Schilthornbahn closure dates to check first.',
-      fr: 'Un hameau sans voiture, accessible uniquement en téléphérique. Ce guide indique où dormir, les six adresses réservables et les dates de fermeture de la Schilthornbahn à vérifier avant tout.',
-      de: 'Ein autofreier Weiler, nur mit der Seilbahn erreichbar. Dieser Guide zeigt, wo man schläft, die sechs buchbaren Adressen und die Schliessungen der Schilthornbahn, die man zuerst prüfen sollte.',
+      fr: 'Un hameau sans voiture, accessible uniquement en téléphérique. Où dormir, les six adresses réservables et les dates de fermeture de la Schilthornbahn.',
+      de: 'Ein autofreier Weiler, nur mit der Seilbahn erreichbar. Wo man schläft, die sechs buchbaren Adressen und die Schliessungen der Schilthornbahn.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Lauterbrunnen', fr: 'Oberland bernois · Lauterbrunnen', de: 'Berner Oberland · Lauterbrunnen' },

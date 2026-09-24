@@ -8,9 +8,9 @@ export const schaffhausen: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Schaffhausen: old town, Rhine Falls', fr: 'Où dormir à Schaffhouse : vieille ville, chutes du Rhin', de: 'Wo übernachten in Schaffhausen: Altstadt, Rheinfall' },
     description: {
-      en: 'Where to sleep in Schaffhausen, from the old town below the Munot fortress to the station side and the edge of town, with sourced hotel facts, the Rhine Falls and when the Munot keeps its longer summer hours.',
-      fr: 'Où dormir à Schaffhouse, de la vieille ville sous le Munot au quartier de la gare et à la périphérie, avec des faits d’hôtels sourcés, les chutes du Rhin et le calendrier des horaires d’été du Munot.',
-      de: 'Wo übernachten in Schaffhausen, von der Altstadt unterhalb des Munots über die Bahnhofseite bis zum Stadtrand, mit belegten Hotelfakten, dem Rheinfall und den längeren Sommeröffnungszeiten des Munots.',
+      en: 'Where to sleep in Schaffhausen, from the old town below the Munot fortress to the station side, with sourced hotel facts and the Rhine Falls.',
+      fr: 'Où dormir à Schaffhouse, de la vieille ville sous le Munot au quartier de la gare, avec des faits d’hôtels sourcés et les chutes du Rhin.',
+      de: 'Wo übernachten in Schaffhausen, von der Altstadt unterhalb des Munots über die Bahnhofseite bis zum Stadtrand, mit Hotelfakten und dem Rheinfall.',
     },
   },
   eyebrow: { en: 'Eastern Switzerland · Zurich', fr: 'Suisse orientale · Zurich', de: 'Ostschweiz · Zürich' },

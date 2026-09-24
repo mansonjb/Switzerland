@@ -8,9 +8,9 @@ export const villars: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Villars-sur-Ollon: village or plateau', fr: 'Où dormir à Villars-sur-Ollon : village ou plateau', de: 'Wo übernachten in Villars-sur-Ollon: Dorf oder Plateau' },
     description: {
-      en: 'Where to sleep in Villars-sur-Ollon, from the village centre hotels to the plateau terrace above, with sourced hotel facts, the Bretaye cogwheel train and the Villars-Gryon-Diablerets ski area.',
-      fr: 'Où dormir à Villars-sur-Ollon, du centre du village à la terrasse du plateau, avec des faits d’hôtels sourcés, le train à crémaillère de Bretaye et le domaine skiable de Villars-Gryon-Diablerets.',
-      de: 'Wo übernachten in Villars-sur-Ollon, vom Dorfzentrum bis zur Plateau-Terrasse darüber, mit belegten Hotelfakten, der Zahnradbahn nach Bretaye und dem Skigebiet Villars-Gryon-Diablerets.',
+      en: 'Where to sleep in Villars-sur-Ollon, from the village centre to the plateau terrace above, with sourced hotel facts and the Bretaye cogwheel train.',
+      fr: 'Où dormir à Villars-sur-Ollon, du centre du village à la terrasse du plateau, avec des faits d’hôtels sourcés et le train à crémaillère de Bretaye.',
+      de: 'Wo übernachten in Villars-sur-Ollon, vom Dorfzentrum bis zur Plateau-Terrasse darüber, mit belegten Hotelfakten und der Zahnradbahn nach Bretaye.',
     },
   },
   eyebrow: { en: 'Lake Geneva region · Aigle', fr: 'Région lémanique · Aigle', de: 'Genferseegebiet · Aigle' },

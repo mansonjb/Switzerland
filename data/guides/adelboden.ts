@@ -8,9 +8,9 @@ export const adelboden: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Adelboden: areas, hotels, access by bus', fr: 'Où dormir à Adelboden : secteurs, hôtels, accès en bus', de: 'Wo übernachten in Adelboden: Ortsteile, Hotels, Anreise mit dem Bus' },
     description: {
-      en: 'A guide to where to sleep in Adelboden, from the Dorfstrasse bus stop to the slope above towards Tschentenalp, with sourced hotel facts, the Engstligen falls and the ski World Cup dates that fill the village every January.',
-      fr: 'Un guide pour savoir où dormir à Adelboden, de l’arrêt de bus de la Dorfstrasse au versant au-dessus vers le Tschentenalp, avec des faits d’hôtels sourcés, les chutes de l’Engstligen et les dates de la Coupe du monde de ski qui remplissent le village chaque janvier.',
-      de: 'Ein Leitfaden, wo man in Adelboden übernachtet, von der Bushaltestelle an der Dorfstrasse bis zum Hang darüber Richtung Tschentenalp, mit belegten Hotelfakten, den Engstligenfällen und den Terminen des Ski-Weltcups, die das Dorf jeden Januar füllen.',
+      en: 'Where to sleep in Adelboden, from the Dorfstrasse bus stop to the slope towards Tschentenalp, with sourced hotel facts and the Engstligen falls.',
+      fr: 'Où dormir à Adelboden, de l’arrêt de bus de la Dorfstrasse au versant vers le Tschentenalp, avec des faits d’hôtels sourcés et les chutes de l’Engstligen.',
+      de: 'Wo übernachten in Adelboden, von der Bushaltestelle an der Dorfstrasse bis zum Hang Richtung Tschentenalp, mit belegten Hotelfakten und den Engstligenfällen.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Frutigen', fr: 'Oberland bernois · Frutigen', de: 'Berner Oberland · Frutigen' },

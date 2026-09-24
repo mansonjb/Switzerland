@@ -8,9 +8,9 @@ export const stMoritz: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in St. Moritz: Dorf, Bad or the lake', fr: 'Où dormir à St. Moritz : Dorf, Bad ou le lac', de: 'Wo übernachten in St. Moritz: Dorf, Bad oder am See' },
     description: {
-      en: 'Where to sleep in St. Moritz, from the pedestrian centre of Dorf to the quieter lakeside of Bad, with dated hotel prices, the Bernina Express, the frozen lake events and the 2026 Corviglia closure explained.',
-      fr: 'Où dormir à St. Moritz, du centre piéton de Dorf à la moitié plus calme de Bad au bord du lac, avec des prix d’hôtels datés, le Bernina Express, les événements sur le lac gelé et la fermeture du Corviglia en 2026 expliquée.',
-      de: 'Wo übernachten in St. Moritz, von der Fussgängerzone in Dorf bis zur ruhigeren Seeseite in Bad, mit datierten Hotelpreisen, dem Bernina Express, den Veranstaltungen auf dem gefrorenen See und der erklärten Corviglia-Schliessung 2026.',
+      en: 'Where to sleep in St. Moritz, from the pedestrian centre of Dorf to the quieter lakeside of Bad, with dated hotel prices and the 2026 Corviglia closure.',
+      fr: 'Où dormir à St. Moritz, du centre piéton de Dorf à la moitié plus calme de Bad au bord du lac, avec des prix datés et la fermeture du Corviglia en 2026.',
+      de: 'Wo übernachten in St. Moritz, von der Fussgängerzone in Dorf bis zur ruhigeren Seeseite in Bad, mit datierten Preisen und der Corviglia-Schliessung 2026.',
     },
   },
   eyebrow: { en: 'Graubünden · Chur', fr: 'Grisons · Coire', de: 'Graubünden · Chur' },

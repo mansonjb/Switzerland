@@ -9,7 +9,7 @@ export const lausanne: DestinationGuide = {
     title: { en: 'Where to stay in Lausanne: Ouchy or the old town', fr: 'Où dormir à Lausanne : Ouchy ou la vieille ville', de: 'Wo übernachten in Lausanne: Ouchy oder die Altstadt' },
     description: {
       en: 'Lausanne climbs from the lake at Ouchy to the cathedral quarter of La Cité, with real hotel addresses, the Lavaux vineyard walk and CGN boats close by.',
-      fr: 'Lausanne monte du lac à Ouchy jusqu’au quartier de la cathédrale à la Cité, avec de vraies adresses d’hôtels, la marche de Lavaux et les bateaux CGN tout près.',
+      fr: 'Lausanne monte du lac à Ouchy au quartier de la cathédrale à la Cité, avec de vraies adresses d’hôtels, la marche de Lavaux et les bateaux CGN tout près.',
       de: 'Lausanne steigt vom See in Ouchy bis zum Kathedralenquartier La Cité, mit echten Hotel-Adressen, dem Lavaux-Weg und CGN-Schiffen in der Nähe.',
     },
   },

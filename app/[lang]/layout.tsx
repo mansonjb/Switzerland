@@ -13,7 +13,9 @@ const noto = Noto_Sans({ subsets: ['latin'], weight: ['400', '500', '700'], vari
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: SITE_NAME, template: `%s | ${SITE_NAME}` },
+  // No brand suffix: it cost 23 characters of a 60-character budget and Google
+  // truncated the part of the title that actually distinguished the page.
+  title: { default: SITE_NAME, template: '%s' },
   applicationName: SITE_NAME,
 }
 

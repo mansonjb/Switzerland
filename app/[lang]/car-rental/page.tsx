@@ -11,9 +11,9 @@ import { carCopy, carFaq } from './copy'
 
 const title = { en: 'Car rental in Switzerland', fr: 'Location de voiture en Suisse', de: 'Mietwagen in der Schweiz' }
 const description = {
-  en: 'Compare car rental prices in Switzerland, and get the rest straight: the CHF 40 vignette, winter tyres, closed passes, car trains, blue zone parking and the villages where the car stays in the valley.',
-  fr: 'Comparez les prix de location de voiture en Suisse et réglez le reste : vignette à 40 CHF, pneus hiver, cols fermés, trains-autos, zones bleues et villages où la voiture reste dans la vallée.',
-  de: 'Mietwagenpreise in der Schweiz vergleichen und den Rest klären: Vignette für CHF 40, Winterreifen, geschlossene Pässe, Autoverlad, blaue Zonen und Orte, wo das Auto im Tal bleibt.',
+  en: 'Compare car rental prices in Switzerland, and get the rest straight: the CHF 40 vignette, winter tyres, closed passes, car trains and blue zone parking.',
+  fr: 'Comparez les prix de location de voiture en Suisse et réglez le reste : vignette à 40 CHF, pneus hiver, cols fermés, trains-autos et zones bleues.',
+  de: 'Mietwagenpreise in der Schweiz vergleichen und den Rest klären: Vignette für CHF 40, Winterreifen, geschlossene Pässe, Autoverlad und blaue Zonen.',
 }
 
 export async function generateMetadata({ params }: PageProps<'/[lang]/car-rental'>): Promise<Metadata> {

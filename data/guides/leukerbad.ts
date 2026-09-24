@@ -9,7 +9,7 @@ export const leukerbad: DestinationGuide = {
     title: { en: 'Where to stay in Leukerbad: thermal baths, access, hotels', fr: 'Où dormir à Loèche-les-Bains : bains thermaux, accès, hôtels', de: 'Wo übernachten in Leukerbad: Thermalbäder, Anreise, Hotels' },
     description: {
       en: 'Where to sleep in Leukerbad, sector by sector, with hotel facts, the bus connection from Leuk, and what each of the three public thermal baths offers.',
-      fr: 'Où dormir à Loèche-les-Bains, secteur par secteur, avec les faits des hôtels, la liaison en bus depuis Loèche, et ce qu’offre chacun des trois bains thermaux publics.',
+      fr: 'Où dormir à Loèche-les-Bains, secteur par secteur, avec les faits des hôtels, la liaison en bus depuis Loèche et les trois bains thermaux publics.',
       de: 'Wo übernachten in Leukerbad, Ortsteil für Ortsteil, mit Fakten zu den Hotels, der Busverbindung ab Leuk und dem Angebot der drei öffentlichen Thermalbäder.',
     },
   },

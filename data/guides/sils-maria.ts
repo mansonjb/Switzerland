@@ -8,9 +8,9 @@ export const silsMaria: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Sils Maria: village, lake or Val Fex', fr: 'Où dormir à Sils Maria : village, lac ou Val Fex', de: 'Wo übernachten in Sils Maria: Dorf, See oder Val Fex' },
     description: {
-      en: 'Where to sleep in Sils Maria, from the central village to the lakeside hamlet of Sils Baselgia and the car-free Val Fex, with sourced hotel facts and the season dates each one publishes.',
-      fr: 'Où dormir à Sils Maria, du village central au hameau de Sils Baselgia au bord du lac et au Val Fex sans voiture, avec des faits sourcés sur chaque hôtel et ses dates de saison.',
-      de: 'Wo übernachten in Sils Maria, vom zentralen Dorf über den Weiler Sils Baselgia am See bis zum autofreien Val Fex, mit belegten Fakten zu jedem Hotel und seinen Saisondaten.',
+      en: 'Where to sleep in Sils Maria, from the central village to the lakeside hamlet of Sils Baselgia and the car-free Val Fex, with sourced hotel facts.',
+      fr: 'Où dormir à Sils Maria, du village central au hameau de Sils Baselgia au bord du lac et au Val Fex sans voiture, avec des faits sourcés sur chaque hôtel.',
+      de: 'Wo übernachten in Sils Maria, vom zentralen Dorf über den Weiler Sils Baselgia am See bis zum autofreien Val Fex, mit belegten Fakten zu jedem Hotel.',
     },
   },
   eyebrow: { en: 'Graubünden · St. Moritz', fr: 'Grisons · St. Moritz', de: 'Graubünden · St. Moritz' },

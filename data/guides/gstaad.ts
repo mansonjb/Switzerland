@@ -8,9 +8,9 @@ export const gstaad: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Gstaad: areas, hotels, the MOB line', fr: 'Où dormir à Gstaad : secteurs, hôtels, la ligne MOB', de: 'Wo übernachten in Gstaad: Ortsteile, Hotels, die MOB-Linie' },
     description: {
-      en: 'Where to sleep in Gstaad, from the grand hotels on the Promenade to the slope above the village and the MOB villages towards Saanen and Schönried, with dated hotel prices, the GoldenPass Express and when the cable cars run.',
-      fr: 'Où dormir à Gstaad, des grands hôtels de la Promenade au versant au-dessus du village et aux villages du MOB vers Saanen et Schönried, avec des prix d’hôtels datés, le GoldenPass Express et le calendrier des télécabines.',
-      de: 'Wo übernachten in Gstaad, von den Grandhotels der Promenade über den Hang oberhalb des Dorfes bis zu den MOB-Dörfern Richtung Saanen und Schönried, mit datierten Hotelpreisen, dem GoldenPass Express und dem Kalender der Bahnen.',
+      en: 'Where to sleep in Gstaad, from the grand hotels on the Promenade to the slope above and the MOB villages towards Saanen, with dated hotel prices.',
+      fr: 'Où dormir à Gstaad, des grands hôtels de la Promenade au versant au-dessus du village et aux villages du MOB vers Saanen, avec des prix d’hôtels datés.',
+      de: 'Wo übernachten in Gstaad, von den Grandhotels der Promenade über den Hang oberhalb des Dorfes bis zu den MOB-Dörfern, mit datierten Hotelpreisen.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Saanen', fr: 'Oberland bernois · Saanen', de: 'Berner Oberland · Saanen' },

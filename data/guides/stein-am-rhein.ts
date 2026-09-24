@@ -8,9 +8,9 @@ export const steinAmRhein: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Stein am Rhein: old town, Rhine boats', fr: 'Où dormir à Stein am Rhein : vieille ville, bateaux du Rhin', de: 'Wo übernachten in Stein am Rhein: Altstadt, Rheinschiffe' },
     description: {
-      en: 'Where to sleep in Stein am Rhein, from the Rhine-front old town below Burg Hohenklingen to the youth hostel by the lido, with sourced hotel facts and URh boat fares.',
-      fr: 'Où dormir à Stein am Rhein, du front du Rhin sous le Burg Hohenklingen à l’auberge de jeunesse près du lido, avec des faits d’hôtels sourcés et les tarifs des bateaux URh.',
-      de: 'Wo übernachten in Stein am Rhein, von der Rheinfront unterhalb der Burg Hohenklingen bis zur Jugendherberge beim Freibad, mit belegten Hotelfakten und den URh-Schiffstarifen.',
+      en: 'Where to sleep in Stein am Rhein, from the Rhine-front old town below Burg Hohenklingen to the youth hostel by the lido, with URh boat fares.',
+      fr: 'Où dormir à Stein am Rhein, du front du Rhin sous le Burg Hohenklingen à l’auberge de jeunesse près du lido, avec les tarifs des bateaux URh.',
+      de: 'Wo übernachten in Stein am Rhein, von der Rheinfront unterhalb der Burg Hohenklingen bis zur Jugendherberge, mit den URh-Schiffstarifen.',
     },
   },
   eyebrow: { en: 'Eastern Switzerland · Schaffhausen', fr: 'Suisse orientale · Schaffhouse', de: 'Ostschweiz · Schaffhausen' },

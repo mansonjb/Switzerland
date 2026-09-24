@@ -8,9 +8,9 @@ export const pontresina: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Pontresina: Via Maistra or Val Roseg', fr: 'Où dormir à Pontresina : Via Maistra ou Val Roseg', de: 'Wo übernachten in Pontresina: Via Maistra oder Val Roseg' },
     description: {
-      en: 'Where to sleep in Pontresina, from the historic hotels of Via Maistra to the station side near Fulluns and the car-free approach to Val Roseg, with the Morteratsch glacier trail, the Diavolezza and Muottas Muragl railways, and when each one runs.',
-      fr: 'Où dormir à Pontresina, des hôtels historiques de la Via Maistra au côté gare autour de Fulluns et à l’accès sans voiture au Val Roseg, avec le sentier du glacier de Morteratsch, les bahns du Diavolezza et de Muottas Muragl, et leurs périodes de fonctionnement.',
-      de: 'Wo übernachten in Pontresina: von den historischen Hotels an der Via Maistra über die Bahnhofseite rund um Fulluns bis zum autofreien Zugang ins Val Roseg, mit dem Gletscherweg Morteratsch, den Bahnen Diavolezza und Muottas Muragl und ihren Betriebszeiten.',
+      en: 'Where to sleep in Pontresina, from the historic hotels of Via Maistra to the station side and the car-free Val Roseg, with the Morteratsch glacier trail.',
+      fr: 'Où dormir à Pontresina, des hôtels historiques de la Via Maistra au côté gare et à l’accès sans voiture au Val Roseg, avec le glacier de Morteratsch.',
+      de: 'Wo übernachten in Pontresina: von den historischen Hotels an der Via Maistra bis zum autofreien Zugang ins Val Roseg, mit dem Gletscherweg Morteratsch.',
     },
   },
   eyebrow: { en: 'Graubünden · St. Moritz', fr: 'Grisons · St. Moritz', de: 'Graubünden · St. Moritz' },

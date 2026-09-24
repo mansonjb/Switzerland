@@ -8,9 +8,9 @@ export const davos: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Davos: Platz, Dorf or Schatzalp', fr: 'Où dormir à Davos : Platz, Dorf ou Schatzalp', de: 'Wo übernachten in Davos: Platz, Dorf oder Schatzalp' },
     description: {
-      en: 'Where to sleep in Davos, a town in two separate halves plus the funicular-only Schatzalp terrace, with dated hotel prices, the Parsenn and Jakobshorn season dates, and the free Premium Card that covers local transport.',
-      fr: 'Où dormir à Davos, une ville en deux moitiés distinctes et la terrasse du Schatzalp accessible seulement en funiculaire, avec des prix d’hôtels datés, les dates de saison du Parsenn et du Jakobshorn, et la Premium Card gratuite qui couvre les transports locaux.',
-      de: 'Wo übernachten in Davos, einem Ort in zwei getrennten Hälften plus der nur mit der Standseilbahn erreichbaren Schatzalp-Terrasse, mit datierten Hotelpreisen, den Saisondaten von Parsenn und Jakobshorn und der gratis Premium Card für die lokalen Verkehrsmittel.',
+      en: 'Where to sleep in Davos, a town in two halves plus the funicular-only Schatzalp, with dated hotel prices and the Parsenn and Jakobshorn season dates.',
+      fr: 'Où dormir à Davos, une ville en deux moitiés et la terrasse du Schatzalp en funiculaire, avec des prix datés et les saisons du Parsenn et du Jakobshorn.',
+      de: 'Wo übernachten in Davos, einem Ort in zwei Hälften plus der Schatzalp-Terrasse, mit datierten Hotelpreisen und den Saisondaten von Parsenn und Jakobshorn.',
     },
   },
   eyebrow: { en: 'Graubünden · Landquart', fr: 'Grisons · Landquart', de: 'Graubünden · Landquart' },

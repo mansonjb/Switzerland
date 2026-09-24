@@ -8,9 +8,9 @@ export const basel: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Basel: old town, Rhine, Kleinbasel', fr: 'Où dormir à Bâle : vieille ville, Rhin, Kleinbasel', de: 'Wo übernachten in Basel: Altstadt, Rhein, Kleinbasel' },
     description: {
-      en: 'Where to sleep in Basel, from the old town on the Rhine to Kleinbasel and the St. Alban quarter, with dated hotel prices, the four Rhine ferries and the free BaselCard that covers your transport.',
-      fr: 'Où dormir à Bâle, de la vieille ville sur le Rhin à Kleinbasel et au quartier de St. Alban, avec des prix d’hôtels datés, les quatre bacs du Rhin et la BaselCard gratuite qui couvre vos transports.',
-      de: 'Wo übernachten in Basel, von der Altstadt am Rhein über Kleinbasel bis zum Quartier St. Alban, mit datierten Hotelpreisen, den vier Rheinfähren und der kostenlosen BaselCard für Ihre Fahrten.',
+      en: 'Where to sleep in Basel, from the old town on the Rhine to Kleinbasel and St. Alban, with dated hotel prices and the free BaselCard for transport.',
+      fr: 'Où dormir à Bâle, de la vieille ville sur le Rhin à Kleinbasel et à St. Alban, avec des prix d’hôtels datés et la BaselCard gratuite pour les transports.',
+      de: 'Wo übernachten in Basel, von der Altstadt am Rhein über Kleinbasel bis St. Alban, mit datierten Hotelpreisen und der kostenlosen BaselCard für Ihre Fahrten.',
     },
   },
   eyebrow: { en: 'Basel region · Basel', fr: 'Région de Bâle · Bâle', de: 'Region Basel · Basel' },

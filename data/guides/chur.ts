@@ -8,9 +8,9 @@ export const chur: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Chur: old town, station, Brambrüesch', fr: 'Où dormir à Coire : vieille ville, gare, Brambrüesch', de: 'Wo übernachten in Chur: Altstadt, Bahnhof, Brambrüesch' },
     description: {
-      en: 'Where to sleep in Chur, Switzerland’s oldest town and the capital of Graubünden, from the traffic-free old town to the station and City-West, with sourced hotel facts and the Brambrüesch cableway.',
-      fr: 'Où dormir à Coire, la plus ancienne ville de Suisse et capitale des Grisons, de la vieille ville piétonne à la gare et à City-West, avec des faits d’hôtels sourcés et le téléphérique de Brambrüesch.',
-      de: 'Wo übernachten in Chur, der ältesten Stadt der Schweiz und Hauptstadt von Graubünden, von der autofreien Altstadt über den Bahnhof bis City-West, mit belegten Hotelfakten und der Chur-Brambrüeschbahn.',
+      en: 'Where to sleep in Chur, capital of Graubünden, from the traffic-free old town to the station and City-West, with hotel facts and the Brambrüesch cableway.',
+      fr: 'Où dormir à Coire, capitale des Grisons, de la vieille ville piétonne à la gare et à City-West, avec des faits sourcés et le téléphérique de Brambrüesch.',
+      de: 'Wo übernachten in Chur, Hauptstadt von Graubünden, von der autofreien Altstadt über den Bahnhof bis City-West, mit der Chur-Brambrüeschbahn.',
     },
   },
   eyebrow: { en: 'Graubünden · Chur', fr: 'Grisons · Coire', de: 'Graubünden · Chur' },

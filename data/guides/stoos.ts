@@ -8,9 +8,9 @@ export const stoos: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Stoos: the steepest funicular in the world', fr: 'Où dormir à Stoos : le funiculaire le plus raide du monde', de: 'Wo übernachten in Stoos: die steilste Standseilbahn der Welt' },
     description: {
-      en: 'Where to sleep in Stoos, the car-free village reached by the Stoosbahn, the world’s steepest funicular, with its four places to sleep and what to do each season.',
-      fr: 'Où dormir à Stoos, village sans voiture accessible par le Stoosbahn, le funiculaire le plus raide du monde, avec ses quatre adresses où dormir et les activités de chaque saison.',
-      de: 'Wo übernachten in Stoos, dem autofreien Dorf, das nur mit der Stoosbahn, der steilsten Standseilbahn der Welt, erreichbar ist, mit seinen vier Unterkünften und den Aktivitäten jeder Saison.',
+      en: 'Where to sleep in Stoos, the car-free village reached by the world’s steepest funicular, with its four places to sleep and what to do each season.',
+      fr: 'Où dormir à Stoos, village sans voiture desservi par le funiculaire le plus raide du monde, avec ses quatre adresses et les activités de chaque saison.',
+      de: 'Wo übernachten in Stoos, dem autofreien Dorf an der steilsten Standseilbahn der Welt, mit seinen vier Unterkünften und den Aktivitäten jeder Saison.',
     },
   },
   eyebrow: { en: 'Central Switzerland · Schwyz-Schlattli', fr: 'Suisse centrale · Schwyz-Schlattli', de: 'Zentralschweiz · Schwyz-Schlattli' },

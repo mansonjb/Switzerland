@@ -8,9 +8,9 @@ export const champery: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Champery: village or Planachaux', fr: 'Où dormir à Champéry : village ou Planachaux', de: 'Wo übernachten in Champéry: Dorf oder Planachaux' },
     description: {
-      en: 'Where to sleep in Champery, from Rue du Village by the train terminus to the mountain hotel at Planachaux, with sourced hotel facts and the Portes du Soleil ski area.',
-      fr: 'Où dormir à Champéry, de la Rue du Village près du terminus du train à l’hôtel de montagne de Planachaux, avec des faits d’hôtels sourcés et le domaine des Portes du Soleil.',
-      de: 'Wo übernachten in Champéry, von der Rue du Village beim Bahnendpunkt bis zum Berghotel in Planachaux, mit belegten Hotelfakten und dem Skigebiet Portes du Soleil.',
+      en: 'Where to sleep in Champery, from Rue du Village by the train terminus to the mountain hotel at Planachaux, with the Portes du Soleil ski area.',
+      fr: 'Où dormir à Champéry, de la Rue du Village près du terminus du train à l’hôtel de montagne de Planachaux, avec le domaine des Portes du Soleil.',
+      de: 'Wo übernachten in Champéry, von der Rue du Village beim Bahnendpunkt bis zum Berghotel in Planachaux, mit dem Skigebiet Portes du Soleil.',
     },
   },
   eyebrow: { en: 'Valais · Monthey', fr: 'Valais · Monthey', de: 'Wallis · Monthey' },

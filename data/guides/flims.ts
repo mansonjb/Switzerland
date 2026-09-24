@@ -8,9 +8,9 @@ export const flims: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Flims: Dorf, Waldhaus or Fidaz', fr: 'Où dormir à Flims : Dorf, Waldhaus ou Fidaz', de: 'Wo übernachten in Flims: Dorf, Waldhaus oder Fidaz' },
     description: {
-      en: 'Where to sleep in Flims, from the lift station in Flims Dorf to the wellness hotels near Lake Cauma in Flims Waldhaus and the quiet hamlet of Fidaz above, with what the Rhine Gorge, the lake and the shared Flims Laax Falera ski area mean for each base.',
-      fr: 'Où dormir à Flims, de la gare des remontées à Flims Dorf aux hôtels bien-être près du Caumasee à Flims Waldhaus et au hameau tranquille de Fidaz au-dessus, avec ce que les gorges du Rhin, le lac et le domaine skiable partagé de Flims Laax Falera changent pour chaque base.',
-      de: 'Wo übernachten in Flims, von der Bergbahnstation in Flims Dorf über die Wellnesshotels nahe dem Caumasee in Flims Waldhaus bis zum ruhigen Weiler Fidaz darüber, mit dem, was Rheinschlucht, See und das gemeinsame Skigebiet Flims Laax Falera für jede Basis bedeuten.',
+      en: 'Where to sleep in Flims, from the lift station in Flims Dorf to the wellness hotels near Lake Cauma in Waldhaus and the quiet hamlet of Fidaz above.',
+      fr: 'Où dormir à Flims, de la gare des remontées à Flims Dorf aux hôtels bien-être près du Caumasee à Waldhaus et au hameau tranquille de Fidaz au-dessus.',
+      de: 'Wo übernachten in Flims, von der Bergbahnstation in Flims Dorf über die Wellnesshotels nahe dem Caumasee bis zum ruhigen Weiler Fidaz darüber.',
     },
   },
   eyebrow: { en: 'Graubünden · Chur', fr: 'Grisons · Coire', de: 'Graubünden · Chur' },

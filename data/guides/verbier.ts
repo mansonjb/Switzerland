@@ -8,9 +8,9 @@ export const verbier: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Verbier: areas, hotels, access by road', fr: 'Où dormir à Verbier : secteurs, hôtels, accès routier', de: 'Wo übernachten in Verbier: Ortsteile, Hotels, Anreise per Strasse' },
     description: {
-      en: 'Where to sleep in Verbier, from Médran at the foot of the lifts to the quieter Les Creux slope, with dated hotel prices, road and rail access from Le Châble, and the 410 km 4 Vallées ski area.',
-      fr: 'Où dormir à Verbier, de Médran au pied des remontées jusqu’au versant plus calme des Creux, avec des prix d’hôtels datés, l’accès routier et ferroviaire depuis Le Châble, et le domaine des 4 Vallées, 410 km de pistes.',
-      de: 'Wo übernachten in Verbier, von Médran am Fuss der Bahnen bis zum ruhigeren Hang der Creux, mit datierten Hotelpreisen, Strassen- und Bahnanreise ab Le Châble und dem 410 km grossen Skigebiet der 4 Vallées.',
+      en: 'Where to sleep in Verbier, from Médran at the foot of the lifts to the quieter Les Creux slope, with dated prices and the 410 km 4 Vallées ski area.',
+      fr: 'Où dormir à Verbier, de Médran au pied des remontées au versant plus calme des Creux, avec des prix datés et le domaine des 4 Vallées, 410 km de pistes.',
+      de: 'Wo übernachten in Verbier, von Médran am Fuss der Bahnen bis zum ruhigeren Hang der Creux, mit datierten Preisen und dem Skigebiet der 4 Vallées.',
     },
   },
   eyebrow: { en: 'Valais · Le Châble', fr: 'Valais · Le Châble', de: 'Wallis · Le Châble' },

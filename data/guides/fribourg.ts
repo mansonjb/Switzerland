@@ -13,7 +13,7 @@ export const fribourg: DestinationGuide = {
     description: {
       en: 'Where to sleep in Fribourg, from the Old Town below the cathedral to the station side, with sourced hotel facts, the fortifications walk and the City Card.',
       fr: 'Où dormir à Fribourg, de la vieille ville sous la cathédrale au côté gare, avec des faits d’hôtels sourcés, la marche des fortifications et la City Card.',
-      de: 'Wo übernachten in Freiburg, von der Altstadt unterhalb der Kathedrale bis zur Bahnhofseite, mit belegten Hotelfakten, dem Rundgang um die Festungsanlagen und der City Card.',
+      de: 'Wo übernachten in Freiburg, von der Altstadt unterhalb der Kathedrale bis zur Bahnhofseite, mit belegten Hotelfakten und dem Rundgang um die Festung.',
     },
   },
   eyebrow: { en: 'Bern region · Fribourg', fr: 'Région de Berne · Fribourg', de: 'Region Bern · Freiburg' },

@@ -8,8 +8,8 @@ export const rigiKaltbad: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Rigi Kaltbad: car-free, spa, views', fr: 'Où dormir à Rigi Kaltbad : sans voiture, spa, vue', de: 'Wo übernachten in Rigi Kaltbad: autofrei, Spa, Aussicht' },
     description: {
-      en: 'Where to sleep in car-free Rigi Kaltbad: cable car from Weggis, cogwheel line from Vitznau, the Mario Botta spa, and which of the three sectors suits your stay.',
-      fr: 'Où dormir à Rigi Kaltbad, sans voiture : téléphérique depuis Weggis, crémaillère depuis Vitznau, le spa de Mario Botta, et le secteur qui convient à votre séjour.',
+      en: 'Where to sleep in car-free Rigi Kaltbad: cable car from Weggis, cogwheel line from Vitznau, the Mario Botta spa, and which sector suits your stay.',
+      fr: 'Où dormir à Rigi Kaltbad, sans voiture : téléphérique depuis Weggis, crémaillère depuis Vitznau, le spa de Mario Botta et le secteur qui vous convient.',
       de: 'Wo übernachten in Rigi Kaltbad, autofrei: Luftseilbahn ab Weggis, Zahnradbahn ab Vitznau, das Spa von Mario Botta, und welcher Ortsteil zu Ihnen passt.',
     },
   },

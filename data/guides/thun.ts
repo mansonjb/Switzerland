@@ -8,9 +8,9 @@ export const thun: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Thun: the castle, the lake boats', fr: 'Où dormir à Thoune : le château, les bateaux du lac', de: 'Wo übernachten in Thun: Schloss, Kursschiffe' },
     description: {
-      en: 'Where to sleep in Thun, from the Läuben-lined old town below the castle to the station centre and Schadau Park on the lake, with sourced hotel facts, Schloss Thun, the BLS boats and the Thun-Panorama.',
-      fr: 'Où dormir à Thoune, de la vieille ville aux Läuben sous le château au centre-gare et au Schadaupark au bord du lac, avec des faits d’hôtels sourcés, le Château de Thoune, les bateaux BLS et le Thun-Panorama.',
-      de: 'Wo übernachten in Thun, von der Lauben-Altstadt unterhalb des Schlosses über das Bahnhofszentrum bis zum Schadaupark am See, mit belegten Hotelfakten, dem Schloss Thun, den BLS-Schiffen und dem Thun-Panorama.',
+      en: 'Where to sleep in Thun, from the Läuben-lined old town below the castle to the station centre and Schadau Park, with hotel facts and the BLS boats.',
+      fr: 'Où dormir à Thoune, de la vieille ville aux Läuben sous le château au centre-gare et au Schadaupark, avec des faits sourcés et les bateaux BLS.',
+      de: 'Wo übernachten in Thun, von der Lauben-Altstadt unterhalb des Schlosses über das Bahnhofszentrum bis zum Schadaupark, mit den BLS-Schiffen.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Thun', fr: 'Oberland bernois · Thoune', de: 'Berner Oberland · Thun' },

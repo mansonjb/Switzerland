@@ -8,9 +8,9 @@ export const geneva: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Geneva: old town, lakefront, Pâquis', fr: 'Où dormir à Genève : vieille ville, quais, Pâquis', de: 'Wo übernachten in Genf: Altstadt, Seeufer, Pâquis' },
     description: {
-      en: 'Geneva area by area: the Vieille Ville around the cathedral, Pâquis near Cornavin station, and the Quai du Mont-Blanc lakefront. Real hotel addresses, the free Geneva Transport Card, and the Jet d’Eau.',
-      fr: 'Genève secteur par secteur : la Vieille Ville autour de la cathédrale, les Pâquis près de la gare de Cornavin, et le Quai du Mont-Blanc au bord du lac. Adresses d’hôtels réelles, carte de transport gratuite, et le Jet d’Eau.',
-      de: 'Genf Ortsteil für Ortsteil: die Altstadt rund um die Kathedrale, die Pâquis nahe dem Bahnhof Cornavin, und der Quai du Mont-Blanc am See. Hotels mit echten Adressen, die kostenlose Genfer Verkehrskarte, und der Jet d’Eau.',
+      en: 'Geneva area by area: the Vieille Ville, Pâquis near Cornavin station and the Quai du Mont-Blanc lakefront, with real hotel addresses and the Jet d’Eau.',
+      fr: 'Genève secteur par secteur : la Vieille Ville, les Pâquis près de Cornavin et le Quai du Mont-Blanc, avec de vraies adresses d’hôtels et le Jet d’Eau.',
+      de: 'Genf Ortsteil für Ortsteil: die Altstadt, die Pâquis nahe dem Bahnhof Cornavin und der Quai du Mont-Blanc am See, mit echten Adressen und dem Jet d’Eau.',
     },
   },
   eyebrow: { en: 'Lake Geneva region · Geneva', fr: 'Région lémanique · Genève', de: 'Genferseeregion · Genf' },

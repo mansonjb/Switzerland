@@ -8,9 +8,9 @@ export const lucerne: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Lucerne: old town, lake front, two mountains', fr: 'Où dormir à Lucerne : vieille ville, quais, deux montagnes', de: 'Wo übernachten in Luzern: Altstadt, Seeufer, zwei Berge' },
     description: {
-      en: 'Where to sleep in Lucerne, from the old town around the Chapel Bridge to the lake front and the Gütsch, with real hotel addresses, the boats to Pilatus and Rigi, and what runs when.',
-      fr: 'Où dormir à Lucerne, de la vieille ville autour du pont de la Chapelle au front de lac et au Gütsch, avec de vraies adresses d’hôtels, les bateaux vers le Pilate et le Rigi, et ce qui fonctionne quand.',
-      de: 'Wo übernachten in Luzern, von der Altstadt rund um die Kapellbrücke über das Seeufer bis zum Gütsch, mit echten Hoteladressen, den Schiffen zum Pilatus und zur Rigi, und was wann fährt.',
+      en: 'Where to sleep in Lucerne, from the old town around the Chapel Bridge to the lake front and the Gütsch, with real hotel addresses and the Pilatus boats.',
+      fr: 'Où dormir à Lucerne, de la vieille ville autour du pont de la Chapelle au front de lac et au Gütsch, avec de vraies adresses et les bateaux vers le Pilate.',
+      de: 'Wo übernachten in Luzern, von der Altstadt rund um die Kapellbrücke über das Seeufer bis zum Gütsch, mit echten Adressen und den Schiffen zum Pilatus.',
     },
   },
   eyebrow: { en: 'Central Switzerland · Lucerne', fr: 'Suisse centrale · Lucerne', de: 'Zentralschweiz · Luzern' },

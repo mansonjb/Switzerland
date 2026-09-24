@@ -8,9 +8,9 @@ export const lugano: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Lugano: old town, Riva Caccia, station hill', fr: 'Où dormir à Lugano : vieille ville, Riva Caccia, coteau de la gare', de: 'Wo übernachten in Lugano: Altstadt, Riva Caccia, Bahnhofshügel' },
     description: {
-      en: 'Where to sleep in Lugano: the pedestrian old town, the lakefront palaces on Riva Caccia, or the station hillside, with two mountain funiculars and dated hotel prices to help you choose.',
-      fr: 'Où dormir à Lugano : la vieille ville piétonne, les palaces du bord du lac sur la Riva Caccia, ou le coteau de la gare, avec deux funiculaires de montagne et des prix d’hôtels datés pour choisir.',
-      de: 'Wo übernachten in Lugano: die Fussgänger-Altstadt, die Seepaläste an der Riva Caccia oder der Bahnhofshang, mit zwei Bergbahnen und datierten Hotelpreisen als Entscheidungshilfe.',
+      en: 'Where to sleep in Lugano: the pedestrian old town, the lakefront palaces on Riva Caccia or the station hillside, with two funiculars and dated prices.',
+      fr: 'Où dormir à Lugano : la vieille ville piétonne, les palaces de la Riva Caccia ou le coteau de la gare, avec deux funiculaires et des prix d’hôtels datés.',
+      de: 'Wo übernachten in Lugano: die Fussgänger-Altstadt, die Seepaläste an der Riva Caccia oder der Bahnhofshang, mit zwei Bergbahnen und datierten Preisen.',
     },
   },
   eyebrow: { en: 'Ticino · Lugano', fr: 'Tessin · Lugano', de: 'Tessin · Lugano' },

@@ -8,9 +8,9 @@ export const brienz: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Brienz: the Rothorn steam train, Ballenberg', fr: 'Où dormir à Brienz : le train à vapeur du Rothorn, Ballenberg', de: 'Wo übernachten in Brienz: Rothorn-Dampfbahn, Ballenberg' },
     description: {
-      en: 'Where to sleep in Brienz, from the lakefront Hauptstrasse to Grandhotel Giessbach across the water, with sourced hotel facts, the Rothorn steam railway and Ballenberg, and when each one runs.',
-      fr: 'Où dormir à Brienz, de la Hauptstrasse au bord du lac jusqu’au Grandhotel Giessbach sur l’autre rive, avec des faits d’hôtels sourcés, le train à vapeur du Rothorn et Ballenberg, et le calendrier de chacun.',
-      de: 'Wo übernachten in Brienz, von der Hauptstrasse am See bis zum Grandhotel Giessbach am anderen Ufer, mit belegten Hotelfakten, der Rothorn-Dampfbahn und Ballenberg, und wann jedes davon läuft.',
+      en: 'Where to sleep in Brienz, from the lakefront Hauptstrasse to Grandhotel Giessbach across the water, with the Rothorn steam railway and Ballenberg.',
+      fr: 'Où dormir à Brienz, de la Hauptstrasse au bord du lac au Grandhotel Giessbach sur l’autre rive, avec le train à vapeur du Rothorn et Ballenberg.',
+      de: 'Wo übernachten in Brienz, von der Hauptstrasse am See bis zum Grandhotel Giessbach am anderen Ufer, mit der Rothorn-Dampfbahn und Ballenberg.',
     },
   },
   eyebrow: { en: 'Bernese Oberland · Interlaken-Oberhasli', fr: 'Oberland bernois · Interlaken-Oberhasli', de: 'Berner Oberland · Interlaken-Oberhasli' },

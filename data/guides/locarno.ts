@@ -8,9 +8,9 @@ export const locarno: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Locarno: Piazza Grande, Muralto, Orselina', fr: 'Où dormir à Locarno : Piazza Grande, Muralto, Orselina', de: 'Wo übernachten in Locarno: Piazza Grande, Muralto, Orselina' },
     description: {
-      en: 'Where to sleep in Locarno, from the arcaded Piazza Grande to the lakefront at Muralto and the hillside at Orselina, with dated hotel prices, the funicular fare up to Cardada, and what closes when.',
-      fr: 'Où dormir à Locarno, de la Piazza Grande à arcades au front de lac de Muralto et au coteau d’Orselina, avec des prix d’hôtels datés, le tarif du funiculaire jusqu’à Cardada, et ce qui ferme quand.',
-      de: 'Wo übernachten in Locarno, von der arkadengesäumten Piazza Grande über das Seeufer in Muralto bis zum Hang von Orselina, mit datierten Hotelpreisen, dem Standseilbahn-Tarif bis Cardada und was wann schliesst.',
+      en: 'Where to sleep in Locarno, from the arcaded Piazza Grande to the lakefront at Muralto and the hillside at Orselina, with the funicular fare to Cardada.',
+      fr: 'Où dormir à Locarno, de la Piazza Grande à arcades au front de lac de Muralto et au coteau d’Orselina, avec le tarif du funiculaire jusqu’à Cardada.',
+      de: 'Wo übernachten in Locarno, von der arkadengesäumten Piazza Grande über das Seeufer in Muralto bis Orselina, mit dem Standseilbahn-Tarif bis Cardada.',
     },
   },
   eyebrow: { en: 'Ticino · Bellinzona', fr: 'Tessin · Bellinzone', de: 'Tessin · Bellinzona' },

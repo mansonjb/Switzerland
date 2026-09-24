@@ -8,9 +8,9 @@ export const brunnen: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Brunnen: the lake, the Rütli ferry', fr: 'Où dormir à Brunnen : le lac, le ferry pour le Rütli', de: 'Wo übernachten in Brunnen: der See, die Fähre zum Rütli' },
     description: {
-      en: 'Where to sleep in Brunnen on Lake Lucerne, from the Waldstätterquai promenade to the Bahnhofstrasse side and the Axenstrasse cable car, with the Rütli ferry, the Weg der Schweiz and the 1315 Bundesbrief.',
-      fr: 'Où dormir à Brunnen au bord du lac des Quatre-Cantons, du Waldstätterquai à la Bahnhofstrasse et au téléphérique de l’Axenstrasse, avec le ferry pour le Rütli, le Weg der Schweiz et le Bundesbrief de 1315.',
-      de: 'Wo übernachten in Brunnen am Vierwaldstättersee, vom Waldstätterquai über die Bahnhofstrasse bis zur Seilbahn an der Axenstrasse, mit der Fähre zum Rütli, dem Weg der Schweiz und dem Bundesbrief von 1315.',
+      en: 'Where to sleep in Brunnen on Lake Lucerne, from the Waldstätterquai promenade to the Bahnhofstrasse side, with the Rütli ferry and the Weg der Schweiz.',
+      fr: 'Où dormir à Brunnen au bord du lac des Quatre-Cantons, du Waldstätterquai à la Bahnhofstrasse, avec le ferry pour le Rütli et le Weg der Schweiz.',
+      de: 'Wo übernachten in Brunnen am Vierwaldstättersee, vom Waldstätterquai bis zur Bahnhofstrasse, mit der Fähre zum Rütli und dem Weg der Schweiz.',
     },
   },
   eyebrow: { en: 'Central Switzerland · Lucerne', fr: 'Suisse centrale · Lucerne', de: 'Zentralschweiz · Luzern' },

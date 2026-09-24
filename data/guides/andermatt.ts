@@ -8,9 +8,9 @@ export const andermatt: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Andermatt: Gotthard, Glacier Express, ski', fr: 'Où dormir à Andermatt : Gothard, Glacier Express, ski', de: 'Wo übernachten in Andermatt: Gotthard, Glacier Express, Ski' },
     description: {
-      en: 'Where to sleep in Andermatt, from the baroque hotels of the historic centre to the new Andermatt Reuss district and the hotels by the Gemsstock cable car, with dated hotel prices, the three Alpine passes and the 180 km ski area.',
-      fr: 'Où dormir à Andermatt, des hôtels baroques du centre historique au nouveau quartier d’Andermatt Reuss et aux hôtels près du téléphérique du Gemsstock, avec des prix d’hôtels datés, les trois cols alpins et le domaine skiable de 180 km.',
-      de: 'Wo übernachten in Andermatt, von den barocken Hotels des historischen Zentrums über das neue Quartier Andermatt Reuss bis zu den Hotels bei der Gemsstockbahn, mit datierten Hotelpreisen, den drei Alpenpässen und dem 180-km-Skigebiet.',
+      en: 'Where to sleep in Andermatt, from the baroque centre to the new Andermatt Reuss district and the Gemsstock cable car, with dated hotel prices.',
+      fr: 'Où dormir à Andermatt, des hôtels baroques du centre au nouveau quartier d’Andermatt Reuss et au téléphérique du Gemsstock, avec des prix datés.',
+      de: 'Wo übernachten in Andermatt, von den barocken Hotels des Zentrums über das Quartier Andermatt Reuss bis zur Gemsstockbahn, mit datierten Hotelpreisen.',
     },
   },
   eyebrow: { en: 'Central Switzerland · Uri', fr: 'Suisse centrale · Uri', de: 'Zentralschweiz · Uri' },

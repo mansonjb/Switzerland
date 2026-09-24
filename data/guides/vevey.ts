@@ -8,9 +8,9 @@ export const vevey: DestinationGuide = {
   meta: {
     title: { en: 'Where to stay in Vevey: the Grande Place or the station', fr: 'Où dormir à Vevey : la Grande Place ou la gare', de: 'Wo übernachten in Vevey: Grande Place oder Bahnhof' },
     description: {
-      en: 'Vevey area by area: the market square on the lake, the railway station, and the slopes towards Chaplin’s World. Hotels with real addresses, the Lavaux vineyard terraces, and the twice-weekly lakefront market.',
-      fr: 'Vevey secteur par secteur : la place du marché au bord du lac, la gare, et les hauteurs vers Chaplin’s World. Hôtels avec adresses réelles, les terrasses viticoles de Lavaux et le marché bihebdomadaire au bord du lac.',
-      de: 'Vevey Ortsteil für Ortsteil: der Marktplatz am See, der Bahnhof, und die Hänge Richtung Chaplin’s World. Hotels mit echten Adressen, die Weinbergterrassen von Lavaux und der zweimal wöchentliche Markt am See.',
+      en: 'Vevey area by area: the market square on the lake, the railway station and the slopes towards Chaplin’s World, with real hotels and the Lavaux terraces.',
+      fr: 'Vevey secteur par secteur : la place du marché au bord du lac, la gare et les hauteurs vers Chaplin’s World, avec de vraies adresses et Lavaux.',
+      de: 'Vevey Ortsteil für Ortsteil: der Marktplatz am See, der Bahnhof und die Hänge Richtung Chaplin’s World, mit echten Adressen und den Terrassen von Lavaux.',
     },
   },
   eyebrow: { en: 'Lake Geneva · Vevey', fr: 'Lac Léman · Vevey', de: 'Genfersee · Vevey' },
