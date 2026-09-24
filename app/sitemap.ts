@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/regions', lastModified: TODAY, priority: 0.9 },
     ...publishedRegions().map((r) => ({ path: `/regions/${r.slug}`, lastModified: r.updated, priority: 0.9 })),
     ...publishedGuides().map((g) => ({ path: `/${g.slug}`, lastModified: g.updated, priority: 0.9 })),
+    { path: '/hotel-prices', lastModified: TODAY, priority: 0.9 },
     { path: '/swiss-travel-pass', lastModified: TODAY, priority: 0.7 },
     { path: '/car-rental', lastModified: TODAY, priority: 0.5 },
     { path: '/about', lastModified: TODAY, priority: 0.3 },

@@ -32,6 +32,7 @@ ${publishedRegions()
   .join('\n')}
 
 ## Practical
+- [Hotel prices in Switzerland, town by town](${SITE_URL}/hotel-prices)
 - [Swiss Travel Pass: 2026 prices and what it covers](${SITE_URL}/swiss-travel-pass)
 - [Car rental in Switzerland](${SITE_URL}/car-rental)
 - [Methodology](${SITE_URL}/about)

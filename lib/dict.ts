@@ -1,7 +1,7 @@
 import type { Locale } from './i18n'
 
 const en = {
-  nav: { destinations: 'Destinations', regions: 'Regions', carFree: 'Car-free', pass: 'Swiss Travel Pass', carRental: 'Car rental', menu: 'Menu', close: 'Close' },
+  nav: { destinations: 'Destinations', regions: 'Regions', carFree: 'Car-free', prices: 'Hotel prices', pass: 'Swiss Travel Pass', carRental: 'Car rental', menu: 'Menu', close: 'Close' },
   affiliate: 'Some hotel links are affiliate links. That changes neither the price you pay nor our selection.',
   affiliateShort: 'Some hotel links are affiliate links.',
   methodology: 'Methodology',
@@ -67,7 +67,7 @@ const en = {
 export type Dict = typeof en
 
 const fr: Dict = {
-  nav: { destinations: 'Destinations', regions: 'Régions', carFree: 'Sans voiture', pass: 'Swiss Travel Pass', carRental: 'Location de voiture', menu: 'Menu', close: 'Fermer' },
+  nav: { destinations: 'Destinations', regions: 'Régions', carFree: 'Sans voiture', prices: 'Prix des hôtels', pass: 'Swiss Travel Pass', carRental: 'Location de voiture', menu: 'Menu', close: 'Fermer' },
   affiliate: 'Certains liens vers les hôtels sont affiliés. Cela ne change ni le prix payé ni la sélection.',
   affiliateShort: 'Certains liens hôtels sont affiliés.',
   methodology: 'Méthodologie',
@@ -131,7 +131,7 @@ const fr: Dict = {
 }
 
 const de: Dict = {
-  nav: { destinations: 'Reiseziele', regions: 'Regionen', carFree: 'Autofrei', pass: 'Swiss Travel Pass', carRental: 'Mietwagen', menu: 'Menü', close: 'Schliessen' },
+  nav: { destinations: 'Reiseziele', regions: 'Regionen', carFree: 'Autofrei', prices: 'Hotelpreise', pass: 'Swiss Travel Pass', carRental: 'Mietwagen', menu: 'Menü', close: 'Schliessen' },
   affiliate: 'Einige Hotel-Links sind Affiliate-Links. Das ändert weder Ihren Preis noch unsere Auswahl.',
   affiliateShort: 'Einige Hotel-Links sind Affiliate-Links.',
   methodology: 'Methodik',
