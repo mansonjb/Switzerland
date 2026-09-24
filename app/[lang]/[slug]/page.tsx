@@ -13,6 +13,7 @@ import { HotelsBrowser, type HotelView } from '@/components/hotels'
 import { getHotelPrice, getPriceFile } from '@/data/prices'
 import { DestinationCard } from '@/components/sheet'
 import { Stamp } from '@/components/stamp'
+import { NeighbourCompare, compareCopy } from '@/components/compare'
 
 export const dynamicParams = false
 
@@ -55,6 +56,7 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
     ...(guide.calendar ? [{ id: 'seasons', label: nav.seasons }] : []),
     ...(guide.practical ? [{ id: 'car-free', label: dest.carFree ? nav.carFree : nav.practical }] : []),
     { id: 'faq', label: nav.faq },
+    { id: 'compare', label: nav.choice },
   ]
 
   const jsonLd = {
@@ -300,6 +302,10 @@ export default async function DestinationPage({ params }: PageProps<'/[lang]/[sl
 
         <Section id="faq" title={T({ en: 'Frequently asked questions', fr: 'Questions fréquentes', de: 'Häufige Fragen' })} gap="mb-0">
           <Faq items={guide.faq} locale={lang} />
+        </Section>
+
+        <Section id="compare" title={fill(T(compareCopy.title), { place: name })}>
+          <NeighbourCompare slug={slug} neighbours={guide.neighbours} locale={lang} />
         </Section>
 
         <NetworkLinks keyName={slug} locale={lang} title={d.sell.moreForTrip} />
